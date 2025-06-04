@@ -1,0 +1,39 @@
+{
+    "@Redfish.Copyright": "Copyright 2021 Hewlett Packard Enterprise Development LP",
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Registries/HPEFirmwareValidation.1.0.0.json",
+    "@odata.type": "#MessageRegistry.v1_2_0.MessageRegistry",
+    "Description": "Firmware validation failure alert messages",
+    "Id": "HPEFirmwareValidation.1.0.0",
+    "Language": "en",
+    "Messages": {
+        "IVOCScanningDisabled": {
+            "Description": "One or more sensors, that is required for pm_counters to function, is missing and as a result pm_counters has been disabled.",
+            "Message": "IVOC Fault detected. The node's power management counters have been disabled and /sys/cray/pm_counters will not be available.",
+            "Resolution": "Check and possibly clear the IVOC status.",
+            "Severity": "Warning"
+        },
+        "IVOCScanningEnabled": {
+            "Description": "One or more sensors, that is required for pm_counters to function, is available and as a result pm_counters has been renabled.",
+            "Message": "IVOC Fault cleared. The node's power management counters and /sys/cray/pm_counters are renabled.",
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "PMCountersDisabled": {
+            "Description": "One or more sensors, that is required for pm_counters to function, is missing and as a result pm_counters has been disabled.",
+            "Message": "The node's power management counters have been disabled and /sys/cray/pm_counters will not be available.",
+            "Resolution": "The node controller's firmware must be updated to a version in which all sensors are available and enumerated.",
+            "Severity": "Warning"
+        },
+        "RedefinedSensorDefinitionDetected": {
+            "Description": "All Redfish sensors have a set of identification enumerations or idexes that are required to generate a unique id and database lookup value. This error indicates multiple sensors have the same values and therefore are impossible to distinguish.",
+            "Message": "Multiple sensors have been found with the same id/definition.",
+            "Resolution": "The node controller's firmware must be updated to a version in which all sensor definitions are unique.",
+            "Severity": "Warning"
+        }
+    },
+    "Name": "HPE Firmware Validation Message Registry",
+    "OwningEntity": "HPE",
+    "RegistryPrefix": "HPEFirmwareValidation",
+    "RegistryVersion": "1.0.0"
+}

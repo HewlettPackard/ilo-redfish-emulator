@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/AccountService/Accounts/2",
+    "@odata.type": "#ManagerAccount.v1_1_1.ManagerAccount",
+    "Description": "An account for operational hardware control",
+    "Enabled": true,
+    "Id": "2",
+    "Links": {
+        "Role": {
+            "@odata.id": "/redfish/v1/AccountService/Roles/Operator"
+        }
+    },
+    "Locked": false,
+    "Name": "Operator Account",
+    "RoleId": "Operator",
+    "UserName": "operator"
+}

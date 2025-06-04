@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricDefinition.MetricDefinition",
+    "@odata.etag": "W/\"AB720077\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Cap",
+    "@odata.type": "#MetricDefinition.v1_0_0.MetricDefinition",
+    "Id": "Cap",
+    "Calculable": "NonSummable",
+    "CalculationAlgorithm": "Average",
+    "Description": "Metric definition for Power Metrics",
+    "Implementation": "PhysicalSensor",
+    "IsLinear": true,
+    "MetricDataType": "Decimal",
+    "MetricProperties": [
+        "/redfish/v1/Chassis/1/Power#Oem/Hpe/PowerMetrics/Cap"
+    ],
+    "MetricType": "Numeric",
+    "MinReadingRange": 0,
+    "Name": "Metric definition for Power Metrics",
+    "Units": "Watts"
+}

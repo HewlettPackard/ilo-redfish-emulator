@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/f6eafeea",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "f6eafeea",
+    "Activates": "Immediately",
+    "ComponentUri": "/fwrepo/Recovery_DL360DL380GEN10Plus_MEIE_1.42_05_05_2021.signed.bin",
+    "Configuration": "",
+    "Created": "2022-10-01T00:20:41Z",
+    "Criticality": "Optional",
+    "DeviceClass": "3f30a329-d03c-46b8-8f0e-9567fad4ea9f",
+    "ExecutionParameters": "",
+    "Filename": "Recovery_DL360DL380GEN10Plus_MEIE_1.42_05_05_2021.signed.bin",
+    "Filepath": "Recovery_DL360DL380GEN10Plus_MEIE_1.42_05_05_2021.signed.bin",
+    "Locked": true,
+    "Name": "ME/IE Full Restoration Image For Gen 10+ DL360/DL380",
+    "SizeBytes": 8391264,
+    "Targets": [
+        "00000000-0000-0000-0000-00000000022c",
+        "00000000-0000-0000-0000-000000000226",
+        "00000000-0000-0000-0000-000000000225"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "1.0.05.05.2021"
+}

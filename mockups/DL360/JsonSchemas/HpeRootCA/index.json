@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"3B4F48DF\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/HpeRootCA",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "HpeRootCA",
+    "Description": "Schema Definition File for HpeRootCA",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/HpeRootCA.json"
+        }
+    ],
+    "Name": "HpeRootCA Schema Definition File",
+    "Schema": "#HpeRootCA.v1_0_0.HpeRootCA"
+}

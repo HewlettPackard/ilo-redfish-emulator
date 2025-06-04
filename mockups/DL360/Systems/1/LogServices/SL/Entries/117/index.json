@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"BFB198E3\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/117",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "117",
+    "Created": "2025-04-29T06:21:54Z",
+    "EntryType": "Oem",
+    "Message": "Intrusion Alert Hardware installed.",
+    "MessageArgs": [],
+    "MessageId": "58.5",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security"
+            ],
+            "Class": 58,
+            "ClassDescription": "Hardware Intrusion",
+            "Code": 5,
+            "Count": 1,
+            "EventNumber": 142,
+            "RecommendedAction": "No action required if this hardware addition is expected.",
+            "Severity": "Informational",
+            "Updated": "2025-04-29T06:21:54Z",
+            "UserAction": "Not Applicable"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "OK"
+}

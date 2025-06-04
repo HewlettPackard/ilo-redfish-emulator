@@ -1,0 +1,33 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/Chassis/Mezz0/Sensors/Board0DCBus0Voltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Board0DCBus0Voltage",
+    "Name": "NIC 0 PCIe 12.0V",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Board",
+        "ParentalIndex": 0
+    },
+    "PhysicalContext": "DCBus",
+    "Reading": 11.742,
+    "ReadingRangeMax": 22.522,
+    "ReadingRangeMin": 0,
+    "ReadingTime": "2022-03-09T21:16:13.208941624Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 12.6
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 12.84
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 15.16
+        }
+    }
+}

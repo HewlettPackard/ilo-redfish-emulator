@@ -1,0 +1,11 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Oem/Alarms/LeakIndicatorFatal",
+    "@odata.type": "#Alarm.v0_9_0.Alarm",
+    "AlarmState": "Armed",
+    "AutomaticReArm": true,
+    "Description": "Indicates that the leak sensor activation period exceeded the allotted amount of time allowed that the power could remain on without risking irreparable hardware damage and an emergency power off (EPO) is required.",
+    "Id": "LeakIndicatorFatal",
+    "Name": "Enclosure LeakIndicatorFatal Alarm",
+    "Severity": "Critical"
+}

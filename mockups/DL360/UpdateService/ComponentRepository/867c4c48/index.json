@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/867c4c48",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "867c4c48",
+    "Activates": "AfterDeviceReset",
+    "ComponentUri": "/fwrepo/ilo5_281_p05.fwpkg",
+    "Configuration": "",
+    "Created": "2023-05-09T01:57:13Z",
+    "Criticality": "Optional",
+    "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952",
+    "ExecutionParameters": "",
+    "Filename": "ilo5_281_p05.fwpkg",
+    "Filepath": "ilo5_281_p05.fwpkg",
+    "Locked": false,
+    "Name": "Online ROM Flash Firmware Package - HPE Integrated Lights-Out 5",
+    "SizeBytes": 33607003,
+    "Targets": [
+        "c5b14abd-6d2f-41d7-b665-0447dfdac3a7",
+        "c0bcf2b9-1141-49af-aab8-c73791f0349c"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "2.81"
+}

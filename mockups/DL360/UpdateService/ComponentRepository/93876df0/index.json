@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/93876df0",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "93876df0",
+    "Activates": "AfterReboot",
+    "ComponentUri": "/fwrepo/SPSGen10Plus_04.04.04.300.zip",
+    "Configuration": "",
+    "Created": "2023-06-13T13:55:37Z",
+    "Criticality": "Optional",
+    "DeviceClass": "b34e5677-21dc-45d3-872b-42f76fee9053",
+    "ExecutionParameters": "",
+    "Filename": "SPSGen10Plus_04.04.04.300.zip",
+    "Filepath": "SPSGen10Plus_04.04.04.300.zip",
+    "Locked": false,
+    "Name": "ROM Flash Firmware Package - Server Platform Services (SPS) ...",
+    "SizeBytes": 8410050,
+    "Targets": [
+        "a6b1a447-382a-5a4f-3c10-87800a000101"
+    ],
+    "UpdatableBy": [
+        "Uefi"
+    ],
+    "Version": "04.04.04.300"
+}

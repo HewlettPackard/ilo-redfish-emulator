@@ -1,0 +1,22 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/NetworkAdapters",
+    "@odata.type": "#NetworkAdapterCollection.NetworkAdapterCollection",
+    "Description": "The Collection of Network Adapters",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/NetworkAdapters/HPCNet2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/NetworkAdapters/HPCNet1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/NetworkAdapters/HPCNet3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/NetworkAdapters/HPCNet0"
+        }
+    ],
+    "Members@odata.count": 4,
+    "Name": "NetworkAdapter Collection"
+}

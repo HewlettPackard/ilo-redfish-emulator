@@ -1,0 +1,100 @@
+{
+    "@Redfish.Copyright": "Copyright AMI 2015",
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Registries/HttpStatus.1.0.0.json",
+    "@odata.type": "#MessageRegistry.v1_1_0.MessageRegistry",
+    "Description": "This registry defines HTTP status messages that are not covered by the Base Message Registry",
+    "Id": "HttpStatus.1.0.0",
+    "Language": "en",
+    "Messages": {
+        "Conflict": {
+            "Description": "Indicates that the request could not be completed because it would cause a conflict in the current state of the resources supported by the platform",
+            "Message": "The request to %1 cannot be completed because it would cause a conflict in the current state of the resources supported by the platform",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Resolve conflict and try request again",
+            "Severity": "Critical"
+        },
+        "LengthRequired": {
+            "Description": "Indicates that request did not specify the length of its content using the Content-Length header and the resource requires the Content-Length header",
+            "Message": "The request to %1 cannot be completed because the requested resource requires the Content-Length header be present",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Include Content-Length header in request",
+            "Severity": "Critical"
+        },
+        "MethodNotAllowed": {
+            "Description": "Indicates that the HTTP method for the request is not supported for this request URI",
+            "Message": "The method %1 is not allowed for the URI %2",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Use a method listed in the Allow header",
+            "Severity": "Critical"
+        },
+        "NotAcceptable": {
+            "Description": "Indicates that the resource identified by this request is not capable of generating a representation corresponding to one of the media types in the Accept header",
+            "Message": "The resource at %1 cannot be represented as any of the media types in the request Accept header",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Verify that Accept header in request is correct",
+            "Severity": "Critical"
+        },
+        "NotImplemented": {
+            "Description": "Indicates that the server does not recognize the request method and is not capable of supporting the method for any resource",
+            "Message": "The request to %1 cannot be completed because the server does not support the %2 method for any resource",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Use a method listed in the Allow header",
+            "Severity": "Critical"
+        },
+        "PayloadTooLarge": {
+            "Description": "Indicates that the request entity is larger than limits defined by server.",
+            "Message": "The request size is %1 and the maximum size for this resource is %2.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Change request to be smaller.",
+            "Severity": "Critical"
+        },
+        "PreconditionFailed": {
+            "Description": "Indicates that the one or more of the precondition(s) in the request-header failed",
+            "Message": "The request to %1 cannot be completed because the %2 precondition failed",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "Critical"
+        },
+        "UnsupportedMediaType": {
+            "Description": "Indicates that the request specifies a Content-Type for the body that is not supported",
+            "Message": "The request to %1 cannot be completed because the Content-Type %2 is not supported",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Verify Content-Type header is correct and send request in a supported format",
+            "Severity": "Critical"
+        }
+    },
+    "Name": "HTTP Statuses Message Registry",
+    "OwningEntity": "AMI",
+    "RegistryPrefix": "HttpStatus",
+    "RegistryVersion": "1.0.0"
+}

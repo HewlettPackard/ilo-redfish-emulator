@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"1645567260\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/EthernetInterfaces/HPCNet3",
+    "@odata.type": "#EthernetInterface.v1_3_0.EthernetInterface",
+    "Description": "SS11 200Gb 2P NIC Mezz REV02 (HSN)",
+    "Id": "HPCNet3",
+    "MACAddress": "Not Available",
+    "Oem": {
+        "Hpe": {
+            "CassiniMetrics": {
+                "@odata.id": "/redfish/v1/Systems/Node0/EthernetInterfaces/HPCNet3/Oem/Hpe/CassiniMetrics"
+            }
+        }
+    },
+    "PermanentMACAddress": "",
+    "VLANs": {
+        "@odata.id": "/redfish/v1/Systems/Node0/EthernetInterfaces/HPCNet3/VLANs"
+    }
+}

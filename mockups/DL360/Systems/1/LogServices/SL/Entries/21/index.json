@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"DC4E7211\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/21",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "21",
+    "Created": "2023-03-04T01:51:54Z",
+    "EntryType": "Oem",
+    "Message": "Default configuration settings have been restored per user request. If Secure Boot was enabled, related security settings may have been lost.",
+    "MessageArgs": [],
+    "MessageId": "10.12713",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Administration"
+            ],
+            "Class": 10,
+            "ClassDescription": "UEFI",
+            "Code": 12713,
+            "Count": 1,
+            "EventNumber": 46,
+            "RecommendedAction": "Restore any desired configuration settings.",
+            "Severity": "Informational",
+            "Updated": "2023-03-04T01:51:54Z",
+            "UserAction": "Not Applicable"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "OK"
+}

@@ -1,0 +1,43 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator3Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator3Temperature",
+    "Name": "AOB VDD 0V8",
+    "Oem": {
+        "Index": 3,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "U2000"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 44,
+    "ReadingTime": "2022-03-09T21:16:33.681715785Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 19
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 13
+        },
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 6
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 75
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 85
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 125
+        }
+    }
+}

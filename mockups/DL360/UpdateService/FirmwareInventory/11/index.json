@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"1DF5B87E\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/11",
+    "@odata.type": "#SoftwareInventory.v1_2_0.SoftwareInventory",
+    "Id": "11",
+    "Description": "SystemRomBackup",
+    "Name": "Redundant System ROM",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": null,
+            "DeviceContext": "System Board"
+        }
+    },
+    "Updateable": true,
+    "Version": "U46 v1.80 (07/05/2023)"
+}

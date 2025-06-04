@@ -1,0 +1,438 @@
+{
+    "@Redfish.Copyright": "Copyright 2018 Cray Inc. All rights reserved.",
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Registries/CrayHMS.1.0.0.json",
+    "@odata.type": "#MessageRegistry.v1_2_0.MessageRegistry",
+    "Description": "CrayHMS messages for Redfish",
+    "Id": "CrayHMS.1.0.0",
+    "Language": "en",
+    "Messages": {
+        "BMC000": {
+            "Description": "Indicates protocol configuration is unimplemented",
+            "Message": "Requested protocol configuration is unimplemented",
+            "NumberOfArgs": 0,
+            "Resolution": "Upgrade to latest firmware image and retry request",
+            "Severity": "Critical"
+        },
+        "BMC001": {
+            "Description": "Indicates protocol configuration failed",
+            "Message": "Requested protocol configuration failed",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify input parameters and retry request",
+            "Severity": "Critical"
+        },
+        "BMC002": {
+            "Description": "Indicates certificate replacement failed",
+            "Message": "Requested certificate replacement failed",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify input parameters and retry request",
+            "Severity": "Critical"
+        },
+        "BMC003": {
+            "Description": "Indicates BMC is not ready for requested operation",
+            "Message": "Unable to process request, BMC is not ready",
+            "NumberOfArgs": 0,
+            "Resolution": "Wait and resubmit the request",
+            "Severity": "Critical"
+        },
+        "CMM000": {
+            "Description": "Indicates that all conditions of a successful operation have been met.",
+            "Message": "Successfully Completed Request",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "CMM001": {
+            "Description": "Indicates that blade enclosure is not in correct power state",
+            "Message": "Parent blade enclosure is in an invalid power state",
+            "NumberOfArgs": 0,
+            "Resolution": "Issue Chassis.Reset --> 'On' for the parent blade enclosure and resubmit the request",
+            "Severity": "Critical"
+        },
+        "CMM002": {
+            "Description": "Indicates the 'Enclosure' chassis is not in correct power or cooling state",
+            "Message": "'Enclosure' chassis cooling or rectifier shelf is off",
+            "NumberOfArgs": 0,
+            "Resolution": "Issue Chassis.Reset --> 'On' for 'Enclosure' chassis and resubmit the request",
+            "Severity": "Critical"
+        },
+        "CMM003": {
+            "Description": "Indicates the 'Enclosure' chassis is executing an 'On' operation",
+            "Message": "'Enclosure' Chassis is busy performing a Chassis.Reset --> 'On' operation",
+            "NumberOfArgs": 0,
+            "Resolution": "Wait for 'Enclosure' chassis PowerState == 'On' indication and resubmit the request",
+            "Severity": "Critical"
+        },
+        "CMM004": {
+            "Description": "Indicates the Enclosure chassis is executing an 'Off' operation",
+            "Message": "'Enclosure' chassis is busy performing a 'Chassis.Reset' --> 'Off' operation",
+            "NumberOfArgs": 0,
+            "Resolution": "Wait for 'Enclosure' chassis 'PowerState' indication of 'Off' and resubmit the request",
+            "Severity": "Critical"
+        },
+        "CMM005": {
+            "Description": "Indicates one or more Blade or Peripheral chassis are powered on while attempting 'Enclosure' chassis 'Off' operation",
+            "Message": "Blade or Peripheral chassis 'PowerState' not 'Off'",
+            "NumberOfArgs": 0,
+            "Resolution": "Issue 'Chassis.Reset' --> 'Off' to all Blade & Peripheral chassis and resubmit the request, or issue 'Chassis.Reset' --> 'ForceOff' to the 'Enclosure'",
+            "Severity": "Critical"
+        },
+        "CMM006": {
+            "Description": "Indicates the cooling distribution unit failed to report ok",
+            "Message": "Cooling was enabled, but distribution unit failed to report ok",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify cooling system is not experiencing an overload and resubmit the request",
+            "Severity": "Critical"
+        },
+        "CMM007": {
+            "Description": "Indicates high voltage DC bus failed to turn on",
+            "Message": "High voltage DC bus was enabled, but failed to report power good",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify rectifier shelves and cooling system are not experiencing an overload and resubmit the request",
+            "Severity": "Critical"
+        },
+        "CMM008": {
+            "Description": "Indicates low voltage DC bus failed to turn on",
+            "Message": "Low voltage DC bus was enabled, but failed to report power good",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify rectifier shelves and cooling system are not experiencing an overload and resubmit the request",
+            "Severity": "Critical"
+        },
+        "CMM009": {
+            "Description": "Indicates a Blade or Peripheral chassis failed to power on",
+            "Message": "Blade power was enabled, but failed to report power good",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify rectifier shelves and cooling system are not experiencing an overload and resubmit the request",
+            "Severity": "Critical"
+        },
+        "CMM010": {
+            "Description": "Indicates a power on/off attempt of an empty Blade or Peripheral chassis",
+            "Message": "An empty blade can not be powered on/off",
+            "NumberOfArgs": 0,
+            "Resolution": "(Re)insert target blade and resubmit the request",
+            "Severity": "Critical"
+        },
+        "CMM011": {
+            "Description": "Indicates an internal hardware device access error",
+            "Message": "'GPIO' access to hardware failed",
+            "NumberOfArgs": 0,
+            "Resolution": "Resubmit the request",
+            "Severity": "Critical"
+        },
+        "CMM012": {
+            "Description": "Indicates Cooling & Power is in emergency power off state",
+            "Message": "Can not issue Enclosure Chassis.Reset 'On'|'Off' while in EPO state",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify physical hardware, issue Enclosure Chassis.Reset --> 'ForceOff', and resubmit the request",
+            "Severity": "Critical"
+        },
+        "CMM013": {
+            "Description": "Indicates Cooling Distribution Unit presence could not be established",
+            "Message": "Can not determine CDU presence",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify physical hardware cabling, eC Ethernet cabling, and resubmit the request",
+            "Severity": "Critical"
+        },
+        "CMM014": {
+            "Description": "Indicates Cooling Distribution Unit is not present",
+            "Message": "CDU control signals are not connected",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify physical hardware cabling, eC Ethernet cabling, and resubmit the request",
+            "Severity": "Critical"
+        },
+        "CMM015": {
+            "Description": "Indicates cabinet state could not be established",
+            "Message": "eC communication failed",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify physical hardware cabling, eC Ethernet cabling, and resubmit the request",
+            "Severity": "Critical"
+        },
+        "CMM016": {
+            "Description": "Indicates cabinet is not is suitable state for Enclosure power on",
+            "Message": "Cabinet is in an invalid state and can not enable Enclosure: %1",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Verify physical hardware & cabling, issue Enclosure Chassis.Reset --> 'ForceOff', and resubmit the request",
+            "Severity": "Critical"
+        },
+        "CMM017": {
+            "Description": "Indicates one or more IVOC12 backplane power supplies is missing",
+            "Message": "A backplane power supply is missing",
+            "NumberOfArgs": 0,
+            "Resolution": "Return cC to manufacturer for repair",
+            "Severity": "Critical"
+        },
+        "CMM018": {
+            "Description": "Indicates Cabinet Environmental Controller presence could not be established",
+            "Message": "Can not determine eC presence",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify physical eC --> cC hardware cabling, and resubmit the request",
+            "Severity": "Critical"
+        },
+        "CTRL001": {
+            "Description": "Indicates that the specified control request type is not supported for the specified device",
+            "Message": "Control request type %1 is not supported for device %2",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Limit control requests to supported types for the device",
+            "Severity": "Critical"
+        },
+        "CTRL002": {
+            "Description": "Indicates that the specified set point change request type is not supported for the specified device",
+            "Message": "Set Point change request %1 is not supported for device %2",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Limit set point change requests to supported types for the device",
+            "Severity": "Critical"
+        },
+        "CTRL003": {
+            "Description": "Indicates that the specified set point change request value was reported as out of range by the device",
+            "Message": "Set Point change %1 requested value %2 is out of range for device %3",
+            "NumberOfArgs": 3,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Limit set point change request values to values between SettingRangeMax and SettingRangeMin",
+            "Severity": "Critical"
+        },
+        "CTRL004": {
+            "Description": "Indicates that the specified set point change request reported an unknown error from the device",
+            "Message": "Set Point change %1, value %2, returned an unknown error from device %3",
+            "NumberOfArgs": 3,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Review requested set point value",
+            "Severity": "Critical"
+        },
+        "FW000": {
+            "Description": "Indicates firmware inventory item is not updateable",
+            "Message": "Firmware %1 item is not updateable",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Specify updateable firmware item and resubmit the request",
+            "Severity": "Critical"
+        },
+        "FW001": {
+            "Description": "Indicates BMC firmware item is currently updating",
+            "Message": "BMC firmware update is in progress",
+            "NumberOfArgs": 0,
+            "Resolution": "Wait until BMC reboots into updated firmware and resubmit the request",
+            "Severity": "Critical"
+        },
+        "FW002": {
+            "Description": "Indicates BMC firmware can't be updated at this time",
+            "Message": "BIOS firmware update is in progress",
+            "NumberOfArgs": 0,
+            "Resolution": "Wait until BIOS firmware update completes and resubmit the request",
+            "Severity": "Critical"
+        },
+        "FW003": {
+            "Description": "Indicates BMC firmware can't be updated at this time",
+            "Message": "Recovery firmware update is in progress",
+            "NumberOfArgs": 0,
+            "Resolution": "Wait until Recovery firmware update completes and resubmit the request",
+            "Severity": "Critical"
+        },
+        "FW004": {
+            "Description": "Indicates firmware updates are inhibited by in-progress chassis/power operation",
+            "Message": "Firmware updates temporarily inhibited",
+            "NumberOfArgs": 0,
+            "Resolution": "Wait until chassis / power control operation completes and resubmit the request",
+            "Severity": "Critical"
+        },
+        "FW005": {
+            "Description": "Indicates chassis/power operations are inhibited by in-progress firmware update",
+            "Message": "Chassis / power operations are temporarily inhibited",
+            "NumberOfArgs": 0,
+            "Resolution": "Wait until firmware update completes and resubmit the request",
+            "Severity": "Critical"
+        },
+        "FW006": {
+            "Description": "Indicates firmware updates for ComputerSystem can not complete",
+            "Message": "ComputerSystem %1 is powered on, firmware %2 item can not be updated",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Power off ComputerSystem and resubmit the request",
+            "Severity": "Critical"
+        },
+        "FW007": {
+            "Description": "Indicates firmware inventory item is currently updating",
+            "Message": "Firmware %1 item update in progress",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Wait until firmware item update completes and resubmit the request",
+            "Severity": "Critical"
+        },
+        "FW008": {
+            "Description": "Indicates BMC firmware can't be updated at this time",
+            "Message": "Other firmware update(s) in progress",
+            "NumberOfArgs": 0,
+            "Resolution": "Wait until other firmware update(s) complete and resubmit the request",
+            "Severity": "Critical"
+        },
+        "FW009": {
+            "Description": "Indicates firmware can't be updated at this time",
+            "Message": "Can not uptate Firmware %1, BMC update is in progress",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Wait until BMC firmware update completes and resubmit the request",
+            "Severity": "Critical"
+        },
+        "FW010": {
+            "Description": "Indicates all Firmware updates are temporarily unavailable",
+            "Message": "Firmware updates are temporarily disabled",
+            "NumberOfArgs": 0,
+            "Resolution": "Wait until condition clears and resubmit the request",
+            "Severity": "Critical"
+        },
+        "GEN000": {
+            "Description": "Indicates a property's value is not within the allowable range",
+            "Message": "The value %1 in %2 is not in the range %3 through %4",
+            "NumberOfArgs": 4,
+            "ParamTypes": [
+                "number",
+                "string",
+                "number",
+                "number"
+            ],
+            "Resolution": "Adjust the property's value to be within range, then resubmit the request",
+            "Severity": "Critical"
+        },
+        "GEN001": {
+            "Description": "Indicates a property's value is negative and must be greater than zero",
+            "Message": "The value %1 in %2 is negative and must be greater than zero",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "number",
+                "string"
+            ],
+            "Resolution": "Adjust the property's value to be greater than zero, then resubmit the request",
+            "Severity": "Critical"
+        },
+        "METRIC001": {
+            "Description": "Indicates that the service was unable to change the metric address for a given metric. This is probably because the address is invalid.",
+            "Message": "Changing the address of the metric failed.",
+            "NumberOfArgs": 0,
+            "Resolution": "Adjust the address and try again.",
+            "Severity": "Critical"
+        },
+        "PCTL000": {
+            "Description": "Indicates the BMC is not able to service PATCH request on targeted Power resource because its busy updating it",
+            "Message": "Unable to process request, BMC is busy updating %1",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Retry operation",
+            "Severity": "Critical"
+        },
+        "PCTL001": {
+            "Description": "Indicates the BMC detected the Chassis resource transitioned power states from off to on which invalidated the request",
+            "Message": "Request was aborted by BMC due to the Chassis resource transitioning power states from off to on",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry operation",
+            "Severity": "Critical"
+        },
+        "PCTL002": {
+            "Description": "Indicates the BMC calculated power limit value for the PowerControl resource is outside the allowable range",
+            "Message": "The calculated power limit for PowerControl resource %1 is %2 which is outside the allowable range %3 through %4",
+            "NumberOfArgs": 4,
+            "ParamTypes": [
+                "string",
+                "number",
+                "number",
+                "number"
+            ],
+            "Resolution": "Adjust resource's #/Oem/Cray/PowerLimit/Factor, #/PowerLimit/LimitInWatts, or both, so that the product of the two are within the specified range, then resubmit the request",
+            "Severity": "Critical"
+        },
+        "PCTL003": {
+            "Description": "Indicates the BMC calculated power limit value for %1 is output the allowable range",
+            "Message": "The calculated power limit for %1 is %2 which is outside the allowable range %3 through %4",
+            "NumberOfArgs": 4,
+            "ParamTypes": [
+                "string",
+                "number",
+                "number",
+                "number"
+            ],
+            "Resolution": "Adjust resource's #/Oem/Hpe/PowerLimitFactor, #/SetPoint, or both, so that the product of the two are within the specified range, then resubmit the request",
+            "Severity": "Critical"
+        },
+        "PW000": {
+            "Description": "Indicates ComputerSystem power fault",
+            "Message": "Power on component %1 faulted, see logs in %2",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Retry power operation",
+            "Severity": "Critical"
+        },
+        "PW001": {
+            "Description": "Indicates ComputerSystem power operation inhibited by conflicting in-progress power up operation",
+            "Message": "Power control operation temporarily inhibited",
+            "NumberOfArgs": 0,
+            "Resolution": "Wait until in-progress power up control operation completes and resubmit the request",
+            "Severity": "Critical"
+        },
+        "PW002": {
+            "Description": "Indicates ComputerSystem power operation inhibited by conflicting in-progress power down operation",
+            "Message": "Power control operation temporarily inhibited",
+            "NumberOfArgs": 0,
+            "Resolution": "Wait until in-progress power down control operation completes and resubmit the request",
+            "Severity": "Critical"
+        },
+        "PW003": {
+            "Description": "Indicates ComputerSystem power operation inhibited by conflicting in-progress reset operation",
+            "Message": "Power control operation temporarily inhibited",
+            "NumberOfArgs": 0,
+            "Resolution": "Wait until in-progress reset control operation completes and resubmit the request",
+            "Severity": "Critical"
+        },
+        "PW004": {
+            "Description": "Indicates ComputerSystem power operation inhibited by invalid starting power state",
+            "Message": "Power control operation inhibited",
+            "NumberOfArgs": 0,
+            "Resolution": "Perform intermediate power action and resubmit the request",
+            "Severity": "Critical"
+        },
+        "VM000": {
+            "Description": "Indicates that the vr_margin.sh script has returned an error",
+            "Message": "Getting/Setting voltage margins failed due to %1",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Correct the error and resubmit the request",
+            "Severity": "Critical"
+        }
+    },
+    "Name": "CrayHMS Message Registry",
+    "OwningEntity": "CrayHMS",
+    "RegistryPrefix": "CrayHMS",
+    "RegistryVersion": "1.0.0"
+}

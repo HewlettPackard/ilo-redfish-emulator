@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerPciDeviceCollection.HpeServerPciDeviceCollection",
+    "@odata.etag": "W/\"08A22FCA\"",
+    "@odata.id": "/redfish/v1/Systems/1/PCIDevices",
+    "@odata.type": "#HpeServerPciDeviceCollection.HpeServerPciDeviceCollection",
+    "Description": " PciDevices view",
+    "Name": "PciDevices",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/5"
+        }
+    ],
+    "Members@odata.count": 5
+}

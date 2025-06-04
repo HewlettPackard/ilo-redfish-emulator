@@ -1,0 +1,18 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeUSBPort.HpeUSBPort",
+    "@odata.etag": "W/\"0F67E82B\"",
+    "@odata.id": "/redfish/v1/Systems/1/USBPorts/13",
+    "@odata.type": "#HpeUSBPort.v2_0_0.HpeUSBPort",
+    "Id": "13",
+    "Description": "USB Port Connector Information",
+    "InstanceNumber": 1,
+    "Location": "Back",
+    "Name": "USB Port Connector",
+    "PCIBusNumber": 0,
+    "PCIDeviceNumber": 20,
+    "PCIFunctionNumber": 0,
+    "ParentHubInstance": 0,
+    "SharedCapability": "UnsharedManagement",
+    "SpeedCapability": "USB2HighSpeed",
+    "UEFIDevicePath": "PciRoot(0x0)/Pci(0x14,0x0)/USB(0xD,0x0)"
+}

@@ -1,0 +1,27 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Controls/Accelerator0PowerLimit",
+    "@odata.type": "#Control.v1_0_0.Control",
+    "ControlDelaySeconds": 6,
+    "ControlMode": "Disabled",
+    "ControlType": "Power",
+    "Id": "Accelerator0PowerLimit",
+    "Name": "Accelerator0 Power Limit",
+    "Oem": {
+        "Hpe": {
+            "LimitException": "NoAction",
+            "PowerLimitFactor": "1.000000"
+        }
+    },
+    "PhysicalContext": "Accelerator",
+    "Sensor": {
+        "DataSourceUri": "/redfish/v1/Chassis/Node0/Sensors/GPUSubsystemAccelerator0Power",
+        "Reading": 118
+    },
+    "SetPoint": 0,
+    "SettingRangeMax": 560,
+    "SettingRangeMin": 100,
+    "Status": {
+        "Health": "OK"
+    }
+}

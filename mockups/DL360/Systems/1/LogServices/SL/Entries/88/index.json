@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"0E71A86B\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/88",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "88",
+    "Created": "2023-11-07T06:35:38Z",
+    "EntryType": "Oem",
+    "Message": "iLO Service Port settings modified by: Administrator.",
+    "MessageArgs": [],
+    "MessageId": "55.23",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 55,
+            "ClassDescription": "Security Configuration",
+            "Code": 23,
+            "Count": 1,
+            "EventNumber": 113,
+            "Severity": "Informational",
+            "Updated": "2023-11-07T06:35:38Z",
+            "UserAction": "Not Applicable"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "OK"
+}

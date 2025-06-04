@@ -1,0 +1,2 @@
+pipx install virtualenv
+

@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot",
+    "@odata.etag": "W/\"395A2DE7\"",
+    "@odata.id": "/redfish/v1/Systems/1/PCISlots/6",
+    "@odata.type": "#HpeServerPCISlot.v2_1_0.HpeServerPCISlot",
+    "Id": "6",
+    "BusNumber": 197,
+    "Characteristics": {
+        "Provides3_3Volts": true,
+        "SupportsHotPlugDevices": true,
+        "SupportsSMBusSignal": true
+    },
+    "DeviceNumber": 0,
+    "FunctionNumber": 0,
+    "LinkLanes": "x4",
+    "Name": "NVMe Slot 21",
+    "Status": {
+        "OperationalStatus": [
+            {
+                "Status": "Empty"
+            }
+        ]
+    },
+    "SupportsHotPlug": true,
+    "Technology": "PCIExpressGen4",
+    "UEFIDevicePath": "PciRoot(0x0)/Pci(0x3,0x5)/Pci(0x0,0x0)"
+}

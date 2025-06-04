@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Triggers.Triggers",
+    "@odata.etag": "W/\"7287563F\"",
+    "@odata.id": "/redfish/v1/TelemetryService/Triggers/CPUICUtilTriggers",
+    "@odata.type": "#Triggers.v1_0_0.Triggers",
+    "Id": "CPUICUtilTriggers",
+    "Description": "Triggers for CPU interconnect utilization",
+    "MetricProperties": [
+        "/redfish/v1/Systems/1#SystemUsage/CPUICUtil"
+    ],
+    "MetricType": "Numeric",
+    "Name": "Triggers for CPU interconnect utilization",
+    "NumericThresholds": {
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "DwellTime": "PT0S",
+            "Reading": 0
+        }
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "TriggerActions": [
+        "LogToLogService"
+    ]
+}

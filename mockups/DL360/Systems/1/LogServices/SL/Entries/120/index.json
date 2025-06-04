@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"3066FF15\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/120",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "120",
+    "Created": "0000-00-00T00:00:00Z",
+    "EntryType": "Oem",
+    "Message": "Security jumper override detected at boot time.  Security disabled!",
+    "MessageArgs": [],
+    "MessageId": "33.7",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security"
+            ],
+            "Class": 33,
+            "ClassDescription": "Maintenance",
+            "Code": 7,
+            "Count": 1,
+            "EventNumber": 145,
+            "Severity": "Caution",
+            "Updated": "0000-00-00T00:00:00Z",
+            "UserAction": "None"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "Warning"
+}

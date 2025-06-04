@@ -1,0 +1,44 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator5OutputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator5OutputVoltage",
+    "Name": "AOB AVD PCIE VDDIO",
+    "Oem": {
+        "Index": 5,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "U2001"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 0.855,
+    "ReadingTime": "2022-03-09T21:16:22.824927425Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 0.819
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 0.778
+        },
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 0.739
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 0.861
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 0.904
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 0.949
+        }
+    }
+}

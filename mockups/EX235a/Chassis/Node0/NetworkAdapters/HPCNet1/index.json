@@ -1,0 +1,23 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/NetworkAdapters/HPCNet1",
+    "@odata.type": "#NetworkAdapter.v1_0_1.NetworkAdapter",
+    "Actions": {
+        "#NetworkAdapter.ResetSettingsToDefault": {
+            "ResetSettingsToDefaultType@Redfish.AllowableValues": [],
+            "target": "/redfish/v1/Chassis/Node0/NetworkAdapters/HPCNet1/Actions/NetworkAdapter.ResetSettingsToDefault"
+        }
+    },
+    "Description": "SS11 200Gb 2P NIC Mezz REV02 (HSN)",
+    "Id": "HPCNet1",
+    "Manufacturer": "BEI",
+    "Model": "R4K44A",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/Node0/NetworkAdapters/HPCNet1/NetworkDeviceFunctions"
+    },
+    "NetworkPorts": {
+        "@odata.id": "/redfish/v1/Chassis/Node0/NetworkAdapters/HPCNet1/NetworkPorts"
+    },
+    "PartNumber": "102251001",
+    "SerialNumber": "DW20430411"
+}

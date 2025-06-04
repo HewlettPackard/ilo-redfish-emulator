@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"E4DABAB4\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/NetworkAdapter",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "NetworkAdapter",
+    "Description": "Schema Definition File for NetworkAdapter",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/NetworkAdapter.json"
+        }
+    ],
+    "Name": "NetworkAdapter Schema Definition File",
+    "Schema": "#NetworkAdapter.v1_4_0.NetworkAdapter"
+}

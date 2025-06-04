@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "W/\"A3A6BF43\"",
+    "@odata.id": "/redfish/v1/Systems/1/BootOptions/2",
+    "@odata.type": "#BootOption.v1_0_1.BootOption",
+    "Id": "2",
+    "Alias": "None",
+    "BootOptionReference": "Boot000E",
+    "DisplayName": "Generic USB Boot",
+    "Name": "Boot Option",
+    "UefiDevicePath": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)"
+}

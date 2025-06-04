@@ -1,0 +1,329 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Thermal",
+    "@odata.type": "#Thermal.v1_3_1.Thermal",
+    "Description": "Thermal sensor readings",
+    "Id": "Thermal",
+    "Name": "Thermal",
+    "Temperatures": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/86",
+            "Name": "PDB SIVOC48 Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 34,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 99,
+            "UpperThresholdNonCritical": 90
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/62",
+            "Name": "CPU0 VDD_3V3_S5 Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 38,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/78",
+            "Name": "gpubrd0 Temperature",
+            "PhysicalContext": "GPUSubsystem",
+            "ReadingCelsius": 47,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/77",
+            "Name": "gpu7 Temperature",
+            "PhysicalContext": "GPU",
+            "ReadingCelsius": 30,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/1",
+            "Name": "",
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/72",
+            "Name": "gpu2 Temperature",
+            "PhysicalContext": "GPU",
+            "ReadingCelsius": 34,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/63",
+            "Name": "CPU0 DIMM VDD_VPP_ABCD_S0 Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 34,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 105,
+            "UpperThresholdFatal": 125,
+            "UpperThresholdNonCritical": 85
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/82",
+            "Name": "gpubrd4 Temperature",
+            "PhysicalContext": "GPUSubsystem",
+            "ReadingCelsius": 48,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/89",
+            "LowerThresholdCritical": 13,
+            "LowerThresholdFatal": 6,
+            "LowerThresholdNonCritical": 19,
+            "Name": "AOB VDD 0V8 Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 45,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 85,
+            "UpperThresholdFatal": 125,
+            "UpperThresholdNonCritical": 75
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/87",
+            "Name": "48-12V TMP ADC Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 34.1,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/58",
+            "Name": "PDB INRUSH ACCEL1 Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 26.5,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 166.25,
+            "UpperThresholdFatal": 175,
+            "UpperThresholdNonCritical": 157.5
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/76",
+            "Name": "gpu6 Temperature",
+            "PhysicalContext": "GPU",
+            "ReadingCelsius": 32,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/85",
+            "Name": "gpubrd7 Temperature",
+            "PhysicalContext": "GPUSubsystem",
+            "ReadingCelsius": 44,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/70",
+            "Name": "gpu0 Temperature",
+            "PhysicalContext": "GPU",
+            "ReadingCelsius": 34,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/61",
+            "Name": "CPU0 VDD_3V3_S0 Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 36,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/91",
+            "LowerThresholdCritical": 13,
+            "LowerThresholdFatal": 6,
+            "LowerThresholdNonCritical": 19,
+            "Name": "AOB AVD PCIE VDDIO Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 39,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 85,
+            "UpperThresholdFatal": 125,
+            "UpperThresholdNonCritical": 75
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/90",
+            "LowerThresholdCritical": 13,
+            "LowerThresholdFatal": 6,
+            "LowerThresholdNonCritical": 19,
+            "Name": "AOB 3.3V SMC Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 35,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 85,
+            "UpperThresholdFatal": 125,
+            "UpperThresholdNonCritical": 75
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/84",
+            "Name": "gpubrd6 Temperature",
+            "PhysicalContext": "GPUSubsystem",
+            "ReadingCelsius": 44,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/80",
+            "Name": "gpubrd2 Temperature",
+            "PhysicalContext": "GPUSubsystem",
+            "ReadingCelsius": 44,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/57",
+            "Name": "PDB INRUSH ACCEL0 Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 28,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 166.25,
+            "UpperThresholdFatal": 175,
+            "UpperThresholdNonCritical": 157.5
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/68",
+            "Name": "CPU0 VDR ABCD Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 34,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 105,
+            "UpperThresholdFatal": 125,
+            "UpperThresholdNonCritical": 85
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/81",
+            "Name": "gpubrd3 Temperature",
+            "PhysicalContext": "GPUSubsystem",
+            "ReadingCelsius": 43,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/65",
+            "Name": "CPU0 VCORE Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 51,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 105,
+            "UpperThresholdFatal": 125,
+            "UpperThresholdNonCritical": 85
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/75",
+            "Name": "gpu5 Temperature",
+            "PhysicalContext": "GPU",
+            "ReadingCelsius": 38,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/66",
+            "Name": "CPU0 VDD_1V8_S0 Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 37,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 105,
+            "UpperThresholdFatal": 125,
+            "UpperThresholdNonCritical": 85
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/56",
+            "Name": "CPU0 Temperature",
+            "PhysicalContext": "CPU",
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/83",
+            "Name": "gpubrd5 Temperature",
+            "PhysicalContext": "GPUSubsystem",
+            "ReadingCelsius": 49,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/79",
+            "Name": "gpubrd1 Temperature",
+            "PhysicalContext": "GPUSubsystem",
+            "ReadingCelsius": 47,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/92",
+            "Name": "AOB TEMP SENSOR Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 46,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/59",
+            "Name": "PDB INRUSH ACCEL2 Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 27.4,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 166.25,
+            "UpperThresholdFatal": 175,
+            "UpperThresholdNonCritical": 157.5
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/60",
+            "Name": "PDB INRUSH ACCEL3 Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 27,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 166.25,
+            "UpperThresholdFatal": 175,
+            "UpperThresholdNonCritical": 157.5
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/88",
+            "Name": "PDB INRUSH CPU Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 26.8,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 166.25,
+            "UpperThresholdFatal": 175,
+            "UpperThresholdNonCritical": 157.5
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/73",
+            "Name": "gpu3 Temperature",
+            "PhysicalContext": "GPU",
+            "ReadingCelsius": 34,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/74",
+            "Name": "gpu4 Temperature",
+            "PhysicalContext": "GPU",
+            "ReadingCelsius": 34,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/71",
+            "Name": "gpu1 Temperature",
+            "PhysicalContext": "GPU",
+            "ReadingCelsius": 36,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/69",
+            "Name": "CPU0 VDR EFGH Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 45,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 105,
+            "UpperThresholdFatal": 125,
+            "UpperThresholdNonCritical": 85
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/67",
+            "Name": "CPU0 SOC_S0 Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 38,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 105,
+            "UpperThresholdFatal": 125,
+            "UpperThresholdNonCritical": 85
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Thermal#/Temperatures/64",
+            "Name": "CPU0 DIMM VDD_VPP_EFGH_S0 Temperature",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingCelsius": 38,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 105,
+            "UpperThresholdFatal": 125,
+            "UpperThresholdNonCritical": 85
+        }
+    ]
+}

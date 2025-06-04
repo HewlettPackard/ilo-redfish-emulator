@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/b8c32399",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "b8c32399",
+    "Activates": "AfterReboot",
+    "ComponentUri": "/fwrepo/IEGen10Plus_1.0.0.22.fwpkg",
+    "Configuration": "",
+    "Created": "2025-05-09T07:00:37Z",
+    "Criticality": "Optional",
+    "DeviceClass": "c734e171-8721-48c9-9ed6-d5bc7da5ef8d",
+    "ExecutionParameters": "",
+    "Filename": "IEGen10Plus_1.0.0.22.fwpkg",
+    "Filepath": "IEGen10Plus_1.0.0.22.fwpkg",
+    "Locked": false,
+    "Name": "ROM Flash Firmware Package - HPE Gen10 Plus Innovation Engin...",
+    "SizeBytes": 8409359,
+    "Targets": [
+        "a6b1a447-382a-5a4f-3c10-87800a000303"
+    ],
+    "UpdatableBy": [
+        "Uefi"
+    ],
+    "Version": "1.0.0.22"
+}

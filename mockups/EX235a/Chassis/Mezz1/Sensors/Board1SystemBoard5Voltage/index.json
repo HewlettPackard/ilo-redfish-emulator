@@ -1,0 +1,45 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/Chassis/Mezz1/Sensors/Board1SystemBoard5Voltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Board1SystemBoard5Voltage",
+    "Name": "1.1V",
+    "Oem": {
+        "Index": 5,
+        "ParentalContext": "Board",
+        "ParentalIndex": 1
+    },
+    "PhysicalContext": "SystemBoard",
+    "Reading": 1.092,
+    "ReadingRangeMax": 2.047,
+    "ReadingRangeMin": 0,
+    "ReadingTime": "2022-03-09T21:16:03.095223792Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 1.045
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 0.68
+        },
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 0.5
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 1.155
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 1.25
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 1.398
+        }
+    }
+}

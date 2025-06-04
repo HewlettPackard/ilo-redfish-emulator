@@ -1,0 +1,82 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE080000/Ports/1/Settings",
+    "@odata.type": "#Port.v1_6_0.Port",
+    "@odata.etag": "W/\"0B15E220\"",
+    "@Redfish.SettingsApplyTime": {
+        "ApplyTime": "OnReset"
+    },
+    "CurrentSpeedGbps": 25.0,
+    "Id": "1",
+    "MaxSpeedGbps": 25.0,
+    "Name": "Port",
+    "PortId": "2",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "LinkNetworkTechnology": "Ethernet",
+    "LinkState": "Enabled",
+    "LinkStatus": "LinkUp",
+    "SignalDetected": true,
+    "Ethernet": {
+        "FlowControlConfiguration": "TX_RX",
+        "FlowControlStatus": "TX_RX",
+        "SupportedEthernetCapabilities": [],
+        "AssociatedMACAddresses": [
+            "88:e9:a4:6b:a8:ac",
+            "88:e9:a4:6b:a8:af"
+        ],
+        "LLDPEnabled": true,
+        "LLDPReceive": {
+            "ChassisId": "90:20:C2:C7:22:00",
+            "ChassisIdSubtype": "MacAddr",
+            "ManagementAddressIPv4": "192.168.4.1",
+            "ManagementAddressIPv6": "",
+            "ManagementAddressMAC": "",
+            "ManagementVlanId": 4095,
+            "PortId": "31:2F:31:2F:31:3A:34",
+            "PortIdSubtype": "IfName"
+        },
+        "LLDPTransmit": {
+            "ChassisId": "88:E9:A4:6B:A8:AF",
+            "ChassisIdSubtype": "MacAddr",
+            "ManagementAddressIPv4": "",
+            "ManagementAddressIPv6": "",
+            "ManagementAddressMAC": "",
+            "ManagementVlanId": 4095,
+            "PortId": "88:E9:A4:6B:A8:AD",
+            "PortIdSubtype": "MacAddr"
+        },
+        "WakeOnLANEnabled": false
+    },
+    "LinkConfiguration": [
+        {
+            "AutoSpeedNegotiationCapable": true,
+            "AutoSpeedNegotiationEnabled": true,
+            "CapableLinkSpeedGbps": [
+                1.0,
+                10.0,
+                25.0
+            ]
+        }
+    ],
+    "MaxFrameSize": 1522,
+    "FunctionMaxBandwidth": [
+        {
+            "AllocationPercent": 100
+        }
+    ],
+    "FunctionMinBandwidth": [
+        {
+            "AllocationPercent": 0
+        }
+    ],
+    "SFP": {
+        "Status": {
+            "Health": "OK",
+            "HealthRollup": "OK",
+            "State": "Enabled"
+        }
+    }
+}

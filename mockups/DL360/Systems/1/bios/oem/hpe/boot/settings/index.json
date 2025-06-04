@@ -1,0 +1,150 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerBootSettings.HpeServerBootSettings",
+    "@odata.etag": "W/\"34D8681D1F641212122CC1ED0D23732B\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/settings/",
+    "@odata.type": "#HpeServerBootSettings.v2_0_0.HpeServerBootSettings",
+    "BootSources": [
+        {
+            "BootOptionNumber": "001A",
+            "BootString": "Red Hat Enterprise Linux",
+            "CorrelatableID": "HD(1,GPT,5E600A4B-E84E-4119-A182-F37B0A39D55C,0x800,0x12C000)/\\EFI\\redhat\\shimx64.efi",
+            "StructuredBootString": "HD.Slot.12.3",
+            "UEFIDevicePath": "HD(1,GPT,5E600A4B-E84E-4119-A182-F37B0A39D55C,0x800,0x12C000)/\\EFI\\redhat\\shimx64.efi"
+        },
+        {
+            "BootOptionNumber": "000E",
+            "BootString": "Generic USB Boot",
+            "CorrelatableID": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)",
+            "StructuredBootString": "Generic.USB.1.1",
+            "UEFIDevicePath": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)"
+        },
+        {
+            "BootOptionNumber": "0010",
+            "BootString": "Slot 1 Port 1 : Mellanox Network Adapter - 88:E9:A4:6B:A8:AC (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.1.1.IPv4",
+            "UEFIDevicePath": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A46BA8AC,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "0013",
+            "BootString": "Slot 1 Port 1 : Mellanox Network Adapter - 88:E9:A4:6B:A8:AC (HTTP(S) IPv4)",
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.1.1.Httpv4",
+            "UEFIDevicePath": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A46BA8AC,0x1)/IPv4(0.0.0.0)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0014",
+            "BootString": "OCP Slot 10 Port 1 : Intel(R) Ethernet Network Adapter I350-T4 for OCP NIC 3.0 (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x4)/Pci(0x4,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.IPv4",
+            "UEFIDevicePath": "PciRoot(0x4)/Pci(0x4,0x0)/Pci(0x0,0x0)/MAC(507C6F139096,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "0017",
+            "BootString": "OCP Slot 10 Port 1 : Intel(R) Ethernet Network Adapter I350-T4 for OCP NIC 3.0 (HTTP(S) IPv4)",
+            "CorrelatableID": "PciRoot(0x4)/Pci(0x4,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.Httpv4",
+            "UEFIDevicePath": "PciRoot(0x4)/Pci(0x4,0x0)/Pci(0x0,0x0)/MAC(507C6F139096,0x1)/IPv4(0.0.0.0)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0012",
+            "BootString": "Slot 1 Port 1 : Mellanox Network Adapter - 88:E9:A4:6B:A8:AC (HTTP(S) IPv6)",
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.1.1.Httpv6",
+            "UEFIDevicePath": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A46BA8AC,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0011",
+            "BootString": "Slot 1 Port 1 : Mellanox Network Adapter - 88:E9:A4:6B:A8:AC (PXE IPv6)",
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.1.1.IPv6",
+            "UEFIDevicePath": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A46BA8AC,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)"
+        },
+        {
+            "BootOptionNumber": "0016",
+            "BootString": "OCP Slot 10 Port 1 : Intel(R) Ethernet Network Adapter I350-T4 for OCP NIC 3.0 (HTTP(S) IPv6)",
+            "CorrelatableID": "PciRoot(0x4)/Pci(0x4,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.Httpv6",
+            "UEFIDevicePath": "PciRoot(0x4)/Pci(0x4,0x0)/Pci(0x0,0x0)/MAC(507C6F139096,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0015",
+            "BootString": "OCP Slot 10 Port 1 : Intel(R) Ethernet Network Adapter I350-T4 for OCP NIC 3.0 (PXE IPv6)",
+            "CorrelatableID": "PciRoot(0x4)/Pci(0x4,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.IPv6",
+            "UEFIDevicePath": "PciRoot(0x4)/Pci(0x4,0x0)/Pci(0x0,0x0)/MAC(507C6F139096,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)"
+        },
+        {
+            "BootOptionNumber": "0018",
+            "BootString": "iLO Virtual USB 4 : iLO Virtual USB Key",
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x4)/USB(0x2,0x0)",
+            "StructuredBootString": "FD.Virtual.4.1",
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x4)/USB(0x2,0x0)"
+        },
+        {
+            "BootOptionNumber": "0019",
+            "BootString": "Storage Slot 12 : HPE SR416i-a Gen10+ - 447.1 GiB, RAID1 Logical Drive 1(Target:379, Lun:0)",
+            "CorrelatableID": "PciRoot(0x4)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "HD.Slot.12.2",
+            "UEFIDevicePath": "PciRoot(0x4)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Scsi(0x17B,0x0)"
+        }
+    ],
+    "DefaultBootOrder": [
+        "Cd",
+        "Usb",
+        "EmbeddedStorage",
+        "PcieSlotStorage",
+        "EmbeddedFlexLOM",
+        "PcieSlotNic",
+        "UefiShell",
+        "iPXE"
+    ],
+    "DesiredBootDevices": [
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        }
+    ],
+    "Id": "settings",
+    "Name": "Boot Order Pending Settings",
+    "PersistentBootConfigOrder": [
+        "HD.Slot.12.3",
+        "Generic.USB.1.1",
+        "NIC.Slot.1.1.IPv4",
+        "NIC.Slot.1.1.Httpv4",
+        "OCP.Slot.10.1.IPv4",
+        "OCP.Slot.10.1.Httpv4",
+        "NIC.Slot.1.1.Httpv6",
+        "NIC.Slot.1.1.IPv6",
+        "OCP.Slot.10.1.Httpv6",
+        "OCP.Slot.10.1.IPv6",
+        "FD.Virtual.4.1",
+        "HD.Slot.12.2"
+    ]
+}

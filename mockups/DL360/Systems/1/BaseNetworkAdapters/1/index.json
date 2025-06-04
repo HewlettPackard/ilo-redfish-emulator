@@ -1,0 +1,71 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapter.HpeBaseNetworkAdapter",
+    "@odata.etag": "W/\"98D6165B\"",
+    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/1",
+    "@odata.type": "#HpeBaseNetworkAdapter.v2_0_0.HpeBaseNetworkAdapter",
+    "Id": "1",
+    "FcPorts": [],
+    "Firmware": {
+        "Current": {
+            "VersionString": "16.35.4030"
+        }
+    },
+    "Location": "PCI-E Slot 1",
+    "Name": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter",
+    "PartNumber": "P16004-001",
+    "PhysicalPorts": [
+        {
+            "FullDuplex": false,
+            "IPv4Addresses": [],
+            "IPv6Addresses": [],
+            "LinkStatus": "LinkUp",
+            "MacAddress": "88:e9:a4:6b:a8:ac",
+            "Name": "",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt",
+                    "@odata.type": "#HpeBaseNetworkAdapterExt.v2_1_0.HpeBaseNetworkAdapterExt",
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "GoodReceives": 2057,
+                    "GoodTransmits": 997,
+                    "PortNumber": 1
+                }
+            },
+            "SpeedMbps": 0,
+            "Status": {
+                "Health": "OK"
+            }
+        },
+        {
+            "FullDuplex": false,
+            "IPv4Addresses": [],
+            "IPv6Addresses": [],
+            "LinkStatus": "LinkUp",
+            "MacAddress": "88:e9:a4:6b:a8:ad",
+            "Name": "",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt",
+                    "@odata.type": "#HpeBaseNetworkAdapterExt.v2_1_0.HpeBaseNetworkAdapterExt",
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "GoodReceives": 87153,
+                    "GoodTransmits": 16946,
+                    "PortNumber": 2
+                }
+            },
+            "SpeedMbps": 0,
+            "Status": {
+                "Health": "OK"
+            }
+        }
+    ],
+    "SerialNumber": "ILC220027S     ",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "StructuredName": "NIC.Slot.1.1",
+    "UEFIDevicePath": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x0)"
+}

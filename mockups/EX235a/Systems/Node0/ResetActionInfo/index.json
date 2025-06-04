@@ -1,0 +1,20 @@
+{
+  "@odata.etag": "W/\"946641773\"",
+  "@odata.id": "/redfish/v1/Systems/Node0/ResetActionInfo",
+  "@odata.type": "#ActionInfo.v1_0_3.ActionInfo",
+  "Description": "This action is used to reset the Systems",
+  "Id": "ResetAction",
+  "Name": "ResetAction",
+  "Parameters": [
+    {
+      "AllowableValues": [
+        "On",
+        "ForceOff",
+        "Off"
+      ],
+      "DataType": "String",
+      "Name": "ResetType",
+      "Required": true
+    }
+  ]
+}

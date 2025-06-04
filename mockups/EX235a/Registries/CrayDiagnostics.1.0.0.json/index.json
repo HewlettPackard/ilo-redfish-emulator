@@ -1,0 +1,80 @@
+{
+    "@Redfish.Copyright": "Copyright 2019 Cray Inc. All rights reserved.",
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Registries/CrayDiagnostics.1.0.0.json",
+    "@odata.type": "#MessageRegistry.v1_2_0.MessageRegistry",
+    "Description": "Cray diagnostic messages",
+    "Id": "CrayDiagnostics.1.0.0",
+    "Language": "en",
+    "Messages": {
+        "DiagnosticComplete": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "DiagnosticStart"
+                ]
+            },
+            "Description": "Indicates that the diagnostic successfully completed. The Task URI from the Event OriginOfCondition can be polled for diagnostic output.",
+            "Message": "The diagnostic '%1' has completed successfully. The following statistics were gathered: %2",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "DiagnosticFailure": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "DiagnosticStart"
+                ]
+            },
+            "Description": "Indicates that the diagnostic completed but detected potential errors. The Task URI from the Event OriginOfCondition can be polled for diagnostic output.",
+            "Message": "The diagnostic '%1' has failed or completed with errors. The following statistics or errors were gathered: %2",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Please consult diagnostic-specific documentation.",
+            "Severity": "Warning"
+        },
+        "DiagnosticStart": {
+            "Description": "Indicates that the diagnostic was successfully launched. The Task URI from the Event OriginOfCondition can be polled for status.",
+            "Message": "The diagnostic '%1' was launched with the following options: %2",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "DiagnosticStderr": {
+            "Description": "This is the unprocessed standard error from the diagnostic.",
+            "Message": "%1",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "Warning"
+        },
+        "DiagnosticStdout": {
+            "Description": "This is the unprocessed standard output from the diagnostic.",
+            "Message": "%1",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        }
+    },
+    "Name": "Cray Diagnostics Message Registry",
+    "OwningEntity": "Cray Inc.",
+    "RegistryPrefix": "CrayDiagnostics",
+    "RegistryVersion": "1.0.0"
+}

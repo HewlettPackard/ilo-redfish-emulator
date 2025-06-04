@@ -1,0 +1,45 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/Chassis/Mezz0/Sensors/Board0SystemBoard3Voltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Board0SystemBoard3Voltage",
+    "Name": "0.9V PLL",
+    "Oem": {
+        "Index": 3,
+        "ParentalContext": "Board",
+        "ParentalIndex": 0
+    },
+    "PhysicalContext": "SystemBoard",
+    "Reading": 0.897,
+    "ReadingRangeMax": 2.047,
+    "ReadingRangeMin": 0,
+    "ReadingTime": "2022-03-09T21:16:12.994152742Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 0.855
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 0.81
+        },
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 0.781
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 0.945
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 0.99
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 1.057
+        }
+    }
+}

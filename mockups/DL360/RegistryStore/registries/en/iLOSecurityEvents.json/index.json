@@ -1,0 +1,1235 @@
+{
+    "@Redfish.Copyright": "Copyright 2023 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2023 Distributed Management Task Force. All rights reserved.",
+    "@odata.type": "#MessageRegistry.v1_6_0.MessageRegistry",
+    "Description": "This registry defines the events for the management processor.",
+    "Id": "iLOSecurityEvents.json",
+    "Language": "en",
+    "Messages": {
+        "AccessPanelStatusAtIgnore": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "AccessPanelStatusAtRisk"
+                ]
+            },
+            "Description": "The chassis intrusion detection connector reports intrusion to the access panel. Check the access panel status and use the UEFI System Utilities to enable the Server Configuration Lock feature. The parameter risk is ignored.",
+            "Message": "The  Access Panel Status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "AccessPanelStatusAtRisk"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Refer to iLO User Manual or iLO Security Dashboard help page.",
+            "Severity": "Warning"
+        },
+        "AccessPanelStatusAtOK": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "AccessPanelStatusAtRisk",
+                    "AccessPanelStatusAtIgnore"
+                ]
+            },
+            "Description": "The  Access Panel Status on security dashboard is OK.",
+            "Message": "The  Access Panel Status status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "AccessPanelStatusAtRisk",
+                            "AccessPanelStatusAtIgnore"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "AccessPanelStatusAtRisk": {
+            "Description": "The chassis intrusion detection connector reports intrusion to the access panel. Check the access panel status and use the UEFI System Utilities to enable the Server Configuration Lock feature. ",
+            "Message": "The Access Panel Status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Refer to iLO User Manual or iLO Security Dashboard help page.",
+            "Severity": "Critical"
+        },
+        "DefaultSSLCertificateAtIgnore": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "DefaultSSLCertificateAtRisk"
+                ]
+            },
+            "Description": "Management processor's default self-signed certificate is in use. The parameter risk is ignored.",
+            "Message": "The Default SSL Certificate status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "DefaultSSLCertificateAtRisk"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Configure a trusted certificate on the SSL Certificate.",
+            "Severity": "Warning"
+        },
+        "DefaultSSLCertificateAtOK": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "DefaultSSLCertificateAtRisk",
+                    "DefaultSSLCertificateAtIgnore"
+                ]
+            },
+            "Description": "The Default SSL Certificate on security dashboard is OK.",
+            "Message": "The Default SSL Certificate on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "DefaultSSLCertificateAtRisk",
+                            "DefaultSSLCertificateAtIgnore"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "DefaultSSLCertificateAtRisk": {
+            "Description": "Management processor's default self-signed certificate is in use.",
+            "Message": "The Default SSL Certificate on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Configure a trusted certificate on the SSL Certificate.",
+            "Severity": "Critical"
+        },
+        "GlobalComponentIntegrityAtIgnore": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "GlobalComponentIntegrityAtRisk"
+                ]
+            },
+            "Description": "The Global Component Integrity setting on security dashboard is Disabled. The parameter risk is ignored.",
+            "Message": "The  Global Component Integrity status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "GlobalComponentIntegrityAtRisk"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Enable the Global Component Integrity setting in iLO",
+            "Severity": "Warning"
+        },
+        "GlobalComponentIntegrityAtOK": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "GlobalComponentIntegrityAtRisk",
+                    "GlobalComponentIntegrityAtIgnore"
+                ]
+            },
+            "Description": "The  Global Component Integrity on security dashboard is OK.",
+            "Message": "The  Global Component Integrity status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "GlobalComponentIntegrityAtRisk",
+                            "GlobalComponentIntegrityAtIgnore"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "GlobalComponentIntegrityAtRisk": {
+            "Description": "The Global Component Integrity setting on security dashboard is Disabled.",
+            "Message": "The Global Component Integrity status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Enable the Global Component Integrity setting in iLO",
+            "Severity": "Critical"
+        },
+        "IPMIOverLANAtIgnore": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "IPMIOverLANAtRisk"
+                ]
+            },
+            "Description": "The IPMI/DCMI over LAN feature is enabled. This configuration exposes the server to known IPMI security vulnerabilities. The parameter risk is ignored.",
+            "Message": "The IPMI Over LAN status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "IPMIOverLANAtRisk"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Disable the IPMI over LAN setting in iLO.",
+            "Severity": "Warning"
+        },
+        "IPMIOverLANAtOK": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "IPMIOverLANAtRisk",
+                    "IPMIOverLANAtIgnore"
+                ]
+            },
+            "Description": "The IPMI/DCMI over LAN feature is disabled. This configuration protects the server to known IPMI security vulnerabilities.",
+            "Message": "The IPMI Over LAN status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "IPMIOverLANAtRisk",
+                            "IPMIOverLANAtIgnore"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "IPMIOverLANAtRisk": {
+            "Description": "The IPMI/DCMI over LAN feature is enabled. This configuration exposes the server to known IPMI security vulnerabilities.",
+            "Message": "The IPMI Over LAN status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Disable the IPMI over LAN setting in iLO.",
+            "Severity": "Critical"
+        },
+        "LastFWScanAtIgnore": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "LastFWScanAtRisk"
+                ]
+            },
+            "Description": "Last run firmware verification test has failed. Firmware is either corrupted or its integrity is compromised. The parameter risk is ignored.",
+            "Message": "The  Last Firmware Scan status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "LastFWScanAtRisk"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Update the affected firmware component to a verified image.",
+            "Severity": "Warning"
+        },
+        "LastFWScanAtOK": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "LastFWScanAtRisk",
+                    "LastFWScanAtIgnore"
+                ]
+            },
+            "Description": "Last run firmware verification test has passed.",
+            "Message": "The  Last Firmware Scan status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "LastFWScanAtRisk",
+                            "LastFWScanAtIgnore"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "LastFWScanAtRisk": {
+            "Description": "Last run firmware verification test has failed. Firmware is either corrupted or its integrity is compromised.",
+            "Message": "The Last Firmware Scan status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Update the affected firmware component to a verified image.",
+            "Severity": "Critical"
+        },
+        "LogAuthFailureAtIgnore": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "LogAuthFailureAtRisk"
+                ]
+            },
+            "Description": "The Logging Authentication Failure setting on security dashboard is Disabled. The parameter risk is ignored.",
+            "Message": "The Logging Authentication Failure status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "LogAuthFailureAtRisk"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Enable the setting for logging authentication failures in iLO.",
+            "Severity": "Warning"
+        },
+        "LogAuthFailureAtOK": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "LogAuthFailureAtRisk",
+                    "LogAuthFailureAtIgnore"
+                ]
+            },
+            "Description": "iLO is configured to log authentication failures in the event log.",
+            "Message": "The Logging Authentication Failure status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "LogAuthFailureAtRisk",
+                            "LogAuthFailureAtIgnore"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "LogAuthFailureAtRisk": {
+            "Description": "The Logging Authentication Failure setting on security dashboard is Disabled.",
+            "Message": "The Logging Authentication Failure status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Enable the setting for logging authentication failures in iLO.",
+            "Severity": "Critical"
+        },
+        "MinPasswordLengthAtIgnore": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "MinPasswordLengthAtRisk"
+                ]
+            },
+            "Description": "The Minimum Password Length is set to fewer than 8 characters. This configuration increases system vulnerability to attack. The parameter risk is ignored.",
+            "Message": "The Minimum Password Length status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "MinPasswordLengthAtRisk"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Set the minimum password length to a value of 8 (default) or greater.",
+            "Severity": "Warning"
+        },
+        "MinPasswordLengthAtOK": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "MinPasswordLengthAtRisk",
+                    "MinPasswordLengthAtIgnore"
+                ]
+            },
+            "Description": "The Minimum Password Length is set to 8 characters or more. This configuration improves system security against attacks.",
+            "Message": "The Minimum Password Length status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "MinPasswordLengthAtRisk",
+                            "MinPasswordLengthAtIgnore"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "MinPasswordLengthAtRisk": {
+            "Description": "The Minimum Password Length is set to fewer than 8 characters. This configuration increases system vulnerability to attack.",
+            "Message": "The Minimum Password Length status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Set the minimum password length to a value of 8 (default) or greater.",
+            "Severity": "Critical"
+        },
+        "OverallSecAtIgnore": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "OverallSecAtRisk"
+                ]
+            },
+            "Description": "The overall security status on security dashboard is Ignore.",
+            "Message": "The overall security status on security dashboard is Ignore.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "OverallSecAtRisk"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "Turn the Ignore option Off for security parameter(s) that are in Risk state in Security Dashboard in iLO.",
+            "Severity": "Warning"
+        },
+        "OverallSecAtOK": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "OverallSecAtRisk"
+                ]
+            },
+            "Description": "The overall security status on security dashboard is OK.",
+            "Message": "The overall security status on security dashboard is OK.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "OverallSecAtRisk"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "OverallSecAtRisk": {
+            "Description": "The overall security status on security dashboard is Risk.",
+            "Message": "The overall security status on security dashboard is Risk.",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "Refer to iLO User Manual or iLO Security Dashboard help page.",
+            "Severity": "Critical"
+        },
+        "PasswordComplexityAtIgnore": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "PasswordComplexityAtRisk"
+                ]
+            },
+            "Description": "The Password Complexity setting is disabled. This configuration increases system vulnerability to attack. The parameter risk is ignored.",
+            "Message": "The Password Complexity status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "PasswordComplexityAtRisk"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Enable Password Complexity setting in iLO",
+            "Severity": "Warning"
+        },
+        "PasswordComplexityAtOK": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "PasswordComplexityAtRisk",
+                    "PasswordComplexityAtIgnore"
+                ]
+            },
+            "Description": "The Password Complexity setting is enabled. This configuration improves system security against attacks.",
+            "Message": "The Password Complexity status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "PasswordComplexityAtRisk",
+                            "PasswordComplexityAtIgnore"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "PasswordComplexityAtRisk": {
+            "Description": "The Password Complexity setting is disabled. This configuration increases system vulnerability to attack.",
+            "Message": "The Password Complexity status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Enable Password Complexity setting in iLO",
+            "Severity": "Critical"
+        },
+        "RBSULoginRequiredAtIgnore": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "RBSULoginRequiredAtRisk"
+                ]
+            },
+            "Description": "The Require Login for iLO RBSU setting is disabled. This configuration allows unauthenticated iLO access through the UEFI System Utilities. The parameter risk is ignored.",
+            "Message": "The RBSU Login Required status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "RBSULoginRequiredAtRisk"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Enable RBSU Login Required setting in iLO.",
+            "Severity": "Warning"
+        },
+        "RBSULoginRequiredAtOK": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "RBSULoginRequiredAtRisk",
+                    "RBSULoginRequiredAtIgnore"
+                ]
+            },
+            "Description": "The Require Login for iLO RBSU setting is Enabled. This configuration enforces authentication iLO access through the UEFI System Utilities.",
+            "Message": "The RBSU Login Required status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "RBSULoginRequiredAtRisk",
+                            "RBSULoginRequiredAtIgnore"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "RBSULoginRequiredAtRisk": {
+            "Description": "The Require Login for iLO RBSU setting is disabled. This configuration allows unauthenticated iLO access through the UEFI System Utilities.",
+            "Message": "The RBSU Login Required status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Enable RBSU Login Required setting in iLO.",
+            "Severity": "Critical"
+        },
+        "RequireHostAuthAtIgnore": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "RequireHostAuthAtRisk"
+                ]
+            },
+            "Description": "The Require Host Authentication setting is disabled. This configuration allows unauthenticated iLO access through host-based utilities. The parameter risk is ignored.",
+            "Message": "The Require Host Authentication status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "RequireHostAuthAtRisk"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Enable Require Host Authentication setting in iLO.",
+            "Severity": "Warning"
+        },
+        "RequireHostAuthAtOK": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "RequireHostAuthAtRisk",
+                    "RequireHostAuthAtIgnore"
+                ]
+            },
+            "Description": "The Require Host Authentication setting is enabled.",
+            "Message": "The Require Host Authentication status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "RequireHostAuthAtRisk",
+                            "RequireHostAuthAtIgnore"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "RequireHostAuthAtRisk": {
+            "Description": "The Require Host Authentication setting is disabled. This configuration allows unauthenticated iLO access through host-based utilities.",
+            "Message": "The Require Host Authentication status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Enable Require Host Authentication setting in iLO.",
+            "Severity": "Critical"
+        },
+        "SNMPv1AtIgnore": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "SNMPv1AtRisk"
+                ]
+            },
+            "Description": "SNMPv1 is enabled. This configuration increases system vulnerability to attack. The parameter risk is ignored.",
+            "Message": "The SNMPv1 status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "SNMPv1AtRisk"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Disable SNMPv1 setting in iLO",
+            "Severity": "Warning"
+        },
+        "SNMPv1AtOK": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "SNMPv1AtRisk",
+                    "SNMPv1AtIgnore"
+                ]
+            },
+            "Description": "SNMPv1 is disabled. This configuration improves system security against attacks.",
+            "Message": "The SNMPv1 status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "SNMPv1AtRisk",
+                            "SNMPv1AtIgnore"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "SNMPv1AtRisk": {
+            "Description": "SNMPv1 is enabled. This configuration increases system vulnerability to attack.",
+            "Message": "The SNMPv1 status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Disable SNMPv1 setting in iLO",
+            "Severity": "Critical"
+        },
+        "SecOverrideSwitchAtIgnore": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "SecOverrideSwitchAtRisk"
+                ]
+            },
+            "Description": "The server Security Override Switch (system maintenance switch) is enabled. In this configuration, iLO login authentication is disabled. The parameter risk is ignored.",
+            "Message": "The Security Override Switch status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "SecOverrideSwitchAtRisk"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Disable Security Override Switch setting in iLO.",
+            "Severity": "Warning"
+        },
+        "SecOverrideSwitchAtOK": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "SecOverrideSwitchAtRisk",
+                    "SecOverrideSwitchAtIgnore"
+                ]
+            },
+            "Description": "The server Security Override Switch (system maintenance switch) is disabled. In this configuration, iLO login authentication is enabled.",
+            "Message": "The Security Override Switch on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "SecOverrideSwitchAtRisk",
+                            "SecOverrideSwitchAtIgnore"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "SecOverrideSwitchAtRisk": {
+            "Description": "The server Security Override Switch (system maintenance switch) is enabled. In this configuration, iLO login authentication is disabled.",
+            "Message": "The Security Override Switch on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Disable Security Override Switch setting in iLO.",
+            "Severity": "Critical"
+        },
+        "SecureBootAtIgnore": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "SecureBootAtRisk"
+                ]
+            },
+            "Description": "The UEFI Secure Boot setting is disabled. In this configuration, the UEFI system firmware does not validate the boot loader, Option ROM firmware, and other system software executables for trusted signatures. This configuration breaks the chain of trust established by iLO from power on. The parameter risk is ignored.",
+            "Message": "The secure boot status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "SecureBootAtRisk"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Enable Secure Boot setting in iLO",
+            "Severity": "Warning"
+        },
+        "SecureBootAtOK": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "SecureBootAtRisk",
+                    "SecureBootAtIgnore"
+                ]
+            },
+            "Description": "The UEFI Secure Boot setting is enabled. In this configuration, the UEFI system firmware validates the boot loader, Option ROM firmware, and other system software executables for trusted signatures.",
+            "Message": "The secure boot status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "SecureBootAtRisk",
+                            "SecureBootAtIgnore"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "SecureBootAtRisk": {
+            "Description": "The UEFI Secure Boot setting is disabled. In this configuration, the UEFI system firmware does not validate the boot loader, Option ROM firmware, and other system software executables for trusted signatures. This configuration breaks the chain of trust established by iLO from power on.",
+            "Message": "The Secure Boot status on security dashboard is %1. State is %2. Ignore flag is %3",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 3,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Enable Secure Boot setting in iLO",
+            "Severity": "Critical"
+        },
+        "WeakCipherDisabled": {
+            "Description": "Weak Ciphers are Disabled",
+            "Message": "Weak Ciphers are Disabled",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "WeakCipherEnabled": {
+            "Description": "Weak Ciphers are Enabled",
+            "Message": "Weak Ciphers are Enabled",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None",
+            "Severity": "OK"
+        }
+    },
+    "Name": "Event Registry",
+    "OwningEntity": "Hewlett Packard Enterprise",
+    "RegistryPrefix": "iLOSecurityEvents",
+    "RegistryVersion": "1.1.0"
+}

@@ -1,0 +1,105 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+    "@odata.etag": "W/\"1076FFCA\"",
+    "@odata.id": "/redfish/v1/Chassis/1",
+    "@odata.type": "#Chassis.v1_10_2.Chassis",
+    "Id": "1",
+    "AssetTag": "",
+    "ChassisType": "RackMount",
+    "IndicatorLED": "Off",
+    "Links": {
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/1"
+            }
+        ],
+        "ComputerSystems": [
+            {
+                "@odata.id": "/redfish/v1/Systems/1"
+            }
+        ]
+    },
+    "Manufacturer": "HPE",
+    "Model": "ProLiant DL325 Gen10 Plus",
+    "Name": "Computer System Chassis",
+    "NetworkAdapters": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters"
+    },
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeServerChassis.HpeServerChassis",
+            "@odata.type": "#HpeServerChassis.v2_3_1.HpeServerChassis",
+            "Actions": {
+                "#HpeServerChassis.DisableMCTPOnServer": {
+                    "target": "/redfish/v1/Chassis/1/Actions/Oem/Hpe/HpeServerChassis.DisableMCTPOnServer"
+                },
+                "#HpeServerChassis.FactoryResetMCTP": {
+                    "target": "/redfish/v1/Chassis/1/Actions/Oem/Hpe/HpeServerChassis.FactoryResetMCTP"
+                }
+            },
+            "ElConfigOverride": false,
+            "Firmware": {
+                "PlatformDefinitionTable": {
+                    "Current": {
+                        "VersionString": "9.1.0 Build 36"
+                    }
+                },
+                "PowerManagementController": {
+                    "Current": {
+                        "VersionString": "1.0.7"
+                    }
+                },
+                "PowerManagementControllerBootloader": {
+                    "Current": {
+                        "Family": "25",
+                        "VersionString": "1.1"
+                    }
+                },
+                "SystemProgrammableLogicDevice": {
+                    "Current": {
+                        "VersionString": "0x0D"
+                    }
+                }
+            },
+            "Links": {
+                "Devices": {
+                    "@odata.id": "/redfish/v1/Chassis/1/Devices"
+                }
+            },
+            "MCTPEnabledOnServer": true,
+            "SystemMaintenanceSwitches": {
+                "Sw1": "Off",
+                "Sw10": "Off",
+                "Sw11": "Off",
+                "Sw12": "Off",
+                "Sw2": "Off",
+                "Sw3": "Off",
+                "Sw4": "Off",
+                "Sw5": "Off",
+                "Sw6": "Off",
+                "Sw7": "Off",
+                "Sw8": "Off",
+                "Sw9": "Off"
+            }
+        }
+    },
+    "PCIeDevices": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices"
+    },
+    "PCIeSlots": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeSlots"
+    },
+    "Power": {
+        "@odata.id": "/redfish/v1/Chassis/1/Power"
+    },
+    "PowerState": "On",
+    "SKU": "P18606-B21",
+    "SerialNumber": "MXQ019020B",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thermal": {
+        "@odata.id": "/redfish/v1/Chassis/1/Thermal"
+    }
+}

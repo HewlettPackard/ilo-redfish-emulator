@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"9AC19A42\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/40",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "40",
+    "Created": "2025-05-29T07:12:30Z",
+    "EntryType": "Oem",
+    "Message": "iLO detected more than 3 unauthorized login attempts.",
+    "MessageArgs": [],
+    "MessageId": "35.1100",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 1100,
+            "Count": 1,
+            "EventNumber": 52645,
+            "Severity": "Informational",
+            "Updated": "2025-05-29T07:12:30Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

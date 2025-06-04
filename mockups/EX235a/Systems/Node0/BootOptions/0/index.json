@@ -1,0 +1,12 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/BootOptions/0",
+    "@odata.type": "#BootOption.v1_0_0.BootOption",
+    "Alias": "None",
+    "BootOptionEnabled": true,
+    "BootOptionReference": "ME0-PXE-IP4",
+    "DisplayName": "Management Ethernet0 PXE IPv4",
+    "Id": "0",
+    "Name": "ME0-PXE-IP4",
+    "UefiDevicePath": "PciRoot(0x3)/Pci(0x5,0x1)/Pci(0x0,0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(0040A6833A52,0x1)/IPv4(0.0.0.0,0x0,DHCP,0.0.0.0,0.0.0.0,0.0.0.0)"
+}

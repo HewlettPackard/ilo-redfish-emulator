@@ -1,0 +1,110 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeBiosMapping.HpeBiosMapping",
+    "@odata.etag": "W/\"FD2941C081C8898989AAFF993DE51E6B\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/mappings/",
+    "@odata.type": "#HpeBiosMapping.v2_0_0.HpeBiosMapping",
+    "BiosPciSettingsMappings": [
+        {
+            "Associations": [
+                "EmbSata1PCIeOptionROM"
+            ],
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x17,0x0)",
+            "Instance": 1,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "EmbSata2PCIeOptionROM"
+            ],
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x11,0x5)",
+            "Instance": 2,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot1Enable",
+                "PciSlot1LinkSpeed",
+                "PciSlot1Aspm",
+                "PciSlot1OptionROM",
+                "Ocp1AuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "Instance": 3,
+            "Subinstances": [
+                {
+                    "Associations": [
+                        {
+                            "PreBootNetwork": "Slot1NicPort1"
+                        },
+                        "Slot1NicBoot1"
+                    ],
+                    "CorrelatableID": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+                    "Subinstance": 1
+                },
+                {
+                    "Associations": [
+                        "Slot1NicBoot2"
+                    ],
+                    "CorrelatableID": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x1)",
+                    "Subinstance": 2
+                }
+            ]
+        },
+        {
+            "Associations": [
+                "PciSlot2LinkSpeed",
+                "PciSlot2OptionROM",
+                "Ocp1AuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x2)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "Instance": 4,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot10Enable",
+                "PciSlot10LinkSpeed",
+                "PciSlot10Aspm",
+                "PciSlot10OptionROM",
+                "Ocp1AuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x4)/Pci(0x4,0x0)/Pci(0x0,0x0)",
+            "Instance": 5,
+            "Subinstances": [
+                {
+                    "Associations": [
+                        {
+                            "PreBootNetwork": "Slot10NicPort1"
+                        },
+                        "Slot10NicBoot1"
+                    ],
+                    "CorrelatableID": "PciRoot(0x4)/Pci(0x4,0x0)/Pci(0x0,0x0)",
+                    "Subinstance": 1
+                },
+                {
+                    "Associations": [
+                        "Slot10NicBoot2"
+                    ],
+                    "CorrelatableID": "PciRoot(0x4)/Pci(0x4,0x0)/Pci(0x0,0x1)",
+                    "Subinstance": 2
+                },
+                {
+                    "Associations": [
+                        "Slot10NicBoot3"
+                    ],
+                    "CorrelatableID": "PciRoot(0x4)/Pci(0x4,0x0)/Pci(0x0,0x2)",
+                    "Subinstance": 3
+                },
+                {
+                    "Associations": [
+                        "Slot10NicBoot4"
+                    ],
+                    "CorrelatableID": "PciRoot(0x4)/Pci(0x4,0x0)/Pci(0x0,0x3)",
+                    "Subinstance": 4
+                }
+            ]
+        }
+    ],
+    "Id": "mappings",
+    "Name": "BIOS mappings"
+}

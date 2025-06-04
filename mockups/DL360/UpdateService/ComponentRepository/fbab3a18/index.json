@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/fbab3a18",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "fbab3a18",
+    "Activates": "AfterReboot",
+    "ComponentUri": "/fwrepo/U32_3.42_02_21_2025.fwpkg",
+    "Configuration": "",
+    "Created": "2025-05-09T05:58:40Z",
+    "Criticality": "Optional",
+    "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4",
+    "ExecutionParameters": "",
+    "Filename": "U32_3.42_02_21_2025.fwpkg",
+    "Filepath": "U32_3.42_02_21_2025.fwpkg",
+    "Locked": false,
+    "Name": "ROM Flash Firmware Package - HPE ProLiant DL360 Gen10 (U32) ...",
+    "SizeBytes": 33612215,
+    "Targets": [
+        "00000000-0000-0000-0000-000000000204"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "3.42_02-21-2025"
+}

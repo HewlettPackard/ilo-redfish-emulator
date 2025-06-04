@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot",
+    "@odata.etag": "W/\"46A14746\"",
+    "@odata.id": "/redfish/v1/Systems/1/PCISlots/9",
+    "@odata.type": "#HpeServerPCISlot.v2_1_2.HpeServerPCISlot",
+    "Id": "9",
+    "BusNumber": 222,
+    "Characteristics": {
+        "Provides3_3Volts": true,
+        "SupportsHotPlugDevices": true,
+        "SupportsSMBusSignal": true
+    },
+    "DeviceNumber": 0,
+    "FunctionNumber": 0,
+    "Length": "Other",
+    "LinkLanes": "x4",
+    "Name": "NVMe Slot 48",
+    "Status": {
+        "OperationalStatus": [
+            {
+                "Status": "Empty"
+            }
+        ]
+    },
+    "SupportsHotPlug": true,
+    "Technology": "PCIExpressGen4",
+    "UEFIDevicePath": "PciRoot(0xB)/Pci(0x2,0x0)/Pci(0x0,0x0)"
+}

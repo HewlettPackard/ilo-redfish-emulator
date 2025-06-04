@@ -1,0 +1,205 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeSlots.PCIeSlots",
+    "@odata.etag": "W/\"B293C1CD\"",
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeSlots",
+    "@odata.type": "#PCIeSlots.v1_3_0.PCIeSlots",
+    "Id": "PCIeSlots",
+    "Name": "PCIeSlots",
+    "Slots": [
+        {
+            "HotPluggable": false,
+            "Lanes": 16,
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 1,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "PCI-E Slot 1"
+                }
+            },
+            "PCIeType": "Gen4",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "HotPluggable": false,
+            "Lanes": 16,
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 2,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "PCI-E Slot 2"
+                }
+            },
+            "PCIeType": "Gen4",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Absent"
+            }
+        },
+        {
+            "HotPluggable": false,
+            "Lanes": 8,
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 10,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "OCP Slot 10"
+                }
+            },
+            "PCIeType": "Gen4",
+            "SlotType": "OCP3Small",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "HotPluggable": false,
+            "Lanes": 8,
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 12,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "Storage Controller Slot 12"
+                }
+            },
+            "PCIeType": "Gen4",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "HotPluggable": true,
+            "Lanes": 4,
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 32,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "NVMe Slot 32"
+                }
+            },
+            "PCIeType": "Gen4",
+            "Status": {
+                "Health": "OK",
+                "State": "Absent"
+            }
+        },
+        {
+            "HotPluggable": true,
+            "Lanes": 4,
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 33,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "NVMe Slot 33"
+                }
+            },
+            "PCIeType": "Gen4",
+            "Status": {
+                "Health": "OK",
+                "State": "Absent"
+            }
+        },
+        {
+            "HotPluggable": true,
+            "Lanes": 4,
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 34,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "NVMe Slot 34"
+                }
+            },
+            "PCIeType": "Gen4",
+            "Status": {
+                "Health": "OK",
+                "State": "Absent"
+            }
+        },
+        {
+            "HotPluggable": true,
+            "Lanes": 4,
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 35,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "NVMe Slot 35"
+                }
+            },
+            "PCIeType": "Gen4",
+            "Status": {
+                "Health": "OK",
+                "State": "Absent"
+            }
+        },
+        {
+            "HotPluggable": true,
+            "Lanes": 4,
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 48,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "NVMe Slot 48"
+                }
+            },
+            "PCIeType": "Gen4",
+            "Status": {
+                "Health": "OK",
+                "State": "Absent"
+            }
+        },
+        {
+            "HotPluggable": true,
+            "Lanes": 4,
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 49,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "NVMe Slot 49"
+                }
+            },
+            "PCIeType": "Gen4",
+            "Status": {
+                "Health": "OK",
+                "State": "Absent"
+            }
+        },
+        {
+            "HotPluggable": true,
+            "Lanes": 4,
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 50,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "NVMe Slot 50"
+                }
+            },
+            "PCIeType": "Gen4",
+            "Status": {
+                "Health": "OK",
+                "State": "Absent"
+            }
+        },
+        {
+            "HotPluggable": true,
+            "Lanes": 4,
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 51,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "NVMe Slot 51"
+                }
+            },
+            "PCIeType": "Gen4",
+            "Status": {
+                "Health": "OK",
+                "State": "Absent"
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Controls/NodePowerLimit",
+    "@odata.type": "#Control.v1_0_0.Control",
+    "ControlDelaySeconds": 6,
+    "ControlMode": "Disabled",
+    "ControlType": "Power",
+    "Id": "NodePowerLimit",
+    "Name": "Node Power Limit",
+    "Oem": {
+        "Hpe": {
+            "LimitException": "NoAction",
+            "PowerAllocatedWatts": "2754",
+            "PowerIdleWatts": "0",
+            "PowerLimitFactor": "1.000000",
+            "PowerResetWatts": "0"
+        }
+    },
+    "PhysicalContext": "Chassis",
+    "Sensor": {
+        "DataSourceUri": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator0InputPower",
+        "Reading": 736
+    },
+    "SetPoint": 0,
+    "SettingRangeMax": 2754,
+    "SettingRangeMin": 764,
+    "Status": {
+        "Health": "OK"
+    }
+}

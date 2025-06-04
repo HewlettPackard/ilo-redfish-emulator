@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/AccountService/Accounts/1",
+    "@odata.type": "#ManagerAccount.v1_1_1.ManagerAccount",
+    "Description": "Default Account",
+    "Enabled": true,
+    "Id": "1",
+    "Links": {
+        "Role": {
+            "@odata.id": "/redfish/v1/AccountService/Roles/Administrator"
+        }
+    },
+    "Locked": false,
+    "Name": "Default Account",
+    "RoleId": "Administrator",
+    "UserName": "root"
+}

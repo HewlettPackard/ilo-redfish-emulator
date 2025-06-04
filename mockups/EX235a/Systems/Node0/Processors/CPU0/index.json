@@ -1,0 +1,26 @@
+{
+    "@odata.etag": "W/\"1646162198\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/Processors/CPU0",
+    "@odata.type": "#Processor.v1_7_0.Processor",
+    "Id": "CPU0",
+    "Manufacturer": "Advanced Micro Devices, Inc.",
+    "MaxSpeedMHz": 3500,
+    "MaxTDPWatts": 240,
+    "Model": "AMD Eng Sample: 100-000000248-08_35/21_N",
+    "Name": "Processor",
+    "ProcessorId": {
+        "EffectiveFamily": "0x19",
+        "EffectiveModel": "0x30",
+        "Step": "0x0",
+        "VendorId": "AuthenticAMD"
+    },
+    "ProcessorType": "CPU",
+    "SerialNumber": "099392CW00034",
+    "Socket": "CPU 0",
+    "Status": {
+        "Health": "OK"
+    },
+    "TDPWatts": 240,
+    "TotalCores": 64,
+    "TotalThreads": 128
+}

@@ -1,0 +1,43 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator5Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator5Temperature",
+    "Name": "AOB AVD PCIE VDDIO",
+    "Oem": {
+        "Index": 5,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "U2001"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 39,
+    "ReadingTime": "2022-03-09T21:16:32.818429471Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 19
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 13
+        },
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 6
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 75
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 85
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 125
+        }
+    }
+}

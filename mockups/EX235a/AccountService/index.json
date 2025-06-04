@@ -1,0 +1,25 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/AccountService",
+    "@odata.type": "#AccountService.v1_2_1.AccountService",
+    "AccountLockoutCounterResetAfter": 30,
+    "AccountLockoutDuration": 30,
+    "AccountLockoutThreshold": 5,
+    "Accounts": {
+        "@odata.id": "/redfish/v1/AccountService/Accounts"
+    },
+    "AuthFailureLoggingThreshold": 3,
+    "Description": "BMC User Accounts",
+    "Id": "AccountService",
+    "MaxPasswordLength": 12,
+    "MinPasswordLength": 8,
+    "Name": "Account Service",
+    "Roles": {
+        "@odata.id": "/redfish/v1/AccountService/Roles"
+    },
+    "ServiceEnabled": true,
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,254 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricReport.MetricReport",
+    "@odata.etag": "W/\"21D55655\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPU1PowerCustom1",
+    "@odata.type": "#MetricReport.v1_0_0.MetricReport",
+    "Id": "CPU1PowerCustom1",
+    "Description": "Metric report of average CPU1 power for 10 minutes with sensing interval of 20 seconds.",
+    "MetricReportDefinition": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPU1PowerCustom1"
+    },
+    "MetricValues": [
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "31",
+            "Timestamp": "2025-05-29T10:57:01Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T10:57:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T10:57:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T10:58:01Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T10:58:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "31",
+            "Timestamp": "2025-05-29T10:58:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T10:59:01Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T10:59:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "31",
+            "Timestamp": "2025-05-29T10:59:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T11:00:01Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T11:00:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "32",
+            "Timestamp": "2025-05-29T11:00:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "33",
+            "Timestamp": "2025-05-29T11:01:01Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "32",
+            "Timestamp": "2025-05-29T11:01:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "29",
+            "Timestamp": "2025-05-29T11:01:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "32",
+            "Timestamp": "2025-05-29T11:02:01Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T11:02:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "33",
+            "Timestamp": "2025-05-29T11:02:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "31",
+            "Timestamp": "2025-05-29T11:03:01Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T11:03:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T11:03:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "31",
+            "Timestamp": "2025-05-29T11:04:01Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T11:04:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "31",
+            "Timestamp": "2025-05-29T11:04:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "31",
+            "Timestamp": "2025-05-29T11:05:01Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T11:05:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T11:05:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T11:06:01Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T11:06:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+            },
+            "MetricId": "CPU1Power",
+            "MetricValue": "30",
+            "Timestamp": "2025-05-29T11:06:41Z"
+        }
+    ],
+    "Name": "Metric report of average CPU1 power for 10 minutes with sensing interval of 20 seconds."
+}

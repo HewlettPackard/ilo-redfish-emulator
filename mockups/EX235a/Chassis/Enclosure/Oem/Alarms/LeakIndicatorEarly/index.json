@@ -1,0 +1,11 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Oem/Alarms/LeakIndicatorEarly",
+    "@odata.type": "#Alarm.v0_9_0.Alarm",
+    "AlarmState": "Armed",
+    "AutomaticReArm": true,
+    "Description": "First indication of a leak from a leak sensor.",
+    "Id": "LeakIndicatorEarly",
+    "Name": "Enclosure LeakIndicatorEarly Alarm",
+    "Severity": "Warning"
+}

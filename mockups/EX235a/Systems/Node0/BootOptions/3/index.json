@@ -1,0 +1,12 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/BootOptions/3",
+    "@odata.type": "#BootOption.v1_0_0.BootOption",
+    "Alias": "None",
+    "BootOptionEnabled": true,
+    "BootOptionReference": "HSN0-PXE-IP6",
+    "DisplayName": "High Speed NIC0 PXE IPv6",
+    "Id": "3",
+    "Name": "HSN0-PXE-IP6",
+    "UefiDevicePath": "PciRoot(0x5)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(0040A685137B,0x0)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000,0x0,Static,0000:0000:0000:0000:0000:0000:0000:0000,0x40,0000:0000:0000:0000:0000:0000:0000:0000)"
+}

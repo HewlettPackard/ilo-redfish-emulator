@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"0\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices",
+    "@odata.type": "#LogServiceCollection.LogServiceCollection",
+    "Description": "Collection of Log Services for this System",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL"
+        }
+    ],
+    "Members@odata.count": 3,
+    "Name": "Log Service Collection"
+}

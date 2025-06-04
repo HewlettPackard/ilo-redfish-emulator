@@ -1,0 +1,52 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE080000/Settings",
+    "@odata.type": "#NetworkAdapter.v1_9_0.NetworkAdapter",
+    "@odata.etag": "W/\"4DB021F1\"",
+    "@Redfish.SettingsApplyTime": {
+        "ApplyTime": "OnReset"
+    },
+    "Controllers": [
+        {
+            "ControllerCapabilities": {
+                "DataCenterBridging": {
+                    "Capable": true
+                },
+                "NetworkDeviceFunctionCount": 2,
+                "NetworkPortCount": 2,
+                "VirtualizationOffload": {
+                    "SRIOV": {
+                        "SRIOVVEPACapable": false
+                    },
+                    "VirtualFunction": {
+                        "DeviceMaxCount": 254,
+                        "MinAssignmentGroupSize": 0,
+                        "NetworkPortMaxCount": 127
+                    }
+                },
+                "NPAR": {
+                    "NparCapable": false,
+                    "NparEnabled": false
+                }
+            },
+            "FirmwarePackageVersion": "16.35.4030"
+        }
+    ],
+    "Id": "DE080000",
+    "Manufacturer": "MLNX",
+    "Model": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter",
+    "Name": "NetworkAdapter",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE080000/NetworkDeviceFunctions"
+    },
+    "PartNumber": "P13186-001",
+    "SKU": "P13186-001",
+    "SerialNumber": "ILC220027S",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Ports": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE080000/Ports"
+    }
+}

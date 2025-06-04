@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/e93ced8b",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "e93ced8b",
+    "Activates": "AfterReboot",
+    "ComponentUri": "/fwrepo/cp051643.zip",
+    "Configuration": "",
+    "Created": "2023-04-03T21:33:01Z",
+    "Criticality": "Optional",
+    "DeviceClass": "c734e171-8721-48c9-9ed6-d5bc7da5ef8d",
+    "ExecutionParameters": "-s -f -e -g",
+    "Filename": "cp051643.zip",
+    "Filepath": "cp051643.zip",
+    "Locked": false,
+    "Name": "Innovation Engine (IE) Fimware",
+    "SizeBytes": 8394825,
+    "Targets": [
+        "a6b1a447-382a-5a4f-3c10-87800a000303"
+    ],
+    "UpdatableBy": [
+        "Uefi"
+    ],
+    "Version": "1.0.0.22"
+}

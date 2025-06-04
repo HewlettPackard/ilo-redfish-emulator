@@ -1,0 +1,28 @@
+{
+    "@odata.etag": "W/\"0\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog",
+    "@odata.type": "#LogService.v1_0_4.LogService",
+    "Actions": {
+        "#LogService.ClearLog": {
+            "ClearType@Redfish.AllowableValues": [
+                "ClearAll"
+            ],
+            "target": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Actions/LogService.ClearLog"
+        }
+    },
+    "DateTime": "2022-03-09T21:17:16Z",
+    "DateTimeLocalOffset": "0",
+    "Description": "Audit log for this manager",
+    "Entries": {
+        "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries"
+    },
+    "Id": "AuditLog",
+    "MaxNumberOfRecords": 300,
+    "Name": "Audit Log",
+    "OverWritePolicy": "WrapsWhenFull",
+    "ServiceEnabled": true,
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

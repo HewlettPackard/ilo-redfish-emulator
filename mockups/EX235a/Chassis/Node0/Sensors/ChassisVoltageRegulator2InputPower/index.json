@@ -1,0 +1,32 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator2InputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator2InputPower",
+    "Name": "PDB INRUSH CPU",
+    "Oem": {
+        "Index": 2,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "U1"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 311.578,
+    "ReadingTime": "2022-03-09T21:16:21.620287150Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 1401
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 1478
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 1556
+        }
+    }
+}

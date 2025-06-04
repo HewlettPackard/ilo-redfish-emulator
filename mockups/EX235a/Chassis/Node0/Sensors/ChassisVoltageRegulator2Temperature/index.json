@@ -1,0 +1,31 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator2Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator2Temperature",
+    "Name": "PDB INRUSH CPU",
+    "Oem": {
+        "Index": 2,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "U1"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 27.1,
+    "ReadingTime": "2022-03-09T21:16:23.637427310Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 157.5
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 166.25
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 175
+        }
+    }
+}

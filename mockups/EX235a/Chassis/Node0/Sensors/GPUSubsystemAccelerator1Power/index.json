@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/GPUSubsystemAccelerator1Power",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "GPUSubsystemAccelerator1Power",
+    "Name": "accel1",
+    "Oem": {
+        "Index": 1,
+        "ParentalContext": "GPUSubsystem"
+    },
+    "PhysicalContext": "Accelerator",
+    "Reading": 116,
+    "ReadingTime": "2022-03-09T21:16:26.224988223Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"731ADC37\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/3",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "3",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/3"
+        }
+    ],
+    "DeviceType": "LOM/NIC",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "1.3310.0"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/3"
+        }
+    },
+    "Location": "OCP 3.0 Slot 10",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "Intel Corporation",
+    "Name": "Intel Eth Adptr I350T4 OCPv3",
+    "PartNumber": "MM#999HCV",
+    "ProductPartNumber": "K53978-005",
+    "ProductVersion": "K53978-005",
+    "SerialNumber": "507C6F139096",
+    "Status": {
+        "Health": null,
+        "State": null
+    }
+}

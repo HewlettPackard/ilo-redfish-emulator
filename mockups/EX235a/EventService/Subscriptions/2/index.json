@@ -1,0 +1,21 @@
+{
+    "@odata.etag": "W/\"1645997510\"",
+    "@odata.id": "/redfish/v1/EventService/Subscriptions/2",
+    "@odata.type": "#EventDestination.v1_2_1.EventDestination",
+    "Context": "x9000c3s0b0",
+    "Destination": "http://10.94.100.71/x9000c3s0b0",
+    "EventTypes": [
+        "ResourceAdded",
+        "ResourceUpdated",
+        "StatusChange",
+        "ResourceRemoved",
+        "Alert"
+    ],
+    "Id": "2",
+    "Name": "Subscription 2",
+    "OriginResources@odata.count": 0,
+    "Protocol": "Redfish",
+    "RegistryPrefixes": [
+        "CrayTelemetry"
+    ]
+}

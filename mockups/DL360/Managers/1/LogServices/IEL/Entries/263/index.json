@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"4C0FC071\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/263",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "263",
+    "Created": "2025-05-29T10:57:14Z",
+    "EntryType": "Oem",
+    "Message": "Browser login failure from: 172.22.245.4(DNS name not found).",
+    "MessageArgs": [],
+    "MessageId": "35.1000",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Invalid User Input"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 1000,
+            "Count": 1,
+            "EventNumber": 52868,
+            "Severity": "Caution",
+            "Updated": "2025-05-29T10:57:14Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "Warning"
+}

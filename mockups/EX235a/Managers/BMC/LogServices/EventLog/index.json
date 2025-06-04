@@ -1,0 +1,28 @@
+{
+    "@odata.etag": "W/\"0\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog",
+    "@odata.type": "#LogService.v1_0_4.LogService",
+    "Actions": {
+        "#LogService.ClearLog": {
+            "ClearType@Redfish.AllowableValues": [
+                "ClearAll"
+            ],
+            "target": "/redfish/v1/Managers/BMC/LogServices/EventLog/Actions/LogService.ClearLog"
+        }
+    },
+    "DateTime": "2022-03-09T21:17:11Z",
+    "DateTimeLocalOffset": "0",
+    "Description": "Event log for this manager",
+    "Entries": {
+        "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries"
+    },
+    "Id": "EventLog",
+    "MaxNumberOfRecords": 300,
+    "Name": "Event Log",
+    "OverWritePolicy": "WrapsWhenFull",
+    "ServiceEnabled": true,
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

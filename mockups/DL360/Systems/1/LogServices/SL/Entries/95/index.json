@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"B8D7903C\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/95",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "95",
+    "Created": "2023-11-07T06:35:42Z",
+    "EntryType": "Oem",
+    "Message": "Access options IPMI/DCMI modified by: Administrator.",
+    "MessageArgs": [],
+    "MessageId": "55.18",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 55,
+            "ClassDescription": "Security Configuration",
+            "Code": 18,
+            "Count": 1,
+            "EventNumber": 120,
+            "Severity": "Informational",
+            "Updated": "2023-11-07T06:35:42Z",
+            "UserAction": "Not Applicable"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "OK"
+}

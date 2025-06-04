@@ -1,0 +1,57 @@
+{
+    "@Redfish.Copyright": "Copyright 2018 Cray Inc. All rights reserved.",
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Registries/CrayTelemetry.1.0.0.json",
+    "@odata.type": "#MessageRegistry.v1_0_0.MessageRegistry",
+    "Description": "Cray high-speed telemetry messages for Redfish",
+    "Id": "CrayTelemetry.1.0.0",
+    "Language": "en",
+    "Messages": {
+        "Energy": {
+            "Description": "Includes all enabled energy sensors in Joules",
+            "Message": "See Oem/CrayPayload property",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "Fan": {
+            "Description": "Includes all enabled fan speed sensors in RPMs",
+            "Message": "See Oem/CrayPayload property",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "Power": {
+            "Description": "Includes all enabled power sensors in watts",
+            "Message": "See Oem/CrayPayload property",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "Pressure": {
+            "Description": "Includes all enabled pressure sensors in PSI",
+            "Message": "See Oem/CrayPayload property",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "Temperature": {
+            "Description": "Includes all enabled temperature sensors in Celsius",
+            "Message": "See Oem/CrayPayload property",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "Voltage": {
+            "Description": "Includes all enabled Voltage sensors in volts",
+            "Message": "See Oem/CrayPayload property",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        }
+    },
+    "Name": "Cray Telemetry Message Registry",
+    "OwningEntity": "CrayTelemetry",
+    "RegistryPrefix": "CrayTelemetry",
+    "RegistryVersion": "1.0.0"
+}

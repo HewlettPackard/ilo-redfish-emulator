@@ -1,0 +1,22 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/7",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2022-03-01T19:17:41+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2022-03-01T19:17:41+00:00",
+    "Id": "7",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "The PDB INRUSH ACCEL1 Voltage resource has detected a critical fault indicating that it is far below normal operating conditions.",
+    "MessageArgs": [
+        "below",
+        "PDB INRUSH ACCEL1 Voltage"
+    ],
+    "MessageId": "CrayAlerts.HardwareCriticalFaultDetected",
+    "Name": "Log entry 7",
+    "Severity": "Critical"
+}

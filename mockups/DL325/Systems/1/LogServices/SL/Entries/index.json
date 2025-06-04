@@ -1,0 +1,3184 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "W/\"0E10600A\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Security Logs view",
+    "Name": "Security Logs",
+    "Members": [
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/1",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "1",
+            "Created": "2020-05-09T04:00:32Z",
+            "EntryType": "Oem",
+            "Message": "Security log cleared by: System Administrator",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 4,
+                    "Count": 1,
+                    "EventNumber": 22,
+                    "Severity": "Informational",
+                    "Updated": "2020-05-09T04:00:32Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/2",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "2",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 23,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "0000-00-00T00:00:00Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/3",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "3",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 24,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "0000-00-00T00:00:00Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/4",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "4",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 25,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "0000-00-00T00:00:00Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/5",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "5",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 26,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "0000-00-00T00:00:00Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/6",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "6",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 27,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "0000-00-00T00:00:00Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/7",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "7",
+            "Created": "2020-09-11T21:15:48Z",
+            "EntryType": "Oem",
+            "Message": "iLO detected 3 unauthorized login attempts.",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration"
+                    ],
+                    "Class": 56,
+                    "ClassDescription": "Denial of Service",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 28,
+                    "Severity": "Informational",
+                    "Updated": "2020-09-11T21:15:48Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/8",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "8",
+            "Created": "2020-09-11T21:26:41Z",
+            "EntryType": "Oem",
+            "Message": "iLO detected 3 unauthorized login attempts.",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration"
+                    ],
+                    "Class": 56,
+                    "ClassDescription": "Denial of Service",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 29,
+                    "Severity": "Informational",
+                    "Updated": "2020-09-11T21:26:41Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/9",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "9",
+            "Created": "2020-09-11T21:32:42Z",
+            "EntryType": "Oem",
+            "Message": "iLO detected 3 unauthorized login attempts.",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration"
+                    ],
+                    "Class": 56,
+                    "ClassDescription": "Denial of Service",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 30,
+                    "Severity": "Informational",
+                    "Updated": "2020-09-11T21:32:42Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/10",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "10",
+            "Created": "2020-09-11T22:00:49Z",
+            "EntryType": "Oem",
+            "Message": "iLO detected 3 unauthorized login attempts.",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration"
+                    ],
+                    "Class": 56,
+                    "ClassDescription": "Denial of Service",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 31,
+                    "Severity": "Informational",
+                    "Updated": "2020-09-11T22:00:49Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/11",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "11",
+            "Created": "2020-09-18T14:01:27Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 32,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:01:27Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/12",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "12",
+            "Created": "2020-09-18T14:06:03Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 33,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:06:03Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/13",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "13",
+            "Created": "2020-09-18T14:06:07Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 34,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:06:07Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/14",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "14",
+            "Created": "2020-09-18T14:06:15Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 35,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:06:15Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/15",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "15",
+            "Created": "2020-09-18T14:06:19Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 36,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:06:19Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/16",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "16",
+            "Created": "2020-09-18T14:10:53Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 37,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:10:53Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/17",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "17",
+            "Created": "2020-09-18T14:10:56Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 38,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:10:56Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/18",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "18",
+            "Created": "2020-09-18T14:15:19Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 39,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:15:19Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/19",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "19",
+            "Created": "2020-09-18T14:15:22Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 40,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:15:22Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/20",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "20",
+            "Created": "2020-09-18T14:15:36Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 41,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:15:36Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/21",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "21",
+            "Created": "2020-09-18T14:15:39Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 42,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:15:39Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/22",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "22",
+            "Created": "2020-09-18T14:20:02Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 43,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:20:02Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/23",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "23",
+            "Created": "2020-09-18T14:20:06Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 44,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:20:06Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/24",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "24",
+            "Created": "2020-09-18T14:20:21Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 45,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:20:21Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/25",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "25",
+            "Created": "2020-09-18T14:20:24Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 46,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:20:24Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/26",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "26",
+            "Created": "2020-09-18T14:24:47Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 47,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:24:47Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/27",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "27",
+            "Created": "2020-09-18T14:24:50Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 48,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:24:50Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/28",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "28",
+            "Created": "2020-09-18T14:25:05Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 49,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:25:05Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/29",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "29",
+            "Created": "2020-09-18T14:25:08Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 50,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:25:08Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/30",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "30",
+            "Created": "2020-09-18T14:29:31Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 51,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:29:31Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/31",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "31",
+            "Created": "2020-09-18T14:29:34Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 52,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:29:34Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/32",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "32",
+            "Created": "2020-09-18T14:29:49Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 53,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:29:49Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/33",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "33",
+            "Created": "2020-09-18T14:29:52Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 54,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:29:52Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/34",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "34",
+            "Created": "2020-09-18T14:34:15Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 55,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:34:15Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/35",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "35",
+            "Created": "2020-09-18T14:34:18Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 56,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:34:18Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/36",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "36",
+            "Created": "2020-09-18T14:34:33Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 57,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:34:33Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/37",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "37",
+            "Created": "2020-09-18T14:34:36Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 58,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:34:36Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/38",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "38",
+            "Created": "2020-09-18T14:38:59Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 59,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:38:59Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/39",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "39",
+            "Created": "2020-09-18T14:39:02Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 60,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:39:02Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/40",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "40",
+            "Created": "2020-09-18T14:39:17Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 61,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:39:17Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/41",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "41",
+            "Created": "2020-09-18T14:39:20Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 62,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:39:20Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/42",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "42",
+            "Created": "2020-09-18T14:43:43Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 63,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:43:43Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/43",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "43",
+            "Created": "2020-09-18T14:43:46Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 64,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:43:46Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/44",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "44",
+            "Created": "2020-09-18T14:44:01Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 65,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:44:01Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/45",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "45",
+            "Created": "2020-09-18T14:44:04Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 66,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:44:04Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/46",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "46",
+            "Created": "2020-09-18T14:48:27Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 67,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:48:27Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/47",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "47",
+            "Created": "2020-09-18T14:48:30Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 68,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:48:30Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/48",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "48",
+            "Created": "2020-09-18T14:48:45Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 69,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:48:45Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/49",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "49",
+            "Created": "2020-09-18T14:48:48Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 70,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:48:48Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/50",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "50",
+            "Created": "2020-09-18T14:53:11Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 71,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:53:11Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/51",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "51",
+            "Created": "2020-09-18T14:53:14Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 72,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:53:14Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/52",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "52",
+            "Created": "2020-09-18T14:53:29Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 73,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:53:29Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/53",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "53",
+            "Created": "2020-09-18T14:53:32Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 74,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:53:32Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/54",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "54",
+            "Created": "2020-09-18T14:57:55Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 75,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:57:55Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/55",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "55",
+            "Created": "2020-09-18T14:57:59Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 76,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:57:59Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/56",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "56",
+            "Created": "2020-09-18T14:58:14Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 77,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:58:14Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/57",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "57",
+            "Created": "2020-09-18T14:58:17Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 78,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T14:58:17Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/58",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "58",
+            "Created": "2020-09-18T15:02:40Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 79,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T15:02:40Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/59",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "59",
+            "Created": "2020-09-18T15:02:43Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 80,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T15:02:43Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/60",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "60",
+            "Created": "2020-09-18T15:02:58Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 81,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T15:02:58Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/61",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "61",
+            "Created": "2020-09-18T15:03:01Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 82,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T15:03:01Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/62",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "62",
+            "Created": "2020-09-18T15:07:24Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 83,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T15:07:24Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/63",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "63",
+            "Created": "2020-09-18T15:07:27Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 84,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T15:07:27Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/64",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "64",
+            "Created": "2020-09-18T15:07:42Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 85,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T15:07:42Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/65",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "65",
+            "Created": "2020-09-18T15:07:45Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 86,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T15:07:45Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/66",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "66",
+            "Created": "2020-09-18T15:12:08Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 87,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T15:12:08Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/67",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "67",
+            "Created": "2020-09-18T15:12:11Z",
+            "EntryType": "Oem",
+            "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Unknown"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 631,
+                    "Count": 1,
+                    "EventNumber": 88,
+                    "Severity": "Caution",
+                    "Updated": "2020-09-18T15:12:11Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/68",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "68",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 89,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "0000-00-00T00:00:00Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/69",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "69",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 90,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "0000-00-00T00:00:00Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/70",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "70",
+            "Created": "2021-01-28T14:43:52Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 91,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-01-28T14:43:52Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/71",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "71",
+            "Created": "2021-01-29T13:49:29Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 92,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-01-29T13:49:29Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/72",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "72",
+            "Created": "2021-02-25T02:28:51Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 93,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-02-25T02:28:51Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/73",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "73",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 94,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "0000-00-00T00:00:00Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/74",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "74",
+            "Created": "2021-03-01T21:05:38Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 95,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-03-01T21:05:38Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/75",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "75",
+            "Created": "2021-03-03T16:14:11Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 96,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-03-03T16:14:11Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/76",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "76",
+            "Created": "2021-03-03T16:15:22Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 97,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-03-03T16:15:22Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/77",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "77",
+            "Created": "2021-03-08T16:04:24Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 98,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-03-08T16:04:24Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/78",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "78",
+            "Created": "2021-03-09T17:49:28Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 99,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-03-09T17:49:28Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/79",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "79",
+            "Created": "2021-03-09T23:47:56Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 100,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-03-09T23:47:56Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/80",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "80",
+            "Created": "2021-05-03T12:52:56Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 101,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-05-03T12:52:56Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/81",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "81",
+            "Created": "2021-05-04T21:07:05Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 102,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-05-04T21:07:05Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/82",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "82",
+            "Created": "2021-05-12T12:26:34Z",
+            "EntryType": "Oem",
+            "Message": "iLO Network configuration modified by: root.",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 19,
+                    "Count": 1,
+                    "EventNumber": 103,
+                    "Severity": "Informational",
+                    "Updated": "2021-05-12T12:26:34Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/83",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "83",
+            "Created": "2021-05-12T12:28:21Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 104,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-05-12T12:28:21Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/84",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "84",
+            "Created": "2021-05-12T20:32:26Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 105,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-05-12T20:32:26Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/85",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "85",
+            "Created": "2021-05-12T20:37:30Z",
+            "EntryType": "Oem",
+            "Message": "iLO Network configuration modified by: root.",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 19,
+                    "Count": 1,
+                    "EventNumber": 106,
+                    "Severity": "Informational",
+                    "Updated": "2021-05-12T20:37:30Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/86",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "86",
+            "Created": "2021-05-12T20:38:28Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 107,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-05-12T20:38:28Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/87",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "87",
+            "Created": "2021-05-12T20:44:38Z",
+            "EntryType": "Oem",
+            "Message": "iLO Network configuration modified by: root.",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 19,
+                    "Count": 1,
+                    "EventNumber": 108,
+                    "Severity": "Informational",
+                    "Updated": "2021-05-12T20:44:38Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/88",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "88",
+            "Created": "2021-05-12T20:45:36Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 109,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-05-12T20:45:36Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/89",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "89",
+            "Created": "2021-05-13T15:09:34Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 110,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-05-13T15:09:34Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/90",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "90",
+            "Created": "2021-06-03T16:58:26Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 111,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-06-03T16:58:26Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/91",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "91",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 112,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "0000-00-00T00:00:00Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/92",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "92",
+            "Created": "2021-06-15T21:13:29Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 113,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-06-15T21:13:29Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/93",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "93",
+            "Created": "2021-06-17T23:27:46Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 114,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-06-17T23:27:46Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/94",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "94",
+            "Created": "2021-06-21T15:56:01Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 115,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-06-21T15:56:01Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/95",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "95",
+            "Created": "2021-06-22T18:07:03Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 116,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-06-22T18:07:03Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/96",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "96",
+            "Created": "2021-06-22T18:20:10Z",
+            "EntryType": "Oem",
+            "Message": "iLO Network configuration modified by: root.",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 19,
+                    "Count": 1,
+                    "EventNumber": 117,
+                    "Severity": "Informational",
+                    "Updated": "2021-06-22T18:20:10Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/97",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "97",
+            "Created": "2021-06-22T18:21:09Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 118,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-06-22T18:21:09Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/98",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "98",
+            "Created": "2021-08-26T20:45:14Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 119,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-08-26T20:45:14Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/99",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "99",
+            "Created": "2021-11-10T23:44:06Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 120,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-11-10T23:44:06Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/100",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "100",
+            "Created": "2021-11-18T23:20:06Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 121,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-11-18T23:20:06Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/101",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "101",
+            "Created": "2021-11-18T23:26:03Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 122,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2021-11-18T23:26:03Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/102",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "102",
+            "Created": "2022-03-11T11:43:24Z",
+            "EntryType": "Oem",
+            "Message": "iLO Network configuration modified by: root.",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 19,
+                    "Count": 1,
+                    "EventNumber": 123,
+                    "Severity": "Informational",
+                    "Updated": "2022-03-11T11:43:24Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/103",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "103",
+            "Created": "2022-03-11T11:44:16Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 124,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2022-03-11T11:44:16Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/104",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "104",
+            "Created": "2022-03-11T13:45:53Z",
+            "EntryType": "Oem",
+            "Message": "iLO Network configuration modified by: root.",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 19,
+                    "Count": 1,
+                    "EventNumber": 125,
+                    "Severity": "Informational",
+                    "Updated": "2022-03-11T13:45:53Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/105",
+            "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+            "Id": "105",
+            "Created": "2022-03-11T13:46:25Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 126,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2022-03-11T13:46:25Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        }
+    ],
+    "Members@odata.count": 105
+}

@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/efb33d94",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "efb33d94",
+    "Activates": "AfterReboot",
+    "ComponentUri": "/fwrepo/cp052878.zip",
+    "Configuration": "",
+    "Created": "2023-04-03T21:33:50Z",
+    "Criticality": "Optional",
+    "DeviceClass": "b34e5677-21dc-45d3-872b-42f76fee9053",
+    "ExecutionParameters": "-s -f -e -g",
+    "Filename": "cp052878.zip",
+    "Filepath": "cp052878.zip",
+    "Locked": false,
+    "Name": "Server Platform Services (SPS) Firmware",
+    "SizeBytes": 8394784,
+    "Targets": [
+        "a6b1a447-382a-5a4f-3c10-87800a000101"
+    ],
+    "UpdatableBy": [
+        "Uefi"
+    ],
+    "Version": "04.04.04.202"
+}

@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Oem/Alarms",
+    "@odata.type": "#AlarmCollection.AlarmCollection",
+    "Description": "The Collection For Alarms",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure/Oem/Alarms/LeakIndicatorFatal"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure/Oem/Alarms/LeakIndicatorSustained"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure/Oem/Alarms/LeakIndicatorEarly"
+        }
+    ],
+    "Members@odata.count": 3,
+    "Name": "Alarm Collection"
+}

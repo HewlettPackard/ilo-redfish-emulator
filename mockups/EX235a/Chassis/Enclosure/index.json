@@ -1,0 +1,33 @@
+{
+    "@odata.etag": "W/\"1645567260\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure",
+    "@odata.type": "#Chassis.v1_5_1.Chassis",
+    "AssetTag": "",
+    "ChassisType": "Enclosure",
+    "Description": "BardPeakNC",
+    "Id": "Enclosure",
+    "Manufacturer": "HPE",
+    "Model": "BardPeakNC",
+    "Name": "Enclosure",
+    "NetworkAdapters": {
+        "@odata.id": "/redfish/v1/Chassis/Enclosure/NetworkAdapters"
+    },
+    "Oem": {
+        "Alarms": {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure/Oem/Alarms"
+        },
+        "TriggeredAlarms": []
+    },
+    "PartNumber": "P37085-001.A",
+    "Power": {
+        "@odata.id": "/redfish/v1/Chassis/Enclosure/Power"
+    },
+    "Sensors": {
+        "@odata.id": "/redfish/v1/Chassis/Enclosure/Sensors"
+    },
+    "SerialNumber": "GE21100074",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

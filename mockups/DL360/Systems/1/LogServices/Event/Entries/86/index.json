@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"66BA702A\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/86",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "86",
+    "Created": "2025-05-29T06:35:55Z",
+    "EntryType": "Oem",
+    "EventId": "6e6af542-1ba9-ca9c-1122-d22e30d91c0e",
+    "EventTimestamp": "2025-05-29T06:35:55Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/12/DiskDrives/8"
+        }
+    },
+    "MessageArgs": [
+        "Port=2I:Box=1:Bay=1",
+        "Slot 12"
+    ],
+    "MessageId": "iLOEvents.3.15.DrvArrPhysDrvErasing",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "Warning"
+}

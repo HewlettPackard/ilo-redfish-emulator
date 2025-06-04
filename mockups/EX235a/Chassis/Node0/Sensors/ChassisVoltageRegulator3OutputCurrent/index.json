@@ -1,0 +1,32 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator3OutputCurrent",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator3OutputCurrent",
+    "Name": "AOB VDD 0V8",
+    "Oem": {
+        "Index": 3,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "U2000"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 7,
+    "ReadingTime": "2022-03-09T21:16:23.647984906Z",
+    "ReadingType": "Current",
+    "ReadingUnits": "A",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 14.8
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 15.54
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 16.317
+        }
+    }
+}

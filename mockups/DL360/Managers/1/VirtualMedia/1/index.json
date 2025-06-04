@@ -1,0 +1,41 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#VirtualMedia.VirtualMedia",
+    "@odata.etag": "W/\"3BA325EC\"",
+    "@odata.id": "/redfish/v1/Managers/1/VirtualMedia/1",
+    "@odata.type": "#VirtualMedia.v1_3_0.VirtualMedia",
+    "Id": "1",
+    "Actions": {
+        "#VirtualMedia.EjectMedia": {
+            "target": "/redfish/v1/Managers/1/VirtualMedia/1/Actions/VirtualMedia.EjectMedia"
+        },
+        "#VirtualMedia.InsertMedia": {
+            "target": "/redfish/v1/Managers/1/VirtualMedia/1/Actions/VirtualMedia.InsertMedia"
+        }
+    },
+    "ConnectedVia": "URI",
+    "Description": "Virtual Removable Media",
+    "Image": "http://172.18.58.146:8080/api/file-copy-request/download/44cf87d0-cf23-430e-bc43-6c6decbfe3f2",
+    "ImageName": "44cf87d0-cf23-430e-bc43-6c6decbfe3f2",
+    "Inserted": true,
+    "MediaTypes": [
+        "Floppy",
+        "USBStick"
+    ],
+    "Name": "VirtualMedia",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOVirtualMedia.HpeiLOVirtualMedia",
+            "@odata.type": "#HpeiLOVirtualMedia.v2_2_0.HpeiLOVirtualMedia",
+            "Actions": {
+                "#HpeiLOVirtualMedia.EjectVirtualMedia": {
+                    "target": "/redfish/v1/Managers/1/VirtualMedia/1/Actions/Oem/Hpe/HpeiLOVirtualMedia.EjectVirtualMedia"
+                },
+                "#HpeiLOVirtualMedia.InsertVirtualMedia": {
+                    "target": "/redfish/v1/Managers/1/VirtualMedia/1/Actions/Oem/Hpe/HpeiLOVirtualMedia.InsertVirtualMedia"
+                }
+            }
+        }
+    },
+    "TransferProtocolType": "HTTP",
+    "WriteProtected": true
+}

@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/AccountService/Roles/Operator",
+    "@odata.type": "#Role.v1_2_0.Role",
+    "AssignedPrivileges": [
+        "Login",
+        "ConfigureComponents",
+        "ConfigureSelf"
+    ],
+    "Description": "Operator User Role",
+    "Id": "Operator",
+    "IsPredefined": true,
+    "Name": "User Role",
+    "OemPrivileges": [
+        "Login",
+        "ConfigureComponents",
+        "ConfigureSelf"
+    ]
+}

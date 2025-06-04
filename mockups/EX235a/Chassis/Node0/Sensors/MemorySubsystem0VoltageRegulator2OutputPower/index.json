@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/MemorySubsystem0VoltageRegulator2OutputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "MemorySubsystem0VoltageRegulator2OutputPower",
+    "Name": "CPU0 DIMM VDD_VPP_ABCD_S0",
+    "Oem": {
+        "Index": 2,
+        "ParentalContext": "MemorySubsystem",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U3015"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 0,
+    "ReadingTime": "2022-03-09T21:16:32.990621657Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

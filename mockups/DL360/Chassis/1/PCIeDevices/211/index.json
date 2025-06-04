@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "W/\"4DA55F10\"",
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/211",
+    "@odata.type": "#PCIeDevice.v1_5_0.PCIeDevice",
+    "Id": "211",
+    "FirmwareVersion": "N/A",
+    "Manufacturer": "",
+    "Model": "",
+    "Name": "PCIe Controller",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/211/PCIeFunctions"
+    },
+    "PartNumber": "",
+    "SKU": "",
+    "SerialNumber": "",
+    "Status": {
+        "Health": null,
+        "State": null
+    }
+}

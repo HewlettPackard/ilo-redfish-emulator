@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"E28A2D72\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/88",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "88",
+    "Created": "2025-05-29T06:35:56Z",
+    "EntryType": "Oem",
+    "EventId": "bf457145-b1cd-9bee-fa89-e0c0498657d9",
+    "EventTimestamp": "2025-05-29T06:35:56Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/DE00A000/Drives/2556"
+        }
+    },
+    "MessageArgs": [
+        "Slot=12:Port=2I:Box=1:Bay=1"
+    ],
+    "MessageId": "StorageDevice.1.1.DriveOffline",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

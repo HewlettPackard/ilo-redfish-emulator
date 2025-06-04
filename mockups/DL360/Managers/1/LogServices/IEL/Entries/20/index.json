@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"7E51AFC6\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/20",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "20",
+    "Created": "2025-05-29T06:48:35Z",
+    "EntryType": "Oem",
+    "Message": "Host REST login: System Administrator",
+    "MessageArgs": [],
+    "MessageId": "35.1131",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 1131,
+            "Count": 1,
+            "EventNumber": 52625,
+            "Severity": "Informational",
+            "Updated": "2025-05-29T06:48:35Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

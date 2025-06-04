@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"C982A4B7\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/35",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "35",
+    "Created": "2025-05-28T15:04:06Z",
+    "EntryType": "Oem",
+    "EventId": "a9dca806-17c9-1822-bbfa-e2629257dadd",
+    "EventTimestamp": "2025-05-28T15:04:06Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE00B000/Volumes/1"
+        }
+    },
+    "MessageArgs": [
+        "1",
+        "Slot=12"
+    ],
+    "MessageId": "StorageDevice.1.1.VolumeOK",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

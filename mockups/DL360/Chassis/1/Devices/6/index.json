@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"83827ABB\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/6",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "6",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/5"
+        }
+    ],
+    "DeviceType": "Smart Storage",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "03.01.33.044"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/4"
+        }
+    },
+    "Location": "Storage Slot 12",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "HPE",
+    "Name": "HPE SR416i-a Gen10+",
+    "PartNumber": "P13928-001",
+    "ProductPartNumber": "P12691-001",
+    "ProductVersion": "B",
+    "SerialNumber": "PWWTT0C52GE0FF",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

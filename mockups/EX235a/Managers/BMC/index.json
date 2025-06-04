@@ -1,0 +1,49 @@
+{
+    "@odata.etag": "W/\"0\"",
+    "@odata.id": "/redfish/v1/Managers/BMC",
+    "@odata.type": "#Manager.v1_3_2.Manager",
+    "Actions": {
+        "#Manager.Reset": {
+            "ResetType@Redfish.AllowableValues": [
+                "ForceRestart",
+                "StatefulReset"
+            ],
+            "target": "/redfish/v1/Managers/BMC/Actions/Manager.Reset"
+        },
+        "Oem": {
+            "#CrayProcess.Schedule": {
+                "Name@Redfish.AllowableValues": [
+                    "memtest",
+                    "cpuburn"
+                ],
+                "target": "/redfish/v1/Managers/BMC/Actions/Oem/CrayProcess.Schedule"
+            }
+        }
+    },
+    "DateTime": "2022-03-09T21:17:04Z",
+    "DateTimeLocalOffset": "0",
+    "Description": "Shasta Manager",
+    "Id": "BMC",
+    "Links": {
+        "ManagerForServers": [
+            {
+                "@odata.id": "/redfish/v1/Systems/Node0"
+            }
+        ],
+        "ManagerInChassis": {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure"
+        }
+    },
+    "LogServices": {
+        "@odata.id": "/redfish/v1/Managers/BMC/LogServices"
+    },
+    "ManagerType": "EnclosureManager",
+    "Name": "BMC",
+    "NetworkProtocol": {
+        "@odata.id": "/redfish/v1/Managers/BMC/NetworkProtocol"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/1",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2022-02-22T21:55:35+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2022-02-22T21:55:35+00:00",
+    "Id": "1",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "The UpdateService has started processing http://10.254.1.20:9090/ex235a.bios-1.3.6.tar.gz in the background.",
+    "MessageArgs": [
+        "http://10.254.1.20:9090/ex235a.bios-1.3.6.tar.gz"
+    ],
+    "MessageId": "HPEFirmwareUpdate.SimpleUpdateStarting",
+    "Name": "Log entry 1",
+    "Severity": "OK"
+}

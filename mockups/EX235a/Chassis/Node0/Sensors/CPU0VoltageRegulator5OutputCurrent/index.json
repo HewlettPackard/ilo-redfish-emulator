@@ -1,0 +1,33 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/CPU0VoltageRegulator5OutputCurrent",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU0VoltageRegulator5OutputCurrent",
+    "Name": "CPU0 VDD_1V8_S0",
+    "Oem": {
+        "Index": 5,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U3019"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 1.375,
+    "ReadingTime": "2022-03-09T21:16:33.347957488Z",
+    "ReadingType": "Current",
+    "ReadingUnits": "A",
+    "Thresholds": {
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 6.4949
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 6.677
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 6.9805
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"1411E87C\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/14",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "14",
+    "Created": "2023-02-16T04:55:25Z",
+    "EntryType": "Oem",
+    "Message": "Access Settings modified by: ctobmaas.",
+    "MessageArgs": [],
+    "MessageId": "55.22",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 55,
+            "ClassDescription": "Security Configuration",
+            "Code": 22,
+            "Count": 1,
+            "EventNumber": 39,
+            "Severity": "Informational",
+            "Updated": "2023-02-16T04:55:25Z",
+            "UserAction": "Not Applicable"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "OK"
+}

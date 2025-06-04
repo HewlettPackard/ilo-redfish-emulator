@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"510A09A3\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/62",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "62",
+    "Created": "2025-05-15T06:35:23Z",
+    "EntryType": "Oem",
+    "Message": "At least one of the links is up in adapter Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter in slot 1",
+    "MessageArgs": [],
+    "MessageId": "17.14",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 17,
+            "ClassDescription": "Network",
+            "Code": 14,
+            "Count": 1,
+            "EventNumber": 7464,
+            "Repaired": true,
+            "Severity": "Repaired",
+            "Updated": "2025-05-15T06:35:23Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

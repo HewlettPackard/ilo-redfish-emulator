@@ -1,0 +1,78 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapter.HpeBaseNetworkAdapter",
+    "@odata.etag": "W/\"9AED6F5A\"",
+    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/2",
+    "@odata.type": "#HpeBaseNetworkAdapter.v2_0_0.HpeBaseNetworkAdapter",
+    "Id": "2",
+    "FcPorts": [],
+    "Firmware": {
+        "Current": {
+            "VersionString": "08.50.78"
+        }
+    },
+    "Name": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter",
+    "PartNumber": "AH2010414-31  A",
+    "PhysicalPorts": [
+        {
+            "FullDuplex": true,
+            "IPv4Addresses": [
+                {
+                    "Address": "N/A"
+                }
+            ],
+            "IPv6Addresses": [
+                {
+                    "Address": "fe80::1602:ecff:fed9:3aa0/64"
+                }
+            ],
+            "LinkStatus": "LinkUp",
+            "MacAddress": "14:02:ec:d9:3a:a0",
+            "Name": "bond0",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt",
+                    "@odata.type": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt",
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "GoodReceives": 450662,
+                    "GoodTransmits": 461608,
+                    "Team": "bond0"
+                }
+            },
+            "SpeedMbps": 25000,
+            "Status": {
+                "Health": "OK"
+            }
+        },
+        {
+            "FullDuplex": false,
+            "IPv4Addresses": [],
+            "IPv6Addresses": [],
+            "LinkStatus": "LinkDown",
+            "MacAddress": "14:02:ec:d9:3a:a1",
+            "Name": "mgmt1",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt",
+                    "@odata.type": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt",
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "GoodReceives": 0,
+                    "GoodTransmits": 0
+                }
+            },
+            "SpeedMbps": 0,
+            "Status": {
+                "Health": "Warning",
+                "State": "UnavailableOffline"
+            }
+        }
+    ],
+    "SerialNumber": "REE1939F35261",
+    "Status": {
+        "Health": "Warning",
+        "State": "Enabled"
+    },
+    "StructuredName": "OCP.Slot.10.1",
+    "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)"
+}

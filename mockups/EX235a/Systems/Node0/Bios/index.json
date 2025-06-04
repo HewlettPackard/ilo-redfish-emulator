@@ -1,0 +1,212 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/Bios",
+    "@odata.type": "#Bios.v1_0_2.Bios",
+    "Actions": {
+        "#Bios.ChangePassword": {
+            "@Redfish.ActionInfo": "/redfish/v1/Systems/Node0/Bios/ChangePasswordActionInfo",
+            "target": "/redfish/v1/Systems/Node0/Bios/Actions/Bios.ChangePassword"
+        },
+        "#Bios.ResetBios": {
+            "@Redfish.ActionInfo": "/redfish/v1/Systems/Node0/Bios/ResetBiosActionInfo",
+            "target": "/redfish/v1/Systems/Node0/Bios/Actions/Bios.ResetBios"
+        }
+    },
+    "AttributeRegistry": "BiosAttributeRegistry_v1_0_0",
+    "Attributes": {
+        "Continue On Error": {
+            "AllowableValues": [
+                "Disabled",
+                "Enabled"
+            ],
+            "DataType": "string",
+            "current_value": "Disabled",
+            "default_value": "Disabled",
+            "menu_type": "User",
+            "reset_type": "None"
+        },
+        "Core Performance Boost": {
+            "AllowableValues": [
+                "Disabled",
+                "Auto"
+            ],
+            "DataType": "string",
+            "current_value": "Auto",
+            "default_value": "Auto",
+            "menu_type": "User",
+            "reset_type": "Cold"
+        },
+        "DF Cstates Control": {
+            "AllowableValues": [
+                "Disabled",
+                "Enabled"
+            ],
+            "DataType": "string",
+            "current_value": "Disabled",
+            "default_value": "Disabled",
+            "menu_type": "Dev",
+            "reset_type": "Cold"
+        },
+        "Determinism Control": {
+            "AllowableValues": [
+                "Power",
+                "Performance"
+            ],
+            "DataType": "string",
+            "current_value": "Power",
+            "default_value": "Power",
+            "menu_type": "Dev",
+            "reset_type": "Cold"
+        },
+        "Max xGMI Link Speed": {
+            "AllowableValues": [
+                "8",
+                "12",
+                "16",
+                "18",
+                "Auto"
+            ],
+            "DataType": "string",
+            "current_value": "Auto",
+            "default_value": "Auto",
+            "menu_type": "Dev",
+            "reset_type": "Cold"
+        },
+        "Memory Data Scrambling": {
+            "AllowableValues": [
+                "Disabled",
+                "Enabled",
+                "Auto"
+            ],
+            "DataType": "string",
+            "current_value": "Auto",
+            "default_value": "Auto",
+            "menu_type": "Debug",
+            "reset_type": "Cold"
+        },
+        "Memory ECC": {
+            "AllowableValues": [
+                "Disabled",
+                "Enabled"
+            ],
+            "DataType": "string",
+            "current_value": "Enabled",
+            "default_value": "Enabled",
+            "menu_type": "Debug",
+            "reset_type": "Cold"
+        },
+        "Memory Frequency Limit": {
+            "AllowableValues": [
+                "2667",
+                "2933",
+                "3200"
+            ],
+            "DataType": "string",
+            "current_value": "3200",
+            "default_value": "3200",
+            "menu_type": "Debug",
+            "reset_type": "Cold"
+        },
+        "Memory Interleave Size": {
+            "AllowableValues": [
+                "256",
+                "512",
+                "1024",
+                "2048",
+                "4096",
+                "Auto"
+            ],
+            "DataType": "string",
+            "current_value": "Auto",
+            "default_value": "Auto",
+            "menu_type": "Debug",
+            "reset_type": "Cold"
+        },
+        "Memory Interleaving": {
+            "AllowableValues": [
+                "Disabled",
+                "Auto"
+            ],
+            "DataType": "string",
+            "current_value": "Auto",
+            "default_value": "Auto",
+            "menu_type": "Debug",
+            "reset_type": "Cold"
+        },
+        "NUMA": {
+            "AllowableValues": [
+                "NPS0",
+                "NPS1",
+                "NPS2",
+                "NPS4",
+                "Auto"
+            ],
+            "DataType": "string",
+            "current_value": "NPS4",
+            "default_value": "NPS4",
+            "menu_type": "Debug",
+            "reset_type": "Cold"
+        },
+        "Post Output Level": {
+            "AllowableValues": [
+                "Minimal",
+                "Informational",
+                "Verbose"
+            ],
+            "DataType": "string",
+            "current_value": "Informational",
+            "default_value": "Informational",
+            "menu_type": "Debug",
+            "reset_type": "None"
+        },
+        "Report Runtime Errors": {
+            "AllowableValues": [
+                "Disabled",
+                "Correctable",
+                "Uncorrectable",
+                "All"
+            ],
+            "DataType": "string",
+            "current_value": "All",
+            "default_value": "All",
+            "menu_type": "Debug",
+            "reset_type": "None"
+        },
+        "SMT Control": {
+            "AllowableValues": [
+                "Disabled",
+                "Enabled"
+            ],
+            "DataType": "string",
+            "current_value": "Enabled",
+            "default_value": "Enabled",
+            "menu_type": "User",
+            "reset_type": "Cold"
+        },
+        "Spread Spectrum Clock": {
+            "AllowableValues": [
+                "Disabled",
+                "Enabled"
+            ],
+            "DataType": "string",
+            "current_value": "Enabled",
+            "default_value": "Enabled",
+            "menu_type": "Debug",
+            "reset_type": "Cold"
+        },
+        "TBT Control": {
+            "AllowableValues": [
+                "Disabled",
+                "Enabled"
+            ],
+            "DataType": "string",
+            "current_value": "Enabled",
+            "default_value": "Enabled",
+            "menu_type": "Dev",
+            "reset_type": "Cold"
+        }
+    },
+    "Description": "Current BIOS Settings",
+    "Id": "Bios",
+    "Name": "Current BIOS Settings"
+}

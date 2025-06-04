@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot",
+    "@odata.etag": "W/\"53044CBF\"",
+    "@odata.id": "/redfish/v1/Systems/1/PCISlots/4",
+    "@odata.type": "#HpeServerPCISlot.v2_1_0.HpeServerPCISlot",
+    "Id": "4",
+    "BusNumber": 6,
+    "Characteristics": {
+        "Provides3_3Volts": true,
+        "SupportsPowerManagementEventSignal": true
+    },
+    "DeviceNumber": 0,
+    "FunctionNumber": 0,
+    "Length": "Other",
+    "LinkLanes": "x8",
+    "Name": "Storage Controller Slot 12",
+    "Status": {
+        "OperationalStatus": [
+            {
+                "Status": "Empty"
+            }
+        ]
+    },
+    "SupportsHotPlug": false,
+    "Technology": "Proprietary",
+    "UEFIDevicePath": "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)"
+}

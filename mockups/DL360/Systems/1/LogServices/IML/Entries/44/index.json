@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"B2936F88\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/44",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "44",
+    "Created": "2025-05-14T13:45:37Z",
+    "EntryType": "Oem",
+    "Message": "Slot 12 Storage - Drive at Port 2I Box 1 Bay 2 status changed to Erasing",
+    "MessageArgs": [],
+    "MessageId": "19.20",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 19,
+            "ClassDescription": "Drive Array",
+            "Code": 20,
+            "Count": 1,
+            "EventNumber": 7446,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x0014-gen10",
+            "RecommendedAction": "1. Verify cables are good and fully seated.\n2. Ensure all drives are fully seated.\n3. Set drive to Unconfigured Good\n4. Verify backplane, controller, RAID config, and drive compatibility.\n5. Replace the defective drive.",
+            "Repaired": false,
+            "Severity": "Critical",
+            "Updated": "2025-05-14T13:45:37Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "Critical"
+}

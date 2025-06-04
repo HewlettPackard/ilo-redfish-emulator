@@ -1,0 +1,46 @@
+{
+    "@odata.etag": "W/\"1645764261\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/NetworkProtocol",
+    "@odata.type": "#ManagerNetworkProtocol.v1_2_0.ManagerNetworkProtocol",
+    "Description": "Network Protocol Details",
+    "Id": "NetworkProtocol",
+    "NTP": {
+        "NTPServers": [
+            "10.254.1.18"
+        ],
+        "Port": 123,
+        "ProtocolEnabled": true
+    },
+    "Name": "Manager Network Protocol",
+    "Oem": {
+        "HTTPS": {
+            "@odata.id": "/redfish/v1/Managers/BMC/NetworkProtocol/HTTPS"
+        },
+        "Resolv": {
+            "NameServers": [],
+            "ProtocolEnabled": false,
+            "SearchList": []
+        },
+        "SSHAdmin": {
+            "AuthorizedKeys": "ecdsa-sha2-nistp384 AAAAE2VjZHNhLXNoYTItbmlzdHAzODQAAAAIbmlzdHAzODQAAABhBA7UdMJcAYfLJcfClmMgQmkwhkdVPxa97KMsTLoJssKwlJP5L3amlFakn3apore1oZ+b4O9bGoi5hn3maKfVW+PO4YXbRrwMy/Yhv+erzwGjOeLNadjXRX8s/7ehXi99LQ==\n\n"
+        },
+        "SSHConsole": {
+            "AuthorizedKeys": "ecdsa-sha2-nistp384 AAAAE2VjZHNhLXNoYTItbmlzdHAzODQAAAAIbmlzdHAzODQAAABhBA7UdMJcAYfLJcfClmMgQmkwhkdVPxa97KMsTLoJssKwlJP5L3amlFakn3apore1oZ+b4O9bGoi5hn3maKfVW+PO4YXbRrwMy/Yhv+erzwGjOeLNadjXRX8s/7ehXi99LQ==\n\n"
+        },
+        "Syslog": {
+            "Port": 514,
+            "ProtocolEnabled": true,
+            "SyslogServers": [
+                "rsyslog-aggregator.hmnlb"
+            ],
+            "Transport": "udp"
+        }
+    },
+    "SSH": {
+        "Port": 22,
+        "ProtocolEnabled": true
+    },
+    "Status": {
+        "State": "Enabled"
+    }
+}

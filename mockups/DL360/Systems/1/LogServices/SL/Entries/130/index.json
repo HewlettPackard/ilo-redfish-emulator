@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"BCB7AFD4\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/130",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "130",
+    "Created": "2025-05-09T08:12:05Z",
+    "EntryType": "Oem",
+    "Message": "The maximum number of Platform Configuration (RBSU) login attempts has been exceeded.  Access to Platform Configuration will be locked until the system has been power cycled.",
+    "MessageArgs": [],
+    "MessageId": "10.12670",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 10,
+            "ClassDescription": "UEFI",
+            "Code": 12670,
+            "Count": 1,
+            "EventNumber": 155,
+            "RecommendedAction": "Ensure that the change was expected.",
+            "Severity": "Caution",
+            "Updated": "2025-05-09T08:12:05Z",
+            "UserAction": "None"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "Warning"
+}

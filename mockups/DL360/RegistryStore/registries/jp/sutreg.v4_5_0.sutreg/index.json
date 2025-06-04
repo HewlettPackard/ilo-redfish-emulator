@@ -1,0 +1,698 @@
+{
+    "Name": "SUT Message Registry",
+    "Id": "HPSUTReg.2.4.0",
+    "Language": "en",
+    "Description": "This registry defines the Integrated Smart Update Tools(iSUT) messages",
+    "@odata.type": "#MessageRegistry.v1_0_0.MessageRegistry",
+    "RegistryPrefix": "SUT",
+    "RegistryVersion": "2.4.0",
+    "OwningEntity": "HPE",
+    "Messages": {
+        "Success": {
+            "Description": "The operation has been completed successfully.",
+            "Message": "The operation has been completed successfully.",
+            "Severity": "OK",
+            "NumberOfArgs": 0,
+            "Resolution": "None"
+        },
+        "ClearStagingFailed": {
+            "Description": "While attempting to stage updates, clearing the staging directory on the host could not be completed. This could be due to one or more of the following reasons: (1) No execution permission on the directory/file. (2) The staged files are in use by another process.",
+            "Message": "Unable to clear the staging directory.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Ensure that the staging directory on the host has the appropriate permissions and that previously staged files are not being used by any other application. Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "InvalidBaselineUri": {
+            "Description": "Unable to mount the specified baseline because the provided baseline URI link is invalid. Either the URI specified does not have an ISO extension or the protocol is not http or https.",
+            "Message": "BaselineUri provided is invalid.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Resubmit the request with a valid accessible URI to a baseline ISO image."
+        },
+        "InsufficientDiskSpace": {
+            "Description": "Available disk space on the host system drive is less than the required space to copy the files.",
+            "Message": "Insufficient available disk space on the host system drive to copy the files.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Free up disk space on the drive where the staging directory is located and retry the operation."
+        },
+        "VirtualMediaMountingFailed": {
+            "Description": "Unable to mount the specified baseline through iLO Virtual Media due to one or more of the following reasons: (1). The baseline is not accessible. (2) The HTTP server hosting the baseline is busy.",
+            "Message": "Unable to mount the baseline through iLO Virtual Media.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify the specified baseline is accessible, and ensure no other media is mounted through iLO Virtual Media. Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "VirtualMediaBusy": {
+            "Description": "Indicates that the attempt to mount the specified baseline through iLO Virtual Media could not be completed because iLO Virtual Media is busy.",
+            "Message": "Unable to mount the baseline through iLO Virtual Media because iLO Virtual Media is busy.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Unmount the media that is already mounted through iLO Virtual Media."
+        },
+        "AdvancediLOLicenseNeeded": {
+            "Description": "Indicates that the attempt to mount the specified baseline through iLO Virtual Media could not be completed because an HPE iLO Advanced license is not installed.",
+            "Message": "Unable to mount the baseline through iLO Virtual Media because an HPE iLO Advanced license is not installed.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Add an HPE iLO Advanced license in iLO and retry the operation."
+        },
+        "BaselineUriIsNotAnSPP": {
+            "Description": "Indicates that the concurrent download limit of the baseline has been reached or the baseline provided is not detected as a supported baseline. This could be due to one or more of the following reasons: (1) The concurrent download limit of the baseline has been reached due to other ongoing firmware updates. (2) The directory contents does not match with the SPP structure.",
+            "Message": "The baseline provided is not supported or the concurrent download limit of the baseline has been reached.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "If the baseline provided is a SPP, retry the operation. Alternately, resubmit the request with a valid link to a supported baseline image."
+        },
+        "HPSUMExecutionError": {
+            "Description": "The HPSUM binary could not be executed due to one or more of the following reasons: (1) The HPSUM binary does not exist in the staging location. (2) The HPSUM binary does not have the execute permissions. (3) HPSUM encountered a failure during the execution.",
+            "Message": "Unable to execute HPSUM from the SPP provided.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "For offline updates, check the Firmware update inventory report to verify which component failed. For online updates, verify the HPSUM binaries are available in the staging directory with execute permissions. Clear %temp%\\HPSUM   and %systemdrive%\\Windows\\Temp\\HPSUM (Windows) and /tmp/HPSUM (Linux) directories. Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "HPSUMInventoryFailed": {
+            "Description": "The HPSUM inventory could not be completed due to one or more of the following reasons: (1) Unable to start HPSUM. (2) HPSUM report generation could not be completed. (3) Report does not have the data for completing the inventory operation. (4) Another HPSUM instance was running. (5) Insufficient disk space to run HPSUM.",
+            "Message": "Baseline inventory operation could not be completed.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify the ports required by HPSUM are available. If they are occupied, configure HPSUM to run using different ports. Clear %temp%\\HPSUM and %systemdrive%\\Windows\\Temp\\HPSUM (Windows) and /tmp/HPSUM (Linux) directories. Ensure that HPSUM (hp  sum_service_x64) is not running. Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "HPSUMDeploymentFailed": {
+            "Description": "Firmware/Driver/Software deployment could not be completed due to one or more of the following reasons: (1) Unable to run HPSUM. (2) Deployment of one or more smart component update could not be completed. (3) Report does not have the data for completing the deploy operation. (4) Another HPSUM instance was running. (5) Insufficient disk space to run HPSUM.",
+            "Message": "Deployment operation could not be completed.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Check if the ports used for HPSUM are occupied. Configure HPSUM to run using different ports if the ports are occupied. Clear %temp%\\HPSUM and %systemdrive%\\Windows\\Temp\\HPSUM (Windows) and /tmp/HPSUM (Linux) directories. Ensure that HPSUM (hpsum_service_x64  ) is not running. Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "SUMExecutionError": {
+            "Description": "The SUM binary could not be executed due to one or more of the following reasons: (1) The SUM binary does not exist in the staging location. (2) The SUM binary does not have the execute permissions. (3) SUM encountered a failure during the execution.",
+            "Message": "Unable to execute SUM.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "For offline updates, check the Firmware update inventory report to verify which component failed. For online updates, verify the SUM binaries are available in the staging directory with execute permissions. Clear %localappdata%\\sut\\sum and %systemdrive%\\Windows\\Temp\\sut\\sum (Windows) and /var/tmp/sut/sum (Linux) directories. Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "SUMInventoryFailed": {
+            "Description": "SUM inventory has could not be completed due to one or more of the following reasons: (1) Unable to start SUM. (2) SUM report generation could not be completed. (3) Report does not have the data for completing the inventory operation. (4) Another SUM instance was running. (5) Insufficient disk space to run SUM.",
+            "Message": "Baseline inventory operation could not be completed.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify the ports required by SUM are available. If they are occupied, configure SUM to run using different ports. Clear %localappdata%\\sut\\sum and %systemdrive%\\Windows\\Temp\\sut\\sum (Windows) and /var/tmp/sut/sum (Linux) directories. Ensure that SUM (sum_service_x64) is not running. Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "SUMDeploymentFailed": {
+            "Description": "Firmware/Driver/Software deployment could not be completed due to one or more of the following reasons: (1) Unable to run SUM (2) Deployment of one or more smart component update could not be completed (3) Report does not have the data for completing the deploy operation (4) Another SUM instance was running (5) Insufficient disk space to run SUM.",
+            "Message": "Deployment operation could not be completed.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Check if the ports used for SUM are occupied. Configure SUM to run using different ports if the ports are occupied. Clear %localappdata%\\sut\\sum and %systemdrive%\\Windows\\Temp\\sut\\sum (Windows) and /var/tmp/sut/sum  (Linux) directories. Ensure that SUM (sum_service_x64) is not running Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "HPSUMVersionMismatch": {
+            "Description": "Indicates the version of SUM in the baseline is not supported (any version before 7.4.0).",
+            "Message": "This version of SUM in the baseline is not supported (any version before 7.4.0).",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation again with a baseline that has SUM 7.4.0 or later."
+        },
+        "StagingDirectoryValidationFailed": {
+            "Description": "iSUT is unable to trigger the deployment due to one or more of the following reasons: (1) The staging directory is missing. (2) The staging directory is not accessible.",
+            "Message": "Staging directory validation failed.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify if the staging directory is still available and accessible. If the disk is network mounted, ensure it is available during firmware deployment. Retry the operation."
+        },
+        "StagingDirectoryCreationFailed": {
+            "Description": "While preparing for the stage operation, the staging directory could not be created.",
+            "Message": "Unable to create staging directory.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Ensure the staging directory path has write and execute permissions, and retry the operation."
+        },
+        "RebootError": {
+            "Description": "Unable to reboot the server during activation.",
+            "Message": "Unable to reboot the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Reboot the server using OS commands."
+        },
+        "StateChangedInServerSettings": {
+            "Description": "While iSUT was processing a request, the baseline settings were modified by an external client before iSUT could complete.",
+            "Message": "Operation request was changed unexpectedly while processing another request.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Ensure that there is only one baseline update being processed by iSUT at any time. If there is another baseline update operation currently in progress, wait for it to complete. Retry the operation."
+        },
+        "FileCopyError": {
+            "Description": "iSUT encountered a failure during staging due to one or more following reasons: (1) The component is not available in the baseline. (2) The baseline location is no longer accessible.",
+            "Message": "Unable to copy the files from specified baseline during staging.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify the necessary components are available in the specified baseline and ensure that this baseline is accessible over HTTP for the duration of the stage. Retry the operation."
+        },
+        "RecoveryStageFailed": {
+            "Description": "An unexpected problem occurred while staging the components from the specified baseline.",
+            "Message": "Unable to stage the components from the specified baseline.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "RecoveryDeployFailed": {
+            "Description": "An unexpected problem occurred while deploying the components on the server.",
+            "Message": "Unable to deploy the components from the specified baseline.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "UnknownDataInHPServerSettings": {
+            "Description": "Indicates that baseline request from HPE OneView contains data that iSUT does not understand.",
+            "Message": "iSUT does not understand the baseline request from HPE OneView.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Ensure that this version of HPE OneView managing the server is compatible with the installed version of iSUT. Retry the operation."
+        },
+        "BiosSettingFailLoadSettingsBlob": {
+            "Description": "Encountered a failure while reading the BIOS settings from the iLO.",
+            "Message": "Unable to read the specified BIOS settings for the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Try the operation again. Alternatively, update the firmware to the latest available to ensure the compatible firmware is installed. Edit profile to reapply BIOS settings. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "BiosSettingFailLoadCurrentSettings": {
+            "Description": "Encountered a failure while reading the BIOS settings from the ROM Configuration Utility.",
+            "Message": "Unable to read the specified BIOS settings for the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Try the operation again. Alternatively, update the firmware to the latest available to ensure the compatible firmware is installed. Edit profile to reapply BIOS settings. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "BiosSettingFailApplySettings": {
+            "Description": "An error was encountered while running  the ROM Configuration Utility",
+            "Message": "Unable to apply the specified BIOS settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Try the operation again. Alternatively, update the firmware to the latest available to ensure the compatible firmware is installed. Edit profile to reapply BIOS settings. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "BiosSettingFailValidateSettings": {
+            "Description": "Unable to verify if the BIOS settings have been successfully applied to the server.",
+            "Message": "Unable to read the BIOS settings from the server after successfully applying the specified settings.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Try the operation again. Alternatively, the current firmware versions of the iLO and ROM may not be compatible. Update the firmware to the latest available, and edit profile to reapply local storage settings. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "BiosSettingInternalError": {
+            "Description": "An internal error occurred while running the ROM Configuration Utility during BIOS configuration.",
+            "Message": "Unable to apply BIOS settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Try the operation again. Alternatively, update the firmware to the latest available to ensure the compatible firmware is installed. Edit profile to reapply BIOS settings. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "BiosWriteResultToBlobFailed": {
+            "Description": "An internal error occurred while trying to write the BIOS settings apply results to the iLO",
+            "Message": "Unable to apply the BIOS settings to the server",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Try the operation again. Alternatively, update the firmware to the latest available to ensure the compatible firmware is installed. Edit profile to reapply BIOS settings. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "IncorrectExitCodeForConfigure": {
+            "Description": "An internal error occurred while applying the BIOS settings to the server.",
+            "Message": "Unable to apply the BIOS settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Try the operation again. Alternatively, update the firmware to the latest available to ensure the compatible firmware is installed. Edit profile to reapply BIOS settings. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "LssStorageSettingFailLoadSettingsBlob": {
+            "Description": "Encountered a failure while reading the local storage settings from the iLO.",
+            "Message": "Unable to read the specified local storage settings.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "LssFailEstablishInitialState": {
+            "Description": "Encountered a failure while reading the local storage settings.",
+            "Message": "Unable to read  the local storage settings for server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Ensure that the Smart Array controller is enabled in the BIOS settings. For Dynamic Smart Array Controllers, ensure that the server is configured in UEFI boot mode. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "LssFailEstablishReadControllerNode": {
+            "Description": "Unable to read the controller node details.",
+            "Message": "Unable to apply the specified local storage settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Ensure that the Smart Array controller is enabled in the BIOS settings. For Dynamic Smart Array Controllers, ensure that the server is configured in UEFI boot mode. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "LssMismatchConfigurationsNotSupportedEncryption": {
+            "Description": "Encryption is enabled in the Smart Array controller.",
+            "Message": "Unable to apply the local storage settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Disable encryption in the Smart Array controller and then retry the operation."
+        },
+        "LssReinitializeControllerFailed": {
+            "Description": "Re initialization of storage could not be completed.",
+            "Message": "Unable to apply the specified local storage settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "LssInternalError": {
+            "Description": "An internal error occurred during the operation",
+            "Message": "Unable to apply the specified local storage settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "LssMultipleLogicalDrives": {
+            "Description": "An internal error occurred during the operation. Multiple logical drives were detected after controller initialization. Possibly more than one controller is present.",
+            "Message": "Unable to apply the specified local storage settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "LssMismatchGuid": {
+            "Description": "A logical drive tracked by the server profile was not found in the server configuration.",
+            "Message": "Unable to apply the specified local storage settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "LssMismatchConfigurationsNotSupported": {
+            "Description": "There are arrays with multiple logical drives on the server. HPE OneView supports only one logical drive per array.",
+            "Message": "Unable to apply the specified local storage settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Disable local storage management and retry the operation. Alternatively, retry the operation with the initialize option enabled to overwrite the current server configuration."
+        },
+        "LssLogicalDriveAddFailed": {
+            "Description": "Unable to add logical drive with requested RAID level.",
+            "Message": "Unable to apply specified local storage settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify that the Smart Array controller supports the requested RAID level and the requested number of drives of the specified drive technology are present on the server. Additionally, ensure that the controller has the necessary license present. Then retry the operation. If the problem persists, contact your authorized support representative."
+        },
+        "LssSetPriorityNoneFailed": {
+            "Description": "Unable to set logical drive boot priority to none.",
+            "Message": "Unable to apply the specified local storage settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify the controller has the necessary license present and then retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "LssInternalErrorDuringExecution": {
+            "Description": "An internal error occurred while applying local storage settings.",
+            "Message": "Unable to apply the specified local storage settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "LssWriteResultToBlobFailed": {
+            "Description": "An internal error occurred while writing to the iLO.",
+            "Message": "Unable to apply the specified local storage settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "LssMismatchConfigurationsNotSupportedAcuDrivetype": {
+            "Description": "The drive technology field is not supported in the SPP version used.",
+            "Message": "Unable to apply the specified local storage settings to the server as the drive technology field is not supported.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation without specifying a drive technology. Alternatively, use the latest version of the SPP and then retry the operation."
+        },
+        "LssSetPriorityPrimaryFailed": {
+            "Description": "Setting of logical drive boot priority to primary could not be completed.",
+            "Message": "Unable to apply the specified local storage settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify the controller has the necessary license present and then retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "LssNoLogicalDriveResent": {
+            "Description": "No logical drive was not found in the server configuration.",
+            "Message": "Unable to apply the specified local storage settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "If this profile was originally assigned to a different server, ensure the physical disks were also moved to the target server and then try the operation again. Alternatively retry the operation with the initialize option enabled to overwrite the current configuration."
+        },
+        "LssB140IMismatchGuid": {
+            "Description": "A logical drive tracked by the server profile was not found in the server configuration.",
+            "Message": "Unable to apply the specified local storage settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "If this profile was originally assigned to a different server, ensure the physical disks were also moved to the target server and then try the operation again. Alternatively retry the operation with the initialize option enabled to overwrite the current configuration. For Dynamic Smart Array Controllers, ensure that the server is configured in UEFI boot mode before retrying the operation."
+        },
+        "LssUnableDeleteLogicalDrive": {
+            "Description": "A logical drive could not be deleted.",
+            "Message": "Unable to apply the specified local storage settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "ScriptReadFromBlobFailed": {
+            "Description": "Unable to read from the iLO.",
+            "Message": "Unable to apply the specified server settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "SignatureValidationFailed": {
+            "Description": "An internal error occurred. Signature validation of the settings failed.",
+            "Message": "Unable to apply the specified server settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "InvalidConfigureScript": {
+            "Description": "An internal error occurred due to Invalid parameters in server settings. It could also be because the settings not written properly onto the iLO.",
+            "Message": "Unable to apply the specified server settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Ensure proper network connectivity between HPE OneView and iLO. Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "ScheduleMissed": {
+            "Description": "iSUT could not adhere to the schedule due to one of the following reasons: 1) OnDemand stage or deploy operation was performed. 2) Deploy Mode was changed after the node was scheduled. 3) iSUT service was not running when the schedule time was met and the service was started 15 minutes after the schedule time has elapsed.",
+            "Message": "Unable to perform schedule operation.",
+            "Severity": "Serious",
+            "NumberOfArgs": 0,
+            "Resolution": "Ensure that none of the attributes related to schedule are modified when the node is scheduled. Change the mode back to AutoDeployReboot or AutoDeploy and reinitiate the firmware deployment request."
+        },
+        "InvalidScheduleTime": {
+            "Description": "iSUT could not adhere to the schedule due to Invalid Schedule DateTime provided.",
+            "Message": "Unable to perform schedule operation.",
+            "Severity": "Serious",
+            "NumberOfArgs": 0,
+            "Resolution": "Ensure that the DateTime provided in the schedule request is valid and in UTC format."
+        },
+        "UnsupportedModeForSchedule": {
+            "Description": "iSUT cannot honor the schedule at this time as the current mode of SUT is not supported.",
+            "Message": "Unable to honor the schedule at this time as the current mode of SUT is not supported.",
+            "Severity": "Ok",
+            "NumberOfArgs": 0,
+            "Resolution": "Ensure mode is set to AutoDeploy or AutoDeployReboot if the scheduled update is requested via HPE OneView."
+        },
+        "RetryStageAtScheduleTime": {
+            "Description": "iSUT encountered a failure during staging due to one or more following reasons: (1) The component is not available in the baseline. (2) The baseline location is no longer accessible.",
+            "Message": "Unable to perform the stage operation right now. Will retry staging at the scheduled time before deploying.",
+            "Severity": "OK",
+            "NumberOfArgs": 0,
+            "Resolution": "None"
+        },
+        "StagedInOnDemandMode": {
+            "Description": "The stage operation was performed in OnDemand mode.",
+            "Message": "Staging updates occurred via OnDemand mode.",
+            "Severity": "OK",
+            "NumberOfArgs": 0,
+            "Resolution": "None."
+        },
+        "StagedInAutoMode": {
+            "Description": "The stage operation was performed in Auto mode.",
+            "Message": "Staging updates occurred via Auto mode.",
+            "Severity": "Ok",
+            "NumberOfArgs": 0,
+            "Resolution": "None."
+        },
+        "DeployedInOnDemandMode": {
+            "Description": "The deploy operation was performed in OnDemand mode.",
+            "Message": "Deploying updates occurred via OnDemand mode.",
+            "Severity": "OK",
+            "NumberOfArgs": 0,
+            "Resolution": "None."
+        },
+        "DeployedInAutoMode": {
+            "Description": "The deploy operation was performed in Auto mode.",
+            "Message": "Deploying updates occurred via Auto mode.",
+            "Severity": "OK",
+            "NumberOfArgs": 0,
+            "Resolution": "None."
+        },
+        "UnableToRunScript": {
+            "Description": "An internal error occurred while applying server settings.",
+            "Message": "Unable to apply the specified server settings to the server.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "SUMSecurityVerficationFailed": {
+            "Description": "Signature verification has failed for one or more of the SUM binaries in the mounted SPP.",
+            "Message": "Signature verification has failed for one or more of the SUM binaries in the mounted SPP.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "The SUM binaries in the mounted SPP may have been tampered with as the binary signature is not valid. Validate and determine whether executables in the mounted SPP are not tampered. Use an SPP obtained through a reliable source."
+        },
+        "CompSecurityVerficationFailed": {
+            "Description": "Signature verification has failed for one or more of the smart components in the mounted SPP.",
+            "Message": "Signature verification has failed for one or more of the smart components in the mounted SPP.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Smart components in the mounted SPP may have been tampered with as the binary signature is not valid. Validate and determine whether executables in the mounted SPP are not tampered. Use an SPP obtained through a reliable source."
+        },
+        "StagingTimeOutOccurred": {
+            "Description": "The stage operation has exceeded the stipulated limit of two hours. The operation has timed out. It may be slowed down due to the speed of the system, network connectivity speed to the management appliance or communication to iLO is lower.",
+            "Message": "The stage operation was not completed in two hours.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation. If the problem persists, contact your authorized support."
+        },
+        "ActivationFailed": {
+            "Description": "Verification procedure detected that some of the firmware or software component versions are not matching with the one which was tried installing during the firmware deployment operation.",
+            "Message": "Verification of baseline compliance failed because one or more firmware/software version is not matching with applied baseline.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the deploy operation."
+        },
+        "ActivationFailedDueToMissingFiles": {
+            "Description": "Verification procedure failed due to one of the following reasons: (1) The staging directory is missing. (2) The staging directory is not accessible. (3) The staging directory content has changed, mostly due to missing some or all of the components copied during the stage operation.",
+            "Message": "Verification of firmware/software deployment operation baseline compliance failed.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify that the staging directory and all the files in the staging directory are available and accessible. If the disk is network mounted, ensure it is available during firmware deployment. Retry the deploy operation."
+        },
+        "InstallFailedDueToMissingFiles": {
+            "Description": "Deployment failed due to one of the following reasons: (1) The staging directory is missing. (2) The staging directory is not accessible. (3) The staging directory content is changed, mostly due to missing some or all of the components copied during the stage operation.",
+            "Message": "Deployment failed because of missing components or SUM files.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify that the staging directory and all the files in the staging directory are available and accessible. If the disk is network mounted, ensure it is available during firmware deployment. Retry the deploy operation."
+        },
+        "LegacyAndIloQueuedUpdatesRequested": {
+            "Description": " Deployment failed as baseline URI is provided and also the iLO task queue is not empty.",
+            "Message": " Deployment failed as baseline URI is provided and also the iLO task queue is not empty.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Request the firmware deploy operation by providing either the baseline URI or iLO task queue. If the baseline specified using the baseline URI needs to be updated, clear the iLO task queue before submitting the firmware update request using baseline URI. If components uploaded to the iLO Repository needs to be updated, clear the baseline URI using the sut -set baselineuri=none command or clear the baseline using the management appliance."
+        },
+        "IloQueuedUpdateDisabled": {
+            "Description": "There are iSUT updatable components available in the iLO task queue, but deployment has been disabled as enableiLOQueuedUpdates flag is false.",
+            "Message": "Set the enableiLOQueuedUpdates flag to true to deploy the components.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Set the enableiLOQueuedUpdates flag to true by running the sut -set enableiloqueuedupdates=true command to update the components uploaded to the iLO Repository."
+        },
+        "SumRunningInstanceFound": {
+            "Description": "Deployment cannot be initiated now as another instance of SUM is already running.",
+            "Message": " Deployment can be initiated after stopping the running instance of SUM.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Ensure no instance of SUM is running before initiating the deploy operation."
+        },
+        "IloQueuedUpdatePending": {
+            "Description": "Components found in the iLO task queue need to be updated.",
+            "Message": "Components found in the iLO task queue are need to be updated.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "If iSUT is running in AutoDeploy or AutoDeployReboot mode, no user action needed. Otherwise, use the deploy or deployreboot command to deploy the components."
+        },
+        "IloQueuedUpdateInProgress": {
+            "Description": "Components uploaded to the iLO Repository are   being deployed by iSUT/UEFI/iLO.",
+            "Message": "Components uploaded to the iLO Repository are being deployed by iSUT/UEFI/iLO.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Wait for iSUT/UEFI/iLO to deploy the components from iloTaskQueue."
+        },
+        "IloQueuedUpdateCompleted": {
+            "Description": "Components uploaded to the iLO Repository are deployed by iSUT/UEFI/iLO.",
+            "Message": "Components uploaded to the iLO Repository are deployed by iSUT/UEFI/iLO.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Components  uploaded to the iLO Repository are deployed by iSUT/UEFI/iLO.There is no further action needed."
+        },
+        "IloQueuedUpdateRebootRequired": {
+            "Description": "Components uploaded to the iLO Repository have been deployed and require a system restart.",
+            "Message": "Components uploaded to the iLO Repository are deployed and needs a reboot to be applied.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Reboot the system or execute -activate command to complete the system reboot."
+        },
+        "SUMVersionMismatchInHighSecurityMode": {
+            "Description": "Indicates the version of Smart Update Manager in the baseline cannot perform deployment when iLO is configured in higher security mode (any version lower than 8.1.0)",
+            "Message": "Version of Smart Update Manager in the baseline cannot perform deployment when iLO is configured in higher security mode (any version lower than 8.1.0)",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the operation by applying the baseline settings again with a baseline which has SUM 8.1.0 or greater."
+        },
+        "FailedDependencyComponent": {
+            "Description": "One or more applicable component(s) has failed dependency.",
+            "Message": "SUT skipped %1 components during staging as components(s) have failed dependency.",
+            "Severity": "Critical",
+            "NumberOfArgs": 1,
+            "Resolution": "Retry the deploy operation again to resolve failed dependency."
+        },
+        "RebootCouldNotBeHonored": {
+            "Description": "State is not appropriate to reboot the system.",
+            "Message": "SUT could not reboot the system after the deployment as the State is not appropriate for reboot.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "None"
+        },
+        "ComponentFailedToDeploy": {
+            "Description": "One or more applicable component(s) has failed to deploy.",
+            "Message": "%1 component(s) has failed to deploy.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Retry the deploy operation to deploy the component(s) which are failed to update. If the problem persists, contact your authorized support representative and provide them with support logs."
+        },
+        "InvalidBaselineUriDetail": {
+            "Description": "BaselineUri provided is invalid.",
+            "Message": "Baseline Uri %1 looks incorrect.",
+            "Severity": "Critical",
+            "NumberOfArgs": 1,
+            "Resolution": "Resubmit the request with a valid accessible URI to a baseline ISO image."
+        },
+        "InsufficientDiskSpaceDetail": {
+            "Description": "BaselineUri provided is invalid.",
+            "Message": "Disk space is not available on the disk where directory %1 exists.",
+            "Severity": "Critical",
+            "NumberOfArgs": 1,
+            "Resolution": "Free up disk space on the drive where the staging directory is located and retry the operation."
+        },
+        "BaselineUriIsNotAnSPPDetail": {
+            "Description": "BaselineUri provided is invalid.",
+            "Message": "SPP provided at Baseline Uri %1 is an invalid SPP.",
+            "Severity": "Critical",
+            "NumberOfArgs": 1,
+            "Resolution": "If the baseline provided is a SPP, retry the operation. Alternately, resubmit the request with a valid link to a supported baseline image."
+        },
+        "StagingDirectoryValidationFailedDetail": {
+            "Description": "BaselineUri provided is invalid.",
+            "Message": "Verify if the staging directory %1 is still available and accessible.",
+            "Severity": "Critical",
+            "NumberOfArgs": 1,
+            "Resolution": "If the disk is network mounted, ensure it is available during firmware deployment. Retry the operation."
+        },
+        "InvalidScheduleTimeDetail": {
+            "Description": "BaselineUri provided is invalid.",
+            "Message": "Specified time %1 is invalid.",
+            "Severity": "Critical",
+            "NumberOfArgs": 1,
+            "Resolution": "Ensure that the DateTime provided in the schedule request is valid and in UTC format."
+        },
+        "ActivationFailedDetail": {
+            "Description": "BaselineUri provided is invalid.",
+            "Message": "Activation of components %1 Failed.",
+            "Severity": "Critical",
+            "NumberOfArgs": 1,
+            "Resolution": "Retry the deploy operation again to resolve failed dependency."
+        },
+        "StagingDirectoryCreationFailedDetail": {
+            "Description": "Staging Directory creation failed.",
+            "Message": "Ensure the staging directory path %1 has write and execute permissions, and retry the operation.",
+            "Severity": "Critical",
+            "NumberOfArgs": 1,
+            "Resolution": "None"
+        },
+        "FailedDependencyComponentDetail": {
+            "Description": "BaselineUri provided is invalid.",
+            "Message": "Applicable components %1 are not selected for deploy due to failed dependencies.",
+            "Severity": "Critical",
+            "NumberOfArgs": 1,
+            "Resolution": "Retry the deploy operation again to resolve failed dependency."
+        },
+        "SystemNotInMaintenanceMode": {
+            "Description": "System is not in Maintenance mode due to which reboot will not be performed.",
+            "Message": "System is not in Maintenance mode due to which reboot will not be performed.",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Manually reboot the server or set the sut mode to autodeployreboot using command sut -set mode=autodeployreboot or issue sut -deployreboot ondemand command to check whether OneView state moved to a state appropriate to reboot the system."
+        },
+        "RebootDetectionFailed": {
+            "Description": "System reboot detection failed",
+            "Message": "System reboot detection can fail as an anomaly in last reboot time noticed",
+            "Severity": "Critical",
+            "NumberOfArgs": 0,
+            "Resolution": "Confirm that system is rebooted after the update operation then issue sut -verify force command to complete the update"
+        },
+        "PendingRequestAccepted": {
+            "Description": "Pending firmware update request accepted",
+            "Message": "A new firmware update request is received by Smart Update Tools.",
+            "Severity": "OK",
+            "NumberOfArgs": 0,
+            "Resolution": "None"
+        },
+        "VirtualMediaMountSuccessful": {
+            "Description": "Baseline media mount successful",
+            "Message": "Baseline media provided by update manager is successfully mounted in the target node.",
+            "Severity": "OK",
+            "NumberOfArgs": 0,
+            "Resolution": "None"
+        },
+        "VirtualMediaMountRetry": {
+            "Description": "Retrying mounting Baseline media",
+            "Message": "Retrying mounting baseline media as previous try failed",
+            "Severity": "OK",
+            "NumberOfArgs": 0,
+            "Resolution": "Verify the specified baseline is accessible and ensure no other media is mounted through iLO Virtual Media."
+        },
+        "CopyingRequiredFiles": {
+            "Description": "Copying Smart Update Manager files",
+            "Message": "Smart Update Manager files available in the baseline media are copied to staging dirtectory to perform staging operation.",
+            "Severity": "OK",
+            "NumberOfArgs": 0,
+            "Resolution": "None"
+        },
+        "LaunchSUMStaging": {
+            "Description": "Launching Smart Update Manager for staging",
+            "Message": "Start Smart Update Manager to inventory the server",
+            "Severity": "OK",
+            "NumberOfArgs": 0,
+            "Resolution": "None"
+        },
+        "StageComponent": {
+            "Description": "Applicable components to the target node are being copied to the staging directory on target node.",
+            "Message": "STAGE %1",
+            "Severity": "OK",
+            "NumberOfArgs": 0,
+            "Resolution": "None"
+        },
+        "VerifyStagedFiles": {
+            "Description": "Verifying staged files",
+            "Message": "Verify files in staging directory.",
+            "Severity": "OK",
+            "NumberOfArgs": 0,
+            "Resolution": "None"
+        },
+        "LaunchSUMInstall": {
+            "Description": "Launching Smart Update Manager for deploy",
+            "Message": "Start Smart Update Manager for firmware installation.",
+            "Severity": "OK",
+            "NumberOfArgs": 0,
+            "Resolution": "None"
+        },
+        "RebootingSystem": {
+            "Description": "Rebooting System for activating installed components",
+            "Message": "Smart Update Tools started rebooting the system to activate the components needing reboot.",
+            "Severity": "OK",
+            "NumberOfArgs": 0,
+            "Resolution": "None"
+        },
+        "LaunchSUMVerify": {
+            "Description": "Launching Smart Update Manager for Verification",
+            "Message": "Start Smart Update Manager to verify the update operation.",
+            "Severity": "OK",
+            "NumberOfArgs": 0,
+            "Resolution": "None"
+        },
+        "ComponentUptoDate": {
+            "Description": "Component is UP to Date",
+            "Message": "STAGE component  %1/%2 - %3 is already up to date and is not going to be staged",
+            "Severity": "OK",
+            "NumberOfArgs": 0,
+            "Resolution": "None"
+        }
+    }
+}

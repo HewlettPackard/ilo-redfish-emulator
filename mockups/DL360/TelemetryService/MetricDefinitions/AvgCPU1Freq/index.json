@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricDefinition.MetricDefinition",
+    "@odata.etag": "W/\"AB720077\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AvgCPU1Freq",
+    "@odata.type": "#MetricDefinition.v1_0_0.MetricDefinition",
+    "Id": "AvgCPU1Freq",
+    "Calculable": "NonSummable",
+    "CalculationAlgorithm": "Average",
+    "Description": "Metric definition for average CPU1 frequency",
+    "Implementation": "PhysicalSensor",
+    "IsLinear": true,
+    "MaxReadingRange": 4000,
+    "MetricDataType": "Decimal",
+    "MetricProperties": [
+        "/redfish/v1/Chassis/1/Power#PowerControl/PowerMetrics/AvgCPU1Freq"
+    ],
+    "MetricType": "Numeric",
+    "MinReadingRange": 0,
+    "Name": "Metric definition for average CPU1 frequency",
+    "Units": "MHz"
+}

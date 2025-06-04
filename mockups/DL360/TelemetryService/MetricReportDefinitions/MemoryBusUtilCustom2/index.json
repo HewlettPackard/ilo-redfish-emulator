@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition",
+    "@odata.etag": "W/\"3000BFBB\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/MemoryBusUtilCustom2",
+    "@odata.type": "#MetricReportDefinition.v1_4_2.MetricReportDefinition",
+    "Id": "MemoryBusUtilCustom2",
+    "Description": "Metric report of Memory Bus Utilization for 60 minutes with sensing interval of 20 seconds.",
+    "MetricProperties": [
+        "/redfish/v1/Systems/1#SystemUsage/MemoryBusUtil"
+    ],
+    "MetricReport": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReports/MemoryBusUtilCustom2"
+    },
+    "MetricReportDefinitionType": "OnRequest",
+    "Metrics": [
+        {
+            "CollectionDuration": "PT20S",
+            "CollectionFunction": "Average",
+            "CollectionTimeScope": "Interval",
+            "MetricId": "MemoryBusUtil"
+        }
+    ],
+    "Name": "Metric report of Memory Bus Utilization for 60 minutes with sensing interval of 20 seconds.",
+    "Schedule": {
+        "EnabledDaysOfMonth": [],
+        "RecurrenceInterval": "PT20S"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"0539D502\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/11",
+    "@odata.type": "#SoftwareInventory.v1_2_0.SoftwareInventory",
+    "Id": "11",
+    "Description": "1077807010770073",
+    "Name": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory",
+            "DeviceClass": null,
+            "DeviceContext": "OCP 3.0 Slot 10",
+            "DeviceInstance": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "Targets": [
+                "a6b1a447-382a-5a4f-1077-807010770073"
+            ]
+        }
+    },
+    "Version": "08.50.78"
+}

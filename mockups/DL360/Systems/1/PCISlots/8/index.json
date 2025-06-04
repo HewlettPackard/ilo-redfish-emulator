@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot",
+    "@odata.etag": "W/\"CC42E546\"",
+    "@odata.id": "/redfish/v1/Systems/1/PCISlots/8",
+    "@odata.type": "#HpeServerPCISlot.v2_1_2.HpeServerPCISlot",
+    "Id": "8",
+    "BusNumber": 102,
+    "Characteristics": {
+        "Provides3_3Volts": true,
+        "SupportsHotPlugDevices": true,
+        "SupportsSMBusSignal": true
+    },
+    "DeviceNumber": 0,
+    "FunctionNumber": 0,
+    "Length": "Other",
+    "LinkLanes": "x4",
+    "Name": "NVMe Slot 35",
+    "Status": {
+        "OperationalStatus": [
+            {
+                "Status": "Empty"
+            }
+        ]
+    },
+    "SupportsHotPlug": true,
+    "Technology": "PCIExpressGen4",
+    "UEFIDevicePath": "PciRoot(0x5)/Pci(0x5,0x0)/Pci(0x0,0x0)"
+}

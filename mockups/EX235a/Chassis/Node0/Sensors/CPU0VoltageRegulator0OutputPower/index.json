@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/CPU0VoltageRegulator0OutputPower",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "CPU0VoltageRegulator0OutputPower",
+    "Name": "CPU0 VDD_3V3_S0",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "CPU",
+        "ParentalIndex": 0,
+        "ReferenceDesignator": "U7001"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 0.844,
+    "ReadingTime": "2022-03-09T21:16:42.008436704Z",
+    "ReadingType": "Power",
+    "ReadingUnits": "W"
+}

@@ -1,0 +1,18 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/2",
+    "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+    "Created": "2022-02-22T21:56:36+00:00",
+    "EntryType": "Event",
+    "EventTimestamp": "2022-02-22T21:56:36+00:00",
+    "Id": "2",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/"
+        }
+    },
+    "Message": "Successfully completed SimpleUpdate request",
+    "MessageId": "HPEFirmwareUpdate.SimpleUpdateSuccess",
+    "Name": "Log entry 2",
+    "Severity": "OK"
+}

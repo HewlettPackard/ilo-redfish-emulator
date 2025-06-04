@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/f31e009e",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "f31e009e",
+    "Activates": "AfterReboot",
+    "ComponentUri": "/fwrepo/HPE_SR416_SR932_Gen10P_Gen11_03.01.23.072_A.fwpkg",
+    "Configuration": "",
+    "Created": "2023-07-21T16:22:11Z",
+    "Criticality": "Optional",
+    "DeviceClass": "79f0c163-0c13-4662-9dea-09235fef90cb",
+    "ExecutionParameters": "",
+    "Filename": "HPE_SR416_SR932_Gen10P_Gen11_03.01.23.072_A.fwpkg",
+    "Filepath": "HPE_SR416_SR932_Gen10P_Gen11_03.01.23.072_A.fwpkg",
+    "Locked": false,
+    "Name": "Firmware Package - HPE SR932i-p Gen10 Plus /SR416i-a Gen10 P...",
+    "SizeBytes": 12462799,
+    "Targets": [
+        "a6b1a447-382a-5a4f-9005-028f159002db",
+        "a6b1a447-382a-5a4f-9005-028f1590032e",
+        "a6b1a447-382a-5a4f-9005-028f15900381",
+        "a6b1a447-382a-5a4f-9005-028f159002dc",
+        "a6b1a447-382a-5a4f-9005-028f15900294"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "03.01.23.072"
+}

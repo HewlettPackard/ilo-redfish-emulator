@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"8A055BBB\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/212",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "212",
+    "Created": "2025-05-29T08:49:12Z",
+    "EntryType": "Oem",
+    "EventId": "55ac923a-6e57-d301-d23e-49005d46e431",
+    "EventTimestamp": "2025-05-29T08:49:12Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/1"
+        }
+    },
+    "MessageArgs": [
+        "NoAMS",
+        "vMainDeviceDiscoveryComplete",
+        "Busy"
+    ],
+    "MessageId": "iLOEvents.3.15.DeviceDiscoveryStatusV2",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

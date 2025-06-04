@@ -1,0 +1,255 @@
+{
+    "@Redfish.Copyright": "Copyright 2021 HPE Inc. All rights reserved.",
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Registries/HPEGPUAlarms.1.0.0.json",
+    "@odata.type": "#MessageRegistry.v1_0_0.MessageRegistry",
+    "Description": "HPE GPU alarm messages",
+    "Id": "HPEGPUAlarms.1.0.0",
+    "Language": "en",
+    "Messages": {
+        "DieHotspotThrottler": {
+            "Description": "Indicates a GPU Throttler was triggered.",
+            "Message": "Die hotspot throttler engaged",
+            "NumberOfArgs": 0,
+            "Resolution": "Check GPU workload.",
+            "Severity": "Warning"
+        },
+        "DieHotspotThrottlerCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "DieHotspotThrottler"
+                ]
+            },
+            "Description": "Indicates issue for GPU Throttler is no longer present.",
+            "Message": "Die hotspot throttler cleared",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "HBMTempThrottler": {
+            "Description": "Indicates a GPU Throttler was triggered.",
+            "Message": "HBM temperature throttler engaged",
+            "NumberOfArgs": 0,
+            "Resolution": "Check GPU workload.",
+            "Severity": "Warning"
+        },
+        "HBMTempThrottlerCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "HBMTempThrottler"
+                ]
+            },
+            "Description": "Indicates issue for GPU Throttler is no longer present.",
+            "Message": "HBM temperature throttler cleared",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "PWRBRKThrottler": {
+            "Description": "Indicates a GPU Throttler was triggered.",
+            "Message": "PWRBRK throttler engaged",
+            "NumberOfArgs": 0,
+            "Resolution": "Check the GPU workloads.",
+            "Severity": "Warning"
+        },
+        "PWRBRKThrottlerCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "PWRBRKThrottler"
+                ]
+            },
+            "Description": "Indicates issue for GPU Throttler is no longer present.",
+            "Message": "PWRBRK throttler cleared",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "RASInitializingError": {
+            "Description": "Indicates a GPU Software Error.",
+            "Message": "Error when initializing RAS",
+            "NumberOfArgs": 0,
+            "Resolution": "Check the GPU capabilities.",
+            "Severity": "Critical"
+        },
+        "RASInitializingErrorCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "RASInitializingError"
+                ]
+            },
+            "Description": "Indicates a GPU Software Error is no longer present.",
+            "Message": "RAS initializing error cleared",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "VDDCR_GFX_TDCThrottler": {
+            "Description": "Indicates a GPU Throttler was triggered.",
+            "Message": "VDDCR_GFX TDC throttler engaged",
+            "NumberOfArgs": 0,
+            "Resolution": "Check the GPU workloads.",
+            "Severity": "Warning"
+        },
+        "VDDCR_GFX_TDCThrottlerCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "VDDCR_GFX_TDCThrottler"
+                ]
+            },
+            "Description": "Indicates issue for GPU Throttler is no longer present.",
+            "Message": "VDDCR_GFX TDC throttler cleared",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "VDDCR_GFX_VRTempThrottler": {
+            "Description": "Indicates a GPU Throttler was triggered.",
+            "Message": "VDDCR_GFX VR temperature throttler engaged",
+            "NumberOfArgs": 0,
+            "Resolution": "Check GPU workload.",
+            "Severity": "Warning"
+        },
+        "VDDCR_GFX_VRTempThrottlerCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "VDDCR_GFX_VRTempThrottler"
+                ]
+            },
+            "Description": "Indicates issue for GPU Throttler is no longer present.",
+            "Message": "VDDCR_GFX VR temperature throttler cleared",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "VDDCR_MEM_TDCThrottler": {
+            "Description": "Indicates a GPU Throttler was triggered.",
+            "Message": "VDDCR_MEM TDC throttler engaged",
+            "NumberOfArgs": 0,
+            "Resolution": "Check the GPU workloads.",
+            "Severity": "Warning"
+        },
+        "VDDCR_MEM_TDCThrottlerCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "VDDCR_MEM_TDCThrottler"
+                ]
+            },
+            "Description": "Indicates issue for GPU Throttler is no longer present.",
+            "Message": "VDDCR_MEM TDC throttler cleared",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "VDDCR_MEM_VRTempThrottler": {
+            "Description": "Indicates a GPU Throttler was triggered.",
+            "Message": "VDDCR_MEM VR temperature throttler engaged",
+            "NumberOfArgs": 0,
+            "Resolution": "Check the GPU workloads.",
+            "Severity": "Warning"
+        },
+        "VDDCR_MEM_VRTempThrottlerCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "VDDCR_MEM_VRTempThrottler"
+                ]
+            },
+            "Description": "Indicates issue for GPU Throttler is no longer present.",
+            "Message": "VDDCR_MEM VR temperature throttler cleraed",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "VDDCR_SOC_TDCThrottler": {
+            "Description": "Indicates a GPU Throttler was triggered.",
+            "Message": "VDDCR_SOC TDC throttler engaged",
+            "NumberOfArgs": 0,
+            "Resolution": "Check the GPU workloads.",
+            "Severity": "Warning"
+        },
+        "VDDCR_SOC_TDCThrottlerCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "VDDCR_SOC_TDCThrottler"
+                ]
+            },
+            "Description": "Indicates issue for GPU Throttler is no longer present.",
+            "Message": "VDDCR_SOC TDC throttler cleared",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "VDDCR_SOC_VRTempThrottler": {
+            "Description": "Indicates a GPU Throttler was triggered.",
+            "Message": "VDDCR_SOC VR temperature throttler engaged",
+            "NumberOfArgs": 0,
+            "Resolution": "Check GPU workload.",
+            "Severity": "Warning"
+        },
+        "VDDCR_SOC_VRTempThrottlerCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "VDDCR_SOC_VRTempThrottler"
+                ]
+            },
+            "Description": "Indicates issue for GPU Throttler is no longer present.",
+            "Message": "VDDCR_SOC VR temperature throttler cleared",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "WAFLInitializationFailed": {
+            "Description": "Indicates a GPU Software Failure.",
+            "Message": "Failed to successfully complete WAFL initialization sequence",
+            "NumberOfArgs": 0,
+            "Resolution": "Check the GPU capabilities.",
+            "Severity": "Critical"
+        },
+        "WAFLInitializationFailureCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "WAFLInitializationFailed"
+                ]
+            },
+            "Description": "Indicates a GPU Software Failure is no longer present.",
+            "Message": "WAFL initialization sequence failure cleared",
+            "NumberOfArgs": 0,
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "XGMIInitializationFailed": {
+            "Description": "Indicates a GPU Software Failure.",
+            "Message": "Failed to successfully complete XGMI initialization sequence",
+            "NumberOfArgs": 0,
+            "Resolution": "Check the GPU capabilities.",
+            "Severity": "Critical"
+        },
+        "XGMIInitializationFailureCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "XGMIInitializationFailed"
+                ]
+            },
+            "Description": "Indicates a GPU Software Failure is no longer present",
+            "Message": "XGMI initialization failure cleared",
+            "NumberOfArgs": 0,
+            "Resolution": "Node",
+            "Severity": "OK"
+        }
+    },
+    "Name": "HPE GPU Alarms Message Registry",
+    "OwningEntity": "HPE Inc.",
+    "RegistryPrefix": "HPE_GPUAlarms",
+    "RegistryVersion": "1.0.0"
+}

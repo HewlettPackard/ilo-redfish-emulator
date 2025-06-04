@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricDefinition.MetricDefinition",
+    "@odata.etag": "W/\"AB720077\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil",
+    "@odata.type": "#MetricDefinition.v1_0_0.MetricDefinition",
+    "Id": "MemoryBusUtil",
+    "Calculable": "NonSummable",
+    "CalculationAlgorithm": "Average",
+    "Description": "Metric definition for Memory Bus Utilization",
+    "Implementation": "PhysicalSensor",
+    "IsLinear": true,
+    "MaxReadingRange": 100,
+    "MetricDataType": "Decimal",
+    "MetricProperties": [
+        "/redfish/v1/Systems/1#SystemUsage/MemoryBusUtil"
+    ],
+    "MetricType": "Numeric",
+    "MinReadingRange": 0,
+    "Name": "Metric definition for Memory Bus Utilization",
+    "Units": "%"
+}

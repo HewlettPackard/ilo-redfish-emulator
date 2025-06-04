@@ -1,0 +1,45 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#sut.sut/",
+    "@odata.id": "/redfish/v1/Systems/1/hpsut/tasksettings/",
+    "@odata.type": "#SUTTaskSettings.v4_5_0.SUTTaskSettings",
+    "TaskSettings": [
+        {
+            "Properties": {
+                "BaselineSettings": {
+                    "Arguments": "",
+                    "Checksum": "",
+                    "ChecksumProgramFile": "",
+                    "Description": "",
+                    "Order": "1",
+                    "ProgramName": "",
+                    "SourceUri": "",
+                    "TargetUri": "",
+                    "Type": "STORAGE"
+                },
+                "TaskResults": {
+                    "MessageID": "",
+                    "TaskState": ""
+                }
+            }
+        },
+        {
+            "Properties": {
+                "BaselineSettings": {
+                    "Arguments": "",
+                    "Checksum": "",
+                    "ChecksumProgramFile": "",
+                    "Description": "",
+                    "Order": "2",
+                    "ProgramName": "",
+                    "SourceUri": "",
+                    "TargetUri": "",
+                    "Type": "BIOS"
+                },
+                "TaskResults": {
+                    "MessageID": "",
+                    "TaskState": ""
+                }
+            }
+        }
+    ]
+}

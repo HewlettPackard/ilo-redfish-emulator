@@ -1,0 +1,23 @@
+{
+    "@odata.etag": "W/\"1646162198\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/Memory/DIMM7",
+    "@odata.type": "#Memory.v1_5_0.Memory",
+    "BaseModuleType": "RDIMM",
+    "BusWidthBits": 72,
+    "CapacityMiB": 65536,
+    "DataWidthBits": 64,
+    "ErrorCorrection": "Multi-bit ECC",
+    "Id": "DIMM7",
+    "Manufacturer": "SK Hynix",
+    "MemoryDeviceType": "DDR4",
+    "MemoryLocation": {
+        "Slot": 7,
+        "Socket": 0
+    },
+    "MemoryType": "DRAM",
+    "Name": "DIMM 7",
+    "OperatingSpeedMhz": 3200,
+    "PartNumber": "HMAA8GR7AJR4N-XN",
+    "RankCount": 2,
+    "SerialNumber": "442CA3AE"
+}

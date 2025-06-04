@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Managers/MCU1",
+    "@odata.type": "#Manager.v1_3_2.Manager",
+    "Description": "Microcontroller Unit for Mezz1",
+    "Id": "MCU1",
+    "Links": {
+        "ManagerInChassis": {
+            "@odata.id": "/redfish/v1/Chassis/Mezz1"
+        }
+    },
+    "ManagerType": "AuxiliaryController",
+    "Name": "MCU1",
+    "Status": {
+        "Health": "OK"
+    }
+}

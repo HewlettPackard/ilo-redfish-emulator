@@ -1,0 +1,11 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Oem/Alarms/LeakIndicatorSustained",
+    "@odata.type": "#Alarm.v0_9_0.Alarm",
+    "AlarmState": "Armed",
+    "AutomaticReArm": true,
+    "Description": "Indicates the leak sensor has been active for a sustained period and may need to be addressed to avoid downtime.",
+    "Id": "LeakIndicatorSustained",
+    "Name": "Enclosure LeakIndicatorSustained Alarm",
+    "Severity": "Critical"
+}

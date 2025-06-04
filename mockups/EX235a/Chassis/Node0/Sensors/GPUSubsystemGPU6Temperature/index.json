@@ -1,0 +1,16 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/GPUSubsystemGPU6Temperature",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "GPUSubsystemGPU6Temperature",
+    "Name": "gpu6",
+    "Oem": {
+        "Index": 6,
+        "ParentalContext": "GPUSubsystem"
+    },
+    "PhysicalContext": "GPU",
+    "Reading": 31,
+    "ReadingTime": "2022-03-09T21:16:27.131590417Z",
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel"
+}

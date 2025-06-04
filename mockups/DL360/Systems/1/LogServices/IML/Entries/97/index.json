@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"064E051D\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/97",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "97",
+    "Created": "2025-05-28T06:30:02Z",
+    "EntryType": "Oem",
+    "Message": "Slot=12 Storage - Volume 1 status changed to ok",
+    "MessageArgs": [],
+    "MessageId": "19.33",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 19,
+            "ClassDescription": "Drive Array",
+            "Code": 33,
+            "Count": 1,
+            "EventNumber": 7499,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x0021-gen10",
+            "RecommendedAction": "1. Allow rebuild to complete\n2. Verify cables are seated\n3. Replace failed drive\n4. Install missing drive\n5. Replace incorrect drive",
+            "Repaired": true,
+            "Severity": "Repaired",
+            "Updated": "2025-05-28T06:30:02Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

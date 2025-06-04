@@ -1,0 +1,79 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponentInstallSet.HpeComponentInstallSet",
+    "@odata.etag": "W/\"F086283C\"",
+    "@odata.id": "/redfish/v1/UpdateService/InstallSets/a74b22b6",
+    "@odata.type": "#HpeComponentInstallSet.v1_4_0.HpeComponentInstallSet",
+    "Id": "a74b22b6",
+    "Actions": {
+        "#HpeComponentInstallSet.Invoke": {
+            "target": "/redfish/v1/UpdateService/InstallSets/a74b22b6/Actions/HpeComponentInstallSet.Invoke"
+        }
+    },
+    "Created": "2022-10-01T00:20:49Z",
+    "Description": "Essential System Firmware Components",
+    "IsRecovery": true,
+    "Modified": "2022-10-01T00:20:49Z",
+    "Name": "System Recovery Set",
+    "Sequence": [
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/051e264c",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "ilo5_271.bin",
+            "Name": "iLO 5",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/3e96efee",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "CPLD_DL360_DL380_Gen10Plus_v1515_signed.vme",
+            "Name": "System Programmable Logic Device",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/58e3b384",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "U46_1.64_08_11_2022.signed.flash",
+            "Name": "System BIOS - U46",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/59018d2e",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "IEGen10Plus_1.0.0.20.signed.bin",
+            "Name": "Innovation Engine (IE) Universal Image",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/e8dcd465",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "SPSGen10Plus_04.04.04.062.signed.bin",
+            "Name": "Server Platform Services (SPS) Firmware",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/f6eafeea",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "Recovery_DL360DL380GEN10Plus_MEIE_1.42_05_05_2021.signed.bin",
+            "Name": "ME/IE Full Restoration Image For Gen 10+ DL360/DL380",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        }
+    ]
+}

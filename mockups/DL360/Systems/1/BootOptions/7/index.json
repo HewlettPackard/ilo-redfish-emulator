@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "W/\"A3A6BF43\"",
+    "@odata.id": "/redfish/v1/Systems/1/BootOptions/7",
+    "@odata.type": "#BootOption.v1_0_1.BootOption",
+    "Id": "7",
+    "Alias": "None",
+    "BootOptionReference": "Boot0012",
+    "DisplayName": "Slot 1 Port 1 : Mellanox Network Adapter - 88:E9:A4:6B:A8:AC (HTTP(S) IPv6)",
+    "Name": "Boot Option",
+    "UefiDevicePath": "PciRoot(0x1)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A46BA8AC,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+}

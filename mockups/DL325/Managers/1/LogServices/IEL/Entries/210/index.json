@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"FA0FFEE6\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/210",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "210",
+    "Created": "2022-04-14T16:50:28Z",
+    "EntryType": "Oem",
+    "Message": "iLO time update failed. Unable to contact NTP server.",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 296,
+            "Count": 1,
+            "EventNumber": 1561698,
+            "Severity": "Caution",
+            "Updated": "2022-04-14T16:50:28Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "Warning"
+}

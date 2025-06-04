@@ -1,0 +1,12 @@
+{
+    "@odata.etag": "W/\"1645567260\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/EthernetInterfaces/ManagementEthernet",
+    "@odata.type": "#EthernetInterface.v1_3_0.EthernetInterface",
+    "Description": "Node Maintenance Network",
+    "Id": "ManagementEthernet",
+    "MACAddress": "00:40:a6:83:3a:52",
+    "PermanentMACAddress": "00:40:a6:83:3a:52",
+    "VLANs": {
+        "@odata.id": "/redfish/v1/Systems/Node0/EthernetInterfaces/ManagementEthernet/VLANs"
+    }
+}

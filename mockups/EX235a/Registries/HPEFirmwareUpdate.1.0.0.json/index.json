@@ -1,0 +1,195 @@
+{
+    "@Redfish.Copyright": "Copyright 2021 Hewlett Packard Enterprise Development LP",
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Registries/HPEFirmwareUpdate.1.0.0.json",
+    "@odata.type": "#MessageRegistry.v1_2_0.MessageRegistry",
+    "Description": "Firmware update alert messages",
+    "Id": "HPEFirmwareUpdate.1.0.0",
+    "Language": "en",
+    "Messages": {
+        "AutomaticPowerStateChangeFailed": {
+            "Description": "When firmware requires a transient power state, the state is changed automatically. This state changed failed, inhibited the flashing.",
+            "Message": "Failed to transition the controller to the required power state %1 flashing.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Try power cycling and report the issue to HPE.",
+            "Severity": "Warning"
+        },
+        "ChecksumVerificationFailed": {
+            "Description": "Invalid Checksum. The package was improperly created or corrupted during download.",
+            "Message": "The checksum included in firmware archive did not match file contents.",
+            "Resolution": "Please re-download package from HPE.",
+            "Severity": "Warning"
+        },
+        "ControllerUpdateBootFailure": {
+            "Description": "Indicates the controller failed to boot after an update. In recovery mode SimpleUpdate can be used to boot a different image.",
+            "Message": "The updated controller image failed to boot correctly. Controller in %1 boot mode.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Please use SimpleUpdate to install a functional image.",
+            "Severity": "Critical"
+        },
+        "DeviceDriverBindingFailed": {
+            "Description": "Binding the device driver to the target device failed.",
+            "Message": "Binding the device %1 driver to an %2 device failed.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Contact HPE, device replacement potentially needed.",
+            "Severity": "Warning"
+        },
+        "DownloadFailed": {
+            "Description": "The firmware package failed to download. This generally occurs because the provided ImageURI was incorrect or the server could not be accessed.",
+            "Message": "Firmware package specified in the ImageURI during a SimpleUpdate failed to download. %1",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Please check that server URL is correct and contains the specified firmware package. Verify network has been configured properly.",
+            "Severity": "Warning"
+        },
+        "FailedToFindFlashDevice": {
+            "Description": "The flashing device was not found.",
+            "Message": "The flash device %1 was not found.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Please check the device is connected properly. Otherwise replace it.",
+            "Severity": "Warning"
+        },
+        "FailedWritingImageToDevice": {
+            "Description": "An attempt to write an image to a target device failed.",
+            "Message": "Failed to write image to %1.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Contact HPE, device replacement potentially needed.",
+            "Severity": "Warning"
+        },
+        "FileMissingFromArchive": {
+            "Description": "Provided firmware archive was missing one or more required files.",
+            "Message": "Required '%1' file was missing from firmware archive.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Please download an updated valid package.",
+            "Severity": "Warning"
+        },
+        "HardwareIncompatibilityDetected": {
+            "Description": "The model supported by the firmware archive does not match the detected model.",
+            "Message": "The model supported by the firmware (%1) is not compatibile with (%2) that was detected.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Please download and install firmware that is compatible.",
+            "Severity": "Warning"
+        },
+        "ImageNotSigned": {
+            "Description": "Images should be signed so the identity of the package issuer can be verified. This error indicates signed updates are required, and an unsigned package was provided.",
+            "Message": "Firmware update aborted because image was not signed.",
+            "Resolution": "Please download updated package that is signed by HPE.",
+            "Severity": "Warning"
+        },
+        "ImageTooLarge": {
+            "Description": "This indicates that the provided image was larger than what could be safely installed. If a BMC or Recovery image is too large, it could prevent the controller from booting or being recoverable.",
+            "Message": "The firmware image size %1 was larger than maximum allowed value %2.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "number",
+                "number"
+            ],
+            "Resolution": "Please provide updated image of a valid size.",
+            "Severity": "Warning"
+        },
+        "ImageVerificationFailed": {
+            "Description": "FIT image was invalid because its checksum did not match, gzip encoding was malformed, or was missing kernel, ramdisk, or rdt images.",
+            "Message": "FIT image verification failed.",
+            "Resolution": "Please try newer package that is properly packaged.",
+            "Severity": "Warning"
+        },
+        "InternalSimpleUpdateError": {
+            "Description": "There is an error in the SimpleUpdate service.",
+            "Message": "The SimpleUpdate service is not working as expected with this firmware component.",
+            "Resolution": "Please contact HPE support for further assistance.",
+            "Severity": "Warning"
+        },
+        "RMFlashToolInternalFailure": {
+            "Description": "An error occurred within the RM device flashing tool.",
+            "Message": "RM Flash tool returned an error of %1.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Acquire return error and report it to HPE.",
+            "Severity": "Warning"
+        },
+        "SetupFailed": {
+            "Description": "Required setup for downloading firmware failed. Prerequisites include creating data files and working directories.",
+            "Message": "Setup for firmware download failed. %1",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Please collect all diagnostic information and report it to HPE then reboot controller.",
+            "Severity": "Warning"
+        },
+        "SignatureVerificationFailed": {
+            "Description": "Invalid Signature. The package was improperly created or corrupted during download.",
+            "Message": "Image signature verification failed.",
+            "Resolution": "Please re-download a signed package directly from HPE.",
+            "Severity": "Warning"
+        },
+        "SimpleUpdateFailure": {
+            "Description": "There were errors upgrading the firmware.",
+            "Message": "Failed to complete SimpleUpdate request",
+            "Resolution": "Please reference the accompanying failure event and status condition.",
+            "Severity": "Warning"
+        },
+        "SimpleUpdateStarting": {
+            "ClearingLogic": {
+                "ClearsAll": true,
+                "ClearsIf": "SameOriginOfCondition"
+            },
+            "Description": "The SimpleUpdate request passed all synchronous checks and is starting asynchronously.",
+            "Message": "The UpdateService has started processing %1 in the background.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "SimpleUpdateSuccess": {
+            "Description": "The SimpleUpdate request completed without any exceptions.",
+            "Message": "Successfully completed SimpleUpdate request",
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "VersionVerificationFailed": {
+            "Description": "The version detected after flashing did not match the version that was flashed.",
+            "Message": "Version %1 was flashed, but version %2 was detected.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Please check the device is connected properly. Otherwise replace it.",
+            "Severity": "Warning"
+        }
+    },
+    "Name": "HPE Firmware Update Message Registry",
+    "OwningEntity": "HPE",
+    "RegistryPrefix": "HPEFirmwareUpdate",
+    "RegistryVersion": "1.0.0"
+}

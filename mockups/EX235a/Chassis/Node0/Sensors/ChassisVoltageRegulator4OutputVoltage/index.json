@@ -1,0 +1,44 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator4OutputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "ChassisVoltageRegulator4OutputVoltage",
+    "Name": "AOB 3.3V SMC",
+    "Oem": {
+        "Index": 4,
+        "ParentalContext": "Chassis",
+        "ReferenceDesignator": "U3000"
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Output",
+    "Reading": 3.34,
+    "ReadingTime": "2022-03-09T21:16:13.641494200Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 3.135
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 2.978
+        },
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 2.829
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 3.465
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 3.638
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 3.82
+        }
+    }
+}

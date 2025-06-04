@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"668AF9DA\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/146",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "146",
+    "Created": "2025-05-29T08:46:51Z",
+    "EntryType": "Oem",
+    "Message": "Scriptable virtual media ejected by: Server_Reboot.",
+    "MessageArgs": [],
+    "MessageId": "35.169",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 169,
+            "Count": 1,
+            "EventNumber": 52751,
+            "Severity": "Informational",
+            "Updated": "2025-05-29T08:46:51Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

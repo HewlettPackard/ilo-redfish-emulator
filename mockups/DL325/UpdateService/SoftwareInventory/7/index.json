@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"0539D502\"",
+    "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/7",
+    "@odata.type": "#SoftwareInventory.v1_2_0.SoftwareInventory",
+    "Id": "7",
+    "Description": "Cray/HPE SDU RDA Deployment for Shasta NCN",
+    "Name": "cray-sdu-rda",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "e7a8b7dd-a6c0-4056-b14a-97bc423ddc7b",
+            "Targets": [
+                "20a6e8e4-bf33-4c71-a6bf-d9ec3a8d4cc6"
+            ]
+        }
+    },
+    "Version": "1.1.3-20210701133249_47fd8c1"
+}

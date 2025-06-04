@@ -1,0 +1,17 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/SessionService",
+    "@odata.type": "#SessionService.v1_1_3.SessionService",
+    "Description": "Session Service",
+    "Id": "SessionService",
+    "Name": "Session Service",
+    "ServiceEnabled": true,
+    "SessionTimeout": 30,
+    "Sessions": {
+        "@odata.id": "/redfish/v1/SessionService/Sessions"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

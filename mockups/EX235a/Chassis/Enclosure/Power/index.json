@@ -1,0 +1,30 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/Chassis/Enclosure/Power",
+    "@odata.type": "#Power.v1_4_0.Power",
+    "Description": "Power sensor readings",
+    "Id": "Power",
+    "Name": "Power",
+    "Voltages": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure/Power#/Voltages/7",
+            "Name": "12V_HSS ECB Voltage Output",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 12.188,
+            "RelatedItem@odata.count": 0
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure/Power#/Voltages/6",
+            "LowerThresholdCritical": 11.16,
+            "LowerThresholdNonCritical": 11.4,
+            "Name": "12V_HSS ECB Voltage Input",
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 12.219,
+            "RelatedItem@odata.count": 0,
+            "UpperThresholdCritical": 12.84,
+            "UpperThresholdFatal": 15.16,
+            "UpperThresholdNonCritical": 12.6
+        }
+    ],
+    "Voltages@odata.count": 2
+}

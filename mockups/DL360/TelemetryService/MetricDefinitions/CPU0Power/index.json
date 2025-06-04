@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricDefinition.MetricDefinition",
+    "@odata.etag": "W/\"AB720077\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power",
+    "@odata.type": "#MetricDefinition.v1_0_0.MetricDefinition",
+    "Id": "CPU0Power",
+    "Calculable": "NonSummable",
+    "CalculationAlgorithm": "Average",
+    "Description": "Metric definition for average CPU0 power",
+    "Implementation": "PhysicalSensor",
+    "IsLinear": true,
+    "MaxReadingRange": 120,
+    "MetricDataType": "Decimal",
+    "MetricProperties": [
+        "/redfish/v1/Systems/1#SystemUsage/CPU0Power"
+    ],
+    "MetricType": "Numeric",
+    "MinReadingRange": 0,
+    "Name": "Metric definition for average CPU0 power",
+    "Units": "Watts"
+}

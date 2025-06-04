@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Triggers.Triggers",
+    "@odata.etag": "W/\"7287563F\"",
+    "@odata.id": "/redfish/v1/TelemetryService/Triggers/CPU0PowerTriggers",
+    "@odata.type": "#Triggers.v1_0_0.Triggers",
+    "Id": "CPU0PowerTriggers",
+    "Description": "Triggers for average CPU0 power",
+    "MetricProperties": [
+        "/redfish/v1/Systems/1#SystemUsage/CPU0Power"
+    ],
+    "MetricType": "Numeric",
+    "Name": "Triggers for average CPU0 power",
+    "NumericThresholds": {
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "DwellTime": "PT0S",
+            "Reading": 0
+        }
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "TriggerActions": [
+        "LogToLogService"
+    ]
+}

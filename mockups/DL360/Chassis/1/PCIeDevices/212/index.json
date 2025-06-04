@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "W/\"4DA55F10\"",
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/212",
+    "@odata.type": "#PCIeDevice.v1_5_0.PCIeDevice",
+    "Id": "212",
+    "FirmwareVersion": "03.01.33.044",
+    "Manufacturer": "HPE",
+    "Model": "P12691-001",
+    "Name": "HPE SR416i-a Gen10+",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/212/PCIeFunctions"
+    },
+    "PartNumber": "P12691-001",
+    "SKU": "P13928-001",
+    "SerialNumber": "PWWTT0C52GE0FF",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

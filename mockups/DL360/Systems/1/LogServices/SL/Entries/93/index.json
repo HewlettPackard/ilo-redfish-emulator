@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"3EB103E6\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/93",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "93",
+    "Created": "2023-11-07T06:35:40Z",
+    "EntryType": "Oem",
+    "Message": "Account service setting - AuthenticationFailureLogging modified by : Administrator",
+    "MessageArgs": [],
+    "MessageId": "55.609",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 55,
+            "ClassDescription": "Security Configuration",
+            "Code": 609,
+            "Count": 1,
+            "EventNumber": 118,
+            "Severity": "Informational",
+            "Updated": "2023-11-07T06:35:40Z",
+            "UserAction": "Not Applicable"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "OK"
+}

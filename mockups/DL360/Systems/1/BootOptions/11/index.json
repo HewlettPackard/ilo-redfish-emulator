@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "W/\"A3A6BF43\"",
+    "@odata.id": "/redfish/v1/Systems/1/BootOptions/11",
+    "@odata.type": "#BootOption.v1_0_1.BootOption",
+    "Id": "11",
+    "Alias": "None",
+    "BootOptionReference": "Boot0018",
+    "DisplayName": "iLO Virtual USB 4 : iLO Virtual USB Key",
+    "Name": "Boot Option",
+    "UefiDevicePath": "PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x4)/USB(0x2,0x0)"
+}

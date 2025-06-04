@@ -1,0 +1,44 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3VoltageRegulator0InputVoltage",
+    "@odata.type": "#Sensor.v1_1_0.Sensor",
+    "Id": "Accelerator3VoltageRegulator0InputVoltage",
+    "Name": "PDB INRUSH ACCEL3",
+    "Oem": {
+        "Index": 0,
+        "ParentalContext": "Accelerator",
+        "ParentalIndex": 3
+    },
+    "PhysicalContext": "VoltageRegulator",
+    "PhysicalSubContext": "Input",
+    "Reading": 48.201,
+    "ReadingTime": "2022-03-09T21:16:22.807962456Z",
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": "Decreasing",
+            "Reading": 36.4
+        },
+        "LowerCritical": {
+            "Activation": "Decreasing",
+            "Reading": 34.4
+        },
+        "LowerFatal": {
+            "Activation": "Decreasing",
+            "Reading": 32.76
+        },
+        "UpperCaution": {
+            "Activation": "Increasing",
+            "Reading": 53.6
+        },
+        "UpperCritical": {
+            "Activation": "Increasing",
+            "Reading": 56.3
+        },
+        "UpperFatal": {
+            "Activation": "Increasing",
+            "Reading": 59.6
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/59018d2e",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "59018d2e",
+    "Activates": "Immediately",
+    "ComponentUri": "/fwrepo/IEGen10Plus_1.0.0.20.signed.bin",
+    "Configuration": "",
+    "Created": "2022-10-01T00:20:05Z",
+    "Criticality": "Optional",
+    "DeviceClass": "c734e171-8721-48c9-9ed6-d5bc7da5ef8d",
+    "ExecutionParameters": "",
+    "Filename": "IEGen10Plus_1.0.0.20.signed.bin",
+    "Filepath": "IEGen10Plus_1.0.0.20.signed.bin",
+    "Locked": true,
+    "Name": "Innovation Engine (IE) Universal Image",
+    "SizeBytes": 8391545,
+    "Targets": [
+        "a6b1a447-382a-5a4f-3c10-87800a000303"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "1.0.0.20"
+}

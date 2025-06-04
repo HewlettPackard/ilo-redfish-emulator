@@ -1,0 +1,65 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponentCollection.HpeComponentCollection",
+    "@odata.etag": "W/\"992C153D\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository",
+    "@odata.type": "#HpeComponentCollection.HpeComponentCollection",
+    "Description": "Component Collection",
+    "Name": "Component Collection",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeComponentRepositoryInformation.HpeComponentRepositoryInformation",
+            "@odata.type": "#HpeComponentRepositoryInformation.v2_0_0.HpeComponentRepositoryInformation",
+            "ComponentCount": 15,
+            "FreeSizeBytes": 849281024,
+            "TotalSizeBytes": 1073168384
+        }
+    },
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/051e264c"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/58e3b384"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/3e96efee"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/59018d2e"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/e8dcd465"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/f6eafeea"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/e93ced8b"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/efb33d94"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/867c4c48"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/9fc7d489"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/93876df0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/f31e009e"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/fbab3a18"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/b8c32399"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/2d1ba803"
+        }
+    ],
+    "Members@odata.count": 15
+}

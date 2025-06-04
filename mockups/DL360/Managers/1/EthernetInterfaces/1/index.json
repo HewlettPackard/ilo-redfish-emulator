@@ -1,0 +1,199 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+    "@odata.etag": "W/\"2E808C20\"",
+    "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/1",
+    "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
+    "Id": "1",
+    "AutoNeg": true,
+    "DHCPv4": {
+        "DHCPEnabled": false,
+        "UseDNSServers": false,
+        "UseDomainName": false,
+        "UseGateway": false,
+        "UseNTPServers": false,
+        "UseStaticRoutes": false
+    },
+    "DHCPv6": {
+        "OperatingMode": "Stateful",
+        "UseDNSServers": true,
+        "UseDomainName": true,
+        "UseNTPServers": true,
+        "UseRapidCommit": false
+    },
+    "Description": "Configuration of this Manager Network Interface",
+    "FQDN": null,
+    "FullDuplex": true,
+    "HostName": "ILOMXQ2390RHW",
+    "IPv4Addresses": [
+        {
+            "Address": "172.26.82.58",
+            "AddressOrigin": "Static",
+            "Gateway": "172.26.82.1",
+            "SubnetMask": "255.255.255.0"
+        }
+    ],
+    "IPv4StaticAddresses": [
+        {
+            "Address": "172.26.82.58",
+            "Gateway": "172.26.82.1",
+            "SubnetMask": "255.255.255.0"
+        }
+    ],
+    "IPv6AddressPolicyTable": [
+        {
+            "Label": null,
+            "Precedence": 35,
+            "Prefix": "::ffff:0:0/96"
+        }
+    ],
+    "IPv6Addresses": [
+        {
+            "Address": "FE80::5EED:8CFF:FE2E:563C",
+            "AddressOrigin": "SLAAC",
+            "AddressState": "Preferred",
+            "PrefixLength": 64
+        }
+    ],
+    "IPv6DefaultGateway": "::",
+    "IPv6StaticAddresses": [
+        {
+            "Address": "::",
+            "PrefixLength": null
+        },
+        {
+            "Address": "::",
+            "PrefixLength": null
+        },
+        {
+            "Address": "::",
+            "PrefixLength": null
+        },
+        {
+            "Address": "::",
+            "PrefixLength": null
+        }
+    ],
+    "IPv6StaticDefaultGateways": [
+        {
+            "Address": "::"
+        }
+    ],
+    "InterfaceEnabled": true,
+    "LinkStatus": "LinkUp",
+    "MACAddress": "5C:ED:8C:2E:56:3C",
+    "MaxIPv6StaticAddresses": 4,
+    "Name": "Manager Dedicated Network Interface",
+    "NameServers": [],
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOEthernetNetworkInterface.HpeiLOEthernetNetworkInterface",
+            "@odata.type": "#HpeiLOEthernetNetworkInterface.v2_2_1.HpeiLOEthernetNetworkInterface",
+            "ConfigurationSettings": "Current",
+            "DHCPv4": {
+                "ClientIdType": "Default",
+                "Enabled": false,
+                "UseDNSServers": false,
+                "UseDomainName": false,
+                "UseGateway": false,
+                "UseNTPServers": false,
+                "UseStaticRoutes": false,
+                "UseWINSServers": false
+            },
+            "DHCPv6": {
+                "StatefulModeEnabled": true,
+                "StatelessModeEnabled": true,
+                "UseDNSServers": true,
+                "UseDomainName": true,
+                "UseNTPServers": true,
+                "UseRapidCommit": false
+            },
+            "DomainName": "",
+            "HostName": "ILOMXQ2390RHW",
+            "IPv4": {
+                "DDNSRegistration": true,
+                "DNSServers": [
+                    "0.0.0.0",
+                    "0.0.0.0",
+                    "0.0.0.0"
+                ],
+                "StaticRoutes": [
+                    {
+                        "Destination": "0.0.0.0",
+                        "Gateway": "0.0.0.0",
+                        "SubnetMask": "0.0.0.0"
+                    },
+                    {
+                        "Destination": "0.0.0.0",
+                        "Gateway": "0.0.0.0",
+                        "SubnetMask": "0.0.0.0"
+                    },
+                    {
+                        "Destination": "0.0.0.0",
+                        "Gateway": "0.0.0.0",
+                        "SubnetMask": "0.0.0.0"
+                    }
+                ],
+                "WINSRegistration": true,
+                "WINSServers": [
+                    "0.0.0.0",
+                    "0.0.0.0"
+                ]
+            },
+            "IPv6": {
+                "DDNSRegistration": true,
+                "DNSServers": [
+                    "::",
+                    "::",
+                    "::"
+                ],
+                "SLAACEnabled": true,
+                "StaticDefaultGateway": "::",
+                "StaticRoutes": [
+                    {
+                        "Destination": "::",
+                        "Gateway": "::",
+                        "PrefixLength": null,
+                        "Status": "Unknown"
+                    },
+                    {
+                        "Destination": "::",
+                        "Gateway": "::",
+                        "PrefixLength": null,
+                        "Status": "Unknown"
+                    },
+                    {
+                        "Destination": "::",
+                        "Gateway": "::",
+                        "PrefixLength": null,
+                        "Status": "Unknown"
+                    }
+                ]
+            },
+            "InterfaceType": "Dedicated",
+            "NICEnabled": true,
+            "NICSupportsIPv6": true,
+            "PingGatewayOnStartup": true
+        }
+    },
+    "PermanentMACAddress": "5C:ED:8C:2E:56:3C",
+    "SpeedMbps": 1000,
+    "StatelessAddressAutoConfig": {
+        "IPv6AutoConfigEnabled": true
+    },
+    "StaticNameServers": [
+        "0.0.0.0",
+        "0.0.0.0",
+        "0.0.0.0",
+        "::",
+        "::",
+        "::"
+    ],
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "VLAN": {
+        "VLANEnable": false,
+        "VLANId": null
+    }
+}

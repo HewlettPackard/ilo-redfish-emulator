@@ -1,0 +1,19 @@
+{
+    "@odata.etag": "W/\"1646860561\"",
+    "@odata.id": "/redfish/v1/AccountService/Roles",
+    "@odata.type": "#RoleCollection.RoleCollection",
+    "Description": "Details of Roles Available",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/AccountService/Roles/Operator"
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService/Roles/ReadOnly"
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService/Roles/Administrator"
+        }
+    ],
+    "Members@odata.count": 3,
+    "Name": "Roles Collection"
+}

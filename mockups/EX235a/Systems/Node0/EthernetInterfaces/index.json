@@ -1,0 +1,25 @@
+{
+    "@odata.etag": "W/\"1645567260\"",
+    "@odata.id": "/redfish/v1/Systems/Node0/EthernetInterfaces",
+    "@odata.type": "#EthernetInterfaceCollection.EthernetInterfaceCollection",
+    "Description": "Collection of ethernet interfaces for this system",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/Node0/EthernetInterfaces/HPCNet1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Node0/EthernetInterfaces/ManagementEthernet"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Node0/EthernetInterfaces/HPCNet2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Node0/EthernetInterfaces/HPCNet3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/Node0/EthernetInterfaces/HPCNet0"
+        }
+    ],
+    "Members@odata.count": 5,
+    "Name": "Ethernet Interface Collection"
+}

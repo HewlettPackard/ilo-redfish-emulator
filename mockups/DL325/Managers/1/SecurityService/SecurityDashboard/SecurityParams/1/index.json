@@ -1,0 +1,13 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeiLOSecurityParam.HpeiLOSecurityParam",
+    "@odata.etag": "W/\"A3A6BF43\"",
+    "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/1",
+    "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+    "Id": "1",
+    "Description": "The IPMI/DCMI over LAN feature is enabled. This configuration exposes the server to known IPMI security vulnerabilities.",
+    "Ignore": false,
+    "Name": "IPMI/DCMI Over LAN",
+    "RecommendedAction": "Disable the IPMI/DCMI over LAN feature.",
+    "SecurityStatus": "Risk",
+    "State": "Enabled"
+}

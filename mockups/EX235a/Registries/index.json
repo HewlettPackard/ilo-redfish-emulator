@@ -1,0 +1,49 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Registries",
+    "@odata.type": "#MessageRegistryFileCollection.MessageRegistryFileCollection",
+    "Description": "Registry Repository",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Registries/CrayDiagnostics.1.0.0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Registries/Base.1.4.0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Registries/CrayHMS.1.0.0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Registries/ResourceEvent.1.0.2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Registries/HPEFirmwareUpdate.1.0.0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Registries/Security.1.0.0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Registries/CrayTelemetry.1.0.0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Registries/IPC.1.0.0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Registries/HPEGPUAlarms.1.0.0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Registries/HPEFirmwareValidation.1.0.0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Registries/HttpStatus.1.0.0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Registries/CrayUefi.1.0.0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Registries/CrayAlerts.1.0.0"
+        }
+    ],
+    "Members@odata.count": 13,
+    "Name": "Registry Repository"
+}

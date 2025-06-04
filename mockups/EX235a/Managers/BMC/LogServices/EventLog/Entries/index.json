@@ -1,0 +1,510 @@
+{
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/1",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-02-22T21:55:35+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-02-22T21:55:35+00:00",
+            "Id": "1",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Node0.BIOS"
+                }
+            },
+            "Message": "The UpdateService has started processing http://10.254.1.20:9090/ex235a.bios-1.3.6.tar.gz in the background.",
+            "MessageArgs": [
+                "http://10.254.1.20:9090/ex235a.bios-1.3.6.tar.gz"
+            ],
+            "MessageId": "HPEFirmwareUpdate.SimpleUpdateStarting",
+            "Name": "Log entry 1",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/2",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-02-22T21:56:36+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-02-22T21:56:36+00:00",
+            "Id": "2",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Node0.BIOS"
+                }
+            },
+            "Message": "Successfully completed SimpleUpdate request",
+            "MessageArgs": [],
+            "MessageId": "HPEFirmwareUpdate.SimpleUpdateSuccess",
+            "Name": "Log entry 2",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/3",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-02-22T22:00:06+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-02-22T22:00:06+00:00",
+            "Id": "3",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type On.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "On"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 3",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/4",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-01T19:15:38+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-01T19:15:38+00:00",
+            "Id": "4",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type Off.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "Off"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 4",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/5",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-01T19:17:20+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-01T19:17:20+00:00",
+            "Id": "5",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type On.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "On"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 5",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/6",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-01T19:17:41+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-01T19:17:41+00:00",
+            "Id": "6",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator0VoltageRegulator0InputVoltage"
+                }
+            },
+            "Message": "The PDB INRUSH ACCEL0 Voltage resource has detected a critical fault indicating that it is far below normal operating conditions.",
+            "MessageArgs": [
+                "below",
+                "PDB INRUSH ACCEL0 Voltage"
+            ],
+            "MessageId": "CrayAlerts.HardwareCriticalFaultDetected",
+            "Name": "Log entry 6",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/7",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-01T19:17:41+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-01T19:17:41+00:00",
+            "Id": "7",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator1VoltageRegulator0InputVoltage"
+                }
+            },
+            "Message": "The PDB INRUSH ACCEL1 Voltage resource has detected a critical fault indicating that it is far below normal operating conditions.",
+            "MessageArgs": [
+                "below",
+                "PDB INRUSH ACCEL1 Voltage"
+            ],
+            "MessageId": "CrayAlerts.HardwareCriticalFaultDetected",
+            "Name": "Log entry 7",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/8",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-01T19:17:42+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-01T19:17:42+00:00",
+            "Id": "8",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator2VoltageRegulator0InputVoltage"
+                }
+            },
+            "Message": "The PDB INRUSH ACCEL2 Voltage resource has detected a critical fault indicating that it is far below normal operating conditions.",
+            "MessageArgs": [
+                "below",
+                "PDB INRUSH ACCEL2 Voltage"
+            ],
+            "MessageId": "CrayAlerts.HardwareCriticalFaultDetected",
+            "Name": "Log entry 8",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/9",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-01T19:17:42+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-01T19:17:42+00:00",
+            "Id": "9",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/Accelerator3VoltageRegulator0InputVoltage"
+                }
+            },
+            "Message": "The PDB INRUSH ACCEL3 Voltage resource has detected a critical fault indicating that it is far below normal operating conditions.",
+            "MessageArgs": [
+                "below",
+                "PDB INRUSH ACCEL3 Voltage"
+            ],
+            "MessageId": "CrayAlerts.HardwareCriticalFaultDetected",
+            "Name": "Log entry 9",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/10",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-01T19:20:56+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-01T19:20:56+00:00",
+            "Id": "10",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/Node0/Sensors/ChassisVoltageRegulator2InputVoltage"
+                }
+            },
+            "Message": "The PDB INRUSH CPU Voltage resource has detected a critical fault indicating that it is far below normal operating conditions.",
+            "MessageArgs": [
+                "below",
+                "PDB INRUSH CPU Voltage"
+            ],
+            "MessageId": "CrayAlerts.HardwareCriticalFaultDetected",
+            "Name": "Log entry 10",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/11",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-01T20:11:03+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-01T20:11:03+00:00",
+            "Id": "11",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type Off.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "Off"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 11",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/12",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-01T20:13:45+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-01T20:13:45+00:00",
+            "Id": "12",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type On.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "On"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 12",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/13",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-02T18:46:58+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-02T18:46:58+00:00",
+            "Id": "13",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type Off.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "Off"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 13",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/14",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-02T18:50:42+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-02T18:50:42+00:00",
+            "Id": "14",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type On.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "On"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 14",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/15",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-03T23:56:43+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-03T23:56:43+00:00",
+            "Id": "15",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type Off.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "Off"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 15",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/16",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-03T23:58:22+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-03T23:58:22+00:00",
+            "Id": "16",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type On.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "On"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 16",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/17",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-07T18:13:07+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-07T18:13:07+00:00",
+            "Id": "17",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type Off.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "Off"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 17",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/18",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-07T18:15:49+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-07T18:15:49+00:00",
+            "Id": "18",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type On.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "On"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 18",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/19",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-08T14:19:41+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-08T14:19:41+00:00",
+            "Id": "19",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type Off.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "Off"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 19",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/20",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-08T14:21:21+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-08T14:21:21+00:00",
+            "Id": "20",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type On.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "On"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 20",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/21",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-08T15:39:15+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-08T15:39:15+00:00",
+            "Id": "21",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type Off.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "Off"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 21",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/22",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-08T15:40:54+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-08T15:40:54+00:00",
+            "Id": "22",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type On.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "On"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 22",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/23",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-09T02:23:57+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-09T02:23:57+00:00",
+            "Id": "23",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type Off.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "Off"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 23",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/24",
+            "@odata.type": "#LogEntry.v1_2_0.LogEntry",
+            "Created": "2022-03-09T02:24:56+00:00",
+            "EntryType": "Event",
+            "EventTimestamp": "2022-03-09T02:24:56+00:00",
+            "Id": "24",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/Node0"
+                }
+            },
+            "Message": "The power state of resource /redfish/v1/Systems/Node0 has changed to type On.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/Node0",
+                "On"
+            ],
+            "MessageId": "CrayAlerts.ResourcePowerStateChanged",
+            "Name": "Log entry 24",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 24,
+    "Name": "Log Service Entries Collection"
+}

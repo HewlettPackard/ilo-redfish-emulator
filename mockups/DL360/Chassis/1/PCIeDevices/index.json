@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDeviceCollection.PCIeDeviceCollection",
+    "@odata.etag": "W/\"08A22FCA\"",
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices",
+    "@odata.type": "#PCIeDeviceCollection.PCIeDeviceCollection",
+    "Description": " PCIeDevice view",
+    "Name": "PCIeDevice",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/207"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/208"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/210"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/211"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/212"
+        }
+    ],
+    "Members@odata.count": 5
+}

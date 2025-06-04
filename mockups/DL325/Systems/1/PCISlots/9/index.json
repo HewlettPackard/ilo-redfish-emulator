@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot",
+    "@odata.etag": "W/\"B5787D0B\"",
+    "@odata.id": "/redfish/v1/Systems/1/PCISlots/9",
+    "@odata.type": "#HpeServerPCISlot.v2_1_0.HpeServerPCISlot",
+    "Id": "9",
+    "BusNumber": 132,
+    "Characteristics": {
+        "Provides3_3Volts": true,
+        "SupportsHotPlugDevices": true,
+        "SupportsSMBusSignal": true
+    },
+    "DeviceNumber": 0,
+    "FunctionNumber": 0,
+    "LinkLanes": "x4",
+    "Name": "NVMe Slot 26",
+    "Status": {
+        "OperationalStatus": [
+            {
+                "Status": "Empty"
+            }
+        ]
+    },
+    "SupportsHotPlug": true,
+    "Technology": "PCIExpressGen4",
+    "UEFIDevicePath": "PciRoot(0x1)/Pci(0x1,0x3)/Pci(0x0,0x0)"
+}

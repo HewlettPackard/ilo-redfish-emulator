@@ -1,0 +1,46 @@
+{
+  "@odata.etag": "W/\"946641747\"",
+  "@odata.id": "/redfish/v1/UpdateService/SimpleUpdateActionInfo",
+  "@odata.type": "#ActionInfo.v1_0_1.ActionInfo",
+  "Id": "SimpleUpdateActionInfo",
+  "Name": "SimpleUpdate",
+  "Parameters": [
+    {
+      "DataType": "String",
+      "Name": "ImageURI",
+      "Required": true
+    },
+    {
+      "AllowableValues": [
+        "HTTP",
+        "HTTPS"
+      ],
+      "DataType": "String",
+      "Name": "TransferProtocol",
+      "Required": true
+    },
+    {
+      "AllowableValues": [
+        "/redfish/v1/UpdateService/FirmwareInventory/Recovery",
+        "/redfish/v1/UpdateService/FirmwareInventory/Node0.AccVBIOS",
+        "/redfish/v1/UpdateService/FirmwareInventory/Node0.AccUC",
+        "/redfish/v1/UpdateService/FirmwareInventory/BMC",
+        "/redfish/v1/UpdateService/FirmwareInventory/Node0.BIOS",
+        "/redfish/v1/UpdateService/FirmwareInventory/Node0.ManagementEthernet"
+      ],
+      "DataType": "StringArray",
+      "Name": "Targets",
+      "Required": false
+    },
+    {
+      "DataType": "String",
+      "Name": "User",
+      "Required": false
+    },
+    {
+      "DataType": "String",
+      "Name": "Password",
+      "Required": false
+    }
+  ]
+}

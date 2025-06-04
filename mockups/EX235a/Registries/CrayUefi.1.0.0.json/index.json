@@ -1,0 +1,412 @@
+{
+    "@Redfish.Copyright": "Copyright 2019 Cray Inc. All rights reserved.",
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Registries/CrayUefi.1.0.0.json",
+    "@odata.type": "#MessageRegistry.v1_0_0.MessageRegistry",
+    "Description": "Cray Uefi messages",
+    "Id": "CrayUefi.1.0.0",
+    "Language": "en",
+    "Messages": {
+        "CorrectableUefiError": {
+            "Description": "Indicates that a correctable error was encountered.",
+            "Message": "UEFI error detected on node %1: %2",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "number",
+                "string"
+            ],
+            "Resolution": "View the UEFI log from the BMC in /var/log/nN/current",
+            "Severity": "OK"
+        },
+        "CorrectableUefiMcaError": {
+            "Description": "Indicates that a correctable MCA error was encountered.",
+            "Message": "Correctable Machine Check Architecture %1 Error reported on Socket %2. %3",
+            "NumberOfArgs": 3,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "No action is required.",
+            "Severity": "Warning"
+        },
+        "CorrectableUefiMcaMemoryError": {
+            "Description": "Indicates that a correctable MCA memory error was encountered.",
+            "Message": "Correctable Machine Check Architecture Memory Error: Bank %1 - Unified Memory Controller, Socket %2, DIMM %3. %4",
+            "NumberOfArgs": 4,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Monitor this behavior for possible DIMM replacement.",
+            "Severity": "Warning"
+        },
+        "FatalUefiAssertError": {
+            "Description": "Indicates that BIOS encountered an unrecoverable internal error.",
+            "Message": "BIOS Assert encountered on line %1 of file %2.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Update BIOS to latest released level. Capture the console log and contact vendor if problem persists.",
+            "Severity": "Critical"
+        },
+        "FatalUefiBootError": {
+            "Description": "Indicates BIOS was unable to boot to the OS.",
+            "Message": "No valid Boot devices found.",
+            "NumberOfArgs": 0,
+            "Resolution": "Check that the boot device is functioning properly.",
+            "Severity": "Critical"
+        },
+        "FatalUefiCpuError": {
+            "Description": "Indicates that an CPU error was encountered.",
+            "Message": "%1, Socket %2.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Reseat or replace the reported CPU.",
+            "Severity": "Critical"
+        },
+        "FatalUefiError": {
+            "Description": "Indicates that a critical error was encountered.",
+            "Message": "UEFI error detected on node %1: %2",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "number",
+                "string"
+            ],
+            "Resolution": "View the Uefi log from the BMC in /var/log/nN/current",
+            "Severity": "Critical"
+        },
+        "FatalUefiFpgaTableError": {
+            "Description": "Indicates that an FPGA table error was encountered.",
+            "Message": "BIOS to nC communication protocol error, unable to locate FPGA Information. FPGA %1 table not found.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Update firmware to latest released levels. Capture the console log and contact vendor if problem persists.",
+            "Severity": "Critical"
+        },
+        "FatalUefiFpgaTableVersionError": {
+            "Description": "Indicates that an FPGA table version error was encountered.",
+            "Message": "FPGA %1 table version mismatch, BIOS: %2, nC: %3.",
+            "NumberOfArgs": 3,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Update firmware to latest released levels. Capture the console log and contact vendor if problem persists.",
+            "Severity": "Critical"
+        },
+        "FatalUefiMcaError": {
+            "Description": "Indicates that a critical MCA error was encountered.",
+            "Message": "Machine Check Architecture %1 Error reported on Socket %2. %3",
+            "NumberOfArgs": 3,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Reboot the system and if the problem persists contact your vendor for support and include a captured console log from the affected compute node.",
+            "Severity": "Critical"
+        },
+        "FatalUefiMcaMemoryError": {
+            "Description": "Indicates that a critical MCA memory error was encountered.",
+            "Message": "Uncorrectable Machine Check Architecture Memory Error: Bank %1 - Unified Memory Controller, Socket %2, DIMM %3. %4",
+            "NumberOfArgs": 4,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Reseat or replace the reported DIMM.",
+            "Severity": "Critical"
+        },
+        "FatalUefiMemoryError": {
+            "Description": "Indicates that a memory error was encountered.",
+            "Message": "%1 Error, DIMM %2.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Reseat or replace the reported DIMM",
+            "Severity": "Critical"
+        },
+        "FatalUefiSmmbAllocateError": {
+            "Description": "Indicates that a BIOS to nC communication protocol error was encountered.",
+            "Message": "BIOS to nC communication protocol error unable to allocate memory for the BIOS SMMB copy buffer.",
+            "NumberOfArgs": 0,
+            "Resolution": "Update firmware to latest released levels. Capture the console log and contact vendor if problem persists.",
+            "Severity": "Critical"
+        },
+        "FatalUefiSmmbFpgaError": {
+            "Description": "Indicates that a BIOS to nC communication protocol error was encountered.",
+            "Message": "BIOS to nC communication protocol error, unable to locate FPGA Information.",
+            "NumberOfArgs": 0,
+            "Resolution": "Update firmware to latest released levels. Capture the console log and contact vendor if problem persists.",
+            "Severity": "Critical"
+        },
+        "FatalUefiSmmbInstallError": {
+            "Description": "Indicates that a BIOS to nC communication protocol error was encountered.",
+            "Message": "BIOS to nC communication protocol error, unable to install SMMB protocol.",
+            "NumberOfArgs": 0,
+            "Resolution": "Update firmware to latest released levels. Capture the console log and contact vendor if problem persists.",
+            "Severity": "Critical"
+        },
+        "FatalUefiSmmbRetryError": {
+            "Description": "Indicates that a BIOS to nC communication protocol error was encountered.",
+            "Message": "BIOS to nC communication error. The SMMB %1 command failed to complete after the maximum number of retries.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Update firmware to latest released levels. Capture the console log and contact vendor if problem persists.",
+            "Severity": "Critical"
+        },
+        "FatalUefiUndefinedError": {
+            "Description": "Indicates that a reported early initialization error was not recognized.",
+            "Message": "Undefined error %1 encountered during early BIOS initialization.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Reboot the system and if problem persists capture the console log and contact the vendor.",
+            "Severity": "Critical"
+        },
+        "GeneralUefiError": {
+            "Description": "Indicates that a UEFI error was encountered.",
+            "Message": "UEFI error detected: %1",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "View the UEFI log from the BMC in /var/log/nN/current",
+            "Severity": "OK"
+        },
+        "NonFatalUefiBootError": {
+            "Description": "Indicates that a selected boot device failed to boot an OS.",
+            "Message": "Boot device %1 failed to boot an OS.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Check that the boot device is functioning properly.",
+            "Severity": "Critical"
+        },
+        "NonFatalUefiDegradedCpuInterconnectError": {
+            "Description": "Indicates that the CPU Interconnect is not running at the Expected Speed Capacity.",
+            "Message": "CPU Interconnect is not running at the Expected Speed Capacity: %1 GT/s, Actual: %2 GT/s.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Replace one or both processors. If problem persists capture the console log and contact the vendor.",
+            "Severity": "Critical"
+        },
+        "NonFatalUefiDegradedMemorySpeedError": {
+            "Description": "Indicates that a degraded memory speed condition was encountered.",
+            "Message": "DIMM %1 is not capable of expected speed of %2 MHz.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Reseat or replace the reported DIMM Device(s).",
+            "Severity": "Critical"
+        },
+        "NonFatalUefiDegradedPcieDeviceError": {
+            "Description": "Indicates that a degraded PCIe device was encountered.",
+            "Message": "PCIe device %1 Vendor ID:%2  Device ID:%3  Bus%4:Device%5:Function%6 is degraded, Expected Speed Capacity: Gen%7 Actual: Gen%8, Expected Width Capacity:%9 Actual:%10.",
+            "NumberOfArgs": 10,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Reseat or replace the reported PCIe Device.",
+            "Severity": "Critical"
+        },
+        "NonFatalUefiDegradedUnknownMemorySpeedError": {
+            "Description": "Indicates that a degraded memory speed condition was encountered.",
+            "Message": "DIMM memory speed degraded due to unknown reason.",
+            "NumberOfArgs": 0,
+            "Resolution": "Check hardware configuration.",
+            "Severity": "Critical"
+        },
+        "NonFatalUefiError": {
+            "Description": "Indicates that a non-fatal error was encountered.",
+            "Message": "UEFI error detected on node %1: %2",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "number",
+                "string"
+            ],
+            "Resolution": "View the UEFI log from the BMC in /var/log/nN/current",
+            "Severity": "Warning"
+        },
+        "NonFatalUefiMismatchedDimmSizesError": {
+            "Description": "Indicates that not all DIMMs are the same size.",
+            "Message": "DIMM memory is composed of mismatched DIMM sizes.",
+            "NumberOfArgs": 0,
+            "Resolution": "Ensure all DIMM sizes match.",
+            "Severity": "Critical"
+        },
+        "NonFatalUefiMissingCpuDeviceError": {
+            "Description": "Indicates that a missing or failed to train CPU device condition was encountered.",
+            "Message": "CPU missing or failed to train, Count Expected: %1, Actual: %2.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Reseat, replace or add the reported CPU.",
+            "Severity": "Critical"
+        },
+        "NonFatalUefiMissingMemoryError": {
+            "Description": "Indicates that a missing or failed to train DIMM condition was encountered.",
+            "Message": "DIMM %1: Socket %2 Channel %3: Missing or failed to train.",
+            "NumberOfArgs": 3,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Reseat, replace or add the reported DIMM.",
+            "Severity": "Critical"
+        },
+        "NonFatalUefiMissingPcieDeviceError": {
+            "Description": "Indicates that a missing or failed to train PCIe device condition was encountered.",
+            "Message": "PCIe device %1 is missing or failed to train.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Reseat, replace or add the reported PCIe Device.",
+            "Severity": "Critical"
+        },
+        "NonFatalUefiOptionError": {
+            "Description": "Indicates a problem with BIOS option.",
+            "Message": "Error configuring %1.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Reset BIOS options to default, and then reapply any desired BIOS option update.",
+            "Severity": "Critical"
+        },
+        "NonFatalUefiPpinError": {
+            "Description": "Indicates that BIOS was unable to read the processor PPIN.",
+            "Message": "BIOS unable to read processor PPIN from CPU%1. Status: %2.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Replace CPU.",
+            "Severity": "Critical"
+        },
+        "NonFatalUefiSmmbCommError": {
+            "Description": "Indicates that a BIOS-nC communication error was encountered.",
+            "Message": " BIOS-nC communication error. The SMMB %1 command was not communicated between BIOS and the nC.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Update firmware to latest released levels. Capture the console log and contact vendor if problem persists.",
+            "Severity": "Critical"
+        },
+        "PreviousBootCorrectableUefiMcaError": {
+            "Description": "Indicates that a correctable MCA error was encountered on the previous boot.",
+            "Message": "Correctable Machine Check Architecture %1 Error, reported on Socket %2 was encountered on previous boot. %3",
+            "NumberOfArgs": 3,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "It is possible that this was caused by a condition encountered by the OS, check the console log for analysis.",
+            "Severity": "OK"
+        },
+        "PreviousBootCorrectableUefiMcaMemoryError": {
+            "Description": "Indicates that a correctable MCA memory error was encountered on the previous boot.",
+            "Message": "Correctable Machine Check Architecture Memory Error: Bank %1 - Unified Memory Controller, Socket %2, DIMM %3 encountered on previous boot. %4",
+            "NumberOfArgs": 4,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "It is possible that this was caused by a condition encountered by the OS, check the console log for analysis.",
+            "Severity": "OK"
+        },
+        "PreviousBootFatalUefiMcaError": {
+            "Description": "Indicates that a critical MCA error was encountered on the previous boot.",
+            "Message": "Machine Check Architecture %1 Error, reported on Socket %2, was encountered on previous boot. %3",
+            "NumberOfArgs": 3,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "It is possible that this was caused by a condition encountered by the OS, check the console log for analysis.",
+            "Severity": "OK"
+        },
+        "PreviousBootFatalUefiMcaMemoryError": {
+            "Description": "Indicates that a critical MCA memory error was encountered on the previous boot.",
+            "Message": "Uncorrectable Machine Check Architecture Memory Error: Bank %1 - Unified Memory Controller, Socket %2, DIMM %3 encountered on previous boot. %4",
+            "NumberOfArgs": 4,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "It is possible that this was caused by a condition encountered by the OS, check the console log for analysis.",
+            "Severity": "OK"
+        },
+        "PreviousBootUefiError": {
+            "Description": "Indicates that a previous boot error was encountered.",
+            "Message": "UEFI error detected on node %1: %2",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "number",
+                "string"
+            ],
+            "Resolution": "View the UEFI log from the BMC in /var/log/nN/current",
+            "Severity": "OK"
+        },
+        "SMMBPingTimeout": {
+            "Description": "The SMMB ping timed out",
+            "Message": "The SMMB ping has timed out on node %1 with a timeout of %2",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "number",
+                "number"
+            ],
+            "Resolution": "Ensure the UEFI firmware is flashed correctly and retry the node power up operation.",
+            "Severity": "Critical"
+        }
+    },
+    "Name": "Cray Uefi Message Registry",
+    "OwningEntity": "Cray Inc.",
+    "RegistryPrefix": "CrayUefi",
+    "RegistryVersion": "1.0.0"
+}

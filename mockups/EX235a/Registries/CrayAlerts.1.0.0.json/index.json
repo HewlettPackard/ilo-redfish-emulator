@@ -1,0 +1,439 @@
+{
+    "@Redfish.Copyright": "Copyright 2019-2022 Hewlett Packard Enterprise Development LP",
+    "@odata.etag": "W/\"1646860580\"",
+    "@odata.id": "/redfish/v1/Registries/CrayAlerts.1.0.0.json",
+    "@odata.type": "#MessageRegistry.v1_0_0.MessageRegistry",
+    "Description": "Cray alert messages",
+    "Id": "CrayAlerts.1.0.0",
+    "Language": "en",
+    "Messages": {
+        "CabinetLeakCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "CabinetLeakDetected",
+                    "CabinetLeakConfirmed"
+                ]
+            },
+            "Description": "Indicates that all cabinet leak sensors, in all leak zones, have deactivated and all leak alarms have been cleared.",
+            "Message": "All cabinet leak sensors have deactivated, and are reading dry values.",
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "CabinetLeakConfirmed": {
+            "Description": "Indicates that multiple leak sensors, in a reductant sensor cluster, have detected a wet state or are both disconnected. This results in a cabinet self-protection shutdown. This will succeed a 'CabinetLeakDetected' event.",
+            "Message": "Multiple leak sensors in the '%1' cabinet zone recently activated, resulting in a shutdown event.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Investigate leak alarms. If leak detected, fix hardware and dry leak sensors before re-applying power.",
+            "Severity": "Critical"
+        },
+        "CabinetLeakDetected": {
+            "Description": "Indicates that a single leak sensor, in a reductant sensor cluster, has detected a wet state, has faulted, or is disconnected.",
+            "Message": "Sensor '%1' of the redundant leak sensors in the '%2' cabinet zone has detected a leak.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Take action to investigate leak alarm.",
+            "Severity": "Warning"
+        },
+        "HardwareCriticalFaultCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "HardwareCriticalFaultDetected",
+                    "HardwareFatalFaultDetected"
+                ]
+            },
+            "Description": "Indicates that all critical or fatal hardware reported faults have been cleared.",
+            "Message": "All hardware reported critical or fatal faults have been cleared for %1.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "HardwareCriticalFaultDetected": {
+            "Description": "Indicates that a part is reporting a critical fault. It is still able to operate but immediate action should be taken.",
+            "Message": "The %1 resource has detected a critical fault indicating that it is far %2 normal operating conditions.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "See part-specific documentation for vendor-specific recommendations.",
+            "Severity": "Critical"
+        },
+        "HardwareDegradationCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "HardwareFailureDetected",
+                    "HardwareDegradationDetected"
+                ]
+            },
+            "Description": "A hardware resource has regained full operational capacity.",
+            "Message": "The hardware resource %1 has started normal operation.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "HardwareDegradationDetected": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "HardwareFailureDetected"
+                ]
+            },
+            "Description": "A hardware resource is operational but is functioning at a reduced capacity.",
+            "Message": "The hardware resource %1 has started operating in a degraded state. Hardware-specific information: %2.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Fix or replace the defective resource.",
+            "Severity": "Warning"
+        },
+        "HardwareDisconnectCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "HardwareDisconnectDetected"
+                ]
+            },
+            "Description": "A hardware resource has been reconnected.",
+            "Message": "The hardware resource %1 has been reconnected.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "HardwareDisconnectDetected": {
+            "Description": "A hardware resource has been disconnected. The system is still operational but immediate action should be taken to avoid downtime.",
+            "Message": "The hardware resource %1 has been disconnected. Hardware-specific information: %2.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Replace the failed unit.",
+            "Severity": "Warning"
+        },
+        "HardwareEmergencyPowerOffDetected": {
+            "Description": "A hardware resource has powered down to protect itself from damage.",
+            "Message": "The hardware resource %1 caused or will cause an emergency power off (EPO) to avoid damage. Hardware-specific information: %2.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Replace the failed unit and re-enable power",
+            "Severity": "Critical"
+        },
+        "HardwareFailoverCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "HardwareFailoverDetected"
+                ]
+            },
+            "Description": "The primary hardware associated with a resource has resumed normal operation. A backup device is no longer being used.",
+            "Message": "The primary hardware associated with resource %1 has resumed normal operation.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "HardwareFailoverDetected": {
+            "Description": "The primary hardware associated with a resource has failed. A backup device has been enabled to allow normal operation.",
+            "Message": "Primary hardware for resource %1 has failed and backup hardware is in use.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Replace the failed unit.",
+            "Severity": "Warning"
+        },
+        "HardwareFailureCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "HardwareFailureDetected"
+                ]
+            },
+            "Description": "A hardware resource has regained full operational capacity.",
+            "Message": "The hardware resource %1 has started normal operation.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "HardwareFailureDetected": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "HardwareDegradationDetected"
+                ]
+            },
+            "Description": "A hardware resource has failed. The system is still operational but immediate action should be taken to avoid downtime.",
+            "Message": "The hardware resource %1 has failed. Hardware-specific information: %2.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Fix or replace the failed unit.",
+            "Severity": "Critical"
+        },
+        "HardwareFatalFaultCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "HardwareFatalFaultDetected"
+                ]
+            },
+            "Description": "Indicates that all fatal hardware reported faults have been cleared.",
+            "Message": "All hardware reported fatal faults have been cleared for %1.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "HardwareFatalFaultDetected": {
+            "Description": "Indicates that a part is reporting a fatal fault, the part is probably not operational and most likely needs service.",
+            "Message": "The %1 resource has detected a fatal fault indicating that it went %2 its allowed operating conditions.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "See part-specific documentation for vendor-specific recommendations.",
+            "Severity": "Critical"
+        },
+        "HardwareFaultsCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "HardwareWarningFaultDetected",
+                    "HardwareCriticalFaultDetected",
+                    "HardwareFatalFaultDetected"
+                ]
+            },
+            "Description": "Indicates that all hardware reported faults have been cleared.",
+            "Message": "All hardware reported faults have been cleared for %1.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "HardwareNotSeated": {
+            "Description": "The hardware resource is not fully seated or latched.",
+            "Message": "%1 is not fully seated or latched.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Re-seat the part to ensure full contact and retry the operation.",
+            "Severity": "Critical"
+        },
+        "HardwareWarningFaultDetected": {
+            "Description": "Indicates that a part is reporting a warning-level fault but is still able to operate normally",
+            "Message": "The %1 resource has detected a fault indicating that it is %2 normal operating conditions.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "See part-specific documentation for vendor-specific recommendations.",
+            "Severity": "Warning"
+        },
+        "HsnLinkFlapDetected": {
+            "Description": "Indicates that a high-speed-network link has gone down and come back up. The reason for the initial link down, such as HEADSHELL_RESET or SERDES_FAULT, will point to the actions required to resolve the issue.",
+            "Message": "The link %1 has experienced a link flap event between %2 and %3 due to a %4. The headshell temperature was %5.",
+            "NumberOfArgs": 5,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Resolution is dependent on flap cause. See part-specific documentation for vendor-specific recommendations.",
+            "Severity": "Warning"
+        },
+        "HsnTransceiverEPO": {
+            "Description": "Indicates a high-speed-network transceiver emergency power off (EPO) event.",
+            "Message": "The transceiver %1 powered off due to an EPO event.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Ensure adequate cooling and reseat or replace the device.",
+            "Severity": "Critical"
+        },
+        "HsnTransceiverInstalled": {
+            "Description": "Indicates that a high-speed-network transceiver is installed.",
+            "Message": "A transceiver is detected in %1.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "HsnTransceiverMgmtError": {
+            "Description": "Indicates the management interface of a high-speed-network transceiver is in error.",
+            "Message": "The management interface for transceiver %1 is in error.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Determine the source of the interface error and reseat or replace that device.",
+            "Severity": "Critical"
+        },
+        "HsnTransceiverRemoved": {
+            "Description": "Indicates that a high-speed-network transceiver was removed or powered off.",
+            "Message": "The transceiver in %1 was removed or powered down.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Reinstall the transceiver.",
+            "Severity": "Warning"
+        },
+        "LeakIndicatorCleared": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "LeakIndicatorEarly",
+                    "LeakIndicatorSustained",
+                    "LeakIndicatorFatal",
+                    "CabinetLeakDetected",
+                    "CabinetLeakConfirmed"
+                ]
+            },
+            "Description": "Indicates that the leak sensor deactivated and all leak alarms have been cleared.",
+            "Message": "The '%1' leak sensor has deactivated and all leak alarms have been cleared.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "LeakIndicatorEarly": {
+            "Description": "First indication of a leak from a leak sensor.",
+            "Message": "The '%1' leak sensor recently activated.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Take action to stop the leak.",
+            "Severity": "Warning"
+        },
+        "LeakIndicatorFatal": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "LeakIndicatorEarly",
+                    "LeakIndicatorSustained"
+                ]
+            },
+            "Description": "Indicates that the leak sensor activation period exceeded the allotted amount of time allowed that the power could remain on without risking irreparable hardware damage and an emergency power off (EPO) is required.",
+            "Message": "The '%1' leak sensor was active for %2 seconds resulting in an EPO.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "number"
+            ],
+            "Resolution": "Fix the leak, clear the EPO and re-apply power.",
+            "Severity": "Critical"
+        },
+        "LeakIndicatorSustained": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "LeakIndicatorEarly"
+                ]
+            },
+            "Description": "Indicates the leak sensor has been active for a sustained period and may need to be addressed to avoid downtime.",
+            "Message": "The '%1' leak sensor has been active for %2 seconds.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "number"
+            ],
+            "Resolution": "Take action to stop the leak ASAP.",
+            "Severity": "Critical"
+        },
+        "PowerFailureDetected": {
+            "Description": "Indicates that a power failure has occurred.",
+            "Message": "The %1 resource has detected a power failure. Hardware-specific information: %2",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Replace the failed unit.",
+            "Severity": "Critical"
+        },
+        "PowerLimitException": {
+            "Description": "A Chassis PowerControl resource has exceeded its CorrectionInMs.",
+            "Message": "The PowerControl resource exceeded its PowerLimit CorrectionInMs: %1.",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "number"
+            ],
+            "Resolution": "Reduce the load on the chassis or raise the LimitInWatts",
+            "Severity": "Critical"
+        },
+        "PowerLimitStateUnknown": {
+            "Description": "The PowerControl handler restarted while the Chassis was powered on and it was unable to determine the Chassis current PowerLimit state. Any limits set on devices within the Chassis are still active.",
+            "Message": "The PowerControl handler restarted while the Chassis was powered on and it was unable to determine the Chassis current PowerLimit state.",
+            "NumberOfArgs": 0,
+            "Resolution": "Re-apply the LimitInWatts on all PowerControl resources or power cycle the ComputerSystem associated with the Chassis.",
+            "Severity": "Critical"
+        },
+        "ResourcePowerStateChanged": {
+            "Description": "The power state of resource %1 has changed to type %2. The state types shall be used from Resource.PowerState.",
+            "Message": "The power state of resource %1 has changed to type %2.",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "UncleanShutdownDetected": {
+            "Description": "Indicates that the switch controller did not shutdown cleanly, possibly due to a crash during an EPO.",
+            "Message": "Switch controller unclean shutdown.",
+            "NumberOfArgs": 0,
+            "Resolution": "None.",
+            "Severity": "Warning"
+        }
+    },
+    "Name": "Cray Alert Message Registry",
+    "OwningEntity": "Cray Inc.",
+    "RegistryPrefix": "CrayAlerts",
+    "RegistryVersion": "1.0.0"
+}

@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/e8dcd465",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "e8dcd465",
+    "Activates": "AfterReboot",
+    "ComponentUri": "/fwrepo/SPSGen10Plus_04.04.04.062.signed.bin",
+    "Configuration": "",
+    "Created": "2022-10-01T00:20:22Z",
+    "Criticality": "Optional",
+    "DeviceClass": "b34e5677-21dc-45d3-872b-42f76fee9053",
+    "ExecutionParameters": "",
+    "Filename": "SPSGen10Plus_04.04.04.062.signed.bin",
+    "Filepath": "SPSGen10Plus_04.04.04.062.signed.bin",
+    "Locked": true,
+    "Name": "Server Platform Services (SPS) Firmware",
+    "SizeBytes": 8391535,
+    "Targets": [
+        "a6b1a447-382a-5a4f-3c10-87800a000101"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "04.04.04.062"
+}

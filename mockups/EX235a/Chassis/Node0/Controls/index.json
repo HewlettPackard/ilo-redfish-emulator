@@ -1,0 +1,25 @@
+{
+    "@odata.etag": "W/\"1646754012\"",
+    "@odata.id": "/redfish/v1/Chassis/Node0/Controls",
+    "@odata.type": "#ControlsCollection.ControlsCollection",
+    "Description": "All controls for Node0",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Controls/NodePowerLimit"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Controls/Accelerator0PowerLimit"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Controls/Accelerator1PowerLimit"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Controls/Accelerator2PowerLimit"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/Node0/Controls/Accelerator3PowerLimit"
+        }
+    ],
+    "Members@odata.count": 5,
+    "Name": "Node0 Controls Collection"
+}
