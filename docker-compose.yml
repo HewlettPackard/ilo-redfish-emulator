@@ -1,12 +1,12 @@
 services:
   DL325:
-    image: bmi-simulator:latest
+    image: ilo-emulator:latest
     environment:
       - MOCKUPFOLDER=DL325
     ports:
         - "5100-5199:443"
   DL360:
-    image: bmi-simulator:latest
+    image: ilo-emulator:latest
     environment:
       - MOCKUPFOLDER=DL360
     ports:
