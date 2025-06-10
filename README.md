@@ -51,14 +51,19 @@ docker build -t ilo-emulator:latest .
 
 ### Run the docker image:
 ```
-docker run -p 443:443 -e MOCKUPFOLDER=DL360 --rm ilo-emulator:latest
+docker run -p 443:443 -e MOCKUP_FOLDER=DL360 --rm ilo-emulator:latest
 ```
 or
 ```
 docker compose up -d  
 ```
-note: the .env file defaults the MOCKUPFOLDER to DL360, and the external port to 443. 
-Example: run emulator on a different external port and mockup:
+The .env file contains the default values for MOCKUP_FOLDER, EXTERNAL_PORT, and ASYNC_SLEEP.
+- MOCKUP_FOLDER is the name of the directory under ./mockups/ that contains the static mockup files
+- EXTERNAL_PORT is the port or port range on which the emulator will be available.  Example: 443, 5000-5100, etc.
+- ASYNC_SLEEP is the time in seconds to wait for async operations to complete before returning a response. The default is 0.
+ 
+These environment variables can be overridden by passing them in the docker run command.
+- Example: run emulator on a different external port and mockup:
 ```
 EXTERNAL_PORT=5000 MOCKUPFOLDER=DL325 docker compose up -d
 ```
@@ -67,7 +72,7 @@ EXTERNAL_PORT=5000 MOCKUPFOLDER=DL325 docker compose up -d
 ```
 EXTERNAL_PORT=<your port range> docker compose --scale emu=<number of instances> -d 
 ```
-Example: run 2 instances of the emulator:
+- Example: run 2 instances of the emulator:
 ```
 EXTERNAL_PORT=5000-5100 docker compose --scale emu=2 -d 
 ```

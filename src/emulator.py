@@ -160,7 +160,7 @@ def startup():
 #   HTTPS = Specifies whether the emulator supports "http" or "https"
 #   SPEC =  The emulator may support multiple specifications or revisions of a specification.
 #           This flag specifies the specification/version to which to conform
-#   MOCKUPFOLDERS = This parameter will supercede SPEC.  Specifies a list of
+#   MOCKUP_FOLDERS = This parameter will supercede SPEC.  Specifies a list of
 #           folder which contain mockup files in ./static.  For example, if the
 #           list contains ["Redfish", "Swordfish"], the files in
 #           ./Redfish/static and ./Swordfish/static will be used.  This
@@ -175,7 +175,7 @@ def main():
     global MODE
     global SPEC
 
-    mockupfolder = os.getenv('MOCKUPFOLDER', 'public-rackmount1')
+    mockupfolder = os.getenv('MOCKUP_FOLDER', 'DL325')
     g.async_sleep = float(os.getenv('ASYNC_SLEEP', 0))
 
     HTTPS = os.getenv('HTTPS', 'Enable')
@@ -184,7 +184,7 @@ def main():
     MODE = os.getenv('MODE', MODE)
     assert MODE.lower() in ['local', 'cloud'], 'Unknown mode: ' + MODE
 
-    port = int(os.getenv('PORT', 5000))
+    port = int(os.getenv('PORT', 443))
 
     CONFIG_DATA['xname'] = os.getenv('XNAME')
     CONFIG_DATA['mac_schema'] = os.getenv('MAC_SCHEMA')

@@ -1,5 +1,8 @@
 services:
   emu:
     image: ilo-emulator:latest
+    environment:
+      - MOCKUP_FOLDER=${MOCKUP_FOLDER}
+      - ASYNC_SLEEP=${ASYNC_SLEEP}
     ports:
         - "${EXTERNAL_PORT}:443"
