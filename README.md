@@ -44,21 +44,6 @@ You can run a predefined emulator using ./Dockerfile and setting the MOCKUPFOLDE
 
 **NOTE:** When using the emulator with a custom mockup that does not have a loader specified for it in ./src/api_emulator/resource_manager.py, the generic loader will be used to generate a best guess mockup using known dynamic resources.
 
-Build the docker image.
-```
-docker build -t bm-sim:latest -f ./Dockerfile .
-```
-
-Set a local port for your BMC. 
-```
-BMC_PORT=5100
-```
-
-Set the mockup folder to the BMC type you want to emulate. The default is DL325.
-```
-export MOCKUPFOLDER=DL325
-```
-
 ### To build the docker image:
 ```
 docker build -t ilo-emulator:latest .
@@ -66,16 +51,25 @@ docker build -t ilo-emulator:latest .
 
 ### Run the docker image:
 ```
-docker run -p ${BMC_PORT}:443 -e MOCKUPFOLDER=<BMC_type> --rm ilo-emulator:latest
+docker run -p 443:443 -e MOCKUPFOLDER=DL360 --rm ilo-emulator:latest
+```
+or
+```
+docker compose up -d  
+```
+note: the .env file defaults the MOCKUPFOLDER to DL360, and the external port to 443. 
+Example: run emulator on a different external port and mockup:
+```
+EXTERNAL_PORT=5000 MOCKUPFOLDER=DL325 docker compose up -d
 ```
 
 ### Run multiple instances of the emulator:
 ```
-docker-compose up --scale <mockup>=<number of instances> -d 
+EXTERNAL_PORT=<your port range> docker compose --scale emu=<number of instances> -d 
 ```
-#### For example, to run 3 instances of the DL325 emulator and 2 instances of the DL360 emulator:
+Example: run 2 instances of the emulator:
 ```
-docker-compose up --scale DL325=3 --scale DL360=2 -d
+EXTERNAL_PORT=5000-5100 docker compose --scale emu=2 -d 
 ```
 
 ### To see the running containers with their assigned ports:
