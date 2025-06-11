@@ -175,6 +175,11 @@ def main():
     global MODE
     global SPEC
 
+
+    # log the port presented by docker.
+    externalPort = os.getenv('EXTERNAL_PORT', '443') #for logging only
+    logging.info('EXTERNAL_PORT=%s' % externalPort)
+
     mockupfolder = os.getenv('MOCKUP_FOLDER', 'DL325')
     g.async_sleep = float(os.getenv('ASYNC_SLEEP', 0))
 
