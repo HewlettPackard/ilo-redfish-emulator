@@ -4,7 +4,7 @@ The HPE iLO Redfish Interface Emulator is based off of Cray's CSM Redfish Interf
 
 Although this project is based on DMTF's Redfish Interface Emulator project, it deviates a bit from DMTF's project's functionality. DMTF's project's dynamic resources are meant to be fully generated and generic. The CSM Redfish Interface Emulator project takes this an uses it to create dynamic resources that sit under a static mockup to emulate specific BMCs.
 
-Static resources are emulated by simply copying a redfish mockup into the ./mockups/<BMC_type> directory and specifying the <BMC_type> in the MOCKUPFOLDER environment variable. The emulator will automatically try to apply known dynamic resources to the mockup such as the AccountService using the [default loader](#default-loader). All other URIs will answer to GET only. For more on static resources see the [Creating a Static Mockup](#creating-static-mockup) section.
+Static resources are emulated by simply copying a redfish mockup into the ./mockups/<BMC_type> directory and specifying the <BMC_type> in the MOCKUP_FOLDER environment variable. The emulator will automatically try to apply known dynamic resources to the mockup such as the AccountService using the [default loader](#default-loader). All other URIs will answer to GET only. For more on static resources see the [Creating a Static Mockup](#creating-static-mockup) section.
 
 Dynamic emulation is accomplished by creating custom python files for each dynamic resource. You can use the [Update Service API](https://github.com/Cray-HPE/csm-redfish-interface-emulator/blob/master/src/api_emulator/redfish/update_service_api.py) as an example when creating a new dynamic resources.
 
@@ -38,7 +38,7 @@ This emulator can be run locally or as a docker image.
 
 ### Docker
 
-You can run a predefined emulator using ./Dockerfile and setting the MOCKUPFOLDER environment variable, their ./mockups/<BMC_type>/Dockerfile (i.e. ./mockups/EX325a/Dockerfile), or create a ./mockups/<BMC_type>/Dockerfile in your custom mockup directory.
+You can run a predefined emulator using ./Dockerfile and setting the MOCKUP_FOLDER environment variable, their ./mockups/<BMC_type>/Dockerfile (i.e. ./mockups/EX325a/Dockerfile), or create a ./mockups/<BMC_type>/Dockerfile in your custom mockup directory.
 
 **NOTE:** 'Dockerfile' assumes your custom static files are in place in the ./mockups/<MyBMC> directory.
 
@@ -65,7 +65,7 @@ The .env file contains the default values for MOCKUP_FOLDER, EXTERNAL_PORT, and 
 These environment variables can be overridden by passing them in the docker run command.
 - Example: run emulator on a different external port and mockup:
 ```
-EXTERNAL_PORT=5000 MOCKUPFOLDER=DL325 docker compose up -d
+EXTERNAL_PORT=5000 MOCKUP_FOLDER=DL325 docker compose up -d
 ```
 
 ### Run multiple instances of the emulator:
