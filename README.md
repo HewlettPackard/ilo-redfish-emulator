@@ -70,11 +70,11 @@ EXTERNAL_PORT=5000 MOCKUP_FOLDER=DL325 docker compose up -d
 
 ### Run multiple instances of the emulator:
 ```
-EXTERNAL_PORT=<your port range> docker compose --scale emu=<number of instances> -d 
+EXTERNAL_PORT=<your port range> docker compose up --scale emu=<number of instances> -d 
 ```
 - Example: run 2 instances of the emulator:
 ```
-EXTERNAL_PORT=5000-5100 docker compose --scale emu=2 -d 
+EXTERNAL_PORT=5000-5100 docker compose up --scale emu=2 -d 
 ```
 
 ### To see the running containers with their assigned ports:
