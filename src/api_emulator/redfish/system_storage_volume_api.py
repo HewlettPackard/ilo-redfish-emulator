@@ -141,11 +141,16 @@ class StorageVolumeCollectionAPI(Resource):
 # Called internally to init Volumes.  These resources are affected by VolumeActionsAPI()
 #
 # TODO: Add support for system_id
-def InitVolumes(storage_id, volumes):
-    logging.info('CreateVolumes called')
+def InitVolumes(resource_dict, storage_id, volumes):
+    logging.info('CreateVolumes called for storage_id %s' % storage_id)
     try:
         # Create a new Volumes resource
         members[storage_id] = volumes
+
+        for i in range(len(members[storage_id]['Members'])):
+           vol_id = members[storage_id]['Members'][i]['@odata.id'].replace('/redfish/v1/Systems/1/Storage/%s/Volumes/' % storage_id, '')
+           vol = resource_dict.get_resource('Systems/1/Storage/%s/Volumes/%s' % (storage_id, vol_id))
+           vol_res[storage_id] = { vol_id: vol}
 
         return members[storage_id], 200
     except Exception:
@@ -168,7 +173,7 @@ class StorageVolumeAPI(Resource):
     # HTTP GET
     # TODO: Add support for system_id
     def get(self, system_id, storage_id, volume_id):
-        logging.info('%s %s called' % (self.apiName, request.method))
+        logging.info('%s %s called for storageID %s' % (self.apiName, request.method, storage_id))
         try:
             resp = error_404_response(request.path)
             if storage_id in vol_res and volume_id in vol_res[storage_id]:

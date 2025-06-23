@@ -30,12 +30,13 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 BASE_DIR=$(pwd)
-WORK_DIR=../Emulator
+WORK_DIR=/tmp/emu.tmp
 
-API_PORT=5000
+ASYNC_SLEEP=0
+API_PORT=443
+MOCKUP=DL380a
 SETUP_ONLY=
 AUTH=
-ASYNC_SLEEP=5
 
 function print_help {
     cat <<EOF
@@ -152,7 +153,7 @@ venv/bin/pip install -q -r requirements.txt
 
 echo "Setting up credentials $AUTH"
 export AUTH_CONFIG=$AUTH
-export MOCKUPFOLDER=$MOCKUP
+export MOCKUP_FOLDER=$MOCKUP
 export ASYNC_SLEEP=$ASYNC_SLEEP
 
 if [ "$SETUP_ONLY" == "true" ]; then

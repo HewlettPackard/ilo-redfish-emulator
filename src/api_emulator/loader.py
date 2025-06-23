@@ -493,7 +493,7 @@ class Loader:
                     storage_inst = self.resource_dictionary.get_resource('Systems/%s/Storage/%s' % (system_id, storage_id))
                     InitSystemStorageInstance(system_id, storage_id, storage_inst)
                     volumes = self.resource_dictionary.get_resource('Systems/%s/Storage/%s/Volumes' % (system_id, storage_id))
-                    InitVolumes(storage_id, volumes)
+                    InitVolumes(self.resource_dictionary, storage_id, volumes)
         except:
             return
 
