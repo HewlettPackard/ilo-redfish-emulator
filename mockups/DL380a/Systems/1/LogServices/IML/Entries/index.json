@@ -1,0 +1,3738 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "W/\"0B7C97A8\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Integrated Management Logs view",
+    "Name": "Integrated Management Logs view",
+    "Members": [
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/1",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "1",
+            "Created": "2025-04-04T18:17:40Z",
+            "EntryType": "Oem",
+            "Message": "IML Cleared ( user: System Administrator)",
+            "MessageArgs": [],
+            "MessageId": "33.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance",
+                        "Administration"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 116,
+                    "Severity": "Informational",
+                    "Updated": "2025-04-04T18:17:40Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/2",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "2",
+            "Created": "2025-04-04T19:34:34Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 3, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 117,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-04-04T19:34:34Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/3",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "3",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed prior to this power on.",
+            "MessageArgs": [],
+            "MessageId": "10.1025",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 1025,
+                    "Count": 1,
+                    "EventNumber": 118,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x0401-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "0000-00-00T00:00:00Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/4",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "4",
+            "Created": "2025-04-24T17:39:56Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 119,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-04-24T17:39:56Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/5",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "5",
+            "Created": "2025-04-24T17:39:57Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 120,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-04-24T17:39:57Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/6",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "6",
+            "Created": "2025-04-28T19:21:54Z",
+            "EntryType": "Oem",
+            "Message": "DriveOfflineCleared (Slot=17:Port=1:Box=1:Bay=2) Redfish event from /redfish/v1/Chassis/DE00A000/Drives/1",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 121,
+                    "Severity": "Informational",
+                    "Updated": "2025-04-28T19:21:54Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/7",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "7",
+            "Created": "2025-04-28T19:21:54Z",
+            "EntryType": "Oem",
+            "Message": "Slot=17 Storage - Drive at Port 1 Box 1 Bay 2 is Inserted",
+            "MessageArgs": [],
+            "MessageId": "19.47",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 47,
+                    "Count": 1,
+                    "EventNumber": 122,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x002f-gen11",
+                    "RecommendedAction": "If installed, configure the drive for use. If removed, check drive status",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-04-28T19:22:10Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/8",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "8",
+            "Created": "2025-04-28T19:21:54Z",
+            "EntryType": "Oem",
+            "Message": "DriveOfflineCleared (Slot=17:Port=1:Box=1:Bay=1) Redfish event from /redfish/v1/Chassis/DE00A000/Drives/0",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 123,
+                    "Severity": "Informational",
+                    "Updated": "2025-04-28T19:21:54Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/9",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "9",
+            "Created": "2025-04-28T19:21:54Z",
+            "EntryType": "Oem",
+            "Message": "Slot=17 Storage - Drive at Port 1 Box 1 Bay 1 is Inserted",
+            "MessageArgs": [],
+            "MessageId": "19.47",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 47,
+                    "Count": 1,
+                    "EventNumber": 124,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x002f-gen11",
+                    "RecommendedAction": "If installed, configure the drive for use. If removed, check drive status",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-04-28T19:22:10Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/10",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "10",
+            "Created": "2025-04-28T19:21:59Z",
+            "EntryType": "Oem",
+            "Message": "DriveOfflineCleared (Slot=18:Port=2:Box=1:Bay=7) Redfish event from /redfish/v1/Chassis/DE00B000/Drives/1",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 125,
+                    "Severity": "Informational",
+                    "Updated": "2025-04-28T19:21:59Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/11",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "11",
+            "Created": "2025-04-28T19:21:59Z",
+            "EntryType": "Oem",
+            "Message": "Slot=18 Storage - Drive at Port 2 Box 1 Bay 7 is Inserted",
+            "MessageArgs": [],
+            "MessageId": "19.47",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 47,
+                    "Count": 1,
+                    "EventNumber": 126,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x002f-gen11",
+                    "RecommendedAction": "If installed, configure the drive for use. If removed, check drive status",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-04-28T19:22:15Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/12",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "12",
+            "Created": "2025-04-28T19:21:59Z",
+            "EntryType": "Oem",
+            "Message": "DriveOfflineCleared (Slot=18:Port=1:Box=1:Bay=6) Redfish event from /redfish/v1/Chassis/DE00B000/Drives/0",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 127,
+                    "Severity": "Informational",
+                    "Updated": "2025-04-28T19:21:59Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/13",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "13",
+            "Created": "2025-04-28T19:21:59Z",
+            "EntryType": "Oem",
+            "Message": "Slot=18 Storage - Drive at Port 1 Box 1 Bay 6 is Inserted",
+            "MessageArgs": [],
+            "MessageId": "19.47",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 47,
+                    "Count": 1,
+                    "EventNumber": 128,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x002f-gen11",
+                    "RecommendedAction": "If installed, configure the drive for use. If removed, check drive status",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-04-28T19:22:15Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/14",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "14",
+            "Created": "2025-05-19T17:25:41Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 129,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-19T17:25:41Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/15",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "15",
+            "Created": "2025-05-19T17:25:41Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 130,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-19T17:25:41Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/16",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "16",
+            "Created": "2025-05-19T17:35:14Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 131,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-19T17:35:14Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/17",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "17",
+            "Created": "2025-05-19T17:35:14Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 132,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-19T17:35:14Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/18",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "18",
+            "Created": "2025-05-19T17:44:56Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 133,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-19T17:44:56Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/19",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "19",
+            "Created": "2025-05-19T17:44:56Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 134,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-19T17:44:56Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/20",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "20",
+            "Created": "2025-05-19T18:00:31Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 135,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-19T18:00:31Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/21",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "21",
+            "Created": "2025-05-19T18:00:31Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 136,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-19T18:00:31Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/22",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "22",
+            "Created": "2025-05-19T18:02:21Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: Starting F10 GUI",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 137,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-19T18:02:21Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/23",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "23",
+            "Created": "2025-05-19T18:16:12Z",
+            "EntryType": "Oem",
+            "Message": "Firmware flashed (Success : Device in slot 2 : active fw [28.42.1000], pending fw [28.43.1014])",
+            "MessageArgs": [],
+            "MessageId": "32.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 32,
+                    "ClassDescription": "System Revision",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 138,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-19T18:16:12Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/24",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "24",
+            "Created": "2025-05-19T18:16:12Z",
+            "EntryType": "Oem",
+            "Message": "Firmware flashed (NVIDIA Firmware Package (FWPKG) for HPE InfiniBand NDR200/Et... 28.43.1014)",
+            "MessageArgs": [],
+            "MessageId": "32.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 32,
+                    "ClassDescription": "System Revision",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 139,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-19T18:16:12Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/25",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "25",
+            "Created": "2025-05-19T18:20:35Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 140,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-19T18:20:35Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/26",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "26",
+            "Created": "2025-05-19T18:20:35Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 141,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-19T18:20:35Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/27",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "27",
+            "Created": "2025-05-20T04:31:57Z",
+            "EntryType": "Oem",
+            "Message": "DriveOfflineCleared (Slot=18:Port=1:Box=1:Bay=6) Redfish event from /redfish/v1/Chassis/DE00B000/Drives/3",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 2,
+                    "EventNumber": 142,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T11:23:03Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/28",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "28",
+            "Created": "2025-05-20T04:31:58Z",
+            "EntryType": "Oem",
+            "Message": "DriveOfflineCleared (Slot=18:Port=2:Box=1:Bay=7) Redfish event from /redfish/v1/Chassis/DE00B000/Drives/4",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 2,
+                    "EventNumber": 143,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T11:23:03Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/29",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "29",
+            "Created": "2025-05-20T04:40:20Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 144,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-20T04:40:20Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/30",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "30",
+            "Created": "2025-05-20T04:40:20Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 145,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-20T04:40:20Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/31",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "31",
+            "Created": "2025-05-20T05:00:34Z",
+            "EntryType": "Oem",
+            "Message": "One of the NIC connectivity status changed to OK",
+            "MessageArgs": [],
+            "MessageId": "17.16",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 16,
+                    "Count": 3,
+                    "EventNumber": 146,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x0010-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-20T05:01:01Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/32",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "32",
+            "Created": "2025-05-20T05:02:55Z",
+            "EntryType": "Oem",
+            "Message": "Slot 17 Storage - Drive at : Box 1: Bay 4 status changed to OK (AMS)",
+            "MessageArgs": [],
+            "MessageId": "19.30",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 30,
+                    "Count": 1,
+                    "EventNumber": 147,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x001e-gen11",
+                    "RecommendedAction": "1. Verify cables are good and fully seated.\n2. Ensure all drives are fully seated.\n3. Set drive to Unconfigured Good\n4. Verify backplane, controller, RAID config, and drive compatibility.\n5. Replace the defective drive.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-20T05:02:55Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/33",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "33",
+            "Created": "2025-05-20T05:02:55Z",
+            "EntryType": "Oem",
+            "Message": "Slot 18 Storage - Drive at : Box 1: Bay 5 status changed to OK (AMS)",
+            "MessageArgs": [],
+            "MessageId": "19.30",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 30,
+                    "Count": 1,
+                    "EventNumber": 148,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x001e-gen11",
+                    "RecommendedAction": "1. Verify cables are good and fully seated.\n2. Ensure all drives are fully seated.\n3. Set drive to Unconfigured Good\n4. Verify backplane, controller, RAID config, and drive compatibility.\n5. Replace the defective drive.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-20T05:02:55Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/34",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "34",
+            "Created": "2025-05-20T05:02:55Z",
+            "EntryType": "Oem",
+            "Message": "Slot 17 Storage - Drive at : Box 1: Bay 2 status changed to OK (AMS)",
+            "MessageArgs": [],
+            "MessageId": "19.30",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 30,
+                    "Count": 1,
+                    "EventNumber": 149,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x001e-gen11",
+                    "RecommendedAction": "1. Verify cables are good and fully seated.\n2. Ensure all drives are fully seated.\n3. Set drive to Unconfigured Good\n4. Verify backplane, controller, RAID config, and drive compatibility.\n5. Replace the defective drive.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-20T05:02:55Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/35",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "35",
+            "Created": "2025-05-20T05:02:56Z",
+            "EntryType": "Oem",
+            "Message": "DriveOfflineCleared (Slot=17:Port=2:Box=1:Bay=4) Redfish event from /redfish/v1/Chassis/DE00A000/Drives/2",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 150,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-20T05:02:56Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/36",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "36",
+            "Created": "2025-05-20T05:02:56Z",
+            "EntryType": "Oem",
+            "Message": "DriveOfflineCleared (Slot=17:Port=2:Box=1:Bay=3) Redfish event from /redfish/v1/Chassis/DE00A000/Drives/3",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 151,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-20T05:02:56Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/37",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "37",
+            "Created": "2025-05-20T05:02:56Z",
+            "EntryType": "Oem",
+            "Message": "DriveOfflineCleared (Slot=17:Port=1:Box=1:Bay=1) Redfish event from /redfish/v1/Chassis/DE00A000/Drives/4",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 152,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-20T05:02:56Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/38",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "38",
+            "Created": "2025-05-20T05:02:56Z",
+            "EntryType": "Oem",
+            "Message": "DriveOfflineCleared (Slot=17:Port=1:Box=1:Bay=2) Redfish event from /redfish/v1/Chassis/DE00A000/Drives/5",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 153,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-20T05:02:56Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/39",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "39",
+            "Created": "2025-05-20T05:02:58Z",
+            "EntryType": "Oem",
+            "Message": "Slot 17 Storage - Drive at : Box 1: Bay 3 status changed to OK (AMS)",
+            "MessageArgs": [],
+            "MessageId": "19.30",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 30,
+                    "Count": 1,
+                    "EventNumber": 154,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x001e-gen11",
+                    "RecommendedAction": "1. Verify cables are good and fully seated.\n2. Ensure all drives are fully seated.\n3. Set drive to Unconfigured Good\n4. Verify backplane, controller, RAID config, and drive compatibility.\n5. Replace the defective drive.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-20T05:02:58Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/40",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "40",
+            "Created": "2025-05-20T05:02:58Z",
+            "EntryType": "Oem",
+            "Message": "Slot 18 Storage - Drive at : Box 1: Bay 6 status changed to OK (AMS)",
+            "MessageArgs": [],
+            "MessageId": "19.30",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 30,
+                    "Count": 1,
+                    "EventNumber": 155,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x001e-gen11",
+                    "RecommendedAction": "1. Verify cables are good and fully seated.\n2. Ensure all drives are fully seated.\n3. Set drive to Unconfigured Good\n4. Verify backplane, controller, RAID config, and drive compatibility.\n5. Replace the defective drive.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-20T05:02:58Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/41",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "41",
+            "Created": "2025-05-20T05:03:01Z",
+            "EntryType": "Oem",
+            "Message": "Slot 17 Storage - Drive at : Box 1: Bay 1 status changed to OK (AMS)",
+            "MessageArgs": [],
+            "MessageId": "19.30",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 30,
+                    "Count": 1,
+                    "EventNumber": 156,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x001e-gen11",
+                    "RecommendedAction": "1. Verify cables are good and fully seated.\n2. Ensure all drives are fully seated.\n3. Set drive to Unconfigured Good\n4. Verify backplane, controller, RAID config, and drive compatibility.\n5. Replace the defective drive.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-20T05:03:01Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/42",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "42",
+            "Created": "2025-05-20T05:03:01Z",
+            "EntryType": "Oem",
+            "Message": "Slot 18 Storage - Drive at : Box 1: Bay 7 status changed to OK (AMS)",
+            "MessageArgs": [],
+            "MessageId": "19.30",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 30,
+                    "Count": 1,
+                    "EventNumber": 157,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x001e-gen11",
+                    "RecommendedAction": "1. Verify cables are good and fully seated.\n2. Ensure all drives are fully seated.\n3. Set drive to Unconfigured Good\n4. Verify backplane, controller, RAID config, and drive compatibility.\n5. Replace the defective drive.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-20T05:03:01Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/43",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "43",
+            "Created": "2025-05-28T08:01:01Z",
+            "EntryType": "Oem",
+            "Message": "Uncorrectable Machine Check Exception (Processor 2, APIC ID 0x00000080, Bank 0x00000012, Status 0xEC000002'001000C1, Address 0x00000079'1938A780, Misc 0x08000346'9318B886). ",
+            "MessageArgs": [],
+            "MessageId": "5.3",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 5,
+                    "ClassDescription": "CPU",
+                    "Code": 3,
+                    "Count": 1,
+                    "EventNumber": 158,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0005code0x0003-gen11",
+                    "RecommendedAction": "Update the system firmware. If the issue persists, contact support.",
+                    "Repaired": false,
+                    "Severity": "Critical",
+                    "Updated": "2025-05-28T08:01:01Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/44",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "44",
+            "Created": "2025-05-28T08:01:01Z",
+            "EntryType": "Oem",
+            "Message": "DIMM Failure - Uncorrectable Memory Error (Processor 2, DIMM 4)",
+            "MessageArgs": [],
+            "MessageId": "10.644",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 644,
+                    "Count": 1,
+                    "EventNumber": 159,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x0284-gen11",
+                    "RecommendedAction": "Replace Failed DIMM.",
+                    "Repaired": false,
+                    "Severity": "Critical",
+                    "Updated": "2025-05-28T08:01:01Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/45",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "45",
+            "Created": "2025-05-29T08:53:18Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 160,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-29T08:53:18Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/46",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "46",
+            "Created": "2025-05-29T08:53:18Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 161,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-29T08:53:18Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/47",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "47",
+            "Created": "2025-05-29T08:55:22Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: Running scripting interface...",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 162,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-29T08:55:22Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/48",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "48",
+            "Created": "2025-05-29T08:55:35Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: Starting F10 GUI",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 163,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-29T08:55:35Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/49",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "49",
+            "Created": "2025-05-29T08:55:45Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note:     /dev/sda1: iLO  LUN 00 Media 0   2.11",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 164,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-29T08:55:45Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/50",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "50",
+            "Created": "2025-05-29T10:25:58Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: Provisioning Loaded",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 165,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-29T10:25:58Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/51",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "51",
+            "Created": "2025-05-29T10:26:22Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: All HDD SSD is added in System Erase and Reset Job ",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 166,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-29T10:26:22Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/52",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "52",
+            "Created": "2025-05-29T10:27:13Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: System Erase and Reset Job is Launched",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 167,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-29T10:27:13Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/53",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "53",
+            "Created": "2025-05-29T10:44:41Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 168,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-29T10:44:41Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/54",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "54",
+            "Created": "2025-05-29T10:44:41Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 169,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-29T10:44:41Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/55",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "55",
+            "Created": "2025-05-29T10:48:01Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 170,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-29T10:48:01Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/56",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "56",
+            "Created": "2025-05-29T10:48:01Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 171,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-29T10:48:01Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/57",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "57",
+            "Created": "2025-05-29T11:27:08Z",
+            "EntryType": "Oem",
+            "Message": "One of the NIC connectivity status changed to OK",
+            "MessageArgs": [],
+            "MessageId": "17.16",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 16,
+                    "Count": 2,
+                    "EventNumber": 172,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x0010-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-29T11:27:08Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/58",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "58",
+            "Created": "2025-05-29T12:26:24Z",
+            "EntryType": "Oem",
+            "Message": "One of the NIC connectivity status changed to OK",
+            "MessageArgs": [],
+            "MessageId": "17.16",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 16,
+                    "Count": 2,
+                    "EventNumber": 173,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x0010-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-29T12:26:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/59",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "59",
+            "Created": "2025-05-29T14:44:57Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 174,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-29T14:44:57Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/60",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "60",
+            "Created": "2025-05-29T14:44:57Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 175,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-29T14:44:57Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/61",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "61",
+            "Created": "2025-05-29T14:46:31Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: Running scripting interface...",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 176,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-29T14:46:31Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/62",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "62",
+            "Created": "2025-05-29T14:46:43Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: Starting F10 GUI",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 177,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-29T14:46:43Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/63",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "63",
+            "Created": "2025-05-29T14:46:57Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note:     /dev/sda1: iLO  LUN 00 Media 0   2.11",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 178,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-29T14:46:57Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/64",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "64",
+            "Created": "2025-05-29T14:51:16Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: Provisioning Loaded",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 179,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-29T14:51:16Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/65",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "65",
+            "Created": "2025-05-29T14:51:58Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: All HDD SSD is added in System Erase and Reset Job ",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 180,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-29T14:51:58Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/66",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "66",
+            "Created": "2025-05-29T14:53:27Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: System Erase and Reset Job is Launched",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 181,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-29T14:53:27Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/67",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "67",
+            "Created": "2025-05-29T15:05:33Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 182,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-29T15:05:33Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/68",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "68",
+            "Created": "2025-05-29T15:05:33Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 183,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-29T15:05:33Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/69",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "69",
+            "Created": "2025-05-29T15:45:23Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 184,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-29T15:45:23Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/70",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "70",
+            "Created": "2025-05-29T15:45:23Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 185,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-29T15:45:23Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/71",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "71",
+            "Created": "2025-05-29T16:13:51Z",
+            "EntryType": "Oem",
+            "Message": "One of the NIC connectivity status changed to OK",
+            "MessageArgs": [],
+            "MessageId": "17.16",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 16,
+                    "Count": 2,
+                    "EventNumber": 186,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x0010-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-29T16:13:51Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/72",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "72",
+            "Created": "2025-05-30T04:46:52Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 187,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-30T04:46:52Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/73",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "73",
+            "Created": "2025-05-30T04:46:52Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 188,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-30T04:46:52Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/74",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "74",
+            "Created": "2025-05-30T04:47:00Z",
+            "EntryType": "Oem",
+            "Message": "One of the NIC connectivity status changed to OK",
+            "MessageArgs": [],
+            "MessageId": "17.16",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 16,
+                    "Count": 2,
+                    "EventNumber": 189,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x0010-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-05-30T04:47:00Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/75",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "75",
+            "Created": "2025-06-02T16:56:19Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 190,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-02T16:56:19Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/76",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "76",
+            "Created": "2025-06-02T16:56:19Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 191,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-02T16:56:19Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/77",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "77",
+            "Created": "2025-06-02T17:02:11Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 192,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-02T17:02:11Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/78",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "78",
+            "Created": "2025-06-02T17:02:11Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 193,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-02T17:02:11Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/79",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "79",
+            "Created": "2025-06-02T17:17:29Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 194,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-02T17:17:29Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/80",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "80",
+            "Created": "2025-06-02T17:17:30Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 195,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-02T17:17:30Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/81",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "81",
+            "Created": "2025-06-02T17:25:02Z",
+            "EntryType": "Oem",
+            "Message": "One of the NIC connectivity status changed to OK",
+            "MessageArgs": [],
+            "MessageId": "17.16",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 16,
+                    "Count": 2,
+                    "EventNumber": 196,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x0010-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-02T17:25:02Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/82",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "82",
+            "Created": "2025-06-03T08:42:54Z",
+            "EntryType": "Oem",
+            "Message": "One of the NIC connectivity status changed to OK",
+            "MessageArgs": [],
+            "MessageId": "17.16",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 16,
+                    "Count": 2,
+                    "EventNumber": 197,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x0010-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-03T08:43:04Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/83",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "83",
+            "Created": "2025-06-03T10:49:21Z",
+            "EntryType": "Oem",
+            "Message": "One of the NIC connectivity status changed to OK",
+            "MessageArgs": [],
+            "MessageId": "17.16",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 16,
+                    "Count": 2,
+                    "EventNumber": 198,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x0010-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-03T10:49:21Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/84",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "84",
+            "Created": "2025-06-05T06:47:40Z",
+            "EntryType": "Oem",
+            "Message": "One of the NIC connectivity status changed to OK",
+            "MessageArgs": [],
+            "MessageId": "17.16",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 16,
+                    "Count": 1,
+                    "EventNumber": 199,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x0010-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-05T06:47:40Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/85",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "85",
+            "Created": "2025-06-11T10:45:36Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 200,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-11T10:45:36Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/86",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "86",
+            "Created": "2025-06-11T10:45:36Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 201,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-11T10:45:36Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/87",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "87",
+            "Created": "2025-06-11T10:45:55Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: Running scripting interface...",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 202,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T10:45:55Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/88",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "88",
+            "Created": "2025-06-11T10:46:08Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: Starting F10 GUI",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 203,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T10:46:08Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/89",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "89",
+            "Created": "2025-06-11T10:46:19Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note:     /dev/sda1: iLO  LUN 00 Media 0   2.11",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 204,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T10:46:19Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/90",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "90",
+            "Created": "2025-06-11T10:50:24Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: Provisioning Loaded",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 205,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T10:50:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/91",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "91",
+            "Created": "2025-06-11T10:56:34Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: All HDD SSD is added in System Erase and Reset Job ",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 206,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T10:56:34Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/92",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "92",
+            "Created": "2025-06-11T10:57:24Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: System Erase and Reset Job is Launched",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 207,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T10:57:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/93",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "93",
+            "Created": "2025-06-11T11:02:38Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: Running scripting interface...",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 208,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T11:02:38Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/94",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "94",
+            "Created": "2025-06-11T11:02:49Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 209,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-11T11:02:49Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/95",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "95",
+            "Created": "2025-06-11T11:02:49Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 210,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-11T11:02:49Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/96",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "96",
+            "Created": "2025-06-11T11:02:51Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: Starting F10 GUI",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 211,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T11:02:51Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/97",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "97",
+            "Created": "2025-06-11T11:03:01Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note:     /dev/sdb1: iLO  LUN 00 Media 0   2.11",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 212,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T11:03:01Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/98",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "98",
+            "Created": "2025-06-11T11:06:51Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: Provisioning Loaded",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 213,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T11:06:51Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/99",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "99",
+            "Created": "2025-06-11T11:09:24Z",
+            "EntryType": "Oem",
+            "Message": "DriveOffline (Slot=17:Port=2:Box=1:Bay=4) Redfish event from /redfish/v1/Chassis/DE00A000/Drives/2",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 214,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T11:09:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/100",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "100",
+            "Created": "2025-06-11T11:09:24Z",
+            "EntryType": "Oem",
+            "Message": "DriveOffline (Slot=17:Port=2:Box=1:Bay=3) Redfish event from /redfish/v1/Chassis/DE00A000/Drives/3",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 215,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T11:09:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/101",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "101",
+            "Created": "2025-06-11T11:09:24Z",
+            "EntryType": "Oem",
+            "Message": "DriveOffline (Slot=17:Port=1:Box=1:Bay=1) Redfish event from /redfish/v1/Chassis/DE00A000/Drives/4",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 216,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T11:09:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/102",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "102",
+            "Created": "2025-06-11T11:09:24Z",
+            "EntryType": "Oem",
+            "Message": "DriveOffline (Slot=17:Port=1:Box=1:Bay=2) Redfish event from /redfish/v1/Chassis/DE00A000/Drives/5",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 217,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T11:09:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/103",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "103",
+            "Created": "2025-06-11T11:13:26Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: Provisioning Loaded",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 218,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T11:13:26Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/104",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "104",
+            "Created": "2025-06-11T11:17:11Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: All HDD SSD is added in System Erase and Reset Job ",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 219,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T11:17:11Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/105",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "105",
+            "Created": "2025-06-11T11:17:14Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: System Erase and Reset Job is Launched",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 220,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T11:17:14Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/106",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "106",
+            "Created": "2025-06-11T11:21:42Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 221,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-11T11:21:42Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/107",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "107",
+            "Created": "2025-06-11T11:21:42Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 222,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-11T11:21:42Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/108",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "108",
+            "Created": "2025-06-11T11:22:08Z",
+            "EntryType": "Oem",
+            "Message": "DriveOffline (Slot=18:Port=1:Box=1:Bay=6) Redfish event from /redfish/v1/Chassis/DE00B000/Drives/3",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 223,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T11:22:08Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/109",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "109",
+            "Created": "2025-06-11T11:22:08Z",
+            "EntryType": "Oem",
+            "Message": "DriveOffline (Slot=18:Port=2:Box=1:Bay=7) Redfish event from /redfish/v1/Chassis/DE00B000/Drives/4",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 224,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T11:22:08Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/110",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "110",
+            "Created": "2025-06-11T11:27:26Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 225,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-11T11:27:26Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/111",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "111",
+            "Created": "2025-06-11T11:27:26Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 226,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-11T11:27:26Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/112",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "112",
+            "Created": "2025-06-11T11:31:58Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 227,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-11T11:31:58Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/113",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "113",
+            "Created": "2025-06-11T11:31:58Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 228,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-11T11:31:58Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/114",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "114",
+            "Created": "2025-06-11T12:01:37Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 229,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-11T12:01:37Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/115",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "115",
+            "Created": "2025-06-11T12:01:37Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 230,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-11T12:01:37Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/116",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "116",
+            "Created": "2025-06-12T06:05:22Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 231,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-12T06:05:22Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/117",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "117",
+            "Created": "2025-06-12T06:05:22Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 2, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 232,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-12T06:05:22Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 117
+}

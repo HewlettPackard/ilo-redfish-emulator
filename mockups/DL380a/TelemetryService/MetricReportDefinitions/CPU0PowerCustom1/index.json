@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition",
+    "@odata.etag": "W/\"3000BFBB\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPU0PowerCustom1",
+    "@odata.type": "#MetricReportDefinition.v1_4_2.MetricReportDefinition",
+    "Id": "CPU0PowerCustom1",
+    "Description": "Metric report of average CPU0 power for 10 minutes with sensing interval of 20 seconds.",
+    "MetricProperties": [
+        "/redfish/v1/Systems/1#SystemUsage/CPU0Power"
+    ],
+    "MetricReport": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPU0PowerCustom1"
+    },
+    "MetricReportDefinitionType": "OnRequest",
+    "Metrics": [
+        {
+            "CollectionDuration": "PT20S",
+            "CollectionFunction": "Average",
+            "CollectionTimeScope": "Interval",
+            "MetricId": "CPU0Power"
+        }
+    ],
+    "Name": "Metric report of average CPU0 power for 10 minutes with sensing interval of 20 seconds.",
+    "Schedule": {
+        "EnabledDaysOfMonth": [],
+        "RecurrenceInterval": "PT20S"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

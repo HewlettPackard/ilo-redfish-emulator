@@ -1,0 +1,48 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_0_0.Settings",
+        "ETag": "",
+        "Messages": [
+            {
+                "MessageId": "Base.1.0.Success"
+            }
+        ],
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/serverconfiglock/settings/"
+        },
+        "Time": null
+    },
+    "@odata.context": "/redfish/v1/$metadata#HpeServerConfigLock.HpeServerConfigLock",
+    "@odata.etag": "W/\"7B85673623CB8080807F69F8B3C2D433\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/serverconfiglock/",
+    "@odata.type": "#HpeServerConfigLock.v1_0_0.HpeServerConfigLock",
+    "Id": "serverconfiglock",
+    "Name": "Server Configuration Lock Current Settings",
+    "NewServerConfigLockPassword": null,
+    "Oem": {
+        "Hpe": {
+            "@odata.type": "#HpeBiosExt.v2_0_1.HpeBiosExt",
+            "Links": {
+                "BaseConfigs": {
+                    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/serverconfiglock/baseconfigs/"
+                }
+            },
+            "SettingsObject": {
+                "UnmodifiedETag": "W/\"05052E325E99DFDFDF57497ACD8287FC\""
+            }
+        }
+    },
+    "ServerConfigLockChallenge": null,
+    "ServerConfigLockDisable": null,
+    "ServerConfigLockExcludeCpus": null,
+    "ServerConfigLockExcludeDimms": null,
+    "ServerConfigLockExcludeFwRevs": null,
+    "ServerConfigLockExcludePciSlots": null,
+    "ServerConfigLockExcludeSecurity": null,
+    "ServerConfigLockLogStored": "False",
+    "ServerConfigLockPassword": null,
+    "ServerConfigLockState": "Disabled",
+    "ServerConfigLockTamperHalt": null,
+    "ServerConfigLockTransport": null,
+    "ServerConfigLockTransportAudit": null
+}

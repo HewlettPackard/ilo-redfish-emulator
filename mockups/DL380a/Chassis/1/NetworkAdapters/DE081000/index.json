@@ -1,0 +1,63 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000",
+    "@odata.type": "#NetworkAdapter.v1_9_0.NetworkAdapter",
+    "@odata.etag": "W/\"E13CBBF6\"",
+    "@Redfish.Settings": {
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Settings"
+        }
+    },
+    "Actions": {
+        "#NetworkAdapter.ResetSettingsToDefault": {
+            "target": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Actions/NetworkAdapter.ResetSettingsToDefault",
+            "title": "Reset network adapter configuration to factory default values."
+        }
+    },
+    "Controllers": [
+        {
+            "ControllerCapabilities": {
+                "DataCenterBridging": {
+                    "Capable": true
+                },
+                "NetworkDeviceFunctionCount": 2,
+                "NetworkPortCount": 2,
+                "VirtualizationOffload": {
+                    "SRIOV": {
+                        "SRIOVVEPACapable": false
+                    },
+                    "VirtualFunction": {
+                        "DeviceMaxCount": 254,
+                        "MinAssignmentGroupSize": 0,
+                        "NetworkPortMaxCount": 127
+                    }
+                },
+                "NPAR": {
+                    "NparCapable": false,
+                    "NparEnabled": false
+                }
+            },
+            "FirmwarePackageVersion": "28.43.1014"
+        }
+    ],
+    "Id": "DE081000",
+    "Manufacturer": "MLNX",
+    "Model": "HPE InfiniBand NDR200/Ethernet 200GbE 2-port QSFP112 PCIe5 x16 MCX755106AC-HEAT Adapter",
+    "Name": "NetworkAdapter",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkDeviceFunctions"
+    },
+    "PartNumber": "P65324-001",
+    "SKU": "P65324-001",
+    "SerialNumber": "ILC34600ZK",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Ports": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports"
+    },
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Metrics"
+    }
+}

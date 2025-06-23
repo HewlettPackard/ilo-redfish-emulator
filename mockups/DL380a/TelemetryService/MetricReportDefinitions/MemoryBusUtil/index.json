@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition",
+    "@odata.etag": "W/\"3000BFBB\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/MemoryBusUtil",
+    "@odata.type": "#MetricReportDefinition.v1_4_2.MetricReportDefinition",
+    "Id": "MemoryBusUtil",
+    "Description": "Metric report of Memory Bus Utilization.",
+    "MetricProperties": [
+        "/redfish/v1/Systems/1#SystemUsage/MemoryBusUtil"
+    ],
+    "MetricReport": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReports/MemoryBusUtilCustom1"
+    },
+    "MetricReportDefinitionType": "Periodic",
+    "Metrics": [
+        {
+            "MetricId": "MemoryBusUtil"
+        }
+    ],
+    "Name": "Metric report of Memory Bus Utilization.",
+    "Schedule": {
+        "EnabledDaysOfMonth": [
+            0
+        ],
+        "RecurrenceInterval": "PT1H"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

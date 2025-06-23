@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"3A3D4A29\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/4",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "4",
+    "Created": "2025-06-03T12:13:26Z",
+    "EntryType": "Oem",
+    "Message": "Rest API Info: Rest API Provider Added (5).",
+    "MessageArgs": [],
+    "MessageId": "35.438",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Configuration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 6",
+            "Code": 438,
+            "Count": 1,
+            "EventNumber": 2085,
+            "Severity": "Informational",
+            "Updated": "2025-06-03T12:13:26Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

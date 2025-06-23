@@ -1,0 +1,47 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition",
+    "@odata.etag": "W/\"3000BFBB\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/PowerMetrics",
+    "@odata.type": "#MetricReportDefinition.v1_4_2.MetricReportDefinition",
+    "Id": "PowerMetrics",
+    "Description": "Metric report of Power Metrics for 60 minutes with sensing interval of 300 seconds.",
+    "MetricProperties": [
+        "/redfish/v1/Chassis/1/Power#PowerControl/PowerMetrics/AverageConsumedWatts",
+        "/redfish/v1/Chassis/1/Power#PowerControl/PowerMetrics/MinConsumedWatts",
+        "/redfish/v1/Chassis/1/Power#PowerControl/PowerMetrics/MaxConsumedWatts",
+        "/redfish/v1/Chassis/1/Power#Oem/Hpe/PowerMetrics/AmbTemp",
+        "/redfish/v1/Chassis/1/Power#Oem/Hpe/PowerMetrics/Cap",
+        "/redfish/v1/Chassis/1/Power#Oem/Hpe/PowerMetrics/CpuCapLim",
+        "/redfish/v1/Chassis/1/Power#Oem/Hpe/PowerMetrics/CpuMax",
+        "/redfish/v1/Chassis/1/Power#Oem/Hpe/PowerMetrics/CpuPwrSavLim",
+        "/redfish/v1/Chassis/1/Power#Oem/Hpe/PowerMetrics/CpuWatts",
+        "/redfish/v1/Chassis/1/Power#Oem/Hpe/PowerMetrics/DimmWatts",
+        "/redfish/v1/Chassis/1/Power#Oem/Hpe/PowerMetrics/GpuWatts",
+        "/redfish/v1/Chassis/1/Power#Oem/Hpe/PowerMetrics/PrMode",
+        "/redfish/v1/Chassis/1/Power#Oem/Hpe/PowerMetrics/PunCap",
+        "/redfish/v1/Chassis/1/Power#Oem/Hpe/PowerMetrics/UnachCap"
+    ],
+    "MetricReport": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReports/PowerMetrics"
+    },
+    "MetricReportDefinitionType": "Periodic",
+    "Metrics": [
+        {
+            "CollectionDuration": "PT300S",
+            "CollectionFunction": "Average",
+            "CollectionTimeScope": "Interval",
+            "MetricId": "PowerMetrics"
+        }
+    ],
+    "Name": "Metric report of Power Metrics for 60 minutes with sensing interval of 300 seconds.",
+    "Schedule": {
+        "EnabledDaysOfMonth": [
+            0
+        ],
+        "RecurrenceInterval": "PT1H"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

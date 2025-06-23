@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"D3A47D81\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/MemoryMetrics",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "MemoryMetrics",
+    "Description": "Schema Definition File for MemoryMetrics",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/MemoryMetrics.json"
+        }
+    ],
+    "Name": "MemoryMetrics Schema Definition File",
+    "Schema": "#MemoryMetrics.v1_7_3.MemoryMetrics"
+}

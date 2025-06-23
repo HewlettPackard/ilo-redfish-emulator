@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"D0CB74F7\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/165",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "165",
+    "Created": "2025-06-11T11:27:01Z",
+    "EntryType": "Oem",
+    "EventId": "40e12d1f-baed-b32b-4517-6c6d146367e1",
+    "EventTimestamp": "2025-06-11T11:27:01Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/1"
+        }
+    },
+    "MessageId": "iLOResourceEvents.1.3.SmartStorageBatteryHealthOk",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

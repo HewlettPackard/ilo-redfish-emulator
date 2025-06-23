@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SecureBootDatabase.SecureBootDatabase",
+    "@odata.etag": "W/\"38361AFA\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx",
+    "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+    "Id": "dbx",
+    "Actions": {
+        "#SecureBootDatabase.ResetKeys": {
+            "ResetKeysType@Redfish.AllowableValues": [
+                "ResetAllKeysToDefault",
+                "DeleteAllKeys"
+            ],
+            "target": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Actions/SecureBootDatabase.ResetKeys"
+        }
+    },
+    "Certificates": {
+        "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Certificates"
+    },
+    "DatabaseId": "dbx",
+    "Description": "SecureBoot Database",
+    "Name": "Forbidden Signature Database",
+    "Signatures": {
+        "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Signatures"
+    }
+}

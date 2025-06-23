@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition",
+    "@odata.etag": "W/\"3000BFBB\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/JitterCountCustom1",
+    "@odata.type": "#MetricReportDefinition.v1_4_2.MetricReportDefinition",
+    "Id": "JitterCountCustom1",
+    "Description": "Metric report of Jitter Count for 10 minutes with sensing interval of 20 seconds.",
+    "MetricProperties": [
+        "/redfish/v1/Systems/1#SystemUsage/JitterCount"
+    ],
+    "MetricReport": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReports/JitterCountCustom1"
+    },
+    "MetricReportDefinitionType": "OnRequest",
+    "Metrics": [
+        {
+            "CollectionDuration": "PT20S",
+            "CollectionFunction": "Average",
+            "CollectionTimeScope": "Interval",
+            "MetricId": "JitterCount"
+        }
+    ],
+    "Name": "Metric report of Jitter Count for 10 minutes with sensing interval of 20 seconds.",
+    "Schedule": {
+        "EnabledDaysOfMonth": [],
+        "RecurrenceInterval": "PT20S"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

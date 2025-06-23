@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"6B3CD89F\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/58",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "58",
+    "Created": "2025-06-11T09:17:15Z",
+    "EntryType": "Oem",
+    "Message": "Remote console session started by: Administrator - 172.17.16.4(DNS name not found).",
+    "MessageArgs": [],
+    "MessageId": "35.1011",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 6",
+            "Code": 1011,
+            "Count": 1,
+            "EventNumber": 2139,
+            "Severity": "Informational",
+            "Updated": "2025-06-11T09:17:15Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

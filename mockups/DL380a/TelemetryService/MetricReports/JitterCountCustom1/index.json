@@ -1,0 +1,254 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricReport.MetricReport",
+    "@odata.etag": "W/\"21D55655\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReports/JitterCountCustom1",
+    "@odata.type": "#MetricReport.v1_0_0.MetricReport",
+    "Id": "JitterCountCustom1",
+    "Description": "Metric report of Jitter Count for 10 minutes with sensing interval of 20 seconds.",
+    "MetricReportDefinition": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/JitterCountCustom1"
+    },
+    "MetricValues": [
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "22",
+            "Timestamp": "2025-06-23T19:58:36Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "42",
+            "Timestamp": "2025-06-23T19:58:56Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "34",
+            "Timestamp": "2025-06-23T19:59:16Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "41",
+            "Timestamp": "2025-06-23T19:59:36Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "108",
+            "Timestamp": "2025-06-23T20:00:01Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "23",
+            "Timestamp": "2025-06-23T20:00:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "39",
+            "Timestamp": "2025-06-23T20:00:43Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "26",
+            "Timestamp": "2025-06-23T20:01:03Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "188",
+            "Timestamp": "2025-06-23T20:01:23Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "183",
+            "Timestamp": "2025-06-23T20:01:43Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "201",
+            "Timestamp": "2025-06-23T20:02:03Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "165",
+            "Timestamp": "2025-06-23T20:02:23Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "124",
+            "Timestamp": "2025-06-23T20:02:45Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "41",
+            "Timestamp": "2025-06-23T20:03:05Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "54",
+            "Timestamp": "2025-06-23T20:03:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "75",
+            "Timestamp": "2025-06-23T20:03:51Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "64",
+            "Timestamp": "2025-06-23T20:04:14Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "29",
+            "Timestamp": "2025-06-23T20:04:34Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "31",
+            "Timestamp": "2025-06-23T20:04:54Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "89",
+            "Timestamp": "2025-06-23T20:05:17Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "58",
+            "Timestamp": "2025-06-23T20:05:37Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "84",
+            "Timestamp": "2025-06-23T20:06:01Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "47",
+            "Timestamp": "2025-06-23T20:06:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "65",
+            "Timestamp": "2025-06-23T20:06:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "47",
+            "Timestamp": "2025-06-23T20:07:01Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "170",
+            "Timestamp": "2025-06-23T20:07:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "160",
+            "Timestamp": "2025-06-23T20:07:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "145",
+            "Timestamp": "2025-06-23T20:08:01Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "119",
+            "Timestamp": "2025-06-23T20:08:21Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+            },
+            "MetricId": "JitterCount",
+            "MetricValue": "150",
+            "Timestamp": "2025-06-23T20:08:41Z"
+        }
+    ],
+    "Name": "Metric report of Jitter Count for 10 minutes with sensing interval of 20 seconds."
+}

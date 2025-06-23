@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"A2379896\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/Fan",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "Fan",
+    "Description": "Schema Definition File for Fan",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/Fan.json"
+        }
+    ],
+    "Name": "Fan Schema Definition File",
+    "Schema": "#Fan.v1_5_1.Fan"
+}

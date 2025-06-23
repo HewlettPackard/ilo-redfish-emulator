@@ -1,0 +1,80 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricDefinitionCollection.MetricDefinitionCollection",
+    "@odata.etag": "W/\"D821FF8B\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions",
+    "@odata.type": "#MetricDefinitionCollection.MetricDefinitionCollection",
+    "Description": "Metric Definitions view",
+    "Name": "Metric Definitions",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUUtil"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/IOBusUtil"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AvgCPU0Freq"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AverageConsumedWatts"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MinConsumedWatts"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MaxConsumedWatts"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AmbTemp"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Cap"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuCapLim"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuMax"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuPwrSavLim"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuWatts"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/DimmWatts"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/GpuWatts"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PrMode"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PunCap"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/UnachCap"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AvgCPU1Freq"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+        }
+    ],
+    "Members@odata.count": 23
+}

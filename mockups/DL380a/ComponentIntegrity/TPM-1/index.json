@@ -1,0 +1,47 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ComponentIntegrity.ComponentIntegrity",
+    "@odata.etag": "W/\"88734FBA\"",
+    "@odata.id": "/redfish/v1/ComponentIntegrity/TPM-1",
+    "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+    "Id": "TPM-1",
+    "Actions": {
+        "#ComponentIntegrity.TPMGetSignedMeasurements": {
+            "PCRSelection@Redfish.AllowableValues": [
+                "PCR0",
+                "PCR8"
+            ],
+            "target": "/redfish/v1/ComponentIntegrity/TPM-1/Actions/ComponentIntegrity.TPMGetSignedMeasurements"
+        }
+    },
+    "ComponentIntegrityEnabled": true,
+    "ComponentIntegrityType": "TPM",
+    "ComponentIntegrityTypeVersion": "iLO 6 v1.66",
+    "Name": "Component Integrity Collection TPM",
+    "TPM": {
+        "ComponentCommunication": {
+            "Sessions": [
+                {
+                    "SessionType": "EncryptedAuthenticated"
+                }
+            ]
+        },
+        "MeasurementSet": {
+            "Measurements": [
+                {
+                    "LastUpdated": "2025-06-23T20:08:12Z",
+                    "Measurement": "I06XTxxBQPSh3u4/uBLODzfFBLSZ3SA91fHj/YYFYSZLrmLEMH4VGy216Ff70xXS",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 0
+                },
+                {
+                    "LastUpdated": "2025-06-23T20:08:13Z",
+                    "Measurement": "4Ormk2a/lF7nYyxxD7RxRUee5DiMRmpoDc0F7qn9TiIp8FvrQdWOxY0uDDDKI5SR",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 8
+                }
+            ]
+        },
+        "NonceSizeBytesMaximum": 16
+    },
+    "TargetComponentURI": "/redfish/v1/Managers/1"
+}

@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"ED10EB58\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/HpeMemoryMetrics",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "HpeMemoryMetrics",
+    "Description": "Schema Definition File for HpeMemoryMetrics",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/HpeMemoryMetrics.json"
+        }
+    ],
+    "Name": "HpeMemoryMetrics Schema Definition File",
+    "Schema": "#HpeMemoryMetrics.v1_0_0.HpeMemoryMetrics"
+}

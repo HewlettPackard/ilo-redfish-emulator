@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"101E4586\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/ThermalSubsystem",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "ThermalSubsystem",
+    "Description": "Schema Definition File for ThermalSubsystem",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/ThermalSubsystem.json"
+        }
+    ],
+    "Name": "ThermalSubsystem Schema Definition File",
+    "Schema": "#ThermalSubsystem.v1_3_2.ThermalSubsystem"
+}

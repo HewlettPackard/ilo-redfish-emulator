@@ -1,0 +1,61 @@
+{
+    "$schema": "http://redfish.dmtf.org/schemas/v1/redfish-schema.v1_1_0.json",
+    "title": "#HpeIp.v1_0_0.HpeIp",
+    "type": "object",
+    "additionalProperties": false,
+    "definitions": {
+        "Calm": {
+            "type": "boolean",
+            "description": "Flag that controls the switch of job queue",
+            "readonly": true
+        },
+        "InIP": {
+            "type": "boolean",
+            "description": "The status of F10 Setup tool",
+            "readonly": true
+        },
+        "NandDamaged": {
+            "type": "boolean",
+            "description": "Flag to tell we can trust the content of GAIUS and VID or not"
+        },
+        "Working": {
+            "type": "boolean",
+            "description": "The status of job agent in F10 Setup tool",
+            "readonly": true
+        },
+        "Version": {
+            "type": "string",
+            "description": "Vesion number",
+            "readonly": true
+        }
+    },
+    "properties": {
+        "@data.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Calm": {
+            "$ref": "#/definitions/Calm"
+        },
+        "InIP": {
+            "$ref": "#/definitions/InIP"
+        },
+        "NandDamaged": {
+            "$ref": "#/definitions/NandDamaged"
+        },
+        "Working": {
+            "$ref": "#/definitions/Working"
+        },
+        "Version": {
+            "$ref": "#/definitions/Version"
+        }
+    }
+}

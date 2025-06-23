@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"542C1060\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/28",
+    "@odata.type": "#SoftwareInventory.v1_2_0.SoftwareInventory",
+    "Id": "28",
+    "Description": "MO001600KXVYH",
+    "Name": "1.60TB 64G NVMe SSD",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "f6de0320-2e0f-489a-b238-6dd8ae7c3811",
+            "DeviceContext": "Slot=18:Port=2:Box=1:Bay=7",
+            "Targets": [
+                "4d2340a5-304f-3130-3630-304b58565948"
+            ]
+        }
+    },
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/DE00B000/Drives/4"
+        }
+    ],
+    "SoftwareId": "f6de0320-2e0f-489a-b238-6dd8ae7c3811:4d2340a5-304f-3130-3630-304b58565948",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Updateable": true,
+    "Version": "HPK1"
+}

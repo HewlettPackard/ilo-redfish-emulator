@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"ED888990\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/19",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "19",
+    "Created": "2025-06-04T11:59:06Z",
+    "EntryType": "Oem",
+    "Message": "Browser login: Administrator - 172.17.16.8(DNS name not found).",
+    "MessageArgs": [],
+    "MessageId": "35.1017",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 6",
+            "Code": 1017,
+            "Count": 1,
+            "EventNumber": 2100,
+            "Severity": "Informational",
+            "Updated": "2025-06-04T11:59:06Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

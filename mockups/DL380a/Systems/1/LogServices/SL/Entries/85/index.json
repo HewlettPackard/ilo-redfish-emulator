@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"D5CE0AC7\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/85",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "85",
+    "Created": "2025-06-11T11:33:16Z",
+    "EntryType": "Oem",
+    "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR9",
+    "MessageArgs": [],
+    "MessageId": "55.1607",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Firmware",
+                "Maintenance"
+            ],
+            "Class": 55,
+            "ClassDescription": "Security Configuration",
+            "Code": 1607,
+            "Count": 1,
+            "EventNumber": 200,
+            "Severity": "Caution",
+            "Updated": "2025-06-11T11:33:16Z",
+            "UserAction": "None"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "Warning"
+}

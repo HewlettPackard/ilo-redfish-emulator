@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"F09207B7\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/103",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "103",
+    "Created": "2025-06-11T11:13:26Z",
+    "EntryType": "Oem",
+    "Message": "Maintenance note: Provisioning Loaded",
+    "MessageArgs": [],
+    "MessageId": "33.2",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Maintenance"
+            ],
+            "Class": 33,
+            "ClassDescription": "Maintenance",
+            "Code": 2,
+            "Count": 1,
+            "EventNumber": 218,
+            "Severity": "Informational",
+            "Updated": "2025-06-11T11:13:26Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

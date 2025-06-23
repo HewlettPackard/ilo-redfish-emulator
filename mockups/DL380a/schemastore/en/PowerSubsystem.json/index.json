@@ -1,0 +1,102 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "PowerSubsystem",
+    "additionalProperties": false,
+    "copyright": "Copyright 2024 Hewlett Packard Enterprise Development, LP. Portions Copyright 2024 Distributed Management Task Force. All rights reserved.",
+    "definitions": {
+        "PowerAllocation": {
+            "additionalProperties": false,
+            "properties": {
+                "AllocatedWatts": {
+                    "description": "The total amount of power that has been allocated or budgeted to this subsystem.",
+                    "longDescription": "This property shall represent the total power currently allocated or budgeted to this subsystem.",
+                    "minimum": 0,
+                    "readonly": true,
+                    "type": [
+                        "number",
+                        "null"
+                    ],
+                    "units": "W"
+                },
+                "RequestedWatts": {
+                    "description": "The potential power, in watts, that the subsystem requests, which might be higher than the current level being consumed because the requested power includes a budget that the subsystem wants for future use.",
+                    "longDescription": "This property shall represent the amount of power, in watts, that the subsystem currently requests to be budgeted for future use.",
+                    "minimum": 0,
+                    "readonly": true,
+                    "type": [
+                        "number",
+                        "null"
+                    ],
+                    "units": "W"
+                }
+            },
+            "readonly": true,
+            "type": "object"
+        }
+    },
+    "description": "This PowerSubsystem schema contains the definition for the power subsystem of a chassis.",
+    "longDescription": "This resource shall represent a power subsystem for a Redfish implementation.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Description": {
+            "$ref": "Resource.json#/definitions/Description"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "Status": {
+            "$ref": "Resource.json#/definitions/Status"
+        },
+        "Allocation": {
+            "$ref": "#/definitions/PowerAllocation",
+            "description": "Power allocation for this subsystem.",
+            "longDescription": "This property shall contain the set of properties describing the allocation of power for this subsystem."
+        },
+        "CapacityWatts": {
+            "description": "The total amount of power that can be allocated to this subsystem.  This value can be either the power supply capacity or the power budget that an upstream chassis assigns to this subsystem.",
+            "longDescription": "This property shall represent the total power capacity that can be allocated to this subsystem.",
+            "minimum": 0,
+            "readonly": true,
+            "type": [
+                "number",
+                "null"
+            ],
+            "units": "W"
+        },
+        "PowerSupplies": {
+            "description": "The link to the collection of power supplies within this subsystem.",
+            "properties": {
+                "@odata.id": {
+                    "$ref": "Resource.json#/definitions/odataid"
+                }
+            },
+            "readonly": true,
+            "type": "object"
+        },
+        "PowerSupplyRedundancy": {
+            "description": "The redundancy information for the set of power supplies in this subsystem.",
+            "items": {
+                "$ref": "Resource.json#/definitions/RedundantGroup"
+            },
+            "longDescription": "This property shall contain redundancy information for the set of power supplies in this subsystem.  The values of the RedundancyGroup array shall reference resources of type PowerSupply.",
+            "type": "array"
+        }
+    },
+    "readonly": false,
+    "title": "#PowerSubsystem.v1_1_2.PowerSubsystem",
+    "type": "object"
+}

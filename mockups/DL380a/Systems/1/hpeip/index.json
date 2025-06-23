@@ -1,0 +1,18 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeIp.HpeIp",
+    "@odata.etag": "W/\"PN2QA22I\"",
+    "@odata.id": "/redfish/v1/systems/1/hpeip/",
+    "@odata.type": "#HpeIp.v1_0_0.HpeIp",
+    "Calm": false,
+    "InIP": true,
+    "NandDamaged": false,
+    "Sessions": {
+        "systemSession": {
+            "accessTime": "2025-06-11T11:18:59Z",
+            "source": "Host",
+            "userName": "%PRODUCT_NAME%"
+        }
+    },
+    "Version": "1.0.6",
+    "Working": false
+}

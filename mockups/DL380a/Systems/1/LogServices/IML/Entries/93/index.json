@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"8311B299\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/93",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "93",
+    "Created": "2025-06-11T11:02:38Z",
+    "EntryType": "Oem",
+    "Message": "Maintenance note: Running scripting interface...",
+    "MessageArgs": [],
+    "MessageId": "33.2",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Maintenance"
+            ],
+            "Class": 33,
+            "ClassDescription": "Maintenance",
+            "Code": 2,
+            "Count": 1,
+            "EventNumber": 208,
+            "Severity": "Informational",
+            "Updated": "2025-06-11T11:02:38Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

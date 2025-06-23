@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition",
+    "@odata.etag": "W/\"3000BFBB\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPU1Power",
+    "@odata.type": "#MetricReportDefinition.v1_4_2.MetricReportDefinition",
+    "Id": "CPU1Power",
+    "Description": "Metric report of average CPU1 power.",
+    "MetricProperties": [
+        "/redfish/v1/Systems/1#SystemUsage/CPU1Power"
+    ],
+    "MetricReport": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPU1PowerCustom1"
+    },
+    "MetricReportDefinitionType": "Periodic",
+    "Metrics": [
+        {
+            "MetricId": "CPU1Power"
+        }
+    ],
+    "Name": "Metric report of average CPU1 power.",
+    "Schedule": {
+        "EnabledDaysOfMonth": [
+            0
+        ],
+        "RecurrenceInterval": "PT1H"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

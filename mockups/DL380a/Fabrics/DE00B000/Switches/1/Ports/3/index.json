@@ -1,0 +1,30 @@
+{
+    "@odata.etag": "\"d3deb8e8\"",
+    "@odata.id": "/redfish/v1/Fabrics/DE00B000/Switches/1/Ports/3",
+    "@odata.type": "#Port.v1_9_0.Port",
+    "Id": "3",
+    "PortId": "3",
+    "Name": "Connector 3",
+    "ActiveWidth": 8,
+    "CurrentSpeedGbps": 128.0,
+    "Links": {
+        "ConnectedPorts": [
+            {
+                "@odata.id": "/redfish/v1/Systems/1/Storage/DE00B000/Controllers/0/Ports/1"
+            }
+        ]
+    },
+    "Location": {
+        "PartLocation": {
+            "ServiceLabel": "Box=1:Connector=3",
+            "LocationType": "Connector",
+            "LocationOrdinalValue": 3
+        }
+    },
+    "MaxSpeedGbps": 128.0,
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "Width": 8
+}

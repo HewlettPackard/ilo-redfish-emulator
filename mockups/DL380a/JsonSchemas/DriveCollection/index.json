@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"BA915A29\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/DriveCollection",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "DriveCollection",
+    "Description": "Schema Definition File for DriveCollection",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/DriveCollection.json"
+        }
+    ],
+    "Name": "DriveCollection Schema Definition File",
+    "Schema": "#DriveCollection.DriveCollection"
+}

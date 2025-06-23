@@ -1,0 +1,16 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SecureBootDatabase.SecureBootDatabase",
+    "@odata.etag": "W/\"1A207641\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault",
+    "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+    "Id": "dbxDefault",
+    "Certificates": {
+        "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Certificates"
+    },
+    "DatabaseId": "dbxDefault",
+    "Description": "SecureBoot Database",
+    "Name": "Default Forbidden Signature Database",
+    "Signatures": {
+        "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures"
+    }
+}

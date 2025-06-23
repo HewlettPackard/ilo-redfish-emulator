@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"EF169CBC\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/8",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "8",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceType": "Unknown",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "N/A"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/6"
+        }
+    },
+    "Location": "PCI-E Slot 11",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "",
+    "Name": "Empty slot 11",
+    "PartNumber": "",
+    "ProductPartNumber": "",
+    "ProductVersion": "",
+    "SerialNumber": "",
+    "Status": {
+        "State": "Absent"
+    }
+}

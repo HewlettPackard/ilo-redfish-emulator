@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/39a3509e",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "39a3509e",
+    "Activates": "AfterHardPowerCycle",
+    "ComponentUri": "/fwrepo/CPLD_Rummy_Gen11_v1616_signed.vme",
+    "Configuration": "",
+    "Created": "2025-04-04T10:10:09Z",
+    "Criticality": "Optional",
+    "DeviceClass": "b1ad439a-9dd1-41c1-a496-2da9313f1f07",
+    "ExecutionParameters": "",
+    "Filename": "CPLD_Rummy_Gen11_v1616_signed.vme",
+    "Filepath": "CPLD_Rummy_Gen11_v1616_signed.vme",
+    "Locked": true,
+    "Name": "System Programmable Logic Device",
+    "SizeBytes": 1298611,
+    "Targets": [
+        "00000000-0000-0000-0001-00000001024a",
+        "00000000-0000-0000-0000-00000000024a",
+        "00000000-0000-0000-0001-00000001023b",
+        "00000000-0000-0000-0000-00000000023b",
+        "00000000-0000-0000-0001-00000001023d",
+        "00000000-0000-0000-0000-00000000023d"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "16"
+}

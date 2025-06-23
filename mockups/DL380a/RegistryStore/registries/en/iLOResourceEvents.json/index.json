@@ -1,0 +1,1401 @@
+{
+    "@Redfish.Copyright": "Copyright 2014-2022 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2022 Distributed Management Task Force. All rights reserved.",
+    "@odata.type": "#MessageRegistry.v1_6_0.MessageRegistry",
+    "Description": "This registry defines the events for the management processor.",
+    "Id": "iLOResourceEvents.json",
+    "Language": "en",
+    "Messages": {
+        "AdapterConfigurationChange": {
+            "Description": "The specified adapter has had a configuration change.",
+            "Message": "The adapter in slot %1 has had a configuration change.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 1,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "ServerBlade",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "number"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "AggregateHealthStatusChange": {
+            "Description": "There has been a change in one or more subsytems aggregate health statuses.",
+            "Message": "AggregateServerHealth is %1, BiosOrHardwareHealth is %2, FanRedundancy is %3, Fans status is %4, LiquidCoolingRedundancy is %5, LiquidCooling status is %6, Memory status is %7, Network status is %8, PowerSupplies status is %9, PowerSuppliesMismatch state is %10, PowerSupplyRedundancy is %11, Processors status is %12, SmartStorageBattery status is %13, Storage status is %14 and Temperatures status is %15.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 15,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Firmware",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Update the subsystem status accordingly.",
+            "Severity": "OK"
+        },
+        "AutoShutdownCancelled": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "AutoShutdownInitiated"
+                ]
+            },
+            "Description": "Management processor cancelled previously initiated automatic operating system shutdown.",
+            "Message": "Management processor cancelled previously initiated automatic operating system shutdown. Cause: %1.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 1,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessages": [
+                            "AutoShutdownInitiated"
+                        ]
+                    },
+                    "HealthCategory": "Thermal",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Check shutdown cause and the Integrated Management Log (IML) for additional information.",
+            "Severity": "OK"
+        },
+        "AutoShutdownInitiated": {
+            "Description": "Management processor initiated an automatic operating system shutdown.",
+            "Message": "Management processor initiated an automatic operating system shutdown. Cause: %1.",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 1,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Thermal",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "Check shutdown cause and the Integrated Management Log (IML) for additional information.",
+            "Severity": "Critical"
+        },
+        "BIOSSafeModeEngaged": {
+            "Description": "BIOS Safe Mode is engaged. System will boot in a minimal configuration.",
+            "Message": "BIOS Safe Mode is engaged. System will boot in a minimal configuration.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "SystemFirmware",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "BIOSSafeModeExit": {
+            "Description": "BIOS Safe Mode has successfully booted. System will resume boot in a minimal configuration.",
+            "Message": "BIOS Safe Mode has successfully booted. System will resume boot in a minimal configuration.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "SystemFirmware",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "ComputeOpsManagerConnected": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "ComputeOpsManagerConnectionInProgress",
+                    "ComputeOpsManagerConnectionFailed"
+                ]
+            },
+            "Description": "HPE Compute Ops Manager connection status is changed to Connected.",
+            "Message": "HPE Compute Ops Manager connection status is Connected.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessages": [
+                            "ComputeOpsManagerConnectionInProgress",
+                            "ComputeOpsManagerConnectionFailed"
+                        ]
+                    },
+                    "HealthCategory": "Cloud",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "ComputeOpsManagerConnectionFailed": {
+            "Description": "HPE Compute Ops Manager connection status is changed to Failed.",
+            "Message": "HPE Compute Ops Manager connection is failed.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Cloud",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "Warning"
+        },
+        "ComputeOpsManagerConnectionInProgress": {
+            "Description": "HPE Compute Ops Manager connection status is changed to In Progress.",
+            "Message": "HPE Compute Ops Manager connection is in progress.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Cloud",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "ComputeOpsManagerConnectionInitiated": {
+            "Description": "Connection to HPE Compute Ops Manager has been initiated.",
+            "Message": "Connection to HPE Compute Ops Manager has been initiated by: %1.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 1,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Cloud",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "ComputeOpsManagerConnectionNotEnabled": {
+            "Description": "HPE Compute Ops Manager connection status is changed to Not Enabled.",
+            "Message": "HPE Compute Ops Manager is not Enabled.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Cloud",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "ComputeOpsManagerDisabledByFactoryDefaults": {
+            "Description": "Connection to HPE Compute Ops Manager has been disabled due to Factory defaults.",
+            "Message": "Connection to HPE Compute Ops Manager has been disabled due to Factory defaults.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Cloud",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "ComputeOpsManagerDisabledBySecureErase": {
+            "Description": "Connection to HPE Compute Ops Manager has been disabled due to secure erase.",
+            "Message": "Connection to HPE Compute Ops Manager has been disabled due to secure erase by user %1.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 1,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Cloud",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "ComputeOpsManagerDisabledByUser": {
+            "Description": "User has disabled connection to HPE Compute Ops Manager.",
+            "Message": "Connection to HPE Compute Ops Manager has been disabled by User %1.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 1,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Cloud",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "DeviceDiscoveryStatusV2": {
+            "Description": "The server device discovery status has changed.",
+            "Message": "Discovery status is now: AMS: %1, Device Discovery: %2, Smart Array Storage: %3",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 3,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "DriveInserted2": {
+            "Description": "The ATA drive has been inserted into the specified location.",
+            "Message": "The ATA drive has been inserted in location %1 connected to controller in %2.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "Warning"
+        },
+        "DriveRemoved2": {
+            "Description": "The ATA drive has been removed from the specified location.",
+            "Message": "The ATA drive has been removed from location %1 connected to controller in %2.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "Warning"
+        },
+        "DrvArrLogDrvErasing": {
+            "Description": "The logical drive is currently being erased.",
+            "Message": "The drive array logical drive %1 on controller located in %2 is currently being erased.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "Warning"
+        },
+        "DrvArrLogDrvExpanding": {
+            "Description": "The logical drive is currently undergoing a transformation.",
+            "Message": "The drive array logical drive %1 on controller located in %2 is currently undergoing a transformation.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "DrvArrLogDrvNewLogDrvKeyRekeyRequestReceived": {
+            "Description": "The logical drive is currently encrypted and has received a request to rekey all data with a new logical drive encryption key.The logical drive is online.",
+            "Message": "The drive array logical drive %1 on controller located in %2 is currently encrypted and has received a request to rekey all data with a new logical drive encryption key.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "DrvArrLogDrvPredictiveSpareRebuildReady": {
+            "Description": "The logical drive is ready to perform a predictive spare rebuild.",
+            "Message": "The drive array logical drive %1 on controller located in %2 is ready to perform a predictive spare rebuild.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "DrvArrLogDrvQueuedForExpansion": {
+            "Description": "The logical drive is ready for transformation.",
+            "Message": "The drive array logical drive %1 on controller located in %2 is ready for transformation.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "Warning"
+        },
+        "DrvArrLogDrvRapidParityInitializationInProgress": {
+            "Description": "The logical drive is currently undergoing rapid parity initialization.",
+            "Message": "The drive array logical drive %1 on controller located in %2 is currently undergoing rapid parity initialization.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "Warning"
+        },
+        "DrvArrLogDrvRapidParityInitializationPending": {
+            "Description": "The logical drive is currently pending rapid parity initialization and will be unavailable.",
+            "Message": "The drive array logical drive %1 on controller located in %2 is currently pending rapid parity initialization and will be unavailable.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "Warning"
+        },
+        "DrvArrLogDrvReadyRebuild": {
+            "Description": "The drive array logical drive is ready for Automatic Data Recovery.",
+            "Message": "The drive array logical drive %1 on controller located in %2 is ready for Automatic Data Recovery.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "The failed physical drive has been replaced, but the logical drive is still operating in Interim Recovery Mode.",
+            "Severity": "Warning"
+        },
+        "DrvArrLogDrvRebuilding": {
+            "Description": "The drive array logical drive is currently doing Automatic Data Recovery.",
+            "Message": "The drive array logical drive %1 on controller located in %2 is currently doing Automatic Data Recovery.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "Warning"
+        },
+        "DrvArrLogDrvRekeyInProgress": {
+            "Description": "The logical drive is currently encrypted and all data is currently being rekeyed with a new logical drive key using the background capacity expansion transformation task.",
+            "Message": "The drive array logical drive %1 on controller located in %2 is currently encrypted and all data is currently being rekeyed with a new logical drive key using the background capacity expansion transformation task.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "Warning"
+        },
+        "DrvArrLogDrvUnconfigured": {
+            "Description": "The drive array logical drive is not configured.",
+            "Message": "The drive array logical drive %1 on controller located in %2 is not configured.",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Run HPE array configuration utility ",
+            "Severity": "Critical"
+        },
+        "DrvArrLogDrvUnencryptedToEncryptedTransformationInProgress": {
+            "Description": "The logical drive is currently being transformed from unencrypted to encrypted and the volume is online.",
+            "Message": "The drive array logical drive %1 on controller located in %2 is currently being transformed from unencrypted to encrypted and the volume is online.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "Warning"
+        },
+        "DrvArrLogDrvUnencryptedToEncryptedTransformationNotStarted": {
+            "Description": "The logical drive has received a request to transform from unencrypted to encrypted but this process has not yet started.The unencrypted logical drive is currently online.",
+            "Message": "The drive array logical drive %1 on controller located in %2 has received a request to transform from unencrypted to encrypted but this process has not yet started.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "DrvArrPhysDrvEraseDone": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "DrvArrPhysDrvErasing",
+                    "DrvArrPhysDrvEraseQueued"
+                ]
+            },
+            "Description": "The drive array physical drive has been erased and is is now in an offline state.",
+            "Message": "The drive array physical drive at location %1 connected to controller in %2 has been erased and is now in an offline state.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessages": [
+                            "DrvArrPhysDrvErasing",
+                            "DrvArrPhysDrvEraseQueued"
+                        ]
+                    },
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "Warning"
+        },
+        "DrvArrPhysDrvEraseQueued": {
+            "Description": "An erase operation is currently queued for the drive array physical drive.",
+            "Message": "An erase operation is currently queued for the drive array physical drive at location %1 connected to controller in %2.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "Warning"
+        },
+        "DrvArrPhysDrvErasing": {
+            "Description": "The drive array physical drive is being erased.",
+            "Message": "The drive array physical drive at location %1 connected to controller in %2 is being erased.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "Warning"
+        },
+        "DrvArrSpareDriveActive": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "DrvArrSpareDriveBuilding"
+                ]
+            },
+            "Description": "Automatic Data Recovery is complete.",
+            "Message": "Drive array spare drive at location %1 connected to controller in %2 has completed Automatic Data Recovery.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessages": [
+                            "DrvArrSpareDriveBuilding"
+                        ]
+                    },
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "DrvArrSpareDriveBuilding": {
+            "Description": "A physical drive has failed. Automatic Data Recovery is in progress to recover data to the on-line spare.",
+            "Message": "Drive array spare drive at location %1 connected to controller in %2 has Automatic Data Recovery in progress.",
+            "MessageSeverity": "Critical",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "Critical"
+        },
+        "DrvArrSpareDriveInactive": {
+            "Description": "An on-line spare is configured, but is not currently in use.",
+            "Message": "Drive array spare drive at location %1 connected to controller in %2 is configured, but is not currently in use.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 2,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "DrvArrayAccBoardTempDisabled_ExpandInProgress": {
+            "Description": "Write cache operations have been temporarily disabled due to an expand of a logical drive.",
+            "Message": "Write cache operations for cache module board located in %1 have been temporarily disabled due to an expand of a logical drive.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 1,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "DrvArrayAccBoardTempDisabled_SnapshotInProgress": {
+            "Description": "Write cache operations have been temporarily disabled due to a snapshot operation that is queued up or in progress.",
+            "Message": "Write cache operations for cache module board located in %1 have been temporarily disabled due to a snapshot operation that is queued up or in progress.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 1,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "FanInserted": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "FanRemoved"
+                ]
+            },
+            "Description": "A fault tolerant fan has been inserted into the specified fan location.",
+            "Message": "The fan has been inserted in fan location %1.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 1,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessages": [
+                            "FanRemoved"
+                        ]
+                    },
+                    "HealthCategory": "Fan",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "FanRemoved": {
+            "Description": "A fault tolerant fan has been removed from the specified fan location.",
+            "Message": "The fan has been removed from fan location %1.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 1,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Fan",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "Warning"
+        },
+        "FansHealthOk": {
+            "ClearingLogic": {
+                "ClearsMessage": [
+                    "FanFailed",
+                    "FanDegraded"
+                ]
+            },
+            "Description": "The Fan sub-system is in OK state.",
+            "Message": "Fan sub-system is OK.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Fan",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "FirmwareFlashStatusChanged": {
+            "Description": "The firmware flash status has changed",
+            "Message": "The firmware flash status is now %1",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "FirmwareIntegrityScanComplete": {
+            "Description": "This event is generated when a firmware integrity issue is found during firmware scan irrespective of a recovery success or failure.",
+            "Message": "Management Processor completed the firmware integrity scan and detected an anomaly.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "FirmwareRecoveryRequest": {
+            "Description": "This event is generated when firmware recovery is requested.",
+            "Message": "Firmware recovery is requested.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Firmware",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "IndicatorLEDStateChanged": {
+            "Description": "The state of the indicator LED has changed",
+            "Message": "The state of the indicator LED is now %1",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "IntelligentDiagnosticsEnabled": {
+            "Description": "Intelligent Diagnostics Enabled: Server will attempt automated recovery.",
+            "Message": "Intelligent Diagnostics Enabled: Server will attempt automated recovery.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "SystemFirmware",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "IntelligentDiagnosticsExit": {
+            "Description": "Intelligent Diagnostics Exit: Automated server recovery has concluded.",
+            "Message": "Intelligent Diagnostics Exit: Automated server recovery has concluded.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "SystemFirmware",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "IntrusionHWInstalled": {
+            "Description": "System intrusion alert hardware is installed.",
+            "Message": "System intrusion hardware installed.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "IntrusionHWRemoved": {
+            "Description": "System intrusion alert hardware is removed.",
+            "Message": "System intrusion hardware removed.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "There is no action required if the removal of the hardware is expected.  If the hardware was not intentionally removed, please verify cable connection.",
+            "Severity": "OK"
+        },
+        "LiquidCoolingHealthOk": {
+            "ClearingLogic": {
+                "ClearsMessage": [
+                    "LiquidCoolingModuleFailed",
+                    "LiquidCoolingModuleDegraded"
+                ]
+            },
+            "Description": "The Liquid-Cooling sub-system is in OK state.",
+            "Message": "Liquid-Cooling sub-system is OK.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Thermal",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "MemoryHealthOk": {
+            "ClearingLogic": {
+                "ClearsMessage": [
+                    "CorrectableOrUncorrectableMemoryErrors",
+                    "HeNvdimmControllerFirmwareError",
+                    "HeNvdimmLifecycleWarning",
+                    "MirroredMemoryEngaged",
+                    "NvdimmArmingError",
+                    "NvdimmBackupError",
+                    "NvdimmBackupPowerError",
+                    "NvdimmControllerError",
+                    "NvdimmEraseError",
+                    "NvdimmInitializationError",
+                    "NvdimmInterleaveOff",
+                    "NvdimmInterleaveOn",
+                    "NvdimmLogicalNvdimmError",
+                    "NvdimmMemoryMapChanged",
+                    "NvdimmPersistantMemoryAddressError",
+                    "NvdimmRestoreError",
+                    "NvdimmUncorrectableMemoryError",
+                    "PMMHealthFailure",
+                    "PMMLessUsageRemainingAlert",
+                    "PMMConfigError"
+                ]
+            },
+            "Description": "The Memory sub-system is in OK state.",
+            "Message": "Memory sub-system is OK.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Memory",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "NetworkHealthOk": {
+            "Description": "The Network sub-system is in OK state.",
+            "Message": "Network sub-system is OK.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Network",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "PowerSuppliesHealthOk": {
+            "Description": "The Power Supply sub-system is in OK state.",
+            "Message": "Power Supply sub-system is OK.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Power",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "PowerSupplyInserted": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "PowerSupplyRemoved"
+                ]
+            },
+            "Description": "A fault tolerant power supply has been inserted into the specified bay location.",
+            "Message": "A power supply has been inserted in bay %1.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 1,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessages": [
+                            "PowerSupplyRemoved"
+                        ]
+                    },
+                    "HealthCategory": "Power",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "PowerSupplyRemoved": {
+            "Description": "A fault tolerant power supply has been removed from the specified bay location.",
+            "Message": "A power supply has been removed from bay %1.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 1,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Power",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "Warning"
+        },
+        "ProcessorsHealthOk": {
+            "ClearingLogic": {
+                "ClearsMessage": [
+                    "ProcessorStatusDegraded",
+                    "ProcessorStatusDisabled",
+                    "ProcessorStatusFailed",
+                    "ProcessorStatusUnknown"
+                ]
+            },
+            "Description": "The Processor sub-system is in OK state.",
+            "Message": "Processor sub-system is OK.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Processor",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "RemoteSupportRegistrationComplete": {
+            "Description": "The server was registered to Remote Support.",
+            "Message": "The server was registered to Remote Support using the %1 method",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "RemoteSupportUnregistrationComplete": {
+            "Description": "The server was unregistered from Remote Support.",
+            "Message": "The server was unregistered from Remote Support.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "SecurityStateChange": {
+            "Description": "Security state changed.",
+            "Message": "Security state changed to %1.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 1,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "No Action",
+            "Severity": "OK"
+        },
+        "ServerPostComplete": {
+            "Description": "The server has reached Power On Self Test complete.",
+            "Message": "The server has reached Power On Self Test complete",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "ServerPostDiscoveryComplete": {
+            "ClearingLogic": {
+                "ClearsMessage": [
+                    "AutoShutdownInitiated",
+                    "InterlockFailureErrorPowerOn",
+                    "InterlockFailureErrorRuntime",
+                    "InterlockFailureErrorStandby",
+                    "InterlockFailureErrorUnknown",
+                    "MirroredMemoryEngaged",
+                    "NoPowerSupplyDetected",
+                    "PciResetFail",
+                    "PowerDegradedEventDetected",
+                    "PowerFailureCpuThermalTrip",
+                    "PowerFailureErrorBadFuse",
+                    "PowerFailureErrorInputPowerLoss",
+                    "PowerFailureErrorTempAboveCritical",
+                    "PowerFailurePowerOn",
+                    "PowerFailureRuntime",
+                    "PowerFailureStandby",
+                    "PowerFailureUnknown",
+                    "ServerPowerOnFailure",
+                    "SystemPowerOnDenied",
+                    "SeCpuUncorrectableError"
+                ]
+            },
+            "Description": "The server has completed device discovery.",
+            "Message": "The server has completed device discovery.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessages": [
+                            "AutoShutdownInitiated",
+                            "InterlockFailureErrorPowerOn",
+                            "InterlockFailureErrorRuntime",
+                            "InterlockFailureErrorStandby",
+                            "InterlockFailureErrorUnknown",
+                            "NoPowerSupplyDetected",
+                            "PciResetFail",
+                            "PowerDegradedEventDetected",
+                            "PowerFailureCpuThermalTrip",
+                            "PowerFailureErrorBadFuse",
+                            "PowerFailureErrorInputPowerLoss",
+                            "PowerFailureErrorTempAboveCritical",
+                            "PowerFailurePowerOn",
+                            "PowerFailureRuntime",
+                            "PowerFailureStandby",
+                            "PowerFailureUnknown",
+                            "ServerPowerOnFailure",
+                            "SystemPowerOnDenied",
+                            "SeCpuUncorrectableError"
+                        ]
+                    },
+                    "HealthCategory": "Security",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "ServerPoweredOff": {
+            "Description": "The server has been powered off.",
+            "Message": "The server has been powered off.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Power",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "ServerPoweredOn": {
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "ServerResetDetected"
+                ]
+            },
+            "Description": "The server has been powered on.",
+            "Message": "The server has been powered on.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "ClearingLogic": {
+                        "ClearsIf": "SameOriginOfCondition",
+                        "ClearsMessage": [
+                            "ServerResetDetected"
+                        ]
+                    },
+                    "HealthCategory": "Power",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "ServerResetDetected": {
+            "Description": "Server Reset Detected. Management Processor firmware has detected a server reset.",
+            "Message": "Server reset detected.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "DeviceBay",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "Refer to the Integrated Management Log for details on the cause of the server reset.",
+            "Severity": "Warning"
+        },
+        "SmartStorageBatteryHealthOk": {
+            "ClearingLogic": {
+                "ClearsMessage": [
+                    "SystemBatteryRemoved"
+                ]
+            },
+            "Description": "The Smart Storage Battery sub-system is in OK state.",
+            "Message": "Smart Storage Battery sub-system is OK.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Battery",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "StorageHealthOk": {
+            "ClearingLogic": {
+                "ClearsMessage": [
+                    "DrvArrAcceleratorFlashMemoryNotAttached",
+                    "DrvArrayAccBoardInvalid",
+                    "DrvArrayAccBoardPermDisabled_BackupPowerSourceHotRemoved",
+                    "DrvArrayAccBoardPermDisabled_BadMirrorData",
+                    "DrvArrayAccBoardPermDisabled_BatteryNotSupported",
+                    "DrvArrayAccBoardPermDisabled_CapacitorFailedToCharge",
+                    "DrvArrayAccBoardPermDisabled_ChargerCircuitFailure",
+                    "DrvArrayAccBoardPermDisabled_ConfigCommand",
+                    "DrvArrayAccBoardPermDisabled_ExcessiveECCErrors",
+                    "DrvArrayAccBoardPermDisabled_FlashBackedBackupFailed",
+                    "DrvArrayAccBoardPermDisabled_FlashBackedHardwareFailure",
+                    "DrvArrayAccBoardPermDisabled_FlashBackedRestoreFailed",
+                    "DrvArrayAccBoardPermDisabled_IncompatibleCacheModule",
+                    "DrvArrayAccBoardPermDisabled_NoCapacitorAttached",
+                    "DrvArrayAccBoardPermDisabled_NotEnoughBatteries",
+                    "DrvArrayAccBoardPermDisabled_NotSupportedByFirmware",
+                    "DrvArrayAccBoardPermDisabled_ReadFailure",
+                    "DrvArrayAccBoardPermDisabled_WriteFailure",
+                    "DrvArrayAccBoardTempDisabled_MegaCellNotCabled",
+                    "DrvArrSpareDriveFailed"
+                ]
+            },
+            "Description": "The Storage sub-system is in OK state.",
+            "Message": "Storage sub-system is OK.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Storage",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "TemperatureHealthOk": {
+            "Description": "The Temperature sub-system is in OK state.",
+            "Message": "Temperature sub-system is OK.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "Oem": {
+                "Hpe": {
+                    "@odata.type": "#HpeMessageExt.v1_0_1.HpeMessageExt",
+                    "HealthCategory": "Thermal",
+                    "Type": "HpeMessageExt.1.0.0"
+                }
+            },
+            "ParamTypes": [],
+            "Resolution": "None",
+            "Severity": "OK"
+        },
+        "UpdateTaskStateChanged": {
+            "Description": "An update task has changed state.",
+            "Message": "An update task %1.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "iLODriveComponentAdded": {
+            "Description": "A component was added to the iLO Drive.",
+            "Message": "The component \"%1\" was added to the iLO Drive",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 1,
+            "ParamTypes": [
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "iLORestServicesStarted": {
+            "Description": "RESTful services started.",
+            "Message": "RESTful services started. Management Processor Firmware Version: %1, Release date: %2",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "None.",
+            "Severity": "OK"
+        }
+    },
+    "Name": "Resource Event Registry",
+    "OwningEntity": "Hewlett Packard Enterprise",
+    "RegistryPrefix": "iLOResourceEvents",
+    "RegistryVersion": "1.3.3"
+}

@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"2F0A808F\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/7",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "7",
+    "Created": "2025-04-28T19:21:54Z",
+    "EntryType": "Oem",
+    "Message": "Slot=17 Storage - Drive at Port 1 Box 1 Bay 2 is Inserted",
+    "MessageArgs": [],
+    "MessageId": "19.47",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 19,
+            "ClassDescription": "Drive Array",
+            "Code": 47,
+            "Count": 1,
+            "EventNumber": 122,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x002f-gen11",
+            "RecommendedAction": "If installed, configure the drive for use. If removed, check drive status",
+            "Repaired": true,
+            "Severity": "Repaired",
+            "Updated": "2025-04-28T19:22:10Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

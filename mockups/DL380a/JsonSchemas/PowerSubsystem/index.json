@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"13CD3F60\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/PowerSubsystem",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "PowerSubsystem",
+    "Description": "Schema Definition File for PowerSubsystem",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/PowerSubsystem.json"
+        }
+    ],
+    "Name": "PowerSubsystem Schema Definition File",
+    "Schema": "#PowerSubsystem.v1_1_2.PowerSubsystem"
+}

@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Certificate.Certificate",
+    "@odata.etag": "W/\"25B58425\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Certificates/1",
+    "@odata.type": "#Certificate.v1_6_0.Certificate",
+    "Id": "1",
+    "CertificateString": "-----BEGIN CERTIFICATE-----\r\nMIIEIDCCAwigAwIBAgIBATANBgkqhkiG9w0BAQsFADCBhDELMAkGA1UEBhMCR0Ix\r\nFDASBgNVBAgMC0lzbGUgb2YgTWFuMRAwDgYDVQQHDAdEb3VnbGFzMRcwFQYDVQQK\r\nDA5DYW5vbmljYWwgTHRkLjE0MDIGA1UEAwwrQ2Fub25pY2FsIEx0ZC4gTWFzdGVy\r\nIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0xMjA0MTIxMTM5MDhaFw00MjA0MTEx\r\nMTM5MDhaMH8xCzAJBgNVBAYTAkdCMRQwEgYDVQQIDAtJc2xlIG9mIE1hbjEXMBUG\r\nA1UECgwOQ2Fub25pY2FsIEx0ZC4xFDASBgNVBAsMC1NlY3VyZSBCb290MSswKQYD\r\nVQQDDCJDYW5vbmljYWwgTHRkLiBTZWN1cmUgQm9vdCBTaWduaW5nMIIBIjANBgkq\r\nhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyV+bYo8LsGSCrL7J4mLjS9KfHorVYRor\r\nXTj0t865mrhDuEOXd6tPfwxwRgv8f23GbeqAXgHSt2Yeh94NbdBBl6ilrwxjT/d8\r\nwlLMoDGpu4ldmR5Gb1VzuXZp7NfB/CHWxgfnT70i3uSoWy3blTQZl9YoSyFMyrsd\r\neaYXf1r5Z+ZceEU9EG2wF1kmEcVX439Ogrr2LE7IN03/hRWER+DtO3x/vK/pAQWn\r\nDG/D6Y2jzr6m4808tVgsnsIDHGAiNzn/QQLBKaRlUf8zNKpCFfmVePwt9dqKhXyC\r\nnfs3LGulqN98VQuALjywY+HNOEiJ6BQGC4K8/dQHaBsPPtkV3ZQRGwIDAQABo4Gg\r\nMIGdMAwGA1UdEwEB/wQCMAAwHwYDVR0lBBgwFgYIKwYBBQUHAwMGCisGAQQBgjcK\r\nAwYwLAYJYIZIAYb4QgENBB8WHU9wZW5TU0wgR2VuZXJhdGVkIENlcnRpZmljYXRl\r\nMB0GA1UdDgQWBBRhSCqigw0Ksq1a8QtyUNqQM93O8DAfBgNVHSMEGDAWgBStkZkL\r\nwiqx9RcEjCO2ZVomjjRaYzANBgkqhkiG9w0BAQsFAAOCAQEAj4qhBh8ptwpK1cX9\r\ngasl6sB94vxqlqB5k2fuBQ4lEiXkWvaqGvES8wWNh17xWlzLjSNzZR0Vud4ia9ZJ\r\nZ8mjxtdiTly1+QODQIHch5w8PxwNUZ+UZQqESGfkovimSvDnzc29lOMJ0l0tFhsF\r\nFQvLRLQ+YUIixCpcTsUdo+LgUrLr9Isr3Dg5XfuIoVZlXytPJv8GeBAS64xdMuPG\r\nRa8lm6D/ju9HCaPpizeSkml2fjQ7kgVnTrAl7bxeX4+01spA/+TiMSMMhSWuDFUB\r\n7OVHXt9bvBQz48b1GLbZ992ztKEx01pcXX0+vwrk5Oi0WX07tIyjG7Ugo7k+hG+M\r\nIQDDOQ==\r\n-----END CERTIFICATE-----\r\n",
+    "CertificateType": "PEM",
+    "Issuer": {
+        "City": "Douglas",
+        "CommonName": "Canonical Ltd. Master Certificate Authority",
+        "Country": "GB",
+        "Email": "",
+        "Organization": "Canonical Ltd.",
+        "OrganizationalUnit": "",
+        "State": "Isle of Man"
+    },
+    "Name": "Canonical Ltd. Secure Boot Signing",
+    "Subject": {
+        "City": "",
+        "CommonName": "Canonical Ltd. Secure Boot Signing",
+        "Country": "GB",
+        "Email": "",
+        "Organization": "Canonical Ltd.",
+        "OrganizationalUnit": "Secure Boot",
+        "State": "Isle of Man"
+    },
+    "UefiSignatureOwner": "77FA9ABD-0359-4D32-BD60-28F4E78F784B",
+    "ValidNotAfter": "2042-04-11T11:39:08Z",
+    "ValidNotBefore": "2012-04-12T11:39:08Z"
+}

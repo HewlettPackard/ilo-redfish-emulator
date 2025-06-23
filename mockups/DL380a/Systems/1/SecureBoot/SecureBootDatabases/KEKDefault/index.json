@@ -1,0 +1,13 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SecureBootDatabase.SecureBootDatabase",
+    "@odata.etag": "W/\"E012E85E\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEKDefault",
+    "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+    "Id": "KEKDefault",
+    "Certificates": {
+        "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEKDefault/Certificates"
+    },
+    "DatabaseId": "KEKDefault",
+    "Description": "SecureBoot Database",
+    "Name": "Default Key Exchange Key Database"
+}

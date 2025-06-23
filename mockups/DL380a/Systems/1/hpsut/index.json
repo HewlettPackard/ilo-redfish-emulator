@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#sut.sut/",
+    "@odata.id": "/redfish/v1/Systems/1/hpsut/",
+    "@odata.type": "#SUT.v6_0_0.SUT",
+    "Capabilities": [
+        "BundleRuntimeUpdate"
+    ],
+    "HPSUMPID": 0,
+    "ID": "HPSUT",
+    "IsFirewallEnabled": false,
+    "IsFirewallLoaded": true,
+    "IsMaintenanceModeSet": true,
+    "IsSelfUpdate": false,
+    "IsStagingPathValid": true,
+    "LastBootUptime": "none",
+    "LastOperationTime": "2025-06-11T10:37:42Z",
+    "LastUpdatediLOTimeStamp": "2025-06-11T10:37:42Z",
+    "Mode": "AutoStage",
+    "OperationRequestor": "OS Administrator",
+    "PollingIntervalInMinutes": 5,
+    "SUTCompName": "",
+    "SelfUpdateStatus": "none",
+    "ServiceState": "Running",
+    "ServiceVersion": "6.0.0.0",
+    "StagingDirectory": "/var/tmp/sut/stagingdirectory",
+    "Verify": "autoVerify"
+}

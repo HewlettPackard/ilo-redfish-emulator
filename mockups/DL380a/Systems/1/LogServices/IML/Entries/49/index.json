@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"408E4485\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/49",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "49",
+    "Created": "2025-05-29T08:55:45Z",
+    "EntryType": "Oem",
+    "Message": "Maintenance note:     /dev/sda1: iLO  LUN 00 Media 0   2.11",
+    "MessageArgs": [],
+    "MessageId": "33.2",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Maintenance"
+            ],
+            "Class": 33,
+            "ClassDescription": "Maintenance",
+            "Code": 2,
+            "Count": 1,
+            "EventNumber": 164,
+            "Severity": "Informational",
+            "Updated": "2025-05-29T08:55:45Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

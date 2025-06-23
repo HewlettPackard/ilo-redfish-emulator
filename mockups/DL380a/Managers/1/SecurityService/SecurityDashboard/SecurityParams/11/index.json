@@ -1,0 +1,13 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeiLOSecurityParam.HpeiLOSecurityParam",
+    "@odata.etag": "W/\"A3A6BF43\"",
+    "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/11",
+    "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+    "Id": "11",
+    "Description": "Global Component Integrity - This Global Component Integrity parameter is disabled. This Global Component Integrity parameter when disabled facilitates the user in explicitly overriding the SPDM-Based Authentication/Validation of peripheral components. This configuration increases system vulnerability to attack.",
+    "Ignore": false,
+    "Name": "Global Component Integrity",
+    "RecommendedAction": "Enable the \"Global Component Integrity\" setting.",
+    "SecurityStatus": "Risk",
+    "State": "Disabled"
+}

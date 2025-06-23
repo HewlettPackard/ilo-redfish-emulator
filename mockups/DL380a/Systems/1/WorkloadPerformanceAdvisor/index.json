@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeWorkloadPerformanceAdvisorCollection.HpeWorkloadPerformanceAdvisorCollection",
+    "@odata.etag": "W/\"E589C4BF\"",
+    "@odata.id": "/redfish/v1/Systems/1/WorkloadPerformanceAdvisor",
+    "@odata.type": "#HpeWorkloadPerformanceAdvisorCollection.HpeWorkloadPerformanceAdvisorCollection",
+    "Description": "Workload Performance Advisor view",
+    "Name": "Workload Performance Advisor",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/WorkloadPerformanceAdvisor/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/WorkloadPerformanceAdvisor/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/WorkloadPerformanceAdvisor/3"
+        }
+    ],
+    "Members@odata.count": 3
+}

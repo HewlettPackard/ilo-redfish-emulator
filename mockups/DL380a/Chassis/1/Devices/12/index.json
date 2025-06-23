@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"D97D4F70\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/12",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "12",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceType": "Smart Storage Battery",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "0.70"
+        }
+    },
+    "Location": "Embedded Device",
+    "Manufacturer": "STL",
+    "Name": "HPE Smart Stor Hybridcap",
+    "PartNumber": "P07474-001",
+    "ProductPartNumber": "P02381-B21",
+    "ProductVersion": "01",
+    "SerialNumber": "6WSQB0GB2IL0JD",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

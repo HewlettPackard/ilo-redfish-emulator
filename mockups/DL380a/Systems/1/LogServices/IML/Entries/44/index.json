@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"9EE961A0\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/44",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "44",
+    "Created": "2025-05-28T08:01:01Z",
+    "EntryType": "Oem",
+    "Message": "DIMM Failure - Uncorrectable Memory Error (Processor 2, DIMM 4)",
+    "MessageArgs": [],
+    "MessageId": "10.644",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 10,
+            "ClassDescription": "UEFI",
+            "Code": 644,
+            "Count": 1,
+            "EventNumber": 159,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x0284-gen11",
+            "RecommendedAction": "Replace Failed DIMM.",
+            "Repaired": false,
+            "Severity": "Critical",
+            "Updated": "2025-05-28T08:01:01Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "Critical"
+}

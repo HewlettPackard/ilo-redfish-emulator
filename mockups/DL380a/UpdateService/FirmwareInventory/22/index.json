@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"0539D502\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/22",
+    "@odata.type": "#SoftwareInventory.v1_2_0.SoftwareInventory",
+    "Id": "22",
+    "Description": "10de232110de1839",
+    "Name": "NVIDIA H100 NVL",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": null,
+            "DeviceContext": "PCI-E Slot 16",
+            "DeviceInstance": "PciRoot(0x5)/Pci(0x1,0x0)/Pci(0x0,0x0)",
+            "Targets": [
+                "a6b1a447-382a-5a4f-10de-232110de1839"
+            ]
+        }
+    },
+    "Updateable": false,
+    "Version": "96.00.AF.00.02"
+}

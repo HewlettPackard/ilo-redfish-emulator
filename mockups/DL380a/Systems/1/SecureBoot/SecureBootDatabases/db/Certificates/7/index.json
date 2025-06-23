@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Certificate.Certificate",
+    "@odata.etag": "W/\"6048FF93\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/7",
+    "@odata.type": "#Certificate.v1_6_0.Certificate",
+    "Id": "7",
+    "CertificateString": "-----BEGIN CERTIFICATE-----\r\nMIIDtzCCAp+gAwIBAgIJAONMp1oKYVhTMA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNV\r\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRIwEAYDVQQHDAlQYWxvIEFsdG8x\r\nFTATBgNVBAoMDFZNd2FyZSwgSW5jLjEjMCEGA1UEAwwaVk13YXJlIFNlY3VyZSBC\r\nb290IFNpZ25pbmcwHhcNMTcxMDI0MDY0NzU5WhcNMzcxMDE5MDY0NzU5WjByMQsw\r\nCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTESMBAGA1UEBwwJUGFsbyBB\r\nbHRvMRUwEwYDVQQKDAxWTXdhcmUsIEluYy4xIzAhBgNVBAMMGlZNd2FyZSBTZWN1\r\ncmUgQm9vdCBTaWduaW5nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA\r\n43GkVnIQkpdJeVJfkW9xQJ0Z+ft4BCm7q+PAr4ZdFqFJ1a7r8dxrB47e1rmYIm67\r\nAY+AXXz1J+/ve55MJIBqassO1P50Yh9nNK+KJSJh+VPcAwTtmQigvni2qIbp8wLr\r\njp7GahVDkuKh2urtRhDTyDDAqS1vQVp3dfhLPWpnc9znGQ5Gi6/6sey2Tz2ZrZ5Z\r\n6No5BiYTgnK71xZYRdrAO3jUXfQERjCR/nEN+9O3g4hPgQLOXLULvczp6QESG/Fo\r\ngTdgFO1ba1hZoCKHM4ZJZVae2s0WRR+aNNkFAEIEF1rCJ/oQb3JlCwxxfnVebJAQ\r\nBHPs4KUrbMYcws8ZNobBHwIDAQABo1AwTjAdBgNVHQ4EFgQUBFl/Ph/7JAu6D/Dw\r\nXV6wXz4V9tcwHwYDVR0jBBgwFoAUBFl/Ph/7JAu6D/DwXV6wXz4V9tcwDAYDVR0T\r\nBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEACL22prtVo+vYTExgL+8m2X83ekgq\r\nnbOUISE+B9p2e+w3Aer/BR7mz4gahU60GqyFwgweYgiPs/lahFoi5vkdxNAwnjk8\r\nkRV49eIgG1IKbRRhMZVTRv8gGW+UBJlKsglNgq3bMPJ9JiEqE1zBeZo4xCnjECeK\r\nBaHgQWq7ojrshIKzqq0vWNztvAOhi27a3mtJfNcb58QIRhMK5lQzIM3Esnfxzsi3\r\nC+eMwzt8nNnyhci8/EAX8Hx/DwrZ83qRtwmVCQcuePYDIyw+7uman21LDgMG8MOu\r\naRkOgJ1mPuj9t/30baLneINEhOKtUZtRzObxzw8QfUkP1xwCxXWOyVJHCQ==\r\n-----END CERTIFICATE-----\r\n",
+    "CertificateType": "PEM",
+    "Issuer": {
+        "City": "Palo Alto",
+        "CommonName": "VMware Secure Boot Signing",
+        "Country": "US",
+        "Email": "",
+        "Organization": "VMware, Inc.",
+        "OrganizationalUnit": "",
+        "State": "California"
+    },
+    "Name": "VMware Secure Boot Signing",
+    "Subject": {
+        "City": "Palo Alto",
+        "CommonName": "VMware Secure Boot Signing",
+        "Country": "US",
+        "Email": "0",
+        "Organization": "VMware, Inc.",
+        "OrganizationalUnit": "",
+        "State": "California"
+    },
+    "UefiSignatureOwner": "A3D5E95B-0A8F-4753-8735-445AFB708F62",
+    "ValidNotAfter": "2037-10-19T06:47:59Z",
+    "ValidNotBefore": "2017-10-24T06:47:59Z"
+}

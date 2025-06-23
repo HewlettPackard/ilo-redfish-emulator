@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"5B36F151\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/Signature",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "Signature",
+    "Description": "Schema Definition File for Signature",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/Signature.json"
+        }
+    ],
+    "Name": "Signature Schema Definition File",
+    "Schema": "#Signature.v1_0_2.Signature"
+}

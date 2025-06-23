@@ -1,0 +1,42 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"DE83A587\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/10",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "10",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/4"
+        }
+    ],
+    "DeviceType": "GPU",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "96.00.AF.00.02"
+        },
+        "FirmwareVersions": [
+            {
+                "ComponentName": "AMC",
+                "VersionString": "96.00.AF.00.02"
+            }
+        ]
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/8"
+        }
+    },
+    "Location": "PCI-E Slot 16",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "NVIDIA",
+    "Name": "NVIDIA H100 NVL",
+    "PartNumber": "2321-886-A1",
+    "ProductPartNumber": "900-21010-0320-030",
+    "ProductVersion": "A1",
+    "SerialNumber": "1790125011977",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/37db5dbe",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "37db5dbe",
+    "Activates": "AfterDeviceReset",
+    "ComponentUri": "/fwrepo/ilo6_166.bin",
+    "Configuration": "",
+    "Created": "2025-04-04T10:11:23Z",
+    "Criticality": "Optional",
+    "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952",
+    "ExecutionParameters": "",
+    "Filename": "ilo6_166.bin",
+    "Filepath": "ilo6_166.bin",
+    "Locked": true,
+    "Name": "iLO 6",
+    "SizeBytes": 33557118,
+    "Targets": [
+        "e6d3c844-14a6-4f1f-84a3-c06013910406",
+        "e6d3c844-14a6-4f1f-84a3-c06013910306",
+        "e6d3c844-14a6-4f1f-84a3-c06013910206",
+        "e6d3c844-14a6-4f1f-84a3-c06013910106",
+        "e6d3c844-14a6-4f1f-84a3-c06013910006"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "1.66"
+}

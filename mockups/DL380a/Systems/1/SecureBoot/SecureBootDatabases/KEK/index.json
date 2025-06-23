@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SecureBootDatabase.SecureBootDatabase",
+    "@odata.etag": "W/\"A80232AC\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEK",
+    "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+    "Id": "KEK",
+    "Actions": {
+        "#SecureBootDatabase.ResetKeys": {
+            "ResetKeysType@Redfish.AllowableValues": [
+                "ResetAllKeysToDefault",
+                "DeleteAllKeys"
+            ],
+            "target": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEK/Actions/SecureBootDatabase.ResetKeys"
+        }
+    },
+    "Certificates": {
+        "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEK/Certificates"
+    },
+    "DatabaseId": "KEK",
+    "Description": "SecureBoot Database",
+    "Name": "Key Exchange Key Database"
+}

@@ -1,0 +1,81 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "ThermalSubsystem",
+    "additionalProperties": false,
+    "copyright": "Copyright 2024 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2024 Distributed Management Task Force. All rights reserved.",
+    "description": "This ThermalSubsystem schema contains the definition for the thermal subsystem of a chassis.",
+    "longDescription": "This resource shall represent a thermal subsystem for a Redfish implementation.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Fans": {
+            "description": "The link to the summary of Fan Collection for this subsystem.",
+            "longDescription": "This property shall contain a link to a resource collection of type Fan",
+            "properties": {
+                "@odata.id": {
+                    "$ref": "Resource.json#/definitions/odataid"
+                }
+            },
+            "readonly": true,
+            "type": "object"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "Oem": {
+            "additionalProperties": true,
+            "properties": {
+                "Hpe": {
+                    "$ref": "HpeThermalExt.json#",
+                    "readonly": false
+                }
+            },
+            "readonly": false,
+            "type": "object"
+        },
+        "Pumps": {
+            "description": "A link to the pumps for this equipment.",
+            "longDescription": "This property shall contain a link to a resource collection of type PumpCollection that contains details for the pumps included in this equipment.",
+            "properties": {
+                "@odata.id": {
+                    "$ref": "Resource.json#/definitions/odataid"
+                }
+            },
+            "readonly": true,
+            "type": "object"
+        },
+        "ThermalMetrics": {
+            "description": "The link to the summary of thermal metrics for this subsystem.",
+            "longDescription": "This property shall contain a link to a resource collection of type ThermalMetrics.",
+            "properties": {
+                "@odata.id": {
+                    "$ref": "Resource.json#/definitions/odataid"
+                }
+            },
+            "readonly": true,
+            "type": "object"
+        }
+    },
+    "required": [
+        "@odata.id",
+        "@odata.type",
+        "Id",
+        "Name"
+    ],
+    "type": "object",
+    "readonly": false,
+    "title": "#ThermalSubsystem.v1_3_2.ThermalSubsystem"
+}

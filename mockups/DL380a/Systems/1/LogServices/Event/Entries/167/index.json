@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"E1CDD739\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/167",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "167",
+    "Created": "2025-06-11T11:27:01Z",
+    "EntryType": "Oem",
+    "EventId": "79d7eea3-e9ef-82ca-a532-612c96ac67af",
+    "EventTimestamp": "2025-06-11T11:27:01Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/1"
+        }
+    },
+    "MessageId": "iLOResourceEvents.1.3.TemperatureHealthOk",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

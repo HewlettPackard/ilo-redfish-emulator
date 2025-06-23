@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOptionCollection.BootOptionCollection",
+    "@odata.etag": "W/\"D602A98A\"",
+    "@odata.id": "/redfish/v1/Systems/1/BootOptions",
+    "@odata.type": "#BootOptionCollection.BootOptionCollection",
+    "Description": "Configuration of Boot Options",
+    "Name": "Boot Options",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/5"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/6"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/7"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/8"
+        }
+    ],
+    "Members@odata.count": 8
+}

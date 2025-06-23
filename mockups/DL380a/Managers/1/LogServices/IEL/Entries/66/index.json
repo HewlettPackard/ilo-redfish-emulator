@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"3F23D189\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/66",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "66",
+    "Created": "2025-06-11T10:42:11Z",
+    "EntryType": "Oem",
+    "Message": "Power on request received by: Automatic Power Recovery.",
+    "MessageArgs": [],
+    "MessageId": "35.115",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Maintenance",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 6",
+            "Code": 115,
+            "Count": 1,
+            "EventNumber": 2147,
+            "Severity": "Informational",
+            "Updated": "2025-06-11T10:42:11Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

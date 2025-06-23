@@ -1,0 +1,24 @@
+{
+    "@odata.etag": "\"2dbfd9a9\"",
+    "@odata.id": "/redfish/v1/Fabrics/DE00A000/Switches/1",
+    "@odata.type": "#Switch.v1_9_1.Switch",
+    "Id": "1",
+    "Name": "Direct Attached",
+    "DomainID": 0,
+    "FirmwareVersion": "1.04",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/DE00A000"
+        }
+    },
+    "Model": "UBM6",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Fabrics/DE00A000/Switches/1/Ports"
+    },
+    "SupportedProtocols": [
+        "SAS",
+        "SATA",
+        "NVMe"
+    ],
+    "SwitchType": "MultiProtocol"
+}

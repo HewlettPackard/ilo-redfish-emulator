@@ -1,0 +1,201 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "PowerSupply",
+    "additionalProperties": false,
+    "copyright": "Copyright 2024 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2024 Distributed Management Task Force. All rights reserved.",
+    "description": "This PowerSupply schema contains the definition for the PowerSupply of a chassis.",
+    "longDescription": "This resource shall represent PowerSupply for a Redfish implementation.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "FirmwareVersion": {
+            "description": "The firmware version for this Power Supply",
+            "longDescription": "This property shall contain the firwmare version as defined by the manufacturer for the associated power supply.",
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "LastPowerOutputWatts": {
+            "_note": "LastPowerOutputWatts is added to the PowerSupply schema to support the existing Power schema. Once Power is deprecated, this should be removed as it does not map directly to PowerSupply.",
+            "description": "The average power output of this Power Supply",
+            "longDescription": "This property shall contain the average power output, measured in Watts, of the associated power supply.",
+            "readonly": true,
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "LineInputVoltage": {
+            "_note": "LineInputVoltage is added to the PowerSupply schema to support the existing Power schema. Once Power is deprecated, this should be removed as it does not map directly to PowerSupply.",
+            "description": "The line input voltage at which the Power Supply is operating",
+            "longDescription": "This property shall contain the value in Watts of the line input voltage (measured or configured for) that the power supply has been configured to operate with or is currently receiving.",
+            "readonly": true,
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "LineInputVoltageType": {
+            "_note": "LineInputVoltageType is added to the PowerSupply schema to support the existing Power schema. Once Power is deprecated, this should be removed as it does not map directly to PowerSupply.",
+            "description": "The line voltage type supported as an input to this Power Supply",
+            "enum": [
+                null,
+                "Unknown",
+                "ACLowLine",
+                "ACMidLine",
+                "ACHighLine",
+                "DCNeg48V",
+                "HighVoltageDC"
+            ],
+            "enumDescriptions": {
+                "ACHighLine": "277V AC input.",
+                "ACLowLine": "100-127V AC input.",
+                "ACMidLine": "200-240V AC input.",
+                "DCNeg48V": "-48V DC input.",
+                "HighVoltageDC": "High Voltage DC input (380V).",
+                "Unknown": "The power supply line input voltage type cannot be determined."
+            },
+            "longDescription": "This property shall contain the type of input line voltage supported by the associated power supply",
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "Manufacturer": {
+            "description": "This is the manufacturer of this power supply.",
+            "longDescription": "The value of this property shall be the name of the organization responsible for producing the power supply. This organization might be the entity from whom the power supply is purchased, but this is not necessarily true.",
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "MemberId": {
+            "description": "This is the identifier for the member within the collection.",
+            "longDescription": "The value of this string shall uniquely identify the member within the collection.",
+            "type": "string"
+        },
+        "Model": {
+            "description": "The model number for this Power Supply",
+            "longDescription": "This property shall contain the model information as defined by the manufacturer for the associated power supply.",
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "Oem": {
+            "additionalProperties": true,
+            "description": "This is the manufacturer/provider specific extension moniker used to divide the Oem object into sections.",
+            "longDescription": "The value of this string shall be of the format for the reserved word *Oem*.",
+            "properties": {
+                "Hpe": {
+                    "$ref": "HpeServerPowerSupply.json#"
+                }
+            },
+            "readonly": true,
+            "type": "object"
+        },
+        "PartNumber": {
+            "description": "The part number for this Power Supply",
+            "longDescription": "This property shall contain the part number as defined by the manufacturer for the associated power supply.",
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "PowerCapacityWatts": {
+            "description": "The maximum capacity of this Power Supply",
+            "longDescription": "This property shall contiain the maximum amount of power, in Watts, that the associated power supply is rated to deliver.",
+            "readonly": true,
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "PowerSupplyType": {
+            "description": "The Power Supply type (AC or DC)",
+            "enum": [
+                null,
+                "Unknown",
+                "AC",
+                "DC"
+            ],
+            "enumDescriptions": {
+                "AC": "Alternating Current (AC) power supply",
+                "DC": "Direct Current (DC) power supply",
+                "Unknown": "The power supply type cannot be determined"
+            },
+            "etag": true,
+            "longDescription": "This property shall contain the input power type (AC or DC) of the associated power supply.",
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "Redundancy": {
+            "description": "This structure is used to show redundancy for fans.  The Component ids will reference the members of the redundancy groups.",
+            "items": {
+                "$ref": "Resource.json#/definitions/Redundancy"
+            },
+            "longDescription": "The values of the properties in this array shall be used to show redundancy for fans and other elements in this resource.  The use of IDs within these arrays shall reference the members of the redundancy groups.",
+            "readonly": true,
+            "type": "array"
+        },
+        "RelatedItem": {
+            "description": "The ID(s) of the resources associated with this Power Limit",
+            "items": {
+                "properties": {
+                    "@odata.id": {
+                        "$ref": "Resource.json#/definitions/odataid"
+                    }
+                },
+                "type": "object"
+            },
+            "longDescription": "The value of this property shall be an array of IDs containing pointers to the resource that is being limited.",
+            "type": "array"
+        },
+        "SerialNumber": {
+            "description": "The serial number for this Power Supply",
+            "longDescription": "This property shall contain the serial number as defined by the manufacturer for the associated power supply.",
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "SparePartNumber": {
+            "description": "The spare part number for this Power Supply",
+            "longDescription": "This property shall contain the spare or replacement part number as defined by the manufacturer for the associated power supply.",
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "Status": {
+            "$ref": "Resource.json#/definitions/Status"
+        }
+    },
+    "type": "object",
+    "readonly": false,
+    "title": "#PowerSupply.v1_6_0.PowerSupply"
+}

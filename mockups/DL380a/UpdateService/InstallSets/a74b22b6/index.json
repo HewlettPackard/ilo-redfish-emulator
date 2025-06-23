@@ -1,0 +1,59 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponentInstallSet.HpeComponentInstallSet",
+    "@odata.etag": "W/\"0FF3324E\"",
+    "@odata.id": "/redfish/v1/UpdateService/InstallSets/a74b22b6",
+    "@odata.type": "#HpeComponentInstallSet.v1_5_0.HpeComponentInstallSet",
+    "Id": "a74b22b6",
+    "Actions": {
+        "#HpeComponentInstallSet.Invoke": {
+            "target": "/redfish/v1/UpdateService/InstallSets/a74b22b6/Actions/HpeComponentInstallSet.Invoke"
+        }
+    },
+    "Created": "2025-04-04T10:14:22Z",
+    "Description": "Essential System Firmware Components",
+    "IsRecovery": true,
+    "Modified": "2025-04-04T10:14:22Z",
+    "Name": "System Recovery Set",
+    "Sequence": [
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/37db5dbe",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "ilo6_166.bin",
+            "Name": "iLO 6",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/39a3509e",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "CPLD_Rummy_Gen11_v1616_signed.vme",
+            "Name": "System Programmable Logic Device",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/6245022d",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "U58_2.44_01_17_2025.signed.flash",
+            "Name": "System BIOS - U58",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/b7246cc4",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "SC_U58_ME_06.01.04.075.0.signed.bin",
+            "Name": "U58 ME Seamless Update Image",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        }
+    ]
+}

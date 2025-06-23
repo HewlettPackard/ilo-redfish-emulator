@@ -1,0 +1,62 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeiLOLicense.HpeiLOLicense",
+    "@odata.etag": "W/\"5C46FFD5\"",
+    "@odata.id": "/redfish/v1/Managers/1/LicenseService/1",
+    "@odata.type": "#HpeiLOLicense.v2_3_0.HpeiLOLicense",
+    "Id": "1",
+    "Confirmation": {
+        "Code": "",
+        "Message": "Confirmed.",
+        "Service": "www.hpe.com/glis",
+        "Status": true
+    },
+    "ConfirmationRequest": {
+        "EON": {
+            "License": "iLO Advanced",
+            "LicenseKey": "3M8LN-7BKMD-D5XKV-BGC72-L3X2M",
+            "Quantity": 1,
+            "State": "confirmed"
+        },
+        "Signer": "iLO",
+        "System": {
+            "ChipId": "F945C3337C5B5000",
+            "Product": "ProLiant DL380a Gen11",
+            "SerialNumber": "2M2D2J00L4"
+        }
+    },
+    "Description": "iLO License View",
+    "License": "iLO Advanced",
+    "LicenseClass": "FQL",
+    "LicenseErr": "",
+    "LicenseExpire": "",
+    "LicenseFeatures": {
+        "AutoCertEnroll": true,
+        "DirectoryAuth": true,
+        "DowngradePolicy": true,
+        "EmailAlert": true,
+        "FWScan": true,
+        "Federation": true,
+        "Jitter": true,
+        "KD": true,
+        "KeyMgr": true,
+        "MURC": true,
+        "ODIM": false,
+        "PowerReg": true,
+        "RC": true,
+        "Recovery": true,
+        "RemoteSyslog": true,
+        "Scrncap": true,
+        "SecureErase": true,
+        "SmartCard": true,
+        "SuiteB": true,
+        "VM": true,
+        "VMScript": true,
+        "VSPLogging": true
+    },
+    "LicenseInstallDate": "4 Apr 2025",
+    "LicenseKey": "XXXXX-XXXXX-XXXXX-XXXXX-L3X2M",
+    "LicenseSeats": 1,
+    "LicenseTier": "ADV",
+    "LicenseType": "Perpetual",
+    "Name": "iLO License"
+}

@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/6245022d",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "6245022d",
+    "Activates": "AfterReboot",
+    "ComponentUri": "/fwrepo/U58_2.44_01_17_2025.signed.flash",
+    "Configuration": "",
+    "Created": "2025-04-04T10:13:34Z",
+    "Criticality": "Optional",
+    "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4",
+    "ExecutionParameters": "",
+    "Filename": "U58_2.44_01_17_2025.signed.flash",
+    "Filepath": "U58_2.44_01_17_2025.signed.flash",
+    "Locked": true,
+    "Name": "System BIOS - U58",
+    "SizeBytes": 33564534,
+    "Targets": [
+        "00000000-0000-0000-0000-00000000023d",
+        "00000000-0000-0000-0000-00000000023b",
+        "00000000-0000-0000-0000-00000000024a"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "v2.44 (01/17/2025)"
+}

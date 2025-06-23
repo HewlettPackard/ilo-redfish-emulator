@@ -1,0 +1,53 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkDeviceFunctions/1/Settings",
+    "@odata.type": "#NetworkDeviceFunction.v1_8_0.NetworkDeviceFunction",
+    "@odata.etag": "W/\"E1479FAD\"",
+    "@Redfish.SettingsApplyTime": {
+        "ApplyTime": "OnReset"
+    },
+    "BootMode": "PXE",
+    "DeviceEnabled": true,
+    "Ethernet": {
+        "MACAddress": "58:a2:e1:03:96:f3",
+        "MTUSize": 1522,
+        "PermanentMACAddress": "58:a2:e1:03:96:f3",
+        "MTUSizeMaximum": 10000
+    },
+    "Id": "1",
+    "Links": {
+        "PhysicalNetworkPortAssignment": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports/1"
+        }
+    },
+    "MaxVirtualFunctions": 127,
+    "Name": "NetworkDeviceFunction",
+    "NetDevFuncCapabilities": [
+        "Ethernet",
+        "InfiniBand"
+    ],
+    "NetDevFuncType": "Ethernet",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "VirtualFunctionsEnabled": true,
+    "AssignablePhysicalNetworkPorts": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports/1"
+        }
+    ],
+    "InfiniBand": {
+        "MTUSize": null,
+        "NodeGUID": "58a2:e103:0003:96f3",
+        "PermanentNodeGUID": "58a2:e103:0003:96f3",
+        "PermanentPortGUID": "58a2:e103:0003:96f3",
+        "PermanentSystemGUID": "58a2:e103:0003:96f2",
+        "PortGUID": "58a2:e103:0003:96f3",
+        "SystemGUID": "58a2:e103:0003:96f2"
+    },
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkDeviceFunctions/1/Metrics"
+    },
+    "SAVIEnabled": false
+}

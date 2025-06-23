@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#CertificateCollection.CertificateCollection",
+    "@odata.etag": "W/\"D602A98A\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates",
+    "@odata.type": "#CertificateCollection.CertificateCollection",
+    "Description": "Secure Boot Database db certificate view",
+    "Name": "Secure Boot Database db certificate view",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/5"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/6"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/7"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/8"
+        }
+    ],
+    "Members@odata.count": 8
+}

@@ -1,0 +1,16 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SecureBootDatabase.SecureBootDatabase",
+    "@odata.etag": "W/\"1A207641\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbrDefault",
+    "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+    "Id": "dbrDefault",
+    "Certificates": {
+        "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbrDefault/Certificates"
+    },
+    "DatabaseId": "dbrDefault",
+    "Description": "SecureBoot Database",
+    "Name": "Default Authorized Recovery Signature Database",
+    "Signatures": {
+        "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbrDefault/Signatures"
+    }
+}

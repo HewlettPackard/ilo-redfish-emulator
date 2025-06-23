@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ComponentIntegrity.ComponentIntegrity",
+    "@odata.etag": "W/\"62332932\"",
+    "@odata.id": "/redfish/v1/ComponentIntegrity/2",
+    "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+    "Id": "2",
+    "Actions": {
+        "#ComponentIntegrity.SPDMGetSignedMeasurements": {
+            "target": "/redfish/v1/ComponentIntegrity/2/Actions/ComponentIntegrity.SPDMGetSignedMeasurements"
+        }
+    },
+    "ComponentIntegrityEnabled": false,
+    "ComponentIntegrityType": "SPDM",
+    "ComponentIntegrityTypeVersion": "0.0.0",
+    "Name": "Component Integrity",
+    "SPDM": {
+        "IdentityAuthentication": {
+            "ResponderAuthentication": {
+                "VerificationStatus": null
+            }
+        },
+        "Requester": {
+            "@odata.id": "/redfish/v1/Managers/1"
+        }
+    },
+    "TargetComponentURI": "/redfish/v1/Systems/1/Storage/DE00B000"
+}

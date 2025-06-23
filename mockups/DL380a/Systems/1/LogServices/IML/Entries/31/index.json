@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"39E673B5\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/31",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "31",
+    "Created": "2025-05-20T05:00:34Z",
+    "EntryType": "Oem",
+    "Message": "One of the NIC connectivity status changed to OK",
+    "MessageArgs": [],
+    "MessageId": "17.16",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 17,
+            "ClassDescription": "Network",
+            "Code": 16,
+            "Count": 3,
+            "EventNumber": 146,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x0010-gen11",
+            "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+            "Repaired": true,
+            "Severity": "Repaired",
+            "Updated": "2025-05-20T05:01:01Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

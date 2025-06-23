@@ -1,0 +1,136 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "SecureBootDatabase",
+    "actions": {
+        "actions": {
+            "SecureBootDatabase.ResetKeys": {
+                "additionalProperties": false,
+                "properties": {
+                    "Action": {
+                        "enum": [
+                            "SecureBootDatabase.ResetKeys"
+                        ],
+                        "enumDescriptions": {
+                            "SecureBootDatabase.ResetKeys": "Action to perform reset of the Secure Boot Database Keys."
+                        },
+                        "type": "string"
+                    },
+                    "ResetKeysType": {
+                        "description": "This parameter specifies what type of reset action to perform.",
+                        "enum": [
+                            "ResetAllKeysToDefault",
+                            "DeleteAllKeys"
+                        ],
+                        "enumDescriptions": {
+                            "DeleteAllKeys": "Delete all Secure Boot Database keys on next boot.",
+                            "ResetAllKeysToDefault": "Reset to default Secure Boot Database keys on next boot."
+                        },
+                        "readonly": false,
+                        "type": "string"
+                    }
+                },
+                "readonly": true,
+                "required": [
+                    "Action",
+                    "ResetKeysType"
+                ],
+                "type": "object"
+            }
+        },
+        "description": "Reset of Secure Boot Database Keys."
+    },
+    "additionalProperties": false,
+    "copyright": "Copyright 2021 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
+    "description": "The SecureBootDatabase schema describes a UEFI Secure Boot database used to store certificates or hashes.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Actions": {
+            "additionalProperties": false,
+            "properties": {
+                "#SecureBootDatabase.ResetKeys": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "ResetKeysType@Redfish.AllowableValues": {
+                            "items": {
+                                "description": "This parameter specifies what type of reset action to perform.",
+                                "enum": [
+                                    "ResetAllKeysToDefault",
+                                    "DeleteAllKeys"
+                                ],
+                                "etag": true,
+                                "readonly": false,
+                                "type": "string"
+                            },
+                            "type": "array"
+                        },
+                        "target": {
+                            "description": "This is the URI to POST the custom action to.",
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                }
+            },
+            "type": "object"
+        },
+        "Certificates": {
+            "description": "A link to the collection of certificates contained in this UEFI Secure Boot database.",
+            "longDescription": "The value of this property shall be a link to a resource collection of type CertificateCollection.",
+            "properties": {
+                "@odata.id": {
+                    "$ref": "Resource.json#/definitions/odataid"
+                }
+            },
+            "readonly": true,
+            "type": [
+                "object",
+                "null"
+            ]
+        },
+        "DatabaseId": {
+            "description": "This property contains the name of the UEFI Secure Boot database.",
+            "longDescription": "This property shall contain the name of the UEFI Secure Boot database.  This property shall contain the same value as the Id property.  The value shall be one of the UEFI-defined Secure Boot databases: `PK`, `KEK` `db`, `dbx`, `dbr`, `dbt`, `PKDefault`, `KEKDefault`, `dbDefault`, `dbxDefault`, `dbrDefault`, or `dbtDefault`.",
+            "readonly": true,
+            "type": "string"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "Description": {
+            "$ref": "Resource.json#/definitions/Description"
+        },
+        "Oem": {
+            "$ref": "Resource.json#/definitions/Oem"
+        },
+        "Signatures": {
+            "description": "A link to the collection of signatures contained in this UEFI Secure Boot database.",
+            "longDescription": "The value of this property shall be a link to a resource collection of type SignatureCollection.",
+            "readonly": true,
+            "properties": {
+                "@odata.id": {
+                    "$ref": "Resource.json#/definitions/odataid"
+                }
+            },
+            "type": [
+                "object",
+                "null"
+            ]
+        }
+    },
+    "title": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+    "type": "object"
+}

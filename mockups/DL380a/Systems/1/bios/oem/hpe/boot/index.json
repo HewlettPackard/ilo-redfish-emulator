@@ -1,0 +1,128 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_0_0.Settings",
+        "ETag": "B0D9862B",
+        "Messages": [
+            {
+                "MessageId": "Base.1.0.Success"
+            }
+        ],
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/settings/"
+        },
+        "Time": "2025-04-04T15:56:37+00:00"
+    },
+    "@odata.context": "/redfish/v1/$metadata#HpeServerBootSettings.HpeServerBootSettings",
+    "@odata.etag": "W/\"1C92FC071C40202020E343A485DE17DA\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/",
+    "@odata.type": "#HpeServerBootSettings.v2_0_0.HpeServerBootSettings",
+    "BootSources": [
+        {
+            "BootOptionNumber": "000E",
+            "BootString": "Generic USB Boot",
+            "CorrelatableID": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)",
+            "StructuredBootString": "Generic.USB.1.1",
+            "UEFIDevicePath": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)"
+        },
+        {
+            "BootOptionNumber": "0011",
+            "BootString": "Slot 2 Port 1 : Nvidia Network Adapter - 58:A2:E1:03:96:F2 (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.2.1.IPv4",
+            "UEFIDevicePath": "PciRoot(0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(58A2E10396F2,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "0012",
+            "BootString": "Slot 2 Port 1 : Nvidia Network Adapter - 58:A2:E1:03:96:F2 (HTTP(S) IPv4)",
+            "CorrelatableID": "PciRoot(0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.2.1.Httpv4",
+            "UEFIDevicePath": "PciRoot(0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(58A2E10396F2,0x1)/IPv4(0.0.0.0)/Uri()"
+        },
+        {
+            "BootOptionNumber": "000F",
+            "BootString": "Slot 2 Port 1 : Nvidia Network Adapter - 58:A2:E1:03:96:F2 (PXE IPv6)",
+            "CorrelatableID": "PciRoot(0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.2.1.IPv6",
+            "UEFIDevicePath": "PciRoot(0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(58A2E10396F2,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)"
+        },
+        {
+            "BootOptionNumber": "0010",
+            "BootString": "Slot 2 Port 1 : Nvidia Network Adapter - 58:A2:E1:03:96:F2 (HTTP(S) IPv6)",
+            "CorrelatableID": "PciRoot(0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.2.1.Httpv6",
+            "UEFIDevicePath": "PciRoot(0x2)/Pci(0x1,0x0)/Pci(0x0,0x0)/MAC(58A2E10396F2,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0014",
+            "BootString": "OCP Slot 18 : HPE MR416i-o Gen11 - Logical Drive 239",
+            "CorrelatableID": "PciRoot(0xF)/Pci(0x1,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.18.1",
+            "UEFIDevicePath": "PciRoot(0xF)/Pci(0x1,0x0)/Pci(0x0,0x0)/Ctrl(0x0)/Scsi(0xEF,0x0)"
+        }
+    ],
+    "DefaultBootOrder": [
+        "Cd",
+        "Usb",
+        "EmbeddedStorage",
+        "PcieSlotStorage",
+        "EmbeddedFlexLOM",
+        "PcieSlotNic",
+        "UefiShell",
+        "iPXE"
+    ],
+    "DesiredBootDevices": [
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        }
+    ],
+    "Id": "boot",
+    "Name": "Boot Order Current Settings",
+    "Oem": {
+        "Hpe": {
+            "@odata.type": "#HpeBiosExt.v2_0_1.HpeBiosExt",
+            "Links": {
+                "BaseConfigs": {
+                    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/baseconfigs/"
+                }
+            },
+            "SettingsObject": {
+                "UnmodifiedETag": "W/\"41FC3612DEC3D4D4D4946425D9E0E776\""
+            }
+        }
+    },
+    "PersistentBootConfigOrder": [
+        "Generic.USB.1.1",
+        "NIC.Slot.2.1.IPv4",
+        "NIC.Slot.2.1.Httpv4",
+        "NIC.Slot.2.1.IPv6",
+        "NIC.Slot.2.1.Httpv6",
+        "OCP.Slot.18.1"
+    ]
+}

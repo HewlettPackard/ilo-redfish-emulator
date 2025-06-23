@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"BEE076FE\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/FanCollection",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "FanCollection",
+    "Description": "Schema Definition File for FanCollection",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/FanCollection.json"
+        }
+    ],
+    "Name": "FanCollection Schema Definition File",
+    "Schema": "#FanCollection.FanCollection"
+}

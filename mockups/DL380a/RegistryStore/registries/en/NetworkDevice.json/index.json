@@ -1,0 +1,175 @@
+{
+    "@Redfish.Copyright": "Copyright 2014-2022 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2022 Distributed Management Task Force. All rights reserved.",
+    "@odata.type": "#MessageRegistry.v1_4_0.MessageRegistry",
+    "Description": "This registry defines the messages for networking devices",
+    "Id": "NetworkDevice.json",
+    "Language": "en",
+    "Messages": {
+        "CableInserted": {
+            "ArgDescriptions": [
+                "The `Id` of the network adapter.",
+                "The `Id` of the network port."
+            ],
+            "ArgLongDescriptions": [
+                "The value of this argument shall be a string containing the value of the `Id` property of network adapter into which a cable has been plugged.",
+                "The value of this argument shall be a string containing the value of the `Id` property of network port into which a cable has been plugged."
+            ],
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "CableRemoved"
+                ]
+            },
+            "Description": "Indicates that a network cable has been inserted.",
+            "LongDescription": "This message shall be used to indicate that a network cable has been inserted.  This message shall not be sent for a backplane connection.",
+            "Message": "A network cable has been inserted into network adapter '%1' port '%2'.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Refresh your cached version of the network port to get the updated information from the service.",
+            "Severity": "OK"
+        },
+        "CableRemoved": {
+            "ArgDescriptions": [
+                "The `Id` of the network adapter.",
+                "The `Id` of the network port."
+            ],
+            "ArgLongDescriptions": [
+                "The value of this argument shall be a string containing the value of the `Id` property of network adapter from which a cable has been unplugged.",
+                "The value of this argument shall be a string containing the value of the `Id` property of network port from which a cable has been unplugged."
+            ],
+            "Description": "Indicates that a network cable has been removed.",
+            "LongDescription": "This message shall be used to indicate that a network cable has been removed.  This message shall not be sent for a backplane connection.",
+            "Message": "A cable has been removed from network adapter '%1' port '%2'.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 2,
+            "ParamTypes": [
+                "string",
+                "string"
+            ],
+            "Resolution": "Refresh your cached version of the network port to get the updated information from the service.",
+            "Severity": "OK"
+        },
+        "ConnectionDropped": {
+            "ArgDescriptions": [
+                "The `Id` of the network adapter.",
+                "The `Id` of the network port.",
+                "The `Id` of the network function."
+            ],
+            "ArgLongDescriptions": [
+                "The value of this argument shall be a string containing the value of the `Id` property of network adapter from which a connection has dropped.",
+                "The value of this argument shall be a string containing the value of the `Id` property of network port from which a connection has dropped.",
+                "The value of this argument shall be a string containing the value of the `Id` property of network device function from which a connection has dropped."
+            ],
+            "Description": "Indicates that a network connection has been dropped.",
+            "LongDescription": "This message shall be used to indicate that the link for a network connection is no longer intact.",
+            "Message": "The connection is no longer active for network adapter '%1' port '%2' function '%3'.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 3,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Refresh your cached version of the network port to get the updated information from the service.",
+            "Severity": "OK"
+        },
+        "ConnectionEstablished": {
+            "ArgDescriptions": [
+                "The `Id` of the network adapter.",
+                "The `Id` of the network port.",
+                "The `Id` of the network function."
+            ],
+            "ArgLongDescriptions": [
+                "The value of this argument shall be a string containing the value of the `Id` property of network adapter to which a connection has been established.",
+                "The value of this argument shall be a string containing the value of the `Id` property of network port to which a connection has been established.",
+                "The value of this argument shall be a string containing the value of the `Id` property of network device function to which a connection has been established."
+            ],
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "ConnectionDropped"
+                ]
+            },
+            "Description": "Indicates that a network connection has been established.",
+            "LongDescription": "This message shall be used to indicate that the link for a network connection is newly established.",
+            "Message": "A network connection has been established for network adapter '%1' port '%2' function '%3'.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 3,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Refresh your cached version of the network port to get the updated information from the service.",
+            "Severity": "OK"
+        },
+        "DegradedConnectionEstablished": {
+            "ArgDescriptions": [
+                "The `Id` of the network adapter.",
+                "The `Id` of the network port.",
+                "The `Id` of the network function."
+            ],
+            "ArgLongDescriptions": [
+                "The value of this argument shall be a string containing the value of the `Id` property of network adapter to which a connection has been established.",
+                "The value of this argument shall be a string containing the value of the `Id` property of network port to which a connection has been established.",
+                "The value of this argument shall be a string containing the value of the `Id` property of network device function to which a connection has been established."
+            ],
+            "ClearingLogic": {
+                "ClearsIf": "SameOriginOfCondition",
+                "ClearsMessage": [
+                    "ConnectionDropped"
+                ]
+            },
+            "Description": "Indicates that a network connection has been established, but at an unexpectedly low link speed.",
+            "LongDescription": "This message shall be used to indicate that a network connection is newly established, but that the link speed is lower than provisioned for the channel.",
+            "Message": "A degraded network connection has been established for network adapter '%1' port '%2' function '%3'.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 3,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string"
+            ],
+            "Resolution": "Refresh your cached version of the network port to get the updated information from the service.",
+            "Severity": "Warning"
+        },
+        "LinkFlapDetected": {
+            "ArgDescriptions": [
+                "The `Id` of the network adapter.",
+                "The `Id` of the network port.",
+                "The `Id` of the network function.",
+                "The number of times the link has flapped.",
+                "The number of minutes over which the link has flapped."
+            ],
+            "ArgLongDescriptions": [
+                "The value of this argument shall be a string containing the value of the `Id` property of network adapter to which a connection has been established.",
+                "The value of this argument shall be a string containing the value of the `Id` property of network port to which a connection has been established.",
+                "The value of this argument shall be a string containing the value of the `Id` property of network device function to which a connection has been established.",
+                "The value of this argument shall be a number representing the count of link establishment/disconnection cycles.",
+                "The value of this argument shall be a number representing the number of minutes over which link flapping activity has been detected."
+            ],
+            "Description": "Indicates that a network connection is highly unstable.",
+            "LongDescription": "This message shall be used to indicate that a network connection has repeatedly been established and dropped.  This message shall not be repeated more than once in any 24 hour period.",
+            "Message": "The network connection for network adapter '%1' port '%2' function '%3' has been established and dropped '%4' times in the last '%5' minutes.",
+            "MessageSeverity": "Warning",
+            "NumberOfArgs": 5,
+            "ParamTypes": [
+                "string",
+                "string",
+                "string",
+                "number",
+                "number"
+            ],
+            "Resolution": "Contact the network administrator for problem resolution.",
+            "Severity": "Warning"
+        }
+    },
+    "Name": "Network Device Message Registry",
+    "OwningEntity": "Hewlett Packard Enterprise",
+    "RegistryPrefix": "NetworkDevice",
+    "RegistryVersion": "1.0.1"
+}

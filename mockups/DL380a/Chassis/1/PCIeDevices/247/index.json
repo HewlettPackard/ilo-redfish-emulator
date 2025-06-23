@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "W/\"4DA55F10\"",
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/247",
+    "@odata.type": "#PCIeDevice.v1_5_0.PCIeDevice",
+    "Id": "247",
+    "FirmwareVersion": "52.28.3-5681",
+    "Manufacturer": "HPE",
+    "Model": "P47781-B21",
+    "Name": "HPE MR416i-o Gen11",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/247/PCIeFunctions"
+    },
+    "PartNumber": "P47781-B21",
+    "SKU": "P47952-001",
+    "SerialNumber": "PZDVH0CBIKF17X",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

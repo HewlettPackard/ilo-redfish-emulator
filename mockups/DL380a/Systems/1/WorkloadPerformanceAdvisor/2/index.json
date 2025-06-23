@@ -1,0 +1,58 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeWorkloadPerformanceAdvisor.HpeWorkloadPerformanceAdvisor",
+    "@odata.etag": "W/\"E7F95F0C\"",
+    "@odata.id": "/redfish/v1/Systems/1/WorkloadPerformanceAdvisor/2",
+    "@odata.type": "#HpeWorkloadPerformanceAdvisor.v1_0_0.HpeWorkloadPerformanceAdvisor",
+    "Id": "2",
+    "Description": "Workload Performance Advisor for 60 min",
+    "Duration": "PT60M",
+    "Name": "Workload Performance Advisor for 60 min",
+    "PerformanceTuningOption": [
+        {
+            "BIOSAttributeName": "SubNumaClustering",
+            "RecommendedValue": "EnableSnc2"
+        },
+        {
+            "BIOSAttributeName": "NumaGroupSizeOpt",
+            "RecommendedValue": "Clustered"
+        },
+        {
+            "BIOSAttributeName": "UncoreFreqScaling",
+            "RecommendedValue": null
+        },
+        {
+            "BIOSAttributeName": "MemRefreshRate",
+            "RecommendedValue": null
+        },
+        {
+            "BIOSAttributeName": "PowerRegulator",
+            "RecommendedValue": "DynamicPowerSavings"
+        },
+        {
+            "BIOSAttributeName": "MinProcIdlePkgState",
+            "RecommendedValue": null
+        },
+        {
+            "BIOSAttributeName": "EnergyPerfBias",
+            "RecommendedValue": null
+        }
+    ],
+    "WorkloadCharacteristics": [
+        {
+            "MetricId": "CPUUtil",
+            "MetricValue": "Low"
+        },
+        {
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "Low"
+        },
+        {
+            "MetricId": "IOBusUtil",
+            "MetricValue": "Low"
+        },
+        {
+            "MetricId": "CPUICUtil",
+            "MetricValue": "High"
+        }
+    ]
+}

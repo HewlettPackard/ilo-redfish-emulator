@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"BE1C56AF\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/15",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "15",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceType": "Backplane PIC",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "1.04"
+        }
+    },
+    "Location": "Slot=17:Port=2:Box=1",
+    "Manufacturer": "",
+    "Name": "8 SFF 24G x4NVMe/SAS UBM6 BC BP",
+    "PartNumber": "",
+    "ProductPartNumber": "",
+    "ProductVersion": "",
+    "SerialNumber": "",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

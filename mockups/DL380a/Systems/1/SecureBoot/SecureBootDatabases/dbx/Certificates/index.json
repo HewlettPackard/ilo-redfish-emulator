@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#CertificateCollection.CertificateCollection",
+    "@odata.etag": "W/\"E589C4BF\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Certificates",
+    "@odata.type": "#CertificateCollection.CertificateCollection",
+    "Description": "Secure Boot Database dbx certificate view",
+    "Name": "Secure Boot Database dbx certificate view",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Certificates/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Certificates/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Certificates/3"
+        }
+    ],
+    "Members@odata.count": 3
+}

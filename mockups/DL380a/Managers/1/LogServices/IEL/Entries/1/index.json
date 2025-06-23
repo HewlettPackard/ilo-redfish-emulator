@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"3C1E7914\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/1",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "1",
+    "Created": "2025-06-03T10:50:08Z",
+    "EntryType": "Oem",
+    "Message": "The iLO health monitoring status of the device / adapter located in Slot 14 has OS driver in persistent mode. Fixed reading thermal limits is not responsive.",
+    "MessageArgs": [],
+    "MessageId": "35.1156",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 6",
+            "Code": 1156,
+            "Count": 1,
+            "EventNumber": 2082,
+            "RecommendedAction": "Do one or more of the following:\n1.Disable the MCTP and wait for 2 minutes. Enable the MCTP in iLO\n2.Perform the iLO reset.\n3.Perform the server reboot. If the issue still persists contact support\n",
+            "Severity": "Repaired",
+            "Updated": "2025-06-03T10:50:08Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

@@ -1,0 +1,14 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#CertificateCollection.CertificateCollection",
+    "@odata.etag": "W/\"AA6D42B0\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/PKDefault/Certificates",
+    "@odata.type": "#CertificateCollection.CertificateCollection",
+    "Description": "Secure Boot Database PK Default certificate view",
+    "Name": "Secure Boot Database PK Default certificate view",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/PKDefault/Certificates/1"
+        }
+    ],
+    "Members@odata.count": 1
+}

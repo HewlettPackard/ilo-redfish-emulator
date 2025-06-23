@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/b7246cc4",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "b7246cc4",
+    "Activates": "Immediately",
+    "ComponentUri": "/fwrepo/SC_U58_ME_06.01.04.075.0.signed.bin",
+    "Configuration": "",
+    "Created": "2025-04-04T10:13:55Z",
+    "Criticality": "Optional",
+    "DeviceClass": "b34e5677-21dc-45d3-872b-42f76fee9053",
+    "ExecutionParameters": "",
+    "Filename": "SC_U58_ME_06.01.04.075.0.signed.bin",
+    "Filepath": "SC_U58_ME_06.01.04.075.0.signed.bin",
+    "Locked": true,
+    "Name": "U58 ME Seamless Update Image",
+    "SizeBytes": 8390837,
+    "Targets": [
+        "00000000-0000-0000-0000-00000000024a",
+        "00000000-0000-0000-0000-00000000023d",
+        "00000000-0000-0000-0000-00000000023b"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "06.01.04.075"
+}

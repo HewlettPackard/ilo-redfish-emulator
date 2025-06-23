@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"6888EA2A\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/ProcessorMetrics",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "ProcessorMetrics",
+    "Description": "Schema Definition File for ProcessorMetrics",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/ProcessorMetrics.json"
+        }
+    ],
+    "Name": "ProcessorMetrics Schema Definition File",
+    "Schema": "#ProcessorMetrics.v1_6_4.ProcessorMetrics"
+}

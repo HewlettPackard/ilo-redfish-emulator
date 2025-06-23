@@ -1,0 +1,33 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports/1/Metrics",
+    "@odata.type": "#PortMetrics.v1_2_0.PortMetrics",
+    "@odata.etag": "W/\"DB5B20C6\"",
+    "Id": "1",
+    "Name": "PortMetrics",
+    "Networking": {
+        "RXBroadcastFrames": 2937572,
+        "RXDiscards": 0,
+        "RXFCSErrors": 0,
+        "RXFalseCarrierErrors": 0,
+        "RXFrameAlignmentErrors": 0,
+        "RXFrames": 1792577563,
+        "RXMulticastFrames": 5928269,
+        "RXOversizeFrames": 0,
+        "RXUnicastFrames": 1783711724,
+        "TXBroadcastFrames": 0,
+        "TXDiscards": 0,
+        "TXExcessiveCollisions": 0,
+        "TXFrames": 0,
+        "TXLateCollisions": 0,
+        "TXMulticastFrames": 0,
+        "TXSingleCollisions": 0,
+        "TXUnicastFrames": 0
+    },
+    "RXBytes": 1726889641163,
+    "TXBytes": 0,
+    "Transceivers": [
+        {
+            "SupplyVoltage": 0.0
+        }
+    ]
+}

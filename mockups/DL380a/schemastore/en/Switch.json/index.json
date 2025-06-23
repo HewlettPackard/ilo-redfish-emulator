@@ -1,0 +1,198 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "Switch",
+    "additionalProperties": false,
+    "copyright": "Copyright 2023 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2023 Distributed Management Task Force. All rights reserved.",
+    "description": "The Switch schema contains properties that describe a fabric switch.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "DomainID": {
+            "description": "The domain ID for this switch.",
+            "readonly": true,
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "FirmwareVersion": {
+            "description": "The firmware version of this switch.",
+            "longDescription": "This property shall contain the firmware version as defined by the manufacturer for the associated switch.",
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "Links": {
+            "additionalProperties": false,
+            "description": "The links to other resources that are related to this resource.",
+            "properties": {
+                "Chassis": {
+                    "description": "The link to the chassis that contains this switch.",
+                    "properties": {
+                        "@odata.id": {
+                            "$ref": "Resource.json#/definitions/odataid"
+                        }
+                    },
+                    "type": "object",
+                    "readonly": true
+                }
+            },
+            "type": "object",
+            "readonly": true
+        },
+        "Manufacturer": {
+            "description": "The manufacturer of this switch.",
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "Model": {
+            "description": "The product manufacturer-provided model number of this switch.",
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "Ports": {
+            "description": "The link to the collection ports for this switch.",
+            "properties": {
+                "@odata.id": {
+                    "$ref": "Resource.json#/definitions/odataid"
+                }
+            },
+            "type": "object",
+            "readonly": true
+        },
+        "SerialNumber": {
+            "description": "The serial number for this switch.",
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "SupportedProtocols": {
+            "description": "The protocols this switch supports.",
+            "longDescription": "The property shall contain an array of protocols this switch supports.  If the value of SwitchType is `MultiProtocol`, this property shall be required.",
+            "items": {
+                "enum": [
+                    "PCIe",
+                    "AHCI",
+                    "UHCI",
+                    "SAS",
+                    "SATA",
+                    "USB",
+                    "NVMe",
+                    "FC",
+                    "iSCSI",
+                    "FCoE",
+                    "FCP",
+                    "FICON",
+                    "NVMeOverFabrics",
+                    "SMB",
+                    "NFSv3",
+                    "NFSv4",
+                    "HTTP",
+                    "HTTPS",
+                    "FTP",
+                    "SFTP",
+                    "iWARP",
+                    "RoCE",
+                    "RoCEv2",
+                    "I2C",
+                    "TCP",
+                    "UDP",
+                    "TFTP",
+                    "GenZ",
+                    "MultiProtocol",
+                    "InfiniBand",
+                    "Ethernet",
+                    "NVLink",
+                    "OEM",
+                    "DisplayPort",
+                    "HDMI",
+                    "VGA",
+                    "DVI",
+                    "CXL"
+                ],
+                "enumDescriptions": {
+                    "AHCI": "Advanced Host Controller Interface (AHCI).",
+                    "CXL": "Compute Express Link.",
+                    "DVI": "DVI.",
+                    "DisplayPort": "DisplayPort.",
+                    "Ethernet": "Ethernet.",
+                    "FC": "Fibre Channel.",
+                    "FCP": "Fibre Channel Protocol for SCSI.",
+                    "FCoE": "Fibre Channel over Ethernet (FCoE).",
+                    "FICON": "FIbre CONnection (FICON).",
+                    "FTP": "File Transfer Protocol (FTP).",
+                    "GenZ": "GenZ.",
+                    "HDMI": "HDMI.",
+                    "HTTP": "Hypertext Transport Protocol (HTTP).",
+                    "HTTPS": "Hypertext Transfer Protocol Secure (HTTPS).",
+                    "I2C": "Inter-Integrated Circuit Bus.",
+                    "InfiniBand": "InfiniBand.",
+                    "MultiProtocol": "Multiple Protocols.",
+                    "NFSv3": "Network File System (NFS) version 3.",
+                    "NFSv4": "Network File System (NFS) version 4.",
+                    "NVLink": "NVLink.",
+                    "NVMe": "Non-Volatile Memory Express (NVMe).",
+                    "NVMeOverFabrics": "NVMe over Fabrics.",
+                    "OEM": "OEM-specific.",
+                    "PCIe": "PCI Express.",
+                    "RoCE": "RDMA over Converged Ethernet Protocol.",
+                    "RoCEv2": "RDMA over Converged Ethernet Protocol Version 2.",
+                    "SAS": "Serial Attached SCSI.",
+                    "SATA": "Serial AT Attachment.",
+                    "SFTP": "SSH File Transfer Protocol (SFTP).",
+                    "SMB": "Server Message Block (SMB).  Also known as the Common Internet File System (CIFS).",
+                    "TCP": "Transmission Control Protocol (TCP).",
+                    "TFTP": "Trivial File Transfer Protocol (TFTP).",
+                    "UDP": "User Datagram Protocol (UDP).",
+                    "UHCI": "Universal Host Controller Interface (UHCI).",
+                    "USB": "Universal Serial Bus (USB).",
+                    "VGA": "VGA.",
+                    "iSCSI": "Internet SCSI.",
+                    "iWARP": "Internet Wide Area RDMA Protocol (iWARP)."
+                },
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "readonly": true,
+            "type": "array"
+        },
+        "SwitchType": {
+            "description": "The protocol being sent over this switch.",
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "title": "#Switch.v1_9_1.Switch",
+    "type": "object"
+}

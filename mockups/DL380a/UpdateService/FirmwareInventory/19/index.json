@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"0539D502\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/19",
+    "@odata.type": "#SoftwareInventory.v1_2_0.SoftwareInventory",
+    "Id": "19",
+    "Description": "100010e215900328",
+    "Name": "HPE MR416i-o Gen11",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": null,
+            "DeviceContext": "OCP 3.0 Slot 18",
+            "DeviceInstance": "PciRoot(0xF)/Pci(0x1,0x0)/Pci(0x0,0x0)",
+            "Targets": [
+                "a6b1a447-382a-5a4f-1000-10e215900328"
+            ]
+        }
+    },
+    "Updateable": true,
+    "Version": "52.28.3-5681"
+}

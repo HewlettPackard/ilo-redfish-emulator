@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition",
+    "@odata.etag": "W/\"3000BFBB\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUICUtil",
+    "@odata.type": "#MetricReportDefinition.v1_4_2.MetricReportDefinition",
+    "Id": "CPUICUtil",
+    "Description": "Metric report of CPU interconnect utilization.",
+    "MetricProperties": [
+        "/redfish/v1/Systems/1#SystemUsage/CPUICUtil"
+    ],
+    "MetricReport": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPUICUtilCustom1"
+    },
+    "MetricReportDefinitionType": "Periodic",
+    "Metrics": [
+        {
+            "MetricId": "CPUICUtil"
+        }
+    ],
+    "Name": "Metric report of CPU interconnect utilization.",
+    "Schedule": {
+        "EnabledDaysOfMonth": [
+            0
+        ],
+        "RecurrenceInterval": "PT1H"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

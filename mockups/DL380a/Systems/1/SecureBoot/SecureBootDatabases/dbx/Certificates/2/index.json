@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Certificate.Certificate",
+    "@odata.etag": "W/\"D2999F67\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Certificates/2",
+    "@odata.type": "#Certificate.v1_6_0.Certificate",
+    "Id": "2",
+    "CertificateString": "-----BEGIN CERTIFICATE-----\r\nMIIEiDCCA3CgAwIBAgIJDRw5XKeSelDCMA0GCSqGSIb3DQEBCwUAMEExEDAOBgNV\r\nBAsTB1RvbGltYW4xDjAMBgNVBAoTBUNpc2NvMR0wGwYDVQQDExRWaXJ0dWFsIFVF\r\nRkkgUm9vdCBDQTAgFw0xODA0MDMxNzQ3MzRaGA8yMDk5MDQwMzE2MTkzMFowPzEO\r\nMAwGA1UECgwFQ2lzY28xEDAOBgNVBAsMB0FudGFyZXMxGzAZBgNVBAMMElZpcnR1\r\nYWwgVUVGSSBTdWJDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALhN\r\nhtAhoisZn5AKpneYMVwaV8DrE40+k2HyZX7R5ogizQilixhPnS/4Sx5oke9MUcL3\r\nf2f0GUanif1CD+GkzktqKWdAyGfsj+ng3vzw4q1F8NKoV7uLC6OKc1XjV9P8wsSP\r\n6lD6gklIZrF4K6JHVUg8ZGO0EMprpjsTdShWA755NCTiFR7s+0ff01Sz+RNs9Osg\r\n3xBeFGERDd3qnAD5RqiTV2cF7VL6V3OScoB3sIoYZl9dOKqeDIqUk0sQ2gcAMUua\r\ntkDXXywykly0SyjaAhKPEYSyRacWnVJ68RnTyYebUHPKzNX301wmiWKk80fr9UOr\r\nHJyeAHBAoTXxzXjqxbECAwEAAaOCAYEwggF9MA4GA1UdDwEB/wQEAwIBBjASBgNV\r\nHRMBAf8ECDAGAQH/AgEAMH4GCCsGAQUFBwEBBHIwcDBABggrBgEFBQcwAoY0aHR0\r\ncDovL3d3dy5jaXNjby5jb20vc2VjdXJpdHkvcGtpL2NlcnRzL3Z1ZWZpcmNhLmNl\r\ncjAsBggrBgEFBQcwAYYgaHR0cDovL3BraWN2cy5jaXNjby5jb20vcGtpL29jc3Aw\r\nHwYDVR0jBBgwFoAU4BvHqrrH2hEI6QpvFdpSHmMK7UgwUgYDVR0gBEswSTBHBgor\r\nBgEEAQkVASsAMDkwNwYIKwYBBQUHAgEWK2h0dHA6Ly93d3cuY2lzY28uY29tL3Nl\r\nY3VyaXR5L3BraS9wb2xpY2llcy8wQwYDVR0fBDwwOjA4oDagNIYyaHR0cDovL3d3\r\ndy5jaXNjby5jb20vc2VjdXJpdHkvcGtpL2NybC92dWVmaXJjYS5jcmwwHQYDVR0O\r\nBBYEFBPfLj9U6/NH3K7OvyHTy7I1WkyaMA0GCSqGSIb3DQEBCwUAA4IBAQBhkcGO\r\nXTuHdgSIGIfcMbWBKlTz0gvSHIW5jhZxhH63tr7UXF9vCz3L7tUYEeyG9XDW9Qsn\r\nlA9L0nVpustCz7dpBlTWGP6MgqysIu5h3o7el2AZTuJP5Q+fzWCfyAnD9h9cJAnI\r\nz38BdLHYGFa1bcGwUJQBzRs1K/cVnayBSy8mDBX0DbtJi65scaLdLq+wT5CX2q6K\r\naMwgJr0xSCZL5AOlb7EGbFtlDEfHwitkhYTJvuKgZA66ZmD9ISz4QeDXRDfOcl80\r\nJMo2yA/Z9mXzVlvKg8r8gfQOR/j6idQr9tMXjFUe0v1zL5SJdazXFfXtkBS8FVva\r\njGQMJse29LWfmrjX\r\n-----END CERTIFICATE-----\r\n",
+    "CertificateType": "PEM",
+    "Issuer": {
+        "City": "",
+        "CommonName": "Virtual UEFI Root CA",
+        "Country": "",
+        "Email": "",
+        "Organization": "Cisco",
+        "OrganizationalUnit": "Toliman",
+        "State": ""
+    },
+    "Name": "Virtual UEFI SubCA",
+    "Subject": {
+        "City": "",
+        "CommonName": "Virtual UEFI SubCA",
+        "Country": "",
+        "Email": "0",
+        "Organization": "Cisco",
+        "OrganizationalUnit": "Antares",
+        "State": ""
+    },
+    "UefiSignatureOwner": "77FA9ABD-0359-4D32-BD60-28F4E78F784B",
+    "ValidNotAfter": "2099-04-03T16:19:30Z",
+    "ValidNotBefore": "2018-04-03T17:47:34Z"
+}

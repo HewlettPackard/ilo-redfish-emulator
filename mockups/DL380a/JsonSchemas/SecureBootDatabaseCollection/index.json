@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"A6F2456B\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/SecureBootDatabaseCollection",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "SecureBootDatabaseCollection",
+    "Description": "Schema Definition File for SecureBootDatabaseCollection",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/SecureBootDatabaseCollection.json"
+        }
+    ],
+    "Name": "SecureBootDatabaseCollection Schema Definition File",
+    "Schema": "#SecureBootDatabaseCollection.SecureBootDatabaseCollection"
+}

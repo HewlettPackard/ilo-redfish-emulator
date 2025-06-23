@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"B3D41776\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/226",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "226",
+    "Created": "2025-06-19T06:17:07Z",
+    "EntryType": "Oem",
+    "Message": "Browser login: prostack_admin - 172.17.16.73(dsconnector-vm.ds05.vcfmr.local).",
+    "MessageArgs": [],
+    "MessageId": "35.1017",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 6",
+            "Code": 1017,
+            "Count": 2,
+            "EventNumber": 2307,
+            "Severity": "Informational",
+            "Updated": "2025-06-19T06:17:08Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}
