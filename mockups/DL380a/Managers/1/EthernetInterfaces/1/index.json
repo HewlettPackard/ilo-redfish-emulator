@@ -26,16 +26,16 @@
     "HostName": "ds03-worker-node-ilo",
     "IPv4Addresses": [
         {
-            "Address": "172.17.16.55",
+            "Address": "127.0.0.1",
             "AddressOrigin": "Static",
-            "Gateway": "172.17.16.1",
+            "Gateway": "127.0.1.1",
             "SubnetMask": "255.255.255.0"
         }
     ],
     "IPv4StaticAddresses": [
         {
-            "Address": "172.17.16.55",
-            "Gateway": "172.17.16.1",
+            "Address": "127.0.0.1",
+            "AddressOrigin": "Static",
             "SubnetMask": "255.255.255.0"
         }
     ],
