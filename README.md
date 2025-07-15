@@ -77,6 +77,8 @@ EXTERNAL_PORT=<your port range> docker compose up --scale emu=<number of instanc
 EXTERNAL_PORT=5001-5002 docker compose up --scale emu=2 -d 
 ```
 
+### Helpful commands
+
 #### See the running containers with their assigned ports:
 ```
 docker container ls
