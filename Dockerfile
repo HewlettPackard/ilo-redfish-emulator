@@ -72,9 +72,9 @@ COPY src /app
 COPY mockups /app/api_emulator/redfish/static
 
 EXPOSE 443
-ENV MOCKUP_FOLDER="DL360"
+ENV MOCKUP_FOLDER="DL380a"
 ENV PORT=443
-ENV ASYNC_SLEEP=10
+ENV ASYNC_SLEEP=0
 WORKDIR /app
 ENTRYPOINT ["python3"]
 CMD ["emulator.py"]
