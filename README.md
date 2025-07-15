@@ -1,10 +1,8 @@
 # HPE iLO Redfish Interface Emulator
 
-```markdown
 The HPE iLO Redfish Interface Emulator emulates various HPE iLO BMCs for testing and development.  
 The emulator mimics HPE iLO BMC behavior, allowing application development and testing without access to physical hardware.
 This is particularly useful for developers working with the Morpheus HPE Bare Metal plugin, as it enables development and testing of the plugin without needing actual HPE servers.
-```
 
 ## Topics:
 
