@@ -77,22 +77,22 @@ EXTERNAL_PORT=<your port range> docker compose up --scale emu=<number of instanc
 EXTERNAL_PORT=5001-5002 docker compose up --scale emu=2 -d 
 ```
 
-### To see the running containers with their assigned ports:
+#### See the running containers with their assigned ports:
 ```
 docker container ls
 ```
 
-### To tail a container log:
+#### Tail a container log:
 ```
 docker-compose logs -f <container name>
 ```
 
-To stop all the emulator containers:
+#### Stop all containers there were started with docker compose:
 ```
 docker-compose down
 ```
 
-To reset the assigned port in the range, restart the docker daemon:
+#### To reset the port given from the port range, restart the docker daemon:
 ```
 (Ubuntu): sudo systemctl restart docker
 (MacOS using Colima): colima restart
