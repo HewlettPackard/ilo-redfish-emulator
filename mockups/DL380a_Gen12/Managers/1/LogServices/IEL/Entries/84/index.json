@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"2772194603\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/84",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "84",
+    "Created": "2025-06-11T16:59:24Z",
+    "EntryType": "Oem",
+    "Message": "Remote console session stopped by: Administrator - fe80::1afe:3108:facb:5cef(DNS name not found).",
+    "MessageArgs": [],
+    "MessageId": "35.1012",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 1012,
+            "Count": 1,
+            "EventNumber": 1608,
+            "Severity": "Informational",
+            "Updated": "2025-06-11T16:59:24Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

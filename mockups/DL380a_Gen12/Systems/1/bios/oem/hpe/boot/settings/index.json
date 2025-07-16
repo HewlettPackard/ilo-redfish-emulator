@@ -1,0 +1,238 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerBootSettings.HpeServerBootSettings",
+    "@odata.etag": "W/\"C8AC61CC0B5CB2B2B2DA51BF903B23F6\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/settings/",
+    "@odata.type": "#HpeServerBootSettings.v2_0_0.HpeServerBootSettings",
+    "BootSources": [
+        {
+            "BootOptionNumber": "0024",
+            "BootString": "Ubuntu",
+            "CorrelatableID": "HD(1,GPT,9D122B45-D4DB-409C-A085-EB3BBA3D7AB2,0x800,0x100000)/\\EFI\\ubuntu\\shimx64.efi",
+            "StructuredBootString": "NVMe.Slot.1.1",
+            "UEFIDevicePath": "HD(1,GPT,9D122B45-D4DB-409C-A085-EB3BBA3D7AB2,0x800,0x100000)/\\EFI\\ubuntu\\shimx64.efi"
+        },
+        {
+            "BootOptionNumber": "000D",
+            "BootString": "Generic USB Boot",
+            "CorrelatableID": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)",
+            "StructuredBootString": "Generic.USB.1.1",
+            "UEFIDevicePath": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)"
+        },
+        {
+            "BootOptionNumber": "0014",
+            "BootString": "Slot 3 Port 1 : Nvidia Network Adapter - 58:A2:E1:03:A8:E2 (HTTP(S) IPv4)",
+            "CorrelatableID": "PciRoot(0x123)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.3.1.Httpv4",
+            "UEFIDevicePath": "PciRoot(0x123)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(58A2E103A8E2,0x1)/IPv4(0.0.0.0)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0016",
+            "BootString": "Slot 3 Port 1 : Nvidia Network Adapter - 58:A2:E1:03:A8:E2 (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x123)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.1.12.IPv4",
+            "UEFIDevicePath": "PciRoot(0x123)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(58A2E103A8E2,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "0015",
+            "BootString": "Slot 3 Port 1 : Nvidia Network Adapter - 58:A2:E1:03:A8:E2 (HTTP(S) IPv6)",
+            "CorrelatableID": "PciRoot(0x123)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.3.1.Httpv6",
+            "UEFIDevicePath": "PciRoot(0x123)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(58A2E103A8E2,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0017",
+            "BootString": "Slot 3 Port 1 : Nvidia Network Adapter - 58:A2:E1:03:A8:E2 (PXE IPv6)",
+            "CorrelatableID": "PciRoot(0x123)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.3.1.IPv6",
+            "UEFIDevicePath": "PciRoot(0x123)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(58A2E103A8E2,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)"
+        },
+        {
+            "BootOptionNumber": "000E",
+            "BootString": "Slot 7 Port 1 : Mellanox Network Adapter - 88:E9:A4:45:45:F2 (HTTP(S) IPv4)",
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.7.1.Httpv4",
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A44545F2,0x1)/IPv4(0.0.0.0)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0010",
+            "BootString": "Slot 7 Port 1 : Mellanox Network Adapter - 88:E9:A4:45:45:F2 (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.7.1.IPv4",
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A44545F2,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "0012",
+            "BootString": "Slot 8 Port 1 : Mellanox Network Adapter - 88:E9:A4:4C:4E:F8 (HTTP(S) IPv4)",
+            "CorrelatableID": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.8.1.Httpv4",
+            "UEFIDevicePath": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A44C4EF8,0x1)/IPv4(0.0.0.0)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0018",
+            "BootString": "Slot 8 Port 1 : Mellanox Network Adapter - 88:E9:A4:4C:4E:F8 (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.8.1.IPv4",
+            "UEFIDevicePath": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A44C4EF8,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "001A",
+            "BootString": "Slot 25 Port 1 : Mellanox Network Adapter - 88:E9:A4:45:35:DE (HTTP(S) IPv4)",
+            "CorrelatableID": "PciRoot(0x103)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.1.12.Httpv4",
+            "UEFIDevicePath": "PciRoot(0x103)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A44535DE,0x1)/IPv4(0.0.0.0)/Uri()"
+        },
+        {
+            "BootOptionNumber": "001C",
+            "BootString": "Slot 25 Port 1 : Mellanox Network Adapter - 88:E9:A4:45:35:DE (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x103)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.1.12.IPv4",
+            "UEFIDevicePath": "PciRoot(0x103)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A44535DE,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "001E",
+            "BootString": "Slot 26 Port 1 : Mellanox Network Adapter - 88:E9:A4:4C:5E:08 (HTTP(S) IPv4)",
+            "CorrelatableID": "PciRoot(0x133)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.26.1.Httpv4",
+            "UEFIDevicePath": "PciRoot(0x133)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A44C5E08,0x1)/IPv4(0.0.0.0)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0020",
+            "BootString": "Slot 26 Port 1 : Mellanox Network Adapter - 88:E9:A4:4C:5E:08 (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x133)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.26.1.IPv4",
+            "UEFIDevicePath": "PciRoot(0x133)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A44C5E08,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "000F",
+            "BootString": "Slot 7 Port 1 : Mellanox Network Adapter - 88:E9:A4:45:45:F2 (HTTP(S) IPv6)",
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.7.1.Httpv6",
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A44545F2,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0011",
+            "BootString": "Slot 7 Port 1 : Mellanox Network Adapter - 88:E9:A4:45:45:F2 (PXE IPv6)",
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.7.1.IPv6",
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A44545F2,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)"
+        },
+        {
+            "BootOptionNumber": "0013",
+            "BootString": "Slot 8 Port 1 : Mellanox Network Adapter - 88:E9:A4:4C:4E:F8 (HTTP(S) IPv6)",
+            "CorrelatableID": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.8.1.Httpv6",
+            "UEFIDevicePath": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A44C4EF8,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0019",
+            "BootString": "Slot 8 Port 1 : Mellanox Network Adapter - 88:E9:A4:4C:4E:F8 (PXE IPv6)",
+            "CorrelatableID": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.8.1.IPv6",
+            "UEFIDevicePath": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A44C4EF8,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)"
+        },
+        {
+            "BootOptionNumber": "001B",
+            "BootString": "Slot 25 Port 1 : Mellanox Network Adapter - 88:E9:A4:45:35:DE (HTTP(S) IPv6)",
+            "CorrelatableID": "PciRoot(0x103)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.25.1.Httpv6",
+            "UEFIDevicePath": "PciRoot(0x103)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A44535DE,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+        },
+        {
+            "BootOptionNumber": "001D",
+            "BootString": "Slot 25 Port 1 : Mellanox Network Adapter - 88:E9:A4:45:35:DE (PXE IPv6)",
+            "CorrelatableID": "PciRoot(0x103)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.25.1.IPv6",
+            "UEFIDevicePath": "PciRoot(0x103)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A44535DE,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)"
+        },
+        {
+            "BootOptionNumber": "001F",
+            "BootString": "Slot 26 Port 1 : Mellanox Network Adapter - 88:E9:A4:4C:5E:08 (HTTP(S) IPv6)",
+            "CorrelatableID": "PciRoot(0x133)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.26.1.Httpv6",
+            "UEFIDevicePath": "PciRoot(0x133)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A44C5E08,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0021",
+            "BootString": "Slot 26 Port 1 : Mellanox Network Adapter - 88:E9:A4:4C:5E:08 (PXE IPv6)",
+            "CorrelatableID": "PciRoot(0x133)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.26.1.IPv6",
+            "UEFIDevicePath": "PciRoot(0x133)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(88E9A44C5E08,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)"
+        },
+        {
+            "BootOptionNumber": "0022",
+            "BootString": "Storage Slot 29 : HPE NS204i-u Gen11 Boot Controller",
+            "CorrelatableID": "PciRoot(0x11)/Pci(0x6,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NVMe.Slot.1.1",
+            "UEFIDevicePath": "PciRoot(0x11)/Pci(0x6,0x0)/Pci(0x0,0x0)/NVMe(0x1,01-00-FB-C9-97-43-50-00)"
+        }
+    ],
+    "DefaultBootOrder": [
+        "Cd",
+        "Usb",
+        "EmbeddedStorage",
+        "PcieSlotStorage",
+        "EmbeddedFlexLOM",
+        "PcieSlotNic",
+        "UefiShell",
+        "iPXE"
+    ],
+    "DesiredBootDevices": [
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        }
+    ],
+    "Id": "settings",
+    "Name": "Boot Order Pending Settings",
+    "PersistentBootConfigOrder": [
+        "NVMe.Slot.1.1",
+        "Generic.USB.1.1",
+        "NIC.Slot.3.1.Httpv4",
+        "NIC.Slot.1.12.IPv4",
+        "NIC.Slot.3.1.Httpv6",
+        "NIC.Slot.3.1.IPv6",
+        "NIC.Slot.7.1.Httpv4",
+        "NIC.Slot.7.1.IPv4",
+        "NIC.Slot.8.1.Httpv4",
+        "NIC.Slot.8.1.IPv4",
+        "NIC.Slot.1.12.Httpv4",
+        "NIC.Slot.1.12.IPv4",
+        "NIC.Slot.26.1.Httpv4",
+        "NIC.Slot.26.1.IPv4",
+        "NIC.Slot.7.1.Httpv6",
+        "NIC.Slot.7.1.IPv6",
+        "NIC.Slot.8.1.Httpv6",
+        "NIC.Slot.8.1.IPv6",
+        "NIC.Slot.25.1.Httpv6",
+        "NIC.Slot.25.1.IPv6",
+        "NIC.Slot.26.1.Httpv6",
+        "NIC.Slot.26.1.IPv6",
+        "NVMe.Slot.1.1"
+    ]
+}

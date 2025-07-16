@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeHttpsCert.HpeHttpsCert",
+    "@odata.etag": "W/\"3440146806\"",
+    "@odata.id": "/redfish/v1/Managers/1/SecurityService/HttpsCert/",
+    "@odata.type": "#HpeHttpsCert.v2_0_0.HpeHttpsCert",
+    "Id": "HttpsCert",
+    "Actions": {
+        "#HpeHttpsCert.GenerateCSR": {
+            "target": "/redfish/v1/Managers/1/SecurityService/HttpsCert/Actions/HpeHttpsCert.GenerateCSR/"
+        },
+        "#HpeHttpsCert.ImportCertificate": {
+            "target": "/redfish/v1/Managers/1/SecurityService/HttpsCert/Actions/HpeHttpsCert.ImportCertificate/"
+        }
+    },
+    "CertificateSigningRequest": "-----BEGIN CERTIFICATE REQUEST-----\nMIIC7TCCAdUCAQAwfTEWMBQGA1UEAwwNSUxPMk0yRDJRMDJUSDEMMAoGA1UECwwD\nSVNTMSMwIQYDVQQKDBpIZXdsZXR0IFBhY2thcmQgRW50ZXJwcmlzZTERMA8GA1UE\nBwwIQW1lcmljYXMxEDAOBgNVBAgMB0hvdXN0b24xCzAJBgNVBAYTAlVTMIIBIjAN\nBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3hPHHlWnozx5l4R3ulXWk8mYpSpk\n2BV8Hod4en8kUCFFBftRGltrwgAUjvFSWXKLf6ynCYWcVhVvmBFMm1OYE10rMRJe\naFdUiN8oHTzONX+ieeIHYJjafKafVahhGMLiDEHLoFA2ISwrN+9aPqlH2pLw1iT3\nWaRJRkrLvkIUzacLLfMDBX7e0WcSYSrdaN1M6BUg6AGedpb7HAK+iA3sDgYhOfbd\ndZSvRCmqFRYW0YZkvjWRZeSLBkMkBUpz8ZAZxNpWz0XKLXTrTd9bUBIjTmZlle8T\nCue37om7fgEUuEN7dCVEM4Q500eL3hE0MTGdh62qgfekQgzQu5R+YVrpewIDAQAB\noCswKQYJKoZIhvcNAQkOMRwwGjAYBgNVHREEETAPgg1JTE8yTTJEMlEwMlRIMA0G\nCSqGSIb3DQEBCwUAA4IBAQAipmVLRsxv78wn9Gx3hA3OVOWvdkiikMAdDX3/CULw\nWLcLBmmOtOs+RdSMLeTXXO256mdd5NnP+mU87vg7Kaz7u/wkq7b8JBnRzB5kMgtb\n5t3p28rqcrAZ1fPq7in4SNY21vArD9PuvCcZR+5l9XHVlTB7rfxPuTnc7z5Ep/jb\n13Xy2o0D7v4Bxj6wRFYilBy3ERpajUOif5bj/eTfXJn2t6XYSXui1LFH4KsntoAz\nMttnH8wdx4fbZnqwycssApEq/5UEbEBMjzcIQiHfnTkwVBwYVV9fwW9532BXUQ6c\n7Q15SlDhEb4gWbEBbN6A3jotRevTnzauKOzbDgcCvlmj\n-----END CERTIFICATE REQUEST-----\n",
+    "HttpsCertCSRSubjectValue": {
+        "City": "Americas",
+        "CommonName": "ILO2M2D2Q02TH.lhperflab.hpe.com",
+        "Country": "US",
+        "IncludeIP": false,
+        "OrgName": "Hewlett Packard Enterprise",
+        "OrgUnit": "ISS",
+        "State": "Houston"
+    },
+    "X509CertificateInformation": {
+        "Issuer": "CN = Default Issuer (Do not trust), O = Hewlett Packard Enterprise, OU = ISS, L = Americas, ST = Houston, C = US",
+        "SerialNumber": "77:48:fc:ba:32:8a:e8:64",
+        "Subject": "CN = ILO2M2D2Q02TH, O = Hewlett Packard Enterprise, OU = ISS, L = Americas, ST = Houston, C = US",
+        "ValidNotAfter": "2040-05-23T00:49:21Z",
+        "ValidNotBefore": "2025-05-24T00:49:21Z"
+    }
+}

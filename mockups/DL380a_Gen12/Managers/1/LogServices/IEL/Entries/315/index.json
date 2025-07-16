@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"4238630412\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/315",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "315",
+    "Created": "2025-06-25T20:37:49Z",
+    "EntryType": "Oem",
+    "Message": "iLO Network Configuration modified by: Administrator.",
+    "MessageArgs": [],
+    "MessageId": "35.434",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 434,
+            "Count": 1,
+            "EventNumber": 1839,
+            "Severity": "Informational",
+            "Updated": "2025-06-25T20:37:49Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

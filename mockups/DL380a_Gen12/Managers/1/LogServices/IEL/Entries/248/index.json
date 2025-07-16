@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"1334636798\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/248",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "248",
+    "Created": "2025-06-13T21:31:13Z",
+    "EntryType": "Oem",
+    "Message": "APO: Restored power state to standby.",
+    "MessageArgs": [],
+    "MessageId": "35.266",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 266,
+            "Count": 1,
+            "EventNumber": 1772,
+            "Severity": "Informational",
+            "Updated": "2025-06-13T21:31:13Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

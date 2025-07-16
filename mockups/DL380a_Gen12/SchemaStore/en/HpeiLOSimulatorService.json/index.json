@@ -1,0 +1,92 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "HpeiLOSimulatorService",
+    "actions": {
+        "actions": {
+            "HpeiLOSimulatorService.SetConfig": {
+                "additionalProperties": false,
+                "properties": {
+                    "Action": {
+                        "enum": [
+                            "HpeiLOSimulatorService.SetConfig"
+                        ],
+                        "type": "string"
+                    },
+                    "SimulatorConfig": {
+                        "description": "The configuration of iLO Simulator",
+                        "etag": true,
+                        "readonly": false,
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    }
+                },
+                "readonly": true,
+                "required": [
+                    "Action"
+                ],
+                "type": "object"
+            }
+        },
+        "description": "Setting the simulator configuration."
+    },
+    "additionalProperties": false,
+    "copyright": "Copyright 2014-2025 Hewlett Packard Enterprise Development LP.  Portions Copyright 2014-2025 DMTF. All rights reserved.",
+    "description": "The Simulator service resource describes the iLO Simulator feature.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Actions": {
+            "additionalProperties": false,
+            "properties": {
+                "#HpeiLOSimulatorService.SetConfig": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "target": {
+                            "description": "Link to invoke action",
+                            "type": "string"
+                        },
+                        "title": {
+                            "description": "Friendly action name",
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                }
+            },
+            "type": "object"
+        },
+        "Description": {
+            "$ref": "Resource.json#/definitions/Description"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "SimulatorConfig": {
+            "description": "The configuration of iLO Simulator",
+            "etag": true,
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        }
+    },
+    "readonly": false,
+    "title": "#HpeiLOSimulatorService.v1_0_0.HpeiLOSimulatorService",
+    "type": "object"
+}

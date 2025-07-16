@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"3753368710\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/81",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "81",
+    "Created": "2025-07-02T06:17:16Z",
+    "EntryType": "Oem",
+    "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 8, port 1",
+    "MessageArgs": [],
+    "MessageId": "17.10",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 17,
+            "ClassDescription": "Network",
+            "Code": 10,
+            "Count": 1,
+            "EventNumber": 244,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+            "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+            "Repaired": true,
+            "Severity": "Repaired",
+            "Updated": "2025-07-02T06:17:16Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

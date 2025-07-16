@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"515919629\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/437",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "437",
+    "Created": "2025-07-16T23:27:00Z",
+    "EntryType": "Oem",
+    "Message": "Browser logout: Administrator - 127.0.0.1(localhost).",
+    "MessageArgs": [],
+    "MessageId": "35.1018",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 1018,
+            "Count": 408,
+            "EventNumber": 1961,
+            "Severity": "Informational",
+            "Updated": "2025-07-16T23:27:32Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"3441546256\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/16ed98f0",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "16ed98f0",
+    "Activates": "AfterReboot",
+    "ComponentUri": "/fwrepo/U72_1.34_04_18_2025.signed.flash",
+    "Configuration": "",
+    "Created": "2025-05-24T02:48:11Z",
+    "Criticality": "Optional",
+    "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4",
+    "ExecutionParameters": "",
+    "Filename": "U72_1.34_04_18_2025.signed.flash",
+    "Filepath": "U72_1.34_04_18_2025.signed.flash",
+    "Locked": true,
+    "Name": "System BIOS - U72",
+    "SizeBytes": 67114166,
+    "Targets": [
+        "00000000-0000-0000-0000-000000000269",
+        "00000000-0000-0000-0000-000000000268"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "v1.34 (04/18/2025)"
+}

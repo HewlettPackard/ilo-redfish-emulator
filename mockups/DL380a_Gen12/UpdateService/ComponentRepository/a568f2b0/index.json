@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"3441546256\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/a568f2b0",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "a568f2b0",
+    "Activates": "AfterHardPowerCycle",
+    "ComponentUri": "/fwrepo/DL580_380A_SUB_Gen12_v1010_LMS_signed.vme",
+    "Configuration": "",
+    "Created": "2025-05-24T02:48:17Z",
+    "Criticality": "Optional",
+    "DeviceClass": "b1ad439a-9dd1-41c1-a496-2da9313f1f07",
+    "ExecutionParameters": "",
+    "Filename": "DL580_380A_SUB_Gen12_v1010_LMS_signed.vme",
+    "Filepath": "DL580_380A_SUB_Gen12_v1010_LMS_signed.vme",
+    "Locked": true,
+    "Name": "Secondary System Programmable Logic Device",
+    "SizeBytes": 844230,
+    "Targets": [
+        "00000000-0000-0000-0002-000000020277",
+        "00000000-0000-0000-0002-000000020269",
+        "00000000-0000-0000-0002-000000020268",
+        "00000000-0000-0000-0003-000000020277",
+        "00000000-0000-0000-0003-000000020269",
+        "00000000-0000-0000-0003-000000020268"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "10"
+}

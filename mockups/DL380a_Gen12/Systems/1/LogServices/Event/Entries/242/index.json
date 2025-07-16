@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"4188286130\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/242",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "242",
+    "Created": "2025-07-02T07:21:10Z",
+    "EntryType": "Oem",
+    "EventId": "9e000000-5600-0000-6f00-000028000000",
+    "EventTimestamp": "2025-07-02T07:21:10Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/1"
+        }
+    },
+    "MessageArgs": [
+        "OK",
+        "OK",
+        "Redundant",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "False",
+        "Redundant",
+        "OK",
+        "OK",
+        "OK"
+    ],
+    "MessageId": "iLOResourceEvents.7.1.AggregateHealthStatusChange",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

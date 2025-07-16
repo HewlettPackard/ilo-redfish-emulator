@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"4072494834\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/276",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "276",
+    "Created": "2025-06-13T22:29:14Z",
+    "EntryType": "Oem",
+    "Message": "Firmware upgraded to version 1.13.01.",
+    "MessageArgs": [],
+    "MessageId": "35.151",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 151,
+            "Count": 1,
+            "EventNumber": 1800,
+            "Severity": "Informational",
+            "Updated": "2025-06-13T22:29:14Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

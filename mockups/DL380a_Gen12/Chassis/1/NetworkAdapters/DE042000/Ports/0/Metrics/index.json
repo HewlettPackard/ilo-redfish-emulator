@@ -1,0 +1,33 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/Ports/0/Metrics",
+    "@odata.type": "#PortMetrics.v1_2_0.PortMetrics",
+    "@odata.etag": "W/\"3137594F\"",
+    "Id": "0",
+    "Name": "PortMetrics",
+    "Networking": {
+        "RXBroadcastFrames": 4097796,
+        "RXDiscards": 0,
+        "RXFCSErrors": 0,
+        "RXFalseCarrierErrors": 0,
+        "RXFrameAlignmentErrors": 0,
+        "RXFrames": 8872891,
+        "RXMulticastFrames": 4775088,
+        "RXOversizeFrames": 0,
+        "RXUnicastFrames": 7,
+        "TXBroadcastFrames": 0,
+        "TXDiscards": 0,
+        "TXExcessiveCollisions": 0,
+        "TXFrames": 0,
+        "TXLateCollisions": 0,
+        "TXMulticastFrames": 0,
+        "TXSingleCollisions": 0,
+        "TXUnicastFrames": 0
+    },
+    "RXBytes": 4901096130,
+    "TXBytes": 0,
+    "Transceivers": [
+        {
+            "SupplyVoltage": 0.0
+        }
+    ]
+}

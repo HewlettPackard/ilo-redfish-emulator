@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"1502911055\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/258",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "258",
+    "Created": "2025-06-13T21:36:28Z",
+    "EntryType": "Oem",
+    "Message": "Server reset.",
+    "MessageArgs": [],
+    "MessageId": "35.5",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Maintenance",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 5,
+            "Count": 1,
+            "EventNumber": 1782,
+            "Severity": "Caution",
+            "Updated": "2025-06-13T21:36:28Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "Warning"
+}

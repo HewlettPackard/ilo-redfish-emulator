@@ -1,0 +1,125 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_0_0.Settings",
+        "ETag": "",
+        "Messages": [
+            {
+                "MessageId": "Base.1.0.Success"
+            }
+        ],
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/nvmeof/settings/"
+        },
+        "Time": null
+    },
+    "@odata.context": "/redfish/v1/$metadata#HpeNvmeOfSoftwareInitiator.HpeNvmeOfSoftwareInitiator",
+    "@odata.etag": "W/\"BD02288820CEA3A3A3DA0BF3590BCE6A\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/nvmeof/",
+    "@odata.type": "#HpeNvmeOfSoftwareInitiator.v1_0_0.HpeNvmeOfSoftwareInitiator",
+    "Id": "nvmeof",
+    "Name": "NVMe-oF Software Initiator Current Settings",
+    "NvmeOfInitiatorName": "nqn.2014-08.org.nvmexpress",
+    "NvmeOfNicSources": [
+        "Slot3NicBoot1",
+        "Slot3NicBoot2",
+        "Slot7NicBoot1",
+        "Slot8NicBoot1",
+        "Slot25NicBoot1",
+        "Slot26NicBoot1"
+    ],
+    "NvmeOfSources": [
+        {
+            "NvmeOfAttemptInstance": 0,
+            "NvmeOfAttemptName": "",
+            "NvmeOfConnectRetry": 3,
+            "NvmeOfConnectTimeoutMS": 20000,
+            "NvmeOfConnection": "Disabled",
+            "NvmeOfInitiatorGateway": "0.0.0.0",
+            "NvmeOfInitiatorInfoViaDHCP": true,
+            "NvmeOfInitiatorIpAddress": "0.0.0.0",
+            "NvmeOfInitiatorNetmask": "0.0.0.0",
+            "NvmeOfIpAddressType": "IPv4",
+            "NvmeOfNicSource": null,
+            "NvmeOfTargetInfoViaDHCP": true,
+            "NvmeOfTargetIpAddress": "0.0.0.0",
+            "NvmeOfTargetName": "",
+            "NvmeOfTargetNid": "",
+            "NvmeOfTargetTcpPort": 4420,
+            "StructuredBootString": null,
+            "UEFIDevicePath": null
+        },
+        {
+            "NvmeOfAttemptInstance": 0,
+            "NvmeOfAttemptName": "",
+            "NvmeOfConnectRetry": 3,
+            "NvmeOfConnectTimeoutMS": 20000,
+            "NvmeOfConnection": "Disabled",
+            "NvmeOfInitiatorGateway": "0.0.0.0",
+            "NvmeOfInitiatorInfoViaDHCP": true,
+            "NvmeOfInitiatorIpAddress": "0.0.0.0",
+            "NvmeOfInitiatorNetmask": "0.0.0.0",
+            "NvmeOfIpAddressType": "IPv4",
+            "NvmeOfNicSource": null,
+            "NvmeOfTargetInfoViaDHCP": true,
+            "NvmeOfTargetIpAddress": "0.0.0.0",
+            "NvmeOfTargetName": "",
+            "NvmeOfTargetNid": "",
+            "NvmeOfTargetTcpPort": 4420,
+            "StructuredBootString": null,
+            "UEFIDevicePath": null
+        },
+        {
+            "NvmeOfAttemptInstance": 0,
+            "NvmeOfAttemptName": "",
+            "NvmeOfConnectRetry": 3,
+            "NvmeOfConnectTimeoutMS": 20000,
+            "NvmeOfConnection": "Disabled",
+            "NvmeOfInitiatorGateway": "0.0.0.0",
+            "NvmeOfInitiatorInfoViaDHCP": true,
+            "NvmeOfInitiatorIpAddress": "0.0.0.0",
+            "NvmeOfInitiatorNetmask": "0.0.0.0",
+            "NvmeOfIpAddressType": "IPv4",
+            "NvmeOfNicSource": null,
+            "NvmeOfTargetInfoViaDHCP": true,
+            "NvmeOfTargetIpAddress": "0.0.0.0",
+            "NvmeOfTargetName": "",
+            "NvmeOfTargetNid": "",
+            "NvmeOfTargetTcpPort": 4420,
+            "StructuredBootString": null,
+            "UEFIDevicePath": null
+        },
+        {
+            "NvmeOfAttemptInstance": 0,
+            "NvmeOfAttemptName": "",
+            "NvmeOfConnectRetry": 3,
+            "NvmeOfConnectTimeoutMS": 20000,
+            "NvmeOfConnection": "Disabled",
+            "NvmeOfInitiatorGateway": "0.0.0.0",
+            "NvmeOfInitiatorInfoViaDHCP": true,
+            "NvmeOfInitiatorIpAddress": "0.0.0.0",
+            "NvmeOfInitiatorNetmask": "0.0.0.0",
+            "NvmeOfIpAddressType": "IPv4",
+            "NvmeOfNicSource": null,
+            "NvmeOfTargetInfoViaDHCP": true,
+            "NvmeOfTargetIpAddress": "0.0.0.0",
+            "NvmeOfTargetName": "",
+            "NvmeOfTargetNid": "",
+            "NvmeOfTargetTcpPort": 4420,
+            "StructuredBootString": null,
+            "UEFIDevicePath": null
+        }
+    ],
+    "Oem": {
+        "Hpe": {
+            "@odata.type": "#HpeBiosExt.v2_0_1.HpeBiosExt",
+            "Links": {
+                "BaseConfigs": {
+                    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/nvmeof/baseconfigs/"
+                }
+            },
+            "SettingsObject": {
+                "UnmodifiedETag": "W/\"D010D080D2E82E2E2E4222014BD85545\""
+            }
+        }
+    }
+}

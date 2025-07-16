@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"1197772300\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/277",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "277",
+    "Created": "2025-06-13T22:29:14Z",
+    "EntryType": "Oem",
+    "Message": "iLO reset for Firmware upgrade.",
+    "MessageArgs": [],
+    "MessageId": "35.27",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 27,
+            "Count": 1,
+            "EventNumber": 1801,
+            "Severity": "Caution",
+            "Updated": "2025-06-13T22:29:14Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "Warning"
+}

@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"2444283415\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/106",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "106",
+    "Created": "2025-06-12T21:16:19Z",
+    "EntryType": "Oem",
+    "Message": "Require Login for iLO RBSU enabled by: RBSU USER.",
+    "MessageArgs": [],
+    "MessageId": "35.476",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 476,
+            "Count": 1,
+            "EventNumber": 1630,
+            "Severity": "Informational",
+            "Updated": "2025-06-12T21:16:19Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

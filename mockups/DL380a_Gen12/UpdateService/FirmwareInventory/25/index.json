@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"87676162\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/25",
+    "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+    "Id": "25",
+    "Description": "1b4b224115900379",
+    "Name": "HPE NS204i-u Gen11 Boot Controller",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": null,
+            "DeviceContext": "PCI-E Slot 29",
+            "DeviceInstance": "PciRoot(0x11)/Pci(0x6,0x0)/Pci(0x0,0x0)",
+            "Targets": [
+                "a6b1a447-382a-5a4f-1b4b-224115900379"
+            ]
+        }
+    },
+    "Updateable": true,
+    "Version": "1.2.14.1018",
+    "VersionScheme": "OEM"
+}

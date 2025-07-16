@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"903754867\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/29",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "29",
+    "Created": "2025-06-11T15:27:41Z",
+    "EntryType": "Oem",
+    "Message": "Firmware upgrade started from: 127.0.0.1(localhost).",
+    "MessageArgs": [],
+    "MessageId": "35.1001",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 1001,
+            "Count": 1,
+            "EventNumber": 1553,
+            "Severity": "Informational",
+            "Updated": "2025-06-11T15:27:41Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

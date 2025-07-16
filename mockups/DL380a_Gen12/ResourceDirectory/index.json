@@ -1,0 +1,6049 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeiLOResourceDirectory.HpeiLOResourceDirectory",
+    "@odata.etag": "W/\"1178634034\"",
+    "@odata.id": "/redfish/v1/ResourceDirectory",
+    "@odata.type": "#HpeiLOResourceDirectory.v2_0_0.HpeiLOResourceDirectory",
+    "Id": "ResourceDirectory",
+    "Instances": [
+        {
+            "@odata.id": "/redfish/v1",
+            "@odata.type": "#ServiceRoot.v1_13_0.ServiceRoot",
+            "ETag": "W/\"4201514122\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1",
+            "@odata.type": "#Manager.v1_19_1.Manager",
+            "ETag": "W/\"3246203602\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers",
+            "@odata.type": "#ManagerCollection.ManagerCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SerialInterfaces/1",
+            "@odata.type": "#SerialInterface.v1_1_7.SerialInterface",
+            "ETag": "W/\"217715420\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SerialInterfaces",
+            "@odata.type": "#SerialInterfaceCollection.SerialInterfaceCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1",
+            "@odata.type": "#ComputerSystem.v1_18_0.ComputerSystem",
+            "ETag": "W/\"3007343138\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems",
+            "@odata.type": "#ComputerSystemCollection.ComputerSystemCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1",
+            "@odata.type": "#Chassis.v1_23_0.Chassis",
+            "ETag": "W/\"4147595235\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/2",
+            "@odata.type": "#Chassis.v1_23_0.Chassis",
+            "ETag": "W/\"3646561557\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis",
+            "@odata.type": "#ChassisCollection.ChassisCollection",
+            "ETag": "W/\"1459770610\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios",
+            "@odata.type": "#Bios.v1_2_3.Bios",
+            "ETag": "W/\"7E4B337A948AA2A2A27EC6918808E0EC\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/baseconfigs",
+            "@odata.type": "#HpeBaseConfigs.v2_0_0.HpeBaseConfigs",
+            "ETag": "W/\"9CBAE85257F2CECECE4D028AB939B23A\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot",
+            "@odata.type": "#HpeServerBootSettings.v2_0_0.HpeServerBootSettings",
+            "ETag": "W/\"928A71744F3D282828DBE3E5F512C7D4\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/baseconfigs",
+            "@odata.type": "#HpeBaseConfigs.v2_0_0.HpeBaseConfigs",
+            "ETag": "W/\"65A40D9A3385424242CA18AE3FCC09CC\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/settings",
+            "@odata.type": "#HpeServerBootSettings.v2_0_0.HpeServerBootSettings",
+            "ETag": "W/\"C8AC61CC0B5CB2B2B2DA51BF903B23F6\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/iscsi",
+            "@odata.type": "#HpeiSCSISoftwareInitiator.v2_0_0.HpeiSCSISoftwareInitiator",
+            "ETag": "W/\"EB1CE6518DE69A9A9A6E8B76FA4E5C30\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/iscsi/baseconfigs",
+            "@odata.type": "#HpeBaseConfigs.v2_0_0.HpeBaseConfigs",
+            "ETag": "W/\"8BDE946C86C27878788D5D6A79CF6547\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/iscsi/settings",
+            "@odata.type": "#HpeiSCSISoftwareInitiator.v2_0_0.HpeiSCSISoftwareInitiator",
+            "ETag": "W/\"D4F717CDBE2C11111128BFD879D45EAD\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/mappings",
+            "@odata.type": "#HpeBiosMapping.v2_0_0.HpeBiosMapping",
+            "ETag": "W/\"ACE6E04EAF3CD5D5D51E18A4A9A51140\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/nvmeof",
+            "@odata.type": "#HpeNvmeOfSoftwareInitiator.v1_0_0.HpeNvmeOfSoftwareInitiator",
+            "ETag": "W/\"BD02288820CEA3A3A3DA0BF3590BCE6A\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/nvmeof/baseconfigs",
+            "@odata.type": "#HpeBaseConfigs.v2_0_0.HpeBaseConfigs",
+            "ETag": "W/\"1E579A6F1D5C3333330065B9A79BC168\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/nvmeof/settings",
+            "@odata.type": "#HpeNvmeOfSoftwareInitiator.v1_0_0.HpeNvmeOfSoftwareInitiator",
+            "ETag": "W/\"D010D080D2E82E2E2E4222014BD85545\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/serverconfiglock",
+            "@odata.type": "#HpeServerConfigLock.v1_0_0.HpeServerConfigLock",
+            "ETag": "W/\"640E8CD87E4B90909059467337784D1A\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/serverconfiglock/baseconfigs",
+            "@odata.type": "#HpeBaseConfigs.v2_0_0.HpeBaseConfigs",
+            "ETag": "W/\"D0B55625849CF3F3F349C3ED1A354912\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/serverconfiglock/settings",
+            "@odata.type": "#HpeServerConfigLock.v1_0_0.HpeServerConfigLock",
+            "ETag": "W/\"AC9947F45EFEC9C9C94BC2B5B81171ED\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/tlsconfig",
+            "@odata.type": "#HpeTlsConfig.v1_0_0.HpeTlsConfig",
+            "ETag": "W/\"51BF9303E0B23030307DE781122B000F\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/tlsconfig/baseconfigs",
+            "@odata.type": "#HpeBaseConfigs.v2_0_0.HpeBaseConfigs",
+            "ETag": "W/\"2F232BF31485D5D5D58952B3BADA9B37\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/tlsconfig/settings",
+            "@odata.type": "#HpeTlsConfig.v1_0_0.HpeTlsConfig",
+            "ETag": "W/\"72A8327432B9212121638A8481C540A5\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/systems/1/bios/settings",
+            "@odata.type": "#Bios.v1_2_3.Bios",
+            "ETag": "W/\"F5A9ADE154698787879F028B1665AA17\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService/Accounts/65536",
+            "@odata.type": "#ManagerAccount.v1_12_1.ManagerAccount",
+            "ETag": "W/\"1261193879\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService/Accounts",
+            "@odata.type": "#ManagerAccountCollection.ManagerAccountCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService",
+            "@odata.type": "#AccountService.v1_15_0.AccountService",
+            "ETag": "W/\"985003737\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService/UserCertificateMapping/65536",
+            "@odata.type": "#HpeiLOAccountCertificateMap.v1_0_1.HpeiLOAccountCertificateMap",
+            "ETag": "W/\"2789458325\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService/UserCertificateMapping",
+            "@odata.type": "#HpeiLOAccountCertificateMapCollection.HpeiLOAccountCertificateMapCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService/DirectoryTest",
+            "@odata.type": "#HpeDirectoryTest.v1_0_0.HpeDirectoryTest",
+            "ETag": "W/\"1799301361\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService/Roles/Administrator",
+            "@odata.type": "#Role.v1_2_1.Role",
+            "ETag": "W/\"1140299304\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService/Roles/Operator",
+            "@odata.type": "#Role.v1_2_1.Role",
+            "ETag": "W/\"1140299304\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService/Roles/ReadOnly",
+            "@odata.type": "#Role.v1_2_1.Role",
+            "ETag": "W/\"600165216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService/Roles/dirgroup9d4546a03a03bb977c03086a",
+            "@odata.type": "#Role.v1_2_1.Role",
+            "ETag": "W/\"4254808919\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService/Roles/dirgroupb3d8954f6ebbe735764e9f7c",
+            "@odata.type": "#Role.v1_2_1.Role",
+            "ETag": "W/\"3391709375\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService/Roles",
+            "@odata.type": "#RoleCollection.RoleCollection",
+            "ETag": "W/\"144846794\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService/ExternalAccountProviders/LDAP/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService/Accounts/65536/Keys",
+            "@odata.type": "#KeyCollection.KeyCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/AccountService/Oem/Hpe/AppAccounts",
+            "@odata.type": "#ManagerAccountCollection.ManagerAccountCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/administrator000000006878351bbe83f39",
+            "@odata.type": "#Session.v1_0_0.Session",
+            "ETag": "W/\"1947991606\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/SessionService/Sessions",
+            "@odata.type": "#SessionCollection.SessionCollection",
+            "ETag": "W/\"2445574655\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/SessionService",
+            "@odata.type": "#SessionService.v1_0_0.SessionService",
+            "ETag": "W/\"509123669\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/1",
+            "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
+            "ETag": "W/\"3237341975\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/2",
+            "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
+            "ETag": "W/\"2316993897\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/3",
+            "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
+            "ETag": "W/\"855127702\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces",
+            "@odata.type": "#EthernetInterfaceCollection.EthernetInterfaceCollection",
+            "ETag": "W/\"3851011263\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/NetworkProtocol",
+            "@odata.type": "#ManagerNetworkProtocol.v1_0_0.ManagerNetworkProtocol",
+            "ETag": "W/\"1021075181\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/DateTime",
+            "@odata.type": "#HpeiLODateTime.v2_1_0.HpeiLODateTime",
+            "ETag": "W/\"3320856715\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/LicenseService/1",
+            "@odata.type": "#HpeiLOLicense.v2_5_0.HpeiLOLicense",
+            "ETag": "W/\"1992384416\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/LicenseService",
+            "@odata.type": "#HpeiLOLicenseCollection.HpeiLOLicenseCollection",
+            "ETag": "W/\"3737612900\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal",
+            "@odata.type": "#Thermal.v1_7_1.Thermal",
+            "ETag": "W/\"3187324012\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem",
+            "@odata.type": "#ThermalSubsystem.v1_3_2.ThermalSubsystem",
+            "ETag": "W/\"1212403165\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/ThermalMetrics",
+            "@odata.type": "#ThermalMetrics.v1_3_1.ThermalMetrics",
+            "ETag": "W/\"395227800\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/0",
+            "@odata.type": "#Fan.v1_5_1.Fan",
+            "ETag": "W/\"340811868\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/1",
+            "@odata.type": "#Fan.v1_5_1.Fan",
+            "ETag": "W/\"340811868\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/10",
+            "@odata.type": "#Fan.v1_5_1.Fan",
+            "ETag": "W/\"340811868\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/11",
+            "@odata.type": "#Fan.v1_5_1.Fan",
+            "ETag": "W/\"340811868\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/2",
+            "@odata.type": "#Fan.v1_5_1.Fan",
+            "ETag": "W/\"340811868\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/3",
+            "@odata.type": "#Fan.v1_5_1.Fan",
+            "ETag": "W/\"340811868\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/4",
+            "@odata.type": "#Fan.v1_5_1.Fan",
+            "ETag": "W/\"340811868\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/5",
+            "@odata.type": "#Fan.v1_5_1.Fan",
+            "ETag": "W/\"340811868\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/6",
+            "@odata.type": "#Fan.v1_5_1.Fan",
+            "ETag": "W/\"340811868\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/7",
+            "@odata.type": "#Fan.v1_5_1.Fan",
+            "ETag": "W/\"340811868\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/8",
+            "@odata.type": "#Fan.v1_5_1.Fan",
+            "ETag": "W/\"340811868\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/9",
+            "@odata.type": "#Fan.v1_5_1.Fan",
+            "ETag": "W/\"340811868\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans",
+            "@odata.type": "#FanCollection.FanCollection",
+            "ETag": "W/\"3302210160\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Pumps",
+            "@odata.type": "#PumpCollection.PumpCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/0/Assembly",
+            "@odata.type": "#Assembly.v1_5_0.Assembly",
+            "ETag": "W/\"1379941224\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/1/Assembly",
+            "@odata.type": "#Assembly.v1_5_0.Assembly",
+            "ETag": "W/\"1379941224\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/10/Assembly",
+            "@odata.type": "#Assembly.v1_5_0.Assembly",
+            "ETag": "W/\"1379941224\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/11/Assembly",
+            "@odata.type": "#Assembly.v1_5_0.Assembly",
+            "ETag": "W/\"1379941224\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/2/Assembly",
+            "@odata.type": "#Assembly.v1_5_0.Assembly",
+            "ETag": "W/\"1379941224\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/3/Assembly",
+            "@odata.type": "#Assembly.v1_5_0.Assembly",
+            "ETag": "W/\"1379941224\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/4/Assembly",
+            "@odata.type": "#Assembly.v1_5_0.Assembly",
+            "ETag": "W/\"1379941224\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/5/Assembly",
+            "@odata.type": "#Assembly.v1_5_0.Assembly",
+            "ETag": "W/\"1379941224\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/6/Assembly",
+            "@odata.type": "#Assembly.v1_5_0.Assembly",
+            "ETag": "W/\"1379941224\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/7/Assembly",
+            "@odata.type": "#Assembly.v1_5_0.Assembly",
+            "ETag": "W/\"1379941224\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/8/Assembly",
+            "@odata.type": "#Assembly.v1_5_0.Assembly",
+            "ETag": "W/\"1379941224\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/ThermalSubsystem/Fans/9/Assembly",
+            "@odata.type": "#Assembly.v1_5_0.Assembly",
+            "ETag": "W/\"1379941224\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Power",
+            "@odata.type": "#Power.v1_7_1.Power",
+            "ETag": "W/\"269459038\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Power/FastPowerMeter",
+            "@odata.type": "#HpePowerMeter.v2_1_0.HpePowerMeter",
+            "ETag": "W/\"2502473297\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Power/PowerMeter",
+            "@odata.type": "#HpePowerMeter.v2_1_0.HpePowerMeter",
+            "ETag": "W/\"2948567106\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Power/SlowPowerMeter",
+            "@odata.type": "#HpePowerMeter.v2_1_0.HpePowerMeter",
+            "ETag": "W/\"937641665\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/1",
+            "@odata.type": "#HpeServerPciDevice.v2_1_0.HpeServerPciDevice",
+            "ETag": "W/\"4224177973\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/10",
+            "@odata.type": "#HpeServerPciDevice.v2_1_0.HpeServerPciDevice",
+            "ETag": "W/\"3404997370\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/11",
+            "@odata.type": "#HpeServerPciDevice.v2_1_0.HpeServerPciDevice",
+            "ETag": "W/\"883054716\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/12",
+            "@odata.type": "#HpeServerPciDevice.v2_1_0.HpeServerPciDevice",
+            "ETag": "W/\"3291237307\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/13",
+            "@odata.type": "#HpeServerPciDevice.v2_1_0.HpeServerPciDevice",
+            "ETag": "W/\"2481349469\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/14",
+            "@odata.type": "#HpeServerPciDevice.v2_1_0.HpeServerPciDevice",
+            "ETag": "W/\"792413145\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/15",
+            "@odata.type": "#HpeServerPciDevice.v2_1_0.HpeServerPciDevice",
+            "ETag": "W/\"3921513309\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/2",
+            "@odata.type": "#HpeServerPciDevice.v2_1_0.HpeServerPciDevice",
+            "ETag": "W/\"2384381130\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/3",
+            "@odata.type": "#HpeServerPciDevice.v2_1_0.HpeServerPciDevice",
+            "ETag": "W/\"2042699870\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/4",
+            "@odata.type": "#HpeServerPciDevice.v2_1_0.HpeServerPciDevice",
+            "ETag": "W/\"3693879833\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/5",
+            "@odata.type": "#HpeServerPciDevice.v2_1_0.HpeServerPciDevice",
+            "ETag": "W/\"524175265\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/6",
+            "@odata.type": "#HpeServerPciDevice.v2_1_0.HpeServerPciDevice",
+            "ETag": "W/\"2727528645\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/7",
+            "@odata.type": "#HpeServerPciDevice.v2_1_0.HpeServerPciDevice",
+            "ETag": "W/\"1915226647\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/8",
+            "@odata.type": "#HpeServerPciDevice.v2_1_0.HpeServerPciDevice",
+            "ETag": "W/\"106137937\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/9",
+            "@odata.type": "#HpeServerPciDevice.v2_1_0.HpeServerPciDevice",
+            "ETag": "W/\"738686627\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices",
+            "@odata.type": "#HpeServerPciDeviceCollection.HpeServerPciDeviceCollection",
+            "ETag": "W/\"1075665996\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/1",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"221704792\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/10",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"2969049601\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/11",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"3082591282\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/12",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"1332611249\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/13",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"918619050\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/14",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"883518675\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/15",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"1292265416\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/16",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"3334177806\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/17",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"3625366520\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/18",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"962781508\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/19",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"667932338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/2",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"3007857444\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/20",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"3796328571\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/21",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"4165622169\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/22",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"1615726680\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/23",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"3579923825\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/24",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"1634331254\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/25",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"3321813342\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/26",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"2273472448\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/27",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"115824030\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/3",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"2475692506\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/4",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"1264961795\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/5",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"2471980715\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/6",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"320893496\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/7",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"3407009168\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/8",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"1224562473\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/9",
+            "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+            "ETag": "W/\"1337577754\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots",
+            "@odata.type": "#HpeServerPCISlotCollection.HpeServerPCISlotCollection",
+            "ETag": "W/\"2748678713\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService",
+            "@odata.type": "#UpdateService.v1_2_1.UpdateService",
+            "ETag": "W/\"322988070\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot",
+            "@odata.type": "#SecureBoot.v1_1_0.SecureBoot",
+            "ETag": "W/\"4242093135\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEK",
+            "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+            "ETag": "W/\"2818716332\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEKDefault",
+            "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+            "ETag": "W/\"3759335518\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/PK",
+            "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+            "ETag": "W/\"2818716332\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/PKDefault",
+            "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+            "ETag": "W/\"3759335518\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db",
+            "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+            "ETag": "W/\"943069946\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault",
+            "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+            "ETag": "W/\"438335041\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbr",
+            "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+            "ETag": "W/\"943069946\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbrDefault",
+            "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+            "ETag": "W/\"438335041\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbt",
+            "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+            "ETag": "W/\"943069946\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbtDefault",
+            "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+            "ETag": "W/\"438335041\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx",
+            "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+            "ETag": "W/\"943069946\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault",
+            "@odata.type": "#SecureBootDatabase.v1_0_0.SecureBootDatabase",
+            "ETag": "W/\"438335041\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases",
+            "@odata.type": "#SecureBootDatabaseCollection.SecureBootDatabaseCollection",
+            "ETag": "W/\"3302210160\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/PKDefault/Certificates/2",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"3726078581\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/PKDefault/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEKDefault/Certificates/2",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"3240406462\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEKDefault/Certificates/3",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"359670174\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEKDefault/Certificates/4",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"2821423461\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEKDefault/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"3851011263\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates/2",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"3693762181\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates/3",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"1493107270\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates/4",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"2850083844\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates/5",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"3885003533\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates/6",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"705082124\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates/7",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"127782696\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates/8",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"4191179795\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates/9",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"1615396755\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"3590498698\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Certificates/2",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"632652837\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Certificates/3",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"3533283175\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Certificates/4",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"202587784\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"3851011263\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbtDefault/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbrDefault/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/PK/Certificates/2",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"3726078581\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/PK/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEK/Certificates/2",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"3240406462\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEK/Certificates/3",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"359670174\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEK/Certificates/4",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"2821423461\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/KEK/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"3851011263\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/2",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"3693762181\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/3",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"1493107270\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/4",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"2850083844\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/5",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"3885003533\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/6",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"705082124\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/7",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"127782696\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/8",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"4191179795\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates/9",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"1615396755\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"3590498698\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Certificates/2",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"632652837\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Certificates/3",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"3533283175\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Certificates/4",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"202587784\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"3851011263\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbt/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbr/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Signatures",
+            "@odata.type": "#SignatureCollection.SignatureCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/10",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/11",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/2",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/3",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/4",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/5",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/6",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/7",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/8",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures/9",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbxDefault/Signatures",
+            "@odata.type": "#SignatureCollection.SignatureCollection",
+            "ETag": "W/\"566386907\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbtDefault/Signatures",
+            "@odata.type": "#SignatureCollection.SignatureCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbrDefault/Signatures",
+            "@odata.type": "#SignatureCollection.SignatureCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/db/Signatures",
+            "@odata.type": "#SignatureCollection.SignatureCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Signatures/10",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Signatures/11",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Signatures/2",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Signatures/3",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Signatures/4",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Signatures/5",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Signatures/6",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Signatures/7",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Signatures/8",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Signatures/9",
+            "@odata.type": "#Signature.v1_0_2.Signature",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PUT",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Signatures",
+            "@odata.type": "#SignatureCollection.SignatureCollection",
+            "ETag": "W/\"566386907\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbt/Signatures",
+            "@odata.type": "#SignatureCollection.SignatureCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbr/Signatures",
+            "@odata.type": "#SignatureCollection.SignatureCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/VirtualMedia/1",
+            "@odata.type": "#VirtualMedia.v1_3_0.VirtualMedia",
+            "ETag": "W/\"164013748\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/VirtualMedia/2",
+            "@odata.type": "#VirtualMedia.v1_3_0.VirtualMedia",
+            "ETag": "W/\"342887894\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/VirtualMedia",
+            "@odata.type": "#VirtualMediaCollection.VirtualMediaCollection",
+            "ETag": "W/\"1459770610\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SnmpService",
+            "@odata.type": "#HpeiLOSnmpService.v2_4_1.HpeiLOSnmpService",
+            "ETag": "W/\"3145603081\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SnmpService/SNMPUsers",
+            "@odata.type": "#HpeSNMPUsersCollection.HpeSNMPUsersCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SnmpService/SNMPAlertDestinations",
+            "@odata.type": "#HpeSNMPAlertDestinationCollection.HpeSNMPAlertDestinationCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/Event",
+            "@odata.type": "#LogService.v1_1_0.LogService",
+            "ETag": "W/\"2702260591\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML",
+            "@odata.type": "#LogService.v1_1_0.LogService",
+            "ETag": "W/\"2702260591\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL",
+            "@odata.type": "#LogService.v1_1_0.LogService",
+            "ETag": "W/\"2702260591\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/LogServices",
+            "@odata.type": "#LogServiceCollection.LogServiceCollection",
+            "ETag": "W/\"3851011263\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL",
+            "@odata.type": "#LogService.v1_1_0.LogService",
+            "ETag": "W/\"2702260591\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/LogServices",
+            "@odata.type": "#LogServiceCollection.LogServiceCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/ActiveHealthSystem",
+            "@odata.type": "#HpeiLOActiveHealthSystem.v2_5_0.HpeiLOActiveHealthSystem",
+            "ETag": "W/\"3411414647\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm1",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1235915338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm10",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1235915338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm11",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1634046061\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm12",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1235915338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm13",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1634046061\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm14",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1235915338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm15",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1634046061\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm16",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1235915338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm2",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1634046061\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm3",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1235915338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm4",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1634046061\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm5",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1235915338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm6",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1634046061\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm7",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1235915338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm8",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1634046061\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm9",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1634046061\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm1",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1235915338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm10",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1235915338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm11",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1634046061\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm12",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1235915338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm13",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1634046061\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm14",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1235915338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm15",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1634046061\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm16",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1235915338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm2",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1634046061\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm3",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1235915338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm4",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1634046061\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm5",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1235915338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm6",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1634046061\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm7",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1235915338\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm8",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1634046061\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory/proc2dimm9",
+            "@odata.type": "#Memory.v1_14_0.Memory",
+            "ETag": "W/\"1634046061\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Memory",
+            "@odata.type": "#MemoryCollection.MemoryCollection",
+            "ETag": "W/\"1388508362\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/EventService/Subscriptions",
+            "@odata.type": "#EventDestinationCollection.EventDestinationCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/EventService",
+            "@odata.type": "#EventService.v1_7_2.EventService",
+            "ETag": "W/\"3615085475\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/EventService/CACertificates",
+            "@odata.type": "#HpeCertificateCollection.HpeCertificateCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/CertificateService",
+            "@odata.type": "#CertificateService.v1_0_3.CertificateService",
+            "ETag": "W/\"2432426776\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/CertificateService/CertificateLocations",
+            "@odata.type": "#CertificateLocations.v1_0_2.CertificateLocations",
+            "ETag": "W/\"1987900394\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Processors/1",
+            "@odata.type": "#Processor.v1_8_2.Processor",
+            "ETag": "W/\"1102776840\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Processors/2",
+            "@odata.type": "#Processor.v1_8_2.Processor",
+            "ETag": "W/\"1102776840\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Processors/3",
+            "@odata.type": "#Processor.v1_8_2.Processor",
+            "ETag": "W/\"536851145\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Processors/4",
+            "@odata.type": "#Processor.v1_8_2.Processor",
+            "ETag": "W/\"106702206\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Processors/5",
+            "@odata.type": "#Processor.v1_8_2.Processor",
+            "ETag": "W/\"3873188270\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Processors/6",
+            "@odata.type": "#Processor.v1_8_2.Processor",
+            "ETag": "W/\"3870474240\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Processors",
+            "@odata.type": "#ProcessorCollection.ProcessorCollection",
+            "ETag": "W/\"3589042973\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService",
+            "@odata.type": "#HpeSecurityService.v2_7_0.HpeSecurityService",
+            "ETag": "W/\"1086786444\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/ESKM",
+            "@odata.type": "#HpeESKM.v2_1_0.HpeESKM",
+            "ETag": "W/\"2991901023\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/HttpsCert",
+            "@odata.type": "#HpeHttpsCert.v2_0_0.HpeHttpsCert",
+            "ETag": "W/\"3440146806\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SSO",
+            "@odata.type": "#HpeiLOSSO.v2_0_0.HpeiLOSSO",
+            "ETag": "W/\"3267240880\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard",
+            "@odata.type": "#HpeiLOSecurityDashboard.v1_0_0.HpeiLOSecurityDashboard",
+            "ETag": "W/\"1412453811\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/0",
+            "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/1",
+            "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/10",
+            "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/11",
+            "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/2",
+            "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/3",
+            "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/4",
+            "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/5",
+            "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/6",
+            "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/7",
+            "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/8",
+            "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/9",
+            "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams",
+            "@odata.type": "#HpeiLOSecurityParamCollection.HpeiLOSecurityParamCollection",
+            "ETag": "W/\"3302210160\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/0",
+            "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+            "ETag": "W/\"1647520050\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/1",
+            "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+            "ETag": "W/\"1647520050\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/10",
+            "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+            "ETag": "W/\"1647520050\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/11",
+            "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+            "ETag": "W/\"1647520050\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/2",
+            "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+            "ETag": "W/\"1647520050\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/3",
+            "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+            "ETag": "W/\"1647520050\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/4",
+            "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+            "ETag": "W/\"1647520050\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/5",
+            "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+            "ETag": "W/\"1647520050\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/6",
+            "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+            "ETag": "W/\"1647520050\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/7",
+            "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+            "ETag": "W/\"1647520050\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/8",
+            "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+            "ETag": "W/\"1647520050\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/9",
+            "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+            "ETag": "W/\"1647520050\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity",
+            "@odata.type": "#ComponentIntegrityCollection.ComponentIntegrityCollection",
+            "ETag": "W/\"1075665996\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/iLOLDevID/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/PlatformCert/Certificates/1",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"3861678687\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/PlatformCert/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemIDevID/Certificates/1",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"4197886664\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemIDevID/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemIAK/Certificates/1",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"3984759024\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemIAK/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCIDevIDPca/Certificates/1",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"4161198130\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCIDevIDPca/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCHPELDevID/Certificates/1",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"405112465\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCHPELDevID/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCIAK/Certificates/1",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"4085352112\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCIAK/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCLAK/Certificates/1",
+            "@odata.type": "#Certificate.v1_6_0.Certificate",
+            "ETag": "W/\"903770552\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCLAK/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemLDevID/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemLAK/Certificates",
+            "@odata.type": "#CertificateCollection.CertificateCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/16ed98f0",
+            "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+            "ETag": "W/\"3441546256\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/68cc9561",
+            "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+            "ETag": "W/\"3441546256\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/73187049",
+            "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+            "ETag": "W/\"3441546256\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/a568f2b0",
+            "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+            "ETag": "W/\"3441546256\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/d98b1102",
+            "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+            "ETag": "W/\"3441546256\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository",
+            "@odata.type": "#HpeComponentCollection.HpeComponentCollection",
+            "ETag": "W/\"1393609153\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/InstallSets/a74b22b6",
+            "@odata.type": "#HpeComponentInstallSet.v1_5_0.HpeComponentInstallSet",
+            "ETag": "W/\"4035323964\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/InstallSets",
+            "@odata.type": "#HpeComponentInstallSetCollection.HpeComponentInstallSetCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/UpdateTaskQueue",
+            "@odata.type": "#HpeComponentUpdateTaskQueueCollection.HpeComponentUpdateTaskQueueCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/MaintenanceWindows",
+            "@odata.type": "#HpeMaintenanceWindowCollection.HpeMaintenanceWindowCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/1",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"2441979556\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/10",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/11",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/12",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"502642814\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/13",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"502642814\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/14",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"502642814\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/15",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"502642814\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/16",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"502642814\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/17",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"502642814\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/18",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"502642814\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/19",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"502642814\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/2",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"2441979556\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/20",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"502642814\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/21",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"502642814\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/22",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"502642814\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/23",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"502642814\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/24",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/25",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/26",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/27",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/28",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/29",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/3",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/30",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/31",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/32",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/33",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/34",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/35",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/36",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/37",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/38",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/39",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/4",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"2441979556\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/40",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"1412173920\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/41",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"1412173920\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/42",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/43",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/5",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"2441979556\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/6",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"2441979556\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/7",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/8",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/9",
+            "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+            "ETag": "W/\"87676162\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory",
+            "@odata.type": "#SoftwareInventoryCollection.SoftwareInventoryCollection",
+            "ETag": "W/\"3712023116\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory",
+            "@odata.type": "#SoftwareInventoryCollection.SoftwareInventoryCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/InvalidImageRepository/440860f0",
+            "@odata.type": "#HpeInvalidImage.v1_0_0.HpeInvalidImage",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/InvalidImageRepository",
+            "@odata.type": "#HpeInvalidImageCollection.HpeInvalidImageCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/RunningSoftwareInventory",
+            "@odata.type": "#HpeiLORunningSoftwareInventoryCollection.HpeiLORunningSoftwareInventoryCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/USBPorts/1",
+            "@odata.type": "#HpeUSBPort.v2_0_0.HpeUSBPort",
+            "ETag": "W/\"1590516948\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/USBPorts/2",
+            "@odata.type": "#HpeUSBPort.v2_0_0.HpeUSBPort",
+            "ETag": "W/\"1137040724\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/USBPorts/3",
+            "@odata.type": "#HpeUSBPort.v2_0_0.HpeUSBPort",
+            "ETag": "W/\"128986094\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/USBPorts/4",
+            "@odata.type": "#HpeUSBPort.v2_0_0.HpeUSBPort",
+            "ETag": "W/\"1581346124\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/USBPorts/5",
+            "@odata.type": "#HpeUSBPort.v2_0_0.HpeUSBPort",
+            "ETag": "W/\"2704653206\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/USBPorts/6",
+            "@odata.type": "#HpeUSBPort.v2_0_0.HpeUSBPort",
+            "ETag": "W/\"1100620617\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/USBPorts/7",
+            "@odata.type": "#HpeUSBPort.v2_0_0.HpeUSBPort",
+            "ETag": "W/\"1127972004\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/USBPorts/8",
+            "@odata.type": "#HpeUSBPort.v2_0_0.HpeUSBPort",
+            "ETag": "W/\"1384016083\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/USBPorts",
+            "@odata.type": "#HpeUSBPortsCollection.HpeUSBPortsCollection",
+            "ETag": "W/\"3590498698\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/USBDevices",
+            "@odata.type": "#HpeUSBDevicesCollection.HpeUSBDevicesCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE010000/Drives/1",
+            "@odata.type": "#Drive.v1_17_0.Drive",
+            "ETag": "W/\"6dee140f\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE010000/Drives/2",
+            "@odata.type": "#Drive.v1_17_0.Drive",
+            "ETag": "W/\"e44a4c40\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/da000000/Drives/da000000",
+            "@odata.type": "#Drive.v1_17_0.Drive",
+            "ETag": "W/\"994283769\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/da000001/Drives/da000001",
+            "@odata.type": "#Drive.v1_17_0.Drive",
+            "ETag": "W/\"994283769\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/da000002/Drives/da000002",
+            "@odata.type": "#Drive.v1_17_0.Drive",
+            "ETag": "W/\"994283769\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/da000003/Drives/da000003",
+            "@odata.type": "#Drive.v1_17_0.Drive",
+            "ETag": "W/\"994283769\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/2/Drives/1",
+            "@odata.type": "#Drive.v1_16_0.Drive",
+            "ETag": "W/\"4040593335\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/2/Drives/2",
+            "@odata.type": "#Drive.v1_16_0.Drive",
+            "ETag": "W/\"4040593335\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/2/Drives/3",
+            "@odata.type": "#Drive.v1_16_0.Drive",
+            "ETag": "W/\"4040593335\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/2/Drives/4",
+            "@odata.type": "#Drive.v1_16_0.Drive",
+            "ETag": "W/\"4040593335\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/2/Drives",
+            "@odata.type": "#DriveCollection.DriveCollection",
+            "ETag": "W/\"2531265068\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DA000000",
+            "@odata.type": "#Storage.v1_14_1.Storage",
+            "ETag": "W/\"2046352829\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DA000001",
+            "@odata.type": "#Storage.v1_14_1.Storage",
+            "ETag": "W/\"2046352829\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DA000002",
+            "@odata.type": "#Storage.v1_14_1.Storage",
+            "ETag": "W/\"2046352829\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DA000003",
+            "@odata.type": "#Storage.v1_14_1.Storage",
+            "ETag": "W/\"2046352829\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage",
+            "@odata.type": "#StorageCollection.StorageCollection",
+            "ETag": "W/\"144846794\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE010000/Volumes/1",
+            "@odata.type": "#Volume.v1_9_0.Volume",
+            "ETag": "W/\"93e15a63\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH",
+                "DELETE"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE010000/Volumes",
+            "@odata.type": "#VolumeCollection.VolumeCollection",
+            "ETag": "W/\"75983e8d\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DA000000/Controllers/0",
+            "@odata.type": "#StorageController.v1_0_0.StorageController",
+            "ETag": "W/\"4215684689\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DA000001/Controllers/0",
+            "@odata.type": "#StorageController.v1_0_0.StorageController",
+            "ETag": "W/\"4215684689\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DA000002/Controllers/0",
+            "@odata.type": "#StorageController.v1_0_0.StorageController",
+            "ETag": "W/\"4215684689\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DA000003/Controllers/0",
+            "@odata.type": "#StorageController.v1_0_0.StorageController",
+            "ETag": "W/\"4215684689\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DA000000/Controllers",
+            "@odata.type": "#StorageControllerCollection.StorageControllerCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DA000001/Controllers",
+            "@odata.type": "#StorageControllerCollection.StorageControllerCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DA000002/Controllers",
+            "@odata.type": "#StorageControllerCollection.StorageControllerCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DA000003/Controllers",
+            "@odata.type": "#StorageControllerCollection.StorageControllerCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/141",
+            "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
+            "ETag": "W/\"4211432544\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/142",
+            "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
+            "ETag": "W/\"3118333967\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/1549",
+            "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
+            "ETag": "W/\"4187825452\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/1613",
+            "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
+            "ETag": "W/\"3076152248\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/397",
+            "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
+            "ETag": "W/\"3955516600\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/461",
+            "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
+            "ETag": "W/\"3202665146\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces",
+            "@odata.type": "#EthernetInterfaceCollection.EthernetInterfaceCollection",
+            "ETag": "W/\"3589042973\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/BackupRestoreService",
+            "@odata.type": "#HpeiLOBackupRestoreService.v2_2_0.HpeiLOBackupRestoreService",
+            "ETag": "W/\"2681344075\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/BackupRestoreService/BackupFiles",
+            "@odata.type": "#HpeiLOBackupFileCollection.HpeiLOBackupFileCollection",
+            "ETag": "W/\"2888842707\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/CertificateAuthentication",
+            "@odata.type": "#HpeCertAuth.v1_1_0.HpeCertAuth",
+            "ETag": "W/\"3253289766\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/CertificateAuthentication/CACertificates",
+            "@odata.type": "#HpeCertificateCollection.HpeCertificateCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000",
+            "@odata.type": "#NetworkAdapter.v1_9_0.NetworkAdapter",
+            "ETag": "W/\"28B929E7\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE046000",
+            "@odata.type": "#NetworkAdapter.v1_9_0.NetworkAdapter",
+            "ETag": "W/\\\"96760F24\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE047000",
+            "@odata.type": "#NetworkAdapter.v1_9_0.NetworkAdapter",
+            "ETag": "W/\\\"5F938C87\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE058000",
+            "@odata.type": "#NetworkAdapter.v1_9_0.NetworkAdapter",
+            "ETag": "W/\\\"1EF3BA77\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE0BA000",
+            "@odata.type": "#NetworkAdapter.v1_9_0.NetworkAdapter",
+            "ETag": "W/\\\"F7F87BAD\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/Settings",
+            "@odata.type": "#NetworkAdapter.v1_9_0.NetworkAdapter",
+            "ETag": "W/\"5AEC446A\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters",
+            "@odata.type": "#NetworkAdapterCollection.NetworkAdapterCollection",
+            "ETag": "W/\"3598078235\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/NetworkInterfaces",
+            "@odata.type": "#NetworkInterfaceCollection.NetworkInterfaceCollection",
+            "ETag": "W/\"4077120745\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/NetworkDeviceFunctions/0",
+            "@odata.type": "#NetworkDeviceFunction.v1_8_0.NetworkDeviceFunction",
+            "ETag": "W/\"92F39622\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/NetworkDeviceFunctions/1",
+            "@odata.type": "#NetworkDeviceFunction.v1_8_0.NetworkDeviceFunction",
+            "ETag": "W/\"72B99D56\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE046000/NetworkDeviceFunctions/0",
+            "@odata.type": "#NetworkDeviceFunction.v1_8_0.NetworkDeviceFunction",
+            "ETag": "W/\\\"90FE9970\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE047000/NetworkDeviceFunctions/0",
+            "@odata.type": "#NetworkDeviceFunction.v1_8_0.NetworkDeviceFunction",
+            "ETag": "W/\\\"F7F4F4EE\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE058000/NetworkDeviceFunctions/0",
+            "@odata.type": "#NetworkDeviceFunction.v1_8_0.NetworkDeviceFunction",
+            "ETag": "W/\\\"869DDB3E\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE0BA000/NetworkDeviceFunctions/0",
+            "@odata.type": "#NetworkDeviceFunction.v1_8_0.NetworkDeviceFunction",
+            "ETag": "W/\\\"4E3ACFA1\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/NetworkDeviceFunctions/0/Settings",
+            "@odata.type": "#NetworkDeviceFunction.v1_8_0.NetworkDeviceFunction",
+            "ETag": "W/\"92F39622\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/NetworkDeviceFunctions/1/Settings",
+            "@odata.type": "#NetworkDeviceFunction.v1_8_0.NetworkDeviceFunction",
+            "ETag": "W/\"72B99D56\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/NetworkDeviceFunctions",
+            "@odata.type": "#NetworkDeviceFunctionCollection.NetworkDeviceFunctionCollection",
+            "ETag": "W/\"C4CEF4ED\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE046000/NetworkDeviceFunctions",
+            "@odata.type": "#NetworkDeviceFunctionCollection.NetworkDeviceFunctionCollection",
+            "ETag": "W/\\\"C4CEF4ED\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE047000/NetworkDeviceFunctions",
+            "@odata.type": "#NetworkDeviceFunctionCollection.NetworkDeviceFunctionCollection",
+            "ETag": "W/\\\"C4CEF4ED\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE058000/NetworkDeviceFunctions",
+            "@odata.type": "#NetworkDeviceFunctionCollection.NetworkDeviceFunctionCollection",
+            "ETag": "W/\\\"C4CEF4ED\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE0BA000/NetworkDeviceFunctions",
+            "@odata.type": "#NetworkDeviceFunctionCollection.NetworkDeviceFunctionCollection",
+            "ETag": "W/\\\"C4CEF4ED\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/Ports/0",
+            "@odata.type": "#Port.v1_6_0.Port",
+            "ETag": "W/\"5C6A6D9F\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/Ports/1",
+            "@odata.type": "#Port.v1_6_0.Port",
+            "ETag": "W/\"86283AC9\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/Ports/0/Settings",
+            "@odata.type": "#Port.v1_6_0.Port",
+            "ETag": "W/\"5C6A6D9F\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/Ports/1/Settings",
+            "@odata.type": "#Port.v1_6_0.Port",
+            "ETag": "W/\"86283AC9\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/Ports",
+            "@odata.type": "#PortCollection.PortCollection",
+            "ETag": "W/\"27D7B53C\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/DedicatedNetworkPorts/1",
+            "@odata.type": "#Port.v1_12_0.Port",
+            "ETag": "W/\"3814293471\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/DedicatedNetworkPorts",
+            "@odata.type": "#PortCollection.PortCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/1",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"102650899\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/10",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"1447844835\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/11",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"267824959\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/12",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"284464173\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/13",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"1581695429\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/14",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"3719524300\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/15",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"1252794698\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/16",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"447843070\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/17",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"1106091086\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/18",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"3517680091\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/19",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"23814629\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/2",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"2631569894\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/20",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"391211532\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/21",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"3856246835\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/22",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"3049522055\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/23",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"4002944311\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/24",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"2558232182\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/25",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"2128478370\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/26",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"2518980679\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/3",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"3238775917\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/4",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"2006899686\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/5",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"2111178678\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/6",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"1007200268\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/7",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"64506710\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/8",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"2002613245\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/9",
+            "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+            "ETag": "W/\"1939270458\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices",
+            "@odata.type": "#HpeServerDeviceCollection.HpeServerDeviceCollection",
+            "ETag": "W/\"2989892754\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/RemoteSupportService",
+            "@odata.type": "#HpeRemoteSupport.v2_6_0.HpeRemoteSupport",
+            "ETag": "W/\"3346738588\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/RemoteSupportService/ServiceEventLogs",
+            "@odata.type": "#LogEntryCollection.LogEntryCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/MemoryDomains",
+            "@odata.type": "#MemoryDomainCollection.MemoryDomainCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/TaskService/Tasks",
+            "@odata.type": "#TaskCollection.TaskCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/TaskService",
+            "@odata.type": "#TaskService.v1_1_1.TaskService",
+            "ETag": "W/\"1401736010\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/HostInterfaces/1",
+            "@odata.type": "#HostInterface.v1_1_1.HostInterface",
+            "ETag": "W/\"3008060126\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/HostInterfaces",
+            "@odata.type": "#HostInterfaceCollection.HostInterfaceCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/WorkloadPerformanceAdvisor/1",
+            "@odata.type": "#HpeWorkloadPerformanceAdvisor.v1_0_0.HpeWorkloadPerformanceAdvisor",
+            "ETag": "W/\"246497364\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/WorkloadPerformanceAdvisor/2",
+            "@odata.type": "#HpeWorkloadPerformanceAdvisor.v1_0_0.HpeWorkloadPerformanceAdvisor",
+            "ETag": "W/\"246497364\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/WorkloadPerformanceAdvisor/3",
+            "@odata.type": "#HpeWorkloadPerformanceAdvisor.v1_0_0.HpeWorkloadPerformanceAdvisor",
+            "ETag": "W/\"246497364\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/WorkloadPerformanceAdvisor",
+            "@odata.type": "#HpeWorkloadPerformanceAdvisorCollection.HpeWorkloadPerformanceAdvisorCollection",
+            "ETag": "W/\"3851011263\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/1/GUIService",
+            "@odata.type": "#HpeiLOGUIService.v1_4_0.HpeiLOGUIService",
+            "ETag": "W/\"2022516470\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/1",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/10",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/11",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/12",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/13",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/14",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/15",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/16",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/17",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/18",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/19",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/2",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/20",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/21",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/22",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/23",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/3",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/4",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/5",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/6",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/7",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/8",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/9",
+            "@odata.type": "#BootOption.v1_0_1.BootOption",
+            "ETag": "W/\"2745614147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions",
+            "@odata.type": "#BootOptionCollection.BootOptionCollection",
+            "ETag": "W/\"3626106763\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureEraseReportService",
+            "@odata.type": "#HpeSecureEraseReportService.v1_0_0.HpeSecureEraseReportService",
+            "ETag": "W/\"2756838645\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SecureEraseReportService/SecureEraseReportEntries",
+            "@odata.type": "#HpeSecureEraseReportCollection.HpeSecureEraseReportCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices",
+            "@odata.type": "#PCIeDeviceCollection.PCIeDeviceCollection",
+            "ETag": "W/\"1972911757\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/PCIeSlots",
+            "@odata.type": "#PCIeSlots.v1_3_0.PCIeSlots",
+            "ETag": "W/\"2284176228\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/1",
+            "@odata.type": "#Fabric.v1_3_0.Fabric",
+            "ETag": "W/\"3910569523\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics",
+            "@odata.type": "#FabricCollection.FabricCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/1/Switches/0",
+            "@odata.type": "#Switch.v1_9_1.Switch",
+            "ETag": "W/\"2515691592\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/1/Switches",
+            "@odata.type": "#SwitchCollection.SwitchCollection",
+            "ETag": "W/\"2859287216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/1/Switches/0/Ports/0",
+            "@odata.type": "#Port.v1_12_0.Port",
+            "ETag": "W/\"2000753324\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/1/Switches/0/Ports/1",
+            "@odata.type": "#Port.v1_12_0.Port",
+            "ETag": "W/\"2000753324\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/1/Switches/0/Ports",
+            "@odata.type": "#PortCollection.PortCollection",
+            "ETag": "W/\"1459770610\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/0",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3544226702\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/1",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3007550284\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/10",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3396236447\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/11",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3396236447\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/12",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2505488443\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/13",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"4199469014\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/14",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3209854603\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/15",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3209854603\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/16",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2900411015\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/17",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2900411015\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/18",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3209854603\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/19",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3209854603\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/2",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"1835518292\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/20",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2900411015\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/21",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2900411015\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/22",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3209854603\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/23",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3209854603\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/24",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2900411015\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/25",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2900411015\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/26",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3209854603\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/27",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3209854603\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/28",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2900411015\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/29",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2900411015\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/3",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"1433535043\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/30",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"789271179\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/31",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"1730659467\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/32",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"4200466616\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/33",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"4200466616\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/34",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2505488443\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/35",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3924604084\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/36",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3924604084\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/37",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3924604084\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/38",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"200733596\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/39",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"200733596\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/4",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"1484529270\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/40",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"116977577\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/41",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"1936140596\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/42",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"1936140596\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/43",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3771301542\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/44",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3396236447\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/45",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"200733596\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/46",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3396236447\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/47",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2120824065\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/48",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"4200466616\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/49",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2185534564\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/5",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3519967630\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/50",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3989267091\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/51",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"1265820195\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/52",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"1055728830\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/53",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"1055728830\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/54",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2689429273\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/55",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3587352964\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/56",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2555945998\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/57",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"4158348025\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/58",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2804247700\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/59",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2804247700\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/6",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2253931630\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/60",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3029848216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/61",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3029848216\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/62",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2640562277\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/63",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"25176906\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/64",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3857846989\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/65",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2452520152\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/66",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"1816165685\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/67",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"4037254682\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/68",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"1313443400\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/69",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"966123613\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/7",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3913298819\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/70",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3887184453\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/71",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"210646911\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/72",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2235324551\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/73",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2805312506\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/74",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"4240131736\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/75",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2388386105\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/76",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2534740147\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/77",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"1445878585\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/78",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"1167910709\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/79",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"1955952775\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/8",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"929327515\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/80",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"1955952775\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/81",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"4158348025\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/82",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"1182596630\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/83",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"870529163\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/84",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2185534564\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/85",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"2185534564\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors/9",
+            "@odata.type": "#Sensor.v1_10_0.Sensor",
+            "ETag": "W/\"3396236447\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Sensors",
+            "@odata.type": "#SensorCollection.SensorCollection",
+            "ETag": "W/\"82931129\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/Metrics",
+            "@odata.type": "#NetworkAdapterMetrics.v1_0_0.NetworkAdapterMetrics",
+            "ETag": "W/\"7052D95A\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/NetworkDeviceFunctions/0/Metrics",
+            "@odata.type": "#NetworkAdapterMetrics.v1_0_0.NetworkAdapterMetrics",
+            "ETag": "W/\"84E9DE48\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/NetworkDeviceFunctions/1/Metrics",
+            "@odata.type": "#NetworkAdapterMetrics.v1_0_0.NetworkAdapterMetrics",
+            "ETag": "W/\"B02E90F1\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/Ports/0/Metrics",
+            "@odata.type": "#NetworkAdapterMetrics.v1_0_0.NetworkAdapterMetrics",
+            "ETag": "W/\"8D1D49C9\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/Ports/1/Metrics",
+            "@odata.type": "#NetworkAdapterMetrics.v1_0_0.NetworkAdapterMetrics",
+            "ETag": "W/\"5C39A557\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE046000/NetworkPorts",
+            "@odata.type": "#NetworkAdapterMetrics.v1_0_0.NetworkAdapterMetrics",
+            "ETag": "W/\\\"C2224502\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE046000/NetworkPorts/0",
+            "@odata.type": "#NetworkAdapterMetrics.v1_0_0.NetworkAdapterMetrics",
+            "ETag": "W/\\\"05D32E1C\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE047000/NetworkPorts",
+            "@odata.type": "#NetworkAdapterMetrics.v1_0_0.NetworkAdapterMetrics",
+            "ETag": "W/\\\"C2224502\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE047000/NetworkPorts/0",
+            "@odata.type": "#NetworkAdapterMetrics.v1_0_0.NetworkAdapterMetrics",
+            "ETag": "W/\\\"6F9116A0\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE058000/NetworkPorts",
+            "@odata.type": "#NetworkAdapterMetrics.v1_0_0.NetworkAdapterMetrics",
+            "ETag": "W/\\\"C2224502\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE058000/NetworkPorts/0",
+            "@odata.type": "#NetworkAdapterMetrics.v1_0_0.NetworkAdapterMetrics",
+            "ETag": "W/\\\"5F60D37A\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE0BA000/NetworkPorts",
+            "@odata.type": "#NetworkAdapterMetrics.v1_0_0.NetworkAdapterMetrics",
+            "ETag": "W/\\\"C2224502\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST",
+                "PATCH"
+            ]
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE0BA000/NetworkPorts/0",
+            "@odata.type": "#NetworkAdapterMetrics.v1_0_0.NetworkAdapterMetrics",
+            "ETag": "W/\\\"E39FE4DC\\\"",
+            "HttpMethods": [
+                "GET",
+                "HEAD",
+                "POST",
+                "PATCH"
+            ]
+        }
+    ],
+    "Name": "iLO Directory Service"
+}

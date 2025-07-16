@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"1481611628\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/20",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "20",
+    "Created": "2025-06-25T21:17:28Z",
+    "EntryType": "Oem",
+    "EventId": "0a000000-8700-0000-2c00-000005000000",
+    "EventTimestamp": "2025-06-25T21:17:28Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE047000/Ports/0"
+        }
+    },
+    "MessageArgs": [
+        "ConnectX-5 100GE 1P NIC",
+        "1",
+        "8"
+    ],
+    "MessageId": "NetworkDevice.1.0.ConnectionEstablished",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

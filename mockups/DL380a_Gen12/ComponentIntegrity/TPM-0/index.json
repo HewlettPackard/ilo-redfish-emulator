@@ -1,0 +1,201 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ComponentIntegrity.ComponentIntegrity",
+    "@odata.etag": "W/\"3318607604\"",
+    "@odata.id": "/redfish/v1/ComponentIntegrity/TPM-0",
+    "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+    "Id": "TPM-0",
+    "Actions": {
+        "#ComponentIntegrity.TPMGetSignedMeasurements": {
+            "PCRSelection@Redfish.AllowableValues": [
+                "PCR0",
+                "PCR1",
+                "PCR2",
+                "PCR3",
+                "PCR4",
+                "PCR5",
+                "PCR6",
+                "PCR7",
+                "PCR8",
+                "PCR9",
+                "PCR10",
+                "PCR11",
+                "PCR12",
+                "PCR13",
+                "PCR14",
+                "PCR15",
+                "PCR16",
+                "PCR17",
+                "PCR18",
+                "PCR19",
+                "PCR20",
+                "PCR21",
+                "PCR22",
+                "PCR23"
+            ],
+            "target": "/redfish/v1/ComponentIntegrity/TPM-0/Actions/ComponentIntegrity.TPMGetSignedMeasurements"
+        }
+    },
+    "ComponentIntegrityEnabled": true,
+    "ComponentIntegrityType": "TPM",
+    "ComponentIntegrityTypeVersion": "2.0",
+    "Name": "Component Integrity Collection TPM",
+    "TPM": {
+        "ComponentCommunication": {
+            "Sessions": [
+                {
+                    "SessionType": "EncryptedAuthenticated"
+                }
+            ]
+        },
+        "MeasurementSet": {
+            "Measurements": [
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "b09V5+ITAg5Hsc5BsJ6jN9kHWsm1t2G3Pb1/rcZa9QAYI0RLVtNe/Tuwu6d1cRsZ",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 0
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "h6udohi2dqlPDEp7iSCcLAYCVhV9VMOhhLqeJInbrys2yxNYAHrFE4X510jxELFS",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 1
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "KKvtADBIq8GgedXN9hwL5Slr6vpo+pzXENVaWb6VszEte239UqvELdlttcSrRL59",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 2
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "UYkjsPlV0I2gd8lqq6Uiud7O3mHFmc6mxBiJz76krk1QUp2W/k0a/a+2Xn+VvyPE",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 3
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "uyHVW1usZIvEc3vjsXh9bNVG7MbBFKjJ5N3jid2SOQRTaQoAi6hXhRFeWak5NhD5",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 4
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "dyWCBjamAJv5u6aXDfT5eShO2SFHqrrmb02RjNE1ZMhEEoLaWG5lxtlWGvUoihJw",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 5
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "UvLVtCUmeMeMjlIvdmfRltvUQkPErGYlkQ5YGZXjbcOfKyK2acT5bkpmjJkwLJSK",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 6
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "3ioOrbCPAj3n4vg4DZM1xXjGgC8d4rTIDcW+5IhT/lRnHyJbiy0P31S/7vx2JxaZ",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 7
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "fRGPEiYJEfvkK4Yo2SDdL87sgmYaiS+x9sYO1npRXPYXhIglPS51aAJYOZhEKZLO",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 8
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "QXj41Jeb1DhVL+0m5BkBt82Rem4ChglIGgJXUUPXdcl3B0n2L8XveodLOY76mgtq",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 9
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 10
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 11
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 12
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 13
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "k3Q30HKYAQAV9FmDlcn43CAu824L44l7uomHS/YStdoJK+rf4395cUpgGTgZ44St",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 14
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 15
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 16
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "////////////////////////////////////////////////////////////////",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 17
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "////////////////////////////////////////////////////////////////",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 18
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "////////////////////////////////////////////////////////////////",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 19
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "////////////////////////////////////////////////////////////////",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 20
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "////////////////////////////////////////////////////////////////",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 21
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "////////////////////////////////////////////////////////////////",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 22
+                },
+                {
+                    "LastUpdated": "2045-05-15T12:01:38Z",
+                    "Measurement": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "MeasurementHashAlgorithm": "SHA384",
+                    "PCR": 23
+                }
+            ]
+        },
+        "NonceSizeBytesMaximum": 4
+    },
+    "TargetComponentURI": "/redfish/v1/Systems/1"
+}

@@ -1,0 +1,14 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeiLOBackupRestoreService.HpeiLOBackupRestoreService",
+    "@odata.etag": "W/\"2681344075\"",
+    "@odata.id": "/redfish/v1/Managers/1/BackupRestoreService",
+    "@odata.type": "#HpeiLOBackupRestoreService.v2_2_0.HpeiLOBackupRestoreService",
+    "Id": "BackupRestoreService",
+    "BackupFileLocation": "/bkupdata/HPE_2M2D2Q02TH_20250716_2327.bak",
+    "BackupFiles": {
+        "@odata.id": "/redfish/v1/Managers/1/BackupRestoreService/BackupFiles"
+    },
+    "CustomBackupandRestore": false,
+    "HttpPushUri": "/cgi-bin/uploadRestoreFile",
+    "Name": "Backup Restore Service"
+}

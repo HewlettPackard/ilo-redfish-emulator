@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"1412173920\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/41",
+    "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+    "Id": "41",
+    "Description": "VR000480KXLXF",
+    "Name": "480GB 16G NVMe SSD",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "f6de0320-2e0f-489a-b238-6dd8ae7c3811",
+            "DeviceContext": "Slot=29:Bay=2",
+            "Targets": [
+                "562340a5-3052-3030-3438-304b584c5846"
+            ]
+        }
+    },
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE010000/Drives/2"
+        }
+    ],
+    "SoftwareId": "f6de0320-2e0f-489a-b238-6dd8ae7c3811:562340a5-3052-3030-3438-304b584c5846",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Updateable": true,
+    "Version": "HPK3",
+    "VersionScheme": "OEM"
+}

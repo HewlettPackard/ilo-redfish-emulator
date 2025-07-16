@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"658302923\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/312",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "312",
+    "Created": "2025-06-25T20:35:29Z",
+    "EntryType": "Oem",
+    "Message": "Direct connection to host system detected in the iLO Service Port.",
+    "MessageArgs": [],
+    "MessageId": "35.460",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Other"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 460,
+            "Count": 1,
+            "EventNumber": 1836,
+            "Severity": "Informational",
+            "Updated": "2025-06-25T20:35:29Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

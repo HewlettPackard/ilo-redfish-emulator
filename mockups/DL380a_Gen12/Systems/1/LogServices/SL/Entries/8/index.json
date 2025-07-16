@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"3451073783\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/8",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "8",
+    "Created": "2025-06-03T20:49:52Z",
+    "EntryType": "Oem",
+    "Message": "The security state of \"Last Firmware Scan Result\" parameter on security dashboard is \"Risk\". State is \"Failed\" and ignore option is \"False\".",
+    "MessageArgs": [],
+    "MessageId": "55.5661",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 55,
+            "ClassDescription": "Security Configuration",
+            "Code": 5661,
+            "Count": 1,
+            "EventNumber": 93,
+            "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+            "Severity": "Critical",
+            "Updated": "2025-06-03T20:49:52Z",
+            "UserAction": "None"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "Critical"
+}

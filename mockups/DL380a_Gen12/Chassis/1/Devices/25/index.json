@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"2128478370\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/25",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "25",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceType": "Unknown",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "N/A"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/19"
+        }
+    },
+    "Location": "PCI-E Slot 24",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "HPE",
+    "Name": "SBB",
+    "PartNumber": "P68916-001",
+    "ProductPartNumber": "",
+    "ProductVersion": "",
+    "SerialNumber": "PYGSF0BLMK90J0",
+    "Status": {
+        "Health": "Warning",
+        "State": "Absent"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"2705666865\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/52",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "52",
+    "Created": "2025-06-13T17:02:12Z",
+    "EntryType": "Oem",
+    "Message": "The security state of \"Access Panel Status\" parameter on security dashboard is \"Risk\". State is \"Insufficient\" and ignore option is \"False\".",
+    "MessageArgs": [],
+    "MessageId": "55.5661",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 55,
+            "ClassDescription": "Security Configuration",
+            "Code": 5661,
+            "Count": 1,
+            "EventNumber": 137,
+            "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+            "Severity": "Critical",
+            "Updated": "2025-06-13T17:02:12Z",
+            "UserAction": "None"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "Critical"
+}

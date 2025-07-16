@@ -1,0 +1,38 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+    "@odata.etag": "W/\"3646561557\"",
+    "@odata.id": "/redfish/v1/Chassis/2",
+    "@odata.type": "#Chassis.v1_23_0.Chassis",
+    "Id": "2",
+    "ChassisType": "StorageEnclosure",
+    "Drives": {
+        "@odata.id": "/redfish/v1/Chassis/2/Drives"
+    },
+    "Links": {
+        "ContainedBy": {
+            "@odata.id": "/redfish/v1/Chassis/1"
+        },
+        "Switches": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/1/Switches/0"
+            }
+        ]
+    },
+    "Location": {
+        "PartLocation": {
+            "LocationOrdinalValue": 1,
+            "LocationType": "Backplane",
+            "ServiceLabel": "Embedded:Port=5A:Box=1"
+        }
+    },
+    "Manufacturer": "HPE",
+    "Model": "4 E3S 32G x4NVMe UBM10 EC BP",
+    "Name": "4 E3S 32G x4NVMe UBM10 EC BP",
+    "PartNumber": "P68794-001",
+    "SerialNumber": "",
+    "SparePartNumber": "P73067-001",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

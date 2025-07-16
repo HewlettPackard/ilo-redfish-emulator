@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot",
+    "@odata.etag": "W/\"1615726680\"",
+    "@odata.id": "/redfish/v1/Systems/1/PCISlots/22",
+    "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+    "Id": "22",
+    "BusNumber": 254,
+    "Characteristics": {
+        "Provides3_3Volts": true,
+        "SupportsPowerManagementEventSignal": true
+    },
+    "DeviceNumber": 0,
+    "FunctionNumber": 0,
+    "Length": "Other",
+    "LinkLanes": "x8",
+    "Name": "OCP Slot B",
+    "SegmentNumber": 0,
+    "Status": {
+        "OperationalStatus": [
+            {
+                "Status": "InUse"
+            }
+        ]
+    },
+    "SupportsHotPlug": false,
+    "Technology": "OCP NIC 3.0",
+    "UEFIDevicePath": null
+}

@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"2006899686\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/4",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "4",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceType": "Unknown",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "N/A"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/22"
+        }
+    },
+    "Location": "OCP Slot B",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "HPE",
+    "Name": "HPE Gen5 OCP re-timer board",
+    "PartNumber": "P66361-001",
+    "ProductPartNumber": "P56545-001",
+    "ProductVersion": "0A",
+    "SerialNumber": "",
+    "Status": {
+        "Health": null,
+        "State": null
+    }
+}

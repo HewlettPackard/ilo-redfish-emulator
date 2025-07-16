@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"615475970\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/22",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "22",
+    "Created": "2025-06-25T22:22:21Z",
+    "EntryType": "Oem",
+    "EventId": "3b000000-8e00-0000-ce00-000091000000",
+    "EventTimestamp": "2025-06-25T22:22:21Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/9"
+        }
+    },
+    "MessageArgs": [
+        "8"
+    ],
+    "MessageId": "iLOEvents.7.2.NicAllLinksDown",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "Critical"
+}

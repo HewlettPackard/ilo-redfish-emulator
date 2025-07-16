@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Certificate.Certificate",
+    "@odata.etag": "W/\"4191179795\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates/8",
+    "@odata.type": "#Certificate.v1_6_0.Certificate",
+    "Id": "8",
+    "CertificateString": "-----BEGIN CERTIFICATE-----\r\nMIIFqjCCA5KgAwIBAgITMwAAABqIi5gAViKEwQAAAAAAGjANBgkqhkiG9w0BAQsF\r\nADCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcT\r\nB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEyMDAGA1UE\r\nAxMpTWljcm9zb2Z0IFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IDIwMTAwHhcN\r\nMjMwNjEzMTg1ODI5WhcNMzUwNjEzMTkwODI5WjBMMQswCQYDVQQGEwJVUzEeMBwG\r\nA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMR0wGwYDVQQDExRXaW5kb3dzIFVF\r\nRkkgQ0EgMjAyMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALyyNdFU\r\nebSPzIEqbrMS1pOXMHw4XL95khkKDy0K/r/gqNgyP9Krb2+BwU0XaUXPhYAno3yz\r\nMcylp035Q9BaL9cYG9JYlgU5o5W3vN15waDPj+JTHismYqgcrjYeT6HfuRO6DCW7\r\nJGVnAaodQRC3NsFrLrVsENNOltCfKqHx7aEVC4KVxf9jihO1kjQeMV5hEa5dzPEQ\r\n5kx5yXKyNIqCVi2rD3zAT5OOWXVBhqwJEAnyUWVQtfUhsyY5jarEkbPcrGQjBs01\r\nXw1CSZxPDc6Ag4JZ/t9LROFAyD1jts+0Qg05XNJCEAwIwnTrHNxuvAqsmLvM+h48\r\np4MWxdsC2tmW32sCAwEAAaOCAUYwggFCMA4GA1UdDwEB/wQEAwIBhjAQBgkrBgEE\r\nAYI3FQEEAwIBADAdBgNVHQ4EFgQUrvxfu74FXY+NqlhUc0mUF6taUnIwGQYJKwYB\r\nBAGCNxQCBAweCgBTAHUAYgBDAEEwDwYDVR0TAQH/BAUwAwEB/zAfBgNVHSMEGDAW\r\ngBTV9lbLj+iiXGJo0T2UkFvXzpoYxDBWBgNVHR8ETzBNMEugSaBHhkVodHRwOi8v\r\nY3JsLm1pY3Jvc29mdC5jb20vcGtpL2NybC9wcm9kdWN0cy9NaWNSb29DZXJBdXRf\r\nMjAxMC0wNi0yMy5jcmwwWgYIKwYBBQUHAQEETjBMMEoGCCsGAQUFBzAChj5odHRw\r\nOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtpL2NlcnRzL01pY1Jvb0NlckF1dF8yMDEw\r\nLTA2LTIzLmNydDANBgkqhkiG9w0BAQsFAAOCAgEAn8m2/27hnDtV9v6LOd1hBG/Q\r\nrWPNF3ZKqEOJjfjG8oxekOHkaKUV7LjTYAxAVx/7XjVyYd6XMWx5oPUWrksc7QEM\r\n7/dXD0IwGGn4oaMul5K4vhv+K4ZeQkIRj45wTZCn/QFj8mS/m+J7CIHPSfI3F9/x\r\n+XLTwx3DkEVN5oAGvf3lamnOs35OMVuEc6jocj8nNcl8IM4Am0/gTLQ2acv3NBER\r\ndBJ6qIwugWymUK0Z+qhGRW+xZ3PDa+NA6CppjyQQ4SlujRaI7o5/ZpMCb1ueBIzM\r\ngRytl1TxGC5+UpC8Ud4qDq5m6rxkbqCRZOQvEqi852u6xxubeRpkZvFDtNHDRiE4\r\ngXlM+vAxDdN5/3oSpR3Z3ayiD3GC95P/XKFhrmXyFIHteVqah+pge8uzT3U0yrqh\r\n76L2ooBFoYsngc3Vdzg+yk7dKOpYusWgKd6GjIj8lSdR3avT0FsNd8dsj1XX1KIO\r\nW+Q0RhQWHeMc1m2ZrUzscXMvq86ytCneVTBTOToyi/DqnIgSOwVoGb/Ph1IQ+9YT\r\nYPNBZPQIV4HLnRGljvTlJ/WjOuzkPUq3zvmIDZ+9ym3SSrxYdo4yBJRu3fTPbUdt\r\nwtdq3Idx6qS/72eXnLjHgDYqKlnJwAynRKBztYzPOFqu+LuGlfBErWZ6M+1x5EWH\r\ng+WnzqJA0HLSSAD6+Ro=\r\n-----END CERTIFICATE-----\r\n",
+    "CertificateType": "PEM",
+    "Issuer": {
+        "City": "Redmond",
+        "CommonName": "Microsoft Root Certificate Authority 2010",
+        "Country": "US",
+        "Email": "",
+        "Organization": "Microsoft Corporation",
+        "OrganizationalUnit": "",
+        "State": "Washington"
+    },
+    "Name": "Windows UEFI CA 2023",
+    "Subject": {
+        "City": "",
+        "CommonName": "Windows UEFI CA 2023",
+        "Country": "US",
+        "Email": "",
+        "Organization": "Microsoft Corporation",
+        "OrganizationalUnit": "",
+        "State": ""
+    },
+    "UefiSignatureOwner": "77FA9ABD-0359-4D32-BD60-28F4E78F784B",
+    "ValidNotAfter": "2035-06-13T19:08:29Z",
+    "ValidNotBefore": "2023-06-13T18:58:29Z"
+}

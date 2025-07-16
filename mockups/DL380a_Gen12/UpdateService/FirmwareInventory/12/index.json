@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"502642814\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/12",
+    "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+    "Id": "12",
+    "Description": "Intelligent Provisioning",
+    "Name": "Intelligent Provisioning",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "ac963eeb-ed78-4f36-c18c-29d85f34a0ac",
+            "DeviceContext": "System Board"
+        }
+    },
+    "Updateable": true,
+    "Version": "5.00.7",
+    "VersionScheme": "OEM"
+}

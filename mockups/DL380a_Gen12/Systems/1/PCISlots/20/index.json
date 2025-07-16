@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot",
+    "@odata.etag": "W/\"3796328571\"",
+    "@odata.id": "/redfish/v1/Systems/1/PCISlots/20",
+    "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+    "Id": "20",
+    "BusNumber": 21,
+    "Characteristics": {
+        "Provides3_3Volts": true,
+        "SupportsPowerManagementEventSignal": true
+    },
+    "DeviceNumber": 0,
+    "FunctionNumber": 0,
+    "Length": "Long",
+    "LinkLanes": "x16",
+    "Name": "PCI-E Slot 25",
+    "SegmentNumber": 1,
+    "Status": {
+        "OperationalStatus": [
+            {
+                "Status": "InUse"
+            }
+        ]
+    },
+    "SupportsHotPlug": false,
+    "Technology": "PCIExpressGen5",
+    "UEFIDevicePath": "PciRoot(0x103)/Pci(0x2,0x0)/Pci(0x0,0x0)"
+}

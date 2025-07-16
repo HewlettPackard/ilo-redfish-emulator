@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"277169027\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/SensorCollection",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "SensorCollection",
+    "Description": "Schema Definition File for SensorCollection",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/SensorCollection.json"
+        }
+    ],
+    "Name": "SensorCollection Schema Definition File",
+    "Schema": "#SensorCollection.SensorCollection"
+}

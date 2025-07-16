@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"2902919438\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/246",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "246",
+    "Created": "2025-06-13T21:18:24Z",
+    "EntryType": "Oem",
+    "Message": "On-board clock set; was (dd/mm/yyyy) 13/06/2025  21:18:25.",
+    "MessageArgs": [],
+    "MessageId": "35.10",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 10,
+            "Count": 1,
+            "EventNumber": 1770,
+            "Severity": "Informational",
+            "Updated": "2025-06-13T21:18:24Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

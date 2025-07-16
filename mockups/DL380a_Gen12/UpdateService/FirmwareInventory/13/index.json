@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"502642814\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/13",
+    "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+    "Id": "13",
+    "Description": "PCIeRiserMCUFirmware",
+    "Name": "PCIe 1U Riser MCU Firmware",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "b1ad439a-9dd1-41c1-a496-2da9313f1f07",
+            "DeviceContext": "System Board"
+        }
+    },
+    "Updateable": true,
+    "Version": "0.15",
+    "VersionScheme": "OEM"
+}

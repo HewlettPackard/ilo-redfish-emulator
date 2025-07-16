@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"4065256682\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/14",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "14",
+    "Created": "2025-06-06T21:45:45Z",
+    "EntryType": "Oem",
+    "Message": "HPM authentication completed successfully.",
+    "MessageArgs": [],
+    "MessageId": "35.17759",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Hardware"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 17759,
+            "Count": 1,
+            "EventNumber": 177,
+            "RecommendedAction": "NA",
+            "Severity": "Informational",
+            "Updated": "2025-06-06T21:45:45Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

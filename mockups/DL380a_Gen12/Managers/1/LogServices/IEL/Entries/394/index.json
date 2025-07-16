@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"2763335141\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/394",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "394",
+    "Created": "2025-07-02T06:53:18Z",
+    "EntryType": "Oem",
+    "Message": "Host server reset by: Administrator.",
+    "MessageArgs": [],
+    "MessageId": "35.142",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Maintenance",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 142,
+            "Count": 1,
+            "EventNumber": 1918,
+            "Severity": "Caution",
+            "Updated": "2025-07-02T06:53:18Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "Warning"
+}

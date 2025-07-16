@@ -1,0 +1,300 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeBiosMapping.HpeBiosMapping",
+    "@odata.etag": "W/\"ACE6E04EAF3CD5D5D51E18A4A9A51140\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/mappings/",
+    "@odata.type": "#HpeBiosMapping.v2_0_0.HpeBiosMapping",
+    "BiosPciSettingsMappings": [
+        {
+            "Associations": [
+                "PciSlot7Enable",
+                "PciSlot7LinkSpeed",
+                "PciSlot7Aspm",
+                "PciSlot7OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "Instance": 1,
+            "Subinstances": [
+                {
+                    "Associations": [
+                        {
+                            "PreBootNetwork": "Slot7NicPort1"
+                        },
+                        "Slot7NicBoot1"
+                    ],
+                    "CorrelatableID": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+                    "Subinstance": 1
+                }
+            ]
+        },
+        {
+            "Associations": [
+                "PciSlot8Enable",
+                "PciSlot8LinkSpeed",
+                "PciSlot8Aspm",
+                "PciSlot8OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "Instance": 2,
+            "Subinstances": [
+                {
+                    "Associations": [
+                        {
+                            "PreBootNetwork": "Slot8NicPort1"
+                        },
+                        "Slot8NicBoot1"
+                    ],
+                    "CorrelatableID": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+                    "Subinstance": 1
+                }
+            ]
+        },
+        {
+            "Associations": [
+                "PciSlot15Enable",
+                "PciSlot15LinkSpeed",
+                "PciSlot15Aspm",
+                "PciSlot15OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x43)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)",
+            "Instance": 3,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot14LinkSpeed",
+                "PciSlot14OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x43)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)",
+            "Instance": 4,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot13Enable",
+                "PciSlot13LinkSpeed",
+                "PciSlot13Aspm",
+                "PciSlot13OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x43)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "Instance": 5,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot16LinkSpeed",
+                "PciSlot16OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x43)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x3,0x0)/Pci(0x0,0x0)",
+            "Instance": 6,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot11LinkSpeed",
+                "PciSlot11OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x53)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)",
+            "Instance": 7,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot10LinkSpeed",
+                "PciSlot10OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x53)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)",
+            "Instance": 8,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot9LinkSpeed",
+                "PciSlot9OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x53)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "Instance": 9,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot12LinkSpeed",
+                "PciSlot12OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x53)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x3,0x0)/Pci(0x0,0x0)",
+            "Instance": 10,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot25Enable",
+                "PciSlot25LinkSpeed",
+                "PciSlot25Aspm",
+                "PciSlot25OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x103)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "Instance": 11,
+            "Subinstances": [
+                {
+                    "Associations": [
+                        {
+                            "PreBootNetwork": "Slot25NicPort1"
+                        },
+                        "Slot25NicBoot1"
+                    ],
+                    "CorrelatableID": "PciRoot(0x103)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+                    "Subinstance": 1
+                }
+            ]
+        },
+        {
+            "Associations": [
+                "PciSlot3Enable",
+                "PciSlot3LinkSpeed",
+                "PciSlot3Aspm",
+                "PciSlot3OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x123)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "Instance": 12,
+            "Subinstances": [
+                {
+                    "Associations": [
+                        {
+                            "PreBootNetwork": "Slot3NicPort1"
+                        },
+                        "Slot3NicBoot1"
+                    ],
+                    "CorrelatableID": "PciRoot(0x123)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+                    "Subinstance": 1
+                },
+                {
+                    "Associations": [
+                        "Slot3NicBoot2"
+                    ],
+                    "CorrelatableID": "PciRoot(0x123)/Pci(0x2,0x0)/Pci(0x0,0x1)",
+                    "Subinstance": 2
+                }
+            ]
+        },
+        {
+            "Associations": [
+                "PciSlot26Enable",
+                "PciSlot26LinkSpeed",
+                "PciSlot26Aspm",
+                "PciSlot26OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x133)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "Instance": 13,
+            "Subinstances": [
+                {
+                    "Associations": [
+                        {
+                            "PreBootNetwork": "Slot26NicPort1"
+                        },
+                        "Slot26NicBoot1"
+                    ],
+                    "CorrelatableID": "PciRoot(0x133)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+                    "Subinstance": 1
+                }
+            ]
+        },
+        {
+            "Associations": [
+                "PciSlot23LinkSpeed",
+                "PciSlot23OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x143)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)",
+            "Instance": 14,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot22LinkSpeed",
+                "PciSlot22OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x143)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)",
+            "Instance": 15,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot21LinkSpeed",
+                "PciSlot21OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x143)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "Instance": 16,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot24LinkSpeed",
+                "PciSlot24OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x143)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x3,0x0)/Pci(0x0,0x0)",
+            "Instance": 17,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot19Enable",
+                "PciSlot19LinkSpeed",
+                "PciSlot19Aspm",
+                "PciSlot19OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x153)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)",
+            "Instance": 18,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot18LinkSpeed",
+                "PciSlot18OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x153)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)",
+            "Instance": 19,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot17Enable",
+                "PciSlot17LinkSpeed",
+                "PciSlot17Aspm",
+                "PciSlot17OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x153)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "Instance": 20,
+            "Subinstances": []
+        },
+        {
+            "Associations": [
+                "PciSlot20LinkSpeed",
+                "PciSlot20OptionROM",
+                "OcpAAuxiliaryPower"
+            ],
+            "CorrelatableID": "PciRoot(0x153)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x3,0x0)/Pci(0x0,0x0)",
+            "Instance": 21,
+            "Subinstances": []
+        }
+    ],
+    "Id": "mappings",
+    "Name": "BIOS mappings"
+}

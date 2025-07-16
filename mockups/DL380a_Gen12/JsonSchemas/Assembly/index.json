@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"1642546023\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/Assembly",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "Assembly",
+    "Description": "Schema Definition File for Assembly",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/Assembly.json"
+        }
+    ],
+    "Name": "Assembly Schema Definition File",
+    "Schema": "#Assembly.v1_5_0.Assembly"
+}

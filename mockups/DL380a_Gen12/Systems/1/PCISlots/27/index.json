@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot",
+    "@odata.etag": "W/\"115824030\"",
+    "@odata.id": "/redfish/v1/Systems/1/PCISlots/27",
+    "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+    "Id": "27",
+    "BusNumber": 141,
+    "Characteristics": {
+        "Provides3_3Volts": true,
+        "SupportsHotPlugDevices": true,
+        "SupportsSMBusSignal": true
+    },
+    "DeviceNumber": 0,
+    "FunctionNumber": 0,
+    "Length": "Short",
+    "LinkLanes": "x4",
+    "Name": "NVMe Drive Box 1 Bay 4",
+    "SegmentNumber": 0,
+    "Status": {
+        "OperationalStatus": [
+            {
+                "Status": "InUse"
+            }
+        ]
+    },
+    "SupportsHotPlug": true,
+    "UEFIDevicePath": "PciRoot(0x31)/Pci(0x8,0x0)/Pci(0x0,0x0)"
+}

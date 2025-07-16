@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"1007979550\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/87",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "87",
+    "Created": "2025-06-12T21:01:26Z",
+    "EntryType": "Oem",
+    "Message": "Power restored to iLO.",
+    "MessageArgs": [],
+    "MessageId": "35.25",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 25,
+            "Count": 1,
+            "EventNumber": 1611,
+            "Severity": "Caution",
+            "Updated": "2025-06-12T21:01:26Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "Warning"
+}

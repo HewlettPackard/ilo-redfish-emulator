@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"2889455149\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/409",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "409",
+    "Created": "2025-07-02T07:16:40Z",
+    "EntryType": "Oem",
+    "Message": "Virtual media disconnected by: Administrator.",
+    "MessageArgs": [],
+    "MessageId": "35.139",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 139,
+            "Count": 1,
+            "EventNumber": 1933,
+            "Severity": "Informational",
+            "Updated": "2025-07-02T07:16:40Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

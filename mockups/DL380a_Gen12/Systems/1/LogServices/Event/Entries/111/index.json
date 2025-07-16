@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"4158081720\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/111",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "111",
+    "Created": "2025-07-02T06:23:53Z",
+    "EntryType": "Oem",
+    "EventId": "78000000-2200-0000-f700-000018000000",
+    "EventTimestamp": "2025-07-02T06:23:53Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/Ports/1"
+        }
+    },
+    "MessageArgs": [
+        "ConnectX-7 200GE 2P NIC",
+        "2",
+        "3"
+    ],
+    "MessageId": "NetworkDevice.1.0.ConnectionEstablished",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

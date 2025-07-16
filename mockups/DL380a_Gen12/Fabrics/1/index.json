@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Fabric.Fabric",
+    "@odata.etag": "W/\"3910569523\"",
+    "@odata.id": "/redfish/v1/Fabrics/1",
+    "@odata.type": "#Fabric.v1_3_0.Fabric",
+    "Id": "1",
+    "FabricType": "MultiProtocol",
+    "Name": "4 E3S 32G x4NVMe UBM10 EC BP",
+    "Switches": {
+        "@odata.id": "/redfish/v1/Fabrics/1/Switches"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"1447844835\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/10",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "10",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/7"
+        }
+    ],
+    "DeviceType": "GPU",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "96.00.B7.00.02"
+        },
+        "FirmwareVersions": [
+            {
+                "ComponentName": "AMC",
+                "VersionString": "96.00.B7.00.02"
+            }
+        ]
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/12"
+        }
+    },
+    "Location": "PCI-E Slot 17",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "NVIDIA",
+    "Name": "NVIDIA H200 NVL",
+    "PartNumber": "233B-894-A1",
+    "ProductPartNumber": "900-21010-0040-000",
+    "ProductVersion": "A1",
+    "SerialNumber": "1325124064915",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

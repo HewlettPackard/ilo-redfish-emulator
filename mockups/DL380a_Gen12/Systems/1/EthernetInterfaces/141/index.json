@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+    "@odata.etag": "W/\"4211432544\"",
+    "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/141",
+    "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
+    "Id": "141",
+    "FullDuplex": false,
+    "IPv4Addresses": [],
+    "IPv4StaticAddresses": [],
+    "IPv6AddressPolicyTable": [],
+    "IPv6Addresses": [],
+    "IPv6StaticAddresses": [],
+    "IPv6StaticDefaultGateways": [],
+    "InterfaceEnabled": null,
+    "LinkStatus": "LinkUp",
+    "MACAddress": "58:a2:e1:03:a8:e2",
+    "Name": "",
+    "NameServers": [],
+    "SpeedMbps": null,
+    "StaticNameServers": [],
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "UefiDevicePath": "PciRoot(0x123)/Pci(0x2,0x0)/Pci(0x0,0x0)"
+}

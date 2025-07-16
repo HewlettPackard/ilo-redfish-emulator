@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"876192843\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/230",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "230",
+    "Created": "2025-06-13T21:09:31Z",
+    "EntryType": "Oem",
+    "Message": "iLO network link up at 100 Mbps.",
+    "MessageArgs": [],
+    "MessageId": "35.74",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Other"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 74,
+            "Count": 3,
+            "EventNumber": 1754,
+            "Severity": "Informational",
+            "Updated": "2025-06-13T21:35:41Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

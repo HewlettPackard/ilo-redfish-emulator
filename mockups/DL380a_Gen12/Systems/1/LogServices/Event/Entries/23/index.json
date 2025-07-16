@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"336038016\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/23",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "23",
+    "Created": "2025-06-25T22:22:50Z",
+    "EntryType": "Oem",
+    "EventId": "b9000000-9400-0000-f800-00002b000000",
+    "EventTimestamp": "2025-06-25T22:22:50Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE046000/Ports/0"
+        }
+    },
+    "MessageArgs": [
+        "ConnectX-5 100GE 1P NIC",
+        "1",
+        "7"
+    ],
+    "MessageId": "NetworkDevice.1.0.ConnectionDropped",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

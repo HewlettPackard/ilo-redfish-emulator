@@ -1,0 +1,3546 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "W/\"2603491878\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Integrated Management Logs view",
+    "Name": "Integrated Management Logs view",
+    "Members": [
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/1",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "1",
+            "Created": "2025-05-24T21:22:02Z",
+            "EntryType": "Oem",
+            "Message": "IML Cleared (iLO user: Administrator)",
+            "MessageArgs": [],
+            "MessageId": "33.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance",
+                        "Administration"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 164,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-24T21:22:02Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/2",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "2",
+            "Created": "2025-06-03T17:49:25Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 165,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-03T17:49:25Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/3",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "3",
+            "Created": "2025-06-03T17:49:47Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 166,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-03T17:49:47Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/4",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "4",
+            "Created": "2025-06-03T20:48:15Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-3T19:49:5.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 167,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-03T20:48:15Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/5",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "5",
+            "Created": "2025-06-03T20:48:42Z",
+            "EntryType": "Oem",
+            "Message": "iLO detected invalid System ROM firmware.",
+            "MessageArgs": [],
+            "MessageId": "32.3",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 32,
+                    "ClassDescription": "System Revision",
+                    "Code": 3,
+                    "Count": 1,
+                    "EventNumber": 168,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0020code0x0003-gen11",
+                    "RecommendedAction": "For firmware integrity scans, if configured for automatic recovery, the iLO firmware will attempt to repair the System ROM firmware. If an anomaly was detected during boot, then manual recovery will be required.  ",
+                    "Repaired": false,
+                    "Severity": "Critical",
+                    "Updated": "2025-06-03T20:48:42Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/6",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "6",
+            "Created": "2025-06-03T20:49:37Z",
+            "EntryType": "Oem",
+            "Message": "iLO completed the firmware integrity scan and detected an anomaly.",
+            "MessageArgs": [],
+            "MessageId": "32.7",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 32,
+                    "ClassDescription": "System Revision",
+                    "Code": 7,
+                    "Count": 1,
+                    "EventNumber": 169,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-03T20:49:37Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/7",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "7",
+            "Created": "2025-06-03T21:30:26Z",
+            "EntryType": "Oem",
+            "Message": "iLO detected invalid System ROM firmware.",
+            "MessageArgs": [],
+            "MessageId": "32.3",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 32,
+                    "ClassDescription": "System Revision",
+                    "Code": 3,
+                    "Count": 3,
+                    "EventNumber": 170,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0020code0x0003-gen11",
+                    "RecommendedAction": "For firmware integrity scans, if configured for automatic recovery, the iLO firmware will attempt to repair the System ROM firmware. If an anomaly was detected during boot, then manual recovery will be required.  ",
+                    "Repaired": false,
+                    "Severity": "Critical",
+                    "Updated": "2025-06-03T21:43:19Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/8",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "8",
+            "Created": "2025-06-03T21:30:26Z",
+            "EntryType": "Oem",
+            "Message": "iLO completed the firmware integrity scan and detected an anomaly.",
+            "MessageArgs": [],
+            "MessageId": "32.7",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 32,
+                    "ClassDescription": "System Revision",
+                    "Code": 7,
+                    "Count": 1,
+                    "EventNumber": 171,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-03T21:30:26Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/9",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "9",
+            "Created": "2025-06-03T21:39:40Z",
+            "EntryType": "Oem",
+            "Message": "iLO completed the firmware integrity scan and detected an anomaly.",
+            "MessageArgs": [],
+            "MessageId": "32.7",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 32,
+                    "ClassDescription": "System Revision",
+                    "Code": 7,
+                    "Count": 1,
+                    "EventNumber": 172,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-03T21:39:40Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/10",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "10",
+            "Created": "2025-06-03T21:43:18Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 173,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-03T21:43:18Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/11",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "11",
+            "Created": "2025-06-03T21:43:19Z",
+            "EntryType": "Oem",
+            "Message": "iLO completed the firmware integrity scan and detected an anomaly.",
+            "MessageArgs": [],
+            "MessageId": "32.7",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 32,
+                    "ClassDescription": "System Revision",
+                    "Code": 7,
+                    "Count": 1,
+                    "EventNumber": 174,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-03T21:43:19Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/12",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "12",
+            "Created": "2025-06-03T23:09:05Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 175,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-03T23:09:05Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/13",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "13",
+            "Created": "2025-06-06T21:45:06Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-4T22:7:36.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 176,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-06T21:45:06Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/14",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "14",
+            "Created": "2025-06-06T21:45:45Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 177,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-06T21:45:45Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/15",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "15",
+            "Created": "2025-06-06T22:41:59Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-6T22:27:39.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 178,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-06T22:41:59Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/16",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "16",
+            "Created": "2025-06-06T22:42:39Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 179,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-06T22:42:39Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/17",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "17",
+            "Created": "2025-06-09T16:57:39Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-9T16:40:51.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 180,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-09T16:57:39Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/18",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "18",
+            "Created": "2025-06-09T16:58:16Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "2.47",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 47,
+                    "Count": 1,
+                    "EventNumber": 181,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x002f-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally missing and the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-09T16:58:16Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/19",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "19",
+            "Created": "2025-06-09T16:58:24Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 182,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-09T16:58:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/20",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "20",
+            "Created": "2025-06-09T16:58:36Z",
+            "EntryType": "Oem",
+            "Message": "The chassis hood has been replaced.",
+            "MessageArgs": [],
+            "MessageId": "2.48",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 48,
+                    "Count": 1,
+                    "EventNumber": 183,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally replaced, and the server is secure.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-09T16:58:36Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/21",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "21",
+            "Created": "2025-06-09T17:35:28Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-9T16:58:12.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 184,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-09T17:35:28Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/22",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "22",
+            "Created": "2025-06-09T17:50:57Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-9T17:39:58.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 185,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-09T17:50:57Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/23",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "23",
+            "Created": "2025-06-09T17:51:37Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 186,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-09T17:51:37Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/24",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "24",
+            "Created": "2025-06-09T21:47:02Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 187,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-09T21:47:02Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/25",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "25",
+            "Created": "2025-06-11T15:24:18Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-10T21:30:55.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 188,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-11T15:24:18Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/26",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "26",
+            "Created": "2025-06-11T15:24:57Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 189,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T15:24:57Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/27",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "27",
+            "Created": "2025-06-11T15:33:33Z",
+            "EntryType": "Oem",
+            "Message": "Firmware flashed (Online ROM Flash Firmware Package - HPE Integrated Lights-Out 7 1.14.00)",
+            "MessageArgs": [],
+            "MessageId": "32.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 32,
+                    "ClassDescription": "System Revision",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 190,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T15:33:33Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/28",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "28",
+            "Created": "2025-06-12T21:01:30Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-12T20:49:27.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 191,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-12T21:01:30Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/29",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "29",
+            "Created": "2025-06-12T21:02:10Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 192,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-12T21:02:10Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/30",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "30",
+            "Created": "2025-06-12T21:17:49Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-12T21:17:38.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 193,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-12T21:17:49Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/31",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "31",
+            "Created": "2025-06-12T21:18:21Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "2.47",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 47,
+                    "Count": 1,
+                    "EventNumber": 194,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x002f-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally missing and the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-12T21:18:21Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/32",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "32",
+            "Created": "2025-06-12T21:34:07Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-12T21:18:59.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 195,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-12T21:34:07Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/33",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "33",
+            "Created": "2025-06-12T21:34:47Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 196,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-12T21:34:47Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/34",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "34",
+            "Created": "2025-06-12T22:43:08Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "2.47",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 47,
+                    "Count": 2,
+                    "EventNumber": 197,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x002f-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally missing and the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-12T22:44:55Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/35",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "35",
+            "Created": "2025-06-12T22:44:10Z",
+            "EntryType": "Oem",
+            "Message": "The chassis hood has been replaced.",
+            "MessageArgs": [],
+            "MessageId": "2.48",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 48,
+                    "Count": 2,
+                    "EventNumber": 198,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally replaced, and the server is secure.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-12T22:55:35Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/36",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "36",
+            "Created": "2025-06-13T00:20:10Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-13T0:5:2.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 199,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T00:20:10Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/37",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "37",
+            "Created": "2025-06-13T00:20:51Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 200,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T00:20:51Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/38",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "38",
+            "Created": "2025-06-13T16:00:16Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-13T15:45:26.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 201,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T16:00:16Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/39",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "39",
+            "Created": "2025-06-13T16:01:03Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 202,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T16:01:03Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/40",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "40",
+            "Created": "2025-06-13T16:46:03Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-13T16:16:34.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 203,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T16:46:03Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/41",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "41",
+            "Created": "2025-06-13T16:46:43Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 204,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T16:46:43Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/42",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "42",
+            "Created": "2025-06-13T17:01:53Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "2.47",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 47,
+                    "Count": 1,
+                    "EventNumber": 205,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x002f-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally missing and the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T17:01:53Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/43",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "43",
+            "Created": "2025-06-13T17:06:28Z",
+            "EntryType": "Oem",
+            "Message": "The chassis hood has been replaced.",
+            "MessageArgs": [],
+            "MessageId": "2.48",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 48,
+                    "Count": 1,
+                    "EventNumber": 206,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally replaced, and the server is secure.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T17:06:28Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/44",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "44",
+            "Created": "2025-06-13T20:44:13Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-13T20:41:50.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 207,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T20:44:13Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/45",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "45",
+            "Created": "2025-06-13T20:44:51Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "2.47",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 47,
+                    "Count": 2,
+                    "EventNumber": 208,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x002f-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally missing and the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T20:47:41Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/46",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "46",
+            "Created": "2025-06-13T20:44:53Z",
+            "EntryType": "Oem",
+            "Message": "The chassis hood has been replaced.",
+            "MessageArgs": [],
+            "MessageId": "2.48",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 48,
+                    "Count": 2,
+                    "EventNumber": 209,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally replaced, and the server is secure.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T20:48:15Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/47",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "47",
+            "Created": "2025-06-13T20:47:03Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-13T20:45:37.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 210,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T20:47:03Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/48",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "48",
+            "Created": "2025-06-13T20:47:50Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 211,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T20:47:50Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/49",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "49",
+            "Created": "2025-06-13T21:04:15Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "2.47",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 47,
+                    "Count": 3,
+                    "EventNumber": 212,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x002f-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally missing and the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T21:20:59Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/50",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "50",
+            "Created": "2025-06-13T21:04:48Z",
+            "EntryType": "Oem",
+            "Message": "The chassis hood has been replaced.",
+            "MessageArgs": [],
+            "MessageId": "2.48",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 48,
+                    "Count": 2,
+                    "EventNumber": 213,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally replaced, and the server is secure.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T21:21:42Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/51",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "51",
+            "Created": "2025-06-13T21:10:02Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 214,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T21:10:02Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/52",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "52",
+            "Created": "2025-06-13T21:30:22Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-13T21:24:43.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 215,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T21:30:22Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/53",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "53",
+            "Created": "2025-06-13T21:31:02Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 216,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T21:31:02Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/54",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "54",
+            "Created": "2025-06-13T21:36:12Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 217,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T21:36:12Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/55",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "55",
+            "Created": "2025-06-13T21:46:02Z",
+            "EntryType": "Oem",
+            "Message": "System Power Supply: Input Power Loss or Unplugged Power Cord, Verify Power Supply Input (Power Supply 5)",
+            "MessageArgs": [],
+            "MessageId": "11.82",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Power"
+                    ],
+                    "Class": 11,
+                    "ClassDescription": "Power",
+                    "Code": 82,
+                    "Count": 1,
+                    "EventNumber": 218,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x000bcode0x0052-gen11",
+                    "RecommendedAction": "Check the power source, then test and replace any failed power supplies.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T21:46:02Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/56",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "56",
+            "Created": "2025-06-13T21:57:21Z",
+            "EntryType": "Oem",
+            "Message": "Firmware flashed (iLO 7 1.13.01)",
+            "MessageArgs": [],
+            "MessageId": "32.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 32,
+                    "ClassDescription": "System Revision",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 219,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T21:57:21Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/57",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "57",
+            "Created": "2025-06-13T22:29:18Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-13T21:59:7.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 220,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T22:29:18Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/58",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "58",
+            "Created": "2025-06-13T22:29:51Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "2.47",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 47,
+                    "Count": 2,
+                    "EventNumber": 221,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x002f-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally missing and the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T22:30:36Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/59",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "59",
+            "Created": "2025-06-13T22:29:57Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 222,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T22:29:57Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/60",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "60",
+            "Created": "2025-06-13T22:30:52Z",
+            "EntryType": "Oem",
+            "Message": "The chassis hood has been replaced.",
+            "MessageArgs": [],
+            "MessageId": "2.48",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 48,
+                    "Count": 1,
+                    "EventNumber": 223,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally replaced, and the server is secure.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T22:30:52Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/61",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "61",
+            "Created": "2025-06-25T20:13:54Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-16T18:37:38.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 224,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-25T20:13:54Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/62",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "62",
+            "Created": "2025-06-25T20:14:31Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "2.47",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 47,
+                    "Count": 7,
+                    "EventNumber": 225,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x002f-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally missing and the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-06-25T20:40:45Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/63",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "63",
+            "Created": "2025-06-25T20:14:34Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication completed successfully.",
+            "MessageArgs": [],
+            "MessageId": "35.17759",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17759,
+                    "Count": 1,
+                    "EventNumber": 226,
+                    "RecommendedAction": "NA",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-25T20:14:34Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/64",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "64",
+            "Created": "2025-06-25T21:16:57Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 7, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 227,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-25T21:16:57Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/65",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "65",
+            "Created": "2025-06-25T21:17:28Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 8, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 228,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-25T21:17:28Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/66",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "66",
+            "Created": "2025-06-25T22:22:20Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 8, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 229,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-27T17:36:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/67",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "67",
+            "Created": "2025-06-25T22:22:21Z",
+            "EntryType": "Oem",
+            "Message": "At least one of the links is up in adapter ConnectX-5 100GE 1P NIC in slot 8",
+            "MessageArgs": [],
+            "MessageId": "17.14",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 14,
+                    "Count": 1,
+                    "EventNumber": 230,
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-27T17:36:26Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/68",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "68",
+            "Created": "2025-06-25T22:22:50Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 7, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 231,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-27T17:12:10Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/69",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "69",
+            "Created": "2025-06-25T22:22:52Z",
+            "EntryType": "Oem",
+            "Message": "At least one of the links is up in adapter ConnectX-5 100GE 1P NIC in slot 7",
+            "MessageArgs": [],
+            "MessageId": "17.14",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 14,
+                    "Count": 1,
+                    "EventNumber": 232,
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-27T17:12:12Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/70",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "70",
+            "Created": "2025-06-25T22:39:01Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 3, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 233,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-25T22:39:01Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/71",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "71",
+            "Created": "2025-06-25T22:40:32Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 3, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 234,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-25T22:40:32Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/72",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "72",
+            "Created": "2025-06-26T16:11:36Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 3, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 235,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-27T17:12:10Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/73",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "73",
+            "Created": "2025-06-26T16:13:07Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 3, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 236,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-27T17:36:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/74",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "74",
+            "Created": "2025-06-26T16:13:09Z",
+            "EntryType": "Oem",
+            "Message": "At least one of the links is up in adapter ConnectX-7 200GE 2P NIC in slot 3",
+            "MessageArgs": [],
+            "MessageId": "17.14",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 14,
+                    "Count": 1,
+                    "EventNumber": 237,
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-27T17:12:12Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/75",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "75",
+            "Created": "2025-06-27T17:12:10Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 25, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 238,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-27T17:12:10Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/76",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "76",
+            "Created": "2025-06-27T17:36:24Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 26, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 239,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-06-27T17:36:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/77",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "77",
+            "Created": "2025-07-02T06:13:41Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "2.47",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 47,
+                    "Count": 16,
+                    "EventNumber": 240,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x002f-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally missing and the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T06:57:14Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/78",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "78",
+            "Created": "2025-07-02T06:17:16Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 3, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 241,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:17:16Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/79",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "79",
+            "Created": "2025-07-02T06:17:16Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 3, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 242,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:17:16Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/80",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "80",
+            "Created": "2025-07-02T06:17:16Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 7, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 243,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:17:16Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/81",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "81",
+            "Created": "2025-07-02T06:17:16Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 8, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 244,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:17:16Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/82",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "82",
+            "Created": "2025-07-02T06:17:17Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 25, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 245,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:17:17Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/83",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "83",
+            "Created": "2025-07-02T06:17:17Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 26, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 246,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:17:17Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/84",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "84",
+            "Created": "2025-07-02T06:23:52Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 3, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 247,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:23:52Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/85",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "85",
+            "Created": "2025-07-02T06:23:53Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 3, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 248,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:23:53Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/86",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "86",
+            "Created": "2025-07-02T06:23:53Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 7, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 249,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:23:53Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/87",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "87",
+            "Created": "2025-07-02T06:23:53Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 8, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 250,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:23:53Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/88",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "88",
+            "Created": "2025-07-02T06:23:53Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 25, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 251,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:23:53Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/89",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "89",
+            "Created": "2025-07-02T06:23:53Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 26, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 252,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:23:53Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/90",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "90",
+            "Created": "2025-07-02T06:50:18Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 3, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 253,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:50:18Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/91",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "91",
+            "Created": "2025-07-02T06:50:18Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 3, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 254,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:50:18Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/92",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "92",
+            "Created": "2025-07-02T06:50:18Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 7, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 255,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:50:18Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/93",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "93",
+            "Created": "2025-07-02T06:50:18Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 8, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 256,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:50:18Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/94",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "94",
+            "Created": "2025-07-02T06:50:18Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 25, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 257,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:50:18Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/95",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "95",
+            "Created": "2025-07-02T06:50:18Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 26, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 258,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:50:18Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/96",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "96",
+            "Created": "2025-07-02T06:58:39Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 3, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 259,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:58:39Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/97",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "97",
+            "Created": "2025-07-02T06:58:39Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 3, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 260,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:58:39Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/98",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "98",
+            "Created": "2025-07-02T06:58:39Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 7, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 261,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:58:39Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/99",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "99",
+            "Created": "2025-07-02T06:58:39Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 8, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 262,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:58:39Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/100",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "100",
+            "Created": "2025-07-02T06:58:39Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 25, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 263,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:58:39Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/101",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "101",
+            "Created": "2025-07-02T06:58:39Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 26, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 264,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T06:58:39Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/102",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "102",
+            "Created": "2025-07-02T07:17:04Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "2.47",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 47,
+                    "Count": 3,
+                    "EventNumber": 265,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x002f-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally missing and the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T07:20:08Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/103",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "103",
+            "Created": "2025-07-02T07:21:09Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 3, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 266,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T07:21:09Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/104",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "104",
+            "Created": "2025-07-02T07:21:09Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-7 200GE 2P NIC Connectivity status changed to OK for adapter in slot 3, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 267,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T07:21:09Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/105",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "105",
+            "Created": "2025-07-02T07:21:09Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 7, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 268,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T07:21:09Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/106",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "106",
+            "Created": "2025-07-02T07:21:09Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 8, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 269,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T07:21:09Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/107",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "107",
+            "Created": "2025-07-02T07:21:09Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 25, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 270,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T07:21:09Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/108",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "108",
+            "Created": "2025-07-02T07:21:09Z",
+            "EntryType": "Oem",
+            "Message": "ConnectX-5 100GE 1P NIC Connectivity status changed to OK for adapter in slot 26, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 271,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen11",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2025-07-02T07:21:09Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 108
+}

@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"47531088\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/34",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "34",
+    "Created": "2025-06-12T22:43:08Z",
+    "EntryType": "Oem",
+    "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+    "MessageArgs": [],
+    "MessageId": "2.47",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security"
+            ],
+            "Class": 2,
+            "ClassDescription": "Environment",
+            "Code": 47,
+            "Count": 2,
+            "EventNumber": 197,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x002f-gen11",
+            "RecommendedAction": "Ensure that the server chassis hood is intentionally missing and the server is secure.",
+            "Repaired": false,
+            "Severity": "Caution",
+            "Updated": "2025-06-12T22:44:55Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "Warning"
+}

@@ -1,0 +1,3451 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "W/\"2415989053\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Security Logs view",
+    "Name": "Security Logs",
+    "Members": [
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/1",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "1",
+            "Created": "2025-05-24T21:22:09Z",
+            "EntryType": "Oem",
+            "Message": "Security log cleared by: Administrator",
+            "MessageArgs": [],
+            "MessageId": "33.4",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 4,
+                    "Count": 1,
+                    "EventNumber": 86,
+                    "Severity": "Informational",
+                    "Updated": "2025-05-24T21:22:09Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/2",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "2",
+            "Created": "2025-06-03T17:49:41Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 87,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-03T17:49:41Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/3",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "3",
+            "Created": "2025-06-03T20:48:15Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-3T19:49:5.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 88,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-03T20:48:15Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/4",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "4",
+            "Created": "2025-06-03T20:48:42Z",
+            "EntryType": "Oem",
+            "Message": "iLO detected invalid System ROM firmware.",
+            "MessageArgs": [],
+            "MessageId": "57.3",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 57,
+                    "ClassDescription": "Permanent Denial of Service",
+                    "Code": 3,
+                    "Count": 1,
+                    "EventNumber": 89,
+                    "RecommendedAction": "For firmware integrity scans, if configured for automatic recovery, the iLO firmware will attempt to repair the System ROM firmware. If an anomaly was detected during boot, then manual recovery will be required.  ",
+                    "Severity": "Critical",
+                    "Updated": "2025-06-03T20:48:42Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/5",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "5",
+            "Created": "2025-06-03T20:49:04Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 90,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-03T20:49:04Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/6",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "6",
+            "Created": "2025-06-03T20:49:37Z",
+            "EntryType": "Oem",
+            "Message": "The invalid image \"Invalid_System_ROM\" was added to the iLO Repository.",
+            "MessageArgs": [],
+            "MessageId": "55.29",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 29,
+                    "Count": 1,
+                    "EventNumber": 91,
+                    "RecommendedAction": "No Action.  This file can be used for analysis of invalid system firmware.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-03T20:49:37Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/7",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "7",
+            "Created": "2025-06-03T20:49:37Z",
+            "EntryType": "Oem",
+            "Message": "iLO completed the firmware integrity scan and detected an anomaly.",
+            "MessageArgs": [],
+            "MessageId": "57.2",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 57,
+                    "ClassDescription": "Permanent Denial of Service",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 92,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-03T20:49:37Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/8",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "8",
+            "Created": "2025-06-03T20:49:52Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Last Firmware Scan Result\" parameter on security dashboard is \"Risk\". State is \"Failed\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 93,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Critical",
+                    "Updated": "2025-06-03T20:49:52Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/9",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "9",
+            "Created": "2025-06-03T21:30:26Z",
+            "EntryType": "Oem",
+            "Message": "iLO detected invalid System ROM firmware.",
+            "MessageArgs": [],
+            "MessageId": "57.3",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 57,
+                    "ClassDescription": "Permanent Denial of Service",
+                    "Code": 3,
+                    "Count": 3,
+                    "EventNumber": 94,
+                    "RecommendedAction": "For firmware integrity scans, if configured for automatic recovery, the iLO firmware will attempt to repair the System ROM firmware. If an anomaly was detected during boot, then manual recovery will be required.  ",
+                    "Severity": "Critical",
+                    "Updated": "2025-06-03T21:43:19Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/10",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "10",
+            "Created": "2025-06-03T21:30:26Z",
+            "EntryType": "Oem",
+            "Message": "iLO completed the firmware integrity scan and detected an anomaly.",
+            "MessageArgs": [],
+            "MessageId": "57.2",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 57,
+                    "ClassDescription": "Permanent Denial of Service",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 95,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-03T21:30:26Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/11",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "11",
+            "Created": "2025-06-03T21:39:40Z",
+            "EntryType": "Oem",
+            "Message": "iLO completed the firmware integrity scan and detected an anomaly.",
+            "MessageArgs": [],
+            "MessageId": "57.2",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 57,
+                    "ClassDescription": "Permanent Denial of Service",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 96,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-03T21:39:40Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/12",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "12",
+            "Created": "2025-06-03T21:43:19Z",
+            "EntryType": "Oem",
+            "Message": "iLO completed the firmware integrity scan and detected an anomaly.",
+            "MessageArgs": [],
+            "MessageId": "57.2",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 57,
+                    "ClassDescription": "Permanent Denial of Service",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 97,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-03T21:43:19Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/13",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "13",
+            "Created": "2025-06-03T23:09:22Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Last Firmware Scan Result\" parameter on security dashboard is \"OK\". State is \"Ok\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 98,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-03T23:09:22Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/14",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "14",
+            "Created": "2025-06-06T21:45:06Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-4T22:7:36.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 99,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-06T21:45:06Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/15",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "15",
+            "Created": "2025-06-06T21:45:55Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 100,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-06T21:45:55Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/16",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "16",
+            "Created": "2025-06-06T22:41:59Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-6T22:27:39.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 101,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-06T22:41:59Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/17",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "17",
+            "Created": "2025-06-06T22:42:49Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 102,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-06T22:42:49Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/18",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "18",
+            "Created": "2025-06-09T16:57:39Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-9T16:40:51.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 103,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-09T16:57:39Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/19",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "19",
+            "Created": "2025-06-09T16:58:16Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "58.7",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 7,
+                    "Count": 1,
+                    "EventNumber": 104,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally removed and the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-09T16:58:16Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/20",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "20",
+            "Created": "2025-06-09T16:58:36Z",
+            "EntryType": "Oem",
+            "Message": "The chassis hood has been replaced.",
+            "MessageArgs": [],
+            "MessageId": "58.8",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 8,
+                    "Count": 1,
+                    "EventNumber": 105,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally replaced, and the server is secure.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-09T16:58:36Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/21",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "21",
+            "Created": "2025-06-09T16:58:37Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Access Panel Status\" parameter on security dashboard is \"OK\". State is \"Ok\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 106,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-09T16:58:37Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/22",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "22",
+            "Created": "2025-06-09T16:58:37Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 107,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-09T16:58:37Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/23",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "23",
+            "Created": "2025-06-09T17:35:28Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-9T16:58:12.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 108,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-09T17:35:28Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/24",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "24",
+            "Created": "2025-06-09T17:36:26Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 109,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-09T17:36:26Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/25",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "25",
+            "Created": "2025-06-09T17:50:57Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-9T17:39:58.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 110,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-09T17:50:57Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/26",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "26",
+            "Created": "2025-06-09T17:51:46Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 111,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-09T17:51:46Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/27",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "27",
+            "Created": "2025-06-09T21:47:12Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 112,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-09T21:47:12Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/28",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "28",
+            "Created": "2025-06-11T15:24:18Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-10T21:30:55.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 113,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-11T15:24:18Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/29",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "29",
+            "Created": "2025-06-11T15:25:07Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 114,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-11T15:25:07Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/30",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "30",
+            "Created": "2025-06-11T15:36:07Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 115,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-11T15:36:07Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/31",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "31",
+            "Created": "2025-06-11T15:42:18Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 116,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-11T15:42:18Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/32",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "32",
+            "Created": "2025-06-11T16:31:07Z",
+            "EntryType": "Oem",
+            "Message": "Default configuration settings have been restored per user request. If Secure Boot was enabled, related security settings may have been lost.",
+            "MessageArgs": [],
+            "MessageId": "10.12713",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 12713,
+                    "Count": 1,
+                    "EventNumber": 117,
+                    "RecommendedAction": "Restore any desired configuration settings.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-11T16:31:07Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/33",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "33",
+            "Created": "2025-06-12T21:01:30Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-12T20:49:27.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 118,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-12T21:01:30Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/34",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "34",
+            "Created": "2025-06-12T21:02:20Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 119,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-12T21:02:20Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/35",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "35",
+            "Created": "2025-06-12T21:17:49Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-12T21:17:38.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 120,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-12T21:17:49Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/36",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "36",
+            "Created": "2025-06-12T21:18:21Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "58.7",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 7,
+                    "Count": 1,
+                    "EventNumber": 121,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally removed and the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-12T21:18:21Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/37",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "37",
+            "Created": "2025-06-12T21:34:07Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-12T21:18:59.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 122,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-12T21:34:07Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/38",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "38",
+            "Created": "2025-06-12T21:34:57Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 123,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-12T21:34:57Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/39",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "39",
+            "Created": "2025-06-12T22:43:09Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "58.7",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 7,
+                    "Count": 2,
+                    "EventNumber": 124,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally removed and the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-12T22:44:55Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/40",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "40",
+            "Created": "2025-06-12T22:43:23Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Access Panel Status\" parameter on security dashboard is \"Risk\". State is \"Insufficient\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 125,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Critical",
+                    "Updated": "2025-06-12T22:43:23Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/41",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "41",
+            "Created": "2025-06-12T22:44:10Z",
+            "EntryType": "Oem",
+            "Message": "The chassis hood has been replaced.",
+            "MessageArgs": [],
+            "MessageId": "58.8",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 8,
+                    "Count": 2,
+                    "EventNumber": 126,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally replaced, and the server is secure.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-12T22:55:35Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/42",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "42",
+            "Created": "2025-06-12T22:44:25Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Access Panel Status\" parameter on security dashboard is \"OK\". State is \"Ok\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 127,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-12T22:44:25Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/43",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "43",
+            "Created": "2025-06-12T22:45:06Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Access Panel Status\" parameter on security dashboard is \"Risk\". State is \"Insufficient\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 128,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Critical",
+                    "Updated": "2025-06-12T22:45:06Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/44",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "44",
+            "Created": "2025-06-12T22:55:36Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Access Panel Status\" parameter on security dashboard is \"OK\". State is \"Ok\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 129,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-12T22:55:36Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/45",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "45",
+            "Created": "2025-06-13T00:20:10Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-13T0:5:2.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 130,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T00:20:10Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/46",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "46",
+            "Created": "2025-06-13T00:21:00Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 131,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T00:21:00Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/47",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "47",
+            "Created": "2025-06-13T16:00:16Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-13T15:45:26.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 132,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T16:00:16Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/48",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "48",
+            "Created": "2025-06-13T16:01:17Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 133,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T16:01:17Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/49",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "49",
+            "Created": "2025-06-13T16:46:03Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-13T16:16:34.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 134,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T16:46:03Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/50",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "50",
+            "Created": "2025-06-13T16:46:52Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 135,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T16:46:52Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/51",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "51",
+            "Created": "2025-06-13T17:01:53Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "58.7",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 7,
+                    "Count": 1,
+                    "EventNumber": 136,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally removed and the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T17:01:53Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/52",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "52",
+            "Created": "2025-06-13T17:02:12Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Access Panel Status\" parameter on security dashboard is \"Risk\". State is \"Insufficient\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 137,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Critical",
+                    "Updated": "2025-06-13T17:02:12Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/53",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "53",
+            "Created": "2025-06-13T17:06:28Z",
+            "EntryType": "Oem",
+            "Message": "The chassis hood has been replaced.",
+            "MessageArgs": [],
+            "MessageId": "58.8",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 8,
+                    "Count": 1,
+                    "EventNumber": 138,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally replaced, and the server is secure.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T17:06:28Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/54",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "54",
+            "Created": "2025-06-13T17:06:33Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Access Panel Status\" parameter on security dashboard is \"OK\". State is \"Ok\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 139,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T17:06:33Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/55",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "55",
+            "Created": "2025-06-13T20:44:13Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-13T20:41:50.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 140,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T20:44:13Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/56",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "56",
+            "Created": "2025-06-13T20:44:51Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "58.7",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 7,
+                    "Count": 2,
+                    "EventNumber": 141,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally removed and the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T20:47:41Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/57",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "57",
+            "Created": "2025-06-13T20:44:53Z",
+            "EntryType": "Oem",
+            "Message": "The chassis hood has been replaced.",
+            "MessageArgs": [],
+            "MessageId": "58.8",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 8,
+                    "Count": 2,
+                    "EventNumber": 142,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally replaced, and the server is secure.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T20:48:15Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/58",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "58",
+            "Created": "2025-06-13T20:45:14Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Access Panel Status\" parameter on security dashboard is \"OK\". State is \"Ok\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 143,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T20:45:14Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/59",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "59",
+            "Created": "2025-06-13T20:45:14Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 144,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T20:45:14Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/60",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "60",
+            "Created": "2025-06-13T20:47:03Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-13T20:45:37.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 145,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T20:47:03Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/61",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "61",
+            "Created": "2025-06-13T20:48:03Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 146,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T20:48:03Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/62",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "62",
+            "Created": "2025-06-13T20:48:32Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Access Panel Status\" parameter on security dashboard is \"OK\". State is \"Ok\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 147,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T20:48:32Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/63",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "63",
+            "Created": "2025-06-13T21:04:15Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "58.7",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 7,
+                    "Count": 3,
+                    "EventNumber": 148,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally removed and the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T21:20:59Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/64",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "64",
+            "Created": "2025-06-13T21:04:28Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Access Panel Status\" parameter on security dashboard is \"Risk\". State is \"Insufficient\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 149,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Critical",
+                    "Updated": "2025-06-13T21:04:28Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/65",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "65",
+            "Created": "2025-06-13T21:04:48Z",
+            "EntryType": "Oem",
+            "Message": "The chassis hood has been replaced.",
+            "MessageArgs": [],
+            "MessageId": "58.8",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 8,
+                    "Count": 2,
+                    "EventNumber": 150,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally replaced, and the server is secure.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T21:21:42Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/66",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "66",
+            "Created": "2025-06-13T21:04:49Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Access Panel Status\" parameter on security dashboard is \"OK\". State is \"Ok\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 151,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T21:04:49Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/67",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "67",
+            "Created": "2025-06-13T21:07:01Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Access Panel Status\" parameter on security dashboard is \"Risk\". State is \"Insufficient\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 152,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Critical",
+                    "Updated": "2025-06-13T21:07:01Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/68",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "68",
+            "Created": "2025-06-13T21:10:12Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 153,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T21:10:12Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/69",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "69",
+            "Created": "2025-06-13T21:20:59Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Access Panel Status\" parameter on security dashboard is \"Risk\". State is \"Insufficient\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 154,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Critical",
+                    "Updated": "2025-06-13T21:20:59Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/70",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "70",
+            "Created": "2025-06-13T21:21:57Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Access Panel Status\" parameter on security dashboard is \"OK\". State is \"Ok\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 155,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T21:21:57Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/71",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "71",
+            "Created": "2025-06-13T21:30:22Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-13T21:24:43.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 156,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T21:30:22Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/72",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "72",
+            "Created": "2025-06-13T21:31:13Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 157,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T21:31:13Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/73",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "73",
+            "Created": "2025-06-13T21:36:22Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 158,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T21:36:22Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/74",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "74",
+            "Created": "2025-06-13T22:29:18Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-13T21:59:7.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 159,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T22:29:18Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/75",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "75",
+            "Created": "2025-06-13T22:29:51Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "58.7",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 7,
+                    "Count": 2,
+                    "EventNumber": 160,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally removed and the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T22:30:36Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/76",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "76",
+            "Created": "2025-06-13T22:30:07Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 161,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-13T22:30:07Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/77",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "77",
+            "Created": "2025-06-13T22:30:52Z",
+            "EntryType": "Oem",
+            "Message": "The chassis hood has been replaced.",
+            "MessageArgs": [],
+            "MessageId": "58.8",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 8,
+                    "Count": 1,
+                    "EventNumber": 162,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally replaced, and the server is secure.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T22:30:52Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/78",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "78",
+            "Created": "2025-06-13T22:31:07Z",
+            "EntryType": "Oem",
+            "Message": "The security state of \"Access Panel Status\" parameter on security dashboard is \"OK\". State is \"Ok\" and ignore option is \"False\".",
+            "MessageArgs": [],
+            "MessageId": "55.5661",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5661,
+                    "Count": 1,
+                    "EventNumber": 163,
+                    "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+                    "Severity": "Informational",
+                    "Updated": "2025-06-13T22:31:07Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/79",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "79",
+            "Created": "2025-06-25T20:13:54Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-16T18:37:38.",
+            "MessageArgs": [],
+            "MessageId": "58.9",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 9,
+                    "Count": 1,
+                    "EventNumber": 164,
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-25T20:13:54Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/80",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "80",
+            "Created": "2025-06-25T20:14:31Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "58.7",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 7,
+                    "Count": 7,
+                    "EventNumber": 165,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally removed and the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-25T20:40:45Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/81",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "81",
+            "Created": "2025-06-25T20:14:55Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 166,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-25T20:14:55Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/82",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "82",
+            "Created": "2025-06-25T20:37:49Z",
+            "EntryType": "Oem",
+            "Message": "iLO Network configuration modified by: Administrator.",
+            "MessageArgs": [],
+            "MessageId": "55.19",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 19,
+                    "Count": 1,
+                    "EventNumber": 167,
+                    "Severity": "Informational",
+                    "Updated": "2025-06-25T20:37:49Z",
+                    "UserAction": "Not Applicable"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/83",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "83",
+            "Created": "2025-06-25T20:41:14Z",
+            "EntryType": "Oem",
+            "Message": "The overall security state of the system is at \"Risk\".",
+            "MessageArgs": [],
+            "MessageId": "55.5",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Administration",
+                        "Configuration"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 5,
+                    "Count": 1,
+                    "EventNumber": 168,
+                    "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+                    "Severity": "Caution",
+                    "Updated": "2025-06-25T20:41:14Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/84",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "84",
+            "Created": "2025-07-02T06:13:41Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "58.7",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 7,
+                    "Count": 16,
+                    "EventNumber": 169,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally removed and the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T06:57:14Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/85",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "85",
+            "Created": "2025-07-02T06:17:33Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR1",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 170,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T06:17:33Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/86",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "86",
+            "Created": "2025-07-02T06:17:33Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR2",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 171,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T06:17:33Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/87",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "87",
+            "Created": "2025-07-02T06:17:33Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR4",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 172,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T06:17:33Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/88",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "88",
+            "Created": "2025-07-02T06:17:33Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR6",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 173,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T06:17:33Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/89",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "89",
+            "Created": "2025-07-02T06:17:33Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR7",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 174,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T06:17:33Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/90",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "90",
+            "Created": "2025-07-02T06:17:33Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR8",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 175,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T06:17:33Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/91",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "91",
+            "Created": "2025-07-02T06:17:33Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR9",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 176,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T06:17:33Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/92",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "92",
+            "Created": "2025-07-02T06:17:33Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR14",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 177,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T06:17:33Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/93",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "93",
+            "Created": "2025-07-02T06:25:05Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR1",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 178,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T06:25:05Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/94",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "94",
+            "Created": "2025-07-02T06:25:05Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR4",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 179,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T06:25:05Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/95",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "95",
+            "Created": "2025-07-02T07:01:30Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR1",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 180,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T07:01:30Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/96",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "96",
+            "Created": "2025-07-02T07:01:30Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR7",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 181,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T07:01:30Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/97",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "97",
+            "Created": "2025-07-02T07:17:04Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood is currently not installed.",
+            "MessageArgs": [],
+            "MessageId": "58.7",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 58,
+                    "ClassDescription": "Hardware Intrusion",
+                    "Code": 7,
+                    "Count": 3,
+                    "EventNumber": 182,
+                    "RecommendedAction": "Ensure that the server chassis hood is intentionally removed and the server is secure.",
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T07:20:08Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/98",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "98",
+            "Created": "2025-07-02T07:20:33Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR1",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 183,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T07:20:33Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/99",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "99",
+            "Created": "2025-07-02T07:20:33Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR4",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 184,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T07:20:33Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/100",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "100",
+            "Created": "2025-07-02T07:20:33Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR5",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 185,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T07:20:33Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/101",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "101",
+            "Created": "2025-07-02T07:20:33Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR6",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 186,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T07:20:33Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/102",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "102",
+            "Created": "2025-07-02T07:20:33Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR7",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 187,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T07:20:33Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/103",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "103",
+            "Created": "2025-07-02T07:20:33Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR8",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 188,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T07:20:33Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/104",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "104",
+            "Created": "2025-07-02T07:20:33Z",
+            "EntryType": "Oem",
+            "Message": "PCR Measurements Changed, Component Type BIOS PCR Index PCR9",
+            "MessageArgs": [],
+            "MessageId": "55.1607",
+            "Name": "Security Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Firmware",
+                        "Maintenance"
+                    ],
+                    "Class": 55,
+                    "ClassDescription": "Security Configuration",
+                    "Code": 1607,
+                    "Count": 1,
+                    "EventNumber": 189,
+                    "Severity": "Caution",
+                    "Updated": "2025-07-02T07:20:33Z",
+                    "UserAction": "None"
+                }
+            },
+            "OemRecordFormat": "Hpe-SL",
+            "Severity": "Warning"
+        }
+    ],
+    "Members@odata.count": 104
+}

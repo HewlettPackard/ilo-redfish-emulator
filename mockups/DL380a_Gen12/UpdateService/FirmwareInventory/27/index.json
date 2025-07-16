@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"87676162\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/27",
+    "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+    "Id": "27",
+    "Description": "15b3101715900346",
+    "Name": "ConnectX-5 100GE 1P NIC",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": null,
+            "DeviceContext": "PCI-E Slot 7",
+            "DeviceInstance": "PciRoot(0x3)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "Targets": [
+                "a6b1a447-382a-5a4f-15b3-101715900346"
+            ]
+        }
+    },
+    "Updateable": true,
+    "Version": "16.28.4000",
+    "VersionScheme": "OEM"
+}

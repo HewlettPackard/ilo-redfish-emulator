@@ -1,0 +1,17 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PortCollection.PortCollection",
+    "@odata.etag": "W/\"1459770610\"",
+    "@odata.id": "/redfish/v1/Fabrics/1/Switches/0/Ports",
+    "@odata.type": "#PortCollection.PortCollection",
+    "Description": "Port Collection View",
+    "Name": "Port Collection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Fabrics/1/Switches/0/Ports/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Fabrics/1/Switches/0/Ports/1"
+        }
+    ],
+    "Members@odata.count": 2
+}

@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"2834116578\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/420",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "420",
+    "Created": "2025-07-02T07:52:02Z",
+    "EntryType": "Oem",
+    "Message": "SSH login: Administrator - 172.93.1.2(DNS name not found).",
+    "MessageArgs": [],
+    "MessageId": "35.1021",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 1021,
+            "Count": 1,
+            "EventNumber": 1944,
+            "Severity": "Informational",
+            "Updated": "2025-07-02T07:52:02Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

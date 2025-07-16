@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"1288389149\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/189",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "189",
+    "Created": "2025-07-02T06:54:04Z",
+    "EntryType": "Oem",
+    "EventId": "ca000000-c600-0000-8000-0000ac000000",
+    "EventTimestamp": "2025-07-02T06:54:04Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/1"
+        }
+    },
+    "MessageId": "iLOResourceEvents.7.1.ServerPoweredOn",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

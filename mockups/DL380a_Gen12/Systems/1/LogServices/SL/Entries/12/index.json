@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"2807222749\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/12",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "12",
+    "Created": "2025-06-03T21:43:19Z",
+    "EntryType": "Oem",
+    "Message": "iLO completed the firmware integrity scan and detected an anomaly.",
+    "MessageArgs": [],
+    "MessageId": "57.2",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Firmware",
+                "Maintenance"
+            ],
+            "Class": 57,
+            "ClassDescription": "Permanent Denial of Service",
+            "Code": 2,
+            "Count": 1,
+            "EventNumber": 97,
+            "Severity": "Informational",
+            "Updated": "2025-06-03T21:43:19Z",
+            "UserAction": "Not Applicable"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "OK"
+}

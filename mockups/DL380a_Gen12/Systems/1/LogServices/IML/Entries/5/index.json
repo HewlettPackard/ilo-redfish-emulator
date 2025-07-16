@@ -1,0 +1,36 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"2093713990\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/5",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "5",
+    "Created": "2025-06-03T20:48:42Z",
+    "EntryType": "Oem",
+    "Message": "iLO detected invalid System ROM firmware.",
+    "MessageArgs": [],
+    "MessageId": "32.3",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Firmware",
+                "Maintenance"
+            ],
+            "Class": 32,
+            "ClassDescription": "System Revision",
+            "Code": 3,
+            "Count": 1,
+            "EventNumber": 168,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0020code0x0003-gen11",
+            "RecommendedAction": "For firmware integrity scans, if configured for automatic recovery, the iLO firmware will attempt to repair the System ROM firmware. If an anomaly was detected during boot, then manual recovery will be required.  ",
+            "Repaired": false,
+            "Severity": "Critical",
+            "Updated": "2025-06-03T20:48:42Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "Critical"
+}

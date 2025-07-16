@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot",
+    "@odata.etag": "W/\"918619050\"",
+    "@odata.id": "/redfish/v1/Systems/1/PCISlots/13",
+    "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+    "Id": "13",
+    "BusNumber": 217,
+    "Characteristics": {
+        "Provides3_3Volts": true,
+        "SupportsPowerManagementEventSignal": true
+    },
+    "DeviceNumber": 0,
+    "FunctionNumber": 0,
+    "Length": "Long",
+    "LinkLanes": "x16",
+    "Name": "PCI-E Slot 18",
+    "SegmentNumber": 1,
+    "Status": {
+        "OperationalStatus": [
+            {
+                "Status": "Empty"
+            }
+        ]
+    },
+    "SupportsHotPlug": false,
+    "Technology": "PCIExpressGen5",
+    "UEFIDevicePath": "PciRoot(0x153)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)"
+}

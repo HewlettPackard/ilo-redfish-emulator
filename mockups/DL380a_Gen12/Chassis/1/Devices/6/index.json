@@ -1,0 +1,36 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"1007200268\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/6",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "6",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/3"
+        }
+    ],
+    "DeviceType": "LOM/NIC",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "16.28.4000"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/2"
+        }
+    },
+    "Location": "PCI-E Slot 7",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "Mellanox",
+    "Name": "ConnectX-5 100GE 1P NIC",
+    "PartNumber": "P36052-001",
+    "ProductPartNumber": "P36052-001               ",
+    "ProductVersion": "B1",
+    "SerialNumber": "ILC143008S",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

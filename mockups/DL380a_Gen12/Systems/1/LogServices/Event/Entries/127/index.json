@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"1244874818\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/127",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "127",
+    "Created": "2025-07-02T06:40:02Z",
+    "EntryType": "Oem",
+    "EventId": "14000000-9200-0000-2800-00000c000000",
+    "EventTimestamp": "2025-07-02T06:40:02Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/1"
+        }
+    },
+    "MessageArgs": [
+        "Blinking"
+    ],
+    "MessageId": "iLOResourceEvents.7.1.IndicatorLEDStateChanged",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "W/\"2745614147\"",
+    "@odata.id": "/redfish/v1/Systems/1/BootOptions/23",
+    "@odata.type": "#BootOption.v1_0_1.BootOption",
+    "Id": "23",
+    "Alias": "",
+    "BootOptionReference": "Boot0022",
+    "DisplayName": "Storage Slot 29 : HPE NS204i-u Gen11 Boot Controller",
+    "Name": "Boot Option",
+    "UefiDevicePath": "PciRoot(0x11)/Pci(0x6,0x0)/Pci(0x0,0x0)/NVMe(0x1,01-00-FB-C9-97-14070400000043-50-7F00000000)"
+}

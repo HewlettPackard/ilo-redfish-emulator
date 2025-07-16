@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"502642814\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/14",
+    "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+    "Id": "14",
+    "Description": "PCIeRiserMCUFirmware",
+    "Name": "PCIe Captive Riser MCU Firmware",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "b1ad439a-9dd1-41c1-a496-2da9313f1f07",
+            "DeviceContext": "System Board"
+        }
+    },
+    "Updateable": true,
+    "Version": "0.2F",
+    "VersionScheme": "OEM"
+}

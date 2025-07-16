@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot",
+    "@odata.etag": "W/\"3579923825\"",
+    "@odata.id": "/redfish/v1/Systems/1/PCISlots/23",
+    "@odata.type": "#HpeServerPCISlot.v2_2_1.HpeServerPCISlot",
+    "Id": "23",
+    "BusNumber": 62,
+    "Characteristics": {
+        "Provides3_3Volts": true,
+        "SupportsPowerManagementEventSignal": true
+    },
+    "DeviceNumber": 0,
+    "FunctionNumber": 0,
+    "Length": "Other",
+    "LinkLanes": "x4",
+    "Name": "Storage Controller Slot 29",
+    "SegmentNumber": 0,
+    "Status": {
+        "OperationalStatus": [
+            {
+                "Status": "InUse"
+            }
+        ]
+    },
+    "SupportsHotPlug": false,
+    "Technology": "Proprietary",
+    "UEFIDevicePath": "PciRoot(0x11)/Pci(0x6,0x0)/Pci(0x0,0x0)"
+}

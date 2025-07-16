@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"3337962297\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/30",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "30",
+    "Created": "2025-06-26T16:11:36Z",
+    "EntryType": "Oem",
+    "EventId": "56000000-7500-0000-5700-0000ea000000",
+    "EventTimestamp": "2025-06-26T16:11:36Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE042000/Ports/0"
+        }
+    },
+    "MessageArgs": [
+        "ConnectX-7 200GE 2P NIC",
+        "1",
+        "3"
+    ],
+    "MessageId": "NetworkDevice.1.0.ConnectionDropped",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

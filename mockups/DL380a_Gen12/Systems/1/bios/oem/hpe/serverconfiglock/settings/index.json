@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerConfigLock.HpeServerConfigLock",
+    "@odata.etag": "W/\"AC9947F45EFEC9C9C94BC2B5B81171ED\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/serverconfiglock/settings/",
+    "@odata.type": "#HpeServerConfigLock.v1_0_0.HpeServerConfigLock",
+    "Id": "settings",
+    "Name": "Server Configuration Lock Pending Settings",
+    "NewServerConfigLockPassword": null,
+    "ServerConfigLockChallenge": null,
+    "ServerConfigLockDisable": null,
+    "ServerConfigLockExcludeCpus": null,
+    "ServerConfigLockExcludeDimms": null,
+    "ServerConfigLockExcludeFwRevs": null,
+    "ServerConfigLockExcludePciSlots": null,
+    "ServerConfigLockExcludeSecurity": null,
+    "ServerConfigLockLogStored": "False",
+    "ServerConfigLockPassword": null,
+    "ServerConfigLockState": "Disabled",
+    "ServerConfigLockTamperHalt": null,
+    "ServerConfigLockTransport": null,
+    "ServerConfigLockTransportAudit": null
+}

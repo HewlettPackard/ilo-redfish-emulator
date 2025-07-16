@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"2246197113\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/403",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "403",
+    "Created": "2025-07-02T06:55:45Z",
+    "EntryType": "Oem",
+    "Message": "The iLO health monitoring status of the device / adapter located in Slot  8 is ok.",
+    "MessageArgs": [],
+    "MessageId": "35.1156",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 1156,
+            "Count": 1,
+            "EventNumber": 1927,
+            "RecommendedAction": "Do one or more of the following:\n1.Disable the MCTP and wait for 2 minutes. Enable the MCTP in iLO\n2.Perform the iLO reset.\n3.Perform the server reboot. If the issue still persists contact support\n",
+            "Severity": "Repaired",
+            "Updated": "2025-07-02T06:55:45Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

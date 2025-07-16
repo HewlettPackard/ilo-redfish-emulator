@@ -1,0 +1,58 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE046000",
+    "@odata.type": "#NetworkAdapter.v1_4_0.NetworkAdapter",
+    "@odata.etag": "W/\"96760F24\"",
+    "Actions": {
+        "#NetworkAdapter.ResetSettingsToDefault": {
+            "target": "/redfish/v1/Chassis/1/NetworkAdapters/DE046000/Actions/NetworkAdapter.ResetSettingsToDefault",
+            "title": "Reset network adapter configuration to factory default values."
+        }
+    },
+    "Controllers": [
+        {
+            "ControllerCapabilities": {
+                "NetworkDeviceFunctionCount": 1,
+                "NetworkPortCount": 1,
+                "VirtualizationOffload": {
+                    "VirtualFunction": {
+                        "DeviceMaxCount": 127,
+                        "MinAssignmentGroupSize": 0,
+                        "NetworkPortMaxCount": 127
+                    }
+                }
+            },
+            "FirmwarePackageVersion": "16.28.4000"
+        }
+    ],
+    "Id": "DE046000",
+    "Model": "HPE Ethernet 100Gb 1-port QSFP28 PCIe3 x16 MCX515A-CCAT Adapter",
+    "Name": "NetworkAdapter",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE046000/NetworkDeviceFunctions"
+    },
+    "NetworkPorts": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE046000/NetworkPorts"
+    },
+    "Oem": {
+        "Hpe": {
+            "Actions": {
+                "#HpeNetworkAdapter.FlushConfigurationToNVM": {
+                    "target": "/redfish/v1/Chassis/1/NetworkAdapters/DE046000/Actions/Oem/Hpe/HpeNetworkAdapter.FlushConfigurationToNVM",
+                    "title": "Force a save of current network adapter configuration to non-volatile storage."
+                }
+            },
+            "Controllers": [
+                {
+                    "ConfigurationStatus": {
+                        "Summary": 0
+                    },
+                    "FactoryDefaultsCurrentlyActive": true,
+                    "UnderlyingDataSource": "RDE"
+                }
+            ],
+            "FactoryDefaultsActuationBehavior": "AtNextReboot",
+            "RedfishConfiguration": "Enabled"
+        }
+    },
+    "SerialNumber": "ILC143008S"
+}

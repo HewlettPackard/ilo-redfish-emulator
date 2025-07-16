@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"3672547425\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/4",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "4",
+    "Created": "2025-06-03T20:48:42Z",
+    "EntryType": "Oem",
+    "Message": "iLO detected invalid System ROM firmware.",
+    "MessageArgs": [],
+    "MessageId": "57.3",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Firmware",
+                "Maintenance"
+            ],
+            "Class": 57,
+            "ClassDescription": "Permanent Denial of Service",
+            "Code": 3,
+            "Count": 1,
+            "EventNumber": 89,
+            "RecommendedAction": "For firmware integrity scans, if configured for automatic recovery, the iLO firmware will attempt to repair the System ROM firmware. If an anomaly was detected during boot, then manual recovery will be required.  ",
+            "Severity": "Critical",
+            "Updated": "2025-06-03T20:48:42Z",
+            "UserAction": "None"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "Critical"
+}

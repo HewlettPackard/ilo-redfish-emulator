@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"1796942382\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/16",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "16",
+    "Created": "2025-06-06T22:41:59Z",
+    "EntryType": "Oem",
+    "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-6-6T22:27:39.",
+    "MessageArgs": [],
+    "MessageId": "58.9",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security"
+            ],
+            "Class": 58,
+            "ClassDescription": "Hardware Intrusion",
+            "Code": 9,
+            "Count": 1,
+            "EventNumber": 101,
+            "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+            "Severity": "Caution",
+            "Updated": "2025-06-06T22:41:59Z",
+            "UserAction": "None"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "Warning"
+}

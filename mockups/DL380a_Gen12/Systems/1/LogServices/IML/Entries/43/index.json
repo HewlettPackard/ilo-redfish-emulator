@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"708489166\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/43",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "43",
+    "Created": "2025-06-13T17:06:28Z",
+    "EntryType": "Oem",
+    "Message": "The chassis hood has been replaced.",
+    "MessageArgs": [],
+    "MessageId": "2.48",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security"
+            ],
+            "Class": 2,
+            "ClassDescription": "Environment",
+            "Code": 48,
+            "Count": 1,
+            "EventNumber": 206,
+            "RecommendedAction": "Ensure that the server chassis hood is intentionally replaced, and the server is secure.",
+            "Severity": "Informational",
+            "Updated": "2025-06-13T17:06:28Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

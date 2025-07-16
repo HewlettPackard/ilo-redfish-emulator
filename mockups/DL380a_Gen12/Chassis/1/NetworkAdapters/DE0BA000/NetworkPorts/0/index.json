@@ -1,0 +1,41 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE0BA000/NetworkPorts/0",
+    "@odata.type": "#NetworkPort.v1_2_5.NetworkPort",
+    "@odata.etag": "W/\"E39FE4DC\"",
+    "ActiveLinkTechnology": "Ethernet",
+    "AssociatedNetworkAddresses": [
+        "88:e9:a4:4c:5e:08"
+    ],
+    "Id": "0",
+    "Name": "NetworkPort",
+    "NetDevFuncMaxBWAlloc": [
+        {
+            "MaxBWAllocPercent": 100
+        }
+    ],
+    "NetDevFuncMinBWAlloc": [
+        {
+            "MinBWAllocPercent": 0
+        }
+    ],
+    "Oem": {
+        "Hpe": {
+            "AutoNegotiationCapable": true
+        }
+    },
+    "PhysicalPortNumber": "1",
+    "SupportedLinkCapabilities": [
+        {
+            "LinkNetworkTechnology": "Ethernet",
+            "CapableLinkSpeedMbps": [
+                1000,
+                10000,
+                25000,
+                40000,
+                50000,
+                100000
+            ]
+        }
+    ],
+    "CurrentLinkSpeedMbps": 100000
+}

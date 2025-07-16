@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"87676162\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/39",
+    "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+    "Id": "39",
+    "Description": "MV003200LXUJK",
+    "Name": "NVMe Drive",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "f6de0320-2e0f-489a-b238-6dd8ae7c3811",
+            "DeviceContext": "Embedded:Port=10A:Box=1:Bay=4",
+            "Targets": [
+                "4d2340a5-3056-3330-3230-304c58554a4b"
+            ]
+        }
+    },
+    "Updateable": false,
+    "Version": "HPK6",
+    "VersionScheme": "OEM"
+}

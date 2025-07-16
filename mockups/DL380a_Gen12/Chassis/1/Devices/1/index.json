@@ -1,0 +1,36 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"102650899\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/1",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "1",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/11"
+        }
+    ],
+    "DeviceType": "SAS/SATA Storage Controller",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "1.2.14.1018"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/23"
+        }
+    },
+    "Location": "PCI-E Slot 29",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "HPE",
+    "Name": "HPE NS204i-u Gen11 Boot Controller",
+    "PartNumber": "P51341-001",
+    "ProductPartNumber": "P48183-B21",
+    "ProductVersion": "0B",
+    "SerialNumber": "PYWWA0A6KKL1CD",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

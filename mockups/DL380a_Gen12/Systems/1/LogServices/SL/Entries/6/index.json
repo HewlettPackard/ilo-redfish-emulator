@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"666215136\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/6",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "6",
+    "Created": "2025-06-03T20:49:37Z",
+    "EntryType": "Oem",
+    "Message": "The invalid image \"Invalid_System_ROM\" was added to the iLO Repository.",
+    "MessageArgs": [],
+    "MessageId": "55.29",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 55,
+            "ClassDescription": "Security Configuration",
+            "Code": 29,
+            "Count": 1,
+            "EventNumber": 91,
+            "RecommendedAction": "No Action.  This file can be used for analysis of invalid system firmware.",
+            "Severity": "Informational",
+            "Updated": "2025-06-03T20:49:37Z",
+            "UserAction": "Not Applicable"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "OK"
+}

@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Switch.Switch",
+    "@odata.etag": "W/\"2515691592\"",
+    "@odata.id": "/redfish/v1/Fabrics/1/Switches/0",
+    "@odata.type": "#Switch.v1_9_1.Switch",
+    "Id": "0",
+    "DomainID": 0,
+    "FirmwareVersion": "1.02",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/2"
+        }
+    },
+    "Manufacturer": "HPE",
+    "Model": "UBM10",
+    "Name": "Direct Attached",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Fabrics/1/Switches/0/Ports"
+    },
+    "SerialNumber": "N/A",
+    "SwitchType": "MultiProtocol"
+}

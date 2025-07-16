@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeiLOSecurityParam.HpeiLOSecurityParam",
+    "@odata.etag": "W/\"2745614147\"",
+    "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/10",
+    "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+    "Id": "10",
+    "Description": "The component integrity status is OK. If a component has been replaced, perform the Bind operation to authenticate the replaced component",
+    "Ignore": false,
+    "Name": "Component Integrity Status",
+    "SecurityStatus": "Ok",
+    "State": "Ok"
+}

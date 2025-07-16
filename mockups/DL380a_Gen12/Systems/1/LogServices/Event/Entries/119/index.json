@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"940569288\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/119",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "119",
+    "Created": "2025-07-02T06:25:05Z",
+    "EntryType": "Oem",
+    "EventId": "24000000-0f00-0000-3500-000020000000",
+    "EventTimestamp": "2025-07-02T06:25:05Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/"
+        }
+    },
+    "MessageArgs": [
+        "BIOS",
+        "PCR4"
+    ],
+    "MessageId": "iLOEvents.7.2.PCRChanged",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "Warning"
+}

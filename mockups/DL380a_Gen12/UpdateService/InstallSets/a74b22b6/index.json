@@ -1,0 +1,76 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponentInstallSet.HpeComponentInstallSet",
+    "@odata.etag": "W/\"4035323964\"",
+    "@odata.id": "/redfish/v1/UpdateService/InstallSets/a74b22b6",
+    "@odata.type": "#HpeComponentInstallSet.v1_5_0.HpeComponentInstallSet",
+    "Id": "a74b22b6",
+    "Actions": {
+        "#HpeComponentInstallSet.Invoke": {
+            "target": "/redfish/v1/UpdateService/InstallSets/a74b22b6/Actions/HpeComponentInstallSet.Invoke"
+        }
+    },
+    "Created": "2025-05-24T02:48:53Z",
+    "Description": "Essential System Firmware Components",
+    "IsRecovery": true,
+    "Modified": "2025-05-24T02:48:53Z",
+    "Name": "System Recovery Set",
+    "Sequence": [
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/16ed98f0",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "U72_1.34_04_18_2025.signed.flash",
+            "Name": "System BIOS - U72",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/68cc9561",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "ilo7_1.13.01.bin",
+            "Name": "iLO 7",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/73187049",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "sanjac_scm_top_v0909_signed.vme",
+            "Name": "DC-SCM Programmable Logic Device",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/a568f2b0",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "DL580_380A_SUB_Gen12_v1010_LMS_signed.vme",
+            "Name": "Secondary System Programmable Logic Device",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/d98b1102",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "DL380A_MAIN_Gen12_v1010_LMS_signed.vme",
+            "Name": "System Programmable Logic Device",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ResetServer",
+            "Name": "Reset the server",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        }
+    ]
+}

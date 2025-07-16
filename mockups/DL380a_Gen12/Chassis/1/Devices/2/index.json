@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"2631569894\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/2",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "2",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceType": "Backplane PIC",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "1.02"
+        }
+    },
+    "Location": "Embedded:Port=5A:Box=1",
+    "Manufacturer": "HPE",
+    "Name": "4 E3S 32G x4NVMe UBM10 EC BP",
+    "PartNumber": "P73067-001",
+    "ProductPartNumber": "P68794-001",
+    "ProductVersion": "A",
+    "SerialNumber": "PYGPC0ALMKO17R",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

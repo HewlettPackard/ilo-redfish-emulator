@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"3441546256\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/73187049",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "73187049",
+    "Activates": "AfterHardPowerCycle",
+    "ComponentUri": "/fwrepo/sanjac_scm_top_v0909_signed.vme",
+    "Configuration": "",
+    "Created": "2025-05-24T02:48:36Z",
+    "Criticality": "Optional",
+    "DeviceClass": "b1ad439a-9dd1-41c1-a496-2da9313f1f07",
+    "ExecutionParameters": "",
+    "Filename": "sanjac_scm_top_v0909_signed.vme",
+    "Filepath": "sanjac_scm_top_v0909_signed.vme",
+    "Locked": true,
+    "Name": "DC-SCM Programmable Logic Device",
+    "SizeBytes": 444433,
+    "Targets": [
+        "00000000-0000-0000-0002-000000080283",
+        "00000000-0000-0000-0002-000000080268",
+        "00000000-0000-0000-0002-000000080262",
+        "00000000-0000-0000-0002-000000080269",
+        "00000000-0000-0000-0002-000000080264",
+        "00000000-0000-0000-0002-000000080273",
+        "00000000-0000-0000-0002-000000010206",
+        "00000000-0000-0000-0002-000000010205"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "09"
+}

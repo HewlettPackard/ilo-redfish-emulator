@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"2861544192\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/Processor",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "Processor",
+    "Description": "Schema Definition File for Processor",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/Processor.json"
+        }
+    ],
+    "Name": "Processor Schema Definition File",
+    "Schema": "#Processor.v1_8_2.Processor"
+}

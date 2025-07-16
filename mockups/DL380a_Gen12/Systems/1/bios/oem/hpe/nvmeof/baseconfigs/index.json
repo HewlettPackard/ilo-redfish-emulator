@@ -1,0 +1,101 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeBaseConfigs.HpeBaseConfigs",
+    "@odata.etag": "W/\"1E579A6F1D5C3333330065B9A79BC168\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/nvmeof/baseconfigs/",
+    "@odata.type": "#HpeBaseConfigs.v2_0_0.HpeBaseConfigs",
+    "BaseConfigs": [
+        {
+            "default": {
+                "NvmeOfInitiatorName": "nqn.2014-08.org.nvmexpress",
+                "NvmeOfSources": [
+                    {
+                        "NvmeOfAttemptInstance": 0,
+                        "NvmeOfAttemptName": "",
+                        "NvmeOfConnectRetry": 3,
+                        "NvmeOfConnectTimeoutMS": 20000,
+                        "NvmeOfConnection": "Disabled",
+                        "NvmeOfInitiatorGateway": "0.0.0.0",
+                        "NvmeOfInitiatorInfoViaDHCP": true,
+                        "NvmeOfInitiatorIpAddress": "0.0.0.0",
+                        "NvmeOfInitiatorNetmask": "0.0.0.0",
+                        "NvmeOfIpAddressType": "IPv4",
+                        "NvmeOfNicSource": null,
+                        "NvmeOfTargetInfoViaDHCP": true,
+                        "NvmeOfTargetIpAddress": "0.0.0.0",
+                        "NvmeOfTargetName": "",
+                        "NvmeOfTargetNid": "",
+                        "NvmeOfTargetTcpPort": 4420,
+                        "StructuredBootString": null,
+                        "UEFIDevicePath": null
+                    },
+                    {
+                        "NvmeOfAttemptInstance": 0,
+                        "NvmeOfAttemptName": "",
+                        "NvmeOfConnectRetry": 3,
+                        "NvmeOfConnectTimeoutMS": 20000,
+                        "NvmeOfConnection": "Disabled",
+                        "NvmeOfInitiatorGateway": "0.0.0.0",
+                        "NvmeOfInitiatorInfoViaDHCP": true,
+                        "NvmeOfInitiatorIpAddress": "0.0.0.0",
+                        "NvmeOfInitiatorNetmask": "0.0.0.0",
+                        "NvmeOfIpAddressType": "IPv4",
+                        "NvmeOfNicSource": null,
+                        "NvmeOfTargetInfoViaDHCP": true,
+                        "NvmeOfTargetIpAddress": "0.0.0.0",
+                        "NvmeOfTargetName": "",
+                        "NvmeOfTargetNid": "",
+                        "NvmeOfTargetTcpPort": 4420,
+                        "StructuredBootString": null,
+                        "UEFIDevicePath": null
+                    },
+                    {
+                        "NvmeOfAttemptInstance": 0,
+                        "NvmeOfAttemptName": "",
+                        "NvmeOfConnectRetry": 3,
+                        "NvmeOfConnectTimeoutMS": 20000,
+                        "NvmeOfConnection": "Disabled",
+                        "NvmeOfInitiatorGateway": "0.0.0.0",
+                        "NvmeOfInitiatorInfoViaDHCP": true,
+                        "NvmeOfInitiatorIpAddress": "0.0.0.0",
+                        "NvmeOfInitiatorNetmask": "0.0.0.0",
+                        "NvmeOfIpAddressType": "IPv4",
+                        "NvmeOfNicSource": null,
+                        "NvmeOfTargetInfoViaDHCP": true,
+                        "NvmeOfTargetIpAddress": "0.0.0.0",
+                        "NvmeOfTargetName": "",
+                        "NvmeOfTargetNid": "",
+                        "NvmeOfTargetTcpPort": 4420,
+                        "StructuredBootString": null,
+                        "UEFIDevicePath": null
+                    },
+                    {
+                        "NvmeOfAttemptInstance": 0,
+                        "NvmeOfAttemptName": "",
+                        "NvmeOfConnectRetry": 3,
+                        "NvmeOfConnectTimeoutMS": 20000,
+                        "NvmeOfConnection": "Disabled",
+                        "NvmeOfInitiatorGateway": "0.0.0.0",
+                        "NvmeOfInitiatorInfoViaDHCP": true,
+                        "NvmeOfInitiatorIpAddress": "0.0.0.0",
+                        "NvmeOfInitiatorNetmask": "0.0.0.0",
+                        "NvmeOfIpAddressType": "IPv4",
+                        "NvmeOfNicSource": null,
+                        "NvmeOfTargetInfoViaDHCP": true,
+                        "NvmeOfTargetIpAddress": "0.0.0.0",
+                        "NvmeOfTargetName": "",
+                        "NvmeOfTargetNid": "",
+                        "NvmeOfTargetTcpPort": 4420,
+                        "StructuredBootString": null,
+                        "UEFIDevicePath": null
+                    }
+                ]
+            }
+        }
+    ],
+    "Capabilities": {
+        "BaseConfig": true,
+        "BaseConfigs": false
+    },
+    "Id": "baseconfigs",
+    "Name": "NVMe-oF Software Initiator Default Settings"
+}

@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"3442322880\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/74",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "74",
+    "Created": "2025-06-26T16:13:09Z",
+    "EntryType": "Oem",
+    "Message": "At least one of the links is up in adapter ConnectX-7 200GE 2P NIC in slot 3",
+    "MessageArgs": [],
+    "MessageId": "17.14",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 17,
+            "ClassDescription": "Network",
+            "Code": 14,
+            "Count": 1,
+            "EventNumber": 237,
+            "Repaired": true,
+            "Severity": "Repaired",
+            "Updated": "2025-06-27T17:12:12Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

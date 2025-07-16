@@ -1,0 +1,36 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"2111178678\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/5",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "5",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/2"
+        }
+    ],
+    "DeviceType": "LOM/NIC",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "28.44.1036"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/1"
+        }
+    },
+    "Location": "PCI-E Slot 3",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "Nvidia",
+    "Name": "ConnectX-7 200GE 2P NIC",
+    "PartNumber": "P65324-001",
+    "ProductPartNumber": "P65324-001               ",
+    "ProductVersion": "A1",
+    "SerialNumber": "ILC346018T",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

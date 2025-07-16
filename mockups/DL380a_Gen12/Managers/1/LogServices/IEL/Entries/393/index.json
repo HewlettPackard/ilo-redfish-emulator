@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"1415932594\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/393",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "393",
+    "Created": "2025-07-02T06:50:55Z",
+    "EntryType": "Oem",
+    "Message": "Virtual media connected by: Administrator.",
+    "MessageArgs": [],
+    "MessageId": "35.138",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 7",
+            "Code": 138,
+            "Count": 1,
+            "EventNumber": 1917,
+            "Severity": "Informational",
+            "Updated": "2025-07-02T06:50:55Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

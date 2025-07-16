@@ -1,0 +1,15 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"3480422203\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/100",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "100",
+    "Created": "2025-07-02T06:20:23Z",
+    "EntryType": "Oem",
+    "EventId": "28000000-9200-0000-dc00-00008f000000",
+    "EventTimestamp": "2025-07-02T06:20:23Z",
+    "MessageId": "iLOEvents.7.2.HoodRemoved",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "Warning"
+}

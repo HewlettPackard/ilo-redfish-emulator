@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"471035873\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/8",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "8",
+    "Created": "2025-06-03T21:30:26Z",
+    "EntryType": "Oem",
+    "Message": "iLO completed the firmware integrity scan and detected an anomaly.",
+    "MessageArgs": [],
+    "MessageId": "32.7",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Firmware",
+                "Maintenance"
+            ],
+            "Class": 32,
+            "ClassDescription": "System Revision",
+            "Code": 7,
+            "Count": 1,
+            "EventNumber": 171,
+            "Severity": "Informational",
+            "Updated": "2025-06-03T21:30:26Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}
