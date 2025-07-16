@@ -181,7 +181,7 @@ DMTF has a tool that can be run against a real BMC to walk the entire redfish tr
 
 The Redfish Mockup Creator can be run locally. For example, to create the DL360 mockup, run the Redfish Mockup Creator
 ```
-Redfish-Mockup-Creator> python ./redfishMockupCreator.py --u <username> --p <password> --A basic --r <server ip> -S -D ./DL325
+Redfish-Mockup-Creator> python ./redfishMockupCreate.py --u <username> --p <password> --A Basic --r <server ip> -S -D ./DL325
 ```
 
 **NOTE** Morpheus Bare Metal plugin hints:
