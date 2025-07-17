@@ -48,7 +48,7 @@ class ResourceDictionary(object):
 
     def get_resource(self, path):
         if path != '':
-            p = os.path.normpath(path)
+            p = os.path.normpath(path).lower()
         else:
             p = path
         obj = resdict[p].configuration
@@ -56,14 +56,14 @@ class ResourceDictionary(object):
 
     def get_object(self, path):
         if path != '':
-            p = os.path.normpath(path)
+            p = os.path.normpath(path).lower()
         else:
             p = path
         return resdict[p]
 
     def add_resource(self, path, obj):
         if path != '':
-            p = os.path.normpath(path)
+            p = os.path.normpath(path).lower()
         else:
             p = path
         resdict[p] = obj
@@ -71,7 +71,7 @@ class ResourceDictionary(object):
 
     def delete_resource(self, path):
         if path != '':
-            p = os.path.normpath(path)
+            p = os.path.normpath(path).lower()
         else:
             p = path
         del resdict[p]
