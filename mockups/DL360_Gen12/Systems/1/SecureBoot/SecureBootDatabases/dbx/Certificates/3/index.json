@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Certificate.Certificate",
+    "@odata.etag": "W/\"202587784\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbx/Certificates/3",
+    "@odata.type": "#Certificate.v1_6_0.Certificate",
+    "Id": "3",
+    "CertificateString": "-----BEGIN CERTIFICATE-----\r\nMIIC/DCCAeSgAwIBAgIFAKdGje8wDQYJKoZIhvcNAQELBQAwIDEeMBwGA1UEAxMV\r\nRGViaWFuIFNlY3VyZSBCb290IENBMB4XDTE2MDgxNjE4MjI1MFoXDTI2MDgxNjE4\r\nMjI1MFowJDEiMCAGA1UEAxMZRGViaWFuIFNlY3VyZSBCb290IFNpZ25lcjCCASIw\r\nDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANPRg5AP2mWiLwdaYJXr98eGfCCG\r\n2mWjphLrWzvOyPs/oXJLnt9QxQMzpAwrX9ZBBA22z5VI7YqyrdblATdOYM2ySjgE\r\ns0SAlK+fblTbqB88t0sw3iGBbwmjZrpqK5bWmmF3DNTtPNBxu62M8CJcPiXMbSIu\r\nYZeVr5suTVi2fngCww65+rJbJ959or4MFKxz7JewFV7t7eWldT944HHOL86D7VMx\r\nMJhO5vkBooiIpiMIfA23VDoWle1eeV6QTv7Nqt6C/PaWcU5JSbnT6bCrf9cqR7dT\r\nMCd83GaYCW/RfvV/PT7UomqIWQIvLz3IxijeQv7ZUj0kwvxAmBH2dr+Mu2UCAwEA\r\nAaM5MDcwEQYJYIZIAYb4QgEBBAQDAgQQMBUGA1UdJQQOMAwGCisGAQQBgjcKAwEw\r\nCwYDVR0PBAQDAgeAMA0GCSqGSIb3DQEBCwUAA4IBAQBXG6RgTCnp8n1rXJPbzGyf\r\nGD9pSJp13mTzg0oJqSYh7ulWXeE+2XXLzH+/TeToiT1+EUKHQMPV4HF53ABs4XFi\r\nx5jCyycLL5/M7PqLsvMLnvPyw8mf2yWTkKTNuwHljvTXVai0dUEx/U5dAxigwqzF\r\n3kbn3BzPEtWd6Eedk4wyzUTVdMcwmlelVtB+zwURtPTzKfnbm1PSvS+tanUmRWS6\r\nuiiWh4638HlX+noOPEo4krzylfLnKND32JgaXjmetWWAvfPaEj9Qdmcpn9ELCh6H\r\nl1xy2/MBdErdB7p26Wr83SLbRgLXrwrF7RW8Dyup242/f2+torfFTUpHs8FWkLYX\r\n-----END CERTIFICATE-----\r\n",
+    "CertificateType": "PEM",
+    "Issuer": {
+        "City": "",
+        "CommonName": "Debian Secure Boot CA",
+        "Country": "",
+        "Email": "fblTbqB88t0sw3iGBbwmjZrpqK5bWmmF3D'\u007f\u007f",
+        "Organization": "",
+        "OrganizationalUnit": "",
+        "State": ""
+    },
+    "Name": "Debian Secure Boot Signer",
+    "Subject": {
+        "City": "",
+        "CommonName": "Debian Secure Boot Signer",
+        "Country": "",
+        "Email": "%%%%%%%%%%%%%s, %s, %s",
+        "Organization": "",
+        "OrganizationalUnit": "",
+        "State": ""
+    },
+    "UefiSignatureOwner": "77FA9ABD-0359-4D32-BD60-28F4E78F784B",
+    "ValidNotAfter": "2026-08-16T18:22:50Z",
+    "ValidNotBefore": "2016-08-16T18:22:50Z"
+}

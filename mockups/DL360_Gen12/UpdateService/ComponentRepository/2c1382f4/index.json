@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"3441546256\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/2c1382f4",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "2c1382f4",
+    "Activates": "AfterDeviceReset",
+    "ComponentUri": "/fwrepo/ilo7_1.14.00.bin",
+    "Configuration": "",
+    "Created": "2025-06-16T03:29:54Z",
+    "Criticality": "Optional",
+    "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952",
+    "ExecutionParameters": "",
+    "Filename": "ilo7_1.14.00.bin",
+    "Filepath": "ilo7_1.14.00.bin",
+    "Locked": true,
+    "Name": "iLO 7",
+    "SizeBytes": 67112072,
+    "Targets": [
+        "fb2b2f91-c952-4288-8389-21dee30e0007",
+        "fb2b2f91-c952-4288-8389-21dee30e0107",
+        "fb2b2f91-c952-4288-8389-21dee30e0207",
+        "fb2b2f91-c952-4288-8389-21dee30e0307",
+        "fb2b2f91-c952-4288-8389-21dee30e0407"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "1.14.00"
+}

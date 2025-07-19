@@ -1,0 +1,28 @@
+{
+    "@odata.etag": "\"bdbf2e1\"",
+    "@odata.id": "/redfish/v1/Fabrics/DE00A000/Switches/1",
+    "@odata.type": "#Switch.v1_9_1.Switch",
+    "Id": "1",
+    "Name": "Direct Attached",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "DomainID": 0,
+    "FirmwareVersion": "1.02",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/DE00A000"
+        }
+    },
+    "Model": "UBM10",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Fabrics/DE00A000/Switches/1/Ports"
+    },
+    "SupportedProtocols": [
+        "SAS",
+        "SATA",
+        "NVMe"
+    ],
+    "SwitchType": "MultiProtocol"
+}

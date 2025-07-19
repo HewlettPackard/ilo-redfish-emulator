@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"87676162\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/9",
+    "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+    "Id": "9",
+    "Description": "TrustedPlatformModule20",
+    "Name": "TPM Firmware",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "fcbe6477-5c25-4488-b197-695bb8123b11",
+            "DeviceContext": "System Board",
+            "Targets": [
+                "1118c237-4924-4fb4-a6d0-1402ac4e2c06"
+            ]
+        }
+    },
+    "Updateable": false,
+    "Version": "9.256",
+    "VersionScheme": "OEM"
+}

@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"941609541\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/6",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "6",
+    "Created": "2025-07-17T22:20:03Z",
+    "EntryType": "Oem",
+    "EventId": "b2000000-9400-0000-9000-000060000000",
+    "EventTimestamp": "2025-07-17T22:20:03Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard"
+        }
+    },
+    "MessageId": "iLOEvents.7.3.OverallSecStateAtRisk",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "Warning"
+}

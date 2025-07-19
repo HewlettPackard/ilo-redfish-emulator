@@ -1,0 +1,17 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkDeviceFunctionCollection.NetworkDeviceFunctionCollection",
+    "@odata.etag": "W/\"1459770610\"",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE041000/NetworkDeviceFunctions",
+    "@odata.type": "#NetworkDeviceFunctionCollection.NetworkDeviceFunctionCollection",
+    "Description": "The collection of device functions available on this network controller.",
+    "Name": "Network Device Functions Collection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE041000/NetworkDeviceFunctions/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE041000/NetworkDeviceFunctions/2"
+        }
+    ],
+    "Members@odata.count": 2
+}

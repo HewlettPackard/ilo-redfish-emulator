@@ -1,0 +1,65 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeiLOLicense.HpeiLOLicense",
+    "@odata.etag": "W/\"30409177\"",
+    "@odata.id": "/redfish/v1/Managers/1/LicenseService/1",
+    "@odata.type": "#HpeiLOLicense.v2_5_0.HpeiLOLicense",
+    "Id": "1",
+    "Actions": {
+        "#HpeiLOLicense.ConfirmLicense": {}
+    },
+    "Confirmation": {
+        "Code": "",
+        "Message": "Confirmed.",
+        "Service": "www.hpe.com/glis",
+        "Status": true
+    },
+    "ConfirmationRequest": {
+        "EON": {
+            "License": "iLO Advanced",
+            "LicenseKey": "3QY5W-G4R84-LPHN9-5RKXC-YRVJ6",
+            "Quantity": 1,
+            "State": "confirmed"
+        },
+        "Signer": "iLO",
+        "System": {
+            "ChipId": "503533F53501E0DA",
+            "Product": "HPE ProLiant Compute DL360 Gen12",
+            "SerialNumber": "3M1D2V13TW"
+        }
+    },
+    "Description": "iLO License View",
+    "License": "iLO Advanced",
+    "LicenseClass": "FQL",
+    "LicenseErr": "",
+    "LicenseExpire": "",
+    "LicenseFeatures": {
+        "AutoCertEnroll": true,
+        "DirectoryAuth": true,
+        "DowngradePolicy": true,
+        "EmailAlert": true,
+        "FWScan": true,
+        "Federation": true,
+        "Jitter": true,
+        "KD": true,
+        "KeyMgr": true,
+        "MURC": true,
+        "ODIM": false,
+        "PowerReg": true,
+        "RC": true,
+        "Recovery": true,
+        "RemoteSyslog": true,
+        "Scrncap": true,
+        "SecureErase": true,
+        "SmartCard": true,
+        "SuiteB": true,
+        "VM": true,
+        "VMScript": true,
+        "VSPLogging": true
+    },
+    "LicenseInstallDate": "16 Jun 2025",
+    "LicenseKey": "XXXXX-XXXXX-XXXXX-XXXXX-YRVJ6",
+    "LicenseSeats": 0,
+    "LicenseTier": "ADV",
+    "LicenseType": "Perpetual",
+    "Name": "iLO License"
+}

@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"2197114011\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/KeyCollection",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "KeyCollection",
+    "Description": "Schema Definition File for KeyCollection",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/KeyCollection.json"
+        }
+    ],
+    "Name": "KeyCollection Schema Definition File",
+    "Schema": "#KeyCollection.KeyCollection"
+}

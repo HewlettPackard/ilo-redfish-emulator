@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ComponentIntegrityCollection.ComponentIntegrityCollection",
+    "@odata.etag": "W/\"144846794\"",
+    "@odata.id": "/redfish/v1/ComponentIntegrity",
+    "@odata.type": "#ComponentIntegrityCollection.ComponentIntegrityCollection",
+    "Description": "Collection of Component Integrity Resource Instances",
+    "Name": "Component Integrity Collection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/TPM-1"
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/TPM-0"
+        }
+    ],
+    "Members@odata.count": 5
+}

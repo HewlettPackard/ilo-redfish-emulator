@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"87676162\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/16",
+    "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+    "Id": "16",
+    "Description": "Universal Backplane Manager",
+    "Name": "2 SFF 24G x4NVMe/SAS UBM10 BC BP",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "4149ebb7-d64b-4654-b679-4280f349ea50",
+            "DeviceContext": "Slot=14:Port=2:Box=1",
+            "Targets": [
+                "9675b54e-1c96-44c3-a7a1-90150a000000"
+            ]
+        }
+    },
+    "Updateable": true,
+    "Version": "1.02",
+    "VersionScheme": "OEM"
+}

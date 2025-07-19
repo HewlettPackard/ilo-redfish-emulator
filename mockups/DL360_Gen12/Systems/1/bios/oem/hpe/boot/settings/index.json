@@ -1,0 +1,94 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerBootSettings.HpeServerBootSettings",
+    "@odata.etag": "W/\"24D71E8DED2AE8E8E8EA47789560A960\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/settings/",
+    "@odata.type": "#HpeServerBootSettings.v2_0_0.HpeServerBootSettings",
+    "BootSources": [
+        {
+            "BootOptionNumber": "000D",
+            "BootString": "Generic USB Boot",
+            "CorrelatableID": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)",
+            "StructuredBootString": "Generic.USB.1.1",
+            "UEFIDevicePath": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)"
+        },
+        {
+            "BootOptionNumber": "0012",
+            "BootString": "Slot 1 Port 1 : Nvidia Network Adapter - 58:A2:E1:48:93:AE (HTTP(S) IPv4)",
+            "CorrelatableID": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.1.1.Httpv4",
+            "UEFIDevicePath": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(58A2E14893AE,0x1)/IPv4(0.0.0.0)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0014",
+            "BootString": "Slot 1 Port 1 : Nvidia Network Adapter - 58:A2:E1:48:93:AE (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.1.1.IPv4",
+            "UEFIDevicePath": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(58A2E14893AE,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "0013",
+            "BootString": "Slot 1 Port 1 : Nvidia Network Adapter - 58:A2:E1:48:93:AE (HTTP(S) IPv6)",
+            "CorrelatableID": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.1.1.Httpv6",
+            "UEFIDevicePath": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(58A2E14893AE,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0015",
+            "BootString": "Slot 1 Port 1 : Nvidia Network Adapter - 58:A2:E1:48:93:AE (PXE IPv6)",
+            "CorrelatableID": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.1.1.IPv6",
+            "UEFIDevicePath": "PciRoot(0x23)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(58A2E14893AE,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)"
+        }
+    ],
+    "DefaultBootOrder": [
+        "Cd",
+        "Usb",
+        "EmbeddedStorage",
+        "PcieSlotStorage",
+        "EmbeddedFlexLOM",
+        "PcieSlotNic",
+        "UefiShell",
+        "iPXE"
+    ],
+    "DesiredBootDevices": [
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        }
+    ],
+    "Id": "settings",
+    "Name": "Boot Order Pending Settings",
+    "PersistentBootConfigOrder": [
+        "Generic.USB.1.1",
+        "NIC.Slot.1.1.Httpv4",
+        "NIC.Slot.1.1.IPv4",
+        "NIC.Slot.1.1.Httpv6",
+        "NIC.Slot.1.1.IPv6"
+    ]
+}

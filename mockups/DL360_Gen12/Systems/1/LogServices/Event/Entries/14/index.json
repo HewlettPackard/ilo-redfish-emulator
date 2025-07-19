@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"3517438423\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/14",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "14",
+    "Created": "2025-07-19T23:08:18Z",
+    "EntryType": "Oem",
+    "EventId": "b4000000-c300-0000-ff00-000018000000",
+    "EventTimestamp": "2025-07-19T23:08:18Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/1"
+        }
+    },
+    "MessageId": "iLOResourceEvents.7.1.ServerResetDetected",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "Warning"
+}

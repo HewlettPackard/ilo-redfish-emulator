@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"3441546256\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/6b969448",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "6b969448",
+    "Activates": "AfterReboot",
+    "ComponentUri": "/fwrepo/U68_1.40_05_22_2025.signed.flash",
+    "Configuration": "",
+    "Created": "2025-06-16T03:30:18Z",
+    "Criticality": "Optional",
+    "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4",
+    "ExecutionParameters": "",
+    "Filename": "U68_1.40_05_22_2025.signed.flash",
+    "Filepath": "U68_1.40_05_22_2025.signed.flash",
+    "Locked": true,
+    "Name": "System BIOS - U68",
+    "SizeBytes": 67114182,
+    "Targets": [
+        "00000000-0000-0000-0000-000000000265",
+        "00000000-0000-0000-0000-000000000266",
+        "00000000-0000-0000-0000-000000000267"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "v1.40 (05/22/2025)"
+}

@@ -1,0 +1,37 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"3441546256\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/0f172caf",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "0f172caf",
+    "Activates": "AfterHardPowerCycle",
+    "ComponentUri": "/fwrepo/2P32D_SP_Mono_Gen12_v1212_signed.vme",
+    "Configuration": "",
+    "Created": "2025-06-16T03:29:32Z",
+    "Criticality": "Optional",
+    "DeviceClass": "b1ad439a-9dd1-41c1-a496-2da9313f1f07",
+    "ExecutionParameters": "",
+    "Filename": "2P32D_SP_Mono_Gen12_v1212_signed.vme",
+    "Filepath": "2P32D_SP_Mono_Gen12_v1212_signed.vme",
+    "Locked": true,
+    "Name": "System Programmable Logic Device",
+    "SizeBytes": 1304738,
+    "Targets": [
+        "00000000-0000-0000-0002-000000010237",
+        "00000000-0000-0000-0002-000000010236",
+        "00000000-0000-0000-0002-000000010235",
+        "00000000-0000-0000-0002-000000010267",
+        "00000000-0000-0000-0002-000000010266",
+        "00000000-0000-0000-0002-000000010265",
+        "00000000-0000-0000-0003-000000010237",
+        "00000000-0000-0000-0003-000000010236",
+        "00000000-0000-0000-0003-000000010235",
+        "00000000-0000-0000-0003-000000010267",
+        "00000000-0000-0000-0003-000000010266",
+        "00000000-0000-0000-0003-000000010265"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "12"
+}

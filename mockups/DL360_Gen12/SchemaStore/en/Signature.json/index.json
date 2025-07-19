@@ -1,0 +1,70 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "Signature",
+    "additionalProperties": false,
+    "copyright": "Copyright 2021-2025 Hewlett Packard Enterprise Development LP.  Portions Copyright 2021-2025 DMTF. All rights reserved.",
+    "description": "The Signature schema describes a signature or a hash.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "Description": {
+            "$ref": "Resource.json#/definitions/Description"
+        },
+        "Oem": {
+            "$ref": "Resource.json#/definitions/Oem"
+        },
+        "SignatureString": {
+            "additionalProperties": false,
+            "description": "The string for the signature.",
+            "readonly": false,
+            "type": "string"
+        },
+        "SignatureType": {
+            "description": "The format of the signature.",
+            "longDescription": "This property shall contain the format type for the signature.  The format is qualified by the value of the SignatureTypeRegistry property.",
+            "readonly": false,
+            "type": "string"
+        },
+        "SignatureTypeRegistry": {
+            "enum": [
+                "UEFI"
+            ],
+            "enumDescriptions": {
+                "UEFI": "A signature defined in the UEFI Specification."
+            },
+            "enumLongDescriptions": {
+                "UEFI": "This value shall indicate that the SignatureType string contains the #define name of the SignatureType member of the EFI_SIGNATURE_LIST, as defined by the UEFI Specification.  This value shall also indicate that the format of the SignatureString is a big-endian hex-encoded string of the binary value specified in the UEFI SignatureData array in EFI_SIGNATURE_DATA, as defined by the UEFI Specification."
+            },
+            "readonly": false,
+            "type": "string"
+        },
+        "UefiSignatureOwner": {
+            "description": "The UEFI signature owner for this signature.",
+            "longDescription": "The value of this property shall contain the GUID of the UEFI signature owner for this signature as defined by the UEFI Specification.  This property shall only be present if the SignatureTypeRegistry property is `UEFI`.",
+            "pattern": "([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})",
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "title": "#Signature.v1_0_2.Signature",
+    "type": "object"
+}

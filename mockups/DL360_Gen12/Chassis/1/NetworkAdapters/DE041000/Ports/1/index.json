@@ -1,0 +1,67 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Port.Port",
+    "@odata.etag": "W/\"2844475394\"",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE041000/Ports/1",
+    "@odata.type": "#Port.v1_12_0.Port",
+    "Id": "1",
+    "@Redfish.Settings": {
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE041000/Ports/1/Settings"
+        }
+    },
+    "Actions": {
+        "#Port.Reset": {
+            "target": "/redfish/v1/Chassis/1/NetworkAdapters/DE041000/Ports/1/Actions/Port.Reset"
+        }
+    },
+    "CurrentSpeedGbps": 0,
+    "Description": "Port status and active configuration data",
+    "Ethernet": {
+        "AssociatedMACAddresses": [
+            "51:40:2E:C0:20:89:B2:A0"
+        ]
+    },
+    "FibreChannel": {},
+    "FunctionMaxBandwidth": [],
+    "FunctionMinBandwidth": [],
+    "LinkConfiguration": [
+        {
+            "CapableLinkSpeedGbps": [
+                32,
+                16,
+                8
+            ],
+            "ConfiguredNetworkLinks": [
+                {
+                    "ConfiguredLinkSpeedGbps": 32
+                },
+                {
+                    "ConfiguredLinkSpeedGbps": 16
+                },
+                {
+                    "ConfiguredLinkSpeedGbps": 8
+                }
+            ]
+        }
+    ],
+    "LinkNetworkTechnology": "FibreChannel",
+    "LinkState": "Disabled",
+    "LinkStatus": "LinkDown",
+    "Name": "Port",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpePort.HpePort",
+            "@odata.type": "#HpePort.v1_0_2.HpePort",
+            "PortDiagnosticLocalLoopbackCapable": false,
+            "PortDiagnosticRemoteLoopbackCapable": false,
+            "PortDiagnosticsEnabled": false,
+            "VirtualFunctionAllocations": []
+        }
+    },
+    "PortId": "1",
+    "SignalDetected": false,
+    "Status": {
+        "Health": "OK",
+        "State": "UnavailableOffline"
+    }
+}

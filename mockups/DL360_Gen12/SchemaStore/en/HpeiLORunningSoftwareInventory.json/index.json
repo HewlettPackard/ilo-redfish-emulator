@@ -1,0 +1,54 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "HpeiLORunningSoftwareInventory",
+    "additionalProperties": false,
+    "copyright": "Copyright 2014-2019 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
+    "description": "The RunningSoftwareInventory resource describes the inventory of all running processes on the Host.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "SoftwareType": {
+            "enum": [
+                "TYPE_UNKNOWN",
+                "TYPE_OPERATINGSYSTEM",
+                "TYPE_DEVICEDRIVER",
+                "TYPE_APPLICATION"
+            ],
+            "enumDescriptions": {
+                "TYPE_UNKNOWN": "unknown",
+                "TYPE_OPERATINGSYSTEM": "OS software",
+                "TYPE_DEVICEDRIVER": "Device Driver",
+                "TYPE_APPLICATION": "Application"
+            },
+            "description": "Type of the Running software",
+            "readonly": true,
+            "type": "string"
+        },
+        "Path": {
+            "description": "Type of the Running software",
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "title": "#HpeiLORunningSoftwareInventory.v1_0_0.HpeiLORunningSoftwareInventory",
+    "type": "object"
+}

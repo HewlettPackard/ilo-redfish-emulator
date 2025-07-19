@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"1412173920\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/15",
+    "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+    "Id": "15",
+    "Description": "MO001600PXVRU",
+    "Manufacturer": "HPE",
+    "Name": "HPE 1.60TB 22.5G SAS SSD",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "f6de0320-2e0f-489a-b238-6dd8ae7c3811",
+            "DeviceContext": "Slot=14:Port=2:Box=1:Bay=2",
+            "Targets": [
+                "4d2340a5-304f-3130-3630-305058565255"
+            ]
+        }
+    },
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/DE00A000/Drives/1"
+        }
+    ],
+    "SoftwareId": "f6de0320-2e0f-489a-b238-6dd8ae7c3811:4d2340a5-304f-3130-3630-305058565255",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Updateable": true,
+    "Version": "HPD2",
+    "VersionScheme": "OEM"
+}

@@ -1,0 +1,145 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_0_0.Settings",
+        "ETag": "",
+        "Messages": [
+            {
+                "MessageId": "Base.1.0.Success"
+            }
+        ],
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/iscsi/settings/"
+        },
+        "Time": null
+    },
+    "@odata.context": "/redfish/v1/$metadata#HpeiSCSISoftwareInitiator.HpeiSCSISoftwareInitiator",
+    "@odata.etag": "W/\"21A562EC742ED6D6D675E15171E47455\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/iscsi/",
+    "@odata.type": "#HpeiSCSISoftwareInitiator.v2_0_0.HpeiSCSISoftwareInitiator",
+    "Id": "iscsi",
+    "Name": "iSCSI Software Initiator Current Settings",
+    "Oem": {
+        "Hpe": {
+            "@odata.type": "#HpeBiosExt.v2_0_1.HpeBiosExt",
+            "Links": {
+                "BaseConfigs": {
+                    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/iscsi/baseconfigs/"
+                }
+            },
+            "SettingsObject": {
+                "UnmodifiedETag": "W/\"5EBE3DD7F245BFBFBF07884B5A588AF0\""
+            }
+        }
+    },
+    "iSCSIInitiatorName": "iqn.2015-02.com.hpe:uefi-u68-d255rp0773",
+    "iSCSINicSources": [
+        "Slot1NicBoot1",
+        "Slot1NicBoot2"
+    ],
+    "iSCSISources": [
+        {
+            "StructuredBootString": null,
+            "UEFIDevicePath": null,
+            "iSCSIAttemptInstance": 0,
+            "iSCSIAttemptName": "",
+            "iSCSIAuthenticationMethod": "None",
+            "iSCSIChapSecret": "",
+            "iSCSIChapType": "OneWay",
+            "iSCSIChapUsername": "",
+            "iSCSIConnectRetry": 3,
+            "iSCSIConnectTimeoutMS": 20000,
+            "iSCSIConnection": "Disabled",
+            "iSCSIInitiatorGateway": "0.0.0.0",
+            "iSCSIInitiatorInfoViaDHCP": true,
+            "iSCSIInitiatorIpAddress": "0.0.0.0",
+            "iSCSIInitiatorNetmask": "0.0.0.0",
+            "iSCSIIpAddressType": "IPv4",
+            "iSCSILUN": "0",
+            "iSCSINicSource": null,
+            "iSCSIReverseChapSecret": "",
+            "iSCSIReverseChapUsername": "",
+            "iSCSITargetInfoViaDHCP": true,
+            "iSCSITargetIpAddress": "0.0.0.0",
+            "iSCSITargetName": "",
+            "iSCSITargetTcpPort": 3260
+        },
+        {
+            "StructuredBootString": null,
+            "UEFIDevicePath": null,
+            "iSCSIAttemptInstance": 0,
+            "iSCSIAttemptName": "",
+            "iSCSIAuthenticationMethod": "None",
+            "iSCSIChapSecret": "",
+            "iSCSIChapType": "OneWay",
+            "iSCSIChapUsername": "",
+            "iSCSIConnectRetry": 3,
+            "iSCSIConnectTimeoutMS": 20000,
+            "iSCSIConnection": "Disabled",
+            "iSCSIInitiatorGateway": "0.0.0.0",
+            "iSCSIInitiatorInfoViaDHCP": true,
+            "iSCSIInitiatorIpAddress": "0.0.0.0",
+            "iSCSIInitiatorNetmask": "0.0.0.0",
+            "iSCSIIpAddressType": "IPv4",
+            "iSCSILUN": "0",
+            "iSCSINicSource": null,
+            "iSCSIReverseChapSecret": "",
+            "iSCSIReverseChapUsername": "",
+            "iSCSITargetInfoViaDHCP": true,
+            "iSCSITargetIpAddress": "0.0.0.0",
+            "iSCSITargetName": "",
+            "iSCSITargetTcpPort": 3260
+        },
+        {
+            "StructuredBootString": null,
+            "UEFIDevicePath": null,
+            "iSCSIAttemptInstance": 0,
+            "iSCSIAttemptName": "",
+            "iSCSIAuthenticationMethod": "None",
+            "iSCSIChapSecret": "",
+            "iSCSIChapType": "OneWay",
+            "iSCSIChapUsername": "",
+            "iSCSIConnectRetry": 3,
+            "iSCSIConnectTimeoutMS": 20000,
+            "iSCSIConnection": "Disabled",
+            "iSCSIInitiatorGateway": "0.0.0.0",
+            "iSCSIInitiatorInfoViaDHCP": true,
+            "iSCSIInitiatorIpAddress": "0.0.0.0",
+            "iSCSIInitiatorNetmask": "0.0.0.0",
+            "iSCSIIpAddressType": "IPv4",
+            "iSCSILUN": "0",
+            "iSCSINicSource": null,
+            "iSCSIReverseChapSecret": "",
+            "iSCSIReverseChapUsername": "",
+            "iSCSITargetInfoViaDHCP": true,
+            "iSCSITargetIpAddress": "0.0.0.0",
+            "iSCSITargetName": "",
+            "iSCSITargetTcpPort": 3260
+        },
+        {
+            "StructuredBootString": null,
+            "UEFIDevicePath": null,
+            "iSCSIAttemptInstance": 0,
+            "iSCSIAttemptName": "",
+            "iSCSIAuthenticationMethod": "None",
+            "iSCSIChapSecret": "",
+            "iSCSIChapType": "OneWay",
+            "iSCSIChapUsername": "",
+            "iSCSIConnectRetry": 3,
+            "iSCSIConnectTimeoutMS": 20000,
+            "iSCSIConnection": "Disabled",
+            "iSCSIInitiatorGateway": "0.0.0.0",
+            "iSCSIInitiatorInfoViaDHCP": true,
+            "iSCSIInitiatorIpAddress": "0.0.0.0",
+            "iSCSIInitiatorNetmask": "0.0.0.0",
+            "iSCSIIpAddressType": "IPv4",
+            "iSCSILUN": "0",
+            "iSCSINicSource": null,
+            "iSCSIReverseChapSecret": "",
+            "iSCSIReverseChapUsername": "",
+            "iSCSITargetInfoViaDHCP": true,
+            "iSCSITargetIpAddress": "0.0.0.0",
+            "iSCSITargetName": "",
+            "iSCSITargetTcpPort": 3260
+        }
+    ]
+}

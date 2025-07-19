@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"3343757033\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/4",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "4",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/3"
+        }
+    ],
+    "DeviceType": "Fibre Channel",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "2.10.08"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/2"
+        }
+    },
+    "Location": "PCI-E Slot 2",
+    "Manufacturer": "HPE",
+    "Name": "HPE SN1610Q 32Gb 2p FC HBA",
+    "PartNumber": "P14420-001",
+    "ProductPartNumber": "R2E09A",
+    "ProductVersion": "00",
+    "SerialNumber": "MY550905BF",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

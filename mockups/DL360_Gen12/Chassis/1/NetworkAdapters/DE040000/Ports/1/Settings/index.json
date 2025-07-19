@@ -1,0 +1,110 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE040000/Ports/1/Settings",
+    "@odata.type": "#Port.v1_6_0.Port",
+    "@odata.etag": "W/\"6D355D9C\"",
+    "@Redfish.SettingsApplyTime": {
+        "ApplyTime": "OnReset"
+    },
+    "Actions": {
+        "#Port.Reset": {
+            "target": "/redfish/v1/Chassis/1/NetworkAdapters/DE040000/Ports/1/Actions/Port.Reset",
+            "title": "Resets this port"
+        }
+    },
+    "CurrentSpeedGbps": 0.0,
+    "Id": "1",
+    "MaxSpeedGbps": 200.0,
+    "Name": "Port",
+    "PortId": "2",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "LinkNetworkTechnology": "Ethernet",
+    "LinkState": "Disabled",
+    "LinkStatus": "LinkDown",
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE040000/Ports/1/Metrics"
+    },
+    "SignalDetected": false,
+    "Ethernet": {
+        "FlowControlConfiguration": "TX_RX",
+        "FlowControlStatus": "TX_RX",
+        "SupportedEthernetCapabilities": [],
+        "AssociatedMACAddresses": [
+            "58:a2:e1:48:93:af"
+        ],
+        "LLDPEnabled": false,
+        "LLDPReceive": {
+            "ChassisId": "",
+            "ChassisIdSubtype": "NotTransmitted",
+            "ManagementAddressIPv4": "",
+            "ManagementAddressIPv6": "",
+            "ManagementAddressMAC": "",
+            "ManagementVlanId": 4095,
+            "PortId": "",
+            "PortIdSubtype": "NotTransmitted"
+        },
+        "LLDPTransmit": {
+            "ChassisId": "58:A2:E1:48:93:AF",
+            "ChassisIdSubtype": "MacAddr",
+            "ManagementAddressIPv4": "",
+            "ManagementAddressIPv6": "",
+            "ManagementAddressMAC": "",
+            "ManagementVlanId": 4095,
+            "PortId": "58:A2:E1:48:93:AF",
+            "PortIdSubtype": "MacAddr"
+        },
+        "WakeOnLANEnabled": false
+    },
+    "LinkConfiguration": [
+        {
+            "AutoSpeedNegotiationCapable": true,
+            "AutoSpeedNegotiationEnabled": true,
+            "CapableLinkSpeedGbps": [
+                1.0,
+                10.0,
+                25.0,
+                40.0,
+                50.0,
+                100.0,
+                200.0
+            ]
+        },
+        {
+            "AutoSpeedNegotiationCapable": true,
+            "AutoSpeedNegotiationEnabled": true,
+            "CapableLinkSpeedGbps": [
+                2.5,
+                5.0,
+                10.0,
+                14.0,
+                25.0,
+                28.0,
+                50.0,
+                56.0,
+                100.0,
+                200.0
+            ]
+        }
+    ],
+    "MaxFrameSize": 1522,
+    "FunctionMaxBandwidth": [
+        {
+            "AllocationPercent": 100
+        }
+    ],
+    "FunctionMinBandwidth": [
+        {
+            "AllocationPercent": 0
+        }
+    ],
+    "SFP": {
+        "Status": {
+            "Health": "OK",
+            "HealthRollup": "OK",
+            "State": "Enabled"
+        }
+    }
+}

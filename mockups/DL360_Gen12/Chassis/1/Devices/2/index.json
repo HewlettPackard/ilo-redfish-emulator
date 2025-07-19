@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"1729239683\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/2",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "2",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/4"
+        }
+    ],
+    "DeviceType": "SAS/SATA Storage Controller",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "52.30.3-5917"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/3"
+        }
+    },
+    "Location": "OCP Slot A",
+    "Manufacturer": "HPE",
+    "Name": "HPE MR216i-o Gen11",
+    "PartNumber": "P47954-001",
+    "ProductPartNumber": "P47789-B21",
+    "ProductVersion": "0B",
+    "SerialNumber": "PZDVE0BBIJV2JQ",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

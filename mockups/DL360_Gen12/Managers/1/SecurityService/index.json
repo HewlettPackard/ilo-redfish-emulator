@@ -1,0 +1,101 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeSecurityService.HpeSecurityService",
+    "@odata.etag": "W/\"2757082805\"",
+    "@odata.id": "/redfish/v1/Managers/1/SecurityService",
+    "@odata.type": "#HpeSecurityService.v2_7_0.HpeSecurityService",
+    "Id": "SecurityService",
+    "Actions": {},
+    "BMCHPELDevID": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCHPELDevID/Certificates"
+        }
+    },
+    "BMCIAK": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCIAK/Certificates"
+        }
+    },
+    "BMCIDevIDPca": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCIDevIDPca/Certificates"
+        }
+    },
+    "BMCLAK": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCLAK/Certificates"
+        }
+    },
+    "ComponentIntegrityPolicy": "NoPolicy",
+    "CurrentCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+    "GlobalComponentIntegrity": "Disabled",
+    "KeyLocation": "Local",
+    "KeyPolicy": "Auto",
+    "Links": {
+        "ESKM": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/ESKM"
+        },
+        "HttpsCert": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/HttpsCert"
+        },
+        "SSO": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SSO"
+        },
+        "SecurityDashboard": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard"
+        },
+        "CertAuth": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/CertificateAuthentication"
+        }
+    },
+    "LoginSecurityBanner": {
+        "IsEnabled": false,
+        "SecurityMessage": ""
+    },
+    "OpenBMCTransferOfOwnership": "Inhibited",
+    "OpenBMCTransferStatus": "NotPerformed",
+    "PlatformCert": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/PlatformCert/Certificates"
+        }
+    },
+    "PlatformCertUpdate": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/PlatformCertUpdate/Certificates"
+        }
+    },
+    "SSHHostKey": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDD6CfLt8dD3bzjefXxxKN3uZehbIq96xCj6DTh+JhxRbnaoD/rdSN7umsL8+E0j9p4nnvFUV2U8Ft9eqpGgyyNH7r/HchavBv/x+Nw1LtZkm5gQDKulqZv47u+TD6XevKylvRokZxoMpBEpCXuhM0RscCbt1nXA4edlFjx7qU7XFKfTiT99PGrHu1s5ABaD1oWqv0NGEBA5CrxSRzU2tF6P4qPZiRzHyrEC+75sZirsZc3232aY2i8sPhEI140NfyvdOsTtopbGuvTDn1hvBm31kBTqpeuPKjvDfgfxatQe4lG50HTO3INL/S5zsZmFp23Iyf/OTX8GpXfQapa+ls8ft8f224z3nk3d5t7WFRbGCc/dIfdlT2aYYHHqwrieRA/S9NxIdrtI6UVDtnfHIH0fY1sj+Hu035IjTMejvr/BxABYVpE4025oRpeW1wdNo2SJRSdQ+m1FcXF1uiRuXtgby3T+COR3UUwKRskT3LxXDVHSo4xsMtwrzI5vJf8f+E=",
+    "SecurityState": "SecureStandard",
+    "SecurityState@Redfish.AllowableValues": [
+        "SecureStandard",
+        "FIPS"
+    ],
+    "SystemIAK": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemIAK/Certificates"
+        }
+    },
+    "SystemIDevID": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemIDevID/Certificates"
+        }
+    },
+    "SystemLAKCert": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemLAK/Certificates"
+        }
+    },
+    "SystemLDevID": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemLDevID/Certificates"
+        }
+    },
+    "TLSVersion": {
+        "TLS1_2": "Enabled",
+        "TLS1_3": "Enabled"
+    },
+    "iLOLDevID": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/iLOLDevID/Certificates"
+        }
+    }
+}

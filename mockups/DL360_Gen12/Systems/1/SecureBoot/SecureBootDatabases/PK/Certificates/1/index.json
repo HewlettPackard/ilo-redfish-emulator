@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Certificate.Certificate",
+    "@odata.etag": "W/\"3726078581\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/PK/Certificates/1",
+    "@odata.type": "#Certificate.v1_6_0.Certificate",
+    "Id": "1",
+    "CertificateString": "-----BEGIN CERTIFICATE-----\r\nMIIFBTCCA+2gAwIBAgIQdzeEl+S6/4tKq7kMpAA6+DANBgkqhkiG9w0BAQsFADCB\r\nhDELMAkGA1UEBhMCVVMxKzApBgNVBAoTIkhld2xldHQgUGFja2FyZCBFbnRlcnBy\r\naXNlIENvbXBhbnkxSDBGBgNVBAMTP0hld2xldHQgUGFja2FyZCBFbnRlcnByaXNl\r\nIFByaXZhdGUgQ29kZSBTaWduaW5nIEludGVybWVkaWF0ZSBDQTAeFw0xNjAyMDMw\r\nMDAwMDBaFw0zMTAxMzAyMzU5NTlaMHkxKTAnBgNVBAMMIEhQRSBVRUZJIFNlY3Vy\r\nZSBCb290IDIwMTYgUEsgS2V5MRIwEAYDVQQLDAlDT0RFLVNJR04xCzAJBgNVBAYT\r\nAlVTMSswKQYDVQQKDCJIZXdsZXR0IFBhY2thcmQgRW50ZXJwcmlzZSBDb21wYW55\r\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4FaBGFzUQjMtfugOzd/O\r\n+Qx43/zLJ7UGS0KlreQlIwsES//PQz9L3HbkMJeLHVXpJysmpLyL4YNTrKbpuZKC\r\nzakczm5nTZEGBtgbvF0riCTPJchIr21GWQ5+IYpXpm2s2qvAafAmAQQlCJRcSF+E\r\nmeTjcbDjPrIEq4uBDQyV52jVFKX6qAXWiuURIbPw3aCMsX2WN2akP2oTDKC7LrGC\r\nQZeor+m+zDQJ4YwlEpQUvLDnAYtHFlCGSCZVyub3MWy77mrGeO5jzP0h2xgysoJe\r\nc8xvWKStbW2tcJjvMsRKBv+8qWV4GJ6eWeY5jwZK13C+B55vwVGe527FLDjU73x6\r\n9QIDAQABo4IBezCCAXcwDAYDVR0TAQH/BAIwADAOBgNVHQ8BAf8EBAMCB4AwFgYD\r\nVR0lAQH/BAwwCgYIKwYBBQUHAwMwHQYDVR0OBBYEFAwEkCPY/meMX0XImjfsBfCx\r\nYdQbMF0GA1UdHwRWMFQwUqBQoE6GTGh0dHA6Ly9wa2ktY3JsLnN5bWF1dGguY29t\r\nL2NhX2QzZWU0MjE3ZmZlMDNiMGYxMmViODg5ZTJmMmViMzg5L0xhdGVzdENSTC5j\r\ncmwwNwYIKwYBBQUHAQEEKzApMCcGCCsGAQUFBzABhhtodHRwOi8vcGtpLW9jc3Au\r\nc3ltYXV0aC5jb20wHwYDVR0jBBgwFoAUGOmFM8Rv8cwW//D0IqmydbYvLJUwLAYK\r\nYIZIAYb4RQEQAwQeMBwGEmCGSAGG+EUBEAEGAgEBsajeRxYGNjc0NzQ2MDkGCmCG\r\nSAGG+EUBEAUEKzApAgEAFiRhSFIwY0hNNkx5OXdhMmt0Y21FdWMzbHRZWFYwYUM1\r\namIyMD0wDQYJKoZIhvcNAQELBQADggEBAGaaoJmSIUzXqKbIUZpujxrirJQM4+lW\r\nT95cUvDAV7C5I6ctK/IY9Tg0vP8v+CaAeTRBndLqcNICcunT9GOyHLOe3Hn9XRBt\r\n2KiveQqQyhzFtduC6kss4U0WlzzHiuc6bOIDlZk3M3fjR7ESgeYRuzSYMlUD4MtW\r\nrGETRtBwWmuu6N4z2O8EKRyYUvlIRUjqLl6dVUHtd1o2u+VZVdMxuk9pg1imR6vK\r\n+CSTOGYZuZn1gHsTeBK9fPBYdNF9lwhvOv0tuBBJuhnOrziXCH9+qQyHkCvqmPPl\r\nAb8t4TKxc0+tTiqu+0SGHu4BmAwyULGbTlTzVZyzZO/Jrrn3wZzdELM=\r\n-----END CERTIFICATE-----\r\n",
+    "CertificateType": "PEM",
+    "Issuer": {
+        "City": "",
+        "CommonName": "Hewlett Packard Enterprise Private Code Signing Intermediate",
+        "Country": "US",
+        "Email": "SBCb290IDIwMTYgUEsgS2V5MRIwEAYDVQQ'\u007f\u007f",
+        "Organization": "Hewlett Packard Enterprise Company",
+        "OrganizationalUnit": "",
+        "State": ""
+    },
+    "Name": "HPE UEFI Secure Boot 2016 PK Key",
+    "Subject": {
+        "City": "",
+        "CommonName": "HPE UEFI Secure Boot 2016 PK Key",
+        "Country": "US",
+        "Email": "%%%%%%%%%%%%%s, %s, %s",
+        "Organization": "Hewlett Packard Enterprise Company",
+        "OrganizationalUnit": "CODE-SIGN",
+        "State": ""
+    },
+    "UefiSignatureOwner": "1E910BE1-4BEB-6337-19F1-8A8AC107D512",
+    "ValidNotAfter": "2031-01-30T23:59:59Z",
+    "ValidNotBefore": "2016-02-03T00:00:00Z"
+}

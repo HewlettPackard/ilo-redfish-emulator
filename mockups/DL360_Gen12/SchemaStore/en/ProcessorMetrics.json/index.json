@@ -1,0 +1,52 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "ProcessorMetrics",
+    "additionalProperties": false,
+    "copyright": "Copyright 2024-2025 Hewlett Packard Enterprise Development LP.  Portions Copyright 2024-2025 DMTF. All rights reserved.",
+    "description": "The ProcessorMetrics schema contains usage and health statistics for a processor.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "BandwidthPercent": {
+            "description": "The bandwidth usage of this processor as a percentage.",
+            "longDescription": "This property shall contain the bandwidth usage of the processor as a percentage, typically `0` to `100`.  When this resource is subordinate to the ProcessorSummary object, this property shall be the CPU utilization over all processors as a percentage.",
+            "minimum": 0,
+            "readonly": true,
+            "type": [
+                "number",
+                "null"
+            ],
+            "units": "%"
+        },
+        "Oem": {
+            "additionalProperties": true,
+            "properties": {
+                "Hpe": {
+                    "$ref": "HpeProcessorMetricsExt.json#",
+                    "readonly": true
+                }
+            },
+            "readonly": true,
+            "type": "object"
+        }
+    },
+    "readonly": true,
+    "title": "#ProcessorMetrics.v1_6_4.ProcessorMetrics",
+    "type": "object"
+}

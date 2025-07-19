@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#TriggersCollection.TriggersCollection",
+    "@odata.etag": "W/\"144846794\"",
+    "@odata.id": "/redfish/v1/TelemetryService/Triggers",
+    "@odata.type": "#TriggersCollection.TriggersCollection",
+    "Description": " Triggers view",
+    "Name": "Triggers",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/Triggers/CPUUtilTriggers"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/Triggers/MemoryBusUtilTriggers"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/Triggers/IOBusUtilTriggers"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/Triggers/CPU0PowerTriggers"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/Triggers/CPU1PowerTriggers"
+        }
+    ],
+    "Members@odata.count": 5
+}

@@ -1,0 +1,42 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_0_0.Settings",
+        "ETag": "",
+        "Messages": [
+            {
+                "MessageId": "Base.1.0.Success"
+            }
+        ],
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/tlsconfig/settings/"
+        },
+        "Time": null
+    },
+    "@odata.context": "/redfish/v1/$metadata#HpeTlsConfig.HpeTlsConfig",
+    "@odata.etag": "W/\"51BF9303E0B23030307DE781122B000F\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/tlsconfig/",
+    "@odata.type": "#HpeTlsConfig.v1_0_0.HpeTlsConfig",
+    "Certificates": [],
+    "Ciphers": "DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-CCM:DHE-RSA-AES256-CCM:TLS_AES_128_GCM_SHA256:TLS_AES_256_GCM_SHA384",
+    "DeleteCertificates": [],
+    "HostnameCheck": "Disabled",
+    "Id": "tlsconfig",
+    "Name": "TLS Current Settings",
+    "NewCertificates": [],
+    "Oem": {
+        "Hpe": {
+            "@odata.type": "#HpeBiosExt.v2_0_1.HpeBiosExt",
+            "Links": {
+                "BaseConfigs": {
+                    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/tlsconfig/baseconfigs/"
+                }
+            },
+            "SettingsObject": {
+                "UnmodifiedETag": "W/\"72A8327432B9212121638A8481C540A5\""
+            }
+        }
+    },
+    "ProtocolVersion": "AUTO",
+    "TlsCaCertificateCount": 0,
+    "VerifyMode": ""
+}

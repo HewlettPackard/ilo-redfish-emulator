@@ -1,0 +1,29 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "HpeMemoryMetrics",
+    "additionalProperties": false,
+    "copyright": "Copyright 2024-2025 Hewlett Packard Enterprise Development LP.  Portions Copyright 2024-2025 DMTF. All rights reserved.",
+    "description": "The HpeMemoryMetrics object extends the Redfish Account resource with additional HPE functionality.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "PageRetirementCounts": {
+            "description": "This property shall contain Memory page counters for this resource.",
+            "minimum": 0,
+            "readonly": true,
+            "type": "integer"
+        }
+    },
+    "title": "#HpeMemoryMetrics.v1_0_0.HpeMemoryMetrics",
+    "type": "object"
+}

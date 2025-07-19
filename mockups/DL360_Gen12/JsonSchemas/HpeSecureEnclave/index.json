@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"1350687690\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/HpeSecureEnclave",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "HpeSecureEnclave",
+    "Description": "Schema Definition File for HpeSecureEnclave",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/HpeSecureEnclave.json"
+        }
+    ],
+    "Name": "HpeSecureEnclave Schema Definition File",
+    "Schema": "#HpeSecureEnclave.v1_0_0.HpeSecureEnclave"
+}

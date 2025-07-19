@@ -1,0 +1,16 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeTlsConfig.HpeTlsConfig",
+    "@odata.etag": "W/\"72A8327432B9212121638A8481C540A5\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/tlsconfig/settings/",
+    "@odata.type": "#HpeTlsConfig.v1_0_0.HpeTlsConfig",
+    "Certificates": [],
+    "Ciphers": "DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-CCM:DHE-RSA-AES256-CCM:TLS_AES_128_GCM_SHA256:TLS_AES_256_GCM_SHA384",
+    "DeleteCertificates": [],
+    "HostnameCheck": "Disabled",
+    "Id": "settings",
+    "Name": "TLS Pending Settings",
+    "NewCertificates": [],
+    "ProtocolVersion": "AUTO",
+    "TlsCaCertificateCount": 0,
+    "VerifyMode": ""
+}

@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#CertificateLocations.CertificateLocations",
+    "@odata.etag": "W/\"1987900394\"",
+    "@odata.id": "/redfish/v1/CertificateService/CertificateLocations",
+    "@odata.type": "#CertificateLocations.v1_0_2.CertificateLocations",
+    "Id": "CertificateLocations",
+    "Description": "Certificate Locations",
+    "Links": {
+        "Certificates": [
+            {
+                "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCHPELDevID/Certificates/1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCIAK/Certificates/1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCIDevIDPca/Certificates/1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCLAK/Certificates/1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Managers/1/SecurityService/PlatformCert/Certificates/1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemIAK/Certificates/1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemIDevID/Certificates/1"
+            }
+        ]
+    },
+    "Name": "Certificate Locations"
+}

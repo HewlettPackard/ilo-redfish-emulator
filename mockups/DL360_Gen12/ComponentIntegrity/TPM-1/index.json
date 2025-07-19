@@ -1,0 +1,46 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ComponentIntegrity.ComponentIntegrity",
+    "@odata.etag": "W/\"2289258426\"",
+    "@odata.id": "/redfish/v1/ComponentIntegrity/TPM-1",
+    "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+    "Id": "TPM-1",
+    "Actions": {
+        "#ComponentIntegrity.TPMGetSignedMeasurements": {
+            "PCRSelection@Redfish.AllowableValues": [
+                "PCR0",
+                "PCR8"
+            ],
+            "target": "/redfish/v1/ComponentIntegrity/TPM-1/Actions/ComponentIntegrity.TPMGetSignedMeasurements"
+        }
+    },
+    "ComponentIntegrityEnabled": true,
+    "ComponentIntegrityType": "TPM",
+    "ComponentIntegrityTypeVersion": "iLO 7 v1.14.00",
+    "Name": "Component Integrity Collection TPM",
+    "TPM": {
+        "ComponentCommunication": {
+            "Sessions": [
+                {
+                    "SessionType": "EncryptedAuthenticated"
+                }
+            ]
+        },
+        "MeasurementSet": {
+            "Measurements": [
+                {
+                    "LastUpdated": "2025-07-19T23:13:15Z",
+                    "Measurement": null,
+                    "MeasurementHashAlgorithm": "0",
+                    "PCR": 0
+                },
+                {
+                    "LastUpdated": "2025-07-19T23:13:15Z",
+                    "Measurement": null,
+                    "MeasurementHashAlgorithm": "0",
+                    "PCR": 0
+                }
+            ]
+        }
+    },
+    "TargetComponentURI": "/redfish/v1/Managers/1"
+}

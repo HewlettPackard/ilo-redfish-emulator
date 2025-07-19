@@ -1,0 +1,56 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponentInstallSet.HpeComponentInstallSet",
+    "@odata.etag": "W/\"267596366\"",
+    "@odata.id": "/redfish/v1/UpdateService/InstallSets/a74b22b6",
+    "@odata.type": "#HpeComponentInstallSet.v1_5_0.HpeComponentInstallSet",
+    "Id": "a74b22b6",
+    "Actions": {
+        "#HpeComponentInstallSet.Invoke": {
+            "target": "/redfish/v1/UpdateService/InstallSets/a74b22b6/Actions/HpeComponentInstallSet.Invoke"
+        }
+    },
+    "Created": "2025-06-16T03:30:30Z",
+    "Description": "Essential System Firmware Components",
+    "IsRecovery": true,
+    "Modified": "2025-06-16T03:30:30Z",
+    "Name": "System Recovery Set",
+    "Sequence": [
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/0f172caf",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "2P32D_SP_Mono_Gen12_v1212_signed.vme",
+            "Name": "System Programmable Logic Device",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/2c1382f4",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "ilo7_1.14.00.bin",
+            "Name": "iLO 7",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/6b969448",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "U68_1.40_05_22_2025.signed.flash",
+            "Name": "System BIOS - U68",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ResetServer",
+            "Name": "Reset the server",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        }
+    ]
+}

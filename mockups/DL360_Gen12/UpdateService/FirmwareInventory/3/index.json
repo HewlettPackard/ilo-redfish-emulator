@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"87676162\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/3",
+    "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+    "Id": "3",
+    "Description": "PlatformDefinitionTable",
+    "Name": "Intelligent Platform Abstraction Data",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "b8f46d06-85db-465c-94fb-d106e61378ed",
+            "DeviceContext": "System Board",
+            "Targets": [
+                "00000000-0000-0000-0000-000000000265",
+                "00000000-0000-0000-0000-000001553638",
+                "00000000-0000-0000-0002-000000010265"
+            ]
+        }
+    },
+    "Updateable": true,
+    "Version": "2.3.0 Build 17",
+    "VersionScheme": "OEM"
+}

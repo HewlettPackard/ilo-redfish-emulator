@@ -1,0 +1,50 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "MemoryMetrics",
+    "additionalProperties": false,
+    "copyright": "Copyright 2024-2025 Hewlett Packard Enterprise Development LP.  Portions Copyright 2024-2025 DMTF. All rights reserved.",
+    "description": "The MemoryMetrics schema shall contain the memory metrics for a memory device or system memory summary in a Redfish implementation.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "OperatingSpeedMHz": {
+            "description": "Operating speed of memory in MHz or MT/s as appropriate.",
+            "longDescription": "This property shall contain the operating speed of memory in MHz or MT/s (mega-transfers per second) as reported by the memory device.  Memory devices that operate at their bus speed shall report the operating speed in MHz (bus speed), while memory devices that transfer data faster than their bus speed, such as DDR memory, shall report the operating speed in MT/s (mega-transfers/second).  The reported value shall match the conventionally reported values for the technology used by the memory device.",
+            "readonly": true,
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "Oem": {
+            "additionalProperties": true,
+            "properties": {
+                "Hpe": {
+                    "$ref": "HpeMemoryMetrics.json#",
+                    "readonly": false
+                }
+            },
+            "readonly": true,
+            "type": "object"
+        }
+    },
+    "readonly": true,
+    "title": "#MemoryMetrics.v1_7_3.MemoryMetrics",
+    "type": "object"
+}

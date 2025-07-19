@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "HpeSecureEnclave",
+    "additionalProperties": false,
+    "copyright": "Copyright 2024 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
+    "description": "The HpeSecureEnclave resource describes the properties for management of the security storage of the BMC.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Version": {
+            "description": "Current revision of secure enclave in use.",
+            "etag": true,
+            "readonly": true,
+            "type": "string"
+        },
+        "SecurityMode": {
+            "description": "Current security mode of secure enclave.",
+            "enum": [
+                "Factory",
+                "FIPS"
+            ],
+            "enumDescriptions": {
+                "Factory": "This mode is intended to meet factory requirements.",
+                "FIPS": "This mode is intended to meet the FIPS 140-2 level 1 and Common Criteria security requirements for secure enclave. "
+            },
+            "etag": true,
+            "longDescription": "The operational security level of secure enclave. ",
+            "readonly": true,
+            "type": "string"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        }
+    },
+    "readonly": true,
+    "title": "#HpeSecureEnclave.v1_0_0.HpeSecureEnclave",
+    "type": "object"
+}

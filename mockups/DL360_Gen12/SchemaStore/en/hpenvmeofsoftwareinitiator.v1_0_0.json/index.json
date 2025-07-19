@@ -1,0 +1,280 @@
+{
+    "$schema": "http://redfish.dmtf.org/schemas/v1/redfish-schema.v1_1_0.json",
+    "title": "#HpeNvmeOfSoftwareInitiator.v1_0_0.HpeNvmeOfSoftwareInitiator",
+    "$ref": "#/definitions/HpeNvmeOfSoftwareInitiator",
+    "definitions": {
+        "HpeNvmeOfSoftwareInitiator": {
+            "type": "object",
+            "additionalProperties": false,
+            "patternProperties": {
+                "^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message|Privileges)\\.[a-zA-Z_][a-zA-Z0-9_.]+$": {
+                    "type": [
+                        "array",
+                        "boolean",
+                        "number",
+                        "null",
+                        "object",
+                        "string"
+                    ],
+                    "description": "This property shall specify a valid odata or Redfish property."
+                }
+            },
+            "properties": {
+                "@Redfish.Settings": {
+                    "$ref": "HpeBiosExt.v2_0_0.json#/definitions/Settings"
+                },
+                "@odata.context": {
+                    "description": "The OData description of a payload.",
+                    "format": "uri",
+                    "longDescription": "The value of this property shall be the context URL that describes the resource according to OData-Protocol and shall be of the form defined in the Redfish specification.",
+                    "readonly": true,
+                    "type": "string"
+                },
+                "@odata.etag": {
+                    "longDescription": "The value of this property is the Etag of the resource.",
+                    "readonly": true,
+                    "type": "string"
+                },
+                "@odata.id": {
+                    "description": "The unique identifier for a resource.",
+                    "format": "uri",
+                    "longDescription": "The value of this property shall be the unique identifier for the resource and it shall be of the form defined in the Redfish specification.",
+                    "readonly": true,
+                    "type": "string"
+                },
+                "@odata.type": {
+                    "description": "The type of a resource.",
+                    "longDescription": "The value of this property shall be an absolute URL that specifies the type of the resource and it shall be of the form defined in the Redfish specification.",
+                    "readonly": true,
+                    "type": "string"
+                },
+                "Oem": {
+                    "additionalProperties": true,
+                    "description": "Oem extension object.",
+                    "longDescription": "This object represents the Oem properties.  All values for resources described by this schema shall comply to the requirements as described in the Redfish specification.",
+                    "patternProperties": {
+                        "[A-Za-z0-9_.:]+": {
+                            "additionalProperties": true,
+                            "description": "Base type for an Oem object.",
+                            "longDescription": "This object represents the base type for an Oem property.  All values for resources described by this schema shall comply to the requirements as described in the Redfish specification.",
+                            "patternProperties": {
+                                "^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message|Privileges)\\.[a-zA-Z_][a-zA-Z0-9_.]+$": {
+                                    "description": "This property shall specify a valid odata or Redfish property.",
+                                    "type": [
+                                        "array",
+                                        "boolean",
+                                        "number",
+                                        "null",
+                                        "object",
+                                        "string"
+                                    ]
+                                }
+                            },
+                            "properties": {},
+                            "type": "object"
+                        },
+                        "^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message|Privileges)\\.[a-zA-Z_][a-zA-Z0-9_.]+$": {
+                            "description": "This property shall specify a valid odata or Redfish property.",
+                            "type": [
+                                "array",
+                                "boolean",
+                                "number",
+                                "null",
+                                "object",
+                                "string"
+                            ]
+                        }
+                    },
+                    "properties": {},
+                    "type": "object"
+                },
+                "Id": {
+                    "description": "Uniquely identifies the resource within the collection of like resources.",
+                    "longDescription": "This property represents an identifier for the resource.  All values for resources described by this schema shall comply to the requirements as described in the Redfish specification.",
+                    "readonly": true,
+                    "type": "string"
+                },
+                "Name": {
+                    "description": "The name of the resource or array element.",
+                    "longDescription": "This object represents the Name property.  All values for resources described by this schema shall comply to the requirements as described in the Redfish specification. The value of this string shall be of the format for the reserved word *Name*.",
+                    "readonly": true,
+                    "type": "string"
+                },
+                "NvmeOfNicSources": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "patternProperties": {
+                            "^[A-Z][A-Za-z0-9]+$": {
+                                "type": "string"
+                            }
+                        },
+                        "description": "The BIOS Attribute that describes a NIC instance that can be used as a target for NVMe-oF configuration."
+                    },
+                    "description": "The array of BIOS Attributes that represent the possible NIC instances that can be used as targets for NVMe-oF configuration. These attributes can be correlated to the physical NIC PCI devices by looking up the associations in the linked HpBiosMappings resource.",
+                    "readonly": false,
+                    "etag": true
+                },
+                "NvmeOfInitiatorName": {
+                    "type": "string",
+                    "description": "The worldwide unique NVMe Qualified Name (NQN) of this NVMe-oF Initiator. Only NQN format is accepted. EUI format is not supported (for example, 'nqn.1986-03.com.hp:init.sn-123456').",
+                    "pattern": "^$|^nqn\\.[0-9]{4}-[0-9]{2}\\.[^:]+(:.*)?$",
+                    "maxLength": 223
+                },
+                "NvmeOfSources": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "StructuredBootString": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ],
+                                "pattern": "^[A-Za-z0-9]+[.][A-Za-z0-9]+[.]\\d+[.]\\d+([.][A-Za-z0-9]+)?$",
+                                "description": "Identifies this NVMe-oF option within the server.",
+                                "readonly": true
+                            },
+                            "UEFIDevicePath": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ],
+                                "description": "Standardized text representation of the UEFI device path for this option, in UTF-8 format.",
+                                "readonly": true
+                            },
+                            "NvmeOfAttemptInstance": {
+                                "type": "integer",
+                                "description": "Uniquely identifies this NVMe-oF attempt within NvmeOfSources array. If set to zero, all other properties in the boot option object are ignored (which will delete an existing boot attempt).",
+                                "minimum": 0,
+                                "maximum": 4
+                            },
+                            "NvmeOfNicSource": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ],
+                                "description": "A BIOS Attribute that describes this selected NIC instance. This must match one of the possible values listed in the NvmeOfNicSources array."
+                            },
+                            "NvmeOfAttemptName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ],
+                                "description": "Human readable descriptive name for this NVMe-oF attempt configuration",
+                                "maxLength": 11
+                            },
+                            "NvmeOfConnection": {
+                                "type": "string",
+                                "description": "Enables or Disables NVMe-oF mode for a selected NVMe-oF attempt.",
+                                "enum": [
+                                    "Disabled",
+                                    "Enabled"
+                                ],
+                                "enumDescriptions": {
+                                    "Disabled": "Connecting to this NVMe-oF attempt is disabled.",
+                                    "Enabled": "Connecting to this NVMe-oF attempt is enabled."
+                                }
+                            },
+                            "NvmeOfIpAddressType": {
+                                "type": "string",
+                                "description": "The NVMe-oF IP Address type. If set to Auto, IPv4 will be attempted first, followed by IPv6.",
+                                "enum": [
+                                    "IPv4",
+                                    "IPv6",
+                                    "Auto"
+                                ],
+                                "enumDescriptions": {
+                                    "IPv4": "The NVMe-oF IP address is configured in IPv4 format.",
+                                    "IPv6": "The NVMe-oF IP address is configured in IPv6 format.",
+                                    "Auto": "The NVMe-oF IP address is configured in IPv4. If an issue occurs with IPv4, then the IPv6 configuration is used."
+                                }
+                            },
+                            "NvmeOfConnectRetry": {
+                                "type": "integer",
+                                "description": "The number of times to retry the NVMe-oF connection. Zero means no retries.",
+                                "minimum": 0,
+                                "maximum": 16
+                            },
+                            "NvmeOfConnectTimeoutMS": {
+                                "type": "integer",
+                                "description": "The NVMe-oF connection timeout value in milliseconds.",
+                                "minimum": 100,
+                                "maximum": 20000
+                            },
+                            "NvmeOfInitiatorInfoViaDHCP": {
+                                "type": "boolean",
+                                "description": "If enabled, the NVMe-oF Initiator information is configured from DHCP. Otherwise, the NVMe-oF initiator information must be statically configured. When providing static values for the Initiator, ensure Target settings are also configured with static values."
+                            },
+                            "NvmeOfInitiatorIpAddress": {
+                                "type": "string",
+                                "description": "The IP Address of the NVMe-oF Initiator, if not configured via DHCP. The Initiator IP Address is always auto-assigned if IP address type is IPv6. The address must be an IPv4 or IPv6 address, depending on the IP Address Type.",
+                                "pattern": "^(?:(1?[0-9]{1,2}|2[0-4][0-9]|25[0-5])\\.){3}(?:1?[0-9]{1,2}|2[0-4][0-9]|25[0-5])$"
+                            },
+                            "NvmeOfInitiatorNetmask": {
+                                "type": "string",
+                                "description": "The subnet mask of the NVMe-oF Initiator, if not configured via DHCP. The address must be an IPv4.",
+                                "pattern": "^(((128|192|224|240|248|252|254)\\.0\\.0\\.0)|(255\\.(0|128|192|224|240|248|252|254)\\.0\\.0)|(255\\.255\\.(0|128|192|224|240|248|252|254)\\.0)|(255\\.255\\.255\\.(0|128|192|224|240|248|252|254))|(0.0.0.0))$"
+                            },
+                            "NvmeOfInitiatorGateway": {
+                                "type": "string",
+                                "description": "The gateway address of the NVMe-oF Initiator, if not configured via DHCP. The address must be an IPv4 or IPv6 address, depending on the IP Address Type.",
+                                "pattern": "^(?:(1?[0-9]{1,2}|2[0-4][0-9]|25[0-5])\\.){3}(?:1?[0-9]{1,2}|2[0-4][0-9]|25[0-5])$"
+                            },
+                            "NvmeOfTargetInfoViaDHCP": {
+                                "type": "boolean",
+                                "description": "If enabled, the NVMe-oF target information are configured from DHCP. Otherwise, the NVMe-oF target information must be statically configured."
+                            },
+                            "NvmeOfTargetName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ],
+                                "description": "The worldwide unique NVMe Qualified Name (NQN) of this NVMe-oF target. Only the NQN format is accepted. EUI format is not supported (for example, 'nqn.1991-05.com.microsoft:NvmeOftarget-NvmeOfdisk-target').",
+                                "pattern": "^nqn\\.[0-9]{4}-[0-9]{2}\\.[^:]+(:.*)?$",
+                                "maxLength": 223
+                            },
+                            "NvmeOfTargetIpAddress": {
+                                "type": "string",
+                                "description": "The IP Address of the NVMe-oF Target, if not obtained from DHCP. The address must be an IPv4 or IPv6 address, depending on the IP Address Type.",
+                                "pattern": "^(?:(1?[0-9]{1,2}|2[0-4][0-9]|25[0-5])\\.){3}(?:1?[0-9]{1,2}|2[0-4][0-9]|25[0-5])$|^([0-9a-fA-F]{0,4}:){2,7}(:|[0-9a-fA-F]{1,4})$"
+                            },
+                            "NvmeOfTargetTcpPort": {
+                                "type": "integer",
+                                "description": "The NVMe-oF Target TCP Port number, if not obtained from DHCP.",
+                                "minimum": 0,
+                                "maximum": 65535
+                            },
+                            "NvmeOfTargetNid": {
+                                "type": "string",
+                                "description": "The NVMe-oF Target Namespace Identifier in UUID format. Skip NID check if empty. UUID example: ABCDEF01-2345-6789-ABCD-EF0123456789.",
+                                "pattern": "^$|^[0-9a-fA-F]{8}(-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}$"
+                            }
+                        },
+                        "required": [
+                            "NvmeOfAttemptInstance",
+                            "NvmeOfNicSource",
+                            "NvmeOfAttemptName",
+                            "NvmeOfConnection",
+                            "NvmeOfIpAddressType",
+                            "NvmeOfConnectRetry",
+                            "NvmeOfConnectTimeoutMS",
+                            "NvmeOfInitiatorInfoViaDHCP",
+                            "NvmeOfInitiatorIpAddress",
+                            "NvmeOfInitiatorNetmask",
+                            "NvmeOfInitiatorGateway",
+                            "NvmeOfTargetInfoViaDHCP",
+                            "NvmeOfTargetName",
+                            "NvmeOfTargetIpAddress",
+                            "NvmeOfTargetTcpPort",
+                            "NvmeOfTargetNid"
+                        ]
+                    },
+                    "description": "The array of NVMe-oF sources available on this server. Each entry holds the configuration of a NVMe-oF attempt."
+                }
+            },
+            "required": []
+        }
+    }
+}

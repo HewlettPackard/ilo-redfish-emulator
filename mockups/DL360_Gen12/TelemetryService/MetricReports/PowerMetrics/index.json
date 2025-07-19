@@ -1,0 +1,1358 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricReport.MetricReport",
+    "@odata.etag": "W/\"2854634098\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReports/PowerMetrics",
+    "@odata.type": "#MetricReport.v1_0_0.MetricReport",
+    "Id": "PowerMetrics",
+    "Description": "Metric report of Power Metrics for 60 minutes with sensing interval of 300 seconds.",
+    "MetricReportDefinition": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/PowerMetrics"
+    },
+    "MetricValues": [
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AverageConsumedWatts"
+            },
+            "MetricId": "AverageConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MinConsumedWatts"
+            },
+            "MetricId": "MinConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MaxConsumedWatts"
+            },
+            "MetricId": "MaxConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AmbTemp"
+            },
+            "MetricId": "AmbTemp",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Cap"
+            },
+            "MetricId": "Cap",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuCapLim"
+            },
+            "MetricId": "CpuCapLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuMax"
+            },
+            "MetricId": "CpuMax",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuPwrSavLim"
+            },
+            "MetricId": "CpuPwrSavLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuWatts"
+            },
+            "MetricId": "CpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/DimmWatts"
+            },
+            "MetricId": "DimmWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/GpuWatts"
+            },
+            "MetricId": "GpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PrMode"
+            },
+            "MetricId": "PrMode",
+            "MetricValue": "",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PunCap"
+            },
+            "MetricId": "PunCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/UnachCap"
+            },
+            "MetricId": "UnachCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AverageConsumedWatts"
+            },
+            "MetricId": "AverageConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MinConsumedWatts"
+            },
+            "MetricId": "MinConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MaxConsumedWatts"
+            },
+            "MetricId": "MaxConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AmbTemp"
+            },
+            "MetricId": "AmbTemp",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Cap"
+            },
+            "MetricId": "Cap",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuCapLim"
+            },
+            "MetricId": "CpuCapLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuMax"
+            },
+            "MetricId": "CpuMax",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuPwrSavLim"
+            },
+            "MetricId": "CpuPwrSavLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuWatts"
+            },
+            "MetricId": "CpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/DimmWatts"
+            },
+            "MetricId": "DimmWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/GpuWatts"
+            },
+            "MetricId": "GpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PrMode"
+            },
+            "MetricId": "PrMode",
+            "MetricValue": "",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PunCap"
+            },
+            "MetricId": "PunCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/UnachCap"
+            },
+            "MetricId": "UnachCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AverageConsumedWatts"
+            },
+            "MetricId": "AverageConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MinConsumedWatts"
+            },
+            "MetricId": "MinConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MaxConsumedWatts"
+            },
+            "MetricId": "MaxConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AmbTemp"
+            },
+            "MetricId": "AmbTemp",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Cap"
+            },
+            "MetricId": "Cap",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuCapLim"
+            },
+            "MetricId": "CpuCapLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuMax"
+            },
+            "MetricId": "CpuMax",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuPwrSavLim"
+            },
+            "MetricId": "CpuPwrSavLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuWatts"
+            },
+            "MetricId": "CpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/DimmWatts"
+            },
+            "MetricId": "DimmWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/GpuWatts"
+            },
+            "MetricId": "GpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PrMode"
+            },
+            "MetricId": "PrMode",
+            "MetricValue": "",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PunCap"
+            },
+            "MetricId": "PunCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/UnachCap"
+            },
+            "MetricId": "UnachCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AverageConsumedWatts"
+            },
+            "MetricId": "AverageConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MinConsumedWatts"
+            },
+            "MetricId": "MinConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MaxConsumedWatts"
+            },
+            "MetricId": "MaxConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AmbTemp"
+            },
+            "MetricId": "AmbTemp",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Cap"
+            },
+            "MetricId": "Cap",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuCapLim"
+            },
+            "MetricId": "CpuCapLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuMax"
+            },
+            "MetricId": "CpuMax",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuPwrSavLim"
+            },
+            "MetricId": "CpuPwrSavLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuWatts"
+            },
+            "MetricId": "CpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/DimmWatts"
+            },
+            "MetricId": "DimmWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/GpuWatts"
+            },
+            "MetricId": "GpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PrMode"
+            },
+            "MetricId": "PrMode",
+            "MetricValue": "",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PunCap"
+            },
+            "MetricId": "PunCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/UnachCap"
+            },
+            "MetricId": "UnachCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AverageConsumedWatts"
+            },
+            "MetricId": "AverageConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MinConsumedWatts"
+            },
+            "MetricId": "MinConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MaxConsumedWatts"
+            },
+            "MetricId": "MaxConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AmbTemp"
+            },
+            "MetricId": "AmbTemp",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Cap"
+            },
+            "MetricId": "Cap",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuCapLim"
+            },
+            "MetricId": "CpuCapLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuMax"
+            },
+            "MetricId": "CpuMax",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuPwrSavLim"
+            },
+            "MetricId": "CpuPwrSavLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuWatts"
+            },
+            "MetricId": "CpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/DimmWatts"
+            },
+            "MetricId": "DimmWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/GpuWatts"
+            },
+            "MetricId": "GpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PrMode"
+            },
+            "MetricId": "PrMode",
+            "MetricValue": "",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PunCap"
+            },
+            "MetricId": "PunCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/UnachCap"
+            },
+            "MetricId": "UnachCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AverageConsumedWatts"
+            },
+            "MetricId": "AverageConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MinConsumedWatts"
+            },
+            "MetricId": "MinConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MaxConsumedWatts"
+            },
+            "MetricId": "MaxConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AmbTemp"
+            },
+            "MetricId": "AmbTemp",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Cap"
+            },
+            "MetricId": "Cap",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuCapLim"
+            },
+            "MetricId": "CpuCapLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuMax"
+            },
+            "MetricId": "CpuMax",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuPwrSavLim"
+            },
+            "MetricId": "CpuPwrSavLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuWatts"
+            },
+            "MetricId": "CpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/DimmWatts"
+            },
+            "MetricId": "DimmWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/GpuWatts"
+            },
+            "MetricId": "GpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PrMode"
+            },
+            "MetricId": "PrMode",
+            "MetricValue": "",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PunCap"
+            },
+            "MetricId": "PunCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/UnachCap"
+            },
+            "MetricId": "UnachCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AverageConsumedWatts"
+            },
+            "MetricId": "AverageConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MinConsumedWatts"
+            },
+            "MetricId": "MinConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MaxConsumedWatts"
+            },
+            "MetricId": "MaxConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AmbTemp"
+            },
+            "MetricId": "AmbTemp",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Cap"
+            },
+            "MetricId": "Cap",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuCapLim"
+            },
+            "MetricId": "CpuCapLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuMax"
+            },
+            "MetricId": "CpuMax",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuPwrSavLim"
+            },
+            "MetricId": "CpuPwrSavLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuWatts"
+            },
+            "MetricId": "CpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/DimmWatts"
+            },
+            "MetricId": "DimmWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/GpuWatts"
+            },
+            "MetricId": "GpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PrMode"
+            },
+            "MetricId": "PrMode",
+            "MetricValue": "",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PunCap"
+            },
+            "MetricId": "PunCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/UnachCap"
+            },
+            "MetricId": "UnachCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AverageConsumedWatts"
+            },
+            "MetricId": "AverageConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MinConsumedWatts"
+            },
+            "MetricId": "MinConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MaxConsumedWatts"
+            },
+            "MetricId": "MaxConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AmbTemp"
+            },
+            "MetricId": "AmbTemp",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Cap"
+            },
+            "MetricId": "Cap",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuCapLim"
+            },
+            "MetricId": "CpuCapLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuMax"
+            },
+            "MetricId": "CpuMax",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuPwrSavLim"
+            },
+            "MetricId": "CpuPwrSavLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuWatts"
+            },
+            "MetricId": "CpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/DimmWatts"
+            },
+            "MetricId": "DimmWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/GpuWatts"
+            },
+            "MetricId": "GpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PrMode"
+            },
+            "MetricId": "PrMode",
+            "MetricValue": "",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PunCap"
+            },
+            "MetricId": "PunCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/UnachCap"
+            },
+            "MetricId": "UnachCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AverageConsumedWatts"
+            },
+            "MetricId": "AverageConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MinConsumedWatts"
+            },
+            "MetricId": "MinConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MaxConsumedWatts"
+            },
+            "MetricId": "MaxConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AmbTemp"
+            },
+            "MetricId": "AmbTemp",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Cap"
+            },
+            "MetricId": "Cap",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuCapLim"
+            },
+            "MetricId": "CpuCapLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuMax"
+            },
+            "MetricId": "CpuMax",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuPwrSavLim"
+            },
+            "MetricId": "CpuPwrSavLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuWatts"
+            },
+            "MetricId": "CpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/DimmWatts"
+            },
+            "MetricId": "DimmWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/GpuWatts"
+            },
+            "MetricId": "GpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PrMode"
+            },
+            "MetricId": "PrMode",
+            "MetricValue": "",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PunCap"
+            },
+            "MetricId": "PunCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/UnachCap"
+            },
+            "MetricId": "UnachCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AverageConsumedWatts"
+            },
+            "MetricId": "AverageConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MinConsumedWatts"
+            },
+            "MetricId": "MinConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MaxConsumedWatts"
+            },
+            "MetricId": "MaxConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AmbTemp"
+            },
+            "MetricId": "AmbTemp",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Cap"
+            },
+            "MetricId": "Cap",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuCapLim"
+            },
+            "MetricId": "CpuCapLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuMax"
+            },
+            "MetricId": "CpuMax",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuPwrSavLim"
+            },
+            "MetricId": "CpuPwrSavLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuWatts"
+            },
+            "MetricId": "CpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/DimmWatts"
+            },
+            "MetricId": "DimmWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/GpuWatts"
+            },
+            "MetricId": "GpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PrMode"
+            },
+            "MetricId": "PrMode",
+            "MetricValue": "",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PunCap"
+            },
+            "MetricId": "PunCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/UnachCap"
+            },
+            "MetricId": "UnachCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AverageConsumedWatts"
+            },
+            "MetricId": "AverageConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MinConsumedWatts"
+            },
+            "MetricId": "MinConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MaxConsumedWatts"
+            },
+            "MetricId": "MaxConsumedWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AmbTemp"
+            },
+            "MetricId": "AmbTemp",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Cap"
+            },
+            "MetricId": "Cap",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuCapLim"
+            },
+            "MetricId": "CpuCapLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuMax"
+            },
+            "MetricId": "CpuMax",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuPwrSavLim"
+            },
+            "MetricId": "CpuPwrSavLim",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuWatts"
+            },
+            "MetricId": "CpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/DimmWatts"
+            },
+            "MetricId": "DimmWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/GpuWatts"
+            },
+            "MetricId": "GpuWatts",
+            "MetricValue": "0",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PrMode"
+            },
+            "MetricId": "PrMode",
+            "MetricValue": "",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PunCap"
+            },
+            "MetricId": "PunCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/UnachCap"
+            },
+            "MetricId": "UnachCap",
+            "MetricValue": "false",
+            "Timestamp": null
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AverageConsumedWatts"
+            },
+            "MetricId": "AverageConsumedWatts",
+            "MetricValue": "217",
+            "Timestamp": "2025-07-19T23:14:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MinConsumedWatts"
+            },
+            "MetricId": "MinConsumedWatts",
+            "MetricValue": "214",
+            "Timestamp": "2025-07-19T23:14:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MaxConsumedWatts"
+            },
+            "MetricId": "MaxConsumedWatts",
+            "MetricValue": "403",
+            "Timestamp": "2025-07-19T23:14:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AmbTemp"
+            },
+            "MetricId": "AmbTemp",
+            "MetricValue": "18",
+            "Timestamp": "2025-07-19T23:14:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/Cap"
+            },
+            "MetricId": "Cap",
+            "MetricValue": "0",
+            "Timestamp": "2025-07-19T23:14:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuCapLim"
+            },
+            "MetricId": "CpuCapLim",
+            "MetricValue": "0",
+            "Timestamp": "2025-07-19T23:14:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuMax"
+            },
+            "MetricId": "CpuMax",
+            "MetricValue": "0",
+            "Timestamp": "2025-07-19T23:14:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuPwrSavLim"
+            },
+            "MetricId": "CpuPwrSavLim",
+            "MetricValue": "100",
+            "Timestamp": "2025-07-19T23:14:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CpuWatts"
+            },
+            "MetricId": "CpuWatts",
+            "MetricValue": "115",
+            "Timestamp": "2025-07-19T23:14:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/DimmWatts"
+            },
+            "MetricId": "DimmWatts",
+            "MetricValue": "9",
+            "Timestamp": "2025-07-19T23:14:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/GpuWatts"
+            },
+            "MetricId": "GpuWatts",
+            "MetricValue": "0",
+            "Timestamp": "2025-07-19T23:14:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PrMode"
+            },
+            "MetricId": "PrMode",
+            "MetricValue": "dyn",
+            "Timestamp": "2025-07-19T23:14:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PunCap"
+            },
+            "MetricId": "PunCap",
+            "MetricValue": "false",
+            "Timestamp": "2025-07-19T23:14:41Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/UnachCap"
+            },
+            "MetricId": "UnachCap",
+            "MetricValue": "false",
+            "Timestamp": "2025-07-19T23:14:41Z"
+        }
+    ],
+    "Name": "Metric report of Power Metrics for 60 minutes with sensing interval of 300 seconds."
+}

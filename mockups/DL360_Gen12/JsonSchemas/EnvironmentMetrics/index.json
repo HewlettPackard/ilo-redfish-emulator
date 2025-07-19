@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"2289818656\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/EnvironmentMetrics",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "EnvironmentMetrics",
+    "Description": "Schema Definition File for EnvironmentMetrics",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/EnvironmentMetrics.json"
+        }
+    ],
+    "Name": "EnvironmentMetrics Schema Definition File",
+    "Schema": "#EnvironmentMetrics.v1_3_2.EnvironmentMetrics"
+}

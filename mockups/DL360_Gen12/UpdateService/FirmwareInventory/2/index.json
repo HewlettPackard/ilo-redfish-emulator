@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"2441979556\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/2",
+    "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+    "Id": "2",
+    "Description": "SystemRomActive",
+    "Name": "System ROM",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4",
+            "DeviceContext": "System Board",
+            "Targets": [
+                "00000000-0000-0000-0000-000000000265",
+                "00000000-0000-0000-0000-000001553638",
+                "00000000-0000-0000-0002-000000010265"
+            ]
+        }
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Updateable": true,
+    "Version": "U68 v1.40 (05/22/2025)",
+    "VersionScheme": "OEM"
+}

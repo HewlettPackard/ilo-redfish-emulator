@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"3938131150\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/1",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "1",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceType": "Unknown",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "N/A"
+        }
+    },
+    "Location": "PCI-E Slot 18",
+    "Manufacturer": "",
+    "Name": "Empty slot 18",
+    "PartNumber": "",
+    "ProductPartNumber": "",
+    "ProductVersion": "",
+    "SerialNumber": "",
+    "Status": {
+        "State": "Absent"
+    }
+}

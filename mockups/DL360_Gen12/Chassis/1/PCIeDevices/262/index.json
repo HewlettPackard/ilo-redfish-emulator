@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "W/\"1302683408\"",
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/262",
+    "@odata.type": "#PCIeDevice.v1_5_0.PCIeDevice",
+    "Id": "262",
+    "FirmwareVersion": "2.10.08",
+    "Manufacturer": "HPE",
+    "Model": "R2E09A",
+    "Name": "HPE SN1610Q 32Gb 2p FC HBA",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/262/PCIeFunctions"
+    },
+    "PartNumber": "R2E09A",
+    "SKU": "P14420-001",
+    "SerialNumber": "MY550905BF",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

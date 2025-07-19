@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"1307897946\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/ThermalMetrics",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "ThermalMetrics",
+    "Description": "Schema Definition File for ThermalMetrics",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/ThermalMetrics.json"
+        }
+    ],
+    "Name": "ThermalMetrics Schema Definition File",
+    "Schema": "#ThermalMetrics.v1_3_1.ThermalMetrics"
+}
