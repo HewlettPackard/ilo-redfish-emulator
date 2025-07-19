@@ -83,14 +83,17 @@ class ResetWorker(Thread):
     def run(self):
         members[self.sys_id]['PowerState'] = 'Off'
         members[self.sys_id]['Status']['State'] = 'Disabled'
+        members[self.sys_id]['Oem']['Hpe']['PostState'] = 'PowerOff'
         send_power_event(self.sys_id, 'Off')
         sleep(g.async_sleep)
         members[self.sys_id]['PowerState'] = 'PoweringOn'
         members[self.sys_id]['Status']['State'] = 'Starting'
+        members[self.sys_id]['Oem']['Hpe']['PostState'] = 'InPost'
         send_power_event(self.sys_id, 'On')
         sleep(g.async_sleep)
         members[self.sys_id]['PowerState'] = 'On'
         members[self.sys_id]['Status']['State'] = 'Enabled'
+        members[self.sys_id]['Oem']['Hpe']['PostState'] = 'InPostDiscoveryComplete'
 
 # PowerOnWorker
 #
@@ -104,10 +107,12 @@ class PowerOnWorker(Thread):
     def run(self):
         members[self.sys_id]['PowerState'] = 'PoweringOn'
         members[self.sys_id]['Status']['State'] = 'Starting'
+        members[self.sys_id]['Oem']['Hpe']['PostState'] = 'InPost'
         send_power_event(self.sys_id, 'On')
         sleep(g.async_sleep)
         members[self.sys_id]['PowerState'] = 'On'
         members[self.sys_id]['Status']['State'] = 'Enabled'
+        members[self.sys_id]['Oem']['Hpe']['PostState'] = 'InPostDiscoveryComplete'
 
 def send_power_event(id, power_state):
     ooc = members[id]['@odata.id']
@@ -270,7 +275,7 @@ class ResetAction_API(Resource):
                             logging.info('Powering Off')
                             members[ident]['PowerState'] = 'Off'
                             members[ident]['Status']['State'] = 'Disabled'
-                            send_power_event(ident, 'Off')
+                            members[ident]['Oem']['Hpe']['PostState'] = 'PowerOff'
                         elif value in on_actions:
                             logging.info('Starting reset thread')
                             members_reset_thread[ident] = PowerOnWorker(ident)
