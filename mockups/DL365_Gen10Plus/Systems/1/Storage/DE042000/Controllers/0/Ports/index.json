@@ -1,0 +1,21 @@
+{
+    "@odata.id": "/redfish/v1/Systems/1/Storage/DE042000/Controllers/0/Ports",
+    "@odata.type": "#PortCollection.PortCollection",
+    "Name": "Port Collection",
+    "Members@odata.count": 4,
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE042000/Controllers/0/Ports/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE042000/Controllers/0/Ports/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE042000/Controllers/0/Ports/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE042000/Controllers/0/Ports/3"
+        }
+    ],
+    "@odata.etag": "\"2F9E1DF4\""
+}

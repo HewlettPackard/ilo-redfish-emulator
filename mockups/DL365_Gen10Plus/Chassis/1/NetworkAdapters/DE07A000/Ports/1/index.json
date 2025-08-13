@@ -1,0 +1,127 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Port.Port",
+    "@odata.type": "#Port.v1_8_0.Port",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE07A000/Ports/1",
+    "@odata.etag": "W/\"B1AE460B\"",
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_3_3.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE07A000/Ports/1/Settings"
+        },
+        "SupportedApplyTimes": [
+            "OnReset"
+        ]
+    },
+    "Id": "1",
+    "Name": "Ethernet Port 1",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE07A000/Ports/1/Metrics"
+    },
+    "PortId": "1",
+    "PortProtocol": "Ethernet",
+    "PortType": "BidirectionalPort",
+    "Enabled": true,
+    "Ethernet": {
+        "SupportedEthernetCapabilities": [
+            "WakeOnLAN"
+        ],
+        "AssociatedMACAddresses": [
+            "84:16:0c:39:a1:e2"
+        ],
+        "FlowControlConfiguration": "None",
+        "FlowControlStatus": "None",
+        "WakeOnLANEnabled": true,
+        "LLDPEnabled": true,
+        "LLDPReceive": {
+            "ChassisId": "18:7a:3b:4b:92:00",
+            "ChassisIdSubtype": "MacAddr",
+            "ManagementAddressIPv4": "192.168.5.1",
+            "PortId": "31:2F:31:2F:31:3A:32",
+            "PortIdSubtype": "IfName",
+            "SystemDescription": "Aruba JL636A  GL.10.13.1090"
+        },
+        "LLDPTransmit": {
+            "ChassisId": "84:16:0c:39:a1:e2",
+            "ChassisIdSubtype": "MacAddr",
+            "ManagementAddressIPv4": "",
+            "ManagementAddressIPv6": "",
+            "ManagementAddressMAC": "84:16:0c:39:a1:e2",
+            "PortId": "84:16:0C:39:A1:E2",
+            "PortIdSubtype": "MacAddr",
+            "SystemDescription": "233.0.151.0 fw_version:AFW_233.0.151.0"
+        }
+    },
+    "LinkConfiguration": [
+        {
+            "AutoSpeedNegotiationCapable": true,
+            "AutoSpeedNegotiationEnabled": true,
+            "CapableLinkSpeedGbps": [
+                25.0,
+                10.0,
+                1.0
+            ],
+            "ConfiguredNetworkLinks": [
+                {
+                    "ConfiguredLinkSpeedGbps": 25.0,
+                    "ConfiguredWidth": 1
+                },
+                {
+                    "ConfiguredLinkSpeedGbps": 10.0,
+                    "ConfiguredWidth": 1
+                },
+                {
+                    "ConfiguredLinkSpeedGbps": 1.0,
+                    "ConfiguredWidth": 1
+                }
+            ]
+        }
+    ],
+    "LinkNetworkTechnology": "Ethernet",
+    "MaxFrameSize": 9638,
+    "MaxSpeedGbps": 25.0,
+    "Width": 1,
+    "InterfaceEnabled": true,
+    "SignalDetected": true,
+    "PortMedium": "Electrical",
+    "LinkState": "Enabled",
+    "LinkStatus": "LinkUp",
+    "LinkTransitionIndicator": 539,
+    "CurrentSpeedGbps": 25.0,
+    "ActiveWidth": 1,
+    "SFP": {
+        "SupportedSFPTypes": [
+            "SFP",
+            "SFPPlus",
+            "SFP28"
+        ],
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        },
+        "Manufacturer": "FCI Electronics",
+        "PartNumber": "10137634-4030LF",
+        "SerialNumber": "6C12500TKY",
+        "MediumType": "Copper",
+        "Type": "SFP28"
+    },
+    "Actions": {
+        "#Port.Reset": {
+            "target": "/redfish/v1/Chassis/1/NetworkAdapters/DE07A000/Ports/1/Actions/Port.Reset",
+            "ResetType@Redfish.AllowableValues": [
+                "ForceRestart",
+                "ForceOn",
+                "ForceOff"
+            ],
+            "@Redfish.OperationApplyTimeSupport": {
+                "@odata.type": "#Settings.v1_3_3.OperationApplyTimeSupport",
+                "SupportedValues": [
+                    "Immediate"
+                ]
+            }
+        }
+    }
+}

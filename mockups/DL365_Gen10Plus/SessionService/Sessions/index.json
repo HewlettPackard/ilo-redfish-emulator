@@ -1,0 +1,43 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SessionCollection.SessionCollection",
+    "@odata.etag": "W/\"C4550667\"",
+    "@odata.id": "/redfish/v1/SessionService/Sessions",
+    "@odata.type": "#SessionCollection.SessionCollection",
+    "Description": "Manager User Sessions",
+    "Name": "Sessions",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSessionsSummary.HpeiLOSessionsSummary",
+            "@odata.type": "#HpeiLOSessionsSummary.v2_0_0.HpeiLOSessionsSummary",
+            "Links": {
+                "MySession": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/ctobmaas00000000689be518accd3ff"
+                }
+            }
+        }
+    },
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/ctobmaas00000000689b87875545a61"
+        },
+        {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/ctobmaas00000000689b87984047b26"
+        },
+        {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/ctobmaas00000000689bd22842a0895"
+        },
+        {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/ctobmaas00000000689bd311a0d5c8c"
+        },
+        {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/ctobmaas00000000689bd44586360a5"
+        },
+        {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/ctobmaas00000000689be11320c50ec"
+        },
+        {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/ctobmaas00000000689be518accd3ff"
+        }
+    ],
+    "Members@odata.count": 7
+}

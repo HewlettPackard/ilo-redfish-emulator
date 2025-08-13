@@ -1,0 +1,18 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkAdapter.NetworkAdapter",
+    "@odata.type": "#NetworkAdapter.v1_9_0.NetworkAdapter",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE07A000/Settings",
+    "@odata.etag": "W/\"B6B2DAB2\"",
+    "Id": "DE07A000",
+    "Name": "Network Adapter Current Settings",
+    "Controllers": [
+        {
+            "ControllerCapabilities": {
+                "NPAR": {
+                    "NparEnabled": false
+                }
+            }
+        }
+    ],
+    "LLDPEnabled": true
+}

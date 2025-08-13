@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"D0E47F7D\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/172",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "172",
+    "Created": "2025-08-12T18:28:33Z",
+    "EntryType": "Oem",
+    "EventId": "041482f5-e859-5253-bd3c-2ea11bd9a849",
+    "EventTimestamp": "2025-08-12T18:28:33Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/11#PhysicalPorts/1"
+        }
+    },
+    "MessageArgs": [
+        "10",
+        "2"
+    ],
+    "MessageId": "iLOEvents.3.16.NicConnectivityRestored",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

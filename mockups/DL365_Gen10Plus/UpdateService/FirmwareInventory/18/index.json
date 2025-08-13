@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"542C1060\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/18",
+    "@odata.type": "#SoftwareInventory.v1_2_0.SoftwareInventory",
+    "Id": "18",
+    "Description": "VO001600JWZJQ",
+    "Manufacturer": "HPE",
+    "Name": "1.6TB 12G SAS SSD",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "f6de0320-2e0f-489a-b238-6dd8ae7c3811",
+            "DeviceContext": "Slot=1:Port=4I:Box=1:Bay=2",
+            "Targets": [
+                "562340a5-304f-3130-3630-304a575a4a51"
+            ]
+        }
+    },
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/DE042000/Drives/3581"
+        }
+    ],
+    "SoftwareId": "f6de0320-2e0f-489a-b238-6dd8ae7c3811:562340a5-304f-3130-3630-304a575a4a51",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Updateable": true,
+    "Version": "HPD5"
+}

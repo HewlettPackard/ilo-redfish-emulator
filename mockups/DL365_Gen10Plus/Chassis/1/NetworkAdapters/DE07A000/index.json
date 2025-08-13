@@ -1,0 +1,93 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkAdapter.NetworkAdapter",
+    "@odata.type": "#NetworkAdapter.v1_9_0.NetworkAdapter",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE07A000",
+    "@odata.etag": "W/\"2FB17B49\"",
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_3_3.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE07A000/Settings"
+        },
+        "SupportedApplyTimes": [
+            "OnReset"
+        ]
+    },
+    "Id": "DE07A000",
+    "Name": "Network Adapter",
+    "Manufacturer": "Broadcom",
+    "Model": "BCM57414",
+    "SKU": "10/25Gb 2-port SFP28 BCM57414 OCP3 Adapter",
+    "SerialNumber": "VNM2270G40",
+    "PartNumber": "P10113-001",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Ports": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE07A000/Ports"
+    },
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE07A000/NetworkDeviceFunctions"
+    },
+    "Location": {
+        "PartLocation": {
+            "ServiceLabel": "OCP Slot 10",
+            "LocationType": "Slot",
+            "LocationOrdinalValue": 10
+        }
+    },
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE07A000/Metrics"
+    },
+    "Controllers": [
+        {
+            "FirmwarePackageVersion": "233.1.135.7",
+            "Links": {
+                "PCIeDevices": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/DE07A000"
+                    }
+                ]
+            },
+            "ControllerCapabilities": {
+                "NetworkPortCount": 2,
+                "NetworkDeviceFunctionCount": 2,
+                "DataCenterBridging": {
+                    "Capable": true
+                },
+                "NPAR": {
+                    "NparCapable": true,
+                    "NparEnabled": false
+                },
+                "VirtualizationOffload": {
+                    "SRIOV": {
+                        "SRIOVVEPACapable": true
+                    },
+                    "VirtualFunction": {
+                        "DeviceMaxCount": 128,
+                        "MinAssignmentGroupSize": 8,
+                        "NetworkPortMaxCount": 128
+                    }
+                }
+            },
+            "PCIeInterface": {
+                "LanesInUse": 8,
+                "MaxLanes": 8,
+                "MaxPCIeType": "Gen3",
+                "PCIeType": "Gen3"
+            }
+        }
+    ],
+    "LLDPEnabled": true,
+    "Actions": {
+        "#NetworkAdapter.ResetSettingsToDefault": {
+            "target": "/redfish/v1/Chassis/1/NetworkAdapters/DE07A000/Actions/NetworkAdapter.ResetSettingsToDefault",
+            "@Redfish.OperationApplyTimeSupport": {
+                "@odata.type": "#Settings.v1_3_3.OperationApplyTimeSupport",
+                "SupportedValues": [
+                    "OnReset"
+                ]
+            }
+        }
+    }
+}

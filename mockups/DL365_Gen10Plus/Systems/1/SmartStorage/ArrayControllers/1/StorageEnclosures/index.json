@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageStorageEnclosureCollection.HpeSmartStorageStorageEnclosureCollection",
+    "@odata.etag": "W/\"96E00A2C\"",
+    "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/1/StorageEnclosures",
+    "@odata.type": "#HpeSmartStorageStorageEnclosureCollection.HpeSmartStorageStorageEnclosureCollection",
+    "Description": "HPE Smart Storage Enclosures View",
+    "Name": "HpSmartStorageEnclosures",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/1/StorageEnclosures/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/1/StorageEnclosures/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/1/StorageEnclosures/4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/1/StorageEnclosures/6"
+        }
+    ],
+    "Members@odata.count": 4
+}

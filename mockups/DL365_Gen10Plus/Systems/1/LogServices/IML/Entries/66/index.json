@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"19ABA7C2\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/66",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "66",
+    "Created": "2025-07-30T16:47:02Z",
+    "EntryType": "Oem",
+    "Message": "ConnectionDropped (DE07A000, 1, all) Redfish event from /redfish/v1/Chassis/1/NetworkAdapters/DE07A000/Ports/1",
+    "MessageArgs": [],
+    "MessageId": "62.1",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 62,
+            "ClassDescription": "Redfish Device Enablement",
+            "Code": 1,
+            "Count": 6,
+            "EventNumber": 6084,
+            "Severity": "Informational",
+            "Updated": "2025-07-30T17:29:33Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

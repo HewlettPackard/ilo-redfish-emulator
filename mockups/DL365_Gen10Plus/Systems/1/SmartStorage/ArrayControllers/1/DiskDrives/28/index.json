@@ -1,0 +1,43 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDrive.HpeSmartStorageDiskDrive",
+    "@odata.etag": "W/\"50E6C93F\"",
+    "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/1/DiskDrives/28",
+    "@odata.type": "#HpeSmartStorageDiskDrive.v2_1_0.HpeSmartStorageDiskDrive",
+    "Id": "28",
+    "BlockSizeBytes": 512,
+    "CapacityGB": 1600,
+    "CapacityLogicalBlocks": 3125627568,
+    "CapacityMiB": 1526185,
+    "CarrierApplicationVersion": "0",
+    "CarrierAuthenticationStatus": "NotApplicable",
+    "CurrentTemperatureCelsius": 20,
+    "Description": "HPE Smart Storage Disk Drive View",
+    "DiskDriveStatusReasons": [
+        "None"
+    ],
+    "DiskDriveUse": "Data",
+    "EncryptedDrive": false,
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "HPD5"
+        }
+    },
+    "InterfaceSpeedMbps": 12000,
+    "InterfaceType": "SAS",
+    "LegacyBootPriority": "None",
+    "Location": "4I:1:1",
+    "LocationFormat": "ControllerPort:Box:Bay",
+    "MaximumTemperatureCelsius": 27,
+    "MediaType": "SSD",
+    "Model": "VO001600JWZJQ",
+    "Name": "HpeSmartStorageDiskDrive",
+    "PowerOnHours": 8311,
+    "SSDEnduranceUtilizationPercentage": 0,
+    "SerialNumber": "S5KWNA0T800474",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "UncorrectedReadErrors": 0,
+    "UncorrectedWriteErrors": 0
+}

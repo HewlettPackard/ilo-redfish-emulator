@@ -1,0 +1,26 @@
+{
+    "@odata.id": "/redfish/v1/Systems/1/Storage/DE042000/Controllers/0/Ports/3",
+    "@odata.type": "#Port.v1_9_0.Port",
+    "Id": "3",
+    "Name": "Port=4I",
+    "Location": {
+        "PartLocation": {
+            "LocationType": "Connector",
+            "ServiceLabel": "Slot=1:Port=4I",
+            "LocationOrdinalValue": 4
+        }
+    },
+    "MaxSpeedGbps": 180.0,
+    "CurrentSpeedGbps": 24.0,
+    "PortId": "4I",
+    "PortProtocol": "MultiProtocol",
+    "PortType": "BidirectionalPort",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled",
+        "Conditions": []
+    },
+    "Width": 8,
+    "ActiveWidth": 4,
+    "@odata.etag": "\"AEF930C6\""
+}

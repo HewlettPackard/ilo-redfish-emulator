@@ -1,0 +1,60 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageArrayController.HpeSmartStorageArrayController",
+    "@odata.etag": "W/\"7AD1C337\"",
+    "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/1",
+    "@odata.type": "#HpeSmartStorageArrayController.v2_2_0.HpeSmartStorageArrayController",
+    "Id": "1",
+    "AdapterType": "SmartArray",
+    "BackupPowerSourceStatus": "Present",
+    "ControllerBoard": {
+        "Status": {
+            "Health": "OK"
+        }
+    },
+    "ControllerPartNumber": "P18875-001",
+    "CurrentOperatingMode": "Mixed",
+    "Description": "HPE Smart Storage Array Controller View",
+    "DriveWriteCache": "Disabled",
+    "DualModeControllerSupported": true,
+    "EncryptionCryptoOfficerPasswordSet": false,
+    "EncryptionCspTestPassed": true,
+    "EncryptionEnabled": false,
+    "EncryptionFwLocked": false,
+    "EncryptionHasLockedVolumesMissingBootPassword": false,
+    "EncryptionMixedVolumesEnabled": false,
+    "EncryptionSelfTestPassed": true,
+    "EncryptionStandaloneModeEnabled": false,
+    "ExternalPortCount": 0,
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "03.01.33.044"
+        }
+    },
+    "HardwareRevision": "B",
+    "InternalPortCount": 4,
+    "Links": {
+        "LogicalDrives": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/1/LogicalDrives"
+        },
+        "StorageEnclosures": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/1/StorageEnclosures"
+        },
+        "PhysicalDrives": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/1/DiskDrives"
+        },
+        "UnconfiguredDrives": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/1/UnconfiguredDrives"
+        }
+    },
+    "Location": "Slot 1",
+    "LocationFormat": "PCISlot",
+    "Model": "HPE SR932i-p Gen10+",
+    "Name": "Hpe Smart Storage Array Controller",
+    "ReadCachePercent": 0,
+    "SerialNumber": "PWTDA0C52GT0F2",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "WriteCacheWithoutBackupPowerEnabled": false
+}

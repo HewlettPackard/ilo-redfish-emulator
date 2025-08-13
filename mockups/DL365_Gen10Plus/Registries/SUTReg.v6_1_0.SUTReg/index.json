@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MessageRegistryFile.MessageRegistryFile",
+    "@odata.etag": "W/\"B8C1E0F3\"",
+    "@odata.id": "/redfish/v1/Registries/SUTReg.v6_1_0.SUTReg",
+    "@odata.type": "#MessageRegistryFile.v1_0_4.MessageRegistryFile",
+    "Id": "SUTReg.v6_1_0.SUTReg",
+    "Description": "Registry Definition File for #SUTReg.v6_1_0.SUTReg",
+    "Languages": [
+        "en",
+        "jp"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/registrystore/registries/en/sutreg.v6_1_0.sutreg"
+        },
+        {
+            "Language": "jp",
+            "Uri": "/redfish/v1/registrystore/registries/jp/sutreg.v6_1_0.sutreg"
+        }
+    ],
+    "Name": "#SUTReg.v6_1_0.SUTReg Message Registry File",
+    "Registry": "#SUTReg.v6_1_0.SUTReg"
+}

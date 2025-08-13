@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"5283291D\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/97",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "97",
+    "Created": "2025-07-30T17:30:22Z",
+    "EntryType": "Oem",
+    "Message": "System One-Time Boot modified by: Ctobmaas.",
+    "MessageArgs": [],
+    "MessageId": "35.420",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 420,
+            "Count": 4,
+            "EventNumber": 19816,
+            "Severity": "Informational",
+            "Updated": "2025-07-30T17:53:56Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"5BD8590D\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/225",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "225",
+    "Created": "2025-08-12T18:43:13Z",
+    "EntryType": "Oem",
+    "EventId": "fa3163d0-81a2-d342-30e1-43d81f45496c",
+    "EventTimestamp": "2025-08-12T18:43:13Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/DE042000/Drives/3580"
+        }
+    },
+    "MessageArgs": [
+        "Slot=1:Port=4I:Box=1:Bay=1"
+    ],
+    "MessageId": "StorageDevice.1.1.DriveOffline",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

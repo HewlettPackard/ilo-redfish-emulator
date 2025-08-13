@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"0C16D05E\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/7",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "7",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/3"
+        }
+    ],
+    "DeviceType": "Smart Storage",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "03.01.33.044"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/1"
+        }
+    },
+    "Location": "PCI-E Slot 1",
+    "Manufacturer": "HPE",
+    "Name": "HPE SR932i-p Gen10+",
+    "PartNumber": "P18875-001",
+    "ProductPartNumber": "P04224-001",
+    "ProductVersion": "B",
+    "SerialNumber": "PWTDA0C52GT0F2",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

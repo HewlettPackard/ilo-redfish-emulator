@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"176E7F86\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/10",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "10",
+    "Created": "2024-07-23T19:25:28Z",
+    "EntryType": "Oem",
+    "Message": "The overall security state of the system is at \"Risk\".",
+    "MessageArgs": [],
+    "MessageId": "55.5",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 55,
+            "ClassDescription": "Security Configuration",
+            "Code": 5,
+            "Count": 1,
+            "EventNumber": 37,
+            "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+            "Severity": "Caution",
+            "Updated": "2024-07-23T19:25:28Z",
+            "UserAction": "None"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "Warning"
+}

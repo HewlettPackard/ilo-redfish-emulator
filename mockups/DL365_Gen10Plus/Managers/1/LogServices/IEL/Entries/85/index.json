@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"C5DAF9FC\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/85",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "85",
+    "Created": "2025-07-30T16:56:34Z",
+    "EntryType": "Oem",
+    "Message": "Scriptable virtual media ejected by: Ctobmaas.",
+    "MessageArgs": [],
+    "MessageId": "35.169",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 169,
+            "Count": 1,
+            "EventNumber": 19801,
+            "Severity": "Informational",
+            "Updated": "2025-07-30T16:56:34Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

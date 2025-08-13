@@ -1,0 +1,75 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/DE042000/Drives/3581",
+    "@odata.type": "#Drive.v1_18_0.Drive",
+    "@Redfish.WriteableProperties": [
+        "LocationIndicatorActive",
+        "HotspareType"
+    ],
+    "Id": "3581",
+    "Name": "1.6TB 12G SAS SSD",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "Conditions": []
+    },
+    "LocationIndicatorActive": false,
+    "Manufacturer": "HPE",
+    "Model": "VO001600JWZJQ",
+    "Revision": "HPD5",
+    "SlotCapableProtocols": [
+        "SAS",
+        "SATA",
+        "NVMe"
+    ],
+    "FirmwareVersion": "HPD5",
+    "Protocol": "SAS",
+    "MediaType": "SSD",
+    "CapacityBytes": 1600321314816,
+    "BlockSizeBytes": 512,
+    "SerialNumber": "S5KWNA0T800477",
+    "FailurePredicted": false,
+    "PredictedMediaLifeLeftPercent": 100.0,
+    "StatusIndicator": "OK",
+    "Identifiers": [
+        {
+            "DurableName": "50000F0B0280C680",
+            "DurableNameFormat": "NAA"
+        }
+    ],
+    "DriveFormFactor": "Drive2_5",
+    "PhysicalLocation": {
+        "PartLocation": {
+            "LocationType": "Bay",
+            "ServiceLabel": "Slot=1:Port=4I:Box=1:Bay=2",
+            "LocationOrdinalValue": 2
+        }
+    },
+    "HotspareType": "None",
+    "HotspareType@Redfish.AllowableValues": [
+        "None"
+    ],
+    "EncryptionAbility": "None",
+    "WriteCacheEnabled": false,
+    "CapableSpeedGbs": 12.0,
+    "NegotiatedSpeedGbs": 12.0,
+    "Operations": [],
+    "Multipath": false,
+    "Links": {
+        "Volumes@odata.count": 1,
+        "Volumes": [
+            {
+                "@odata.id": "/redfish/v1/Systems/1/Storage/DE042000/Volumes/1"
+            }
+        ],
+        "Storage": {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE042000"
+        },
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/DE042000"
+        }
+    },
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Chassis/DE042000/Drives/3581/Metrics"
+    },
+    "@odata.etag": "\"3DBC6A8A\""
+}

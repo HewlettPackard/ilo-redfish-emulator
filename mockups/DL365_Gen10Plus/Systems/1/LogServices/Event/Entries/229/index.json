@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"05DBE2F8\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/229",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "229",
+    "Created": "2025-08-12T18:43:42Z",
+    "EntryType": "Oem",
+    "EventId": "595e61b3-ec95-a74a-f478-81be59af0106",
+    "EventTimestamp": "2025-08-12T18:43:42Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/DE042000/Drives/3580"
+        }
+    },
+    "MessageArgs": [
+        "Slot=1:Port=4I:Box=1:Bay=1"
+    ],
+    "MessageId": "StorageDevice.1.1.DriveOfflineCleared",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

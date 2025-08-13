@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"5E8BA30D\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/67",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "67",
+    "Created": "2025-07-30T16:47:02Z",
+    "EntryType": "Oem",
+    "Message": "ConnectionEstablished (DE07A000, 2, all) Redfish event from /redfish/v1/Chassis/1/NetworkAdapters/DE07A000/Ports/2",
+    "MessageArgs": [],
+    "MessageId": "62.1",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 62,
+            "ClassDescription": "Redfish Device Enablement",
+            "Code": 1,
+            "Count": 4,
+            "EventNumber": 6085,
+            "Severity": "Informational",
+            "Updated": "2025-07-30T17:17:45Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

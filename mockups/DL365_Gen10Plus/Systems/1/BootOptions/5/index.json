@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "W/\"A3A6BF43\"",
+    "@odata.id": "/redfish/v1/Systems/1/BootOptions/5",
+    "@odata.type": "#BootOption.v1_0_1.BootOption",
+    "Id": "5",
+    "Alias": "None",
+    "BootOptionReference": "Boot001C",
+    "DisplayName": "redhat",
+    "Name": "Boot Option",
+    "UefiDevicePath": "HD(1,GPT,3041A1D8-0EC4-4DF8-8425-407DD6012B44,0x8000,0x200000)/\\EFI\\redhat\\shimx64.efi"
+}

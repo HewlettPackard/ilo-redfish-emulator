@@ -1,0 +1,192 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_0_0.Settings",
+        "ETag": "",
+        "Messages": [
+            {
+                "MessageId": "Base.1.0.Success"
+            }
+        ],
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/settings/"
+        },
+        "Time": null
+    },
+    "@odata.context": "/redfish/v1/$metadata#HpeServerBootSettings.HpeServerBootSettings",
+    "@odata.etag": "W/\"2700CEC8D8206F6F6F86681C4B69D840\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/",
+    "@odata.type": "#HpeServerBootSettings.v2_0_0.HpeServerBootSettings",
+    "BootSources": [
+        {
+            "BootOptionNumber": "001A",
+            "BootString": "Ubuntu",
+            "CorrelatableID": "HD(1,GPT,83AA3646-8188-44F6-A7F7-7BD1F437A0D6,0x800,0x219800)/\\EFI\\ubuntu\\shimx64.efi",
+            "StructuredBootString": "Unknown.Unknown.200.8",
+            "UEFIDevicePath": "HD(1,GPT,83AA3646-8188-44F6-A7F7-7BD1F437A0D6,0x800,0x219800)/\\EFI\\ubuntu\\shimx64.efi"
+        },
+        {
+            "BootOptionNumber": "0017",
+            "BootString": "Windows Boot Manager",
+            "CorrelatableID": "HD(1,GPT,1F2B015B-EBA6-4FF2-AFCA-DFB340C517A1,0x800,0xFA000)/\\EFI\\Microsoft\\Boot\\bootmgfw.efi",
+            "StructuredBootString": "Unknown.Unknown.200.7",
+            "UEFIDevicePath": "HD(1,GPT,1F2B015B-EBA6-4FF2-AFCA-DFB340C517A1,0x800,0xFA000)/\\EFI\\Microsoft\\Boot\\bootmgfw.efi"
+        },
+        {
+            "BootOptionNumber": "0015",
+            "BootString": "Red Hat Enterprise Linux",
+            "CorrelatableID": "HD(1,GPT,3BC2930D-F602-4E9C-9A3C-743491E0712D,0x8000,0x200000)/\\EFI\\redhat\\shimx64.efi",
+            "StructuredBootString": "Unknown.Unknown.200.6",
+            "UEFIDevicePath": "HD(1,GPT,3BC2930D-F602-4E9C-9A3C-743491E0712D,0x8000,0x200000)/\\EFI\\redhat\\shimx64.efi"
+        },
+        {
+            "BootOptionNumber": "001B",
+            "BootString": "debian",
+            "CorrelatableID": "HD(1,GPT,D5229D7F-43B6-4105-A532-6E567E763855,0x800,0x100000)/\\EFI\\debian\\shimx64.efi",
+            "StructuredBootString": "Unknown.Unknown.200.5",
+            "UEFIDevicePath": "HD(1,GPT,D5229D7F-43B6-4105-A532-6E567E763855,0x800,0x100000)/\\EFI\\debian\\shimx64.efi"
+        },
+        {
+            "BootOptionNumber": "001C",
+            "BootString": "redhat",
+            "CorrelatableID": "HD(1,GPT,3041A1D8-0EC4-4DF8-8425-407DD6012B44,0x8000,0x200000)/\\EFI\\redhat\\shimx64.efi",
+            "StructuredBootString": "Unknown.Unknown.200.4",
+            "UEFIDevicePath": "HD(1,GPT,3041A1D8-0EC4-4DF8-8425-407DD6012B44,0x8000,0x200000)/\\EFI\\redhat\\shimx64.efi"
+        },
+        {
+            "BootOptionNumber": "0021",
+            "BootString": "VMware ESXi",
+            "CorrelatableID": "HD(1,GPT,6F36CE49-F35B-4AD1-944C-B5FF79790095,0x40,0x32000)/\\EFI\\VMware\\safeboot64.efi",
+            "StructuredBootString": "Unknown.Unknown.200.3",
+            "UEFIDevicePath": "HD(1,GPT,6F36CE49-F35B-4AD1-944C-B5FF79790095,0x40,0x32000)/\\EFI\\VMware\\safeboot64.efi"
+        },
+        {
+            "BootOptionNumber": "0016",
+            "BootString": "Oracle Linux",
+            "CorrelatableID": "HD(1,GPT,16AB9282-54E7-4E9D-B233-82823979490B,0x800,0x200000)/\\EFI\\redhat\\shimx64.efi",
+            "StructuredBootString": "Unknown.Unknown.200.2",
+            "UEFIDevicePath": "HD(1,GPT,16AB9282-54E7-4E9D-B233-82823979490B,0x800,0x200000)/\\EFI\\redhat\\shimx64.efi"
+        },
+        {
+            "BootOptionNumber": "0019",
+            "BootString": "Rocky Linux",
+            "CorrelatableID": "HD(1,GPT,3A74087F-CBDF-474E-92CE-D01A300CFC86,0x800,0x200000)/\\EFI\\rocky\\shimx64.efi",
+            "StructuredBootString": "Unknown.Unknown.200.1",
+            "UEFIDevicePath": "HD(1,GPT,3A74087F-CBDF-474E-92CE-D01A300CFC86,0x800,0x200000)/\\EFI\\rocky\\shimx64.efi"
+        },
+        {
+            "BootOptionNumber": "000E",
+            "BootString": "Generic USB Boot",
+            "CorrelatableID": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)",
+            "StructuredBootString": "Generic.USB.1.1",
+            "UEFIDevicePath": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)"
+        },
+        {
+            "BootOptionNumber": "0012",
+            "BootString": "OCP Slot 10 Port 1 : Broadcom NetXtreme-E Dual 25Gb SFP28 OCP 3.0 Ethernet - NIC (HTTP(S) IPv4)",
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x1,0x3)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.Httpv4",
+            "UEFIDevicePath": "PciRoot(0x1)/Pci(0x1,0x3)/Pci(0x0,0x0)/MAC(84160C39A1E2,0x1)/IPv4(0.0.0.0)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0013",
+            "BootString": "OCP Slot 10 Port 1 : Broadcom NetXtreme-E Dual 25Gb SFP28 OCP 3.0 Ethernet - NIC (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x1,0x3)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.IPv4",
+            "UEFIDevicePath": "PciRoot(0x1)/Pci(0x1,0x3)/Pci(0x0,0x0)/MAC(84160C39A1E2,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "0010",
+            "BootString": "OCP Slot 10 Port 1 : Broadcom NetXtreme-E Dual 25Gb SFP28 OCP 3.0 Ethernet - NIC (HTTP(S) IPv6)",
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x1,0x3)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.Httpv6",
+            "UEFIDevicePath": "PciRoot(0x1)/Pci(0x1,0x3)/Pci(0x0,0x0)/MAC(84160C39A1E2,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0011",
+            "BootString": "OCP Slot 10 Port 1 : Broadcom NetXtreme-E Dual 25Gb SFP28 OCP 3.0 Ethernet - NIC (PXE IPv6)",
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x1,0x3)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.IPv6",
+            "UEFIDevicePath": "PciRoot(0x1)/Pci(0x1,0x3)/Pci(0x0,0x0)/MAC(84160C39A1E2,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)"
+        },
+        {
+            "BootOptionNumber": "000F",
+            "BootString": "Slot 1 : HPE SR932i-p Gen10+ - 1.455 TiB, RAID1 Logical Drive 1(Target:379, Lun:0)",
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "HD.Slot.1.2",
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x1,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Scsi(0x17B,0x0)"
+        }
+    ],
+    "DefaultBootOrder": [
+        "Cd",
+        "Usb",
+        "EmbeddedStorage",
+        "PcieSlotStorage",
+        "EmbeddedFlexLOM",
+        "PcieSlotNic",
+        "UefiShell",
+        "iPXE"
+    ],
+    "DesiredBootDevices": [
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        }
+    ],
+    "Id": "boot",
+    "Name": "Boot Order Current Settings",
+    "Oem": {
+        "Hpe": {
+            "@odata.type": "#HpeBiosExt.v2_0_0.HpeBiosExt",
+            "Links": {
+                "BaseConfigs": {
+                    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/baseconfigs/"
+                }
+            },
+            "SettingsObject": {
+                "UnmodifiedETag": "W/\"F54B8064539EF6F6F6D36E69CF000084\""
+            }
+        }
+    },
+    "PersistentBootConfigOrder": [
+        "Unknown.Unknown.200.8",
+        "Unknown.Unknown.200.7",
+        "Unknown.Unknown.200.6",
+        "Unknown.Unknown.200.5",
+        "Unknown.Unknown.200.4",
+        "Unknown.Unknown.200.3",
+        "Unknown.Unknown.200.2",
+        "Unknown.Unknown.200.1",
+        "Generic.USB.1.1",
+        "OCP.Slot.10.1.Httpv4",
+        "OCP.Slot.10.1.IPv4",
+        "OCP.Slot.10.1.Httpv6",
+        "OCP.Slot.10.1.IPv6",
+        "HD.Slot.1.2"
+    ]
+}

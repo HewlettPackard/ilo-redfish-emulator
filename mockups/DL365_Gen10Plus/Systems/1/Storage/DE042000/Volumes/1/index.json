@@ -1,0 +1,62 @@
+{
+    "@odata.id": "/redfish/v1/Systems/1/Storage/DE042000/Volumes/1",
+    "@odata.type": "#Volume.v1_9_0.Volume",
+    "@Redfish.WriteableProperties": [
+        "DisplayName",
+        "IOPerfModeEnabled",
+        "ReadCachePolicy",
+        "WriteCachePolicy"
+    ],
+    "Id": "1",
+    "Name": "Logical Drive 1",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled",
+        "Conditions": []
+    },
+    "Identifiers": [
+        {
+            "DurableName": "600508B1001C2E955E0D6EC1B6B9A0C7",
+            "DurableNameFormat": "NAA"
+        }
+    ],
+    "Encrypted": false,
+    "EncryptionTypes": [],
+    "CapacityBytes": 1600287760384,
+    "BlockSizeBytes": 512,
+    "OptimumIOSizeBytes": 262144,
+    "StripSizeBytes": 262144,
+    "DisplayName": "Logical Drive 1",
+    "DisplayName@Redfish.AllowablePattern": "^[ !\"#$%&'()*+,-.\\/\\w:;<=>?@[\\]\\^`{\\|}~]{1,64}$",
+    "IOPerfModeEnabled": true,
+    "ReadCachePolicy": "Off",
+    "ReadCachePolicy@Redfish.AllowableValues": [
+        "Off",
+        "ReadAhead"
+    ],
+    "RAIDType": "RAID1",
+    "VolumeUsage": "Data",
+    "Operations": [],
+    "LogicalUnitNumber": 1,
+    "WriteCachePolicy": "Off",
+    "WriteCachePolicy@Redfish.AllowableValues": [
+        "Off",
+        "ProtectedWriteBack",
+        "UnprotectedWriteBack"
+    ],
+    "Links": {
+        "@Redfish.WriteableProperties": [],
+        "Drives@odata.count": 2,
+        "Drives": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/DE042000/Drives/3581"
+            },
+            {
+                "@odata.id": "/redfish/v1/Chassis/DE042000/Drives/3580"
+            }
+        ],
+        "DedicatedSpareDrives@odata.count": 0,
+        "DedicatedSpareDrives": []
+    },
+    "@odata.etag": "\"CE1EC79A\""
+}

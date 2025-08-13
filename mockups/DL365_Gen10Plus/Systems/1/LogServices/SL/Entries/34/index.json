@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"692F84A2\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/34",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "34",
+    "Created": "2024-07-30T20:27:27Z",
+    "EntryType": "Oem",
+    "Message": "Secure Boot has been disabled.",
+    "MessageArgs": [],
+    "MessageId": "10.12690",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Configuration"
+            ],
+            "Class": 10,
+            "ClassDescription": "UEFI",
+            "Code": 12690,
+            "Count": 1,
+            "EventNumber": 61,
+            "RecommendedAction": "Ensure that the change was expected.",
+            "Severity": "Caution",
+            "Updated": "2024-07-30T20:27:27Z",
+            "UserAction": "None"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "Warning"
+}

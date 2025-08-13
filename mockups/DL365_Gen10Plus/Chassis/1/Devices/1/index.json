@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"DFAD393A\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/1",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "1",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/5"
+        }
+    ],
+    "DeviceType": "LOM/NIC",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "233.1.135.7"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/4"
+        }
+    },
+    "Location": "OCP 3.0 Slot 10",
+    "Manufacturer": "Broadcom",
+    "Name": "10/25Gb 2-port SFP28 BCM57414 OCP3 Adapter",
+    "PartNumber": "BCM957414N4140C",
+    "ProductPartNumber": "P10113-001",
+    "ProductVersion": "216.0.333.11",
+    "SerialNumber": "VNM2270G40",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

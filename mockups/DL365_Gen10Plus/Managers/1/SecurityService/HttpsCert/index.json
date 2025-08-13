@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeHttpsCert.HpeHttpsCert",
+    "@odata.etag": "W/\"73ECEE3C\"",
+    "@odata.id": "/redfish/v1/Managers/1/SecurityService/HttpsCert",
+    "@odata.type": "#HpeHttpsCert.v2_0_0.HpeHttpsCert",
+    "Id": "HttpsCert",
+    "Actions": {
+        "#HpeHttpsCert.GenerateCSR": {
+            "target": "/redfish/v1/Managers/1/SecurityService/HttpsCert/Actions/HpeHttpsCert.GenerateCSR"
+        },
+        "#HpeHttpsCert.ImportCertificate": {
+            "target": "/redfish/v1/Managers/1/SecurityService/HttpsCert/Actions/HpeHttpsCert.ImportCertificate"
+        }
+    },
+    "CertificateSigningRequest": "-----BEGIN CERTIFICATE REQUEST-----\nMIIC7TCCAdUCAQAwfTEWMBQGA1UEAwwNSUxPTVhRMjM3MERMUTEMMAoGA1UECwwD\nSVNTMSMwIQYDVQQKDBpIZXdsZXR0IFBhY2thcmQgRW50ZXJwcmlzZTERMA8GA1UE\nBwwIQW1lcmljYXMxEDAOBgNVBAgMB0hvdXN0b24xCzAJBgNVBAYTAlVTMIIBIjAN\nBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqyJWDVpNuSCXllnNf5LOOAACjcq8\nXDoCmIaZB42S4mPQiSoPsLRIvHTTG0WkGqU0ZLkWiIdYEyQKbjmYUWhBkwPGgcRb\nehc8GhVaLfehCOjZx73bFsEg1ahm8OyUuA4klUWAYyGcRWguTBylQgShKV/iDzaO\nm2eXOhTeHVESP2PrJnUf7EnmuviHuCF9yBX9TjCDZHquS6R54neQ8npP4voT7VBj\niQGK50m3fM7TcHdXp2SKCfDynv3hgZSzfdJkmQIpFAJJNwx6VW/6Q7yPpRi0Bu1G\nL8KDBkztXuCrhfnwe/yGLEJPAM2bHElzcFdAatvyNIENBtnkX/QssR9hDQIDAQAB\noCswKQYJKoZIhvcNAQkOMRwwGjAYBgNVHREEETAPgg1JTE9NWFEyMzcwRExRMA0G\nCSqGSIb3DQEBCwUAA4IBAQBd4oACeL20ScrsDDUj81f3QNwwVWmUA7EzGISdxy2J\nMRkLgZe3PTxC70lTPJJYTPfTqAgnU8wOqaZ/WcZbWFdWw2ztqs0fYxIfW045jT8N\nTCuFEEHTV+rfrBOlAlBQH08gmY30niBmPyzU2HiVmh8Y3oefndAc9Ambs7TprjIb\nGlYi0cIaZ33gUmrAOjtX2/SJPJbMO833LwniovfnTZsC3NqXhVunRN5qMqd3jPb6\niZkhIIBbC8RlvnnMioG25V0nPpGuFbkI9xQE939T723m9tvny0kRt1sJaVWZjokB\nfVTVM8R1sWe6N9Bx1uzpF1DgRsIXNfUrcG3Ev/MMz7Wm\n-----END CERTIFICATE REQUEST-----\n",
+    "X509CertificateInformation": {
+        "Issuer": "CN = Default Issuer (Do not trust), O = Hewlett Packard Enterprise, OU = ISS, L = Americas, ST = Houston, C = US",
+        "SerialNumber": "82:27:3d:a1:2a:ab:05:6e",
+        "Subject": "CN = ILOMXQ2370DLQ, O = Hewlett Packard Enterprise, OU = ISS, L = Americas, ST = Houston, C = US",
+        "ValidNotAfter": "2037-09-15T18:06:13Z",
+        "ValidNotBefore": "2022-09-16T18:06:13Z"
+    }
+}

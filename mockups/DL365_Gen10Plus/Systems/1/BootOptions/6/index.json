@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "W/\"A3A6BF43\"",
+    "@odata.id": "/redfish/v1/Systems/1/BootOptions/6",
+    "@odata.type": "#BootOption.v1_0_1.BootOption",
+    "Id": "6",
+    "Alias": "None",
+    "BootOptionReference": "Boot0021",
+    "DisplayName": "VMware ESXi",
+    "Name": "Boot Option",
+    "UefiDevicePath": "HD(1,GPT,6F36CE49-F35B-4AD1-944C-B5FF79790095,0x40,0x32000)/\\EFI\\VMware\\safeboot64.efi"
+}

@@ -1,0 +1,28 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/DE042000/Drives/3070",
+    "@odata.type": "#Drive.v1_18_0.Drive",
+    "Name": "Empty Bay",
+    "Id": "3070",
+    "Status": {
+        "State": "Absent",
+        "Health": "OK"
+    },
+    "SlotCapableProtocols": [
+        "SAS",
+        "SATA",
+        "NVMe"
+    ],
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/DE042000"
+        }
+    },
+    "PhysicalLocation": {
+        "PartLocation": {
+            "LocationOrdinalValue": 3,
+            "LocationType": "Bay",
+            "ServiceLabel": "Slot=1:Port=3I:Box=1:Bay=3"
+        }
+    },
+    "@odata.etag": "\"BA128CCB\""
+}

@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"5D88FB3E\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/514",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "514",
+    "Created": "2025-07-14T20:01:01Z",
+    "EntryType": "Oem",
+    "Message": "The security state of \"Secure Boot\" parameter on security dashboard is \"Risk\". State is \"Disabled\" and ignore option is \"False\".",
+    "MessageArgs": [],
+    "MessageId": "55.2",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 55,
+            "ClassDescription": "Security Configuration",
+            "Code": 2,
+            "Count": 1,
+            "EventNumber": 541,
+            "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+            "Severity": "Critical",
+            "Updated": "2025-07-14T20:01:01Z",
+            "UserAction": "None"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "Critical"
+}

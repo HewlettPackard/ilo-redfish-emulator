@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"0539D502\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/13",
+    "@odata.type": "#SoftwareInventory.v1_2_0.SoftwareInventory",
+    "Id": "13",
+    "Description": "14e416d714e41596",
+    "Name": "10/25Gb 2-port SFP28 BCM57414 OCP3 Adapter",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "DeviceClass": null,
+            "DeviceContext": "OCP 3.0 Slot 10",
+            "DeviceInstance": "PciRoot(0x1)/Pci(0x1,0x3)/Pci(0x0,0x0)",
+            "Targets": [
+                "a6b1a447-382a-5a4f-14e4-16d714e41596"
+            ]
+        }
+    },
+    "Updateable": true,
+    "Version": "233.1.135.7"
+}

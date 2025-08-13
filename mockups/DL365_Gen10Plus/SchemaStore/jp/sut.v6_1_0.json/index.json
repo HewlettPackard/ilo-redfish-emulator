@@ -1,0 +1,149 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "additionalProperties": false,
+    "copyright": "(C)Copyright 2017 Hewlett Packard Enterprise Development LP",
+    "description": "",
+    "properties": {
+        "@odata.context": {
+            "format": "uri",
+            "longDescription": "/redfish/v1/$metadata#Systems/Members/1/hpsut/Members/$entity",
+            "readonly": true,
+            "type": "string"
+        },
+        "@odata.id": {
+            "format": "uri",
+            "longDescription": "/redfish/v1/Systems/1/hpsut",
+            "readonly": true,
+            "type": "string"
+        },
+        "@odata.type": {
+            "longDescription": "#SUT.v2_4_0.SUT",
+            "readonly": true,
+            "type": "string"
+        },
+        "Name": {
+            "$ref": "Name.json#"
+        },
+        "Modified": {
+            "$ref": "Modified.json#"
+        },
+        "ServiceState": {
+            "type": "string",
+            "description": "This indicates the state of the Integrated Smart Update Tools Service.",
+            "enum": [
+                "Disabled",
+                "Running",
+                "Paused",
+                "Stopped"
+            ],
+            "enumDescriptions": {
+                "Disabled": "SUT service is disabled",
+                "Running": "SUT service is enabled and is in running state",
+                "Paused": "SUT service is enabled and is in paused state",
+                "Stopped": "SUT service is enabled and is in stopped state"
+            },
+            "readonly": true,
+            "etag": true
+        },
+        "ServiceVersion": {
+            "type": "string",
+            "description": "This indicates the Integrated Smart Update Tools Service Version.",
+            "readonly": true,
+            "etag": true
+        },
+        "Mode": {
+            "type": "string",
+            "enum": [
+                "AutoDeploy",
+                "AutoDeployReboot",
+                "AutoStage",
+                "OnDemand"
+            ],
+            "enumDescriptions": {
+                "AutoDeploy": "In this automatic mode, SUT picks up the pending request and components are deployed.",
+                "AutoDeployReboot": "In this automatic mode, SUT picks up the pending request and system is rebooted, if required, after the components are deployed.",
+                "AutoStage": "In this automatic mode, SUT picks up the pending request and components are staged.",
+                "OnDemand": "In this mode, SUT waits for the user to issue ondemand commands to perform stage or deploy operation"
+            },
+            "description": "This indicates the mode of Integrated Smart Update Tools.",
+            "readonly": true,
+            "etag": true
+        },
+        "OperationRequestor": {
+            "type": "string",
+            "description": "This indicates the source of the request being processed by Integrated Smart Update Tools",
+            "readonly": true
+        },
+        "StagingDirectory": {
+            "type": "string",
+            "description": "This indicates the directory were components will be staged.It is a fully qualified path to the directory. Default value for staging directory is %localappdata%/sut/stagingdirectory in windows and /var/tmp/sut/stagingdirectory in linux",
+            "readonly": true
+        },
+        "PollingIntervalInMinutes": {
+            "type": "number",
+            "description": "This indicates the frequency at which SUT will read the request from RIS tree.",
+            "readonly": false,
+            "etag": true
+        },
+        "IsSelfUpdate": {
+            "type": "boolean",
+            "description": "This indicates whether SUT is performing a self update.",
+            "readonly": true,
+            "etag": true
+        },
+        "SUMPID": {
+            "type": "number",
+            "description": "This indicates the process id of SUM launched during deploy operation.",
+            "readonly": true,
+            "etag": true
+        },
+        "LastBootUptime": {
+            "type": "string",
+            "description": "This indicates the date and time when the server is booted.",
+            "readonly": true,
+            "etag": true
+        },
+        "LastOperationTime": {
+            "type": "string",
+            "description": "This indicates the date and time when the last operation performed.",
+            "readonly": true,
+            "etag": true
+        },
+        "SelfUpdateStatus": {
+            "type": "string",
+            "description": "This indicates the status of SUT self update progress.",
+            "readonly": true,
+            "etag": true,
+            "enum": [
+                "Pending",
+                "InProgress",
+                "Completed"
+            ],
+            "enumDescriptions": {
+                "Pending": "Initial value of the state before SUT is self upgraded",
+                "InProgress": "SUT self update is in progress.",
+                "Completed": "SUT self updated completed",
+                "None": "Initial value. SUT self updated is not initiated."
+            }
+        },
+        "SUTCompName": {
+            "type": "string",
+            "description": "This indicates the name of the SUT component that is getting updated.",
+            "readonly": true,
+            "etag": true
+        },
+        "Capabilities": {
+            "type": "array",
+            "description": "Capabilities indicates the support to install type D components in various ways.",
+            "readonly": true,
+            "items": {
+                "type": "string",
+                "enum": [
+                    "BundleRuntimeUpdate"
+                ]
+            }
+        }
+    },
+    "title": "#SUT.v2_4_0.SUT",
+    "type": "object"
+}

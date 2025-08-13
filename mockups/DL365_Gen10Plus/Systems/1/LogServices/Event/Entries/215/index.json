@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"B665F921\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/215",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "215",
+    "Created": "2025-08-12T18:39:34Z",
+    "EntryType": "Oem",
+    "EventId": "b23074d2-b3f7-f025-1d02-f4c83187bc00",
+    "EventTimestamp": "2025-08-12T18:39:34Z",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE042000/Controllers/0"
+        }
+    },
+    "MessageArgs": [
+        "Slot=1"
+    ],
+    "MessageId": "StorageDevice.1.1.BatteryOK",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

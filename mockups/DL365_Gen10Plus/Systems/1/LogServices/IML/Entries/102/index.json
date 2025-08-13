@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"DBDC95F1\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/102",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "102",
+    "Created": "2025-07-30T18:03:51Z",
+    "EntryType": "Oem",
+    "Message": "Embedded Flexible LOM 0 SAN Error - No targets found. Boot from SAN not possible.",
+    "MessageArgs": [],
+    "MessageId": "10.9219",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Administration"
+            ],
+            "Class": 10,
+            "ClassDescription": "UEFI",
+            "Code": 9219,
+            "Count": 4,
+            "EventNumber": 6120,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x2403-gen10",
+            "RecommendedAction": "Check switch and SAN configuration, then reconnect the ports or reboot the server.",
+            "Repaired": false,
+            "Severity": "Caution",
+            "Updated": "2025-07-30T18:22:38Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "Warning"
+}

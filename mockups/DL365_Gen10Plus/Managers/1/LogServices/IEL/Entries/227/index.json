@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"D626CC32\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/227",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "227",
+    "Created": "2025-08-12T18:23:49Z",
+    "EntryType": "Oem",
+    "Message": "Firmware upgrade started from: 127.0.0.1(localhost).",
+    "MessageArgs": [],
+    "MessageId": "35.90",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Firmware",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 90,
+            "Count": 1,
+            "EventNumber": 19959,
+            "Severity": "Caution",
+            "Updated": "2025-08-12T18:23:49Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "Warning"
+}

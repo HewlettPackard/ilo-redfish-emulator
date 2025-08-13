@@ -1,0 +1,71 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkPort.NetworkPort",
+    "@odata.etag": "W/\"DC5DD655\"",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkPorts/1",
+    "@odata.type": "#NetworkPort.v1_2_5.NetworkPort",
+    "Id": "1",
+    "@Redfish.Settings": {
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkPorts/1/Settings"
+        }
+    },
+    "ActiveLinkTechnology": "FibreChannel",
+    "AssociatedNetworkAddresses": [
+        "51:40:2E:C0:17:37:DE:04"
+    ],
+    "CurrentLinkSpeedMbps": 0,
+    "Description": "Port status and active configuration data",
+    "LinkStatus": "Down",
+    "Name": "Network adapter port",
+    "NetDevFuncMaxBWAlloc": [],
+    "NetDevFuncMinBWAlloc": [],
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeNetworkPort.HpeNetworkPort",
+            "@odata.type": "#HpeNetworkPort.v1_3_2.HpeNetworkPort",
+            "Actions": {
+                "#HpeNetworkPort.DiagnosticsReset": {
+                    "target": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkPorts/1/Actions/Oem/Hpe/HpeNetworkPort.DiagnosticsReset",
+                    "title": "Reset diagnostic capabilities on this port to an inactive state."
+                },
+                "#NetworkPort.DiagnosticsReset": {
+                    "target": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkPorts/1/Actions/Oem/Hpe/NetworkPort.DiagnosticsReset",
+                    "title": "NOTE: Deprecated, will be removed in a future release. Replaced by HpeNetworkPort.DiagnosticsReset. Reset diagnostic capabilities on this port to an inactive state."
+                }
+            },
+            "AutoNegotiationCapable": true,
+            "ConfiguredNetworkLinks": [
+                {
+                    "ConfiguredLinkSpeedGbps": 32
+                },
+                {
+                    "ConfiguredLinkSpeedGbps": 16
+                },
+                {
+                    "ConfiguredLinkSpeedGbps": 8
+                }
+            ],
+            "PortDiagnosticLocalLoopbackCapable": false,
+            "PortDiagnosticRemoteLoopbackCapable": false,
+            "PortDiagnosticsEnabled": false,
+            "VirtualFunctionAllocations": []
+        }
+    },
+    "PhysicalPortNumber": "1",
+    "PortMaximumMTU": 4104,
+    "Settings": {
+        "href": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkPorts/1/Settings"
+    },
+    "SignalDetected": false,
+    "SupportedEthernetCapabilities": [],
+    "SupportedLinkCapabilities": [
+        {
+            "CapableLinkSpeedMbps": [
+                32000,
+                16000,
+                8000
+            ],
+            "LinkNetworkTechnology": "FibreChannel"
+        }
+    ]
+}

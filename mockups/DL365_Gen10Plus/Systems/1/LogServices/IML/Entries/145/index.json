@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"A94FE681\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/145",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "145",
+    "Created": "2025-08-05T17:09:06Z",
+    "EntryType": "Oem",
+    "Message": "DriveOfflineCleared (Slot=1:Port=4I:Box=1:Bay=2) Redfish event from /redfish/v1/Chassis/DE042000/Drives/3581",
+    "MessageArgs": [],
+    "MessageId": "62.1",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 62,
+            "ClassDescription": "Redfish Device Enablement",
+            "Code": 1,
+            "Count": 2,
+            "EventNumber": 6163,
+            "Severity": "Informational",
+            "Updated": "2025-08-12T18:43:42Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

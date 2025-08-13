@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MessageRegistryFile.MessageRegistryFile",
+    "@odata.etag": "W/\"4100E8BB\"",
+    "@odata.id": "/redfish/v1/Registries/iLOSecurityEvents",
+    "@odata.type": "#MessageRegistryFile.v1_0_4.MessageRegistryFile",
+    "Id": "iLOSecurityEvents",
+    "Description": "Registry Definition File for iLOSecurityEvents",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/RegistryStore/registries/en/iLOSecurityEvents.json"
+        }
+    ],
+    "Name": "iLOSecurityEvents Message Registry File",
+    "Registry": "iLOSecurityEvents.1.1.0"
+}

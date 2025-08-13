@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"633B1117\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/MessageRegistry",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "MessageRegistry",
+    "Description": "Schema Definition File for MessageRegistry",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/MessageRegistry.json"
+        }
+    ],
+    "Name": "MessageRegistry Schema Definition File",
+    "Schema": "#MessageRegistry.v1_6_0.MessageRegistry"
+}

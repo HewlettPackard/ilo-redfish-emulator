@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"DF6700E5\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/77",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "77",
+    "Created": "2025-07-30T17:00:04Z",
+    "EntryType": "Oem",
+    "Message": "BatteryOK (Slot=1) Redfish event from /redfish/v1/Systems/1/Storage/DE042000/Controllers/0",
+    "MessageArgs": [],
+    "MessageId": "62.1",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 62,
+            "ClassDescription": "Redfish Device Enablement",
+            "Code": 1,
+            "Count": 13,
+            "EventNumber": 6095,
+            "Severity": "Informational",
+            "Updated": "2025-08-12T23:49:45Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}
