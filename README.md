@@ -35,7 +35,7 @@ The emulator can be run as a docker image or locally.  This README focuses on ru
 <a name="build-docker-image"></a>
 
 ### Build the docker image:
-Note: If you are in the lab, you may need to set up a proxy to access the internet to download the base image.
+Note: If you are in the lab, you may need configure the proxy settings in your docker config file to allow docker to access the internet.
 For example, in your ~.docker/config.json
 ```
 {
