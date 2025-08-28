@@ -35,6 +35,20 @@ The emulator can be run as a docker image or locally.  This README focuses on ru
 <a name="build-docker-image"></a>
 
 ### Build the docker image:
+Note: If you are in the lab, you may need to set up a proxy to access the internet to download the base image.
+For example, in your ~.docker/config.json
+```
+{
+ "proxies": {
+   "default": {
+     "httpProxy": "http://hpeproxy.its.hpecorp.net:80",
+     "httpsProxy": "http://hpeproxy.its.hpecorp.net:80",
+     "noProxy": "localhost,127.0.0.1"
+   }
+ }
+}
+```
+To build the docker image:
 ```
 docker build -t ilo-emulator:latest .
 ```
