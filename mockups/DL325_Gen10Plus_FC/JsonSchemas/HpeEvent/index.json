@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"1357839D\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/HpeEvent",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "HpeEvent",
+    "Description": "Schema Definition File for HpeEvent",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/HpeEvent.json"
+        }
+    ],
+    "Name": "HpeEvent Schema Definition File",
+    "Schema": "#HpeEvent.v2_2_0.HpeEvent"
+}

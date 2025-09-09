@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "W/\"A3A6BF43\"",
+    "@odata.id": "/redfish/v1/Systems/1/BootOptions/15",
+    "@odata.type": "#BootOption.v1_0_1.BootOption",
+    "Id": "15",
+    "Alias": "None",
+    "BootOptionReference": "Boot001B",
+    "DisplayName": "iLO Virtual USB 3 : iLO Virtual CD-ROM",
+    "Name": "Boot Option",
+    "UefiDevicePath": "PciRoot(0x0)/Pci(0x5,0x2)/Pci(0x0,0x4)/USB(0x1,0x0)"
+}

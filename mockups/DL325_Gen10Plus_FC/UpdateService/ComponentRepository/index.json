@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponentCollection.HpeComponentCollection",
+    "@odata.etag": "W/\"E567B17D\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository",
+    "@odata.type": "#HpeComponentCollection.HpeComponentCollection",
+    "Description": "Component Collection",
+    "Name": "Component Collection",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeComponentRepositoryInformation.HpeComponentRepositoryInformation",
+            "@odata.type": "#HpeComponentRepositoryInformation.v2_0_0.HpeComponentRepositoryInformation",
+            "ComponentCount": 3,
+            "FreeSizeBytes": 1004994560,
+            "TotalSizeBytes": 1073168384
+        }
+    },
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/2d0a1120"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/2be9d16c"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/9904d1c8"
+        }
+    ],
+    "Members@odata.count": 3
+}

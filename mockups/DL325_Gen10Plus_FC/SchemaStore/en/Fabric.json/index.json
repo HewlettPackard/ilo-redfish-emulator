@@ -1,0 +1,127 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "Fabric",
+    "additionalProperties": false,
+    "copyright": "Copyright 2023 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2023 Distributed Management Task Force. All rights reserved.",
+    "description": "The Fabric schema represents a simple fabric consisting of one or more switches,",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "FabricType": {
+            "enum": [
+                "PCIe",
+                "AHCI",
+                "UHCI",
+                "SAS",
+                "SATA",
+                "USB",
+                "NVMe",
+                "FC",
+                "iSCSI",
+                "FCoE",
+                "FCP",
+                "FICON",
+                "NVMeOverFabrics",
+                "SMB",
+                "NFSv3",
+                "NFSv4",
+                "HTTP",
+                "HTTPS",
+                "FTP",
+                "SFTP",
+                "iWARP",
+                "RoCE",
+                "RoCEv2",
+                "I2C",
+                "TCP",
+                "UDP",
+                "TFTP",
+                "GenZ",
+                "MultiProtocol",
+                "InfiniBand",
+                "Ethernet",
+                "NVLink",
+                "OEM",
+                "DisplayPort",
+                "HDMI",
+                "VGA",
+                "DVI",
+                "CXL"
+            ],
+            "enumDescriptions": {
+                "AHCI": "Advanced Host Controller Interface (AHCI).",
+                "CXL": "Compute Express Link.",
+                "DVI": "DVI.",
+                "DisplayPort": "DisplayPort.",
+                "Ethernet": "Ethernet.",
+                "FC": "Fibre Channel.",
+                "FCP": "Fibre Channel Protocol for SCSI.",
+                "FCoE": "Fibre Channel over Ethernet (FCoE).",
+                "FICON": "FIbre CONnection (FICON).",
+                "FTP": "File Transfer Protocol (FTP).",
+                "GenZ": "GenZ.",
+                "HDMI": "HDMI.",
+                "HTTP": "Hypertext Transport Protocol (HTTP).",
+                "HTTPS": "Hypertext Transfer Protocol Secure (HTTPS).",
+                "I2C": "Inter-Integrated Circuit Bus.",
+                "InfiniBand": "InfiniBand.",
+                "MultiProtocol": "Multiple Protocols.",
+                "NFSv3": "Network File System (NFS) version 3.",
+                "NFSv4": "Network File System (NFS) version 4.",
+                "NVLink": "NVLink.",
+                "NVMe": "Non-Volatile Memory Express (NVMe).",
+                "NVMeOverFabrics": "NVMe over Fabrics.",
+                "OEM": "OEM-specific.",
+                "PCIe": "PCI Express.",
+                "RoCE": "RDMA over Converged Ethernet Protocol.",
+                "RoCEv2": "RDMA over Converged Ethernet Protocol Version 2.",
+                "SAS": "Serial Attached SCSI.",
+                "SATA": "Serial AT Attachment.",
+                "SFTP": "SSH File Transfer Protocol (SFTP).",
+                "SMB": "Server Message Block (SMB).  Also known as the Common Internet File System (CIFS).",
+                "TCP": "Transmission Control Protocol (TCP).",
+                "TFTP": "Trivial File Transfer Protocol (TFTP).",
+                "UDP": "User Datagram Protocol (UDP).",
+                "UHCI": "Universal Host Controller Interface (UHCI).",
+                "USB": "Universal Serial Bus (USB).",
+                "VGA": "VGA.",
+                "iSCSI": "Internet SCSI.",
+                "iWARP": "Internet Wide Area RDMA Protocol (iWARP)."
+            },
+            "type": [
+                "string",
+                "null"
+            ],
+            "readonly": true
+        },
+        "Switches": {
+            "description": "The collection of links to the switches that this fabric contains.",
+            "longDescription": "This property shall contain a link to a resource collection of type SwitchCollection.",
+            "properties": {
+                "@odata.id": {
+                    "$ref": "Resource.json#/definitions/odataid"
+                }
+            },
+            "type": "object",
+            "readonly": true
+        }
+    },
+    "title": "#Fabric.v1_3_0.Fabric",
+    "type": "object"
+}

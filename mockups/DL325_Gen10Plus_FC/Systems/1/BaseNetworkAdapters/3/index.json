@@ -1,0 +1,105 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapter.HpeBaseNetworkAdapter",
+    "@odata.etag": "W/\"AAEB72F6\"",
+    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/3",
+    "@odata.type": "#HpeBaseNetworkAdapter.v2_0_0.HpeBaseNetworkAdapter",
+    "Id": "3",
+    "FcPorts": [],
+    "Firmware": {
+        "Current": {
+            "VersionString": "1.3755.0"
+        }
+    },
+    "Location": "OCP 3.0 Slot 10",
+    "Name": "Intel Eth Adptr I350T4 OCPv3",
+    "PartNumber": "MM#999HCV",
+    "PhysicalPorts": [
+        {
+            "FullDuplex": false,
+            "IPv4Addresses": [],
+            "IPv6Addresses": [],
+            "LinkStatus": null,
+            "MacAddress": "68:05:ca:f1:58:66",
+            "Name": "",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt",
+                    "@odata.type": "#HpeBaseNetworkAdapterExt.v2_1_0.HpeBaseNetworkAdapterExt",
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "GoodReceives": 0,
+                    "GoodTransmits": 0,
+                    "PortNumber": 1
+                }
+            },
+            "SpeedMbps": 0
+        },
+        {
+            "FullDuplex": false,
+            "IPv4Addresses": [],
+            "IPv6Addresses": [],
+            "LinkStatus": null,
+            "MacAddress": "68:05:ca:f1:58:67",
+            "Name": "",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt",
+                    "@odata.type": "#HpeBaseNetworkAdapterExt.v2_1_0.HpeBaseNetworkAdapterExt",
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "GoodReceives": 0,
+                    "GoodTransmits": 0,
+                    "PortNumber": 2
+                }
+            },
+            "SpeedMbps": 0
+        },
+        {
+            "FullDuplex": false,
+            "IPv4Addresses": [],
+            "IPv6Addresses": [],
+            "LinkStatus": null,
+            "MacAddress": "68:05:ca:f1:58:68",
+            "Name": "",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt",
+                    "@odata.type": "#HpeBaseNetworkAdapterExt.v2_1_0.HpeBaseNetworkAdapterExt",
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "GoodReceives": 0,
+                    "GoodTransmits": 0,
+                    "PortNumber": 3
+                }
+            },
+            "SpeedMbps": 0
+        },
+        {
+            "FullDuplex": false,
+            "IPv4Addresses": [],
+            "IPv6Addresses": [],
+            "LinkStatus": null,
+            "MacAddress": "68:05:ca:f1:58:69",
+            "Name": "",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterExt.HpeBaseNetworkAdapterExt",
+                    "@odata.type": "#HpeBaseNetworkAdapterExt.v2_1_0.HpeBaseNetworkAdapterExt",
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "GoodReceives": 0,
+                    "GoodTransmits": 0,
+                    "PortNumber": 4
+                }
+            },
+            "SpeedMbps": 0
+        }
+    ],
+    "SerialNumber": "6805CAF15866",
+    "Status": {
+        "Health": null,
+        "State": null
+    },
+    "StructuredName": "OCP.Slot.10.1",
+    "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)"
+}

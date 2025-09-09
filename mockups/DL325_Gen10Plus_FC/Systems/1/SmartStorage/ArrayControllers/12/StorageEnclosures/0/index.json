@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageStorageEnclosure.HpeSmartStorageStorageEnclosure",
+    "@odata.etag": "W/\"A069CC8A\"",
+    "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/12/StorageEnclosures/0",
+    "@odata.type": "#HpeSmartStorageStorageEnclosure.v2_0_0.HpeSmartStorageStorageEnclosure",
+    "Id": "0",
+    "Description": "HPE Smart Storage Enclosure View",
+    "DriveBayCount": 4,
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": ""
+        }
+    },
+    "Location": "1I:1",
+    "LocationFormat": "Port:Box",
+    "Model": "",
+    "Name": "HpeSmartStorageEnclosure",
+    "SerialNumber": "",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

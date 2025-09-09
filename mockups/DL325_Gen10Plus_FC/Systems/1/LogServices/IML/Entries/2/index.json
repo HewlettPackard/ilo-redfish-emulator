@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"4850A6D7\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/2",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "2",
+    "Created": "0000-00-00T00:00:00Z",
+    "EntryType": "Oem",
+    "Message": "Maintenance note: iLO performed an auto-RESTORE operation.",
+    "MessageArgs": [],
+    "MessageId": "33.2",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Maintenance"
+            ],
+            "Class": 33,
+            "ClassDescription": "Maintenance",
+            "Code": 2,
+            "Count": 1,
+            "EventNumber": 2,
+            "Severity": "Informational",
+            "Updated": "0000-00-00T00:00:00Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

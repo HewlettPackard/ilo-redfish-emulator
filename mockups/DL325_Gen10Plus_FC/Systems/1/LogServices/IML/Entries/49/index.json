@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"31978084\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/49",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "49",
+    "Created": "2001-01-02T09:28:15Z",
+    "EntryType": "Oem",
+    "Message": "Firmware flashed (Online ROM Flash Firmware Package - HPE Integrated Lights-Out 5 3.14)",
+    "MessageArgs": [],
+    "MessageId": "32.2",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Administration"
+            ],
+            "Class": 32,
+            "ClassDescription": "System Revision",
+            "Code": 2,
+            "Count": 1,
+            "EventNumber": 49,
+            "Severity": "Informational",
+            "Updated": "2001-01-02T09:28:15Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

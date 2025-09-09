@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"5A444DE9\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/19",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "19",
+    "Created": "2001-01-01T02:37:46Z",
+    "EntryType": "Oem",
+    "Message": "Embedded Flexible LOM 0 SAN Error - SAN link is down. SAN connection not possible.",
+    "MessageArgs": [],
+    "MessageId": "10.9216",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Administration"
+            ],
+            "Class": 10,
+            "ClassDescription": "UEFI",
+            "Code": 9216,
+            "Count": 3,
+            "EventNumber": 19,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x2400-gen10",
+            "RecommendedAction": "Check switch and SAN configuration, then reconnect the ports or reboot the server.",
+            "Repaired": false,
+            "Severity": "Caution",
+            "Updated": "2001-01-01T02:42:34Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "Warning"
+}

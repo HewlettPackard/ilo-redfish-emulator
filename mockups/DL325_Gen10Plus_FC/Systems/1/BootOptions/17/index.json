@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "W/\"A3A6BF43\"",
+    "@odata.id": "/redfish/v1/Systems/1/BootOptions/17",
+    "@odata.type": "#BootOption.v1_0_1.BootOption",
+    "Id": "17",
+    "Alias": "None",
+    "BootOptionReference": "Boot001E",
+    "DisplayName": "Slot 2 Port 1 : HPE SN1610Q 32Gb 2p FC HBA - FC - Fibre(WWN:20310002AC02B40C,LUN:0000000000000000)/(3PARdataVV              9650)",
+    "Name": "Boot Option",
+    "UefiDevicePath": "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x20310002AC02B40C,0x0)"
+}

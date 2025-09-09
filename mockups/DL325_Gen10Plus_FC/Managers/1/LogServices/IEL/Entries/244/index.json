@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"7756B115\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/244",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "244",
+    "Created": "2001-01-05T04:18:24Z",
+    "EntryType": "Oem",
+    "Message": "The overall security state of the system is at \"Risk\".",
+    "MessageArgs": [],
+    "MessageId": "35.1169",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 1169,
+            "Count": 1,
+            "EventNumber": 9740,
+            "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+            "Severity": "Caution",
+            "Updated": "2001-01-05T04:18:24Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "Warning"
+}

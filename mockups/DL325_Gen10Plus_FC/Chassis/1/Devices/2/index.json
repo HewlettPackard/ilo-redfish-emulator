@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"C1885063\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/2",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "2",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/3"
+        }
+    ],
+    "DeviceType": "LOM/NIC",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "2.11.01"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/2"
+        }
+    },
+    "Location": "PCI-E Slot 2",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "",
+    "Name": "HPE SN1610Q 32Gb 2p FC HBA - FC",
+    "PartNumber": "",
+    "ProductPartNumber": "R2E09A",
+    "ProductVersion": "",
+    "SerialNumber": "MY540421JG",
+    "Status": {
+        "Health": null,
+        "State": null
+    }
+}

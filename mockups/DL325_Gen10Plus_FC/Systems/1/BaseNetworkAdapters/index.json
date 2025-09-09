@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapterCollection.HpeBaseNetworkAdapterCollection",
+    "@odata.etag": "W/\"E589C4BF\"",
+    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters",
+    "@odata.type": "#HpeBaseNetworkAdapterCollection.HpeBaseNetworkAdapterCollection",
+    "Description": "NetworkAdapters view",
+    "Name": "NetworkAdapters Collection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/3"
+        }
+    ],
+    "Members@odata.count": 3
+}

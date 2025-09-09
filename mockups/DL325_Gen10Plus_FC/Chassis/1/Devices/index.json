@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDeviceCollection.HpeServerDeviceCollection",
+    "@odata.etag": "W/\"D5EC731D\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices",
+    "@odata.type": "#HpeServerDeviceCollection.HpeServerDeviceCollection",
+    "Description": "Devices View",
+    "Name": "Devices",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/5"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Devices/6"
+        }
+    ],
+    "Members@odata.count": 6
+}

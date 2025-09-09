@@ -1,0 +1,141 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "additionalProperties": false,
+    "copyright": "(C)Copyright 2017 Hewlett Packard Enterprise Development LP",
+    "desciption": "",
+    "properties": {
+        "@odata.context": {
+            "format": "uri",
+            "longDescription": "/redfish/v1/$metadata#Systems/Members/1/hpsut/Members/$entity.",
+            "readonly": true,
+            "type": "string"
+        },
+        "@odata.id": {
+            "format": "uri",
+            "longDescription": "/redfish/v1/Systems/1/hpsut/tasksettings",
+            "readonly": true,
+            "type": "string"
+        },
+        "@odata.type": {
+            "longDescription": "#SUTTaskSettings.v2_3_1.SUTTaskSettings",
+            "readonly": true,
+            "type": "string"
+        },
+        "Name": {
+            "$ref": "Name.json#"
+        },
+        "Modified": {
+            "$ref": "Modified.json#"
+        },
+        "TaskSettings": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "properties": {
+                        "type": "object",
+                        "properties": {
+                            "BaselineSettings": {
+                                "type": "object",
+                                "properties": {
+                                    "Type": {
+                                        "type": "string",
+                                        "description": "Type of operation requested by the client for HPE SUT to perform",
+                                        "readonly": false,
+                                        "enum": [
+                                            "BIOS",
+                                            "STORAGE"
+                                        ],
+                                        "enumDescriptions": {
+                                            "BIOS": "Setting Bios configuration is requsted",
+                                            "STORAGE": "Setting local storage configuration is requsted"
+                                        }
+                                    },
+                                    "Description": {
+                                        "type": "string",
+                                        "description": "Description of the task that client is requesting HPE SUT to perform",
+                                        "readonly": false
+                                    },
+                                    "TargetUri": {
+                                        "type": "string",
+                                        "description": "URI to be specified if HPE SUT to update the values",
+                                        "readonly": false
+                                    },
+                                    "ProgramName": {
+                                        "type": "string",
+                                        "description": "Full path to the script that needs to be launched to perform the task",
+                                        "readonly": false
+                                    },
+                                    "Checksum": {
+                                        "type": "string",
+                                        "description": "Hash sum data to validate the integrity of zipped file",
+                                        "readonly": false
+                                    },
+                                    "ChecksumProgramFile": {
+                                        "type": "string",
+                                        "description": "Hash sum data to validate the integrity of unzipped file",
+                                        "readonly": false
+                                    },
+                                    "Arguments": {
+                                        "type": "string",
+                                        "description": "Argument values to be passed to the program",
+                                        "readonly": false
+                                    },
+                                    "SourceUri": {
+                                        "type": "string",
+                                        "description": "Location where configuration data is present",
+                                        "readonly": false
+                                    },
+                                    "Order": {
+                                        "type": "number",
+                                        "description": "Order in which task needs to be performed.",
+                                        "readonly": false
+                                    }
+                                },
+                                "required": [
+                                    "Type",
+                                    "description",
+                                    "ProgramName",
+                                    "Checksum",
+                                    "ChecksumProgramFile",
+                                    "Order"
+                                ]
+                            },
+                            "TaskResults": {
+                                "type": "object",
+                                "properties": {
+                                    "TaskState": {
+                                        "type": "string",
+                                        "enum": [
+                                            "Activated",
+                                            "Running",
+                                            "Failed",
+                                            "Pending"
+                                        ],
+                                        "description": "Specifies end state of operation",
+                                        "readonly": false
+                                    },
+                                    "MessageID": {
+                                        "type": "string",
+                                        "description": "Specifies success or failure of operation with message code",
+                                        "readonly": false
+                                    }
+                                },
+                                "required": [
+                                    "TaskState",
+                                    "MessageID"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "BaselineSettings",
+                            "TaskResults"
+                        ]
+                    }
+                }
+            }
+        },
+        "title": "#SUTTaskSettings.v2_4_0.SUTTaskSettings",
+        "type": "object"
+    }
+}

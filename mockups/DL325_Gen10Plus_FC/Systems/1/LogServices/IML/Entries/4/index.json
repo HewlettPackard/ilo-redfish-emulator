@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"03C11A2F\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/4",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "4",
+    "Created": "0000-00-00T00:00:00Z",
+    "EntryType": "Oem",
+    "Message": "Non-Volatile Memory Corruption Detected. Configuration settings restored to defaults. If enabled, Secure Boot security settings may be lost.",
+    "MessageArgs": [],
+    "MessageId": "10.614",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Firmware"
+            ],
+            "Class": 10,
+            "ClassDescription": "UEFI",
+            "Code": 614,
+            "Count": 1,
+            "EventNumber": 4,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x0266-gen10",
+            "RecommendedAction": "Restore desired configuration settings. Contact HPE support if issue persists.",
+            "Repaired": false,
+            "Severity": "Critical",
+            "Updated": "0000-00-00T00:00:00Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "Critical"
+}

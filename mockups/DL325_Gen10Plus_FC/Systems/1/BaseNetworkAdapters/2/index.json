@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeBaseNetworkAdapter.HpeBaseNetworkAdapter",
+    "@odata.etag": "W/\"37F95742\"",
+    "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/2",
+    "@odata.type": "#HpeBaseNetworkAdapter.v2_0_0.HpeBaseNetworkAdapter",
+    "Id": "2",
+    "FcPorts": [],
+    "Firmware": {
+        "Current": {
+            "VersionString": "2.11.01"
+        }
+    },
+    "Location": "PCI-E Slot 2",
+    "Name": "HPE SN1610Q 32Gb 2p FC HBA - FC",
+    "PhysicalPorts": [],
+    "SerialNumber": "MY540421JG",
+    "Status": {
+        "Health": null,
+        "State": null
+    },
+    "StructuredName": "NIC.Slot.2.1",
+    "UEFIDevicePath": "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)"
+}

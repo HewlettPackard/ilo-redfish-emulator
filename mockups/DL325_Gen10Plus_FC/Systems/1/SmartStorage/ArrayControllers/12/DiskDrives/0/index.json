@@ -1,0 +1,43 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDrive.HpeSmartStorageDiskDrive",
+    "@odata.etag": "W/\"FCFE4064\"",
+    "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/12/DiskDrives/0",
+    "@odata.type": "#HpeSmartStorageDiskDrive.v2_1_0.HpeSmartStorageDiskDrive",
+    "Id": "0",
+    "BlockSizeBytes": 512,
+    "CapacityGB": 480,
+    "CapacityLogicalBlocks": 937703088,
+    "CapacityMiB": 457862,
+    "CarrierApplicationVersion": "11",
+    "CarrierAuthenticationStatus": "OK",
+    "CurrentTemperatureCelsius": 0,
+    "Description": "HPE Smart Storage Disk Drive View",
+    "DiskDriveStatusReasons": [
+        "None"
+    ],
+    "DiskDriveUse": "Data",
+    "EncryptedDrive": false,
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "HPG3"
+        }
+    },
+    "InterfaceSpeedMbps": 6000,
+    "InterfaceType": "SATA",
+    "LegacyBootPriority": "None",
+    "Location": "1I:1:1",
+    "LocationFormat": "ControllerPort:Box:Bay",
+    "MaximumTemperatureCelsius": 34,
+    "MediaType": "SSD",
+    "Model": "VK000480GZCNE",
+    "Name": "HpeSmartStorageDiskDrive",
+    "PowerOnHours": 12942,
+    "SSDEnduranceUtilizationPercentage": 0,
+    "SerialNumber": "BJB1N8180I2202454",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "UncorrectedReadErrors": 0,
+    "UncorrectedWriteErrors": 0
+}

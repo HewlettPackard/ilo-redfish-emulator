@@ -112,6 +112,8 @@ class StorageVolumeCollectionAPI(Resource):
                 # this is needed so this drive is not allowed to run secure erase.
                 chassisMemberDrives = getChassisMemberDrives()
                 for drive in drives:
+                    if 'chassis' not in drive.get('@odata.id', '').lower():
+                        continue
                     drive_id = drive['@odata.id'].replace('/redfish/v1/Chassis/{}/Drives/'.format(storage_id), '')
                     # remove the actions from the drive
                     ident = storage_id + "_" + drive_id
@@ -203,12 +205,15 @@ class StorageVolumeAPI(Resource):
                 # restore the actions to the drives
                 chassisMemberDrives = getChassisMemberDrives()
                 for drive in vol_res[storage_id][volume_id]['Links']['Drives']:
+                    if 'chassis' not in drive.get('@odata.id', '').lower():
+                        continue
                     drive_id = drive['@odata.id'].replace('/redfish/v1/Chassis/{}/Drives/'.format(storage_id), '')
                     # restore the actions
                     ident = storage_id + "_" + drive_id
                     chassisMemberDrives[ident]['Actions'] = {
                         "#Drive.SecureErase": {
-                            "target": "/redfish/v1/Chassis/{}/Drives/{}/Actions/Drive.SecureErase".format(storage_id, drive_id)
+                            "target": "/redfish/v1/Chassis/{}/Drives/{}/Actions/Drive.SecureErase".format(storage_id,
+                                                                                                          drive_id)
                         }
                     }
 

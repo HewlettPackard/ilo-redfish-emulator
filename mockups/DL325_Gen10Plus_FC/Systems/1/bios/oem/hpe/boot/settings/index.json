@@ -1,0 +1,206 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerBootSettings.HpeServerBootSettings",
+    "@odata.etag": "W/\"DFA354789C128B8B8B0B49104C909011\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/settings/",
+    "@odata.type": "#HpeServerBootSettings.v2_0_0.HpeServerBootSettings",
+    "BootSources": [
+        {
+            "BootOptionNumber": "001C",
+            "BootString": "Red Hat Enterprise Linux",
+            "CorrelatableID": "HD(1,GPT,026D2602-035F-4638-986D-B369D8C77621,0x800,0x12C000)/\\EFI\\redhat\\shimx64.efi",
+            "StructuredBootString": "Unknown.Unknown.200.1",
+            "UEFIDevicePath": "HD(1,GPT,026D2602-035F-4638-986D-B369D8C77621,0x800,0x12C000)/\\EFI\\redhat\\shimx64.efi"
+        },
+        {
+            "BootOptionNumber": "000E",
+            "BootString": "Generic USB Boot",
+            "CorrelatableID": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)",
+            "StructuredBootString": "Generic.USB.1.1",
+            "UEFIDevicePath": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)"
+        },
+        {
+            "BootOptionNumber": "0011",
+            "BootString": "Storage Slot 12 : HPE Smart Array P408i-a SR Gen10 - Size:447.131 GiB Port:1I Bay:3 Box:1",
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)",
+            "StructuredBootString": "HD.Slot.12.3",
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)/Scsi(0x2,0x0)"
+        },
+        {
+            "BootOptionNumber": "0012",
+            "BootString": "Storage Slot 12 : HPE Smart Array P408i-a SR Gen10 - Size:447.131 GiB Port:1I Bay:4 Box:1",
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)",
+            "StructuredBootString": "HD.Slot.12.4",
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)/Scsi(0x3,0x0)"
+        },
+        {
+            "BootOptionNumber": "0019",
+            "BootString": "Slot 1 Port 1 : Mellanox Network Adapter - 88:E9:A4:6B:F5:74 (HTTP(S) IPv4)",
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.1.1.Httpv4",
+            "UEFIDevicePath": "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)/MAC(88E9A46BF574,0x1)/IPv4(0.0.0.0)/Uri()"
+        },
+        {
+            "BootOptionNumber": "001A",
+            "BootString": "Slot 1 Port 1 : Mellanox Network Adapter - 88:E9:A4:6B:F5:74 (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.1.1.IPv4",
+            "UEFIDevicePath": "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)/MAC(88E9A46BF574,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "0015",
+            "BootString": "OCP Slot 10 Port 1 : Intel(R) Ethernet Network Adapter I350-T4 for OCP NIC 3.0 (HTTP(S) IPv4)",
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.Httpv4",
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(6805CAF15866,0x1)/IPv4(0.0.0.0)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0016",
+            "BootString": "OCP Slot 10 Port 1 : Intel(R) Ethernet Network Adapter I350-T4 for OCP NIC 3.0 (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.IPv4",
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(6805CAF15866,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "0017",
+            "BootString": "Slot 1 Port 1 : Mellanox Network Adapter - 88:E9:A4:6B:F5:74 (PXE IPv6)",
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.1.1.IPv6",
+            "UEFIDevicePath": "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)/MAC(88E9A46BF574,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)"
+        },
+        {
+            "BootOptionNumber": "0018",
+            "BootString": "Slot 1 Port 1 : Mellanox Network Adapter - 88:E9:A4:6B:F5:74 (HTTP(S) IPv6)",
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.1.1.Httpv6",
+            "UEFIDevicePath": "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)/MAC(88E9A46BF574,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0013",
+            "BootString": "OCP Slot 10 Port 1 : Intel(R) Ethernet Network Adapter I350-T4 for OCP NIC 3.0 (PXE IPv6)",
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.IPv6",
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(6805CAF15866,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)"
+        },
+        {
+            "BootOptionNumber": "0014",
+            "BootString": "OCP Slot 10 Port 1 : Intel(R) Ethernet Network Adapter I350-T4 for OCP NIC 3.0 (HTTP(S) IPv6)",
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.Httpv6",
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(6805CAF15866,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+        },
+        {
+            "BootOptionNumber": "000F",
+            "BootString": "Slot 2 Port 1 : HPE SN1610Q 32Gb 2p FC HBA - FC - Fibre(WWN:20310002AC02A8E5,LUN:0000000000000001)/(3PARdataVV              9650)",
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.2.3",
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x20310002AC02A8E5,0x1000000000000)"
+        },
+        {
+            "BootOptionNumber": "0010",
+            "BootString": "Slot 2 Port 1 : HPE SN1610Q 32Gb 2p FC HBA - FC - Fibre(WWN:21310002AC02A8E5,LUN:0000000000000001)/(3PARdataVV              9650)",
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.2.4",
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x21310002AC02A8E5,0x1000000000000)"
+        },
+        {
+            "BootOptionNumber": "001B",
+            "BootString": "iLO Virtual USB 3 : iLO Virtual CD-ROM",
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x5,0x2)/Pci(0x0,0x4)/USB(0x1,0x0)",
+            "StructuredBootString": "CD.Virtual.3.1",
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x5,0x2)/Pci(0x0,0x4)/USB(0x1,0x0)"
+        },
+        {
+            "BootOptionNumber": "001D",
+            "BootString": "iLO Virtual USB 4 : iLO Virtual USB Key",
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x5,0x2)/Pci(0x0,0x4)/USB(0x2,0x0)",
+            "StructuredBootString": "FD.Virtual.4.1",
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x5,0x2)/Pci(0x0,0x4)/USB(0x2,0x0)"
+        },
+        {
+            "BootOptionNumber": "001E",
+            "BootString": "Slot 2 Port 1 : HPE SN1610Q 32Gb 2p FC HBA - FC - Fibre(WWN:20310002AC02B40C,LUN:0000000000000000)/(3PARdataVV              9650)",
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.2.1",
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x20310002AC02B40C,0x0)"
+        },
+        {
+            "BootOptionNumber": "001F",
+            "BootString": "Slot 2 Port 1 : HPE SN1610Q 32Gb 2p FC HBA - FC - Fibre(WWN:21310002AC02B40C,LUN:0000000000000000)/(3PARdataVV              9650)",
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.2.2",
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x21310002AC02B40C,0x0)"
+        },
+        {
+            "BootOptionNumber": "0020",
+            "BootString": "Storage Slot 12 : HPE Smart Array P408i-a SR Gen10 - 447.1 GiB, RAID1 Logical Drive 1(Target:379, Lun:0)",
+            "CorrelatableID": "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)",
+            "StructuredBootString": "HD.Slot.12.2",
+            "UEFIDevicePath": "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)/Scsi(0x17B,0x0)"
+        }
+    ],
+    "DefaultBootOrder": [
+        "Cd",
+        "Usb",
+        "EmbeddedStorage",
+        "PcieSlotStorage",
+        "EmbeddedFlexLOM",
+        "PcieSlotNic",
+        "UefiShell",
+        "iPXE"
+    ],
+    "DesiredBootDevices": [
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        }
+    ],
+    "Id": "settings",
+    "Name": "Boot Order Pending Settings",
+    "PersistentBootConfigOrder": [
+        "Unknown.Unknown.200.1",
+        "Generic.USB.1.1",
+        "HD.Slot.12.3",
+        "HD.Slot.12.4",
+        "NIC.Slot.1.1.Httpv4",
+        "NIC.Slot.1.1.IPv4",
+        "OCP.Slot.10.1.Httpv4",
+        "OCP.Slot.10.1.IPv4",
+        "NIC.Slot.1.1.IPv6",
+        "NIC.Slot.1.1.Httpv6",
+        "OCP.Slot.10.1.IPv6",
+        "OCP.Slot.10.1.Httpv6",
+        "NIC.Slot.2.3",
+        "NIC.Slot.2.4",
+        "CD.Virtual.3.1",
+        "FD.Virtual.4.1",
+        "NIC.Slot.2.1",
+        "NIC.Slot.2.2",
+        "HD.Slot.12.2"
+    ]
+}

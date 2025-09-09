@@ -1,0 +1,63 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeiLOLicense.HpeiLOLicense",
+    "@odata.etag": "W/\"BB9D6F3D\"",
+    "@odata.id": "/redfish/v1/Managers/1/LicenseService/1",
+    "@odata.type": "#HpeiLOLicense.v2_3_0.HpeiLOLicense",
+    "Id": "1",
+    "Confirmation": {
+        "Code": "",
+        "Message": "",
+        "Service": "www.hpe.com/glis",
+        "Status": false
+    },
+    "ConfirmationRequest": {
+        "EON": {
+            "License": "iLO Advanced limited-distribution test",
+            "LicenseKey": "32Q2N-L3P6Z-76QDN-68BMW-HLP6M",
+            "Quantity": 1,
+            "State": "nfr"
+        },
+        "Signer": "iLO",
+        "System": {
+            "ChipId": "AD04D6E0042E8B2E",
+            "Product": "ProLiant DL325 Gen10 Plus",
+            "SerialNumber": "MXQ2290J5P"
+        }
+    },
+    "Description": "iLO License View",
+    "License": "iLO Advanced limited-distribution test",
+    "LicenseClass": "BETA",
+    "LicenseErr": "",
+    "LicenseExpire": "Activated until 31 Jan 2026",
+    "LicenseFeatures": {
+        "AutoCertEnroll": true,
+        "DirectoryAuth": true,
+        "DowngradePolicy": true,
+        "EmailAlert": true,
+        "FWScan": true,
+        "Federation": true,
+        "Jitter": true,
+        "KD": true,
+        "KeyMgr": true,
+        "MURC": true,
+        "ODIM": false,
+        "PowerReg": true,
+        "RC": true,
+        "Recovery": true,
+        "RemoteSyslog": true,
+        "Scrncap": true,
+        "SecureErase": true,
+        "SmartCard": true,
+        "SuiteB": true,
+        "TextCons": true,
+        "VM": true,
+        "VMScript": true,
+        "VSPLogging": true
+    },
+    "LicenseInstallDate": "31 Jul 2025",
+    "LicenseKey": "XXXXX-XXXXX-XXXXX-XXXXX-HLP6M",
+    "LicenseSeats": 1,
+    "LicenseTier": "ADV",
+    "LicenseType": "Internal",
+    "Name": "iLO License"
+}

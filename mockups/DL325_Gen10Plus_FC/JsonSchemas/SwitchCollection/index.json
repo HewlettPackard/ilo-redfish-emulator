@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"39BCB6DB\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/SwitchCollection",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "SwitchCollection",
+    "Description": "Schema Definition File for SwitchCollection",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/SwitchCollection.json"
+        }
+    ],
+    "Name": "SwitchCollection Schema Definition File",
+    "Schema": "#SwitchCollection.SwitchCollection"
+}

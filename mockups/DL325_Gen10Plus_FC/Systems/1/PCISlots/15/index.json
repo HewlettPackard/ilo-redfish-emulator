@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot",
+    "@odata.etag": "W/\"3B3BFF81\"",
+    "@odata.id": "/redfish/v1/Systems/1/PCISlots/15",
+    "@odata.type": "#HpeServerPCISlot.v2_1_2.HpeServerPCISlot",
+    "Id": "15",
+    "BusNumber": 4,
+    "Characteristics": {
+        "Provides3_3Volts": true,
+        "SupportsHotPlugDevices": true,
+        "SupportsSMBusSignal": true
+    },
+    "DeviceNumber": 0,
+    "FunctionNumber": 0,
+    "Length": "Drive2_5",
+    "LinkLanes": "x4",
+    "Name": "NVMe Slot 42",
+    "Status": {
+        "OperationalStatus": [
+            {
+                "Status": "Empty"
+            }
+        ]
+    },
+    "SupportsHotPlug": true,
+    "Technology": "PCIExpressGen4",
+    "UEFIDevicePath": "PciRoot(0x3)/Pci(0x1,0x1)/Pci(0x0,0x0)"
+}

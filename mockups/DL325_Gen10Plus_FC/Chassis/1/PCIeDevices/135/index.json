@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "W/\"4DA55F10\"",
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/135",
+    "@odata.type": "#PCIeDevice.v1_5_0.PCIeDevice",
+    "Id": "135",
+    "FirmwareVersion": "16.35.40.30",
+    "Manufacturer": "",
+    "Model": "P13186-001               ",
+    "Name": "Mellanox Network Adapter - 88:E9:A4:6B:F5:74",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/135/PCIeFunctions"
+    },
+    "PartNumber": "P13186-001               ",
+    "SKU": "",
+    "SerialNumber": "ILC22001H7     ",
+    "Status": {
+        "Health": null,
+        "State": null
+    }
+}

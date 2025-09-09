@@ -1,0 +1,2778 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "W/\"03A24715\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Integrated Management Logs view",
+    "Name": "Integrated Management Logs view",
+    "Members": [
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/1",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "1",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "Invalid Server Serial Number and Product ID - The Serial Number and/or Product ID have been corrupted or lost.",
+            "MessageArgs": [],
+            "MessageId": "10.642",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 642,
+                    "Count": 1,
+                    "EventNumber": 1,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x0282-gen10",
+                    "RecommendedAction": "Enter the correct values for these fields in Platform Configuration (RBSU).",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "0000-00-00T00:00:00Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/2",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "2",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: iLO performed an auto-RESTORE operation.",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 2,
+                    "Severity": "Informational",
+                    "Updated": "0000-00-00T00:00:00Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/3",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "3",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "Invalid Server Serial Number and Product ID - The Serial Number and/or Product ID have been corrupted or lost.",
+            "MessageArgs": [],
+            "MessageId": "10.642",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 642,
+                    "Count": 1,
+                    "EventNumber": 3,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x0282-gen10",
+                    "RecommendedAction": "Enter the correct values for these fields in Platform Configuration (RBSU).",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "0000-00-00T00:00:00Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/4",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "4",
+            "Created": "0000-00-00T00:00:00Z",
+            "EntryType": "Oem",
+            "Message": "Non-Volatile Memory Corruption Detected. Configuration settings restored to defaults. If enabled, Secure Boot security settings may be lost.",
+            "MessageArgs": [],
+            "MessageId": "10.614",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Firmware"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 614,
+                    "Count": 1,
+                    "EventNumber": 4,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x0266-gen10",
+                    "RecommendedAction": "Restore desired configuration settings. Contact HPE support if issue persists.",
+                    "Repaired": false,
+                    "Severity": "Critical",
+                    "Updated": "0000-00-00T00:00:00Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/5",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "5",
+            "Created": "2001-01-01T00:03:12Z",
+            "EntryType": "Oem",
+            "Message": "BatteryCharging (Slot=12) Redfish event from /redfish/v1/Systems/1/Storage/DE07A000/Controllers/0",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 14,
+                    "EventNumber": 5,
+                    "Severity": "Informational",
+                    "Updated": "2001-01-02T02:36:56Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/6",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "6",
+            "Created": "2001-01-01T00:03:12Z",
+            "EntryType": "Oem",
+            "Message": "BatteryOK (Slot=12) Redfish event from /redfish/v1/Systems/1/Storage/DE07A000/Controllers/0",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 22,
+                    "EventNumber": 6,
+                    "Severity": "Informational",
+                    "Updated": "2001-01-05T03:47:32Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/7",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "7",
+            "Created": "2001-01-01T00:03:20Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 7,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T00:03:20Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/8",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "8",
+            "Created": "2001-01-01T00:03:21Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 8,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T00:03:21Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/9",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "9",
+            "Created": "2001-01-01T00:08:23Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 9,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T00:08:23Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/10",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "10",
+            "Created": "2001-01-01T00:08:23Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 10,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T00:08:23Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/11",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "11",
+            "Created": "2001-01-01T00:08:48Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 11,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T00:08:48Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/12",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "12",
+            "Created": "2001-01-01T00:08:48Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 12,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T00:08:48Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/13",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "13",
+            "Created": "2001-01-01T00:25:34Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 13,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T00:25:34Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/14",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "14",
+            "Created": "2001-01-01T00:25:34Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 14,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T00:25:34Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/15",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "15",
+            "Created": "2001-01-01T02:21:58Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 15,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T02:21:58Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/16",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "16",
+            "Created": "2001-01-01T02:21:58Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 16,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T02:21:58Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/17",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "17",
+            "Created": "2001-01-01T02:33:42Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 17,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T02:33:42Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/18",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "18",
+            "Created": "2001-01-01T02:33:42Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 18,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T02:33:42Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/19",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "19",
+            "Created": "2001-01-01T02:37:46Z",
+            "EntryType": "Oem",
+            "Message": "Embedded Flexible LOM 0 SAN Error - SAN link is down. SAN connection not possible.",
+            "MessageArgs": [],
+            "MessageId": "10.9216",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 9216,
+                    "Count": 3,
+                    "EventNumber": 19,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x2400-gen10",
+                    "RecommendedAction": "Check switch and SAN configuration, then reconnect the ports or reboot the server.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2001-01-01T02:42:34Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/20",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "20",
+            "Created": "2001-01-01T02:39:21Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 20,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T02:39:21Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/21",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "21",
+            "Created": "2001-01-01T02:39:21Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 21,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T02:39:21Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/22",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "22",
+            "Created": "2001-01-01T02:43:39Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 22,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T02:43:39Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/23",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "23",
+            "Created": "2001-01-01T02:43:39Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 23,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T02:43:39Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/24",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "24",
+            "Created": "2001-01-01T03:52:00Z",
+            "EntryType": "Oem",
+            "Message": "At least one of the links is up in adapter HPE SN1610Q 32Gb 2p FC HBA in slot 2",
+            "MessageArgs": [],
+            "MessageId": "17.14",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 14,
+                    "Count": 1,
+                    "EventNumber": 24,
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T03:55:30Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/25",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "25",
+            "Created": "2001-01-01T06:04:21Z",
+            "EntryType": "Oem",
+            "Message": "DriveOffline (Slot=12:Port=1I:Box=1:Bay=1) Redfish event from /redfish/v1/Systems/1/Storage/DE07A000/Drives/0",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 25,
+                    "Severity": "Informational",
+                    "Updated": "2001-01-01T06:04:21Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/26",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "26",
+            "Created": "2001-01-01T06:04:21Z",
+            "EntryType": "Oem",
+            "Message": "DriveOffline (Slot=12:Port=1I:Box=1:Bay=2) Redfish event from /redfish/v1/Systems/1/Storage/DE07A000/Drives/1",
+            "MessageArgs": [],
+            "MessageId": "62.1",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 62,
+                    "ClassDescription": "Redfish Device Enablement",
+                    "Code": 1,
+                    "Count": 1,
+                    "EventNumber": 26,
+                    "Severity": "Informational",
+                    "Updated": "2001-01-01T06:04:21Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/27",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "27",
+            "Created": "2001-01-01T06:18:09Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 27,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T06:18:09Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/28",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "28",
+            "Created": "2001-01-01T06:18:09Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 28,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T06:18:09Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/29",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "29",
+            "Created": "2001-01-01T06:26:47Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 29,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T06:26:47Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/30",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "30",
+            "Created": "2001-01-01T06:26:47Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 30,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T06:26:47Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/31",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "31",
+            "Created": "2001-01-01T06:28:13Z",
+            "EntryType": "Oem",
+            "Message": "Slot=12 Storage - Volume 1 status changed to ok",
+            "MessageArgs": [],
+            "MessageId": "19.33",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 33,
+                    "Count": 1,
+                    "EventNumber": 31,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x0021-gen10",
+                    "RecommendedAction": "1. Allow rebuild to complete\n2. Verify cables are seated\n3. Replace failed drive\n4. Install missing drive\n5. Replace incorrect drive",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T06:28:13Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/32",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "32",
+            "Created": "2001-01-01T06:52:28Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 32,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T06:52:28Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/33",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "33",
+            "Created": "2001-01-01T06:52:28Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 33,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T06:52:28Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/34",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "34",
+            "Created": "2001-01-01T07:19:35Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 34,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T07:19:35Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/35",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "35",
+            "Created": "2001-01-01T07:19:35Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 35,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T07:19:35Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/36",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "36",
+            "Created": "2001-01-01T07:44:57Z",
+            "EntryType": "Oem",
+            "Message": "Slot 12 Storage - Drive at Port 1I Box 1 Bay 1 status changed to Erasing completed",
+            "MessageArgs": [],
+            "MessageId": "19.20",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 20,
+                    "Count": 1,
+                    "EventNumber": 36,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x0014-gen10",
+                    "RecommendedAction": "1. Verify cables are good and fully seated.\n2. Ensure all drives are fully seated.\n3. Set drive to Unconfigured Good\n4. Verify backplane, controller, RAID config, and drive compatibility.\n5. Replace the defective drive.",
+                    "Repaired": false,
+                    "Severity": "Critical",
+                    "Updated": "2001-01-01T07:44:57Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/37",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "37",
+            "Created": "2001-01-01T07:44:57Z",
+            "EntryType": "Oem",
+            "Message": "Slot 12 Storage - Drive at Port 1I Box 1 Bay 2 status changed to Erasing",
+            "MessageArgs": [],
+            "MessageId": "19.20",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 20,
+                    "Count": 1,
+                    "EventNumber": 37,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x0014-gen10",
+                    "RecommendedAction": "1. Verify cables are good and fully seated.\n2. Ensure all drives are fully seated.\n3. Set drive to Unconfigured Good\n4. Verify backplane, controller, RAID config, and drive compatibility.\n5. Replace the defective drive.",
+                    "Repaired": false,
+                    "Severity": "Critical",
+                    "Updated": "2001-01-01T07:44:57Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/38",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "38",
+            "Created": "2001-01-01T07:44:57Z",
+            "EntryType": "Oem",
+            "Message": "Slot 12 Storage - Drive at Port 1I Box 1 Bay 3 status changed to Erasing",
+            "MessageArgs": [],
+            "MessageId": "19.20",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 20,
+                    "Count": 1,
+                    "EventNumber": 38,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x0014-gen10",
+                    "RecommendedAction": "1. Verify cables are good and fully seated.\n2. Ensure all drives are fully seated.\n3. Set drive to Unconfigured Good\n4. Verify backplane, controller, RAID config, and drive compatibility.\n5. Replace the defective drive.",
+                    "Repaired": false,
+                    "Severity": "Critical",
+                    "Updated": "2001-01-01T07:44:57Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/39",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "39",
+            "Created": "2001-01-01T08:09:41Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 39,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T08:09:41Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/40",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "40",
+            "Created": "2001-01-01T08:09:41Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 40,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T08:09:41Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/41",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "41",
+            "Created": "2001-01-01T08:18:13Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 41,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T08:18:13Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/42",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "42",
+            "Created": "2001-01-01T08:18:13Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 42,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T08:18:13Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/43",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "43",
+            "Created": "2001-01-01T08:19:45Z",
+            "EntryType": "Oem",
+            "Message": "Slot=12 Storage - Volume 1 status changed to ok",
+            "MessageArgs": [],
+            "MessageId": "19.33",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 33,
+                    "Count": 1,
+                    "EventNumber": 43,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x0021-gen10",
+                    "RecommendedAction": "1. Allow rebuild to complete\n2. Verify cables are seated\n3. Replace failed drive\n4. Install missing drive\n5. Replace incorrect drive",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-01T08:19:45Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/44",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "44",
+            "Created": "2001-01-02T02:37:04Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 44,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-02T02:37:04Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/45",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "45",
+            "Created": "2001-01-02T02:37:04Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 45,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-02T02:37:04Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/46",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "46",
+            "Created": "2001-01-02T08:13:38Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 46,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-02T08:13:38Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/47",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "47",
+            "Created": "2001-01-02T08:13:38Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 47,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-02T08:13:38Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/48",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "48",
+            "Created": "2001-01-02T08:52:24Z",
+            "EntryType": "Oem",
+            "Message": "Maintenance note: Starting F10 GUI",
+            "MessageArgs": [],
+            "MessageId": "33.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Maintenance"
+                    ],
+                    "Class": 33,
+                    "ClassDescription": "Maintenance",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 48,
+                    "Severity": "Informational",
+                    "Updated": "2001-01-02T08:52:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/49",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "49",
+            "Created": "2001-01-02T09:28:15Z",
+            "EntryType": "Oem",
+            "Message": "Firmware flashed (Online ROM Flash Firmware Package - HPE Integrated Lights-Out 5 3.14)",
+            "MessageArgs": [],
+            "MessageId": "32.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 32,
+                    "ClassDescription": "System Revision",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 49,
+                    "Severity": "Informational",
+                    "Updated": "2001-01-02T09:28:15Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/50",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "50",
+            "Created": "2001-01-02T09:30:33Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 50,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-02T09:30:33Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/51",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "51",
+            "Created": "2001-01-02T09:30:33Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 51,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-02T09:30:33Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/52",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "52",
+            "Created": "2001-01-02T09:34:25Z",
+            "EntryType": "Oem",
+            "Message": "Firmware flashed (ROM Flash Universal Firmware Package - HPE ProLiant DL325/DL... 3.72_05-16-2025)",
+            "MessageArgs": [],
+            "MessageId": "32.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 32,
+                    "ClassDescription": "System Revision",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 52,
+                    "Severity": "Informational",
+                    "Updated": "2001-01-02T09:34:25Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/53",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "53",
+            "Created": "2001-01-02T09:36:20Z",
+            "EntryType": "Oem",
+            "Message": "Firmware flashed (Success : Device in slot 1 : active fw [16.35.3006], pending fw [16.35.4030])",
+            "MessageArgs": [],
+            "MessageId": "32.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 32,
+                    "ClassDescription": "System Revision",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 53,
+                    "Severity": "Informational",
+                    "Updated": "2001-01-02T09:36:20Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/54",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "54",
+            "Created": "2001-01-02T09:36:20Z",
+            "EntryType": "Oem",
+            "Message": "Firmware flashed (Mellanox Firmware Package(FWPKG) for HPE Ethernet 10/25Gb 2-... 16.35.4030)",
+            "MessageArgs": [],
+            "MessageId": "32.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 32,
+                    "ClassDescription": "System Revision",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 54,
+                    "Severity": "Informational",
+                    "Updated": "2001-01-02T09:36:20Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/55",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "55",
+            "Created": "2001-01-02T09:40:17Z",
+            "EntryType": "Oem",
+            "Message": "Firmware flashed (Success : Device in slot 12 : active fw [5.61read], pending fw [7.43])",
+            "MessageArgs": [],
+            "MessageId": "32.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 32,
+                    "ClassDescription": "System Revision",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 55,
+                    "Severity": "Informational",
+                    "Updated": "2001-01-02T09:40:17Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/56",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "56",
+            "Created": "2001-01-02T09:40:17Z",
+            "EntryType": "Oem",
+            "Message": "Firmware flashed (Firmware Package  - HPE Smart Array P408i-p, P408e-p, P408i-... 7.43)",
+            "MessageArgs": [],
+            "MessageId": "32.2",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 32,
+                    "ClassDescription": "System Revision",
+                    "Code": 2,
+                    "Count": 1,
+                    "EventNumber": 56,
+                    "Severity": "Informational",
+                    "Updated": "2001-01-02T09:40:17Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/57",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "57",
+            "Created": "2001-01-02T09:46:56Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 57,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-02T09:46:56Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/58",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "58",
+            "Created": "2001-01-02T09:46:56Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 58,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-02T09:46:56Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/59",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "59",
+            "Created": "2001-01-03T14:55:32Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 59,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-03T14:55:32Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/60",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "60",
+            "Created": "2001-01-03T14:55:32Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 60,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-03T14:55:32Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/61",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "61",
+            "Created": "2001-01-03T15:01:46Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 61,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-03T15:01:46Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/62",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "62",
+            "Created": "2001-01-03T15:01:46Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 62,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-03T15:01:46Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/63",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "63",
+            "Created": "2001-01-03T15:03:52Z",
+            "EntryType": "Oem",
+            "Message": "Slot=12 Storage - Volume 1 status changed to ok",
+            "MessageArgs": [],
+            "MessageId": "19.33",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 33,
+                    "Count": 1,
+                    "EventNumber": 63,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x0021-gen10",
+                    "RecommendedAction": "1. Allow rebuild to complete\n2. Verify cables are seated\n3. Replace failed drive\n4. Install missing drive\n5. Replace incorrect drive",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-03T15:03:52Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/64",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "64",
+            "Created": "2001-01-03T15:08:04Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 64,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-03T15:08:04Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/65",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "65",
+            "Created": "2001-01-03T15:08:04Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 65,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-03T15:08:04Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/66",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "66",
+            "Created": "2001-01-03T15:08:25Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 66,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-03T15:08:25Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/67",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "67",
+            "Created": "2001-01-03T15:08:25Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 67,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-03T15:08:25Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/68",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "68",
+            "Created": "2001-01-03T15:25:07Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 68,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-03T15:25:07Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/69",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "69",
+            "Created": "2001-01-03T15:25:07Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 69,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-03T15:25:07Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/70",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "70",
+            "Created": "2001-01-04T06:47:28Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 70,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-04T06:47:28Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/71",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "71",
+            "Created": "2001-01-04T06:47:28Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 71,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-04T06:47:28Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/72",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "72",
+            "Created": "2001-01-04T10:09:53Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 72,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-04T10:09:53Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/73",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "73",
+            "Created": "2001-01-04T10:09:53Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 73,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-04T10:09:53Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/74",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "74",
+            "Created": "2001-01-04T10:17:51Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 74,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-04T10:17:51Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/75",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "75",
+            "Created": "2001-01-04T10:17:51Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 75,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-04T10:17:51Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/76",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "76",
+            "Created": "2001-01-04T10:18:57Z",
+            "EntryType": "Oem",
+            "Message": "Slot=12 Storage - Volume 1 status changed to ok",
+            "MessageArgs": [],
+            "MessageId": "19.33",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 33,
+                    "Count": 1,
+                    "EventNumber": 76,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x0021-gen10",
+                    "RecommendedAction": "1. Allow rebuild to complete\n2. Verify cables are seated\n3. Replace failed drive\n4. Install missing drive\n5. Replace incorrect drive",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-04T10:18:57Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/77",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "77",
+            "Created": "2001-01-05T03:36:09Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 77,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-05T03:36:09Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/78",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "78",
+            "Created": "2001-01-05T03:36:09Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 78,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-05T03:36:09Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/79",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "79",
+            "Created": "2001-01-05T03:42:24Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 79,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-05T03:42:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/80",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "80",
+            "Created": "2001-01-05T03:42:24Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 80,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-05T03:42:24Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/81",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "81",
+            "Created": "2001-01-05T03:43:25Z",
+            "EntryType": "Oem",
+            "Message": "Slot=12 Storage - Volume 1 status changed to ok",
+            "MessageArgs": [],
+            "MessageId": "19.33",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 19,
+                    "ClassDescription": "Drive Array",
+                    "Code": 33,
+                    "Count": 1,
+                    "EventNumber": 81,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x0021-gen10",
+                    "RecommendedAction": "1. Allow rebuild to complete\n2. Verify cables are seated\n3. Replace failed drive\n4. Install missing drive\n5. Replace incorrect drive",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-05T03:43:25Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/82",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "82",
+            "Created": "2001-01-05T03:47:41Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 82,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-05T03:47:41Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/83",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "83",
+            "Created": "2001-01-05T03:47:41Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 83,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-05T03:47:41Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/84",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "84",
+            "Created": "2001-01-05T03:48:04Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 84,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-05T03:48:04Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/85",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "85",
+            "Created": "2001-01-05T03:48:04Z",
+            "EntryType": "Oem",
+            "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
+            "MessageArgs": [],
+            "MessageId": "17.10",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Hardware"
+                    ],
+                    "Class": 17,
+                    "ClassDescription": "Network",
+                    "Code": 10,
+                    "Count": 1,
+                    "EventNumber": 85,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+                    "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+                    "Repaired": true,
+                    "Severity": "Repaired",
+                    "Updated": "2001-01-05T03:48:04Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 85
+}

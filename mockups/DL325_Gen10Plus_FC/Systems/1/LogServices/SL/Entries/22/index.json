@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"244DB0BD\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/22",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "22",
+    "Created": "2001-01-02T09:29:24Z",
+    "EntryType": "Oem",
+    "Message": "The security state of \"SNMPv1\" parameter on security dashboard is \"Risk\". State is \"Enabled\" and ignore option is \"False\".",
+    "MessageArgs": [],
+    "MessageId": "55.2",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration",
+                "Configuration"
+            ],
+            "Class": 55,
+            "ClassDescription": "Security Configuration",
+            "Code": 2,
+            "Count": 1,
+            "EventNumber": 22,
+            "RecommendedAction": "Refer to iLO user manual or  Security Dashboard help page.",
+            "Severity": "Critical",
+            "Updated": "2001-01-02T09:29:24Z",
+            "UserAction": "None"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "Critical"
+}

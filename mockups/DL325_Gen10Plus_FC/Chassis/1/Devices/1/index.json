@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"61D20157\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/1",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "1",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/2"
+        }
+    ],
+    "DeviceType": "LOM/NIC",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "16.35.40.30"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/1"
+        }
+    },
+    "Location": "PCI-E Slot 1",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "",
+    "Name": "Mellanox Network Adapter - 88:E9:A4:6B:F5:74",
+    "PartNumber": "",
+    "ProductPartNumber": "P13186-001               ",
+    "ProductVersion": "",
+    "SerialNumber": "ILC22001H7     ",
+    "Status": {
+        "Health": null,
+        "State": null
+    }
+}
