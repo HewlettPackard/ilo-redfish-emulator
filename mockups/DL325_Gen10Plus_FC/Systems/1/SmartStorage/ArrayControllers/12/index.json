@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageArrayController.HpeSmartStorageArrayController",
-    "@odata.etag": "W/\"C5B75496\"",
+    "@odata.etag": "W/\"ACACDDFD\"",
     "@odata.id": "/redfish/v1/Systems/1/SmartStorage/ArrayControllers/12",
     "@odata.type": "#HpeSmartStorageArrayController.v2_2_0.HpeSmartStorageArrayController",
     "Id": "12",
@@ -15,6 +15,7 @@
     "CurrentOperatingMode": "Mixed",
     "Description": "HPE Smart Storage Array Controller View",
     "DriveWriteCache": "Disabled",
+    "DualModeControllerSupported": true,
     "EncryptionCryptoOfficerPasswordSet": false,
     "EncryptionCspTestPassed": true,
     "EncryptionEnabled": false,

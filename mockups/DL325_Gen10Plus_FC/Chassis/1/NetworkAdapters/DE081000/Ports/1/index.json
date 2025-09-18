@@ -1,14 +1,64 @@
 {
-    "error": {
-        "code": "iLO.0.10.ExtendedInfo",
-        "message": "See @Message.ExtendedInfo for more information.",
-        "@Message.ExtendedInfo": [
-            {
-                "MessageArgs": [
-                    "5 (82,00,75)"
-                ],
-                "MessageId": "iLO.2.25.ResourceNotReadyRetry"
-            }
+    "@odata.context": "/redfish/v1/$metadata#Port.Port",
+    "@odata.etag": "W/\"F47686F2\"",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports/1",
+    "@odata.type": "#Port.v1_9_0.Port",
+    "Id": "1",
+    "@Redfish.Settings": {
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports/1/Settings"
+        }
+    },
+    "Actions": {
+        "#Port.Reset": {
+            "target": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports/1/Actions/Port.Reset"
+        }
+    },
+    "CurrentSpeedGbps": 32,
+    "Description": "Port status and active configuration data",
+    "Ethernet": {
+        "AssociatedMACAddresses": [
+            "51:40:2E:C0:18:22:21:A8"
         ]
-    }
+    },
+    "FunctionMaxBandwidth": [],
+    "FunctionMinBandwidth": [],
+    "LinkConfiguration": [
+        {
+            "CapableLinkSpeedGbps": [
+                32,
+                16,
+                8
+            ],
+            "ConfiguredNetworkLinks": [
+                {
+                    "ConfiguredLinkSpeedGbps": 32
+                },
+                {
+                    "ConfiguredLinkSpeedGbps": 16
+                },
+                {
+                    "ConfiguredLinkSpeedGbps": 8
+                }
+            ]
+        }
+    ],
+    "LinkNetworkTechnology": "FibreChannel",
+    "LinkStatus": "Up",
+    "Name": "Port",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeNetworkPort.HpeNetworkPort",
+            "@odata.type": "#HpeNetworkPort.v1_3_2.HpeNetworkPort",
+            "PortDiagnosticLocalLoopbackCapable": false,
+            "PortDiagnosticRemoteLoopbackCapable": false,
+            "PortDiagnosticsEnabled": false,
+            "VirtualFunctionAllocations": []
+        }
+    },
+    "PortId": "1",
+    "Settings": {
+        "href": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports/1/Settings"
+    },
+    "SignalDetected": true
 }

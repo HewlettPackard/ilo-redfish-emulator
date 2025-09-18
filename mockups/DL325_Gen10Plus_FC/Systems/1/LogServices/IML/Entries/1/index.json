@@ -1,34 +1,34 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"F65B1D7E\"",
+    "@odata.etag": "W/\"7F56671E\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/1",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "1",
-    "Created": "0000-00-00T00:00:00Z",
+    "Created": "2001-01-01T07:44:57Z",
     "EntryType": "Oem",
-    "Message": "Invalid Server Serial Number and Product ID - The Serial Number and/or Product ID have been corrupted or lost.",
+    "Message": "Slot 12 Storage - Drive at Port 1I Box 1 Bay 3 status changed to Erasing",
     "MessageArgs": [],
-    "MessageId": "10.642",
+    "MessageId": "19.20",
     "Name": "Integrated Management Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
             "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
             "Categories": [
-                "Administration"
+                "Hardware"
             ],
-            "Class": 10,
-            "ClassDescription": "UEFI",
-            "Code": 642,
+            "Class": 19,
+            "ClassDescription": "Drive Array",
+            "Code": 20,
             "Count": 1,
-            "EventNumber": 1,
-            "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x0282-gen10",
-            "RecommendedAction": "Enter the correct values for these fields in Platform Configuration (RBSU).",
+            "EventNumber": 38,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x0014-gen10",
+            "RecommendedAction": "1. Verify cables are good and fully seated.\n2. Ensure all drives are fully seated.\n3. Set drive to Unconfigured Good\n4. Verify backplane, controller, RAID config, and drive compatibility.\n5. Replace the defective drive.",
             "Repaired": false,
-            "Severity": "Caution",
-            "Updated": "0000-00-00T00:00:00Z"
+            "Severity": "Critical",
+            "Updated": "2001-01-01T07:44:57Z"
         }
     },
     "OemRecordFormat": "Hpe-IML",
-    "Severity": "Warning"
+    "Severity": "Critical"
 }

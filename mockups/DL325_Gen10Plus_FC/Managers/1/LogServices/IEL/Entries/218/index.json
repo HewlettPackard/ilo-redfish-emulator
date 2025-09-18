@@ -1,14 +1,14 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"16B6F441\"",
+    "@odata.etag": "W/\"B098AA01\"",
     "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/218",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "218",
-    "Created": "2001-01-05T04:12:04Z",
+    "Created": "2001-01-13T09:44:01Z",
     "EntryType": "Oem",
-    "Message": "Remote console session started by: ctobmaas - 172.22.245.18(DNS name not found).",
+    "Message": "Browser logout: ctobmaas - 172.22.245.13(DNS name not found).",
     "MessageArgs": [],
-    "MessageId": "35.1011",
+    "MessageId": "35.1018",
     "Name": "iLO Event Log",
     "Oem": {
         "Hpe": {
@@ -20,11 +20,11 @@
             ],
             "Class": 35,
             "ClassDescription": "iLO 5",
-            "Code": 1011,
-            "Count": 1,
-            "EventNumber": 9714,
+            "Code": 1018,
+            "Count": 41,
+            "EventNumber": 28078,
             "Severity": "Informational",
-            "Updated": "2001-01-05T04:12:04Z"
+            "Updated": "2001-01-13T09:44:59Z"
         }
     },
     "OemRecordFormat": "Hpe-iLOEventLog",

@@ -1,14 +1,17 @@
 {
-    "error": {
-        "code": "iLO.0.10.ExtendedInfo",
-        "message": "See @Message.ExtendedInfo for more information.",
-        "@Message.ExtendedInfo": [
-            {
-                "MessageArgs": [
-                    "5 (82,00,75)"
-                ],
-                "MessageId": "iLO.2.25.ResourceNotReadyRetry"
-            }
-        ]
-    }
+    "@odata.context": "/redfish/v1/$metadata#NetworkDeviceFunctionCollection.NetworkDeviceFunctionCollection",
+    "@odata.etag": "W/\"570254F2\"",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkDeviceFunctions",
+    "@odata.type": "#NetworkDeviceFunctionCollection.NetworkDeviceFunctionCollection",
+    "Description": "The collection of device functions available on this network controller.",
+    "Name": "Network Device Functions Collection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkDeviceFunctions/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkDeviceFunctions/2"
+        }
+    ],
+    "Members@odata.count": 2
 }

@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#ComputerSystem.ComputerSystem",
-    "@odata.etag": "W/\"B53EF523\"",
+    "@odata.etag": "W/\"0953A41C\"",
     "@odata.id": "/redfish/v1/Systems/1",
     "@odata.type": "#ComputerSystem.v1_17_0.ComputerSystem",
     "Id": "1",
@@ -28,6 +28,7 @@
             "@odata.id": "/redfish/v1/Systems/1/BootOptions"
         },
         "BootOrder": [
+            "Boot0021",
             "Boot001C",
             "Boot000E",
             "Boot0011",
@@ -40,11 +41,11 @@
             "Boot0018",
             "Boot0013",
             "Boot0014",
-            "Boot000F",
-            "Boot0010",
             "Boot001B",
             "Boot001D",
             "Boot001E",
+            "Boot000F",
+            "Boot0010",
             "Boot001F",
             "Boot0020"
         ],
@@ -67,7 +68,8 @@
         ],
         "UefiTargetBootSourceOverride": "None",
         "UefiTargetBootSourceOverride@Redfish.AllowableValues": [
-            "HD(1,GPT,026D2602-035F-4638-986D-B369D8C77621,0x800,0x12C000)/\\EFI\\redhat\\shimx64.efi",
+            "HD(1,GPT,82CE8D58-B6E9-474C-8E85-D0D9F0EA080C,0x800,0xFA000)/\\EFI\\Microsoft\\Boot\\bootmgfw.efi",
+            "HD(1,GPT,DEF3F9D5-0B80-454D-AAB6-B8128CAC22B5,0x800,0x12C000)/\\EFI\\redhat\\shimx64.efi",
             "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)",
             "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)/Scsi(0x2,0x0)",
             "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)/Scsi(0x3,0x0)",
@@ -79,13 +81,13 @@
             "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)/MAC(88E9A46BF574,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()",
             "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(6805CAF15866,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)",
             "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(6805CAF15866,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()",
-            "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x20310002AC02A8E5,0x1000000000000)",
-            "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x21310002AC02A8E5,0x1000000000000)",
+            "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x20310002AC02A8E5,0x0)",
+            "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x21310002AC02A8E5,0x0)",
+            "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)/Scsi(0x17B,0x0)",
             "PciRoot(0x0)/Pci(0x5,0x2)/Pci(0x0,0x4)/USB(0x1,0x0)",
             "PciRoot(0x0)/Pci(0x5,0x2)/Pci(0x0,0x4)/USB(0x2,0x0)",
-            "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x20310002AC02B40C,0x0)",
-            "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x21310002AC02B40C,0x0)",
-            "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)/Scsi(0x17B,0x0)"
+            "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x20310002AC02A8E5,0x1000000000000)",
+            "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x21310002AC02A8E5,0x1000000000000)"
         ]
     },
     "EthernetInterfaces": {
@@ -229,7 +231,7 @@
                 "UefiClass": 2
             },
             "CriticalTempRemainOff": false,
-            "CurrentPowerOnTimeSeconds": 1491,
+            "CurrentPowerOnTimeSeconds": 15249,
             "DeviceDiscoveryComplete": {
                 "AMSDeviceDiscovery": "NoAMS",
                 "DeviceDiscovery": "vMainDeviceDiscoveryComplete",
@@ -280,14 +282,14 @@
             },
             "PCAPartNumber": "P12579-004",
             "PCASerialNumber": "PZCHA0ARHGQ03P",
-            "PostDiscoveryCompleteTimeStamp": "2001-01-05T03:46:24Z",
+            "PostDiscoveryCompleteTimeStamp": "2001-01-13T06:10:11Z",
             "PostDiscoveryMode": null,
             "PostMode": null,
             "PostState": "FinishedPost",
             "PowerAllocationLimit": 1600,
             "PowerAutoOn": "Restore",
             "PowerOnDelay": "Minimum",
-            "PowerOnMinutes": 1129,
+            "PowerOnMinutes": 12393,
             "PowerRegulatorMode": "OSControl",
             "PowerRegulatorModesSupported": [
                 "OSControl",

@@ -1,31 +1,34 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"31978084\"",
+    "@odata.etag": "W/\"B65D39CC\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/49",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "49",
-    "Created": "2001-01-02T09:28:15Z",
+    "Created": "2001-01-05T04:17:04Z",
     "EntryType": "Oem",
-    "Message": "Firmware flashed (Online ROM Flash Firmware Package - HPE Integrated Lights-Out 5 3.14)",
+    "Message": "Slot 12 Storage - Drive at Port 1I Box 1 Bay 1 status changed to Erasing completed",
     "MessageArgs": [],
-    "MessageId": "32.2",
+    "MessageId": "19.20",
     "Name": "Integrated Management Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
             "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
             "Categories": [
-                "Administration"
+                "Hardware"
             ],
-            "Class": 32,
-            "ClassDescription": "System Revision",
-            "Code": 2,
+            "Class": 19,
+            "ClassDescription": "Drive Array",
+            "Code": 20,
             "Count": 1,
-            "EventNumber": 49,
-            "Severity": "Informational",
-            "Updated": "2001-01-02T09:28:15Z"
+            "EventNumber": 86,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x0014-gen10",
+            "RecommendedAction": "1. Verify cables are good and fully seated.\n2. Ensure all drives are fully seated.\n3. Set drive to Unconfigured Good\n4. Verify backplane, controller, RAID config, and drive compatibility.\n5. Replace the defective drive.",
+            "Repaired": false,
+            "Severity": "Critical",
+            "Updated": "2001-01-05T04:17:04Z"
         }
     },
     "OemRecordFormat": "Hpe-IML",
-    "Severity": "OK"
+    "Severity": "Critical"
 }

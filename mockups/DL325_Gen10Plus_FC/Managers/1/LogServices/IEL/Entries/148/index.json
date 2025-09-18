@@ -1,30 +1,30 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"86C50648\"",
+    "@odata.etag": "W/\"E5560E81\"",
     "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/148",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "148",
-    "Created": "2001-01-05T03:37:04Z",
+    "Created": "2001-01-13T09:05:51Z",
     "EntryType": "Oem",
-    "Message": "Server power removed.",
+    "Message": "Browser login: ctobmaas - 172.26.78.17(DNS name not found).",
     "MessageArgs": [],
-    "MessageId": "35.1",
+    "MessageId": "35.1017",
     "Name": "iLO Event Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
             "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
             "Categories": [
-                "Maintenance",
+                "Security",
                 "Administration"
             ],
             "Class": 35,
             "ClassDescription": "iLO 5",
-            "Code": 1,
+            "Code": 1017,
             "Count": 1,
-            "EventNumber": 9640,
+            "EventNumber": 28002,
             "Severity": "Informational",
-            "Updated": "2001-01-05T03:37:04Z"
+            "Updated": "2001-01-13T09:05:51Z"
         }
     },
     "OemRecordFormat": "Hpe-iLOEventLog",

@@ -1,14 +1,14 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"E1705954\"",
+    "@odata.etag": "W/\"CF47CB50\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/31",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "31",
-    "Created": "2001-01-01T06:28:13Z",
+    "Created": "2001-01-03T15:25:07Z",
     "EntryType": "Oem",
-    "Message": "Slot=12 Storage - Volume 1 status changed to ok",
+    "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
     "MessageArgs": [],
-    "MessageId": "19.33",
+    "MessageId": "17.10",
     "Name": "Integrated Management Log",
     "Oem": {
         "Hpe": {
@@ -17,16 +17,16 @@
             "Categories": [
                 "Hardware"
             ],
-            "Class": 19,
-            "ClassDescription": "Drive Array",
-            "Code": 33,
+            "Class": 17,
+            "ClassDescription": "Network",
+            "Code": 10,
             "Count": 1,
-            "EventNumber": 31,
-            "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x0021-gen10",
-            "RecommendedAction": "1. Allow rebuild to complete\n2. Verify cables are seated\n3. Replace failed drive\n4. Install missing drive\n5. Replace incorrect drive",
+            "EventNumber": 68,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+            "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
             "Repaired": true,
             "Severity": "Repaired",
-            "Updated": "2001-01-01T06:28:13Z"
+            "Updated": "2001-01-03T15:25:07Z"
         }
     },
     "OemRecordFormat": "Hpe-IML",

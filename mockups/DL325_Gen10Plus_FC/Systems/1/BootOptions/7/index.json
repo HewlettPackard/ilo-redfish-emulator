@@ -5,8 +5,8 @@
     "@odata.type": "#BootOption.v1_0_1.BootOption",
     "Id": "7",
     "Alias": "None",
-    "BootOptionReference": "Boot0015",
-    "DisplayName": "OCP Slot 10 Port 1 : Intel(R) Ethernet Network Adapter I350-T4 for OCP NIC 3.0 (HTTP(S) IPv4)",
+    "BootOptionReference": "Boot001A",
+    "DisplayName": "Slot 1 Port 1 : Mellanox Network Adapter - 88:E9:A4:6B:F5:74 (PXE IPv4)",
     "Name": "Boot Option",
-    "UefiDevicePath": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(6805CAF15866,0x1)/IPv4(0.0.0.0)/Uri()"
+    "UefiDevicePath": "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)/MAC(88E9A46BF574,0x1)/IPv4(0.0.0.0)"
 }

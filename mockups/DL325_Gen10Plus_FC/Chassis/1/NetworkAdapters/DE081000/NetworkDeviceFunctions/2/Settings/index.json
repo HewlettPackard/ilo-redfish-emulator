@@ -1,14 +1,108 @@
 {
-    "error": {
-        "code": "iLO.0.10.ExtendedInfo",
-        "message": "See @Message.ExtendedInfo for more information.",
-        "@Message.ExtendedInfo": [
+    "@odata.context": "/redfish/v1/$metadata#NetworkDeviceFunction.NetworkDeviceFunction",
+    "@odata.etag": "W/\"889CAFE2\"",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkDeviceFunctions/2/Settings",
+    "@odata.type": "#NetworkDeviceFunction.v1_5_0.NetworkDeviceFunction",
+    "Id": "Settings",
+    "@Redfish.Settings": {
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkDeviceFunctions/2/Settings"
+        }
+    },
+    "AssignablePhysicalNetworkPorts": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports/2"
+        }
+    ],
+    "AssignablePhysicalPorts": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkPorts/2"
+        }
+    ],
+    "BootMode": "FibreChannel",
+    "Description": "PCIe function status and pending configuration data",
+    "DeviceEnabled": true,
+    "FibreChannel": {
+        "BootTargets": [
             {
-                "MessageArgs": [
-                    "5 (82,00,75)"
-                ],
-                "MessageId": "iLO.2.25.ResourceNotReadyRetry"
+                "BootPriority": null,
+                "LUNID": null,
+                "WWPN": null
+            },
+            {
+                "BootPriority": null,
+                "LUNID": null,
+                "WWPN": null
+            },
+            {
+                "BootPriority": null,
+                "LUNID": null,
+                "WWPN": null
+            },
+            {
+                "BootPriority": null,
+                "LUNID": null,
+                "WWPN": null
+            },
+            {
+                "BootPriority": null,
+                "LUNID": null,
+                "WWPN": null
+            },
+            {
+                "BootPriority": null,
+                "LUNID": null,
+                "WWPN": null
+            },
+            {
+                "BootPriority": null,
+                "LUNID": null,
+                "WWPN": null
+            },
+            {
+                "BootPriority": null,
+                "LUNID": null,
+                "WWPN": null
             }
-        ]
+        ],
+        "PermanentWWNN": "51:40:2E:C0:18:22:21:AB",
+        "PermanentWWPN": "51:40:2E:C0:18:22:21:AA",
+        "WWNN": "51:40:2E:C0:18:22:21:AB",
+        "WWPN": "51:40:2E:C0:18:22:21:AA"
+    },
+    "Links": {
+        "PhysicalPortAssignment": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkPorts/2"
+        },
+        "PhysicalNetworkPortAssignment": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports/2"
+        }
+    },
+    "Name": "Network adapter PCIe function",
+    "NetDevFuncCapabilities": [
+        "FibreChannel"
+    ],
+    "NetDevFuncType": "FibreChannel",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeNetworkDeviceFunction.HpeNetworkDeviceFunction",
+            "@odata.type": "#HpeNetworkDeviceFunction.v1_2_1.HpeNetworkDeviceFunction",
+            "BootTargetSource": "UEFI",
+            "ConnectionID": "00000000-0000-0000-0000-000000000000",
+            "NetDevFuncCapabilities": [
+                "FibreChannel"
+            ],
+            "NetDevFuncType": "FibreChannel",
+            "SupportedFCBootTargetCount": 8
+        }
+    },
+    "PhysicalNetworkPortAssignment": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports/2"
+    },
+    "PhysicalPortAssignment": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkPorts/2"
+    },
+    "Settings": {
+        "href": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkDeviceFunctions/2/Settings"
     }
 }

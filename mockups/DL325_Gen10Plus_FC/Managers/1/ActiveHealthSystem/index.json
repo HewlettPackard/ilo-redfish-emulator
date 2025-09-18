@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeiLOActiveHealthSystem.HpeiLOActiveHealthSystem",
-    "@odata.etag": "W/\"281DC17C\"",
+    "@odata.etag": "W/\"59DB1875\"",
     "@odata.id": "/redfish/v1/Managers/1/ActiveHealthSystem",
     "@odata.type": "#HpeiLOActiveHealthSystem.v2_5_0.HpeiLOActiveHealthSystem",
     "Id": "ActiveHealthSystem",
@@ -28,16 +28,16 @@
     },
     "Links": {
         "AHSLocation": {
-            "extref": "/ahsdata/HPE_MXQ2290J5P_20010105.ahs?downloadAll=1"
+            "extref": "/ahsdata/HPE_MXQ2290J5P_20010113.ahs?downloadAll=1"
         },
         "RecentWeek": {
-            "extref": "/ahsdata/HPE_MXQ2290J5P_20010105.ahs?days=7"
+            "extref": "/ahsdata/HPE_MXQ2290J5P_20010113.ahs?days=7"
         },
         "InfoSight": {
-            "extref": "/ahsdata/HPE_MXQ2290J5P_20010105.ahs?minimalDL=1&&days=1"
+            "extref": "/ahsdata/HPE_MXQ2290J5P_20010113.ahs?minimalDL=1&&days=1"
         },
         "OneDaySlimAHS": {
-            "extref": "/ahsdata/HPE_MXQ2290J5P_20010105.ahs?minimalDL=1&&days=1"
+            "extref": "/ahsdata/HPE_MXQ2290J5P_20010113.ahs?minimalDL=1&&days=1"
         }
     },
     "LocationParameters": {

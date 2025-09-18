@@ -1,14 +1,14 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"26C4EE2E\"",
+    "@odata.etag": "W/\"ED7A4AA4\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/36",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "36",
-    "Created": "2001-01-01T07:44:57Z",
+    "Created": "2001-01-04T10:09:53Z",
     "EntryType": "Oem",
-    "Message": "Slot 12 Storage - Drive at Port 1I Box 1 Bay 1 status changed to Erasing completed",
+    "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
     "MessageArgs": [],
-    "MessageId": "19.20",
+    "MessageId": "17.10",
     "Name": "Integrated Management Log",
     "Oem": {
         "Hpe": {
@@ -17,18 +17,18 @@
             "Categories": [
                 "Hardware"
             ],
-            "Class": 19,
-            "ClassDescription": "Drive Array",
-            "Code": 20,
+            "Class": 17,
+            "ClassDescription": "Network",
+            "Code": 10,
             "Count": 1,
-            "EventNumber": 36,
-            "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x0014-gen10",
-            "RecommendedAction": "1. Verify cables are good and fully seated.\n2. Ensure all drives are fully seated.\n3. Set drive to Unconfigured Good\n4. Verify backplane, controller, RAID config, and drive compatibility.\n5. Replace the defective drive.",
-            "Repaired": false,
-            "Severity": "Critical",
-            "Updated": "2001-01-01T07:44:57Z"
+            "EventNumber": 73,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+            "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+            "Repaired": true,
+            "Severity": "Repaired",
+            "Updated": "2001-01-04T10:09:53Z"
         }
     },
     "OemRecordFormat": "Hpe-IML",
-    "Severity": "Critical"
+    "Severity": "OK"
 }

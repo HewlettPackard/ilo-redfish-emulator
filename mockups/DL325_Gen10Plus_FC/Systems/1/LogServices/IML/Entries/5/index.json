@@ -1,14 +1,14 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"6DFC55B3\"",
+    "@odata.etag": "W/\"12E051E3\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/5",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "5",
-    "Created": "2001-01-01T00:03:12Z",
+    "Created": "2001-01-01T08:18:13Z",
     "EntryType": "Oem",
-    "Message": "BatteryCharging (Slot=12) Redfish event from /redfish/v1/Systems/1/Storage/DE07A000/Controllers/0",
+    "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
     "MessageArgs": [],
-    "MessageId": "62.1",
+    "MessageId": "17.10",
     "Name": "Integrated Management Log",
     "Oem": {
         "Hpe": {
@@ -17,13 +17,16 @@
             "Categories": [
                 "Hardware"
             ],
-            "Class": 62,
-            "ClassDescription": "Redfish Device Enablement",
-            "Code": 1,
-            "Count": 14,
-            "EventNumber": 5,
-            "Severity": "Informational",
-            "Updated": "2001-01-02T02:36:56Z"
+            "Class": 17,
+            "ClassDescription": "Network",
+            "Code": 10,
+            "Count": 1,
+            "EventNumber": 42,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
+            "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+            "Repaired": true,
+            "Severity": "Repaired",
+            "Updated": "2001-01-01T08:18:13Z"
         }
     },
     "OemRecordFormat": "Hpe-IML",

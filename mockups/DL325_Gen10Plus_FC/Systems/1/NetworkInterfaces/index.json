@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#NetworkInterfaceCollection.NetworkInterfaceCollection",
-    "@odata.etag": "W/\"DD96C4F5\"",
+    "@odata.etag": "W/\"C321D970\"",
     "@odata.id": "/redfish/v1/Systems/1/NetworkInterfaces",
     "@odata.type": "#NetworkInterfaceCollection.NetworkInterfaceCollection",
     "Description": "The collection of network interfaces available in this system.",
@@ -9,9 +9,13 @@
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeNetworkInterfaceStatus.HpeNetworkInterfaceStatus",
             "@odata.type": "#HpeNetworkInterfaceStatus.v1_0_0.HpeNetworkInterfaceStatus",
-            "MemberContents": "AuxPowerDevices"
+            "MemberContents": "AllDevices"
         }
     },
-    "Members": [],
-    "Members@odata.count": 0
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/NetworkInterfaces/DE081000"
+        }
+    ],
+    "Members@odata.count": 1
 }

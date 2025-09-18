@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
-    "@odata.etag": "W/\"BDA4D38F\"",
+    "@odata.etag": "W/\"6165906D\"",
     "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm11",
     "@odata.type": "#Memory.v1_7_1.Memory",
     "Id": "proc1dimm11",
@@ -28,7 +28,7 @@
             "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt",
             "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt",
             "DIMMManufacturingDate": "",
-            "DIMMStatus": "Other",
+            "DIMMStatus": "NotPresent",
             "MinimumVoltageVoltsX10": 0,
             "PartNumber": "Unknown"
         }
@@ -39,6 +39,10 @@
     "PersistentRegionSizeLimitMiB": 0,
     "RankCount": null,
     "SecurityCapabilities": {},
+    "Status": {
+        "Health": "OK",
+        "State": "Absent"
+    },
     "VendorID": "0",
     "VolatileRegionSizeLimitMiB": 0,
     "VolatileSizeMiB": 0

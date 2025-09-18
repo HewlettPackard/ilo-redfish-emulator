@@ -1,31 +1,34 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"F55951AB\"",
+    "@odata.etag": "W/\"4AEAD751\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/52",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "52",
-    "Created": "2001-01-02T09:34:25Z",
+    "Created": "2001-01-05T04:17:04Z",
     "EntryType": "Oem",
-    "Message": "Firmware flashed (ROM Flash Universal Firmware Package - HPE ProLiant DL325/DL... 3.72_05-16-2025)",
+    "Message": "Slot 12 Storage - Drive at Port 1I Box 1 Bay 4 status changed to Erasing completed",
     "MessageArgs": [],
-    "MessageId": "32.2",
+    "MessageId": "19.20",
     "Name": "Integrated Management Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
             "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
             "Categories": [
-                "Administration"
+                "Hardware"
             ],
-            "Class": 32,
-            "ClassDescription": "System Revision",
-            "Code": 2,
+            "Class": 19,
+            "ClassDescription": "Drive Array",
+            "Code": 20,
             "Count": 1,
-            "EventNumber": 52,
-            "Severity": "Informational",
-            "Updated": "2001-01-02T09:34:25Z"
+            "EventNumber": 89,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x0014-gen10",
+            "RecommendedAction": "1. Verify cables are good and fully seated.\n2. Ensure all drives are fully seated.\n3. Set drive to Unconfigured Good\n4. Verify backplane, controller, RAID config, and drive compatibility.\n5. Replace the defective drive.",
+            "Repaired": false,
+            "Severity": "Critical",
+            "Updated": "2001-01-05T04:17:04Z"
         }
     },
     "OemRecordFormat": "Hpe-IML",
-    "Severity": "OK"
+    "Severity": "Critical"
 }

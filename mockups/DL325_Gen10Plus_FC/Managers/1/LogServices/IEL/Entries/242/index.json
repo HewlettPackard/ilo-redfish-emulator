@@ -1,32 +1,32 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"06631CC8\"",
+    "@odata.etag": "W/\"BA4C40FA\"",
     "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/242",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "242",
-    "Created": "2001-01-05T04:17:51Z",
+    "Created": "2001-01-13T09:55:00Z",
     "EntryType": "Oem",
-    "Message": "iLO reset by user diagnostics.",
+    "Message": "Browser logout: ctobmaas - 172.22.245.13(DNS name not found).",
     "MessageArgs": [],
-    "MessageId": "35.22",
+    "MessageId": "35.1018",
     "Name": "iLO Event Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
             "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
             "Categories": [
-                "Administration",
-                "Configuration"
+                "Security",
+                "Administration"
             ],
             "Class": 35,
             "ClassDescription": "iLO 5",
-            "Code": 22,
-            "Count": 1,
-            "EventNumber": 9738,
-            "Severity": "Caution",
-            "Updated": "2001-01-05T04:17:51Z"
+            "Code": 1018,
+            "Count": 31,
+            "EventNumber": 28104,
+            "Severity": "Informational",
+            "Updated": "2001-01-13T09:55:58Z"
         }
     },
     "OemRecordFormat": "Hpe-iLOEventLog",
-    "Severity": "Warning"
+    "Severity": "OK"
 }

@@ -1,24 +1,22 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"585C7962\"",
+    "@odata.etag": "W/\"1BDDC2B1\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/55",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "55",
-    "Created": "2001-01-05T03:47:49Z",
+    "Created": "2001-01-13T05:24:50Z",
     "EntryType": "Oem",
-    "EventId": "9a2160d4-0f69-d724-a284-71b6a8d6ff47",
-    "EventTimestamp": "2001-01-05T03:47:49Z",
+    "EventId": "e6ddf478-342f-a8d5-068c-5cd122679e39",
+    "EventTimestamp": "2001-01-13T05:24:50Z",
     "Links": {
         "OriginOfCondition": {
-            "@odata.id": "/redfish/v1/Systems/1"
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE07A000/Controllers/0"
         }
     },
     "MessageArgs": [
-        "NoAMS",
-        "vMainDeviceDiscoveryComplete",
-        "Busy"
+        "Slot=12"
     ],
-    "MessageId": "iLOEvents.3.16.DeviceDiscoveryStatusV2",
+    "MessageId": "StorageDevice.1.1.BatteryOK",
     "Name": "Event",
     "OemRecordFormat": "Hpe-Event",
     "Severity": "OK"

@@ -4,18 +4,18 @@
     "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/135",
     "@odata.type": "#PCIeDevice.v1_5_0.PCIeDevice",
     "Id": "135",
-    "FirmwareVersion": "16.35.40.30",
-    "Manufacturer": "",
+    "FirmwareVersion": "16.35.4030",
+    "Manufacturer": "Mellanox",
     "Model": "P13186-001               ",
-    "Name": "Mellanox Network Adapter - 88:E9:A4:6B:F5:74",
+    "Name": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter",
     "PCIeFunctions": {
         "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/135/PCIeFunctions"
     },
     "PartNumber": "P13186-001               ",
-    "SKU": "",
+    "SKU": "P16004-001",
     "SerialNumber": "ILC22001H7     ",
     "Status": {
-        "Health": null,
-        "State": null
+        "Health": "OK",
+        "State": "Enabled"
     }
 }

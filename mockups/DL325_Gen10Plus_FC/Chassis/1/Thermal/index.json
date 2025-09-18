@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#Thermal.Thermal",
-    "@odata.etag": "W/\"E7A807A0\"",
+    "@odata.etag": "W/\"062F699F\"",
     "@odata.id": "/redfish/v1/Chassis/1/Thermal",
     "@odata.type": "#Thermal.v1_7_1.Thermal",
     "Id": "Thermal",
@@ -19,11 +19,11 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "Reading": 0,
+            "Reading": 13,
             "ReadingUnits": "Percent",
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             }
         },
         {
@@ -43,8 +43,7 @@
             "Reading": 0,
             "ReadingUnits": "Percent",
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "State": "Absent"
             }
         },
         {
@@ -61,11 +60,11 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "Reading": 0,
+            "Reading": 13,
             "ReadingUnits": "Percent",
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             }
         },
         {
@@ -82,11 +81,11 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "Reading": 0,
+            "Reading": 13,
             "ReadingUnits": "Percent",
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             }
         },
         {
@@ -103,11 +102,11 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "Reading": 0,
+            "Reading": 13,
             "ReadingUnits": "Percent",
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             }
         },
         {
@@ -124,11 +123,11 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "Reading": 0,
+            "Reading": 13,
             "ReadingUnits": "Percent",
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             }
         },
         {
@@ -145,11 +144,11 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "Reading": 0,
+            "Reading": 13,
             "ReadingUnits": "Percent",
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             }
         },
         {
@@ -166,11 +165,11 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "Reading": 0,
+            "Reading": 13,
             "ReadingUnits": "Percent",
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             }
         }
     ],
@@ -200,11 +199,11 @@
                 }
             },
             "PhysicalContext": "Intake",
-            "ReadingCelsius": 0,
+            "ReadingCelsius": 20,
             "SensorNumber": 1,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 42,
             "UpperThresholdFatal": 47
@@ -222,11 +221,11 @@
                 }
             },
             "PhysicalContext": "CPU",
-            "ReadingCelsius": 0,
+            "ReadingCelsius": 40,
             "SensorNumber": 2,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 75,
             "UpperThresholdFatal": null
@@ -244,11 +243,11 @@
                 }
             },
             "PhysicalContext": "Memory",
-            "ReadingCelsius": 0,
+            "ReadingCelsius": 34,
             "SensorNumber": 3,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 88,
             "UpperThresholdFatal": null
@@ -266,11 +265,11 @@
                 }
             },
             "PhysicalContext": "Memory",
-            "ReadingCelsius": 0,
+            "ReadingCelsius": 37,
             "SensorNumber": 4,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 88,
             "UpperThresholdFatal": null
@@ -288,11 +287,11 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
+            "ReadingCelsius": 35,
             "SensorNumber": 5,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 60,
             "UpperThresholdFatal": null
@@ -313,10 +312,9 @@
             "ReadingCelsius": 0,
             "SensorNumber": 6,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "State": "Absent"
             },
-            "UpperThresholdCritical": 60,
+            "UpperThresholdCritical": null,
             "UpperThresholdFatal": null
         },
         {
@@ -332,11 +330,11 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
+            "ReadingCelsius": 43,
             "SensorNumber": 7,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 110,
             "UpperThresholdFatal": 115
@@ -354,11 +352,11 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
+            "ReadingCelsius": 37,
             "SensorNumber": 8,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 110,
             "UpperThresholdFatal": 115
@@ -376,11 +374,11 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
+            "ReadingCelsius": 42,
             "SensorNumber": 9,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 110,
             "UpperThresholdFatal": 115
@@ -398,11 +396,11 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
+            "ReadingCelsius": 33,
             "SensorNumber": 10,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 60,
             "UpperThresholdFatal": null
@@ -420,11 +418,11 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
+            "ReadingCelsius": 68,
             "SensorNumber": 11,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 110,
             "UpperThresholdFatal": 115
@@ -442,11 +440,11 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
+            "ReadingCelsius": 42,
             "SensorNumber": 12,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 80,
             "UpperThresholdFatal": 85
@@ -464,11 +462,11 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
+            "ReadingCelsius": 30,
             "SensorNumber": 13,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 70,
             "UpperThresholdFatal": 75
@@ -486,11 +484,11 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
+            "ReadingCelsius": 36,
             "SensorNumber": 14,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 65,
             "UpperThresholdFatal": 70
@@ -498,50 +496,6 @@
         {
             "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/14",
             "MemberId": "14",
-            "Name": "15-PCI 1",
-            "Oem": {
-                "Hpe": {
-                    "@odata.context": "/redfish/v1/$metadata#HpeSeaOfSensors.HpeSeaOfSensors",
-                    "@odata.type": "#HpeSeaOfSensors.v2_0_0.HpeSeaOfSensors",
-                    "LocationXmm": 14,
-                    "LocationYmm": 14
-                }
-            },
-            "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
-            "SensorNumber": 15,
-            "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
-            },
-            "UpperThresholdCritical": 100,
-            "UpperThresholdFatal": null
-        },
-        {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/15",
-            "MemberId": "15",
-            "Name": "16-PCI 2",
-            "Oem": {
-                "Hpe": {
-                    "@odata.context": "/redfish/v1/$metadata#HpeSeaOfSensors.HpeSeaOfSensors",
-                    "@odata.type": "#HpeSeaOfSensors.v2_0_0.HpeSeaOfSensors",
-                    "LocationXmm": 9,
-                    "LocationYmm": 14
-                }
-            },
-            "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
-            "SensorNumber": 16,
-            "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
-            },
-            "UpperThresholdCritical": 100,
-            "UpperThresholdFatal": null
-        },
-        {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/16",
-            "MemberId": "16",
             "Name": "17-PCI 3",
             "Oem": {
                 "Hpe": {
@@ -553,17 +507,16 @@
             },
             "PhysicalContext": "SystemBoard",
             "ReadingCelsius": 0,
-            "SensorNumber": 17,
+            "SensorNumber": 15,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "State": "Absent"
             },
-            "UpperThresholdCritical": 100,
+            "UpperThresholdCritical": null,
             "UpperThresholdFatal": null
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/17",
-            "MemberId": "17",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/15",
+            "MemberId": "15",
             "Name": "18-PCI 1 Zone",
             "Oem": {
                 "Hpe": {
@@ -574,18 +527,18 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
-            "SensorNumber": 18,
+            "ReadingCelsius": 36,
+            "SensorNumber": 16,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 70,
             "UpperThresholdFatal": 75
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/18",
-            "MemberId": "18",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/16",
+            "MemberId": "16",
             "Name": "20-PCI 3 Zone",
             "Oem": {
                 "Hpe": {
@@ -597,39 +550,16 @@
             },
             "PhysicalContext": "SystemBoard",
             "ReadingCelsius": 0,
-            "SensorNumber": 19,
+            "SensorNumber": 17,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "State": "Absent"
             },
-            "UpperThresholdCritical": 70,
-            "UpperThresholdFatal": 75
-        },
-        {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/19",
-            "MemberId": "19",
-            "Name": "21-HD Controller",
-            "Oem": {
-                "Hpe": {
-                    "@odata.context": "/redfish/v1/$metadata#HpeSeaOfSensors.HpeSeaOfSensors",
-                    "@odata.type": "#HpeSeaOfSensors.v2_0_0.HpeSeaOfSensors",
-                    "LocationXmm": 1,
-                    "LocationYmm": 10
-                }
-            },
-            "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
-            "SensorNumber": 20,
-            "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
-            },
-            "UpperThresholdCritical": 100,
+            "UpperThresholdCritical": null,
             "UpperThresholdFatal": null
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/20",
-            "MemberId": "20",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/17",
+            "MemberId": "17",
             "Name": "22-HD Cntlr Zone",
             "Oem": {
                 "Hpe": {
@@ -640,18 +570,18 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
-            "SensorNumber": 21,
+            "ReadingCelsius": 33,
+            "SensorNumber": 18,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 70,
             "UpperThresholdFatal": 75
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/21",
-            "MemberId": "21",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/18",
+            "MemberId": "18",
             "Name": "23-LOM Card",
             "Oem": {
                 "Hpe": {
@@ -663,17 +593,16 @@
             },
             "PhysicalContext": "SystemBoard",
             "ReadingCelsius": 0,
-            "SensorNumber": 22,
+            "SensorNumber": 19,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "State": "Absent"
             },
-            "UpperThresholdCritical": 92,
+            "UpperThresholdCritical": null,
             "UpperThresholdFatal": null
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/22",
-            "MemberId": "22",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/19",
+            "MemberId": "19",
             "Name": "24-Sys Exhaust",
             "Oem": {
                 "Hpe": {
@@ -684,18 +613,18 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
-            "SensorNumber": 23,
+            "ReadingCelsius": 44,
+            "SensorNumber": 20,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 70,
             "UpperThresholdFatal": 75
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/23",
-            "MemberId": "23",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/20",
+            "MemberId": "20",
             "Name": "25-Chipset Zone",
             "Oem": {
                 "Hpe": {
@@ -706,18 +635,18 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
-            "SensorNumber": 24,
+            "ReadingCelsius": 45,
+            "SensorNumber": 21,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 70,
             "UpperThresholdFatal": 75
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/24",
-            "MemberId": "24",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/21",
+            "MemberId": "21",
             "Name": "26-LOM Card Zone",
             "Oem": {
                 "Hpe": {
@@ -728,18 +657,18 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
-            "SensorNumber": 25,
+            "ReadingCelsius": 36,
+            "SensorNumber": 22,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 80,
             "UpperThresholdFatal": 85
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/25",
-            "MemberId": "25",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/22",
+            "MemberId": "22",
             "Name": "27-Battery Zone",
             "Oem": {
                 "Hpe": {
@@ -750,18 +679,18 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
-            "SensorNumber": 26,
+            "ReadingCelsius": 41,
+            "SensorNumber": 23,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 75,
             "UpperThresholdFatal": 80
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/26",
-            "MemberId": "26",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/23",
+            "MemberId": "23",
             "Name": "28-P/S 1 Inlet",
             "Oem": {
                 "Hpe": {
@@ -772,18 +701,18 @@
                 }
             },
             "PhysicalContext": "PowerSupply",
-            "ReadingCelsius": 0,
-            "SensorNumber": 27,
+            "ReadingCelsius": 35,
+            "SensorNumber": 24,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": null,
             "UpperThresholdFatal": null
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/27",
-            "MemberId": "27",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/24",
+            "MemberId": "24",
             "Name": "29-P/S 2 Inlet",
             "Oem": {
                 "Hpe": {
@@ -794,18 +723,18 @@
                 }
             },
             "PhysicalContext": "PowerSupply",
-            "ReadingCelsius": 0,
-            "SensorNumber": 28,
+            "ReadingCelsius": 37,
+            "SensorNumber": 25,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": null,
             "UpperThresholdFatal": null
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/28",
-            "MemberId": "28",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/25",
+            "MemberId": "25",
             "Name": "30-P/S 1",
             "Oem": {
                 "Hpe": {
@@ -816,18 +745,18 @@
                 }
             },
             "PhysicalContext": "PowerSupply",
-            "ReadingCelsius": 0,
-            "SensorNumber": 29,
+            "ReadingCelsius": 40,
+            "SensorNumber": 26,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": null,
             "UpperThresholdFatal": null
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/29",
-            "MemberId": "29",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/26",
+            "MemberId": "26",
             "Name": "31-P/S 2",
             "Oem": {
                 "Hpe": {
@@ -838,18 +767,18 @@
                 }
             },
             "PhysicalContext": "PowerSupply",
-            "ReadingCelsius": 0,
-            "SensorNumber": 30,
+            "ReadingCelsius": 42,
+            "SensorNumber": 27,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": null,
             "UpperThresholdFatal": null
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/30",
-            "MemberId": "30",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/27",
+            "MemberId": "27",
             "Name": "32-P/S Zone",
             "Oem": {
                 "Hpe": {
@@ -860,18 +789,18 @@
                 }
             },
             "PhysicalContext": "PowerSupply",
-            "ReadingCelsius": 0,
-            "SensorNumber": 31,
+            "ReadingCelsius": 40,
+            "SensorNumber": 28,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 75,
             "UpperThresholdFatal": 80
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/31",
-            "MemberId": "31",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/28",
+            "MemberId": "28",
             "Name": "34-AHCI HD Max",
             "Oem": {
                 "Hpe": {
@@ -883,17 +812,16 @@
             },
             "PhysicalContext": "SystemBoard",
             "ReadingCelsius": 0,
-            "SensorNumber": 32,
+            "SensorNumber": 29,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "State": "Absent"
             },
-            "UpperThresholdCritical": 60,
+            "UpperThresholdCritical": null,
             "UpperThresholdFatal": null
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/32",
-            "MemberId": "32",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/29",
+            "MemberId": "29",
             "Name": "35-VR P1Mem Zone",
             "Oem": {
                 "Hpe": {
@@ -904,18 +832,18 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
-            "SensorNumber": 33,
+            "ReadingCelsius": 35,
+            "SensorNumber": 30,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 115,
             "UpperThresholdFatal": 120
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/33",
-            "MemberId": "33",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/30",
+            "MemberId": "30",
             "Name": "36-PCI Zone",
             "Oem": {
                 "Hpe": {
@@ -926,18 +854,18 @@
                 }
             },
             "PhysicalContext": "SystemBoard",
-            "ReadingCelsius": 0,
-            "SensorNumber": 34,
+            "ReadingCelsius": 37,
+            "SensorNumber": 31,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": 70,
             "UpperThresholdFatal": 75
         },
         {
-            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/34",
-            "MemberId": "34",
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/31",
+            "MemberId": "31",
             "Name": "37-CPU 1 PkgTmp",
             "Oem": {
                 "Hpe": {
@@ -948,14 +876,182 @@
                 }
             },
             "PhysicalContext": "CPU",
-            "ReadingCelsius": 0,
-            "SensorNumber": 35,
+            "ReadingCelsius": 48,
+            "SensorNumber": 32,
             "Status": {
-                "Health": null,
-                "State": "UnavailableOffline"
+                "Health": "OK",
+                "State": "Enabled"
             },
             "UpperThresholdCritical": null,
             "UpperThresholdFatal": null
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/32",
+            "MemberId": "32",
+            "Name": "15.1-PCI 1-I/O module",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeSeaOfSensors.HpeSeaOfSensors",
+                    "@odata.type": "#HpeSeaOfSensors.v2_0_0.HpeSeaOfSensors",
+                    "LocationXmm": 14,
+                    "LocationYmm": 14,
+                    "MainSensorName": "15-PCI 1"
+                }
+            },
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 79,
+            "SensorNumber": 33,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 105,
+            "UpperThresholdFatal": 115,
+            "UpperThresholdNonCritical": 100
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/33",
+            "MemberId": "33",
+            "Name": "16.1-PCI 2-Network controller",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeSeaOfSensors.HpeSeaOfSensors",
+                    "@odata.type": "#HpeSeaOfSensors.v2_0_0.HpeSeaOfSensors",
+                    "LocationXmm": 9,
+                    "LocationYmm": 14,
+                    "MainSensorName": "16-PCI 2"
+                }
+            },
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 67,
+            "SensorNumber": 34,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 102,
+            "UpperThresholdFatal": 110,
+            "UpperThresholdNonCritical": 97
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/34",
+            "MemberId": "34",
+            "Name": "16.2-PCI 2-SFP+ (SFF-8432)",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeSeaOfSensors.HpeSeaOfSensors",
+                    "@odata.type": "#HpeSeaOfSensors.v2_0_0.HpeSeaOfSensors",
+                    "LocationXmm": 9,
+                    "LocationYmm": 14,
+                    "MainSensorName": "16-PCI 2"
+                }
+            },
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 52,
+            "SensorNumber": 34,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 75,
+            "UpperThresholdFatal": null,
+            "UpperThresholdNonCritical": 70
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/35",
+            "MemberId": "35",
+            "Name": "16.3-PCI 2-SFP+ (SFF-8432)",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeSeaOfSensors.HpeSeaOfSensors",
+                    "@odata.type": "#HpeSeaOfSensors.v2_0_0.HpeSeaOfSensors",
+                    "LocationXmm": 9,
+                    "LocationYmm": 14,
+                    "MainSensorName": "16-PCI 2"
+                }
+            },
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 52,
+            "SensorNumber": 34,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 75,
+            "UpperThresholdFatal": null,
+            "UpperThresholdNonCritical": 70
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/36",
+            "MemberId": "36",
+            "Name": "21.1-HD Controller-Add-in card",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeSeaOfSensors.HpeSeaOfSensors",
+                    "@odata.type": "#HpeSeaOfSensors.v2_0_0.HpeSeaOfSensors",
+                    "LocationXmm": 1,
+                    "LocationYmm": 10,
+                    "MainSensorName": "21-HD Controller"
+                }
+            },
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 46,
+            "SensorNumber": 35,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 80,
+            "UpperThresholdFatal": 85,
+            "UpperThresholdNonCritical": 75
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/37",
+            "MemberId": "37",
+            "Name": "21.2-HD Controller-I/O controlle",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeSeaOfSensors.HpeSeaOfSensors",
+                    "@odata.type": "#HpeSeaOfSensors.v2_0_0.HpeSeaOfSensors",
+                    "LocationXmm": 1,
+                    "LocationYmm": 10,
+                    "MainSensorName": "21-HD Controller"
+                }
+            },
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 56,
+            "SensorNumber": 35,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 103,
+            "UpperThresholdFatal": 108,
+            "UpperThresholdNonCritical": 98
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/Thermal#Temperatures/38",
+            "MemberId": "38",
+            "Name": "21.3-HD Controller-I/O controlle",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeSeaOfSensors.HpeSeaOfSensors",
+                    "@odata.type": "#HpeSeaOfSensors.v2_0_0.HpeSeaOfSensors",
+                    "LocationXmm": 1,
+                    "LocationYmm": 10,
+                    "MainSensorName": "21-HD Controller"
+                }
+            },
+            "PhysicalContext": "SystemBoard",
+            "ReadingCelsius": 48,
+            "SensorNumber": 35,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 78,
+            "UpperThresholdFatal": 83,
+            "UpperThresholdNonCritical": 73
         }
     ]
 }

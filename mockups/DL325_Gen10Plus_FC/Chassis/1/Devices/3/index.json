@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
-    "@odata.etag": "W/\"79FA7823\"",
+    "@odata.etag": "W/\"C83D0FA2\"",
     "@odata.id": "/redfish/v1/Chassis/1/Devices/3",
     "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
     "Id": "3",
@@ -24,12 +24,12 @@
     "MCTPProtocolDisabled": false,
     "Manufacturer": "",
     "Name": "HPE Smart Array P408i-a SR Gen10",
-    "PartNumber": "",
-    "ProductPartNumber": "",
-    "ProductVersion": "",
-    "SerialNumber": "",
+    "PartNumber": "871040-004",
+    "ProductPartNumber": "869103-004",
+    "ProductVersion": "B",
+    "SerialNumber": "PZXNE0BRHGU0AA ",
     "Status": {
-        "Health": null,
-        "State": null
+        "Health": "OK",
+        "State": "Enabled"
     }
 }

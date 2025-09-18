@@ -5,8 +5,8 @@
     "@odata.type": "#BootOption.v1_0_1.BootOption",
     "Id": "19",
     "Alias": "None",
-    "BootOptionReference": "Boot0020",
-    "DisplayName": "Storage Slot 12 : HPE Smart Array P408i-a SR Gen10 - 447.1 GiB, RAID1 Logical Drive 1(Target:379, Lun:0)",
+    "BootOptionReference": "Boot001F",
+    "DisplayName": "Slot 2 Port 1 : HPE SN1610Q 32Gb 2p FC HBA - FC - Fibre(WWN:20310002AC02A8E5,LUN:0000000000000001)/(3PARdataVV              9650)",
     "Name": "Boot Option",
-    "UefiDevicePath": "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)/Scsi(0x17B,0x0)"
+    "UefiDevicePath": "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x20310002AC02A8E5,0x1000000000000)"
 }

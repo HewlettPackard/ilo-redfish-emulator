@@ -1,23 +1,23 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"566E8E44\"",
+    "@odata.etag": "W/\"1ECE0B5C\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/38",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "38",
-    "Created": "2001-01-05T03:43:25Z",
+    "Created": "2001-01-13T05:19:42Z",
     "EntryType": "Oem",
-    "EventId": "9008335a-7d64-fcaa-8030-ac21b9d3894c",
-    "EventTimestamp": "2001-01-05T03:43:25Z",
+    "EventId": "fc8ece5f-8e60-2742-3279-bcc469524528",
+    "EventTimestamp": "2001-01-13T05:19:42Z",
     "Links": {
         "OriginOfCondition": {
-            "@odata.id": "/redfish/v1/Systems/1/Storage/DE07A000/Volumes/1"
+            "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/2#PhysicalPorts/1"
         }
     },
     "MessageArgs": [
         "1",
-        "Slot=12"
+        "2"
     ],
-    "MessageId": "StorageDevice.1.1.VolumeOK",
+    "MessageId": "iLOEvents.3.16.NicConnectivityRestored",
     "Name": "Event",
     "OemRecordFormat": "Hpe-Event",
     "Severity": "OK"

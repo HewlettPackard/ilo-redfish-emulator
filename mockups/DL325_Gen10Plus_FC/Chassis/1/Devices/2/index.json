@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
-    "@odata.etag": "W/\"C1885063\"",
+    "@odata.etag": "W/\"2DDC7AEC\"",
     "@odata.id": "/redfish/v1/Chassis/1/Devices/2",
     "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
     "Id": "2",
@@ -9,7 +9,7 @@
             "@odata.id": "/redfish/v1/Systems/1/PCIDevices/3"
         }
     ],
-    "DeviceType": "LOM/NIC",
+    "DeviceType": "Fibre Channel",
     "FirmwareVersion": {
         "Current": {
             "VersionString": "2.11.01"
@@ -22,14 +22,14 @@
     },
     "Location": "PCI-E Slot 2",
     "MCTPProtocolDisabled": false,
-    "Manufacturer": "",
-    "Name": "HPE SN1610Q 32Gb 2p FC HBA - FC",
-    "PartNumber": "",
+    "Manufacturer": "HPE",
+    "Name": "HPE SN1610Q 32Gb 2p FC HBA",
+    "PartNumber": "P14420-001",
     "ProductPartNumber": "R2E09A",
-    "ProductVersion": "",
+    "ProductVersion": "00",
     "SerialNumber": "MY540421JG",
     "Status": {
-        "Health": null,
-        "State": null
+        "Health": "OK",
+        "State": "Enabled"
     }
 }

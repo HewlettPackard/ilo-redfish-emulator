@@ -1,32 +1,29 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"D2AD358D\"",
+    "@odata.etag": "W/\"F55951AB\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/15",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "15",
-    "Created": "2001-01-01T02:21:58Z",
+    "Created": "2001-01-02T09:34:25Z",
     "EntryType": "Oem",
-    "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
+    "Message": "Firmware flashed (ROM Flash Universal Firmware Package - HPE ProLiant DL325/DL... 3.72_05-16-2025)",
     "MessageArgs": [],
-    "MessageId": "17.10",
+    "MessageId": "32.2",
     "Name": "Integrated Management Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
             "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
             "Categories": [
-                "Hardware"
+                "Administration"
             ],
-            "Class": 17,
-            "ClassDescription": "Network",
-            "Code": 10,
+            "Class": 32,
+            "ClassDescription": "System Revision",
+            "Code": 2,
             "Count": 1,
-            "EventNumber": 15,
-            "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
-            "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
-            "Repaired": true,
-            "Severity": "Repaired",
-            "Updated": "2001-01-01T02:21:58Z"
+            "EventNumber": 52,
+            "Severity": "Informational",
+            "Updated": "2001-01-02T09:34:25Z"
         }
     },
     "OemRecordFormat": "Hpe-IML",

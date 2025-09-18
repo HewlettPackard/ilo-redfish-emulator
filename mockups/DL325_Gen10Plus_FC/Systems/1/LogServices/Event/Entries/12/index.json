@@ -1,13 +1,13 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"2CC5A58C\"",
+    "@odata.etag": "W/\"9341CD6A\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/12",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "12",
-    "Created": "2001-01-05T03:36:01Z",
+    "Created": "2001-01-13T04:10:44Z",
     "EntryType": "Oem",
-    "EventId": "0cc46b0e-3b0f-337b-b6d3-405491d40487",
-    "EventTimestamp": "2001-01-05T03:36:01Z",
+    "EventId": "687a327b-3b9a-e69c-9b1c-2f5b18cc7a31",
+    "EventTimestamp": "2001-01-13T04:10:44Z",
     "Links": {
         "OriginOfCondition": {
             "@odata.id": "/redfish/v1/Systems/1/Storage/DE07A000/Controllers/0"

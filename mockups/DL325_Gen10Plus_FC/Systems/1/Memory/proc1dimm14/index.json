@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
-    "@odata.etag": "W/\"85965D54\"",
+    "@odata.etag": "W/\"E6EC3A2C\"",
     "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm14",
     "@odata.type": "#Memory.v1_7_1.Memory",
     "Id": "proc1dimm14",
@@ -34,7 +34,8 @@
                 "HpeSmartMemory"
             ],
             "BaseModuleType": "RDIMM",
-            "DIMMStatus": "Other",
+            "DIMMManufacturingDate": "2222",
+            "DIMMStatus": "GoodInUse",
             "MaxOperatingSpeedMTs": 3200,
             "MinimumVoltageVoltsX10": 12,
             "PartNumber": "P11442-191",
@@ -50,6 +51,10 @@
     "RankCount": 1,
     "SecurityCapabilities": {},
     "SerialNumber": "36B1018B",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
     "VendorID": "44288",
     "VolatileRegionSizeLimitMiB": 16384,
     "VolatileSizeMiB": 16384

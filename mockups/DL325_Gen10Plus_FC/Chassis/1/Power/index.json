@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#Power.Power",
-    "@odata.etag": "W/\"E01BA955\"",
+    "@odata.etag": "W/\"E76851F8\"",
     "@odata.id": "/redfish/v1/Chassis/1/Power",
     "@odata.type": "#Power.v1_3_0.Power",
     "Id": "Power",
@@ -10,7 +10,7 @@
             "@odata.context": "/redfish/v1/$metadata#HpePowerMetricsExt.HpePowerMetricsExt",
             "@odata.type": "#HpePowerMetricsExt.v2_4_1.HpePowerMetricsExt",
             "BrownoutRecoveryEnabled": true,
-            "HasCpuPowerMetering": false,
+            "HasCpuPowerMetering": true,
             "HasDimmPowerMetering": false,
             "HasGpuPowerMetering": false,
             "HasPowerMetering": true,
@@ -56,85 +56,85 @@
             "@odata.id": "/redfish/v1/Chassis/1/Power#PowerControl/0",
             "MemberId": "0",
             "PowerCapacityWatts": 1600,
-            "PowerConsumedWatts": 0,
+            "PowerConsumedWatts": 82,
             "PowerLimit": {
                 "LimitInWatts": null
             },
             "PowerMetrics": {
-                "AverageConsumedWatts": 0,
+                "AverageConsumedWatts": 80,
                 "IntervalInMin": 20,
-                "MaxConsumedWatts": 0,
-                "MinConsumedWatts": 0
+                "MaxConsumedWatts": 109,
+                "MinConsumedWatts": 79
             }
         }
     ],
     "PowerSupplies": [
         {
             "@odata.id": "/redfish/v1/Chassis/1/Power#PowerSupplies/0",
-            "FirmwareVersion": "0.00",
-            "LastPowerOutputWatts": 0,
-            "LineInputVoltage": 0,
-            "LineInputVoltageType": "Unknown",
-            "Manufacturer": null,
+            "FirmwareVersion": "2.00",
+            "LastPowerOutputWatts": 8,
+            "LineInputVoltage": 209,
+            "LineInputVoltageType": "ACHighLine",
+            "Manufacturer": "LTEON",
             "MemberId": "0",
-            "Model": null,
+            "Model": "P38995-B21",
             "Name": "HpeServerPowerSupply",
             "Oem": {
                 "Hpe": {
                     "@odata.context": "/redfish/v1/$metadata#HpeServerPowerSupply.HpeServerPowerSupply",
                     "@odata.type": "#HpeServerPowerSupply.v2_0_0.HpeServerPowerSupply",
-                    "AveragePowerOutputWatts": 0,
+                    "AveragePowerOutputWatts": 8,
                     "BayNumber": 1,
-                    "HotplugCapable": false,
-                    "MaxPowerOutputWatts": 0,
+                    "HotplugCapable": true,
+                    "MaxPowerOutputWatts": 12,
                     "Mismatched": false,
                     "PowerSupplyStatus": {
-                        "State": "Unknown"
+                        "State": "Ok"
                     },
                     "iPDUCapable": false
                 }
             },
-            "PowerCapacityWatts": 0,
+            "PowerCapacityWatts": 800,
             "PowerSupplyType": "AC",
-            "SerialNumber": null,
-            "SparePartNumber": "",
+            "SerialNumber": "5XLNV0KLLGCKA3",
+            "SparePartNumber": "P39385-001",
             "Status": {
-                "Health": "Warning",
-                "State": "Absent"
+                "Health": "OK",
+                "State": "Enabled"
             }
         },
         {
             "@odata.id": "/redfish/v1/Chassis/1/Power#PowerSupplies/1",
-            "FirmwareVersion": "0.00",
-            "LastPowerOutputWatts": 0,
-            "LineInputVoltage": 0,
-            "LineInputVoltageType": "Unknown",
-            "Manufacturer": null,
+            "FirmwareVersion": "2.00",
+            "LastPowerOutputWatts": 74,
+            "LineInputVoltage": 207,
+            "LineInputVoltageType": "ACHighLine",
+            "Manufacturer": "LTEON",
             "MemberId": "1",
-            "Model": null,
+            "Model": "P38995-B21",
             "Name": "HpeServerPowerSupply",
             "Oem": {
                 "Hpe": {
                     "@odata.context": "/redfish/v1/$metadata#HpeServerPowerSupply.HpeServerPowerSupply",
                     "@odata.type": "#HpeServerPowerSupply.v2_0_0.HpeServerPowerSupply",
-                    "AveragePowerOutputWatts": 0,
+                    "AveragePowerOutputWatts": 74,
                     "BayNumber": 2,
-                    "HotplugCapable": false,
-                    "MaxPowerOutputWatts": 0,
+                    "HotplugCapable": true,
+                    "MaxPowerOutputWatts": 87,
                     "Mismatched": false,
                     "PowerSupplyStatus": {
-                        "State": "Unknown"
+                        "State": "Ok"
                     },
                     "iPDUCapable": false
                 }
             },
-            "PowerCapacityWatts": 0,
+            "PowerCapacityWatts": 800,
             "PowerSupplyType": "AC",
-            "SerialNumber": null,
-            "SparePartNumber": "",
+            "SerialNumber": "5XLNV0KLLGCH77",
+            "SparePartNumber": "P39385-001",
             "Status": {
-                "Health": "Warning",
-                "State": "Absent"
+                "Health": "OK",
+                "State": "Enabled"
             }
         }
     ],

@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"27EB382F\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/118",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "118",
+    "Created": "2001-01-05T14:12:27Z",
+    "EntryType": "Oem",
+    "Message": "BatteryOK (Slot=12) Redfish event from /redfish/v1/Systems/1/Storage/DE07A000/Controllers/0",
+    "MessageArgs": [],
+    "MessageId": "62.1",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 62,
+            "ClassDescription": "Redfish Device Enablement",
+            "Code": 1,
+            "Count": 4,
+            "EventNumber": 155,
+            "Severity": "Informational",
+            "Updated": "2001-01-13T05:24:50Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

@@ -1,14 +1,17 @@
 {
-    "error": {
-        "code": "iLO.0.10.ExtendedInfo",
-        "message": "See @Message.ExtendedInfo for more information.",
-        "@Message.ExtendedInfo": [
-            {
-                "MessageArgs": [
-                    "5 (82,00,75)"
-                ],
-                "MessageId": "iLO.2.25.ResourceNotReadyRetry"
-            }
-        ]
-    }
+    "@odata.context": "/redfish/v1/$metadata#PortCollection.PortCollection",
+    "@odata.etag": "W/\"570254F2\"",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports",
+    "@odata.type": "#PortCollection.PortCollection",
+    "Description": "Network Adapter Port Configuration and Status",
+    "Name": "Network Adapter Port Collection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports/2"
+        }
+    ],
+    "Members@odata.count": 2
 }

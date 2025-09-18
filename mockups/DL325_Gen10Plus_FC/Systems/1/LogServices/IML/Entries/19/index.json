@@ -1,14 +1,14 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"5A444DE9\"",
+    "@odata.etag": "W/\"2919BA43\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/19",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "19",
-    "Created": "2001-01-01T02:37:46Z",
+    "Created": "2001-01-02T09:40:17Z",
     "EntryType": "Oem",
-    "Message": "Embedded Flexible LOM 0 SAN Error - SAN link is down. SAN connection not possible.",
+    "Message": "Firmware flashed (Firmware Package  - HPE Smart Array P408i-p, P408e-p, P408i-... 7.43)",
     "MessageArgs": [],
-    "MessageId": "10.9216",
+    "MessageId": "32.2",
     "Name": "Integrated Management Log",
     "Oem": {
         "Hpe": {
@@ -17,18 +17,15 @@
             "Categories": [
                 "Administration"
             ],
-            "Class": 10,
-            "ClassDescription": "UEFI",
-            "Code": 9216,
-            "Count": 3,
-            "EventNumber": 19,
-            "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x2400-gen10",
-            "RecommendedAction": "Check switch and SAN configuration, then reconnect the ports or reboot the server.",
-            "Repaired": false,
-            "Severity": "Caution",
-            "Updated": "2001-01-01T02:42:34Z"
+            "Class": 32,
+            "ClassDescription": "System Revision",
+            "Code": 2,
+            "Count": 1,
+            "EventNumber": 56,
+            "Severity": "Informational",
+            "Updated": "2001-01-02T09:40:17Z"
         }
     },
     "OemRecordFormat": "Hpe-IML",
-    "Severity": "Warning"
+    "Severity": "OK"
 }

@@ -1,13 +1,13 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"09052BE0\"",
+    "@odata.etag": "W/\"3CB6487C\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/16",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "16",
-    "Created": "2001-01-05T03:36:09Z",
+    "Created": "2001-01-13T04:10:52Z",
     "EntryType": "Oem",
-    "EventId": "82aecf3c-ef0a-bd5f-2da0-95de199fbf87",
-    "EventTimestamp": "2001-01-05T03:36:09Z",
+    "EventId": "04dafd3a-c93d-ea09-ca65-376d92990d0a",
+    "EventTimestamp": "2001-01-13T04:10:52Z",
     "Links": {
         "OriginOfCondition": {
             "@odata.id": "/redfish/v1/Systems/1/BaseNetworkAdapters/2#PhysicalPorts/1"

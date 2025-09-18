@@ -1,12 +1,12 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"914A6BBA\"",
+    "@odata.etag": "W/\"94259C04\"",
     "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/128",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "128",
-    "Created": "2001-01-05T03:16:50Z",
+    "Created": "2001-01-13T08:52:56Z",
     "EntryType": "Oem",
-    "Message": "Browser logout: ctobmaas - 172.22.245.15(DNS name not found).",
+    "Message": "Browser logout: ctobmaas - 172.26.78.17(DNS name not found).",
     "MessageArgs": [],
     "MessageId": "35.1018",
     "Name": "iLO Event Log",
@@ -22,9 +22,9 @@
             "ClassDescription": "iLO 5",
             "Code": 1018,
             "Count": 1,
-            "EventNumber": 9620,
+            "EventNumber": 27980,
             "Severity": "Informational",
-            "Updated": "2001-01-05T03:16:50Z"
+            "Updated": "2001-01-13T08:52:56Z"
         }
     },
     "OemRecordFormat": "Hpe-iLOEventLog",

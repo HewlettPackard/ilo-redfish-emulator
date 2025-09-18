@@ -1,31 +1,30 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"89E97B96\"",
+    "@odata.etag": "W/\"0C26AAB8\"",
     "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/168",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "168",
-    "Created": "2001-01-05T03:43:54Z",
+    "Created": "2001-01-13T09:20:08Z",
     "EntryType": "Oem",
-    "Message": "Power-On signal sent to host server by: ctobmaas.",
+    "Message": "Browser logout: ctobmaas - 172.26.78.17(DNS name not found).",
     "MessageArgs": [],
-    "MessageId": "35.141",
+    "MessageId": "35.1018",
     "Name": "iLO Event Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
             "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
             "Categories": [
-                "Maintenance",
-                "Administration",
-                "Power"
+                "Security",
+                "Administration"
             ],
             "Class": 35,
             "ClassDescription": "iLO 5",
-            "Code": 141,
-            "Count": 1,
-            "EventNumber": 9662,
+            "Code": 1018,
+            "Count": 15,
+            "EventNumber": 28026,
             "Severity": "Informational",
-            "Updated": "2001-01-05T03:43:54Z"
+            "Updated": "2001-01-13T09:20:15Z"
         }
     },
     "OemRecordFormat": "Hpe-iLOEventLog",

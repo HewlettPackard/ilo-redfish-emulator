@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#MemoryCollection.MemoryCollection",
-    "@odata.etag": "W/\"110EA33B\"",
+    "@odata.etag": "W/\"C687E11B\"",
     "@odata.id": "/redfish/v1/Systems/1/Memory",
     "@odata.type": "#MemoryCollection.MemoryCollection",
     "Description": "Memory DIMM Collection",
@@ -10,7 +10,7 @@
             "@odata.context": "/redfish/v1/$metadata#HpeAdvancedMemoryProtection.HpeAdvancedMemoryProtection",
             "@odata.type": "#HpeAdvancedMemoryProtection.v2_0_0.HpeAdvancedMemoryProtection",
             "AmpModeActive": "AdvancedECC",
-            "AmpModeStatus": "Unknown",
+            "AmpModeStatus": "AdvancedECC",
             "AmpModeSupported": [
                 "AdvancedECC"
             ],

@@ -1,29 +1,30 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"FB2C29BC\"",
+    "@odata.etag": "W/\"F77D1D63\"",
     "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/119",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "119",
-    "Created": "2001-01-05T03:00:51Z",
+    "Created": "2001-01-13T08:47:37Z",
     "EntryType": "Oem",
-    "Message": "iLO network link up at 1000 Mbps.",
+    "Message": "Browser login: ctobmaas - 172.26.78.17(DNS name not found).",
     "MessageArgs": [],
-    "MessageId": "35.74",
+    "MessageId": "35.1017",
     "Name": "iLO Event Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
             "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
             "Categories": [
-                "Other"
+                "Security",
+                "Administration"
             ],
             "Class": 35,
             "ClassDescription": "iLO 5",
-            "Code": 74,
-            "Count": 2,
-            "EventNumber": 9607,
+            "Code": 1017,
+            "Count": 15,
+            "EventNumber": 27971,
             "Severity": "Informational",
-            "Updated": "2001-01-05T03:32:00Z"
+            "Updated": "2001-01-13T08:47:44Z"
         }
     },
     "OemRecordFormat": "Hpe-iLOEventLog",

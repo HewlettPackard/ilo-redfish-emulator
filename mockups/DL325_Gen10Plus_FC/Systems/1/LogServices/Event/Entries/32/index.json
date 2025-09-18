@@ -1,13 +1,13 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"583F62C4\"",
+    "@odata.etag": "W/\"C345AA5D\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/32",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "32",
-    "Created": "2001-01-05T03:42:24Z",
+    "Created": "2001-01-13T05:19:26Z",
     "EntryType": "Oem",
-    "EventId": "0ca2d7e6-6376-34ed-21fa-954e16b7eabd",
-    "EventTimestamp": "2001-01-05T03:42:24Z",
+    "EventId": "ee17ad0e-2888-fadf-b368-7f730f287994",
+    "EventTimestamp": "2001-01-13T05:19:26Z",
     "Links": {
         "OriginOfCondition": {
             "@odata.id": "/redfish/v1/Systems/1"
@@ -15,7 +15,7 @@
     },
     "MessageArgs": [
         "NoAMS",
-        "vMainDeviceDiscoveryComplete",
+        "Busy",
         "Busy"
     ],
     "MessageId": "iLOEvents.3.16.DeviceDiscoveryStatusV2",

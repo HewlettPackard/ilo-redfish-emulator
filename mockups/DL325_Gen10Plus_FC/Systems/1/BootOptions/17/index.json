@@ -5,8 +5,8 @@
     "@odata.type": "#BootOption.v1_0_1.BootOption",
     "Id": "17",
     "Alias": "None",
-    "BootOptionReference": "Boot001E",
-    "DisplayName": "Slot 2 Port 1 : HPE SN1610Q 32Gb 2p FC HBA - FC - Fibre(WWN:20310002AC02B40C,LUN:0000000000000000)/(3PARdataVV              9650)",
+    "BootOptionReference": "Boot000F",
+    "DisplayName": "iLO Virtual USB 3 : iLO Virtual CD-ROM",
     "Name": "Boot Option",
-    "UefiDevicePath": "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x20310002AC02B40C,0x0)"
+    "UefiDevicePath": "PciRoot(0x0)/Pci(0x5,0x2)/Pci(0x0,0x4)/USB(0x1,0x0)"
 }

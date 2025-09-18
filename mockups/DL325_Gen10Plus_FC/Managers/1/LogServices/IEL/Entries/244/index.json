@@ -1,14 +1,14 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"7756B115\"",
+    "@odata.etag": "W/\"6E0541EE\"",
     "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/244",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "244",
-    "Created": "2001-01-05T04:18:24Z",
+    "Created": "2001-01-13T09:56:00Z",
     "EntryType": "Oem",
-    "Message": "The overall security state of the system is at \"Risk\".",
+    "Message": "Browser logout: ctobmaas - 172.22.245.13(DNS name not found).",
     "MessageArgs": [],
-    "MessageId": "35.1169",
+    "MessageId": "35.1018",
     "Name": "iLO Event Log",
     "Oem": {
         "Hpe": {
@@ -16,19 +16,17 @@
             "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
             "Categories": [
                 "Security",
-                "Administration",
-                "Configuration"
+                "Administration"
             ],
             "Class": 35,
             "ClassDescription": "iLO 5",
-            "Code": 1169,
-            "Count": 1,
-            "EventNumber": 9740,
-            "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
-            "Severity": "Caution",
-            "Updated": "2001-01-05T04:18:24Z"
+            "Code": 1018,
+            "Count": 31,
+            "EventNumber": 28106,
+            "Severity": "Informational",
+            "Updated": "2001-01-13T09:56:58Z"
         }
     },
     "OemRecordFormat": "Hpe-iLOEventLog",
-    "Severity": "Warning"
+    "Severity": "OK"
 }

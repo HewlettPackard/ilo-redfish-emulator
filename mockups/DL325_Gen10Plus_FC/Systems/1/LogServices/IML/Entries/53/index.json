@@ -1,29 +1,29 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"CFC1A0E5\"",
+    "@odata.etag": "W/\"ACB87A01\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/53",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "53",
-    "Created": "2001-01-02T09:36:20Z",
+    "Created": "2001-01-05T04:17:06Z",
     "EntryType": "Oem",
-    "Message": "Firmware flashed (Success : Device in slot 1 : active fw [16.35.3006], pending fw [16.35.4030])",
+    "Message": "DriveOffline (Slot=12:Port=1I:Box=1:Bay=3) Redfish event from /redfish/v1/Systems/1/Storage/DE07A000/Drives/2",
     "MessageArgs": [],
-    "MessageId": "32.2",
+    "MessageId": "62.1",
     "Name": "Integrated Management Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
             "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
             "Categories": [
-                "Administration"
+                "Hardware"
             ],
-            "Class": 32,
-            "ClassDescription": "System Revision",
-            "Code": 2,
-            "Count": 1,
-            "EventNumber": 53,
+            "Class": 62,
+            "ClassDescription": "Redfish Device Enablement",
+            "Code": 1,
+            "Count": 4,
+            "EventNumber": 90,
             "Severity": "Informational",
-            "Updated": "2001-01-02T09:36:20Z"
+            "Updated": "2001-01-05T10:22:28Z"
         }
     },
     "OemRecordFormat": "Hpe-IML",

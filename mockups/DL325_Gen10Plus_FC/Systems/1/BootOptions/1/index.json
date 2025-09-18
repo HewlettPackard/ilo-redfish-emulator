@@ -5,8 +5,8 @@
     "@odata.type": "#BootOption.v1_0_1.BootOption",
     "Id": "1",
     "Alias": "None",
-    "BootOptionReference": "Boot001C",
-    "DisplayName": "Red Hat Enterprise Linux",
+    "BootOptionReference": "Boot0021",
+    "DisplayName": "Windows Boot Manager",
     "Name": "Boot Option",
-    "UefiDevicePath": "HD(1,GPT,026D2602-035F-4638-986D-B369D8C77621,0x800,0x12C000)/\\EFI\\redhat\\shimx64.efi"
+    "UefiDevicePath": "HD(1,GPT,82CE8D58-B6E9-474C-8E85-D0D9F0EA080C,0x800,0xFA000)/\\EFI\\Microsoft\\Boot\\bootmgfw.efi"
 }

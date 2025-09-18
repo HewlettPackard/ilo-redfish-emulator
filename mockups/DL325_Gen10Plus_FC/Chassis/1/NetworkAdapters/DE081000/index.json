@@ -1,14 +1,160 @@
 {
-    "error": {
-        "code": "iLO.0.10.ExtendedInfo",
-        "message": "See @Message.ExtendedInfo for more information.",
-        "@Message.ExtendedInfo": [
-            {
-                "MessageArgs": [
-                    "5 (81,00,75)"
+    "@odata.context": "/redfish/v1/$metadata#NetworkAdapter.NetworkAdapter",
+    "@odata.etag": "W/\"55CBA48C\"",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000",
+    "@odata.type": "#NetworkAdapter.v1_5_0.NetworkAdapter",
+    "Id": "DE081000",
+    "@Redfish.Settings": {
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Settings"
+        }
+    },
+    "Actions": {
+        "#NetworkAdapter.ResetSettingsToDefault": {
+            "target": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Actions/NetworkAdapter.ResetSettingsToDefault",
+            "title": "Reset network adapter configuration to factory default values."
+        }
+    },
+    "Controllers": [
+        {
+            "ControllerCapabilities": {
+                "DataCenterBridging": {
+                    "Capable": false
+                },
+                "NPIV": {
+                    "MaxDeviceLogins": 256,
+                    "MaxPortLogins": 128
+                },
+                "NetworkDeviceFunctionCount": 2,
+                "NetworkPortCount": 2
+            },
+            "FirmwarePackageVersion": "2.11.01",
+            "Links": {
+                "NetworkDeviceFunctions": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkDeviceFunctions/1"
+                    },
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkDeviceFunctions/2"
+                    }
                 ],
-                "MessageId": "iLO.2.25.ResourceNotReadyRetry"
+                "NetworkPorts": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkPorts/1"
+                    },
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkPorts/2"
+                    }
+                ],
+                "Ports": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports/1"
+                    },
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports/2"
+                    }
+                ]
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 2,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "PCI-E Slot 2"
+                }
             }
-        ]
+        }
+    ],
+    "Description": "Device capabilities and characteristics with active configuration status",
+    "Manufacturer": "Hewlett Packard Enterprise",
+    "Model": "HPE SN1610Q 32Gb 2p FC HBA",
+    "Name": "HPE SN1610Q 32Gb 2p FC HBA",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkDeviceFunctions"
+    },
+    "NetworkPorts": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/NetworkPorts"
+    },
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeNetworkAdapter.HpeNetworkAdapter",
+            "@odata.type": "#HpeNetworkAdapter.v1_3_0.HpeNetworkAdapter",
+            "Actions": {
+                "#HpeNetworkAdapter.FlushConfigurationToNVM": {
+                    "target": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Actions/Oem/Hpe/HpeNetworkAdapter.FlushConfigurationToNVM",
+                    "title": "Force a save of current network adapter configuration to non-volatile storage."
+                },
+                "#NetworkAdapter.FlushConfigurationToNVM": {
+                    "target": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Actions/Oem/Hpe/NetworkAdapter.FlushConfigurationToNVM",
+                    "title": "NOTE: Deprecated, will be removed in a future release. Replaced by HpeNetworkAdapter.FlushConfigurationToNVM. Force a save of current network adapter configuration to non-volatile storage."
+                }
+            },
+            "CLPVersion": "",
+            "Controllers": [
+                {
+                    "ConfigurationStatus": {
+                        "Detail": [
+                            {
+                                "Group": 6,
+                                "SubGroup": 0,
+                                "Summary": 0
+                            },
+                            {
+                                "Group": 8,
+                                "SubGroup": 1,
+                                "Summary": 0
+                            },
+                            {
+                                "Group": 8,
+                                "SubGroup": 2,
+                                "Summary": 0
+                            },
+                            {
+                                "Group": 15,
+                                "SubGroup": 0,
+                                "Summary": 0
+                            },
+                            {
+                                "Group": 15,
+                                "SubGroup": 1,
+                                "Summary": 0
+                            },
+                            {
+                                "Group": 34,
+                                "SubGroup": 1,
+                                "Summary": 0
+                            },
+                            {
+                                "Group": 34,
+                                "SubGroup": 2,
+                                "Summary": 0
+                            }
+                        ],
+                        "Summary": 869593167
+                    },
+                    "DeviceLimitationsBitmap": 0,
+                    "FunctionTypeLimits": [],
+                    "FunctionTypes": [
+                        "FibreChannel"
+                    ],
+                    "MostRecentConfigurationChangeSource": "None",
+                    "RDMASupport": [
+                        "None"
+                    ],
+                    "UnderlyingDataSource": "DCi"
+                }
+            ],
+            "FactoryDefaultsActuationBehavior": "AtNextReboot",
+            "PCAVersion": "R2E09-63001",
+            "RedfishConfiguration": "Disabled"
+        }
+    },
+    "PartNumber": "R2E09A",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Ports"
+    },
+    "SKU": "SN1610Q",
+    "SerialNumber": "MY540421JG",
+    "Settings": {
+        "href": "/redfish/v1/Chassis/1/NetworkAdapters/DE081000/Settings"
     }
 }

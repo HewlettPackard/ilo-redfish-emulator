@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeBiosMapping.HpeBiosMapping",
-    "@odata.etag": "W/\"56B2864C416E99999911ADDE8AF13CE3\"",
+    "@odata.etag": "W/\"9AE1801746104D4D4D36FC46E20D2164\"",
     "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/mappings/",
     "@odata.type": "#HpeBiosMapping.v2_0_0.HpeBiosMapping",
     "BiosPciSettingsMappings": [
@@ -81,6 +81,13 @@
             "Subinstances": [
                 {
                     "Associations": [
+                        "Slot1NicBoot2"
+                    ],
+                    "CorrelatableID": "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x1)",
+                    "Subinstance": 2
+                },
+                {
+                    "Associations": [
                         {
                             "PreBootNetwork": "Slot1NicPort1"
                         },
@@ -88,13 +95,6 @@
                     ],
                     "CorrelatableID": "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)",
                     "Subinstance": 1
-                },
-                {
-                    "Associations": [
-                        "Slot1NicBoot2"
-                    ],
-                    "CorrelatableID": "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x1)",
-                    "Subinstance": 2
                 }
             ]
         },

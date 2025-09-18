@@ -1,25 +1,20 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"076A9EDF\"",
+    "@odata.etag": "W/\"DD57E1B1\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/48",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "48",
-    "Created": "2001-01-05T03:47:26Z",
+    "Created": "2001-01-13T05:21:16Z",
     "EntryType": "Oem",
-    "EventId": "617f839e-01ec-545a-a0fd-bc5450baee9b",
-    "EventTimestamp": "2001-01-05T03:47:26Z",
+    "EventId": "e99b4121-a9bd-d6e6-d5da-db055564861e",
+    "EventTimestamp": "2001-01-13T05:21:16Z",
     "Links": {
         "OriginOfCondition": {
             "@odata.id": "/redfish/v1/Systems/1"
         }
     },
-    "MessageArgs": [
-        "NoAMS",
-        "vMainDeviceDiscoveryComplete",
-        "Busy"
-    ],
-    "MessageId": "iLOEvents.3.16.DeviceDiscoveryStatusV2",
+    "MessageId": "iLOEvents.3.16.ServerResetDetected",
     "Name": "Event",
     "OemRecordFormat": "Hpe-Event",
-    "Severity": "OK"
+    "Severity": "Warning"
 }

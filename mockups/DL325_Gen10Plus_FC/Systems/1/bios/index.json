@@ -13,7 +13,7 @@
         "Time": null
     },
     "@odata.context": "/redfish/v1/$metadata#Bios.Bios",
-    "@odata.etag": "W/\"7D5D2377945A6A6A6AC8ECD23546AD14\"",
+    "@odata.etag": "W/\"D11AF86CEAD65F5F5FC0B39E593DE31E\"",
     "@odata.id": "/redfish/v1/systems/1/bios/",
     "@odata.type": "#Bios.v1_0_4.Bios",
     "Actions": {
@@ -140,7 +140,22 @@
         "NumaGroupSizeOpt": "Flat",
         "NumaMemoryDomainsPerSocket": "Auto",
         "NvmeOptionRom": "Enabled",
+        "NvmePort1": "Nvme",
+        "NvmePort10": "Nvme",
+        "NvmePort11": "Nvme",
+        "NvmePort12": "Nvme",
+        "NvmePort13": "Nvme",
+        "NvmePort14": "Nvme",
+        "NvmePort15": "Nvme",
+        "NvmePort16": "Nvme",
+        "NvmePort2": "Nvme",
         "NvmePort3": "Nvme",
+        "NvmePort4": "Nvme",
+        "NvmePort5": "Nvme",
+        "NvmePort6": "Nvme",
+        "NvmePort7": "Nvme",
+        "NvmePort8": "Nvme",
+        "NvmePort9": "Nvme",
         "NvmeRaid": "Disabled",
         "Ocp1AuxiliaryPower": "Enabled",
         "OmitBootDeviceEvent": "Disabled",
@@ -309,7 +324,7 @@
                 }
             },
             "SettingsObject": {
-                "UnmodifiedETag": "W/\"616849ACC260F5F5F5F97A8E850447CD\""
+                "UnmodifiedETag": "W/\"E7C389596C576F6F6F9B31F064582920\""
             }
         }
     }

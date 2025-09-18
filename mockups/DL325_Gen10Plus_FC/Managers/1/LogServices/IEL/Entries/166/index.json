@@ -1,29 +1,30 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"CA2F9D46\"",
+    "@odata.etag": "W/\"4BC946B7\"",
     "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/166",
     "@odata.type": "#LogEntry.v1_11_0.LogEntry",
     "Id": "166",
-    "Created": "2001-01-05T03:43:52Z",
+    "Created": "2001-01-13T09:19:56Z",
     "EntryType": "Oem",
-    "Message": "Scriptable virtual media inserted by: ctobmaas.",
+    "Message": "Browser logout: ctobmaas - 172.26.78.17(DNS name not found).",
     "MessageArgs": [],
-    "MessageId": "35.168",
+    "MessageId": "35.1018",
     "Name": "iLO Event Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
             "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
             "Categories": [
+                "Security",
                 "Administration"
             ],
             "Class": 35,
             "ClassDescription": "iLO 5",
-            "Code": 168,
-            "Count": 2,
-            "EventNumber": 9660,
+            "Code": 1018,
+            "Count": 1,
+            "EventNumber": 28024,
             "Severity": "Informational",
-            "Updated": "2001-01-05T03:43:52Z"
+            "Updated": "2001-01-13T09:19:56Z"
         }
     },
     "OemRecordFormat": "Hpe-iLOEventLog",
