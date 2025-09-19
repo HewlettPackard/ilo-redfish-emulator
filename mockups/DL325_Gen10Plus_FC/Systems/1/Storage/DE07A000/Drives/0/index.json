@@ -1,66 +1,76 @@
 {
-    "@odata.id": "/redfish/v1/Systems/1/Storage/DE07A000/Drives/0",
-    "@odata.type": "#Drive.v1_18_0.Drive",
-    "@Redfish.WriteableProperties": [
-        "LocationIndicatorActive",
-        "HotspareType"
+  "@odata.id": "/redfish/v1/Systems/1/Storage/DE07A000/Drives/0",
+  "@odata.type": "#Drive.v1_18_0.Drive",
+  "@Redfish.WriteableProperties": [
+    "LocationIndicatorActive",
+    "WriteCacheEnabled",
+    "HotspareType"
+  ],
+  "Actions": {
+    "#Drive.SecureErase": {
+      "target": "/redfish/v1/Systems/1/Storage/DE07A000/Drives/0/Actions/Drive.SecureErase"
+    }
+  },
+  "Id": "0",
+  "Name": "480GB 6G SATA SSD",
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK",
+    "Conditions": []
+  },
+  "LocationIndicatorActive": false,
+  "Model": "VK000480GZCNE",
+  "Revision": "HPG3",
+  "SlotCapableProtocols": [
+    "SAS",
+    "SATA"
+  ],
+  "FirmwareVersion": "HPG3",
+  "Protocol": "SATA",
+  "MediaType": "SSD",
+  "CapacityBytes": 480103981056,
+  "BlockSizeBytes": 512,
+  "SerialNumber": "BJB1N8180I2202454",
+  "FailurePredicted": false,
+  "PredictedMediaLifeLeftPercent": 100.0,
+  "StatusIndicator": "OK",
+  "Identifiers": [
+    {
+      "DurableName": "31402EC0197F9650",
+      "DurableNameFormat": "NAA"
+    }
+  ],
+  "DriveFormFactor": "Drive2_5",
+  "PhysicalLocation": {
+    "PartLocation": {
+      "LocationType": "Bay",
+      "ServiceLabel": "Slot=12:Port=1I:Box=1:Bay=1",
+      "LocationOrdinalValue": 1
+    }
+  },
+  "HotspareType": "None",
+  "HotspareType@Redfish.AllowableValues": [
+    "None"
+  ],
+  "EncryptionAbility": "None",
+  "WriteCacheEnabled": false,
+  "CapableSpeedGbs": 6.0,
+  "NegotiatedSpeedGbs": 6.0,
+  "Operations": [],
+  "Multipath": false,
+  "Links": {
+    "Volumes@odata.count": 1,
+    "Volumes": [
+      {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/DE07A000/Volumes/65"
+      }
     ],
-    "Id": "0",
-    "Name": "480GB 6G SATA SSD",
-    "Status": {
-        "State": "Enabled",
-        "Health": "OK",
-        "Conditions": []
-    },
-    "LocationIndicatorActive": false,
-    "Model": "VK000480GZCNE",
-    "Revision": "HPG3",
-    "SlotCapableProtocols": [
-        "SAS",
-        "SATA"
-    ],
-    "FirmwareVersion": "HPG3",
-    "Protocol": "SATA",
-    "MediaType": "SSD",
-    "CapacityBytes": 480103981056,
-    "BlockSizeBytes": 512,
-    "SerialNumber": "BJB1N8180I2202454",
-    "FailurePredicted": false,
-    "PredictedMediaLifeLeftPercent": 100.0,
-    "StatusIndicator": "OK",
-    "Identifiers": [
-        {
-            "DurableName": "31402EC0197F9650",
-            "DurableNameFormat": "NAA"
-        }
-    ],
-    "DriveFormFactor": "Drive2_5",
-    "PhysicalLocation": {
-        "PartLocation": {
-            "LocationType": "Bay",
-            "ServiceLabel": "Slot=12:Port=1I:Box=1:Bay=1",
-            "LocationOrdinalValue": 1
-        }
-    },
-    "HotspareType": "None",
-    "HotspareType@Redfish.AllowableValues": [
-        "None"
-    ],
-    "EncryptionAbility": "None",
-    "WriteCacheEnabled": false,
-    "CapableSpeedGbs": 6.0,
-    "NegotiatedSpeedGbs": 6.0,
-    "Operations": [],
-    "Multipath": false,
-    "Links": {
-        "Volumes@odata.count": 0,
-        "Volumes": [],
-        "Storage": {
-            "@odata.id": "/redfish/v1/Systems/1/Storage/DE07A000"
-        }
-    },
-    "Metrics": {
-        "@odata.id": "/redfish/v1/Systems/1/Storage/DE07A000/Drives/0/Metrics"
-    },
-    "@odata.etag": "\"28BF0723\""
+    "Storage": {
+      "@odata.id": "/redfish/v1/Systems/1/Storage/DE07A000"
+    }
+  },
+  "Metrics": {
+    "@odata.id": "/redfish/v1/Systems/1/Storage/DE07A000/Drives/0/Metrics"
+  },
+  "@odata.etag": "\"CDE234C6\""
 }

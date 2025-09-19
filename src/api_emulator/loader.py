@@ -51,7 +51,8 @@ from .redfish.manager_network_protocol_api import ManagerNetworkProtocolAPI, Cre
 from .redfish.manager_vmedia_api import (VirtualMediaAPI, VirtualMediaEjectAPI, VirtualMediaInsertAPI,
                                          CreateVirtualMedia)
 from .redfish.system_storage_api import (SystemStorageAPI, InitStorage)
-from .redfish.system_storage_instance_api import (SystemStorageInstanceAPI, InitSystemStorageInstance)
+from .redfish.system_storage_instance_api import (SystemStorageInstanceAPI, InitSystemStorageInstance,
+                                                  StorageDriveSecureEraseActionAPI, SystemStorageDriveAPI)
 from .redfish.system_storage_volume_api import (StorageVolumeCollectionAPI, InitVolumes, StorageVolumeAPI)
 
 import api_emulator.redfish.power_control_api as generic_power
@@ -491,7 +492,7 @@ class Loader:
                     found_system_storage = True
                     storage_id = storage_member['@odata.id'].replace('/redfish/v1/Systems/%s/Storage/' % system_id, '')
                     storage_inst = self.resource_dictionary.get_resource('Systems/%s/Storage/%s' % (system_id, storage_id))
-                    InitSystemStorageInstance(system_id, storage_id, storage_inst)
+                    InitSystemStorageInstance(self.resource_dictionary, system_id, storage_id, storage_inst)
                     volumes = self.resource_dictionary.get_resource('Systems/%s/Storage/%s/Volumes' % (system_id, storage_id))
                     InitVolumes(self.resource_dictionary, storage_id, volumes)
         except:
@@ -500,6 +501,8 @@ class Loader:
         if found_system_storage:
             g.api.add_resource(SystemStorageAPI, '/redfish/v1/Systems/<string:system_id>/Storage')
             g.api.add_resource(SystemStorageInstanceAPI, '/redfish/v1/Systems/<string:system_id>/Storage/<string:storage_id>')
+            g.api.add.resource(SystemStorageDriveAPI, '/redfish/v1/Systems/<string:system_id>/Storage/<string:storage_id>/Drives/<string:drive_id>')
+            g.api.add.resource(StorageDriveSecureEraseActionAPI, '/redfish/v1/Systems/<string:system_id>/Storage/<string:storage_id>/Drives/<string:drive_id>/Actions/Drive.SecureErase')
             g.api.add_resource(StorageVolumeCollectionAPI, '/redfish/v1/Systems/<string:system_id>/Storage/<string:storage_id>/Volumes')
             g.api.add_resource(StorageVolumeAPI, '/redfish/v1/Systems/<string:system_id>/Storage/<string:storage_id>/Volumes/<string:volume_id>')
 
