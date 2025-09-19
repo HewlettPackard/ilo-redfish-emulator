@@ -1,6 +1,6 @@
 {
-    "@Redfish.Copyright": "Copyright 2014-2023 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2023 Distributed Management Task Force. All rights reserved.",
-    "@odata.type": "#MessageRegistry.v1_6_0.MessageRegistry",
+    "@Redfish.Copyright": "Copyright 2014-2019 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
+    "@odata.type": "#MessageRegistry.v1_2_0.MessageRegistry",
     "Description": "This registry defines the messages for task related events.",
     "Id": "TaskEvents.1.0.0",
     "Language": "en",
@@ -8,7 +8,6 @@
         "TaskAborted": {
             "Description": "The task with id %1 has been aborted.",
             "Message": "The task with id %1 has been aborted.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 1,
             "ParamTypes": [
                 "string"
@@ -19,7 +18,6 @@
         "TaskCancelled": {
             "Description": "The task with id %1 has been cancelled.",
             "Message": "The task with id %1 has been cancelled.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 1,
             "ParamTypes": [
                 "string"
@@ -30,7 +28,6 @@
         "TaskCompletedOK": {
             "Description": "The task with id %1 has completed.",
             "Message": "The task with id %1 has completed.",
-            "MessageSeverity": "OK",
             "NumberOfArgs": 1,
             "ParamTypes": [
                 "string"
@@ -41,7 +38,6 @@
         "TaskCompletedWarning": {
             "Description": "The task with id %1 has completed with warnings.",
             "Message": "The task with id %1 has completed with warnings.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 1,
             "ParamTypes": [
                 "string"
@@ -52,7 +48,6 @@
         "TaskPaused": {
             "Description": "The task with id %1 has been paused.",
             "Message": "The task with id %1 has been paused.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 1,
             "ParamTypes": [
                 "string"
@@ -63,7 +58,6 @@
         "TaskProgessChanged": {
             "Description": "The task with id %1 has changed to progress %2 percent complete.",
             "Message": "The task with id %1 has changed to progress %2 percent complete.",
-            "MessageSeverity": "OK",
             "NumberOfArgs": 2,
             "ParamTypes": [
                 "string",
@@ -75,7 +69,6 @@
         "TaskRemoved": {
             "Description": "The task with id %1 has been removed.",
             "Message": "The task with id %1 has been removed.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 1,
             "ParamTypes": [
                 "string"
@@ -86,7 +79,6 @@
         "TaskResumed": {
             "Description": "The task with id %1 has been resumed.",
             "Message": "The task with id %1 has been resumed.",
-            "MessageSeverity": "OK",
             "NumberOfArgs": 1,
             "ParamTypes": [
                 "string"
@@ -97,7 +89,6 @@
         "TaskStarted": {
             "Description": "The task with id %1 has started.",
             "Message": "The task with id %1 has started.",
-            "MessageSeverity": "OK",
             "NumberOfArgs": 1,
             "ParamTypes": [
                 "string"
@@ -109,5 +100,5 @@
     "Name": "Task Event Message Registry",
     "OwningEntity": "DMTF",
     "RegistryPrefix": "TaskEvent",
-    "RegistryVersion": "1.1.0"
+    "RegistryVersion": "1.0.0"
 }

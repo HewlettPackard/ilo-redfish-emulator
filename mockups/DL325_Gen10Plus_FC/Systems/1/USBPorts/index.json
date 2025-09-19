@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeUSBPortsCollection.HpeUSBPortsCollection",
-    "@odata.etag": "W/\"21C260DB\"",
+    "@odata.etag": "W/\"C4D3BA70\"",
     "@odata.id": "/redfish/v1/Systems/1/USBPorts",
     "@odata.type": "#HpeUSBPortsCollection.HpeUSBPortsCollection",
     "Description": "USB Port Connectors View",
@@ -35,7 +35,13 @@
         },
         {
             "@odata.id": "/redfish/v1/Systems/1/USBPorts/10"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/USBPorts/11"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/USBPorts/12"
         }
     ],
-    "Members@odata.count": 10
+    "Members@odata.count": 12
 }

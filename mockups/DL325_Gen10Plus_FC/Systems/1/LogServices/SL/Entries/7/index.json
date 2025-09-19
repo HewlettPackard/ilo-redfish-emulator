@@ -1,35 +1,31 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"D1079CF9\"",
+    "@odata.etag": "W/\"3952267A\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/7",
-    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
     "Id": "7",
-    "Created": "2001-01-01T06:05:31Z",
+    "Created": "2020-09-11T21:15:48Z",
     "EntryType": "Oem",
-    "Message": "The overall security state of the system is at \"Risk\".",
-    "MessageArgs": [],
-    "MessageId": "55.5",
+    "Message": "iLO detected 3 unauthorized login attempts.",
     "Name": "Security Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
-            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
             "Categories": [
                 "Security",
-                "Administration",
-                "Configuration"
+                "Administration"
             ],
-            "Class": 55,
-            "ClassDescription": "Security Configuration",
-            "Code": 5,
+            "Class": 56,
+            "ClassDescription": "Denial of Service",
+            "Code": 2,
             "Count": 1,
-            "EventNumber": 7,
-            "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
-            "Severity": "Caution",
-            "Updated": "2001-01-01T06:05:31Z",
-            "UserAction": "None"
+            "EventNumber": 28,
+            "Severity": "Informational",
+            "Updated": "2020-09-11T21:15:48Z",
+            "UserAction": "Not Applicable"
         }
     },
     "OemRecordFormat": "Hpe-SL",
-    "Severity": "Warning"
+    "Severity": "OK"
 }

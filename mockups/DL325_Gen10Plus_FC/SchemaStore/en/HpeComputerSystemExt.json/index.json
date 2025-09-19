@@ -165,62 +165,6 @@
                     "ResetType"
                 ],
                 "type": "object"
-            },
-            "ComputerSystem.SetSimpleUpdateStatus": {
-                "additionalProperties": false,
-                "properties": {
-                    "Action": {
-                        "description": "The Action to be performed.",
-                        "enum": [
-                            "ComputerSystem.SetSimpleUpdateStatus"
-                        ],
-                        "type": "string"
-                    },
-                    "TaskState": {
-                        "description": "TaskState identifies the type of Action to be performed.",
-                        "enum": [
-                            "New",
-                            "Starting",
-                            "Running",
-                            "Suspended",
-                            "Interrupted",
-                            "Pending",
-                            "Stopping",
-                            "Completed",
-                            "Killed",
-                            "Exception",
-                            "Service"
-                        ],
-                        "type": "string"
-                    },
-                    "PercentComplete": {
-                        "description": "Percentage of task complete",
-                        "readonly": false,
-                        "minimum": 0,
-                        "maximum": 100,
-                        "type": "integer"
-                    },
-                    "Message": {
-                        "type": "string",
-                        "readonly": true,
-                        "description": "Message to be displayed"
-                    },
-                    "TaskStatus": {
-                        "type": "string",
-                        "readonly": true,
-                        "description": "Current status of the ongoing task",
-                        "enum": [
-                            "Ok",
-                            "Warning",
-                            "Critical"
-                        ]
-                    }
-                },
-                "required": [
-                    "Action",
-                    "TaskState"
-                ],
-                "type": "object"
             }
         },
         "description": "The allowed custom actions."
@@ -421,55 +365,6 @@
                         }
                     },
                     "type": "object"
-                },
-                "#ComputerSystem.SetSimpleUpdateStatus": {
-                    "additionalProperties": false,
-                    "properties": {
-                        "TaskState@Redfish.AllowableValues": {
-                            "description": "The supported values for the TaskState parameter.",
-                            "items": {
-                                "description": "TaskState identifies the type of Action to be performed.",
-                                "enum": [
-                                    "New",
-                                    "Starting",
-                                    "Running",
-                                    "Suspended",
-                                    "Interrupted",
-                                    "Pending",
-                                    "Stopping",
-                                    "Completed",
-                                    "Killed",
-                                    "Exception",
-                                    "Service"
-                                ],
-                                "type": "string"
-                            },
-                            "longDescription": "The supported values for the TaskState parameter.",
-                            "type": "array",
-                            "uniqueItems": true
-                        },
-                        "target": {
-                            "description": "Link to invoke action",
-                            "type": "string"
-                        },
-                        "title": {
-                            "description": "Friendly action name",
-                            "type": "string"
-                        },
-                        "PercentComplete": {
-                            "description": "Percentage of task complete",
-                            "readonly": false,
-                            "minimum": 0,
-                            "maximum": 100,
-                            "type": "integer"
-                        },
-                        "Message": {
-                            "type": "string",
-                            "readonly": true,
-                            "description": "Message to be displayed"
-                        }
-                    },
-                    "type": "object"
                 }
             },
             "type": "object"
@@ -491,26 +386,6 @@
                     "etag": true,
                     "readonly": true,
                     "type": "string"
-                },
-                "AggregateServerHealth": {
-                    "description": "This represents the overall health state",
-                    "enum": [
-                        null,
-                        "OK",
-                        "Warning",
-                        "Critical"
-                    ],
-                    "enumDescriptions": {
-                        "Critical": "A critical condition exists that requires immediate attention",
-                        "OK": "Normal",
-                        "Warning": "A condition exists that requires attention"
-                    },
-                    "longDescription": "This property shall represent the overall health state of the server, encompassing all the health state of individual sub system.",
-                    "readonly": true,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
                 },
                 "BiosOrHardwareHealth": {
                     "additionalProperties": false,
@@ -809,12 +684,6 @@
                         "string",
                         "null"
                     ]
-                },
-                "ServerFirmwareInventoryComplete": {
-                    "description": "Indicates the Server Firmware Inventory scanning is Complete.",
-                    "etag": true,
-                    "readonly": true,
-                    "type": "boolean"
                 }
             },
             "readonly": true,
@@ -842,22 +711,6 @@
             "etag": true,
             "readonly": true,
             "type": "integer"
-        },
-        "HealthCntl": {
-            "description": "Set the Health of the system.",
-            "enum": [
-                null,
-                "OK",
-                "Caution",
-                "Critical",
-                "Release"
-            ],
-            "etag": true,
-            "readonly": false,
-            "type": [
-                "string",
-                "null"
-            ]
         },
         "HostOS": {
             "descripton": "Describes the running host operating system.  This is visible only if Agentless Management Service is currently running and these values are valid.",
@@ -951,17 +804,13 @@
                 },
                 "PCIDevices": {
                     "description": "A reference to the PCI devices associated with this system.",
-                    "items": {
-                        "properties": {
-                            "@odata.id": {
-                                "$ref": "Resource.json#/definitions/odataid"
-                            }
-                        },
-                        "readonly": true,
-                        "type": "object"
+                    "properties": {
+                        "@odata.id": {
+                            "$ref": "Resource.json#/definitions/odataid"
+                        }
                     },
                     "readonly": true,
-                    "type": "array"
+                    "type": "object"
                 },
                 "PCISlots": {
                     "description": "A reference to the PCI slots associated with this system.",
@@ -1190,15 +1039,6 @@
             },
             "readonly": true,
             "type": "array"
-        },
-        "ServerPowerAutoOn": {
-            "description": "Indicated to power ON server after management processor reset.",
-            "etag": true,
-            "readonly": false,
-            "type": [
-                "boolean",
-                "null"
-            ]
         },
         "ProcessorJitterControl": {
             "description": "Describes the various options to perform Jitter Control of the processor",
@@ -1522,147 +1362,9 @@
                 "string",
                 "null"
             ]
-        },
-        "IntegrationConfig": {
-            "description": "Time out value for ESXio to report boot success or failure",
-            "additionalProperties": false,
-            "etag": true,
-            "properties": {
-                "OsReadyTimeout": {
-                    "minimum": 0,
-                    "readonly": false,
-                    "type": "integer"
-                }
-            },
-            "readonly": false,
-            "type": "object"
-        },
-        "EnabledSystemCapabilities": {
-            "description": "",
-            "items": {
-                "description": "Indicates SmartNIC DPU supports OS-triggered DPC",
-                "enum": [
-                    "OSTriggeredDPC"
-                ],
-                "readonly": true,
-                "type": [
-                    "string",
-                    "null"
-                ]
-            },
-            "readonly": true,
-            "type": "array"
-        },
-        "AvailableSystemCapabilities": {
-            "description": "",
-            "items": {
-                "description": "Indicates SmartNIC DPU supports OS-triggered DPC",
-                "enum": [
-                    "OSTriggeredDPC"
-                ],
-                "readonly": true,
-                "type": [
-                    "string",
-                    "null"
-                ]
-            },
-            "readonly": true,
-            "type": "array"
-        },
-        "BootProgress": {
-            "description": "Information about SmartNIC device Operating Boot progress",
-            "additionalProperties": false,
-            "etag": true,
-            "properties": {
-                "ResetReason": {
-                    "description": "The Smart NIC Device Operating system reset reason .",
-                    "enum": [
-                        "OEM",
-                        "Unknown",
-                        "OSNormal",
-                        "BMCNormal",
-                        "OSCrash",
-                        "HWWatchdog",
-                        "Thermal"
-                    ],
-                    "enumDescriptions": {
-                        "OEM": "oem value , SmartNIC DPU",
-                        "Unknown": "unknown reason, cold start",
-                        "OSNormal": "a normal reset by ESXio",
-                        "BMCNormal": "reset by BMC",
-                        "OSCrash": "a reset after a crash by ESXio",
-                        "HWWatchdog": "a reset due to hardware watchdog",
-                        "Thermal": "a reset due to thermal shutdown"
-                    },
-                    "readonly": false,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "OemResetReason": {
-                    "description": "The Smart NIC Device Operating system OEM reset reason .",
-                    "enum": [
-                        "Unknown",
-                        "OSNormal",
-                        "BMCNormal",
-                        "OSCrash",
-                        "HWWatchdog",
-                        "Thermal"
-                    ],
-                    "enumDescriptions": {
-                        "Unknown": "unknown reason, cold start",
-                        "OSNormal": "a normal reset by ESXio",
-                        "BMCNormal": "reset by BMC",
-                        "OSCrash": "a reset after a crash by ESXio",
-                        "HWWatchdog": "a reset due to hardware watchdog",
-                        "Thermal": "a reset due to thermal shutdown"
-                    },
-                    "readonly": false,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                }
-            },
-            "readonly": false,
-            "type": "object"
-        },
-        "OperatingSystem": {
-            "description": "Information about SmartNIC device operating system ",
-            "additionalProperties": false,
-            "etag": true,
-            "properties": {
-                "Kernel": {
-                    "properties": {
-                        "Name": {
-                            "description": "SmartNIC device operating system kernel name",
-                            "etag": true,
-                            "readonly": false,
-                            "type": [
-                                "string",
-                                "null"
-                            ]
-                        },
-                        "Version": {
-                            "description": "SmartNIC device operating system kernel version",
-                            "etag": true,
-                            "readonly": false,
-                            "type": [
-                                "string",
-                                "null"
-                            ]
-                        }
-                    },
-                    "readonly": false,
-                    "type": "object"
-                }
-            },
-            "readonly": false,
-            "type": "object"
         }
     },
     "readonly": false,
-    "title": "#HpeComputerSystemExt.v2_14_0.HpeComputerSystemExt",
+    "title": "#HpeComputerSystemExt.v2_9_0.HpeComputerSystemExt",
     "type": "object"
 }

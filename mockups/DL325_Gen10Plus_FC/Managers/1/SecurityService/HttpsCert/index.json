@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeHttpsCert.HpeHttpsCert",
-    "@odata.etag": "W/\"C72AF4DA\"",
+    "@odata.etag": "W/\"BE476891\"",
     "@odata.id": "/redfish/v1/Managers/1/SecurityService/HttpsCert",
     "@odata.type": "#HpeHttpsCert.v2_0_0.HpeHttpsCert",
     "Id": "HttpsCert",
@@ -12,12 +12,12 @@
             "target": "/redfish/v1/Managers/1/SecurityService/HttpsCert/Actions/HpeHttpsCert.ImportCertificate"
         }
     },
-    "CertificateSigningRequest": "-----BEGIN CERTIFICATE REQUEST-----\nMIIC7TCCAdUCAQAwfTEWMBQGA1UEAwwNSUxPTVhRMjI5MEo1UDEMMAoGA1UECwwD\nSVNTMSMwIQYDVQQKDBpIZXdsZXR0IFBhY2thcmQgRW50ZXJwcmlzZTERMA8GA1UE\nBwwIQW1lcmljYXMxEDAOBgNVBAgMB0hvdXN0b24xCzAJBgNVBAYTAlVTMIIBIjAN\nBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA58etTsX4putUCqRi4t6QKFBZ4QHF\nqNJUZjkX/ClaFs68b9RDEvrLJgiUysPBdstGaKLqnMA4wbaK815FrzvcWHZwEw1j\n5PhbpaJAUpNmz90nRNyTpipwM0xVJs/XjeqkVKljqsSPhmwiLoiJCZ736VeX0OVu\njpFfiztCwIm0fxtHIL8MDFwpEuTiT9ggpRayarsNGmj4vY9RRO50xY5G4xwDVY72\nHyyKSXQtLu65y+Hwm4mev1rkVEQjS+Xeft2MKzaQJAZdpiyfEyBF5dFn0Yg+AL9s\nSV0zbN17tmSCGp2JIDSRndzUKm1EAwVyQY17MNkfFkCiDbHW5tFAsSGLzQIDAQAB\noCswKQYJKoZIhvcNAQkOMRwwGjAYBgNVHREEETAPgg1JTE9NWFEyMjkwSjVQMA0G\nCSqGSIb3DQEBCwUAA4IBAQCNHnjCnmkIQXvMAAWpyiAehNv9lFHkzoa89GGLo61W\nc2rlldBl4ZqIYphjj38Y/BmraVKEPb6dc22L2jL/8qwVjTVc/KDKs9j/raZ4vKXb\niK5CRZ+iZDgs3FqNoUid+gGxwwEN/fOr8vivUsWyOx+UatzSNjjs3K4L2aUI1duc\nvrdC2Hl/XL0PFrp6gEXUd/bMnGoDy3/27kS91rVWmqTCy+4C+QIQHP0/5ncRm0Vu\n4sQt5J/zlA3p3FygJHZz4Xn/M5jp2JOfI0tt83esk32I9lfgV49R8+oFo5v43BGd\nrra2ivzQ35hCshSLK+abvUwRY76YbZhabTvoc+tJlIyp\n-----END CERTIFICATE REQUEST-----\n",
+    "CertificateSigningRequest": null,
     "X509CertificateInformation": {
-        "Issuer": "CN = Default Issuer (Do not trust), O = Hewlett Packard Enterprise, OU = ISS, L = Americas, ST = Houston, C = US",
-        "SerialNumber": "d2:c5:b9:ee:cb:c5:e6:cb",
-        "Subject": "CN = ILOMXQ2290J5P, O = Hewlett Packard Enterprise, OU = ISS, L = Americas, ST = Houston, C = US",
-        "ValidNotAfter": "2037-07-19T12:28:45Z",
-        "ValidNotBefore": "2022-07-20T12:28:45Z"
+        "Issuer": "CN = Default Issuer (Do not trust), O = Hewlett Packard Enterprise, OU = ISS, L = Houston, ST = Texas, C = US",
+        "SerialNumber": "9e:cd:5a:e4:24:e7:a8:1a",
+        "Subject": "CN = ILOMXQ019020B, O = Hewlett Packard Enterprise, OU = ISS, L = Houston, ST = Texas, C = US",
+        "ValidNotAfter": "2035-05-08T15:23:48Z",
+        "ValidNotBefore": "2020-05-08T15:23:48Z"
     }
 }

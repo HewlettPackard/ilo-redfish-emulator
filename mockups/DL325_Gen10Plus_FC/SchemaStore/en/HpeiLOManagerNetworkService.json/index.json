@@ -173,12 +173,6 @@
             "readonly": true,
             "type": "boolean"
         },
-        "SMTPForTFAEnabled": {
-            "description": "Indicates whether SMTP for Two Factor Authentication is enabled.",
-            "etag": true,
-            "readonly": false,
-            "type": "boolean"
-        },
         "Id": {
             "$ref": "Resource.json#/definitions/Id"
         },
@@ -261,54 +255,9 @@
             "etag": true,
             "readonly": false,
             "type": "boolean"
-        },
-        "EnhancedDownloadPerformanceEnabled": {
-            "description": "Indicates whether enhanced download for virtual media and firmware update is enabled or disabled.",
-            "etag": true,
-            "readonly": false,
-            "type": "boolean"
-        },
-        "WebProxyConfiguration": {
-            "additionalProperties": false,
-            "properties": {
-                "ProxyServer": {
-                    "description": "Indicates the hostname or IP address of proxy server.",
-                    "etag": true,
-                    "readonly": false,
-                    "type": "string"
-                },
-                "ProxyPort": {
-                    "description": "Indicates the proxy port.",
-                    "etag": true,
-                    "maximum": 65535,
-                    "minimum": 1,
-                    "readonly": false,
-                    "type": [
-                        "integer",
-                        "null"
-                    ]
-                },
-                "ProxyUserName": {
-                    "description": "Indicates the proxy username (optional)",
-                    "etag": true,
-                    "readonly": false,
-                    "type": "string"
-                },
-                "ProxyPassword": {
-                    "description": "Indicates the proxy password (optional)",
-                    "etag": true,
-                    "readonly": false,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                }
-            },
-            "readonly": false,
-            "type": "object"
         }
     },
     "readonly": false,
-    "title": "#HpeiLOManagerNetworkService.v2_3_0.HpeiLOManagerNetworkService",
+    "title": "#HpeiLOManagerNetworkService.v2_2_0.HpeiLOManagerNetworkService",
     "type": "object"
 }

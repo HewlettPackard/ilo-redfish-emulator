@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "@odata.id": "NetworkPort",
     "additionalProperties": false,
-    "copyright": "Copyright 2014-2022 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2022 Distributed Management Task Force. All rights reserved.",
+    "copyright": "Copyright 2014-2020 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
     "definitions": {
         "FlowControl": {
             "description": "Ethernet flow control configuration values.",
@@ -185,20 +185,6 @@
         "@odata.type": {
             "$ref": "Resource.json#/definitions/odatatype"
         },
-        "@Redfish.Settings": {
-            "properties": {
-                "SettingsObject": {
-                    "properties": {
-                        "@odata.id": {
-                            "$ref": "Resource.json#/definitions/odataid"
-                        }
-                    },
-                    "readonly": true,
-                    "type": "object"
-                }
-            },
-            "type": "object"
-        },
         "ActiveLinkTechnology": {
             "$ref": "#/definitions/dLinkNetworkTechnology",
             "description": "The configured link technology of this port.",
@@ -324,8 +310,7 @@
             ]
         },
         "Settings": {
-            "$ref": "Resource.json#/definitions/Settings",
-            "description": "The Settings object returns currently pending configuration changes on GET, and is used to initiate configuration changes via PATCH."
+            "$ref": "Resource.json#/definitions/Settings"
         },
         "SignalDetected": {
             "etag": true,

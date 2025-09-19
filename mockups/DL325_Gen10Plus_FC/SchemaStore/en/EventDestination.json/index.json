@@ -43,8 +43,7 @@
                 "ResourceAdded": "A resource has been added",
                 "ResourceRemoved": "A resource has been removed",
                 "ResourceUpdated": "The value of this resource has been updated",
-                "StatusChange": "The status of this resource has changed",
-                "MetricReport": "The telemetry service is sending a metric report."
+                "StatusChange": "The status of this resource has changed"
             },
             "items": {
                 "enum": [
@@ -52,7 +51,6 @@
                     "ResourceUpdated",
                     "ResourceAdded",
                     "ResourceRemoved",
-                    "MetricReport",
                     "Alert"
                 ],
                 "type": "string"
@@ -83,20 +81,6 @@
         "Id": {
             "$ref": "Resource.json#/definitions/Id"
         },
-        "MetricReportDefinitions": {
-            "additionalProperties": false,
-            "description": "A list of metric report definitions for which the service only sends related metric reports.  If this property is absent or the array is empty, metric reports that originate from any metric report definition are sent to the subscriber.",
-            "items": {
-                "properties": {
-                    "@odata.id": {
-                        "$ref": "Resource.json#/definitions/odataid"
-                    }
-                },
-                "type": "object"
-            },
-            "readonly": false,
-            "type": "array"
-        },
         "Name": {
             "$ref": "Resource.json#/definitions/Name"
         },
@@ -119,20 +103,8 @@
             "longDescription": "This property shall contain the protocol type that the event will use for sending the event to the destination.  A value of Redfish shall be used to indicate that the event type shall adhere to that defined in the Redfish specification.",
             "readonly": true,
             "type": "string"
-        },
-        "SubscriptionType": {
-            "description": "The subscription type for events.",
-            "longDescription": "This property shall indicate the type of subscription for events.  If this property is not present, the SubscriptionType shall be assumed to be RedfishEvent.",
-            "enum": [
-                "RedfishEvent"
-            ],
-            "readonly": true,
-            "type": [
-                "string",
-                "null"
-            ]
         }
     },
-    "title": "#EventDestination.v1_13_0.EventDestination",
+    "title": "#EventDestination.v1_0_0.EventDestination",
     "type": "object"
 }

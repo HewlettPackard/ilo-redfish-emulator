@@ -113,15 +113,6 @@
                             "null"
                         ]
                     },
-                    "ExternalManager": {
-                        "description": "Reports the current external manager of the system.",
-                        "etag": true,
-                        "readonly": true,
-                        "type": [
-                            "string",
-                            "null"
-                        ]
-                    },
                     "IPManager": {
                         "additionalProperties": true,
                         "displayname": "IPManager",
@@ -231,12 +222,6 @@
                     "readonly": true,
                     "type": "string"
                 },
-                "CBM": {
-                    "description": "Acronym for HPE's cloud based management solution.",
-                    "etag": true,
-                    "readonly": true,
-                    "type": "string"
-                },
                 "FEDGRP": {
                     "description": "Default federation group name.",
                     "etag": true,
@@ -275,12 +260,6 @@
                 },
                 "PRODTAG": {
                     "description": "Branded, abbreviated product name.",
-                    "etag": true,
-                    "readonly": true,
-                    "type": "string"
-                },
-                "RDA": {
-                    "description": "URL to Remote Device Access(RDA).",
                     "etag": true,
                     "readonly": true,
                     "type": "string"
@@ -407,6 +386,12 @@
                 },
                 "WWWSWLIC": {
                     "description": "Public internet vendor URI for vendor software licensing.",
+                    "etag": true,
+                    "readonly": true,
+                    "type": "string"
+                },
+                "WWWINFOSIGHT": {
+                    "description": "Public internet resource for active health.",
                     "etag": true,
                     "readonly": true,
                     "type": "string"
@@ -557,15 +542,9 @@
                 "string",
                 "null"
             ]
-        },
-        "CACLoginUri": {
-            "description": "URI for the CAC based authentication.",
-            "format": "uri-reference",
-            "readonly": true,
-            "type": "string"
         }
     },
     "readonly": true,
-    "title": "#HpeiLOServiceExt.v2_5_0.HpeiLOServiceExt",
+    "title": "#HpeiLOServiceExt.v2_3_0.HpeiLOServiceExt",
     "type": "object"
 }

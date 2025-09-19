@@ -1,12 +1,12 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeiLOActiveHealthSystem.HpeiLOActiveHealthSystem",
-    "@odata.etag": "W/\"59DB1875\"",
+    "@odata.etag": "W/\"E63B50E2\"",
     "@odata.id": "/redfish/v1/Managers/1/ActiveHealthSystem",
     "@odata.type": "#HpeiLOActiveHealthSystem.v2_5_0.HpeiLOActiveHealthSystem",
     "Id": "ActiveHealthSystem",
     "AHSEnabled": true,
-    "AHSFileEnd": "2025-09-04T00:00:00Z",
-    "AHSFileStart": "2022-07-21T00:00:00Z",
+    "AHSFileEnd": "2022-04-14T00:00:00Z",
+    "AHSFileStart": "2020-05-09T00:00:00Z",
     "AHSStatus": {
         "HardwareEnabled": true,
         "SoftwareEnabled": true,
@@ -28,16 +28,13 @@
     },
     "Links": {
         "AHSLocation": {
-            "extref": "/ahsdata/HPE_MXQ2290J5P_20010113.ahs?downloadAll=1"
+            "extref": "/ahsdata/HPE_MXQ019020B_20220414.ahs?downloadAll=1"
         },
         "RecentWeek": {
-            "extref": "/ahsdata/HPE_MXQ2290J5P_20010113.ahs?days=7"
+            "extref": "/ahsdata/HPE_MXQ019020B_20220414.ahs?days=7"
         },
         "InfoSight": {
-            "extref": "/ahsdata/HPE_MXQ2290J5P_20010113.ahs?minimalDL=1&&days=1"
-        },
-        "OneDaySlimAHS": {
-            "extref": "/ahsdata/HPE_MXQ2290J5P_20010113.ahs?minimalDL=1&&days=1"
+            "extref": "/ahsdata/HPE_MXQ019020B_20220414.ahs?minimalDL=1&&days=1"
         }
     },
     "LocationParameters": {

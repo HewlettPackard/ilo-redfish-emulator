@@ -29,7 +29,7 @@
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1//Certificate_v1.xml">
         <edmx:Include Namespace="Certificate" />
-        <edmx:Include Namespace="Certificate.v1_6_0"/>
+        <edmx:Include Namespace="Certificate.v1_1_0"/>
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1//CertificateCollection_v1.xml">
         <edmx:Include Namespace="CertificateCollection" />
@@ -42,38 +42,23 @@
         <edmx:Include Namespace="CertificateService" />
         <edmx:Include Namespace="CertificateService.v1_0_3"/>
     </edmx:Reference>
-    <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1//CertificateLocations_v1.xml">
-        <edmx:Include Namespace="CertificateLocations" />
-        <edmx:Include Namespace="CertificateLocations.v1_0_2" />
-    </edmx:Reference>
-    <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1//CertificateService_v1.xml">
-        <edmx:Include Namespace="CertificateService" />
-        <edmx:Include Namespace="CertificateService.v1_0_3" />
-    </edmx:Reference>    
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Chassis_v1.xml">
         <edmx:Include Namespace="Chassis" />
-        <edmx:Include Namespace="Chassis.v1_23_0"/>
+        <edmx:Include Namespace="Chassis.v1_10_2"/>
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/ChassisCollection_v1.xml">
         <edmx:Include Namespace="ChassisCollection" />
     </edmx:Reference>
-    <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/CollectionCapabilities_v1.xml">
-        <edmx:Include Namespace="CollectionCapabilities" />
-        <edmx:Include Namespace="CollectionCapabilities.v1_1_0" />
-    </edmx:Reference>  
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/ComputerSystem_v1.xml">
         <edmx:Include Namespace="ComputerSystem" />
-        <edmx:Include Namespace="ComputerSystem.v1_13_0"/>
+        <edmx:Include Namespace="ComputerSystem.v1_10_0"/>
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/ComputerSystemCollection_v1.xml">
         <edmx:Include Namespace="ComputerSystemCollection" />
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Drive_v1.xml">
         <edmx:Include Namespace="Drive" />
-		<edmx:Include Namespace="Drive.v1_8_1"/>
-		<edmx:Include Namespace="Drive.v1_11_0"/>
-		<edmx:Include Namespace="Drive.v1_12_1"/>
-        <edmx:Include Namespace="Drive.v1_14_0"/>
+        <edmx:Include Namespace="Drive.v1_0_0"/>
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/EthernetInterface_v1.xml">
         <edmx:Include Namespace="EthernetInterface" />
@@ -86,29 +71,15 @@
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Event_v1.xml">
         <edmx:Include Namespace="Event" />
-        <edmx:Include Namespace="Event.v1_2_9"/>
+        <edmx:Include Namespace="Event.v1_0_0"/>
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/EventDestination_v1.xml">
         <edmx:Include Namespace="EventDestination" />
-        <edmx:Include Namespace="EventDestination.v1_13_0"/>
+        <edmx:Include Namespace="EventDestination.v1_0_0"/>
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/EventService_v1.xml">
         <edmx:Include Namespace="EventService" />
-        <edmx:Include Namespace="EventService.v1_2_7"/>
-    </edmx:Reference>
-    <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/FabricCollection_v1.xml">
-        <edmx:Include Namespace="FabricCollection" />
-    </edmx:Reference>
-    <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Fabric_v1.xml">
-        <edmx:Include Namespace="Fabric" />
-        <edmx:Include Namespace="Fabric.v1_3_0"/>
-    </edmx:Reference>
-    <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/SwitchCollection_v1.xml">
-        <edmx:Include Namespace="SwitchCollection" />
-    </edmx:Reference>
-    <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Switch_v1.xml">
-        <edmx:Include Namespace="Switch" />
-        <edmx:Include Namespace="Switch.v1_9_1"/>
+        <edmx:Include Namespace="EventService.v1_0_8"/>
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/HostInterface_v1.xml">
         <edmx:Include Namespace="HostInterface" />
@@ -153,7 +124,7 @@
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/LogService_v1.xml">
         <edmx:Include Namespace="LogService" />
-        <edmx:Include Namespace="LogService.v1_1_0"/>
+        <edmx:Include Namespace="LogService.v1_0_0"/>
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/LogServiceCollection_v1.xml">
         <edmx:Include Namespace="LogServiceCollection" />
@@ -209,7 +180,7 @@
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/MessageRegistry_v1.xml">
         <edmx:Include Namespace="MessageRegistry" />
-        <edmx:Include Namespace="MessageRegistry.v1_6_0"/>
+        <edmx:Include Namespace="MessageRegistry.v1_2_0"/>
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/MessageRegistryCollection_v1.xml">
         <edmx:Include Namespace="MessageRegistryCollection" />
@@ -238,7 +209,7 @@
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/MetricReportDefinition_v1.xml">
         <edmx:Include Namespace="MetricReportDefinition" />
-        <edmx:Include Namespace="MetricReportDefinition.v1_4_2"/>
+        <edmx:Include Namespace="MetricReportDefinition.v1_0_0"/>
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/MetricReportDefinitionCollection_v1.xml">
         <edmx:Include Namespace="MetricReportDefinitionCollection" />
@@ -297,14 +268,6 @@
         <edmx:Include Namespace="Power" />
         <edmx:Include Namespace="Power.v1_2_1"/>
         <edmx:Include Namespace="Power.v1_3_0"/>
-    </edmx:Reference>
-    <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Port_v1.xml">
-        <edmx:Include Namespace="Port" />
-        <edmx:Include Namespace="Port.v1_4_0"/>
-        <edmx:Include Namespace="Port.v1_9_0"/>
-    </edmx:Reference>
-    <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/PortCollection_v1.xml">
-        <edmx:Include Namespace="PortCollection" />
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Privileges_v1.xml">
         <edmx:Include Namespace="Privileges" />
@@ -371,19 +334,10 @@
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/StorageCollection_v1.xml">
         <edmx:Include Namespace="StorageCollection" />
     </edmx:Reference>
-    <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/StorageControllerCollection_v1.xml">
-        <edmx:Include Namespace="StorageControllerCollection" />
-    </edmx:Reference>
-    <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/StorageController_v1.xml">
-        <edmx:Include Namespace="StorageController" />
-        <edmx:Include Namespace="StorageController.v1_2_0" />
-    </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Storage_v1.xml">
         <edmx:Include Namespace="Storage" />
         <edmx:Include Namespace="Storage.v1_1_0" />
-		<edmx:Include Namespace="Storage.v1_9_0" />
-		<edmx:Include Namespace="Storage.v1_10_1" />
-		<edmx:Include Namespace="Storage.v1_12_0" />
+        <edmx:Include Namespace="Storage.v1_4_0" />
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Task_v1.xml">
         <edmx:Include Namespace="Task" />
@@ -404,7 +358,7 @@
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Thermal_v1.xml">
         <edmx:Include Namespace="Thermal" />
-        <edmx:Include Namespace="Thermal.v1_7_1"/>
+        <edmx:Include Namespace="Thermal.v1_6_2"/>
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Triggers_v1.xml">
         <edmx:Include Namespace="Triggers" />
@@ -415,13 +369,12 @@
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/UpdateService_v1.xml">
         <edmx:Include Namespace="UpdateService" />
-        <edmx:Include Namespace="UpdateService.v1_2_1"/>
+        <edmx:Include Namespace="UpdateService.v1_1_1"/>
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/VirtualMedia_v1.xml">
         <edmx:Include Namespace="VirtualMedia" />
         <edmx:Include Namespace="VirtualMedia.v1_0_0"/>
         <edmx:Include Namespace="VirtualMedia.v1_2_0"/>
-        <edmx:Include Namespace="VirtualMedia.v1_3_0"/>
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/VirtualMediaCollection_v1.xml">
         <edmx:Include Namespace="VirtualMediaCollection" />
@@ -437,9 +390,6 @@
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/Volume_v1.xml">
         <edmx:Include Namespace="Volume" />
         <edmx:Include Namespace="Volume.v1_0_0"/>
-		<edmx:Include Namespace="Volume.v1_4_0"/>
-		<edmx:Include Namespace="Volume.v1_5_0"/>
-		<edmx:Include Namespace="Volume.v1_6_2"/>
     </edmx:Reference>
     <edmx:Reference Uri="http://redfish.dmtf.org/schemas/v1/VolumeCollection_v1.xml">
         <edmx:Include Namespace="VolumeCollection" />

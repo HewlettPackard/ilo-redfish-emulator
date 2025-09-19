@@ -1,29 +1,28 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"2BAFA70B\"",
+    "@odata.etag": "W/\"27D729EE\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/17",
-    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
     "Id": "17",
-    "Created": "2001-01-02T09:36:20Z",
+    "Created": "2021-02-08T16:16:16Z",
     "EntryType": "Oem",
-    "Message": "Firmware flashed (Mellanox Firmware Package(FWPKG) for HPE Ethernet 10/25Gb 2-... 16.35.4030)",
-    "MessageArgs": [],
-    "MessageId": "32.2",
+    "Message": "At least one of the links is up in adapter Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter in slot 10",
     "Name": "Integrated Management Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
-            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
             "Categories": [
-                "Administration"
+                "Hardware"
             ],
-            "Class": 32,
-            "ClassDescription": "System Revision",
-            "Code": 2,
+            "Class": 17,
+            "ClassDescription": "Network",
+            "Code": 14,
             "Count": 1,
-            "EventNumber": 54,
-            "Severity": "Informational",
-            "Updated": "2001-01-02T09:36:20Z"
+            "EventNumber": 226,
+            "Repaired": true,
+            "Severity": "Repaired",
+            "Updated": "2021-02-08T16:21:32Z"
         }
     },
     "OemRecordFormat": "Hpe-IML",

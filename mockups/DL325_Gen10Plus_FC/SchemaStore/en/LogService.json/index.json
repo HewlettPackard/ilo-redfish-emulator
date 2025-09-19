@@ -80,36 +80,6 @@
         "Name": {
             "$ref": "Resource.json#/definitions/Name"
         },
-        "DateTime": {
-            "description": "The current date and time, with UTC offset, that the Log Service uses to set or read time.",
-            "format": "date-time",
-            "longDescription": "This property shall represent the current DateTime value, with UTC offset, in Redfish Timestamp format that the Log Service uses to set or read time.",
-            "readonly": true,
-            "type": [
-                "string",
-                "null"
-            ]
-        },
-        "DateTimeLocalOffset": {
-            "description": "The UTC offset that the current DateTime property value contains in the `+HH:MM` format.",
-            "longDescription": "This property shall represent the offset from UTC time that the current value of DataTime property contains.",
-            "pattern": "^(\\+|\\-)(((0[0-9]|1[0-7]):[0-5][0-9])|(18:00))$",
-            "readonly": true,
-            "type": [
-                "string",
-                "null"
-            ]
-        },
-        "ServiceEnabled": {
-            "description": "An indication of whether this service is enabled.",
-            "longDescription": "Thi property shall indicate whether this service is enabled.",
-            "etag": true,
-            "readonly": true,
-            "type": "boolean"
-        },
-        "Status": {
-            "$ref": "Resource.json#/definitions/Status"
-        },
         "Oem": {
             "$ref": "Resource.json#/definitions/Oem"
         },
@@ -131,6 +101,6 @@
         }
     },
     "readonly": true,
-    "title": "#LogService.v1_1_0.LogService",
+    "title": "#LogService.v1_0_0.LogService",
     "type": "object"
 }

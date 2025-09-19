@@ -225,11 +225,6 @@
                 },
                 "InfoSight": {
                     "$ref": "Resource.json#/definitions/extref",
-                    "deprecated": "This property has been deprecated in favor of OneDaySlimAHS.",
-                    "description": "A link to HPE Active Health System log, including only 1 day of data and minimal support files."
-                },
-                "OneDaySlimAHS": {
-                    "$ref": "Resource.json#/definitions/extref",
                     "description": "A link to HPE Active Health System log, including only 1 day of data and minimal support files."
                 },
                 "RecentWeek": {

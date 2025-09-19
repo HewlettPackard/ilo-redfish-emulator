@@ -79,16 +79,6 @@
             "readonly": true,
             "type": "string"
         },
-        "Hostname": {
-            "description": "This indicates the name of management server.",
-            "displayname": "Hostname",
-            "etag": true,
-            "readonly": true,
-            "type": [
-                "string",
-                "null"
-            ]
-        },
         "Resource": {
             "description": "This is a link of the resource that has changed (post-change).",
             "displayname": "Related Resource",
@@ -96,16 +86,9 @@
             "format": "uri-reference",
             "readonly": true,
             "type": "string"
-        },
-        "ServiceEvent": {
-            "description": "This indicates a service ticket to be raised for the corresponding event log.",
-            "displayname": "ServiceEvent",
-            "etag": false,
-            "readonly": true,
-            "type": "string"
         }
     },
     "readonly": true,
-    "title": "#HpeEvent.v2_2_0.HpeEvent",
+    "title": "#HpeEvent.v2_1_0.HpeEvent",
     "type": "object"
 }

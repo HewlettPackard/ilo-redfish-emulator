@@ -1,36 +1,35 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeiLOLicense.HpeiLOLicense",
-    "@odata.etag": "W/\"BB9D6F3D\"",
+    "@odata.etag": "W/\"FBF0F621\"",
     "@odata.id": "/redfish/v1/Managers/1/LicenseService/1",
     "@odata.type": "#HpeiLOLicense.v2_3_0.HpeiLOLicense",
     "Id": "1",
     "Confirmation": {
         "Code": "",
-        "Message": "",
+        "Message": "Confirmed.",
         "Service": "www.hpe.com/glis",
-        "Status": false
+        "Status": true
     },
     "ConfirmationRequest": {
         "EON": {
-            "License": "iLO Advanced limited-distribution test",
-            "LicenseKey": "32Q2N-L3P6Z-76QDN-68BMW-HLP6M",
+            "License": "iLO Advanced",
+            "LicenseKey": "3NBWS-KY3X3-8XVBW-54ZVY-4ZBW2",
             "Quantity": 1,
-            "State": "nfr"
+            "State": "confirmed"
         },
         "Signer": "iLO",
         "System": {
-            "ChipId": "AD04D6E0042E8B2E",
+            "ChipId": "34A3E3C3002E8B3A",
             "Product": "ProLiant DL325 Gen10 Plus",
-            "SerialNumber": "MXQ2290J5P"
+            "SerialNumber": "MXQ019020B"
         }
     },
     "Description": "iLO License View",
-    "License": "iLO Advanced limited-distribution test",
-    "LicenseClass": "BETA",
+    "License": "iLO Advanced",
+    "LicenseClass": "FQL",
     "LicenseErr": "",
-    "LicenseExpire": "Activated until 31 Jan 2026",
+    "LicenseExpire": "",
     "LicenseFeatures": {
-        "AutoCertEnroll": true,
         "DirectoryAuth": true,
         "DowngradePolicy": true,
         "EmailAlert": true,
@@ -54,10 +53,10 @@
         "VMScript": true,
         "VSPLogging": true
     },
-    "LicenseInstallDate": "31 Jul 2025",
-    "LicenseKey": "XXXXX-XXXXX-XXXXX-XXXXX-HLP6M",
+    "LicenseInstallDate": "9 May 2020",
+    "LicenseKey": "XXXXX-XXXXX-XXXXX-XXXXX-4ZBW2",
     "LicenseSeats": 1,
     "LicenseTier": "ADV",
-    "LicenseType": "Internal",
+    "LicenseType": "Perpetual",
     "Name": "iLO License"
 }

@@ -19,22 +19,6 @@
                 ],
                 "type": "object"
             },
-            "HpeiLO.ClearNVRAM": {
-                "additionalProperties": false,
-                "description": "Delete the files from NVRAM CFG area.",
-                "properties": {
-                    "Action": {
-                        "enum": [
-                            "HpeiLO.ClearNVRAM"
-                        ],
-                        "type": "string"
-                    }
-                },
-                "required": [
-                    "Action"
-                ],
-                "type": "object"
-            },
             "HpeiLO.ClearRestApiState": {
                 "additionalProperties": false,
                 "description": "Clears the persistent state of the REST API.  Some portions of the API may not be available until after the server reboots.",
@@ -109,114 +93,6 @@
                 "required": [
                     "Action",
                     "ResetType"
-                ],
-                "type": "object"
-            },
-            "HpeiLO.EnableCloudConnect": {
-                "additionalProperties": false,
-                "description": "Action to enable cloud connect service.",
-                "properties": {
-                    "Action": {
-                        "enum": [
-                            "HpeiLO.EnableCloudConnect"
-                        ],
-                        "type": "string"
-                    },
-                    "ActivationKey": {
-                        "additionalProperties": false,
-                        "description": "The activation key is the customer account ID of HPE GreenLake. Obtain the account ID by visiting HPE GreenLake portal-Manage->Account Details card.",
-                        "etag": true,
-                        "readonly": false,
-                        "type": "string"
-                    },
-                    "OverrideManager": {
-                        "additionalProperties": false,
-                        "description": "The property is used to override the existing manager (Example: HPE OneView).",
-                        "etag": false,
-                        "readonly": false,
-                        "type": "boolean"
-                    }
-                },
-                "readonly": false,
-                "required": [
-                    "Action"
-                ],
-                "type": "object"
-            },
-            "HpeiLO.DisableCloudConnect": {
-                "additionalProperties": false,
-                "description": "Action to disable cloud connect service.",
-                "properties": {
-                    "Action": {
-                        "enum": [
-                            "HpeiLO.DisableCloudConnect"
-                        ],
-                        "type": "string"
-                    },
-                    "FailReason": {
-                        "description": "Indicates the reason for cloud connection failure. This property is set when cloud connect is disabled by Compute Ops Management.",
-                        "enum": [
-                            "ActivationKeyRequired",
-                            "InvalidActivationKey",
-                            "ExpiredActivationKey",
-                            "WrongiLOVersion",
-                            "DeviceAssignFailed",
-                            "DeviceClaimUnauthorised",
-                            "DeviceNotFound",
-                            "CloudConnectionInternalError"
-                        ],
-                        "enumDescriptions": {
-                            "ActivationKeyRequired": "Indicates the cloud activation failed due to missing activation key.",
-                            "InvalidActivationKey": "Indicates the cloud activation failed due to invalid activation key errors.",
-                            "ExpiredActivationKey": "Indicates the cloud activation failed due to expired activation key.",
-                            "WrongiLOVersion": "Indicates the cloud activation failed due to wrong iLO version errors.",
-                            "DeviceAssignFailed": "Device provision failed as it is already added to another Compute Ops Management instance.",
-                            "DeviceClaimUnauthorised": "Device claim failed as it is already added to another region or account.",
-                            "DeviceNotFound": "Device not found or could not be validated.",
-                            "CloudConnectionInternalError": "Activation failed due to issues in Compute Ops Management service."
-                        },
-                        "etag": true,
-                        "readonly": true,
-                        "type": "string"
-                    },
-                    "FailReasonExtendedInfo": {
-                        "description": "Indicates the extended reason for cloud connection failure. This property is set when cloud connect is disabled by Compute Ops Management.",
-                        "type": "object",
-                        "properties": {
-                            "FailMessage": {
-                                "description": "Indicates the message to be logged for the failure.",
-                                "readonly": false,
-                                "type": "string"
-                            },
-                            "FailResolution": {
-                                "description": "Indicates the resolution for the corresponding failure log.",
-                                "readonly": false,
-                                "type": "string"
-                            }
-                        },
-                        "readonly": false
-                    }
-                },
-                "readonly": false,
-                "required": [
-                    "Action"
-                ],
-                "type": "object"
-            },
-            "HpeiLO.RetryCloudConnect": {
-                "additionalProperties": false,
-                "description": "Action to enable cloud connect service when in connection to Compute Ops Management has failed.",
-                "properties": {
-                    "Action": {
-                        "enum": [
-                            "HpeiLO.RetryCloudConnect"
-                        ],
-                        "type": "string"
-                    }
-                },
-                "readonly": false,
-                "required": [
-                    "Action"
                 ],
                 "type": "object"
             }
@@ -523,20 +399,6 @@
                     },
                     "type": "object"
                 },
-                "#HpeiLO.ClearNVRAM": {
-                    "additionalProperties": false,
-                    "properties": {
-                        "target": {
-                            "description": "Link to invoke action",
-                            "type": "string"
-                        },
-                        "title": {
-                            "description": "Friendly action name",
-                            "type": "string"
-                        }
-                    },
-                    "type": "object"
-                },
                 "#HpeiLO.ClearRestApiState": {
                     "additionalProperties": false,
                     "properties": {
@@ -594,54 +456,6 @@
                             "type": "array",
                             "uniqueItems": true
                         },
-                        "target": {
-                            "description": "Link to invoke action",
-                            "type": "string"
-                        },
-                        "title": {
-                            "description": "Friendly action name",
-                            "type": "string"
-                        }
-                    },
-                    "type": "object"
-                },
-                "#HpeiLO.EnableCloudConnect": {
-                    "additionalProperties": false,
-                    "properties": {
-                        "ActivationKey@Redfish.AllowableValues": {
-                            "description": "The activation key is the customer account ID of HPE GreenLake. Obtain the account ID by visiting HPE GreenLake portal-Manage->Account Details card.",
-                            "etag": true,
-                            "readonly": false,
-                            "type": "string"
-                        },
-                        "target": {
-                            "description": "Link to invoke action",
-                            "type": "string"
-                        },
-                        "title": {
-                            "description": "Friendly action name",
-                            "type": "string"
-                        }
-                    },
-                    "type": "object"
-                },
-                "#HpeiLO.DisableCloudConnect": {
-                    "additionalProperties": false,
-                    "properties": {
-                        "target": {
-                            "description": "Link to invoke action",
-                            "type": "string"
-                        },
-                        "title": {
-                            "description": "Friendly action name",
-                            "type": "string"
-                        }
-                    },
-                    "type": "object"
-                },
-                "#HpeiLO.RetryCloudConnect": {
-                    "additionalProperties": false,
-                    "properties": {
                         "target": {
                             "description": "Link to invoke action",
                             "type": "string"
@@ -1324,121 +1138,9 @@
             },
             "readonly": false,
             "type": "object"
-        },
-        "CloudConnect": {
-            "additionalProperties": false,
-            "properties": {
-                "CloudConnectStatus": {
-                    "description": "Indicates the current status of cloud connection.",
-                    "enum": [
-                        "NotEnabled",
-                        "ConnectionInProgress",
-                        "ConnectionFailed",
-                        "Connected",
-                        "RetryInProgress",
-                        "NotConnected"
-                    ],
-                    "enumDescriptions": {
-                        "NotEnabled": "Indicates the initial state of the system or cloud connect service is disabled.",
-                        "ConnectionInProgress": "Indicates the cloud activation or connection to the communication service is in progress",
-                        "ConnectionFailed": "Indicates the cloud activation could not be completed and and the retry attempts for activation also failed",
-                        "Connected": "Indicates the cloud connect enabled, activation successful and connection to communication service successful",
-                        "RetryInProgress": "Indicates a connection issue with the communication service and being retried for a successful communication",
-                        "NotConnected": "Indicates the connection retries to the communication service has failed and periodic retries will be attempted"
-                    },
-                    "etag": true,
-                    "readonly": true,
-                    "type": "string"
-                },
-                "ConnectionType": {
-                    "description": "Indicates the type of connection to the cloud",
-                    "enum": [
-                        "Direct",
-                        "Gateway"
-                    ],
-                    "enumDescriptions": {
-                        "Direct": "Indicates a direct connection to the cloud.",
-                        "Gateway": "Indicates a connection to the cloud through a secure gateway."
-                    },
-                    "etag": true,
-                    "readonly": true,
-                    "type": "string"
-                },
-                "FailReason": {
-                    "description": "Indicates the reason for cloud connection failure.",
-                    "enum": [
-                        "Initializing",
-                        "NotTested",
-                        "iLOTimeError_RDA",
-                        "iLOTimeError_COM",
-                        "ProxyOrFirewallError_RDA",
-                        "ProxyOrFirewallError_COM",
-                        "ProxySettingsInvalid_RDA",
-                        "ProxySettingsInvalid_COM",
-                        "InternalError_RDA",
-                        "InternalError_COM",
-                        "ExternalError_RDA",
-                        "ExternalError_COM",
-                        "ActivationKeyRequired",
-                        "InvalidActivationKey",
-                        "ExpiredActivationKey",
-                        "WrongiLOVersion",
-                        "DeviceAssignFailed",
-                        "DeviceClaimUnauthorized",
-                        "DeviceNotFound",
-                        "DisabledByCOM",
-                        "Connected"
-                    ],
-                    "enumDescriptions": {
-                        "Initializing": "iLO's cloud connect module is initializing post an iLO reset.",
-                        "NotTested": "Indicates that connection to RDA or Compute endpoints is not tested yet.",
-                        "iLOTimeError_RDA": "Indicates the connection to RDA endpoint failed due to incorrect iLO time.",
-                        "iLOTimeError_COM": "Indicates the connection to compute endpoint failed due to incorrect iLO time.",
-                        "ProxyOrFirewallError_RDA": "Indicates the connection to RDA endpoint failed due to incorrect proxy or firewall configurations.",
-                        "ProxyOrFirewallError_COM": "Indicates the connection to compute endpoint failed due to incorrect proxy or firewall configurations.",
-                        "ProxySettingsInvalid_RDA": "Indicates the connection to RDA endpoint failed due to invalid proxy configurations.",
-                        "ProxySettingsInvalid_COM": "Indicates the connection to RDA endpoint failed due to invalid proxy configurations.",
-                        "InternalError_RDA": "Indicates the connection to RDA endpoint failed due to an error internal to iLO.",
-                        "InternalError_COM": "Indicates the connection to compute endpoint failed due to an error internal to iLO.",
-                        "ExternalError_RDA": "Indicates the connection to RDA endpoint failed due to some unknown error.",
-                        "ExternalError_COM": "Indicates the connection to RDA endpoint failed due to some unknown error.",
-                        "ActivationKeyRequired": "Indicates the cloud activation failed due to missing activation key.",
-                        "InvalidActivationKey": "Indicates the cloud activation failed due to invalid activation key errors.",
-                        "ExpiredActivationKey": "Indicates the cloud activation failed due to expired activation key.",
-                        "WrongiLOVersion": "Indicates the cloud activation failed due to wrong iLO version errors.",
-                        "DeviceAssignFailed": "Device provision failed as it is already added to another Compute Ops Management instance.",
-                        "DeviceClaimUnauthorized": "Device claim failed as it is already added to another region or account.",
-                        "DeviceNotFound": "Device not found or could not be validated.",
-                        "DisabledByCOM": "Indicates that cloud activation was disabled by Compute Ops Management.",
-                        "Connected": "Indicates that cloud activation was successful."
-                    },
-                    "etag": true,
-                    "readonly": true,
-                    "type": "string"
-                },
-                "NextRetryTime": {
-                    "description": "Indicates the timestamp of next retry event.",
-                    "etag": true,
-                    "readonly": true,
-                    "type": "string"
-                },
-                "WorkspaceId": {
-                    "description": "The GreenLake workspace ID. It can be found in the HPE GreenLake Console > Manage Workspace > Workspace details.",
-                    "etag": true,
-                    "readonly": true,
-                    "type": "string"
-                }
-            },
-            "readonly": false,
-            "type": "object"
-        },
-        "ForceOnDriveLED": {
-            "description": "Forceful enablement of the Location Indicator Active LED to permanently ON (Blue) for Samsung PM9A3 drive (pre-standard EDSFF drive)",
-            "readonly": false,
-            "type": "boolean"
         }
     },
     "readonly": false,
-    "title": "#HpeiLO.v2_13_0.HpeiLO",
+    "title": "#HpeiLO.v2_8_0.HpeiLO",
     "type": "object"
 }

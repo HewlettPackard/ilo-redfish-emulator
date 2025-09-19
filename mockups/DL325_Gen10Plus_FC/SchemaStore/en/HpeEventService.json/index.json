@@ -26,19 +26,6 @@
                     "Certificate"
                 ],
                 "type": "object"
-            },
-            "HpeEventService.ClearAllSubscriptions": {
-                "additionalProperties": false,
-                "properties": {
-                    "Action": {
-                        "description": "Clears the Redfish subscriptions. iLO Reset is required after this action is performed.",
-                        "enum": [
-                            "HpeEventService.ClearAllSubscriptions"
-                        ],
-                        "type": "string"
-                    }
-                },
-                "type": "object"
             }
         },
         "description": "Importing CA certificates for mutual authentication."
@@ -79,20 +66,6 @@
                             "type": "array",
                             "uniqueItems": true
                         },
-                        "target": {
-                            "description": "Link to invoke action",
-                            "type": "string"
-                        },
-                        "title": {
-                            "description": "Friendly action name",
-                            "type": "string"
-                        }
-                    },
-                    "type": "object"
-                },
-                "#HpeEventService.ClearAllSubscriptions": {
-                    "additionalProperties": false,
-                    "properties": {
                         "target": {
                             "description": "Link to invoke action",
                             "type": "string"
@@ -157,6 +130,6 @@
         }
     },
     "readonly": true,
-    "title": "#HpeEventService.v2_2_0.HpeEventService",
+    "title": "#HpeEventService.v2_1_0.HpeEventService",
     "type": "object"
 }

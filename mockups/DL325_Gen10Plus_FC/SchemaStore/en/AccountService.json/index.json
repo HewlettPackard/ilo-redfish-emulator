@@ -4,26 +4,6 @@
     "additionalProperties": false,
     "copyright": "Copyright 2014-2019 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
     "description": "The AccountService resource describes the BMC user account management service. It represents the properties for this service and has links to the list of accounts.",
-    "definitions": {
-        "BasicAuthState": {
-            "enum": [
-                "Enabled",
-                "Unadvertised",
-                "Disabled"
-            ],
-            "enumDescriptions": {
-                "Disabled": "HTTP Basic authentication is disabled.",
-                "Enabled": "HTTP Basic authentication is enabled.",
-                "Unadvertised": "HTTP Basic authentication is enabled, but is not advertised with the `WWW-Authenticate` response header."
-            },
-            "enumLongDescriptions": {
-                "Disabled": "This value shall indicate that HTTP Basic authentication is disabled for the service.",
-                "Enabled": "This value shall indicate that HTTP Basic authentication is enabled for the service.  The service shall include the `WWW-Authenticate` HTTP response header with the value including `Basic` when returning the HTTP 401 (Unauthorized) status code.",
-                "Unadvertised": "This value shall indicate that HTTP Basic authentication is enabled for the service.  The service shall not include `Basic` in the value of the `WWW-Authenticate` HTTP response header and may omit the header entirely from responses.  The lack of advertisement prevents some clients from accessing the service with HTTP Basic authentication, such as web browsers."
-            },
-            "type": "string"
-        }
-    },
     "properties": {
         "@odata.context": {
             "$ref": "Resource.json#/definitions/odatacontext"
@@ -36,13 +16,6 @@
         },
         "@odata.type": {
             "$ref": "Resource.json#/definitions/odatatype"
-        },
-        "HTTPBasicAuth": {
-            "$ref": "#/definitions/BasicAuthState",
-            "description": "Indicates if HTTP Basic authentication is enabled for this service.",
-            "longDescription": "This property shall indicate whether clients are able to authenticate to the Redfish service with HTTP Basic authentication.  This property should default to `Enabled` for client compatibility.  If this property is not present in responses, the value shall be assumed to be `Enabled`.",
-            "readonly": false,
-            "type": "string"
         },
         "AccountLockoutCounterResetAfter": {
             "description": "The interval of time in seconds between the last failed login attempt and reset of the lockout threshold counter. This value must be less than or equal to AccountLockoutDuration. Reset sets the counter to zero.",
@@ -172,7 +145,6 @@
                             "null"
                         ]
                     },
-                    "etag": true,
                     "readonly": false,
                     "type": "array"
                 },
@@ -326,7 +298,6 @@
                             "null"
                         ]
                     },
-                    "etag": true,
                     "readonly": false,
                     "type": "array"
                 },
@@ -395,6 +366,6 @@
         }
     },
     "readonly": false,
-    "title": "#AccountService.v1_15_0.AccountService",
+    "title": "#AccountService.v1_5_0.AccountService",
     "type": "object"
 }

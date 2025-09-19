@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#NetworkInterfaceCollection.NetworkInterfaceCollection",
-    "@odata.etag": "W/\"C321D970\"",
+    "@odata.etag": "W/\"F303ECE9\"",
     "@odata.id": "/redfish/v1/Systems/1/NetworkInterfaces",
     "@odata.type": "#NetworkInterfaceCollection.NetworkInterfaceCollection",
     "Description": "The collection of network interfaces available in this system.",
@@ -12,10 +12,6 @@
             "MemberContents": "AllDevices"
         }
     },
-    "Members": [
-        {
-            "@odata.id": "/redfish/v1/Systems/1/NetworkInterfaces/DE081000"
-        }
-    ],
-    "Members@odata.count": 1
+    "Members": [],
+    "Members@odata.count": 0
 }

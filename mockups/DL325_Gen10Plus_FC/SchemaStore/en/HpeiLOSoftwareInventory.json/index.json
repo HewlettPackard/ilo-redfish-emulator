@@ -17,11 +17,6 @@
         "@odata.type": {
             "$ref": "Resource.json#/definitions/odatatype"
         },
-        "Description": {
-            "description": "Describing if CEC firmware is supported for NVIDIA component. Not applicable for other components",
-            "readonly": true,
-            "type": "string"
-        },
         "DeviceClass": {
             "description": "DeviceType GUID rendered by iLO for certain items iLO knows how to flash, and omitted for all other items.",
             "pattern": "([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})",
@@ -52,19 +47,11 @@
                 ]
             },
             "type": "array"
-        },
-        "Version": {
-            "description": "NVIDIA CEC Firmware version",
-            "readonly": true,
-            "type": [
-                "string",
-                "null"
-            ]
         }
     },
     "required": [
         "DeviceClass"
     ],
-    "title": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+    "title": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory",
     "type": "object"
 }

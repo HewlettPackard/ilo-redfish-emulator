@@ -1,22 +1,18 @@
 {
     "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
-    "@odata.etag": "W/\"0539D502\"",
+    "@odata.etag": "W/\"1DF5B87E\"",
     "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/7",
     "@odata.type": "#SoftwareInventory.v1_2_0.SoftwareInventory",
     "Id": "7",
-    "Description": "PowerSupplies",
-    "Name": "Power Supply Firmware",
+    "Description": "Intelligent Provisioning",
+    "Name": "Intelligent Provisioning",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
-            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
-            "DeviceClass": "6bb86077-0275-4614-aae1-86618e8b1c27",
-            "DeviceContext": "Bay 2",
-            "Targets": [
-                "0202bb05-0002-0000-0000-0cf38db966ea"
-            ]
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "ac963eeb-ed78-4f36-c18c-29d85f34a0ac",
+            "DeviceContext": "System Board"
         }
     },
-    "Updateable": true,
-    "Version": "2.00"
+    "Version": "3.40.192"
 }

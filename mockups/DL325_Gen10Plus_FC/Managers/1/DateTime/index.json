@@ -1,25 +1,25 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeiLODateTime.HpeiLODateTime",
-    "@odata.etag": "W/\"C12C2A02\"",
+    "@odata.etag": "W/\"6E025181\"",
     "@odata.id": "/redfish/v1/Managers/1/DateTime",
     "@odata.type": "#HpeiLODateTime.v2_0_0.HpeiLODateTime",
     "Id": "DateTime",
     "ConfigurationSettings": "Current",
-    "DateTime": "2001-01-13T09:57:39Z",
+    "DateTime": "2022-04-14T16:52:46Z",
     "Links": {
         "EthernetNICs": {
             "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces"
         }
     },
     "NTPServers": [
-        "",
-        ""
+        "ncn-m001",
+        "ncn-m001"
     ],
     "Name": "iLO Date and Time Settings",
     "PropagateTimeToHost": false,
     "StaticNTPServers": [
-        "0.0.0.0",
-        "0.0.0.0"
+        "ncn-m001",
+        "ncn-m001"
     ],
     "TimeZone": {
         "Index": 15,

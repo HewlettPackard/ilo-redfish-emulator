@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "@odata.id": "ServiceRoot",
     "additionalProperties": false,
-    "copyright": "Copyright 2014-2023 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
+    "copyright": "Copyright 2014-2019 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
     "description": "The ServiceRoot resource describes the Redfish API service root.",
     "properties": {
         "@odata.context": {
@@ -37,16 +37,6 @@
             "readonly": true,
             "type": "object"
         },
-        "CertificateService": {
-            "description": "The URI to the certificate service resource.",
-            "properties": {
-                "@odata.id": {
-                    "$ref": "Resource.json#/definitions/odataid"
-                }
-            },
-            "readonly": true,
-            "type": "object"
-        },
         "Description": {
             "$ref": "Resource.json#/definitions/Description"
         },
@@ -60,8 +50,8 @@
             "readonly": true,
             "type": "object"
         },
-        "Fabrics": {
-            "description": "The URI to fabric collection resource.",
+        "CertificateService": {
+            "description": "The URI to the certificate service resource.",
             "properties": {
                 "@odata.id": {
                     "$ref": "Resource.json#/definitions/odataid"

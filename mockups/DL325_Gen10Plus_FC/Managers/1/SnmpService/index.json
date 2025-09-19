@@ -1,8 +1,8 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeiLOSnmpService.HpeiLOSnmpService",
-    "@odata.etag": "W/\"DADC1259\"",
+    "@odata.etag": "W/\"87137AA6\"",
     "@odata.id": "/redfish/v1/Managers/1/SnmpService",
-    "@odata.type": "#HpeiLOSnmpService.v2_4_1.HpeiLOSnmpService",
+    "@odata.type": "#HpeiLOSnmpService.v2_3_0.HpeiLOSnmpService",
     "Id": "SnmpService",
     "Actions": {
         "#HpeiLOSnmpService.SendSNMPTestAlert": {
@@ -80,13 +80,9 @@
         "@odata.id": "/redfish/v1/Managers/1/SnmpService/SNMPUsers"
     },
     "SNMPv1Enabled": true,
-    "SNMPv1RequestsEnabled": true,
-    "SNMPv1TrapEnabled": true,
-    "SNMPv3EngineID": "0x800000E8044D5851323239304A3550",
+    "SNMPv3EngineID": "0x800000E8044D585130313930323042",
     "SNMPv3InformRetryAttempt": 2,
     "SNMPv3InformRetryIntervalSeconds": 15,
-    "SNMPv3RequestsEnabled": false,
-    "SNMPv3TrapEnabled": true,
     "Status": {
         "State": "Enabled"
     },
@@ -104,49 +100,49 @@
     "Users": [
         {
             "AuthProtocol": "MD5",
-            "PrivacyProtocol": "AES",
+            "PrivacyProtocol": "DES",
             "SecurityName": "",
             "UserEngineID": null
         },
         {
             "AuthProtocol": "MD5",
-            "PrivacyProtocol": "AES",
+            "PrivacyProtocol": "DES",
             "SecurityName": "",
             "UserEngineID": null
         },
         {
             "AuthProtocol": "MD5",
-            "PrivacyProtocol": "AES",
+            "PrivacyProtocol": "DES",
             "SecurityName": "",
             "UserEngineID": null
         },
         {
             "AuthProtocol": "MD5",
-            "PrivacyProtocol": "AES",
+            "PrivacyProtocol": "DES",
             "SecurityName": "",
             "UserEngineID": null
         },
         {
             "AuthProtocol": "MD5",
-            "PrivacyProtocol": "AES",
+            "PrivacyProtocol": "DES",
             "SecurityName": "",
             "UserEngineID": null
         },
         {
             "AuthProtocol": "MD5",
-            "PrivacyProtocol": "AES",
+            "PrivacyProtocol": "DES",
             "SecurityName": "",
             "UserEngineID": null
         },
         {
             "AuthProtocol": "MD5",
-            "PrivacyProtocol": "AES",
+            "PrivacyProtocol": "DES",
             "SecurityName": "",
             "UserEngineID": null
         },
         {
             "AuthProtocol": "MD5",
-            "PrivacyProtocol": "AES",
+            "PrivacyProtocol": "DES",
             "SecurityName": "",
             "UserEngineID": null
         }

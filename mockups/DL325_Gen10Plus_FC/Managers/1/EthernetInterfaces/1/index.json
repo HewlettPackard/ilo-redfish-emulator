@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
-    "@odata.etag": "W/\"33309A36\"",
+    "@odata.etag": "W/\"0F583E66\"",
     "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/1",
     "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
     "Id": "1",
@@ -15,28 +15,28 @@
     },
     "DHCPv6": {
         "OperatingMode": "Stateful",
-        "UseDNSServers": true,
+        "UseDNSServers": false,
         "UseDomainName": true,
-        "UseNTPServers": true,
+        "UseNTPServers": false,
         "UseRapidCommit": false
     },
     "Description": "Configuration of this Manager Network Interface",
-    "FQDN": null,
+    "FQDN": "ILOMXQ019020B.hmn",
     "FullDuplex": true,
-    "HostName": "ILOMXQ2290J5P",
+    "HostName": "ILOMXQ019020B",
     "IPv4Addresses": [
         {
-            "Address": "172.26.78.30",
+            "Address": "127.0.0.1",
             "AddressOrigin": "Static",
-            "Gateway": "172.26.78.1",
-            "SubnetMask": "255.255.255.192"
+            "Gateway": "127.0.0.1",
+            "SubnetMask": "255.255.128.0"
         }
     ],
     "IPv4StaticAddresses": [
         {
-            "Address": "172.26.78.30",
-            "Gateway": "172.26.78.1",
-            "SubnetMask": "255.255.255.192"
+            "Address": "127.0.0.1",
+            "Gateway": "127.0.0.1",
+            "SubnetMask": "255.255.128.0"
         }
     ],
     "IPv6AddressPolicyTable": [
@@ -48,13 +48,13 @@
     ],
     "IPv6Addresses": [
         {
-            "Address": "FE80::5EED:8CFF:FE27:690A",
+            "Address": "FE80::9640:C9FF:FE37:D3FC",
             "AddressOrigin": "SLAAC",
             "AddressState": "Preferred",
             "PrefixLength": 64
         }
     ],
-    "IPv6DefaultGateway": "::",
+    "IPv6DefaultGateway": "FE80::883A:3080:49F:2480",
     "IPv6StaticAddresses": [
         {
             "Address": "::",
@@ -80,12 +80,11 @@
     ],
     "InterfaceEnabled": true,
     "LinkStatus": "LinkUp",
-    "MACAddress": "5C:ED:8C:27:69:0A",
+    "MACAddress": "94:40:C9:37:D3:FC",
     "MaxIPv6StaticAddresses": 4,
     "Name": "Manager Dedicated Network Interface",
     "NameServers": [
-        "10.152.2.2",
-        "10.152.2.3"
+        "10.92.100.225"
     ],
     "Oem": {
         "Hpe": {
@@ -105,18 +104,18 @@
             "DHCPv6": {
                 "StatefulModeEnabled": true,
                 "StatelessModeEnabled": true,
-                "UseDNSServers": true,
+                "UseDNSServers": false,
                 "UseDomainName": true,
-                "UseNTPServers": true,
+                "UseNTPServers": false,
                 "UseRapidCommit": false
             },
-            "DomainName": "",
-            "HostName": "ILOMXQ2290J5P",
+            "DomainName": "hmn",
+            "HostName": "ILOMXQ019020B",
             "IPv4": {
                 "DDNSRegistration": true,
                 "DNSServers": [
-                    "10.152.2.2",
-                    "10.152.2.3",
+                    "10.92.100.225",
+                    "0.0.0.0",
                     "0.0.0.0"
                 ],
                 "StaticRoutes": [
@@ -178,14 +177,14 @@
             "PingGatewayOnStartup": true
         }
     },
-    "PermanentMACAddress": "5C:ED:8C:27:69:0A",
+    "PermanentMACAddress": "94:40:C9:37:D3:FC",
     "SpeedMbps": 1000,
     "StatelessAddressAutoConfig": {
         "IPv6AutoConfigEnabled": true
     },
     "StaticNameServers": [
-        "10.152.2.2",
-        "10.152.2.3",
+        "10.92.100.225",
+        "0.0.0.0",
         "0.0.0.0",
         "::",
         "::",

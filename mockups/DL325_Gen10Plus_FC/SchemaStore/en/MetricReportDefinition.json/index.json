@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "@odata.id": "MetricReportDefinition",
     "additionalProperties": false,
-    "copyright": "Copyright 2014-2023 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
+    "copyright": "Copyright 2014-2019 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
     "description": "A set of metrics that are collected into a metric report.",
     "properties": {
         "@odata.context": {
@@ -60,7 +60,6 @@
                 "Periodic": "The metric report is generated at a periodic time interval, specified in the Schedule property."
             },
             "longDescription": "The value shall specify when the metric report is generated.",
-            "readonly": false,
             "type": "string"
         },
         "Metrics": {
@@ -151,49 +150,6 @@
         },
         "Status": {
             "$ref": "Resource.json#/definitions/Status"
-        },
-        "Schedule": {
-            "additionalProperties": false,
-            "description": "The schedule for generating the metric report.",
-            "properties": {
-                "EnabledDaysOfMonth": {
-                    "description": "Days of the month when scheduled occurrences are enabled.  `0` indicates that every day of the month is enabled.",
-                    "items": {
-                        "type": [
-                            "integer",
-                            "null"
-                        ]
-                    },
-                    "longDescription": "This property shall contain the days of the month when scheduled occurrences are enabled, for enabled days of week and months of year.  If the array contains a single value of `0`, or if the property is not present, all days of the month shall be enabled.",
-                    "maximum": 31,
-                    "minimum": 0,
-                    "readonly": false,
-                    "type": "array"
-                },
-                "InitialStartTime": {
-                    "description": "The date and time when the initial occurrence is scheduled to occur.",
-                    "format": "date-time",
-                    "longDescription": "This property shall contain the date and time when the initial occurrence is scheduled to occur.",
-                    "readonly": false,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "RecurrenceInterval": {
-                    "description": "The duration between consecutive occurrences.",
-                    "longDescription": "This property shall contain the duration between consecutive occurrences.",
-                    "pattern": "-?P(\\d+D)?(T(\\d+H)?(\\d+M)?(\\d+(.\\d+)?S)?)?",
-                    "readonly": false,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                }
-            },
-            "longDescription": "This property shall contain the schedule of the metric report.  The metric report shall be generated at an interval specified by the RecurrenceInterval property within Schedule.  If MaxOccurrences property within Schedule is specified, the metric report shall no longer be generated after the specified number of occurrences.  The State property within Status should be set to `Disabled` and the MetricReportDefinitionEnabled property should be set to `false` when the specified number of occurrences is reached.",
-            "readonly": false,
-            "type": "object"
         }
     },
     "readonly": true,
@@ -201,6 +157,6 @@
         "Id",
         "Name"
     ],
-    "title": "#MetricReportDefinition.v1_4_2.MetricReportDefinition",
+    "title": "#MetricReportDefinition.v1_0_0.MetricReportDefinition",
     "type": "object"
 }

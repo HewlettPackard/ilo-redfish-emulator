@@ -1,32 +1,30 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"94CB93A2\"",
+    "@odata.etag": "W/\"EF3ACCEA\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/98",
-    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
     "Id": "98",
-    "Created": "2001-01-05T08:11:10Z",
+    "Created": "2021-06-21T15:55:37Z",
     "EntryType": "Oem",
-    "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
-    "MessageArgs": [],
-    "MessageId": "17.10",
+    "Message": "System Power Supplies Not Redundant",
     "Name": "Integrated Management Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
-            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
             "Categories": [
-                "Hardware"
+                "Power"
             ],
-            "Class": 17,
-            "ClassDescription": "Network",
-            "Code": 10,
+            "Class": 11,
+            "ClassDescription": "Power",
+            "Code": 54,
             "Count": 1,
-            "EventNumber": 135,
-            "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
-            "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+            "EventNumber": 307,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x000bcode0x0036-gen10",
+            "RecommendedAction": "Add a power supply or replace the failed power supply.",
             "Repaired": true,
             "Severity": "Repaired",
-            "Updated": "2001-01-05T08:11:10Z"
+            "Updated": "2021-06-21T21:36:44Z"
         }
     },
     "OemRecordFormat": "Hpe-IML",

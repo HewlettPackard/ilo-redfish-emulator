@@ -1,32 +1,27 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"258A6A2D\"",
+    "@odata.etag": "W/\"6A777ADA\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/64",
-    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
     "Id": "64",
-    "Created": "2001-01-05T14:08:55Z",
+    "Created": "2020-09-18T15:07:42Z",
     "EntryType": "Oem",
-    "Message": "The overall security state of the system is at \"Risk\".",
-    "MessageArgs": [],
-    "MessageId": "55.5",
+    "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
     "Name": "Security Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
-            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
             "Categories": [
-                "Security",
-                "Administration",
-                "Configuration"
+                "Unknown"
             ],
-            "Class": 55,
-            "ClassDescription": "Security Configuration",
-            "Code": 5,
+            "Class": 10,
+            "ClassDescription": "UEFI",
+            "Code": 631,
             "Count": 1,
-            "EventNumber": 64,
-            "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
+            "EventNumber": 85,
             "Severity": "Caution",
-            "Updated": "2001-01-05T14:08:55Z",
+            "Updated": "2020-09-18T15:07:42Z",
             "UserAction": "None"
         }
     },

@@ -4,16 +4,15 @@
     "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/8",
     "@odata.type": "#SoftwareInventory.v1_2_0.SoftwareInventory",
     "Id": "8",
-    "Description": "SystemRomBackup",
-    "Name": "Redundant System ROM",
+    "Description": "PowerManagementControllerBootloader",
+    "Name": "Power Management Controller FW Bootloader",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
-            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory",
             "DeviceClass": null,
             "DeviceContext": "System Board"
         }
     },
-    "Updateable": true,
-    "Version": "A43 v3.10 (05/16/2024)"
+    "Version": "1.1"
 }

@@ -106,20 +106,6 @@
                 "null"
             ]
         },
-        "FunctionType": {
-            "description": "The type of the PCIe function.",
-            "longDescription": "This property shall contain the function type of the PCIe device function such as Physical or Virtual.",
-            "enum": [
-                "Physical",
-                "Virtual"
-            ],
-            "enumDescriptions": {
-                "Physical": "A physical PCIe function.",
-                "Virtual": "A virtual PCIe function."
-            },
-            "type": "string",
-            "readonly": true
-        },
         "Id": {
             "$ref": "Resource.json#/definitions/Id",
             "readonly": true

@@ -6,7 +6,7 @@
     "Id": "1",
     "ExternallyAccessible": false,
     "HostInterfaceType": "NetworkHostInterface",
-    "InterfaceEnabled": false,
+    "InterfaceEnabled": true,
     "ManagerEthernetInterface": {
         "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/3"
     },
@@ -15,6 +15,6 @@
         "@odata.id": "/redfish/v1/Managers/1/NetworkProtocol"
     },
     "Status": {
-        "State": "Disabled"
+        "State": "Enabled"
     }
 }

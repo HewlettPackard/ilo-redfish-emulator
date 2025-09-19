@@ -50,11 +50,6 @@
                     "readonly": true,
                     "type": "boolean"
                 },
-                "ComputeOpsManagerFlag": {
-                    "description": "This property indicates whether Compute Ops Management is enabled.",
-                    "readonly": true,
-                    "type": "boolean"
-                },
                 "CoolingModuleSupport": {
                     "description": "This property indicates whether Liquid Cooling modules are available on this platform.",
                     "readonly": true,
@@ -142,11 +137,6 @@
                 },
                 "PowerDiscovery": {
                     "description": "This property indicates whether HPE Power Discovery Service feature is enabled on this platform.",
-                    "readonly": true,
-                    "type": "boolean"
-                },
-                "PowerHemModeSetSupport": {
-                    "description": "This property indicates whether setting of power HEM mode is supported.",
                     "readonly": true,
                     "type": "boolean"
                 },
@@ -312,6 +302,6 @@
             "type": "array"
         }
     },
-    "title": "#HpeiLOGUIService.v1_2_0.HpeiLOGUIService",
+    "title": "#HpeiLOGUIService.v1_1_0.HpeiLOGUIService",
     "type": "object"
 }

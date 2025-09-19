@@ -18,7 +18,6 @@ This is particularly useful for developers working with the Morpheus HPE Bare Me
 
 ## Available BMC types
 The emulator currently supports the following BMC types:
-- DL325 (ProLiant DL325 Gen10 Plus)
 - DL360 (ProLiant DL360 Gen10 Plus)
 - DL380a (ProLiant DL380a Gen11 - w/ 2 Nvidia H100 NVL GPUs)
 - DL380_Gen12 (ProLiant DL380 Gen12 - w/ 4 Nvidia H200 NVL GPUs)

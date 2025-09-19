@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeBiosMapping.HpeBiosMapping",
-    "@odata.etag": "W/\"9AE1801746104D4D4D36FC46E20D2164\"",
+    "@odata.etag": "W/\"A01BC933A535F5F5F56D5609F2F74FF9\"",
     "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/mappings/",
     "@odata.type": "#HpeBiosMapping.v2_0_0.HpeBiosMapping",
     "BiosPciSettingsMappings": [
@@ -31,20 +31,6 @@
                     ],
                     "CorrelatableID": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x1)",
                     "Subinstance": 2
-                },
-                {
-                    "Associations": [
-                        "Slot10NicBoot3"
-                    ],
-                    "CorrelatableID": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x2)",
-                    "Subinstance": 3
-                },
-                {
-                    "Associations": [
-                        "Slot10NicBoot4"
-                    ],
-                    "CorrelatableID": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x3)",
-                    "Subinstance": 4
                 }
             ]
         },
@@ -64,7 +50,7 @@
                 "EmbSata2Aspm",
                 "EmbSata2PCIeOptionROM"
             ],
-            "CorrelatableID": "PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)",
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x8,0x3)/Pci(0x0,0x0)",
             "Instance": 3,
             "Subinstances": []
         },
@@ -120,35 +106,13 @@
         },
         {
             "Associations": [
-                "PciSlot2Enable",
                 "PciSlot2LinkSpeed",
-                "PciSlot2Aspm",
                 "PciSlot2OptionROM",
                 "Ocp1AuxiliaryPower"
             ],
             "CorrelatableID": "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)",
             "Instance": 7,
-            "Subinstances": [
-                {
-                    "Associations": [
-                        "Slot2StorageBoot",
-                        {
-                            "PreBootNetwork": "Slot2NicPort1"
-                        },
-                        "Slot2NicBoot1"
-                    ],
-                    "CorrelatableID": "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)",
-                    "Subinstance": 1
-                },
-                {
-                    "Associations": [
-                        "Slot2StorageBoot",
-                        "Slot2NicBoot2"
-                    ],
-                    "CorrelatableID": "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x1)",
-                    "Subinstance": 2
-                }
-            ]
+            "Subinstances": []
         }
     ],
     "Id": "mappings",

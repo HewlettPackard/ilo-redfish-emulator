@@ -1,8 +1,8 @@
 {
     "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
-    "@odata.etag": "W/\"A9005192\"",
+    "@odata.etag": "W/\"1076FFCA\"",
     "@odata.id": "/redfish/v1/Chassis/1",
-    "@odata.type": "#Chassis.v1_23_0.Chassis",
+    "@odata.type": "#Chassis.v1_10_2.Chassis",
     "Id": "1",
     "AssetTag": "",
     "ChassisType": "RackMount",
@@ -19,7 +19,6 @@
             }
         ]
     },
-    "LocationIndicatorActive": false,
     "Manufacturer": "HPE",
     "Model": "ProLiant DL325 Gen10 Plus",
     "Name": "Computer System Chassis",
@@ -29,7 +28,7 @@
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeServerChassis.HpeServerChassis",
-            "@odata.type": "#HpeServerChassis.v2_4_0.HpeServerChassis",
+            "@odata.type": "#HpeServerChassis.v2_3_1.HpeServerChassis",
             "Actions": {
                 "#HpeServerChassis.DisableMCTPOnServer": {
                     "target": "/redfish/v1/Chassis/1/Actions/Oem/Hpe/HpeServerChassis.DisableMCTPOnServer"
@@ -42,12 +41,12 @@
             "Firmware": {
                 "PlatformDefinitionTable": {
                     "Current": {
-                        "VersionString": "12.3.0 Build 37"
+                        "VersionString": "9.1.0 Build 36"
                     }
                 },
                 "PowerManagementController": {
                     "Current": {
-                        "VersionString": "1.1.4"
+                        "VersionString": "1.0.7"
                     }
                 },
                 "PowerManagementControllerBootloader": {
@@ -58,7 +57,7 @@
                 },
                 "SystemProgrammableLogicDevice": {
                     "Current": {
-                        "VersionString": "0x19"
+                        "VersionString": "0x0D"
                     }
                 }
             },
@@ -68,23 +67,6 @@
                 }
             },
             "MCTPEnabledOnServer": true,
-            "SmartStorageBattery": [
-                {
-                    "ChargeLevelPercent": 100,
-                    "FirmwareVersion": "0.70",
-                    "Index": 1,
-                    "MaximumCapWatts": 12,
-                    "Model": "875239-B21",
-                    "ProductName": "HPE Smart Storage Battery ",
-                    "RemainingChargeTimeSeconds": 0,
-                    "SerialNumber": "6WQXE0EB2G400E",
-                    "SparePartNumber": "878641-001",
-                    "Status": {
-                        "Health": "OK",
-                        "State": "Enabled"
-                    }
-                }
-            ],
             "SystemMaintenanceSwitches": {
                 "Sw1": "Off",
                 "Sw10": "Off",
@@ -112,7 +94,7 @@
     },
     "PowerState": "On",
     "SKU": "P18606-B21",
-    "SerialNumber": "MXQ2290J5P",
+    "SerialNumber": "MXQ019020B",
     "Status": {
         "Health": "OK",
         "State": "Enabled"

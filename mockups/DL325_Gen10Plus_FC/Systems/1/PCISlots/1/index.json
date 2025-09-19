@@ -1,10 +1,10 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot",
-    "@odata.etag": "W/\"FE0AC9DA\"",
+    "@odata.etag": "W/\"BD29D6D6\"",
     "@odata.id": "/redfish/v1/Systems/1/PCISlots/1",
-    "@odata.type": "#HpeServerPCISlot.v2_1_2.HpeServerPCISlot",
+    "@odata.type": "#HpeServerPCISlot.v2_1_0.HpeServerPCISlot",
     "Id": "1",
-    "BusNumber": 133,
+    "BusNumber": 134,
     "Characteristics": {
         "Provides3_3Volts": true,
         "SupportsPowerManagementEventSignal": true

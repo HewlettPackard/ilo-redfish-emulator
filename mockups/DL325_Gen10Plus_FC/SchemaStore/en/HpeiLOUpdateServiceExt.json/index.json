@@ -67,15 +67,6 @@
                         "maxLength": 64,
                         "readonly": false,
                         "type": "string"
-                    },
-                    "Targets": {
-                        "description": "This property shall contain firmware inventory targets on which firmware updates to be applied.",
-                        "format": "uri-reference",
-                        "items": {
-                            "type": "string"
-                        },
-                        "readonly": false,
-                        "type": "array"
                     }
                 },
                 "readonly": true,
@@ -224,7 +215,7 @@
         "description": "POST custom actions defined for this type. (The implemented actions may be a subset of these.)"
     },
     "additionalProperties": false,
-    "copyright": "Copyright 2014-2023 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2023 Distributed Management Task Force. All rights reserved.",
+    "copyright": "Copyright 2014-2019 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
     "description": "The HpeiLOUpdateServiceExt object extends the Redfish UpdateService resource with additional HPE functionality.",
     "properties": {
         "@odata.context": {
@@ -432,42 +423,6 @@
                     "description": "Indicates whether iLO supports PLDM firmware updates.",
                     "readonly": true,
                     "type": "boolean"
-                },
-                "BundleDowngradeSupport": {
-                    "description": "Indicates whether iLO supports downgrade capability for cloud based updates.",
-                    "readonly": true,
-                    "type": "boolean"
-                },
-                "OfflineRuntimeBundleUpdate": {
-                    "description": "Indicates whether iLO supports offline type D installation.",
-                    "enum": [
-                        "ProductionMode",
-                        "ProductionAndHighSecurityMode",
-                        "AllModes"
-                    ],
-                    "enumDescriptions": {
-                        "ProductionMode": "iLO supports offline type D installation in production security state only.",
-                        "ProductionAndHighSecurityMode": "iLO supports offline type D installation in Production and High security state only.",
-                        "AllModes": "iLO supports offline type D installation in all security states viz, Production, High security, FIPS and CNSA."
-                    },
-                    "etag": true,
-                    "readonly": true,
-                    "type": "string"
-                },
-                "COMBootToUefiShellSupport": {
-                    "description": "Indicates whether iLO supports booting to Uefi shell for cloud based updates.",
-                    "readonly": true,
-                    "type": "boolean"
-                },
-                "HostPoweroffSupport": {
-                    "description": "Indicates whether iLO supports HOST power off.",
-                    "readonly": true,
-                    "type": "boolean"
-                },
-                "COMVCSupport": {
-                    "description": "Indicates whether iLO supports pending reset for bundle update.",
-                    "readonly": true,
-                    "type": "boolean"
                 }
             },
             "readonly": true,
@@ -476,17 +431,6 @@
         "ComponentRepository": {
             "additionalProperties": false,
             "description": "Link to the Component Repository.",
-            "properties": {
-                "@odata.id": {
-                    "$ref": "Resource.json#/definitions/odataid"
-                }
-            },
-            "readonly": true,
-            "type": "object"
-        },
-        "BundleUpdateReport": {
-            "additionalProperties": false,
-            "description": "Link to the Bundle Update report.",
             "properties": {
                 "@odata.id": {
                     "$ref": "Resource.json#/definitions/odataid"
@@ -706,9 +650,10 @@
         "State",
         "InstallSets",
         "MaintenanceWindows",
+        "UpdateTaskQueue",
         "ComponentRepository",
         "InvalidImageRepository"
     ],
-    "title": "#HpeiLOUpdateServiceExt.v2_6_0.HpeiLOUpdateServiceExt",
+    "title": "#HpeiLOUpdateServiceExt.v2_1_4.HpeiLOUpdateServiceExt",
     "type": "object"
 }

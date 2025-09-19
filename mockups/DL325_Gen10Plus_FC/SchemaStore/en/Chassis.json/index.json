@@ -43,7 +43,6 @@
                 "Zone",
                 "Sled",
                 "Shelf",
-                "StorageEnclosure",
                 "Other"
             ],
             "enumDescriptions": {
@@ -59,9 +58,8 @@
                 "Row": "A collection of equipment racks.",
                 "Shelf": "An enclosed or semi-enclosed, typically horizontally-oriented, system chassis that must be plugged into a multi-system chassis to function normally.",
                 "Sidecar": "A chassis that mechanically connects with another chassis to expand its capabilities or capacity.",
-                "Sled": "An enclosed or semi-enclosed, system chassis that must be plugged into a multi-system chassis to function normally similar to a blade type chassis.",
+                "Sled": "TBD",
                 "StandAlone": "A single, free-standing system, commonly called a tower or desktop chassis.",
-                "StorageEnclosure": "A chassis that encloses storage.",
                 "Zone": "A logical division or portion of a physical chassis that contains multiple devices or systems that cannot be physically separated."
             },
             "readonly": true,
@@ -69,17 +67,6 @@
         },
         "Description": {
             "$ref": "Resource.json#/definitions/Description"
-        },
-        "Drives": {
-            "description": "The link to the collection of drives within this chassis",
-            "longDescription": "This property shall contain a link to a resource collection of type DriveCollection.",
-            "properties": {
-                "@odata.id": {
-                    "$ref": "Resource.json#/definitions/odataid"
-                }
-            },
-            "type": "object",
-            "readonly": true
         },
         "Id": {
             "$ref": "Resource.json#/definitions/Id"
@@ -146,6 +133,19 @@
                     "readonly": true,
                     "type": "array"
                 },
+                "Drives": {
+                    "description": "An array of references to the drives contained in this chassis.",
+                    "items": {
+                        "properties": {
+                            "@odata.id": {
+                                "$ref": "Resource.json#/definitions/odataid"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "readonly": true,
+                    "type": "array"
+                },
                 "LogServices": {
                     "description": "A reference to the logs for this chassis.",
                     "properties": {
@@ -171,50 +171,10 @@
                 },
                 "Oem": {
                     "$ref": "Resource.json#/definitions/Oem"
-                },
-                "Storage": {
-                    "description": "An array of links to the storage subsystems connected to or inside this chassis.",
-                    "items": {
-                        "$ref": "Resource.json#/definitions/odataid"
-                    },
-                    "longDescription": "This property shall contain an array of links to resources of type Storage that are connected to or contained in this chassis.",
-                    "readonly": true,
-                    "type": "array"
-                },
-                "Storage@odata.count": {
-                    "type": "number",
-                    "readonly": true,
-                    "description": "The number of items in a collection.",
-                    "longDescription": "The value of this property shall be an integer representing the number of items in a collection."
-                },
-                "Switches": {
-                    "description": "An array of links to the switches located in this chassis.",
-                    "items": {
-                        "$ref": "Resource.json#/definitions/odataid"
-                    },
-                    "longDescription": "This property shall contain an array of links to resources of type Switch that this chassis contains.",
-                    "readonly": true,
-                    "type": "array"
-                },
-                "Switches@odata.count": {
-                    "type": "number",
-                    "readonly": true,
-                    "description": "The number of items in a collection.",
-                    "longDescription": "The value of this property shall be an integer representing the number of items in a collection."
                 }
             },
             "readonly": true,
             "type": "object"
-        },
-        "LocationIndicatorActive": {
-            "description": "An indicator allowing an operator to physically locate this resource.",
-            "longDescription": "This property shall contain the state of the indicator used to physically identify or locate this resource.  A write to this property shall update the value of IndicatorLED in this resource, if supported, to reflect the implementation of the locating function.",
-            "etag": true,
-            "readonly": false,
-            "type": [
-                "boolean",
-                "null"
-            ]
         },
         "Manufacturer": {
             "description": "The chassis manufacturer.",
@@ -253,11 +213,10 @@
             "additionalProperties": true,
             "properties": {
                 "Hpe": {
-                    "$ref": "HpeServerChassis.json#",
-                    "readonly": false
+                    "$ref": "HpeServerChassis.json#"
                 }
             },
-            "readonly": false,
+            "readonly": true,
             "type": "object"
         },
         "PartNumber": {
@@ -376,15 +335,6 @@
                 "null"
             ]
         },
-        "SparePartNumber": {
-            "description": "The spare part number of the chassis.",
-            "longDescription": "This property shall contain the spare part number of the chassis.",
-            "readonly": true,
-            "type": [
-                "string",
-                "null"
-            ]
-        },
         "Status": {
             "$ref": "Resource.json#/definitions/Status"
         },
@@ -397,12 +347,9 @@
             },
             "readonly": true,
             "type": "object"
-        },
-        "Location": {
-            "$ref": "Resource.json#/definitions/Location"
         }
     },
     "readonly": false,
-    "title": "#Chassis.v1_23_0.Chassis",
+    "title": "#Chassis.v1_10_2.Chassis",
     "type": "object"
 }

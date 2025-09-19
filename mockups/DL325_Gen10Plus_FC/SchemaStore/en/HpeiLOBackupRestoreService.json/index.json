@@ -40,12 +40,6 @@
             "readonly": true,
             "type": "string"
         },
-        "CustomBackupandRestore": {
-            "description": "This property indicates whether a custom backup and restore is enabled.",
-            "etag": true,
-            "readonly": false,
-            "type": "boolean"
-        },
         "Id": {
             "$ref": "Resource.json#/definitions/Id"
         },

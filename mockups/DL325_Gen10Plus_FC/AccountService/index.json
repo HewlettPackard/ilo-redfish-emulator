@@ -1,8 +1,8 @@
 {
     "@odata.context": "/redfish/v1/$metadata#AccountService.AccountService",
-    "@odata.etag": "W/\"A20F171A\"",
+    "@odata.etag": "W/\"8F1B1B4B\"",
     "@odata.id": "/redfish/v1/AccountService",
-    "@odata.type": "#AccountService.v1_15_0.AccountService",
+    "@odata.type": "#AccountService.v1_5_0.AccountService",
     "Id": "AccountService",
     "Accounts": {
         "@odata.id": "/redfish/v1/AccountService/Accounts"
@@ -30,7 +30,6 @@
         "ServiceEnabled": false
     },
     "Description": "iLO User Accounts",
-    "HTTPBasicAuth": "Unadvertised",
     "LDAP": {
         "AccountProviderType": "ActiveDirectoryService",
         "Authentication": {
@@ -66,7 +65,7 @@
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeiLOAccountService.HpeiLOAccountService",
             "@odata.id": "/redfish/v1/AccountService",
-            "@odata.type": "#HpeiLOAccountService.v2_4_0.HpeiLOAccountService",
+            "@odata.type": "#HpeiLOAccountService.v2_3_0.HpeiLOAccountService",
             "Id": "AccountService",
             "Actions": {
                 "#HpeiLOAccountService.ImportKerberosKeytab": {
@@ -94,8 +93,7 @@
                 "KDCServerPort": 88,
                 "KerberosRealm": ""
             },
-            "MinPasswordLength": 8,
-            "TwoFactorAuth": "Disabled"
+            "MinPasswordLength": 8
         }
     },
     "Roles": {

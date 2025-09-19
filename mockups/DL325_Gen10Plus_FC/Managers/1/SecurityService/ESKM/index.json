@@ -1,8 +1,8 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeESKM.HpeESKM",
-    "@odata.etag": "W/\"EC87BBEF\"",
+    "@odata.etag": "W/\"DE46FAB9\"",
     "@odata.id": "/redfish/v1/Managers/1/SecurityService/ESKM",
-    "@odata.type": "#HpeESKM.v2_1_0.HpeESKM",
+    "@odata.type": "#HpeESKM.v2_0_0.HpeESKM",
     "Id": "ESKM",
     "Actions": {
         "#HpeESKM.ClearESKMLog": {
@@ -14,11 +14,10 @@
     },
     "KeyManagerConfig": {
         "AccountGroup": "",
-        "AccountName": "ilo-5ced8c27690a",
+        "AccountName": "ilo-9440c937d3fc",
         "ESKMLocalCACertificateName": "",
         "ImportedCertificateIssuer": "",
-        "ImportedCertificateSubject": "",
-        "RemotePassword": null
+        "ImportedCertificateSubject": ""
     },
     "KeyServerRedundancyReq": false,
     "PrimaryKeyServerAddress": null,

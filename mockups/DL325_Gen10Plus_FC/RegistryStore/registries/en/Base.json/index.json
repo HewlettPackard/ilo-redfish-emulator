@@ -1,6 +1,6 @@
 {
-    "@Redfish.Copyright": "Copyright 2014-2022 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2022 Distributed Management Task Force. All rights reserved.",
-    "@odata.type": "#MessageRegistry.v1_6_0.MessageRegistry",
+    "@Redfish.Copyright": "Copyright 2014-2019 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
+    "@odata.type": "#MessageRegistry.v1_2_0.MessageRegistry",
     "Description": "This registry contains the basic API response messages for the HPE RESTful API.",
     "Id": "Base.json",
     "Language": "en",
@@ -13,7 +13,6 @@
                 "string"
             ],
             "Resolution": "Verify that the URI is correct and that the service has the appropriate credentials.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "AccountForSessionNoLongerExists": {
@@ -22,7 +21,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Attempt to connect using a valid account.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "AccountModified": {
@@ -31,7 +29,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "AccountNotModified": {
@@ -40,7 +37,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "If the operation did not complete, check the authorization or the request body for issues and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "AccountRemoved": {
@@ -49,7 +45,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "ActionNotSupported": {
@@ -60,7 +55,6 @@
                 "string"
             ],
             "Resolution": "The action was invalid or the wrong resource was the target. See the implementation documentation for assistance.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "ActionParameterDuplicate": {
@@ -72,7 +66,6 @@
                 "string"
             ],
             "Resolution": "Resubmit the action with only one instance of the parameter in the request body.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ActionParameterMissing": {
@@ -84,7 +77,6 @@
                 "string"
             ],
             "Resolution": "Resubmit the action with the required parameter in the request body.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "ActionParameterNotSupported": {
@@ -96,7 +88,6 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, remove the parameter and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ActionParameterUnknown": {
@@ -108,7 +99,6 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, correct the invalid parameter and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ActionParameterValueFormatError": {
@@ -121,7 +111,6 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, correct the parameter value in the request body and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ActionParameterValueTypeError": {
@@ -134,7 +123,6 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, correct the parameter value in the request body and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "CouldNotEstablishConnection": {
@@ -145,7 +133,6 @@
                 "string"
             ],
             "Resolution": "Verify that the URI contains a valid and reachable node name, protocol information, and other URI components.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "CreateFailedMissingReqProperties": {
@@ -156,7 +143,6 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, include the required property with a valid value in the request body and resubmit the request.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "CreateLimitReachedForResource": {
@@ -165,7 +151,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "If the operation did not complete, delete resources and resubmit the request.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "Created": {
@@ -174,7 +159,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "EmptyJSON": {
@@ -183,7 +167,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Add properties in the JSON object and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "EventSubscriptionLimitExceeded": {
@@ -192,7 +175,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Before attempting to establish the event subscription, reduce the number of subscriptions or increase the maximum number of simultaneous subscriptions allowed (if supported).",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "GeneralError": {
@@ -201,7 +183,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "InsufficientPrivilege": {
@@ -210,7 +191,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the operation with an authorized account or credentials.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "InternalError": {
@@ -219,13 +199,11 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Resubmit the request. If the problem persists, consider resetting the service.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "InvalidIndex": {
             "Description": "The Index is not valid.",
             "Message": "The Index %1 is not a valid offset into the array.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning",
             "NumberOfArgs": 1,
             "ParamTypes": [
@@ -241,27 +219,7 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, the object is malformed or the URI is incorrect. Make the appropriate corrections and resubmit the request.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
-        },
-        "InvalidURI": {
-            "Description": "Indicates that the operation encountered a URI that does not correspond to a valid resource.",
-            "LongDescription": "This message shall be used to indicate that the operation encountered a URI that does not correspond to a valid resource.",
-            "Message": "The URI %1 was not found.",
-            "Severity": "Critical",
-            "MessageSeverity": "Critical",
-            "VersionAdded": "1.10.0",
-            "NumberOfArgs": 1,
-            "ParamTypes": [
-                "string"
-            ],
-            "ArgDescriptions": [
-                "The supplied URI."
-            ],
-            "ArgLongDescriptions": [
-                "This argument shall contain the invalid URI that was encountered."
-            ],
-            "Resolution": "Provide a valid URI and resubmit the request."
         },
         "MalformedJSON": {
             "Description": "The request body contains malformed JSON.",
@@ -269,7 +227,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Verify that the request body is valid JSON and resubmit the request.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "NoOperation": {
@@ -278,7 +235,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Add properties in the JSON object and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "NoValidSession": {
@@ -287,7 +243,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Establish a session before attempting any operations.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "PropertyDuplicate": {
@@ -298,7 +253,6 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, remove the duplicate property from the request body and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PropertyMissing": {
@@ -309,7 +263,6 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, verify the property is in the request body and has a valid value.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PropertyNotWritable": {
@@ -320,7 +273,6 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, remove the property from the request body and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PropertyUnknown": {
@@ -331,7 +283,6 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, remove the unknown property from the request body and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PropertyValueFormatError": {
@@ -343,7 +294,6 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, correct the property value in the request body and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PropertyValueModified": {
@@ -355,7 +305,6 @@
                 "string"
             ],
             "Resolution": "No resolution is required.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PropertyValueNotInList": {
@@ -367,7 +316,6 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, choose a value from the enumeration list and resubmit your request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PropertyValueTypeError": {
@@ -379,7 +327,6 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, correct the property value in the request body and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "QueryNotSupported": {
@@ -388,7 +335,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "If the operation did not complete, remove the query parameter and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "QueryNotSupportedOnResource": {
@@ -397,7 +343,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "If the operation did not complete, remove the query parameters and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "QueryParameterOutOfRange": {
@@ -410,26 +355,7 @@
                 "string"
             ],
             "Resolution": "Specify a query parameter value that is within range. For example, a page that is within the valid range of pages.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
-        },
-        "QueryParameterValueError": {
-            "Description": "Indicates that a query parameter was given an invalid value.",
-            "LongDescription": "This message shall be used to indicate that a query parameter was given an invalid value that can not or should not be included in the message.",
-            "Message": "The value for the parameter %1 is invalid.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning",
-            "NumberOfArgs": 1,
-            "ParamTypes": [
-                "string"
-            ],
-            "ArgDescriptions": [
-                "The query parameter."
-            ],
-            "ArgLongDescriptions": [
-                "This argument shall contain the name of the query parameter."
-            ],
-            "Resolution": "Correct the value for the query parameter in the request and resubmit the request if the operation failed."
         },
         "QueryParameterValueFormatError": {
             "Description": "The value type is correct, but the format is not supported or the size/length was exceeded.",
@@ -440,7 +366,6 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, correct the value for the query parameter in the request body and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "QueryParameterValueTypeError": {
@@ -452,13 +377,11 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, correct the value for the query parameter in the request body and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ResourceAlreadyExists": {
             "Description": "Indicates that a resource change or creation was attempted but that the operation cannot proceed because the resource already exists.",
             "Message": "The requested resource of type %1 with the property %2 with the value %3 already exists.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical",
             "NumberOfArgs": 3,
             "ParamTypes": [
@@ -471,7 +394,6 @@
         "ResourceNotFound": {
             "Description": "Indicates that the operation expected a resource identifier that corresponds to an existing resource but one was not found.",
             "Message": "The requested resource of type %1 named %2 was not found.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical",
             "NumberOfArgs": 2,
             "ParamTypes": [
@@ -488,7 +410,6 @@
                 "string"
             ],
             "Resolution": "Place a resource, image, or file that is supported by the service at the URI.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "ResourceAtUriUnauthorized": {
@@ -500,7 +421,6 @@
                 "string"
             ],
             "Resolution": "Verify that the appropriate access is provided for the service to access the URI.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "ResourceCannotBeDeleted": {
@@ -509,7 +429,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Do not attempt to delete a resource that does not support the REST API DELETE operation.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "ResourceExhaustion": {
@@ -520,7 +439,6 @@
                 "string"
             ],
             "Resolution": "Ensure that the resources are available and resubmit the request.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "ResourceInStandby": {
@@ -529,7 +447,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Ensure that the resource is in the correct power state and resubmit the request.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "ResourceInUse": {
@@ -538,7 +455,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "If the operation did not complete, wait until the resource is free and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ResourceMissingAtURI": {
@@ -549,7 +465,6 @@
                 "string"
             ],
             "Resolution": "Place a valid resource at the URI or correct the URI and resubmit the request.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "ResourceTypeIncompatible": {
@@ -561,7 +476,6 @@
                 "string"
             ],
             "Resolution": "Resubmit the request with a payload compatible with the resource's schema.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "ServiceInUnknownState": {
@@ -570,7 +484,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "If the operation did not complete, restart the service and resubmit the request.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "ServiceShuttingDown": {
@@ -579,7 +492,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "If the operation did not complete, resubmit the request when the service is available.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "ServiceTemporarilyUnavailable": {
@@ -590,7 +502,6 @@
                 "string"
             ],
             "Resolution": "Wait for the indicated retry duration and retry the operation.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "SessionLimitExceeded": {
@@ -599,7 +510,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Before attempting to establish the session, reduce the number of sessions or increase the maximum number of simultaneous sessions allowed (if supported).",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "SessionTerminated": {
@@ -608,7 +518,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "No resolution is required.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "SourceDoesNotSupportProtocol": {
@@ -620,7 +529,6 @@
                 "string"
             ],
             "Resolution": "Change protocols or URIs. ",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "StringValueTooLong": {
@@ -632,7 +540,6 @@
                 "number"
             ],
             "Resolution": "Resubmit the request with an appropriate string length.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "Success": {
@@ -641,7 +548,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "UnrecognizedRequestBody": {
@@ -650,41 +556,11 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "If the operation did not complete, correct the request body and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
-        },
-        "AuthenticationTokenRequired": {
-            "Description": "Indicates that the request could not be performed because an authentication token was not provided.",
-            "LongDescription": "This message shall be used to indicate that the request could not be performed because the user provided in the request requires multifactor authentication and an authentication token was not provided.",
-            "Message": "The request could not be performed because an authentication token was not provided.",
-            "Severity": "Critical",
-            "MessageSeverity": "Critical",
-            "VersionAdded": "1.15.0",
-            "NumberOfArgs": 0,
-            "Resolution": "Obtain an authentication token and resubmit the request."
-        },
-        "OneTimePasscodeSent": {
-            "Description": "Indicates that a required one-time passcode has been sent to the user.  The code should be provided as the `Token` in the request to create a Session.",
-            "LongDescription": "This message shall be used to indicate that a one-time passcode has been generated by the service as the result of a request to create a Session.  The one-time passcode shall be sent to the `OneTimePasscodeDeliveryAddress` associated with account credentials supplied in the request.",
-            "Message": "A one-time passcode has been sent to: %1  Supply the passcode as the Token in the request to create a Session.",
-            "Severity": "OK",
-            "MessageSeverity": "OK",
-            "VersionAdded": "1.17.0",
-            "NumberOfArgs": 1,
-            "ParamTypes": [
-                "string"
-            ],
-            "ArgDescriptions": [
-                "The delivery address for the one-time passcode."
-            ],
-            "ArgLongDescriptions": [
-                "This argument shall contain the delivery address for the one-time passcode.  The value should be partially or fully redacted to prevent receipt by unauthorized clients."
-            ],
-            "Resolution": "Obtain the one-time passcode sent to the delivery address and resubmit the request using the passcode as the Token."
         }
     },
     "Name": "Base Message Registry",
     "OwningEntity": "Hewlett Packard Enterprise",
     "RegistryPrefix": "Base",
-    "RegistryVersion": "1.18.0"
+    "RegistryVersion": "1.4.0"
 }

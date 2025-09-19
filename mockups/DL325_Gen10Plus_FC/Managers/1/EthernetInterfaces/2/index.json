@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
-    "@odata.etag": "W/\"CBBD5232\"",
+    "@odata.etag": "W/\"8F8173D0\"",
     "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/2",
     "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
     "Id": "2",
@@ -23,7 +23,7 @@
     "Description": "Configuration of this Manager Network Interface",
     "FQDN": null,
     "FullDuplex": false,
-    "HostName": "ILOMXQ2290J5P",
+    "HostName": "ILOMXQ019020B",
     "IPv4Addresses": [
         {
             "Address": "0.0.0.0",
@@ -67,7 +67,7 @@
     ],
     "InterfaceEnabled": false,
     "LinkStatus": null,
-    "MACAddress": "5C:ED:8C:27:69:0B",
+    "MACAddress": "94:40:C9:37:D3:FD",
     "MaxIPv6StaticAddresses": 4,
     "Name": "Manager Shared Network Interface",
     "NameServers": [],
@@ -95,7 +95,7 @@
                 "UseRapidCommit": false
             },
             "DomainName": "",
-            "HostName": "ILOMXQ2290J5P",
+            "HostName": "ILOMXQ019020B",
             "IPv4": {
                 "DDNSRegistration": true,
                 "DNSServers": [
@@ -164,10 +164,10 @@
                 "Port": 1
             },
             "SupportsFlexibleLOM": true,
-            "SupportsLOM": false
+            "SupportsLOM": true
         }
     },
-    "PermanentMACAddress": "5C:ED:8C:27:69:0B",
+    "PermanentMACAddress": "94:40:C9:37:D3:FD",
     "SpeedMbps": null,
     "StatelessAddressAutoConfig": {
         "IPv6AutoConfigEnabled": true

@@ -29,25 +29,6 @@
                         },
                         "readonly": true,
                         "type": "string"
-                    },
-                    "Targets": {
-                        "description": "Target Redfish URI ",
-                        "format": "uri-reference",
-                        "items": {
-                            "type": "string"
-                        },
-                        "readonly": true,
-                        "type": "array"
-                    },
-                    "Username": {
-                        "description": "The username credential required for authentication to fetch image.",
-                        "readonly": true,
-                        "type": "string"
-                    },
-                    "Password": {
-                        "description": "The password credential required for authentication to fetch image.",
-                        "readonly": true,
-                        "type": "string"
                     }
                 },
                 "readonly": true,
@@ -61,7 +42,7 @@
         "description": "POST custom actions defined for this type. (The implemented actions may be a subset of these.)"
     },
     "additionalProperties": false,
-    "copyright": "Copyright 2014-2021 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2021 Distributed Management Task Force. All rights reserved.",
+    "copyright": "Copyright 2014-2019 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
     "description": "The UpdateService resource describes the Update Service. It represents the properties for the service itself and has links to collections of firmware and software inventory.",
     "properties": {
         "@odata.context": {
@@ -89,7 +70,7 @@
                                 "readonly": true,
                                 "type": "string"
                             },
-                            "longDescription": "This parameter shall contain a URI referencing a software image to be retrieved by the UpdateService for the purpose of installing software contained within the image.",
+                            "longDescription": "This parameter shall contain a URI referencing a software image to be retreived by the UpdateService for the purpose of installing software contained within the image.",
                             "type": "array",
                             "uniqueItems": true
                         },
@@ -107,7 +88,7 @@
                                 "readonly": true,
                                 "type": "string"
                             },
-                            "longDescription": "This parameter shall contain the network protocol that the Update Service shall use to retrieve the software image located at the ImageURI.  If this parameter is not provided (or supported), and a transfer protocol is not specified by a scheme contained within ImageURI, the Update Service shall use HTTP to retrieve the image.",
+                            "longDescription": "This parameter shall contain the network protocol that the Update Service shall use to retreive the software image located at the ImageURI.  If this parameter is not provided (or supported), and a transfer protocol is not specified by a scheme contained within ImageURI, the Update Service shall use HTTP to retrieve the image.",
                             "type": "array",
                             "uniqueItems": true
                         },
@@ -117,28 +98,6 @@
                         },
                         "title": {
                             "description": "Friendly action name",
-                            "type": "string"
-                        },
-                        "Targets": {
-                            "description": "Target Redfish URI ",
-                            "format": "uri-reference",
-                            "items": {
-                                "type": "string"
-                            },
-                            "etag": true,
-                            "readonly": true,
-                            "type": "array"
-                        },
-                        "Username": {
-                            "description": "The username credential required for authentication to fetch image.",
-                            "etag": true,
-                            "readonly": true,
-                            "type": "string"
-                        },
-                        "Password": {
-                            "description": "The password credential required for authentication to fetch image.",
-                            "etag": true,
-                            "readonly": true,
                             "type": "string"
                         }
                     },
@@ -204,6 +163,6 @@
             "type": "object"
         }
     },
-    "title": "#UpdateService.v1_2_1.UpdateService",
+    "title": "#UpdateService.v1_1_1.UpdateService",
     "type": "object"
 }
