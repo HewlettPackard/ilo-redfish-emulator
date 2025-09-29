@@ -51,8 +51,7 @@ from .redfish.manager_network_protocol_api import ManagerNetworkProtocolAPI, Cre
 from .redfish.manager_vmedia_api import (VirtualMediaAPI, VirtualMediaEjectAPI, VirtualMediaInsertAPI,
                                          CreateVirtualMedia)
 from .redfish.system_storage_api import (SystemStorageAPI, InitStorage)
-from .redfish.system_storage_instance_api import (SystemStorageInstanceAPI, InitSystemStorageInstance,
-                                                  StorageDriveSecureEraseActionAPI, SystemStorageDriveAPI)
+from .redfish.system_storage_instance_api import (SystemStorageInstanceAPI, InitSystemStorageInstance, SystemStorageResetToDefaultsAction, StorageDriveSecureEraseActionAPI, SystemStorageDriveAPI)
 from .redfish.system_storage_volume_api import (StorageVolumeCollectionAPI, InitVolumes, StorageVolumeAPI)
 
 import api_emulator.redfish.power_control_api as generic_power
@@ -121,6 +120,10 @@ import api_emulator.redfish.templates.intel_events as intel_events
 # - Chassis Drive Secure Erase
 #     GET /redfish/v1/Chassis/{chassis_id}/Drives/{drive_id}
 #     POST /redfish/v1/Chassis/{chassis_id}/Drives/{drive_id}/Actions/Drive.SecureErase
+# - System Drive Secure Erase and ResetToDefaults Actions
+#     GET /redfish/v1/Systems/{system_id}/Storage/{storage_id}/Drives/{drive_id}
+#     POST /redfish/v1/Systems/{system_id}/Storage/{storage_id}/Drives/{drive_id}/Actions/Drive.SecureErase
+#     POST /redfish/v1/Systems/{system_id}/Storage/{storage_id}/Actions/Storage.ResetToDefaults
 # - System Volume API
 #     GET /redfish/v1/Systems/{system_id}/Storage/{storage_id}
 #     GET /redfish/v1/Systems/{system_id}/Storage/{storage_id}/Volumes
@@ -493,16 +496,21 @@ class Loader:
                     storage_id = storage_member['@odata.id'].replace('/redfish/v1/Systems/%s/Storage/' % system_id, '')
                     storage_inst = self.resource_dictionary.get_resource('Systems/%s/Storage/%s' % (system_id, storage_id))
                     InitSystemStorageInstance(self.resource_dictionary, system_id, storage_id, storage_inst)
-                    volumes = self.resource_dictionary.get_resource('Systems/%s/Storage/%s/Volumes' % (system_id, storage_id))
-                    InitVolumes(self.resource_dictionary, storage_id, volumes)
-        except:
+                    try:
+                        volumes = self.resource_dictionary.get_resource('Systems/%s/Storage/%s/Volumes' % (system_id, storage_id))
+                        InitVolumes(self.resource_dictionary, storage_id, volumes)
+                    except:
+                        volumes = None
+        except Exception as e:
+            logging.error('Exception loading system storage: %s' % e)
             return
 
         if found_system_storage:
             g.api.add_resource(SystemStorageAPI, '/redfish/v1/Systems/<string:system_id>/Storage')
             g.api.add_resource(SystemStorageInstanceAPI, '/redfish/v1/Systems/<string:system_id>/Storage/<string:storage_id>')
-            g.api.add.resource(SystemStorageDriveAPI, '/redfish/v1/Systems/<string:system_id>/Storage/<string:storage_id>/Drives/<string:drive_id>')
-            g.api.add.resource(StorageDriveSecureEraseActionAPI, '/redfish/v1/Systems/<string:system_id>/Storage/<string:storage_id>/Drives/<string:drive_id>/Actions/Drive.SecureErase')
+            g.api.add_resource(SystemStorageDriveAPI, '/redfish/v1/Systems/<string:system_id>/Storage/<string:storage_id>/Drives/<string:drive_id>')
+            g.api.add_resource(SystemStorageResetToDefaultsAction, '/redfish/v1/Systems/<string:system_id>/Storage/<string:storage_id>/Actions/Storage.ResetToDefaults')
+            g.api.add_resource(StorageDriveSecureEraseActionAPI, '/redfish/v1/Systems/<string:system_id>/Storage/<string:storage_id>/Drives/<string:drive_id>/Actions/Drive.SecureErase')
             g.api.add_resource(StorageVolumeCollectionAPI, '/redfish/v1/Systems/<string:system_id>/Storage/<string:storage_id>/Volumes')
             g.api.add_resource(StorageVolumeAPI, '/redfish/v1/Systems/<string:system_id>/Storage/<string:storage_id>/Volumes/<string:volume_id>')
 

@@ -4,9 +4,10 @@
 Dynamic resources:
  - System Storage API
     #     GET /redfish/v1/Systems/{system_id}/Storage/{storage_id}
- - System Storage Drive Secure Erase
+ - System Storage Drive, Secure Erase, and ResetToDefaults Actions
     GET /redfish/v1/Systems/{system_id}/Storage/{storage_id}/Drives/{drive_id}
     POST /redfish/v1/Systems/{system_id}/Storage/{storage_id}/Drives/{drive_id}/Actions/Drive.SecureErase
+    POST /redfish/v1/Systems/{system_id}/Storage/{storage_id}/Actions/Storage.ResetToDefaults
 """
 from threading import Thread
 
@@ -26,6 +27,9 @@ members = {} # [system_id + "_" + storage_id] -> storage instance data
 
 members_drives = {} # [<system_id>_<storage_id>_<drive_id>] -> drive
 members_se_thread = {} # [<system_id>_<storage_id>_<drive_id>] -> secure erase thread
+
+def getSystemStorageMemberDrives():
+    return members_drives
 
 class SystemStorageInstanceAPI(Resource):
     # Set authorization levels here. You can either list all of the
@@ -61,13 +65,15 @@ def InitSystemStorageInstance(resource_dict, system_id, storage_id, storage):
     members[ident] = storage
     logging.info(f'Storage data initialized for system {system_id}, storage {storage_id}')
 
-    if 'Drives' in storage:
-        for drive_odata in storage['Drives']:
-            drive_id = drive_odata['@odata.id'].split('/')[-1]
-            drive = resource_dict.get_resource('/redfish/v1/Systems/{0}/Storage/{1}/Drives/{2}'.format(system_id, storage_id, drive_id))
-            #resource_dict['/redfish/v1/Systems/{0}/Storage/{1}/Drives/{2}/Actions/Drive.SecureErase'.format(system_id, storage_id, drive_id)] = 'api_emulator.redfish.system_storage_instance_api.DriveSecureEraseActionAPI'
-            InitSystemStorageDrive(system_id, storage_id, drive_id, drive)
-
+    try:
+        if 'Drives' in storage:
+            for drive_odata in storage['Drives']:
+                drive_id = drive_odata['@odata.id'].rstrip('/').split('/')[-1]
+                logging.info(f'Initializing drive {drive_id} for system {system_id}, storage {storage_id}')
+                drive = resource_dict.get_resource('Systems/%s/Storage/%s/Drives/%s' % (system_id, storage_id, drive_id))
+                InitSystemStorageDrive(system_id, storage_id, drive_id, drive)
+    except Exception as e:
+        logging.error(f'Failed to initialize system storage drive: {e}')
 # StorageSecureEraseWorker
 #
 # Worker thread for performing emulated asynchronous secure erase operations.
@@ -103,10 +109,7 @@ class StorageDriveSecureEraseActionAPI(Resource):
     # Set authorization levels here. You can either list all of the
     # privileges needed for access or just the highest one.
     method_decorators = {'get':    [auth.auth_required(priv={Privilege.Login})],
-                         'post':   [auth.auth_required(priv={Privilege.ConfigureComponents})],
-                         'put':    [auth.auth_required(priv={Privilege.ConfigureComponents})],
-                         'patch':  [auth.auth_required(priv={Privilege.ConfigureComponents})],
-                         'delete': [auth.auth_required(priv={Privilege.ConfigureComponents})]}
+                         'post':   [auth.auth_required(priv={Privilege.ConfigureComponents})]}
 
     def __init__(self, **kwargs):
         logging.info('SecureEraseActionAPI init called')
@@ -150,14 +153,40 @@ class StorageDriveSecureEraseActionAPI(Resource):
             resp = simple_error_response('Server encountered an unexpected Error', 500)
         return resp
 
+class SystemStorageResetToDefaultsAction(Resource):
+    method_decorators = {'post': [auth.auth_required(priv={Privilege.ConfigureComponents})]}
+    def __init__(self, **kwargs):
+        logging.info('System Storage ResetToDefaults Action init called')
+        self.allow = 'POST'
+        self.apiName = 'SystemStorageResetToDefaultsAction'
+
+    def post(self, system_id, storage_id):
+        logging.info('%s %s called' % (self.apiName, request.method))
+        ident = system_id + "_" + storage_id
+        if ident not in members:
+            return error_404_response('System storage not found', 404)
+
+        # If the power is off, return ResourceNotReady error
+        if not isPowerOn(system_id):
+            return error_400_response()
+
+        # add SecureErase action to all drives under this storage
+        for key in members_drives:
+            if key.startswith(f"{system_id}_{storage_id}_"):
+                logging.info(f'Setting drive {key} Actions for SecureErase')
+                if 'Actions' not in members_drives[key]:
+                    members_drives[key]['Actions'] = {}
+                members_drives[key]['Actions']["#Drive.SecureErase"] = {
+                    "target": f"/redfish/v1/Systems/{system_id}/Storage/{storage_id}/Drives/{key.split('_')[-1]}/Actions/Drive.SecureErase"
+                }
+
+        logging.info(f'ResetToDefaults action called for system {system_id}, storage {storage_id}')
+        return success_response('Reset to defaults action completed successfully', 200)
+
 class SystemStorageDriveAPI(Resource):
     # Set authorization levels here. You can either list all of the
     # privileges needed for access or just the highest one.
-    method_decorators = {'get':    [auth.auth_required(priv={Privilege.Login})],
-                         'post':   [auth.auth_required(priv={Privilege.ConfigureComponents})],
-                         'put':    [auth.auth_required(priv={Privilege.ConfigureComponents})],
-                         'patch':  [auth.auth_required(priv={Privilege.ConfigureComponents})],
-                         'delete': [auth.auth_required(priv={Privilege.ConfigureComponents})]}
+    method_decorators = {'get':    [auth.auth_required(priv={Privilege.Login})]}
 
     def __init__(self, **kwargs):
         logging.info('SystemStorageDriveAPI init called')
