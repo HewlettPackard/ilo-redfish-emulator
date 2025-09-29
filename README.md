@@ -21,7 +21,7 @@ testing of the plugin without needing actual HPE servers.
 The emulator currently supports the following BMC types:
 - DL360 (ProLiant DL360 Gen10 Plus)
 - DL380a (ProLiant DL380a Gen11 - w/ 2 Nvidia H100 NVL GPUs)
-- DL380_Gen12 (ProLiant DL380 Gen12 - w/ 4 Nvidia H200 NVL GPUs)
+- DL380a_Gen12 (ProLiant DL380 Gen12 - w/ 4 Nvidia H200 NVL GPUs, NS204 Boot Controller)
 - DL360_Gen12 (ProLiant DL360 Gen12)
 - DL365_Gen10Plus (ProLiant DL365 Gen10 Plus w/ HBA)
 - DL325_Gen10Plus_FC (ProLiant DL325 Gen10 Plus w/ FC)
