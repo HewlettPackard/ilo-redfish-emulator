@@ -4,10 +4,8 @@
     "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/9",
     "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
     "Id": "9",
-    "Description": "Management processor's default self-signed certificate is in use.",
     "Ignore": false,
-    "Name": "Default SSL Certificate In Use",
-    "RecommendedAction": "Import a certificate signed by a trusted certificate authority.",
-    "SecurityStatus": "Risk",
-    "State": "True"
+    "Name": "Last Firmware Scan Result",
+    "SecurityStatus": "Ok",
+    "State": "Ok"
 }

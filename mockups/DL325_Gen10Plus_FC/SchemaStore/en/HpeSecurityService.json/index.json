@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "@odata.id": "HpeSecurityService",
     "additionalProperties": false,
-    "copyright": "Copyright 2014-2022 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
+    "copyright": "Copyright 2014-2020 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
     "description": "The HpeSecurityService resource describes the properties for management of the security configuration of the BMC.",
     "properties": {
         "@odata.context": {
@@ -84,28 +84,6 @@
                     },
                     "readonly": true,
                     "type": "object"
-                },
-                "TrustedOSSecurityModules": {
-                    "description": "The value of this property shall be a reference to HPETrustedOSSecurityModules resource.",
-                    "etag": false,
-                    "properties": {
-                        "@odata.id": {
-                            "$ref": "Resource.json#/definitions/odataid"
-                        }
-                    },
-                    "readonly": true,
-                    "type": "object"
-                },
-                "AutomaticCertificateEnrollment": {
-                    "description": "The value of this property shall be a reference to a resource of Type HpeAutomaticCertEnroll.",
-                    "etag": false,
-                    "properties": {
-                        "@odata.id": {
-                            "$ref": "Resource.json#/definitions/odataid"
-                        }
-                    },
-                    "readonly": true,
-                    "type": "object"
                 }
             },
             "type": "object"
@@ -127,78 +105,6 @@
                     "maxLength": 1500,
                     "readonly": false,
                     "type": "string"
-                }
-            },
-            "readonly": false,
-            "type": "object"
-        },
-        "TrustedOSSecurity": {
-            "additionalProperties": false,
-            "properties": {
-                "EnableBackgroundScan": {
-                    "description": "Enables or disables background scan of host OS software.",
-                    "readonly": false,
-                    "type": "boolean"
-                },
-                "LastScanResult": {
-                    "description": "Health of the host after the last scan done by Trusted OS Security scan engine.",
-                    "enum": [
-                        "OK",
-                        "Critical",
-                        "Unknown"
-                    ],
-                    "enumDescriptions": {
-                        "OK": "The last Trusted OS Security scan completed without finding any issues.",
-                        "Critical": "The last Trusted OS Security scan completed finding issue(s). Refer to the SL log for details.",
-                        "Unknown": "The health is Unknown because either the scan data is unavailable or scan is not enabled or last scan failed to complete."
-                    },
-                    "readonly": true,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "LastScanTime": {
-                    "description": "The time stamp of the last Trusted OS Security scan.",
-                    "format": "date-time",
-                    "readonly": true,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "OnIntegrityFailure": {
-                    "description": "Sets the policy for how the Trusted OS Security check handles integrity failures.",
-                    "enum": [
-                        "NoAction",
-                        "Alert",
-                        "PowerOff",
-                        "PowerOffForce",
-                        "Reset",
-                        "ColdBoot",
-                        "ForceNMI"
-                    ],
-                    "enumDescriptions": {
-                        "NoAction": "No action will be taken when a failure is detected.",
-                        "Alert": "Generate an alert when a failure is detected.",
-                        "PowerOff": "Gracefully power system off when a failure is detected.",
-                        "PowerOffForce": "Force system power off when a failure is detected.",
-                        "Reset": "Reset system power off when a failure is detected.",
-                        "ColdBoot": "ColdBoot system power off when a failure is detected.",
-                        "ForceNMI": "ForceNMI system power off when a failure is detected."
-                    },
-                    "readonly": true,
-                    "type": "string"
-                },
-                "ScanEverySeconds": {
-                    "description": "Sets the interval between Trusted OS Security scans in second increments.",
-                    "max": 3600,
-                    "min": 10,
-                    "readonly": false,
-                    "type": [
-                        "integer",
-                        "null"
-                    ]
                 }
             },
             "readonly": false,
@@ -365,85 +271,9 @@
             },
             "readonly": false,
             "type": "object"
-        },
-        "DisableWeakCiphers": {
-            "description": "Disable weak ciphers in Production mode",
-            "readonly": false,
-            "type": "boolean"
-        },
-        "TLSVersion": {
-            "additionalProperties": false,
-            "properties": {
-                "TLS1_0": {
-                    "description": "This Indicate whether the TLS 1.0 is Enabled or disabled.",
-                    "enum": [
-                        "Enabled",
-                        "Disabled"
-                    ],
-                    "enumDescriptions": {
-                        "Enabled": "Enabled TLS 1.0.",
-                        "Disabled": "Disabled TLS 1.0."
-                    },
-                    "readonly": false,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "TLS1_1": {
-                    "description": "This Indicate whether the TLS 1.1 is Enabled or disabled.",
-                    "enum": [
-                        "Enabled",
-                        "Disabled"
-                    ],
-                    "enumDescriptions": {
-                        "Enabled": "Enabled TLS 1.1.",
-                        "Disabled": "Disabled TLS 1.1."
-                    },
-                    "readonly": false,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "TLS1_2": {
-                    "description": "This Indicate whether the TLS 1.2 is Enabled or disabled.",
-                    "enum": [
-                        "Enabled",
-                        "Disabled"
-                    ],
-                    "enumDescriptions": {
-                        "Enabled": "Enabled TLS 1.2.",
-                        "Disabled": "Disabled TLS 1.2."
-                    },
-                    "readonly": true,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "TLS1_3": {
-                    "description": "This Indicate whether the TLS 1.3 is Enabled or disabled.",
-                    "enum": [
-                        "Enabled",
-                        "Disabled"
-                    ],
-                    "enumDescriptions": {
-                        "Enabled": "Enabled TLS 1.3.",
-                        "Disabled": "Disabled TLS 1.3."
-                    },
-                    "readonly": true,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                }
-            },
-            "readonly": false,
-            "type": "object"
         }
     },
     "readonly": false,
-    "title": "#HpeSecurityService.v2_4_0.HpeSecurityService",
+    "title": "#HpeSecurityService.v2_3_1.HpeSecurityService",
     "type": "object"
 }

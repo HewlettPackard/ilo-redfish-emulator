@@ -82,22 +82,6 @@
                             "longDescription": "The value of this property shall be the severity of the condition resulting in the message, as defined in the Status section of the Redfish specification.",
                             "readonly": true,
                             "type": "string"
-                        },
-                        "VersionAdded": {
-                            "description": "The registry version which added this message.",
-                            "longDescription": "This property shall contain the version of the message registry when the message was added.  This property shall not appear for messages created at version `1.0.0` of a message registry.",
-                            "pattern": "^\\d+\\.\\d+\\.\\d+$",
-                            "readonly": true,
-                            "type": [
-                                "string",
-                                "null"
-                            ],
-                            "versionAdded": "v1_5_0"
-                        },
-                        "MessageSeverity": {
-                            "description": "The severity of the message.",
-                            "longDescription": "This property shall contain the severity of the message.  Services can replace the severity defined in the message registry with a value more applicable to the implementation in message payloads and event payloads.",
-                            "readonly": true
                         }
                     },
                     "type": "object"
@@ -132,6 +116,6 @@
             "type": "string"
         }
     },
-    "title": "#MessageRegistry.v1_6_0.MessageRegistry",
+    "title": "#MessageRegistry.v1_2_0.MessageRegistry",
     "type": "object"
 }

@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "@odata.id": "HpePowerMetricsExt",
     "additionalProperties": false,
-    "copyright": "Copyright 2014-2023 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
+    "copyright": "Copyright 2014-2020 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
     "description": "The HpePowerMetricsExt object extends the Redfish Power resource with additional HPE functionality.",
     "properties": {
         "@odata.context": {
@@ -174,7 +174,7 @@
                 "Odd": "Delivers full power to the even-numbered power supplies, and places the odd-numbered power supplies on standby at a lower power-usage level."
             },
             "etag": true,
-            "readonly": false,
+            "readonly": true,
             "type": [
                 "string",
                 "null"
@@ -256,124 +256,6 @@
             "readonly": true,
             "type": "boolean"
         },
-        "PowerMetric": {
-            "additionalProperties": false,
-            "properties": {
-                "AmbTemp": {
-                    "description": "Ambient temperature, in degrees Celsius.",
-                    "minimum": 0,
-                    "readonly": true,
-                    "type": [
-                        "integer",
-                        "null"
-                    ]
-                },
-                "Cap": {
-                    "description": "The applicable power cap in Watts at the time of this power sample.",
-                    "minimum": 0,
-                    "readonly": true,
-                    "type": [
-                        "integer",
-                        "null"
-                    ]
-                },
-                "CpuCapLim": {
-                    "description": "Measures the effect of the power cap on performance in percent.",
-                    "maximum": 100,
-                    "minimum": 0,
-                    "readonly": true,
-                    "type": [
-                        "integer",
-                        "null"
-                    ]
-                },
-                "CpuMax": {
-                    "description": "The percentage of time the CPU spent in its maximum power mode.",
-                    "maximum": 100,
-                    "minimum": 0,
-                    "readonly": true,
-                    "type": [
-                        "integer",
-                        "null"
-                    ]
-                },
-                "CpuPwrSavLim": {
-                    "description": "Measures the effect of CPU Power Regulator state switching on performance in percent.",
-                    "maximum": 100,
-                    "minimum": 0,
-                    "readonly": true,
-                    "type": [
-                        "integer",
-                        "null"
-                    ]
-                },
-                "CpuWatts": {
-                    "description": "The power consumed by the system CPUs in Watts.",
-                    "minimum": 0,
-                    "readonly": true,
-                    "type": [
-                        "integer",
-                        "null"
-                    ]
-                },
-                "DimmWatts": {
-                    "description": "The power consumed by the system memory DIMMs in Watts.",
-                    "minimum": 0,
-                    "readonly": true,
-                    "type": [
-                        "integer",
-                        "null"
-                    ]
-                },
-                "GpuWatts": {
-                    "description": "The power consumed by the GPU(s) in Watts.  This will be 0 if no GPUs are installed or if the drivers are not loaded.",
-                    "minimum": 0,
-                    "readonly": true,
-                    "type": [
-                        "integer",
-                        "null"
-                    ]
-                },
-                "PrMode": {
-                    "description": "Power Regulator mode, which can be OS Control, Static High, Static Low or Dynamic.",
-                    "enum": [
-                        null,
-                        "dyn",
-                        "min",
-                        "max",
-                        "osc"
-                    ],
-                    "enumDescriptions": {
-                        "dyn": "Dynamic Mode - CPU power regulation is managed dynamically by the firmware.",
-                        "max": "Maximum Mode - CPU power regulation is configured for maximum performance at the possible expense of power efficiency.",
-                        "min": "Minimum Mode - CPU power regulation is configured to save as much power as possible at the possible expense of performance.",
-                        "osc": "OS Control Mode - CPU power regulation is managed by the Operating System."
-                    },
-                    "readonly": true,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "PunCap": {
-                    "description": "If true, CPU performance is being penalized by the current power cap.",
-                    "readonly": true,
-                    "type": [
-                        "boolean",
-                        "null"
-                    ]
-                },
-                "UnachCap": {
-                    "description": "If true, the configured power cap could not be achieved due to system power requirements.",
-                    "readonly": true,
-                    "type": [
-                        "boolean",
-                        "null"
-                    ]
-                }
-            },
-            "type": "object"
-        },
         "SNMPPowerThresholdAlert": {
             "additionalProperties": false,
             "description": "The SNMP Alert on Breach of Power Threshold section enables the sending of an SNMP alert when power consumption exceeds a defined threshold.",
@@ -409,6 +291,6 @@
         }
     },
     "readonly": false,
-    "title": "#HpePowerMetricsExt.v2_4_1.HpePowerMetricsExt",
+    "title": "#HpePowerMetricsExt.v2_3_0.HpePowerMetricsExt",
     "type": "object"
 }

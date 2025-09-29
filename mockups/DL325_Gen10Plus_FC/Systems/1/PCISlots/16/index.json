@@ -1,8 +1,8 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot",
-    "@odata.etag": "W/\"B91B9B20\"",
+    "@odata.etag": "W/\"145CD184\"",
     "@odata.id": "/redfish/v1/Systems/1/PCISlots/16",
-    "@odata.type": "#HpeServerPCISlot.v2_1_2.HpeServerPCISlot",
+    "@odata.type": "#HpeServerPCISlot.v2_1_0.HpeServerPCISlot",
     "Id": "16",
     "BusNumber": 5,
     "Characteristics": {
@@ -12,7 +12,6 @@
     },
     "DeviceNumber": 0,
     "FunctionNumber": 0,
-    "Length": "Drive2_5",
     "LinkLanes": "x4",
     "Name": "NVMe Slot 43",
     "Status": {

@@ -1,8 +1,8 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot",
-    "@odata.etag": "W/\"A8C5D386\"",
+    "@odata.etag": "W/\"E7D4E6E1\"",
     "@odata.id": "/redfish/v1/Systems/1/PCISlots/11",
-    "@odata.type": "#HpeServerPCISlot.v2_1_2.HpeServerPCISlot",
+    "@odata.type": "#HpeServerPCISlot.v2_1_0.HpeServerPCISlot",
     "Id": "11",
     "BusNumber": 68,
     "Characteristics": {
@@ -12,7 +12,6 @@
     },
     "DeviceNumber": 0,
     "FunctionNumber": 0,
-    "Length": "Drive2_5",
     "LinkLanes": "x4",
     "Name": "NVMe Slot 38",
     "Status": {

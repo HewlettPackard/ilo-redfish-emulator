@@ -128,7 +128,7 @@
             "description": "The current DateTime (with offset) for the manager, used to set or read time.",
             "format": "date-time",
             "longDescription": "The value of this property shall represent the current DateTime value for the manager, with offset from UTC, in Redfish Timestamp format.",
-            "readonly": true,
+            "readonly": false,
             "type": [
                 "string",
                 "null"
@@ -373,6 +373,7 @@
             "type": "object"
         },
         "SerialInterfaces": {
+            "$ref": "SerialInterfaceCollection.json#/definitions/SerialInterfaceCollection",
             "description": "The link to a collection of serial interfaces that this manager uses for serial and console communication.",
             "longDescription": "This property shall contain a link to a resource collection of type SerialInterfaceCollection, which this manager uses.",
             "etag": false,

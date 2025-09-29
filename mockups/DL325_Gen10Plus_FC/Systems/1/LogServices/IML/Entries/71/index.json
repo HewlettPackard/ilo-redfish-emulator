@@ -1,32 +1,27 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"9B0324F9\"",
+    "@odata.etag": "W/\"AB6E6EB0\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/71",
-    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
     "Id": "71",
-    "Created": "2001-01-05T05:34:11Z",
+    "Created": "2021-06-03T16:45:16Z",
     "EntryType": "Oem",
-    "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
-    "MessageArgs": [],
-    "MessageId": "17.10",
+    "Message": "Firmware flashed (System BIOS - A43 v2.40 (02/23/2021))",
     "Name": "Integrated Management Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
-            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
             "Categories": [
-                "Hardware"
+                "Administration"
             ],
-            "Class": 17,
-            "ClassDescription": "Network",
-            "Code": 10,
+            "Class": 32,
+            "ClassDescription": "System Revision",
+            "Code": 2,
             "Count": 1,
-            "EventNumber": 108,
-            "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
-            "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
-            "Repaired": true,
-            "Severity": "Repaired",
-            "Updated": "2001-01-05T05:34:11Z"
+            "EventNumber": 280,
+            "Severity": "Informational",
+            "Updated": "2021-06-03T16:45:16Z"
         }
     },
     "OemRecordFormat": "Hpe-IML",

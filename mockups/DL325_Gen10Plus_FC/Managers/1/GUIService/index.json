@@ -1,8 +1,8 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeiLOGUIService.HpeiLOGUIService",
-    "@odata.etag": "W/\"4AFE826C\"",
+    "@odata.etag": "W/\"2F0366F6\"",
     "@odata.id": "/redfish/v1/Managers/1/GUIService",
-    "@odata.type": "#HpeiLOGUIService.v1_2_0.HpeiLOGUIService",
+    "@odata.type": "#HpeiLOGUIService.v1_1_0.HpeiLOGUIService",
     "Id": "GUIService",
     "Description": "iLO GUI Service",
     "Features": {
@@ -10,7 +10,6 @@
         "AnonymousData": true,
         "BiosPrivilege": true,
         "CacSmartcard": true,
-        "ComputeOpsManagerFlag": true,
         "CoolingModuleSupport": false,
         "DotNetConsole": true,
         "EAPTLSSupport": false,
@@ -28,7 +27,6 @@
         "Licensing": true,
         "Mobile": true,
         "PowerDiscovery": true,
-        "PowerHemModeSetSupport": false,
         "RIBCL": true,
         "RecoverySet": true,
         "RemoteConsoleSecurity": true,
@@ -133,11 +131,6 @@
                 }
             ],
             "Text": "System Information"
-        },
-        {
-            "LangKey": "HPEGreenLakeCOM",
-            "Link": "com-guided-activation.html",
-            "Text": "Compute Ops Management"
         },
         {
             "LangKey": "firmware",
@@ -498,7 +491,7 @@
                 {
                     "LangKey": "amail",
                     "Link": "admin_manage_alertmail.html",
-                    "Text": "Mail"
+                    "Text": "AlertMail"
                 },
                 {
                     "LangKey": "rslog",

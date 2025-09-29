@@ -1,8 +1,8 @@
 {
     "@odata.context": "/redfish/v1/$metadata#UpdateService.UpdateService",
-    "@odata.etag": "W/\"749361C7\"",
+    "@odata.etag": "W/\"15AD0341\"",
     "@odata.id": "/redfish/v1/UpdateService",
-    "@odata.type": "#UpdateService.v1_2_1.UpdateService",
+    "@odata.type": "#UpdateService.v1_1_1.UpdateService",
     "Id": "UpdateService",
     "Actions": {
         "#UpdateService.SimpleUpdate": {
@@ -22,7 +22,7 @@
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeiLOUpdateServiceExt.HpeiLOUpdateServiceExt",
-            "@odata.type": "#HpeiLOUpdateServiceExt.v2_6_0.HpeiLOUpdateServiceExt",
+            "@odata.type": "#HpeiLOUpdateServiceExt.v2_1_4.HpeiLOUpdateServiceExt",
             "Accept3rdPartyFirmware": false,
             "Actions": {
                 "#HpeiLOUpdateServiceExt.AddFromUri": {
@@ -50,27 +50,19 @@
                     "target": "/redfish/v1/UpdateService/Actions/Oem/Hpe/HpeiLOUpdateServiceExt.StartFirmwareIntegrityCheck"
                 }
             },
-            "BundleUpdateReport": {
-                "@odata.id": "/redfish/v1/UpdateService/BundleUpdateReport"
-            },
             "Capabilities": {
-                "BundleDowngradeSupport": true,
-                "COMBootToUefiShellSupport": true,
-                "COMVCSupport": true,
-                "HostPoweroffSupport": true,
-                "OfflineRuntimeBundleUpdate": "ProductionMode",
                 "PLDMFirmwareUpdate": true,
                 "UpdateFWPKG": true
             },
             "ComponentRepository": {
                 "@odata.id": "/redfish/v1/UpdateService/ComponentRepository"
             },
-            "CurrentTime": "2001-01-13T10:13:50Z",
+            "CurrentTime": "2022-04-14T17:01:18Z",
             "DowngradePolicy": "AllowDowngrade",
             "FirmwareIntegrity": {
                 "EnableBackgroundScan": false,
                 "LastScanResult": "OK",
-                "LastScanTime": "2001-01-13T04:07:17Z",
+                "LastScanTime": "2022-03-11T13:46:34Z",
                 "OnIntegrityFailure": "LogOnly",
                 "ScanEveryDays": 7
             },

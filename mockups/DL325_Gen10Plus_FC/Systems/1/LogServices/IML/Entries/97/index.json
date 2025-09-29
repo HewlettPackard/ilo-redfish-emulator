@@ -1,32 +1,30 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"0E80EB5E\"",
+    "@odata.etag": "W/\"F2EFA6C5\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/97",
-    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
     "Id": "97",
-    "Created": "2001-01-05T08:03:45Z",
+    "Created": "2021-06-21T15:55:37Z",
     "EntryType": "Oem",
-    "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 2",
-    "MessageArgs": [],
-    "MessageId": "17.10",
+    "Message": "System Power Supply: Input Power Loss or Unplugged Power Cord, Verify Power Supply Input (Power Supply 1)",
     "Name": "Integrated Management Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
-            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
             "Categories": [
-                "Hardware"
+                "Power"
             ],
-            "Class": 17,
-            "ClassDescription": "Network",
-            "Code": 10,
+            "Class": 11,
+            "ClassDescription": "Power",
+            "Code": 82,
             "Count": 1,
-            "EventNumber": 134,
-            "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
-            "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+            "EventNumber": 306,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x000bcode0x0052-gen10",
+            "RecommendedAction": "Check the power source, then test and replace any failed power supplies.",
             "Repaired": true,
             "Severity": "Repaired",
-            "Updated": "2001-01-05T08:03:45Z"
+            "Updated": "2021-06-21T21:36:44Z"
         }
     },
     "OemRecordFormat": "Hpe-IML",

@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#ServiceRoot.ServiceRoot",
-    "@odata.etag": "W/\"16E89ADD\"",
+    "@odata.etag": "W/\"E82ECF7E\"",
     "@odata.id": "/redfish/v1",
     "@odata.type": "#ServiceRoot.v1_5_1.ServiceRoot",
     "Id": "RootService",
@@ -15,9 +15,6 @@
     },
     "EventService": {
         "@odata.id": "/redfish/v1/EventService"
-    },
-    "Fabrics": {
-        "@odata.id": "/redfish/v1/Fabrics"
     },
     "JsonSchemas": {
         "@odata.id": "/redfish/v1/JsonSchemas"
@@ -34,8 +31,7 @@
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeiLOServiceExt.HpeiLOServiceExt",
-            "@odata.type": "#HpeiLOServiceExt.v2_5_0.HpeiLOServiceExt",
-            "CACLoginUri": "/html/login_cert.html",
+            "@odata.type": "#HpeiLOServiceExt.v2_3_0.HpeiLOServiceExt",
             "Links": {
                 "ResourceDirectory": {
                     "@odata.id": "/redfish/v1/ResourceDirectory"
@@ -44,17 +40,16 @@
             "Manager": [
                 {
                     "DefaultLanguage": "en",
-                    "ExternalManager": "None",
-                    "FQDN": null,
-                    "HostName": "ILOMXQ2290J5P",
+                    "FQDN": "ILOMXQ019020B.hmn",
+                    "HostName": "ILOMXQ019020B",
                     "Languages": [
                         {
                             "Language": "en",
                             "TranslationName": "English",
-                            "Version": "3.14"
+                            "Version": "2.46"
                         }
                     ],
-                    "ManagerFirmwareVersion": "3.14",
+                    "ManagerFirmwareVersion": "2.46",
                     "ManagerType": "iLO 5",
                     "Status": {
                         "Health": "OK"
@@ -65,7 +60,6 @@
                 "ADVLIC": "iLO Advanced",
                 "BMC": "iLO",
                 "BSYS": "BladeSystem",
-                "CBM": "Compute Ops Management",
                 "CLASS": "Baseboard Management Controller",
                 "FEDGRP": "DEFAULT",
                 "IPROV": "Intelligent Provisioning",
@@ -74,7 +68,6 @@
                 "PRODGEN": "iLO 5",
                 "PRODNAM": "Integrated Lights-Out 5",
                 "PRODTAG": "HPE iLO 5",
-                "RDA": "https://midway.ext.hpe.com/",
                 "STDLIC": "iLO Standard",
                 "SUMABR": "SUM",
                 "SUMGR": "Smart Update Manager",
@@ -89,6 +82,7 @@
                 "WWWDOC": "www.hpe.com/support/ilo-docs",
                 "WWWERS": "www.hpe.com/services/getconnected",
                 "WWWGLIS": "www.hpe.com/glis",
+                "WWWINFOSIGHT": "infosight.hpe.com",
                 "WWWIOL": "www.hpe.com/info/insightonline",
                 "WWWLIC": "www.hpe.com/info/ilo",
                 "WWWLML": "www.hpe.com/support",
@@ -100,7 +94,7 @@
                 "WWWSWLIC": "www.hpe.com/software/SWLicensing"
             },
             "Sessions": {
-                "CertCommonName": "ILOMXQ2290J5P",
+                "CertCommonName": "ILOMXQ019020B.hmn",
                 "CertificateLoginEnabled": false,
                 "KerberosEnabled": false,
                 "LDAPAuthLicenced": true,
@@ -115,7 +109,7 @@
                     }
                 },
                 "SecurityOverride": false,
-                "ServerName": ""
+                "ServerName": "ncn-m003"
             },
             "System": [
                 {
@@ -124,7 +118,7 @@
                     }
                 }
             ],
-            "Time": "2001-01-13T09:34:39Z"
+            "Time": "2022-04-14T16:42:56Z"
         }
     },
     "Product": "ProLiant DL325 Gen10 Plus - SIMULATED",
@@ -140,7 +134,7 @@
         "OnlyMemberQuery": true,
         "SelectQuery": true
     },
-    "RedfishVersion": "1.20.0",
+    "RedfishVersion": "1.6.0",
     "Registries": {
         "@odata.id": "/redfish/v1/Registries"
     },
@@ -153,7 +147,7 @@
     "Tasks": {
         "@odata.id": "/redfish/v1/TaskService"
     },
-    "UUID": "e543f89e-128f-54fc-9b70-48c2a5ad6b35",
+    "UUID": "51b90f18-5aa5-5613-a356-809a476c3dd0",
     "UpdateService": {
         "@odata.id": "/redfish/v1/UpdateService"
     },

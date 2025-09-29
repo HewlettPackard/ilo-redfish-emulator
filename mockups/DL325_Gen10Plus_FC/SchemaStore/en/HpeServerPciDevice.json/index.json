@@ -193,33 +193,6 @@
             "etag": true,
             "readonly": true,
             "type": "integer"
-        },
-        "Bifurcated": {
-            "description": "Indicates if the PCIe device support bifurcation.",
-            "etag": false,
-            "readonly": true,
-            "type": "string",
-            "enum": [
-                "BifurcationNotSupported",
-                "BifurcationSupportedPrimaryDevice",
-                "BifurcationSupportedSecondaryDevice"
-            ],
-            "enumDescriptions": {
-                "BifurcationNotSupported": "This device does not support Bifurcation.",
-                "BifurcationSupportedPrimaryDevice": "This device does support Bifurcation.",
-                "BifurcationSupportedSecondaryDevice": "This is second bifurcated device."
-            }
-        },
-        "BifurcatedSecondaryDeviceLink": {
-            "description": "The link to the next bifurcated devices.",
-            "longDescription": "This property shall contain a link to a Bifurcated PCIe devices.",
-            "properties": {
-                "@odata.id": {
-                    "$ref": "Resource.json#/definitions/odataid"
-                }
-            },
-            "readonly": true,
-            "type": "object"
         }
     },
     "readonly": true,

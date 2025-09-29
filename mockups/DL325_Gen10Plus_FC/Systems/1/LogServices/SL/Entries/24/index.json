@@ -1,35 +1,30 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"91969C39\"",
+    "@odata.etag": "W/\"96601E7A\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/24",
-    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
     "Id": "24",
-    "Created": "2001-01-02T09:29:25Z",
+    "Created": "2020-09-18T14:20:21Z",
     "EntryType": "Oem",
-    "Message": "The overall security status on security dashboard is at Risk.",
-    "MessageArgs": [],
-    "MessageId": "55.5654",
+    "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
     "Name": "Security Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
-            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
             "Categories": [
-                "Security",
-                "Administration",
-                "Configuration"
+                "Unknown"
             ],
-            "Class": 55,
-            "ClassDescription": "Security Configuration",
-            "Code": 5654,
+            "Class": 10,
+            "ClassDescription": "UEFI",
+            "Code": 631,
             "Count": 1,
-            "EventNumber": 24,
-            "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
-            "Severity": "Critical",
-            "Updated": "2001-01-02T09:29:25Z",
+            "EventNumber": 45,
+            "Severity": "Caution",
+            "Updated": "2020-09-18T14:20:21Z",
             "UserAction": "None"
         }
     },
     "OemRecordFormat": "Hpe-SL",
-    "Severity": "Critical"
+    "Severity": "Warning"
 }

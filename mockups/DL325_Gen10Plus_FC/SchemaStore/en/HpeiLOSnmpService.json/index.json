@@ -110,13 +110,13 @@
             "type": "array"
         },
         "AlertsEnabled": {
-            "description": "The alert conditions that the management processor detects independently of the host operating system can be sent to specified SNMP alert destinations. Indicates if the SNMPv1 Trap or SNMPv3 Trap is enabled.",
+            "description": "The alert conditions that the management processor detects independently of the host operating system can be sent to specified SNMP alert destinations.",
             "etag": true,
             "readonly": false,
             "type": "boolean"
         },
         "SNMPv1Enabled": {
-            "description": "Indicates if the SNMPv1 Query or SNMPv1 Trap is enabled.",
+            "description": "Indicates if the SNMPv1 protocol is enabled.",
             "etag": true,
             "readonly": false,
             "type": "boolean"
@@ -226,30 +226,6 @@
             "readonly": false,
             "type": "boolean"
         },
-        "SNMPv1RequestsEnabled": {
-            "description": "Indicates if the SNMPv1 Query is enabled.",
-            "etag": true,
-            "readonly": false,
-            "type": "boolean"
-        },
-        "SNMPv1TrapEnabled": {
-            "description": "Indicates if the SNMPv1 Trap is enabled.",
-            "etag": true,
-            "readonly": false,
-            "type": "boolean"
-        },
-        "SNMPv3RequestsEnabled": {
-            "description": "Indicates if the SNMPv3 Query is enabled.",
-            "etag": true,
-            "readonly": false,
-            "type": "boolean"
-        },
-        "SNMPv3TrapEnabled": {
-            "description": "Indicates if the SNMPv3 Trap is enabled.",
-            "etag": true,
-            "readonly": false,
-            "type": "boolean"
-        },
         "SNMPv3EngineID": {
             "description": "The SNMPv3 Engine ID is the unique identifier of an SNMP engine that belongs to an SNMP agent entity. This value must be a hexadecimal string with an even number of 6 to 32 characters, excluding the first two characters, 0x (for example, 0x01020304abcdef).",
             "etag": true,
@@ -343,13 +319,15 @@
                         ]
                     },
                     "PrivacyProtocol": {
-                        "description": "Sets the encryption algorithm to use for encoding the privacy passphrase. A portion of an SNMP message is encrypted before transmission. Select AES (Advanced Encryption Standard).",
+                        "description": "Sets the encryption algorithm to use for encoding the privacy passphrase. A portion of an SNMP message is encrypted before transmission. Select AES (Advanced Encryption Standard) or DES (Data Encryption Standard).",
                         "enum": [
                             "AES",
+                            "DES",
                             null
                         ],
                         "enumDescriptions": {
-                            "AES": "Indicate Advanced Encryption Standard Algorithm."
+                            "AES": "Indicate Advanced Encryption Standard Algorithm.",
+                            "DES": "Indicate Data Encryption Standard Algorithm."
                         },
                         "readonly": false,
                         "type": [
@@ -385,6 +363,6 @@
         }
     },
     "readonly": false,
-    "title": "#HpeiLOSnmpService.v2_4_1.HpeiLOSnmpService",
+    "title": "#HpeiLOSnmpService.v2_3_0.HpeiLOSnmpService",
     "type": "object"
 }

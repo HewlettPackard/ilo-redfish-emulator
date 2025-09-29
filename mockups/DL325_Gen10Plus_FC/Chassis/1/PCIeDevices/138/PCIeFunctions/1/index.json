@@ -4,14 +4,13 @@
     "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/138/PCIeFunctions/1",
     "@odata.type": "#PCIeFunction.v1_2_3.PCIeFunction",
     "Id": "1",
-    "ClassCode": "0X000001",
-    "DeviceClass": "MassStorageController",
-    "DeviceId": "0X028F",
+    "ClassCode": "2",
+    "DeviceClass": "NetworkController",
+    "DeviceId": "32880",
     "FunctionId": 1,
-    "FunctionType": "Physical",
     "Name": "Function 1",
-    "RevisionId": "0x00",
-    "SubsystemId": "0X0602",
-    "SubsystemVendorId": "0X103C",
-    "VendorId": "0X9005"
+    "RevisionId": "08.50.78",
+    "SubsystemId": "116",
+    "SubsystemVendorId": "4215",
+    "VendorId": "4215"
 }

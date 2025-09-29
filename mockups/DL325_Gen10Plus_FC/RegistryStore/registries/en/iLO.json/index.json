@@ -1,6 +1,6 @@
 {
-    "@Redfish.Copyright": "Copyright 2014-2022 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2022 Distributed Management Task Force. All rights reserved.",
-    "@odata.type": "#MessageRegistry.v1_6_0.MessageRegistry",
+    "@Redfish.Copyright": "Copyright 2014-2020 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
+    "@odata.type": "#MessageRegistry.v1_2_0.MessageRegistry",
     "Description": "This registry defines the messages for the management processor.",
     "Id": "iLO.json",
     "Language": "en",
@@ -11,7 +11,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Enable AHS, and then modify the AHS properties.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "Accepted": {
@@ -20,7 +19,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "ActionParameterValueNotInList": {
@@ -32,7 +30,6 @@
                 "string"
             ],
             "Resolution": "Choose a value from the enumeration list and resubmit the request if the operation failed.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "AlertDestinationAssociationError": {
@@ -41,7 +38,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "For SNMPv1 alert, configure SNMPAlertProtocol to SNMPv1. For SNMPv3 alert, configure SNMPAlertProtocol to SNMPv3.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "AlertMailFeatureDisabled": {
@@ -50,7 +46,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Enable AlertMail feature to send test alert message.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "AlreadyInProgress": {
@@ -59,7 +54,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Wait for the current operation to complete, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "AlreadyUpToDate": {
@@ -68,7 +62,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ApmPowerCapModeInUsed": {
@@ -77,7 +70,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Change the power regulator to other modes rather than APM Power Capping Mode through APM interface.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ArrayPropertyAlreadyExists": {
@@ -89,7 +81,6 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, correct the property value in the request body and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ArrayPropertyOutOfBound": {
@@ -103,7 +94,6 @@
                 "string"
             ],
             "Resolution": "Retry the operation using the correct number of items for the array.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ArrayPropertyValueBadParam": {
@@ -115,7 +105,6 @@
                 "string"
             ],
             "Resolution": "Retry the operation using a corrected value.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "BatteryBackupUnitSettingsDisabled": {
@@ -124,7 +113,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "To re-enable Battery Backup Unit settings, disable Scalable Persistent Memory functionality in the system ROM RBSU.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "BiosActionTBD": {
@@ -135,7 +123,6 @@
                 "string"
             ],
             "Resolution": "The action was invalid or the wrong resource was the target. See the implementation documentation for assistance.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "BiosPasswordInfoInvalid": {
@@ -144,7 +131,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "The system will need to be rebooted to restore BIOS password information to defaults.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "BiosPasswordMismatch": {
@@ -153,7 +139,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the action with the matching password.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "CalibrateInProgress": {
@@ -162,7 +147,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Wait for previous power calibrate complete or stop previous power calibrate, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "CannotRemoveDefaultLanguagePack": {
@@ -171,7 +155,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "CannotRemoveLanguagePack": {
@@ -182,7 +165,6 @@
                 "string"
             ],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "CannotRemoveLicense": {
@@ -191,7 +173,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ChassisPowerDataUnAvailable": {
@@ -200,7 +181,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Reset the management processor or chassis manager, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ChassisResetRequired": {
@@ -209,7 +189,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Reset chassis or remain power off for all nodes in chassis for at least 5 seconds for the settings to take effect.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ComponentUploadAlreadyInProgress": {
@@ -218,7 +197,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Wait for the current component upload to complete, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ComponentUploadFailed": {
@@ -227,7 +205,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Wait for the current component upload to complete, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "DailyUpdateLimitExceeded": {
@@ -236,7 +213,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the operation at a later date.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "DemoLicenseKeyPreviouslyInstalled": {
@@ -245,19 +221,7 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "The system is no longer eligible for demo licenses.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
-        },
-        "DeniedHPEOneViewUserCreation": {
-            "Description": "System already managed by Compute Ops Management.",
-            "Message": "System already managed by %1.",
-            "NumberOfArgs": 1,
-            "ParamTypes": [
-                "string"
-            ],
-            "Resolution": "System can either be managed by HPE OneView or Compute Ops Management.",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
         },
         "DeviceIsBusy": {
             "Description": "Device was not available for communication.",
@@ -267,7 +231,6 @@
                 "string"
             ],
             "Resolution": "Retry the attempted operation after a delay.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "DeviceResetRequired": {
@@ -276,7 +239,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Reset the device for the settings to take effect.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "DiagsTestAlreadyRunning": {
@@ -285,7 +247,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Stop the running test and try again.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "DowngradeNotAllowed": {
@@ -294,7 +255,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Obtain the latest available component and retry, and clear the task from the queue so processing can continue.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "DowngradePolicyAlreadySet": {
@@ -303,7 +263,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ESKMServersNotConfigured": {
@@ -312,7 +271,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "ETagTooLong": {
@@ -321,7 +279,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the operation using an ETag with a length of 63 bytes or less.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "EmptyDNSName": {
@@ -330,7 +287,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the request with a valid DNS name.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ErrorIntializingESKM": {
@@ -339,7 +295,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Check if Account Group, Local CA Certificate Name, Login Name and Password are correct and try again.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "EventLogCleared": {
@@ -348,7 +303,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "EventSubscriptionModified": {
@@ -357,7 +311,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "EventSubscriptionRemoved": {
@@ -366,7 +319,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "ExtendedInfo": {
@@ -375,7 +327,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "See @Message.ExtendedInfo for more information.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "FWFlashSuccessTPMOverrideEnabled": {
@@ -384,7 +335,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "FWFlashSuccessTrustedModuleOverrideEnabled": {
@@ -393,7 +343,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "FWFlashTPMOverrideFlagRequired": {
@@ -402,7 +351,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please set the TPMOverrideFlag to true and try again.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "FWFlashTrustedModuleOverrideFlagRequired": {
@@ -411,7 +359,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please set the TPMOverrideFlag to true and try again.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "FirmwareFlashAlreadyInProgress": {
@@ -420,16 +367,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Wait for the current firmware flash to complete, and then retry the operation.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "FirmwareVersionNotSupported": {
-            "Description": "Installing this firmware version is not allowed. Check customer advisory for supported versions.",
-            "Message": "Installing this firmware version is not allowed. Check customer advisory for supported versions.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Please install the supported firmware version.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "GeneratingCertificate": {
@@ -438,7 +375,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "HardDriveZoneFailure": {
@@ -449,7 +385,6 @@
                 "string"
             ],
             "Resolution": "Retry the operation. If the problem persists, consider resetting the entire chassis.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "HardDriveZoneBackupFailure": {
@@ -458,7 +393,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the operation. If the problem persists, consider resetting the BMC or the entire chassis.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ICRUInvalidAddress": {
@@ -469,7 +403,6 @@
                 "string"
             ],
             "Resolution": "Input valid address for translation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ICRUNotSupported": {
@@ -478,7 +411,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "IPv6ConfigurationError": {
@@ -489,7 +421,6 @@
                 "string"
             ],
             "Resolution": "Resolve the indicated error in the configuration data.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ImportCertSuccessful": {
@@ -498,7 +429,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "ImportCertSuccessfuliLOResetinProgress": {
@@ -507,7 +437,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ImportCertificateFailed": {
@@ -516,16 +445,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the operation with proper Certificate information.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "ImportCertFailCSRMissing": {
-            "Description": "Failed to import the Certificate because the corresponding CSR is missing.",
-            "Message": "Failed to import the X509 Certificate because the CSR is missing.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Retry the Certificate Import after generating the CSR on the same machine.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ImportSSOParamError": {
@@ -534,7 +453,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the request with valid parameters.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ImportSSOUriError": {
@@ -543,7 +461,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the request with valid URI.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "IndicatorLedInvalidStateChange": {
@@ -552,16 +469,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please wait until the server has completed its reserved state.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "LocationIndicatorActiveInvalidStateChange": {
-            "Description": "The request to change the state of the Indicator LED cannot be granted because the current state is either Blinking or is Unknown.",
-            "Message": "The Indicator LED cannot be changed when its state is Blinking or Unknown.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Please wait until the server has completed its reserved state.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "InstallSetWriteError": {
@@ -572,7 +479,6 @@
                 "string"
             ],
             "Resolution": "Ensure a valid name for the item and that space exists to hold the item.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "InterfaceDisabledResetRequired": {
@@ -581,7 +487,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "InternalErrorWithParam": {
@@ -592,7 +497,6 @@
                 "string"
             ],
             "Resolution": "Retry the operation. If the problem persists, consider resetting the service.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "InvalidConfigurationSpecified": {
@@ -601,7 +505,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Correct the configuration, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "InvalidConfigurationSpecifiedForFederation": {
@@ -610,7 +513,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Review the management processor network settings or Onboard Administrator settings and refer to the User Guide.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "InvalidDwellTime": {
@@ -621,7 +523,6 @@
                 "string"
             ],
             "Resolution": "Adhere to the dwell time supported.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "InvalidEngineID": {
@@ -630,7 +531,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the operation using an EngineID within the specified parameters.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "InvalidLicenseKey": {
@@ -639,7 +539,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the operation using a valid license key.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "InvalidOperationForAutoPowerOnState": {
@@ -648,7 +547,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Verify that the system auto power on mode is set to turn power on or follow the previous power setting.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "InvalidOperationForSystemState": {
@@ -659,7 +557,6 @@
                 "string"
             ],
             "Resolution": "Verify that the system is in the correct power state, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "InvalidPassphraseLength": {
@@ -672,7 +569,6 @@
                 "string"
             ],
             "Resolution": "Correct the passphrase, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "InvalidPasswordComplexity": {
@@ -681,7 +577,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the operation using a corrected password.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "InvalidPasswordLength": {
@@ -693,7 +588,6 @@
                 "string"
             ],
             "Resolution": "Retry the operation using a corrected password.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "InvalidSerialNumberLength": {
@@ -704,7 +598,6 @@
                 "string"
             ],
             "Resolution": "Adjust the length of the serial number and retry the operation.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "LicenseKeyDenied": {
@@ -715,7 +608,6 @@
                 "string"
             ],
             "Resolution": "Address the condition or use a valid license activation key.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "LicenseKeyNotSupported": {
@@ -724,7 +616,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "LicenseKeyRequired": {
@@ -733,7 +624,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Install a license key to use this feature.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "LoginAttemptDelayed": {
@@ -742,7 +632,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Wait for the delay time to expire, and then retry the login.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "LoginAttemptDelayedSeconds": {
@@ -753,7 +642,6 @@
                 "number"
             ],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "MCTPDiscoveryDisabled": {
@@ -762,7 +650,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Enable MCTP discovery for Telemetry service and Workload Performance advisor.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "MaxProviders": {
@@ -771,7 +658,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "MaxVirtualMediaConnectionEstablished": {
@@ -780,7 +666,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Close an established Virtual Media connection, and then retry creating or opening another connection.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "MembistVariablesNotSupported": {
@@ -789,7 +674,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "MemoryInterleaveSetError": {
@@ -798,16 +682,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Ensure the memory set specified in InterleaveSets matches one of the memory domain's InterleavableMemrorySets.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "NandMountFailed": {
-            "Description": "NAND mount failed.",
-            "Message": "NAND mount failed.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Retry with iLO reset.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "NewerVersionRequired": {
@@ -816,7 +690,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Use newer version.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "NoEventSubscriptions": {
@@ -825,7 +698,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "NoPowerMetering": {
@@ -834,7 +706,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Enable Power Metering on platform if supported.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "NoSNMPAlertDestinationsConfigured": {
@@ -843,7 +714,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Configure at least one SNMP alert destination and associate it with SNMPv1 protocol or SNMPv3 protocol and user.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "NoSamples": {
@@ -852,7 +722,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "To accumulate power history samples, power on the server, and then wait at least 5 minutes.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "NoScriptedVirtualMediaConnectionAvailable": {
@@ -861,7 +730,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Create or open a scripted virtual media connection, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "NoSpaceforDNSName": {
@@ -870,7 +738,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Make sure SSO database has enough space to store DNS name.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "NoVirtualMediaConnectionAvailable": {
@@ -879,7 +746,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Create or open a Virtual Media connection, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "NodeAssignedCrossRegion": {
@@ -891,7 +757,6 @@
                 "string"
             ],
             "Resolution": "Correct the out of range value, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "NodeNotPresentInZone": {
@@ -900,7 +765,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Install at least one node in the zone and retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "NotSupportedOnNIC": {
@@ -912,7 +776,6 @@
                 "string"
             ],
             "Resolution": "Do not specify this property on the indicated network port.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "NotValidIPAddrOrDNS": {
@@ -923,7 +786,6 @@
                 "string"
             ],
             "Resolution": "Correct the IPv4/v6 address or DNS name, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "NotValidIPAddress": {
@@ -935,7 +797,6 @@
                 "string"
             ],
             "Resolution": "Use a valid IP address.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "NotValidSubnetMask": {
@@ -947,7 +808,6 @@
                 "string"
             ],
             "Resolution": "Use a valid subnet mask.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "OperationAvailableAfterSystemPOST": {
@@ -958,7 +818,6 @@
                 "string"
             ],
             "Resolution": "Wait to see the change in value until after the System BIOS completes POST.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "OperationWillCompleteAfterSystemPOST": {
@@ -969,7 +828,6 @@
                 "string"
             ],
             "Resolution": "Wait to see the change in value until after the System BIOS completes POST.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "PowerCapOACntrld": {
@@ -978,7 +836,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Use Onboard Administrator to Manage the PowerCap",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PowerCapROMCntrld": {
@@ -987,7 +844,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Enable RESTful API management of the power cap in System ROM",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PowerLimitMayNotTakeEffect": {
@@ -996,7 +852,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please execute calibrate action to get power limit range then reconfigure power limit setpoint.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PowerRegulationNotDisable": {
@@ -1005,7 +860,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Disable chassis power regulation, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PowerSettingAdjustRequired": {
@@ -1014,7 +868,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Enable power regulation and switch power regulator mode to user configurable mode for the settings to take effect.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PowerValueBadParam": {
@@ -1023,7 +876,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the operation using a corrected value.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PowerValueInvalidCalibrationData": {
@@ -1032,7 +884,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Restart the server to retrieve calibration data from initial POST.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PowerValueNotOptimal": {
@@ -1043,7 +894,6 @@
                 "string"
             ],
             "Resolution": "Please provide an optimal value in integer considering the power cap range.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PowerValueUnAvailable": {
@@ -1052,7 +902,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Change the system configuration or wait for the system to become fully initialized, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PowerValueUnSupported": {
@@ -1061,7 +910,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PrimaryESKMServerAccessible": {
@@ -1070,7 +918,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "PrimarySecondaryAddressesResolveToSameServer": {
@@ -1079,7 +926,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "PrimarySecondaryESKMServersAccessible": {
@@ -1088,7 +934,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "PropertyNotSupported": {
@@ -1099,7 +944,6 @@
                 "string"
             ],
             "Resolution": "Do not attempt to modify this property.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PropertyNotWritableOrUnknown": {
@@ -1110,7 +954,6 @@
                 "string"
             ],
             "Resolution": "If the operation did not complete, remove the property from the request body and resubmit the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PropertyValueAlreadySet": {
@@ -1122,18 +965,16 @@
                 "string"
             ],
             "Resolution": "None",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "PropertyValueBadParam": {
             "Description": "The property value is not valid.",
-            "Message": "The property value is not valid. %1.",
+            "Message": "The property value is not valid.",
             "NumberOfArgs": 1,
             "ParamTypes": [
                 "string"
             ],
             "Resolution": "Retry the operation using a corrected value.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PropertyValueExceedsMaxLength": {
@@ -1146,7 +987,6 @@
                 "string"
             ],
             "Resolution": "Correct the value for the property in the request body, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PropertyValueIncompatible": {
@@ -1159,7 +999,6 @@
                 "string"
             ],
             "Resolution": "Correct the value for the property in the request body, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PropertyValueOutOfRange": {
@@ -1172,7 +1011,6 @@
                 "string"
             ],
             "Resolution": "Correct the value for the property in the request body, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "PropertyValueRequired": {
@@ -1184,7 +1022,6 @@
                 "string"
             ],
             "Resolution": "Include the required property in the request body and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "RecoveryInstallSetRequired": {
@@ -1193,7 +1030,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Create a recovery install set (install set with IsRecovery property set true).",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "RepairNotSupported": {
@@ -1204,7 +1040,6 @@
                 "string"
             ],
             "Resolution": "Please do not try to repair IML events with severity other than Critical or Warning.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "RequiredPropertyMissing": {
@@ -1215,7 +1050,6 @@
                 "string"
             ],
             "Resolution": "Include the required property in the request body and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ResetInProgress": {
@@ -1224,7 +1058,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Wait for management processor reset to complete, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ResetRequired": {
@@ -1233,7 +1066,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "To enable the changed properties, reset the management processor.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ResourceBeingFlashed": {
@@ -1244,7 +1076,6 @@
                 "string"
             ],
             "Resolution": "Retry the operation when the firmware upgrade has completed.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ResourceInUseWithDetail": {
@@ -1255,7 +1086,6 @@
                 "string"
             ],
             "Resolution": "Retry the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ResourceNotReadyRetry": {
@@ -1266,7 +1096,6 @@
                 "string"
             ],
             "Resolution": "Retry the operation when the resource is ready.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ResourceTemporarilyUnavailable": {
@@ -1275,7 +1104,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the operation when the firmware upgrade has completed.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "SMBIOSRecordNotFound": {
@@ -1286,7 +1114,6 @@
                 "string"
             ],
             "Resolution": "Reset the system to update the SMBIOS records. If the problem persists then the SMBIOS record type is not supported.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "SNMPAlertDisabled": {
@@ -1295,7 +1122,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Enable SNMP alerts and retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "SNMPDisabled": {
@@ -1304,7 +1130,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Enable SNMP, and then modify the SNMP properties.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "SNMPv1Disabled": {
@@ -1313,16 +1138,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Enable SNMP v1, and then modify the SNMP v1 properties.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "SNMPv3Disabled": {
-            "Description": "Modifying SNMP v3 properties is not possible with SNMP v3 protocol disabled.",
-            "Message": "Modifying SNMP v3 properties is not possible with SNMP v3 protocol disabled.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Enable SNMP v3, and then modify the SNMP v3 properties.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "SNMPTestAlertFailed": {
@@ -1331,7 +1146,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Verify the test alert content and retry.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "SNTPConfigurationManagedByDHCPAndIsReadOnly": {
@@ -1342,7 +1156,6 @@
                 "string"
             ],
             "Resolution": "Disable SNTP configuration options in both DHCPv4 and DHCPv6 (see /Managers/n/NICs), and then reconfigure SNTP as desired with static settings.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "SSOCertficateEmpty": {
@@ -1351,7 +1164,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "SSOCertificateReadError": {
@@ -1360,7 +1172,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the request with valid SSO certificate.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "SSONoSpaceError": {
@@ -1369,7 +1180,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Make sure SSO database has enough space to store SSO certificate.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "SSORecordNotFound": {
@@ -1378,7 +1188,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "SamplesNotCaptured": {
@@ -1389,7 +1198,6 @@
                 "string"
             ],
             "Resolution": "Wait for the current duration to complete, and then retry.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "SecondaryESKMServerAccessible": {
@@ -1398,7 +1206,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "ServerConfigurationLockEnabled": {
@@ -1407,7 +1214,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Disable Server Configuration Lock to initiate secure erase of the system",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "SuccessFeedback": {
@@ -1418,7 +1224,6 @@
                 "string"
             ],
             "Resolution": "None",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "SyslogFeatureDisabled": {
@@ -1427,7 +1232,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Enable remote syslog feature to send test syslog message.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "SystemPowerOffRequired": {
@@ -1436,7 +1240,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "To perform this operation, power off the system.",
-            "MessageSeverity": "OK",
             "Severity": "OK"
         },
         "SystemResetRequired": {
@@ -1445,7 +1248,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Reset system for the settings to take effect.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "TokenRequired": {
@@ -1454,34 +1256,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Create proper 'X-HPRESTFULAPI-AuthToken' authorization token. Send token in using the proper HTTP header.",
-            "MessageSeverity": "Critical",
-            "Severity": "Critical"
-        },
-        "AuthenticationTokenExpired": {
-            "Description": "Indicates that the request could not be performed because an authentication token was expired.",
-            "Message": "The request could not be performed because an authentication token was expired.",
-            "MessageSeverity": "Critical",
-            "Severity": "Critical",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Obtain an authentication token and resubmit the request."
-        },
-        "MailNotConfigured": {
-            "Description": "E-mail not configured for two factor authetication to recieve token.",
-            "Message": "E-mail not configured for two factor authetication to recieve token.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Configure the E-mail to recieve token.",
-            "MessageSeverity": "Critical",
-            "Severity": "Critical"
-        },
-        "MailRetrievalFailure": {
-            "Description": "Could not fetch mail details for this user account.",
-            "Message": "Could not fetch mail details for this user account.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Contact the directory server administrator to ensure that the server's email configuration and domain settings are valid.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "UnableModifyRights": {
@@ -1490,7 +1264,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "UnableToModifyAfterVirtualMediaInsert": {
@@ -1501,7 +1274,6 @@
                 "string"
             ],
             "Resolution": "Retry the operation during virtual media image inseration.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "UnableToModifyDueToMissingComponent": {
@@ -1512,7 +1284,6 @@
                 "string"
             ],
             "Resolution": "Install the hardware component and retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "UnableToModifyDuringSystemPOST": {
@@ -1523,7 +1294,6 @@
                 "string"
             ],
             "Resolution": "After the computer system is either fully booted or powered off, retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "UnableToModifyWhileKVMIPConnected": {
@@ -1534,7 +1304,6 @@
                 "string"
             ],
             "Resolution": "Retry the operation after disconnecting all KVMIP connections.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "UnauthorizedLoginAttempt": {
@@ -1543,7 +1312,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Log in with authorized user name and password credentials.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "UnsupportedCipherAlgo": {
@@ -1555,7 +1323,6 @@
                 "string"
             ],
             "Resolution": "Select compatible Cipher Algorithm.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "UnsupportedOperation": {
@@ -1564,7 +1331,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "UnsupportedOperationInChassisVersion": {
@@ -1573,7 +1339,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please update the XL Chassis firmware to latest version.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "UnsupportedOperationInLegacyBootMode": {
@@ -1582,7 +1347,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Change the Boot Mode to UEFI and retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "UnsupportedOperationInSystemBIOS": {
@@ -1591,7 +1355,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "UpdateBadParameter": {
@@ -1600,7 +1363,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Supply correct parameters to the component and retry the update.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "UpdateCancelled": {
@@ -1609,7 +1371,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the update.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "UpdateDependencyFailure": {
@@ -1618,7 +1379,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Install any dependent components first and then retry this update.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "UpdateFailed": {
@@ -1629,7 +1389,6 @@
                 "string"
             ],
             "Resolution": "Retry the update after remedying the component error.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "UpdateInPOST": {
@@ -1638,7 +1397,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Boot to UEFI and retry the update.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "UpdateInterrupted": {
@@ -1647,7 +1405,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the update.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "UpdateInvalidFile": {
@@ -1656,7 +1413,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Remove and re-add the component to the repository and try the operation again.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "UpdateInvalidOS": {
@@ -1665,7 +1421,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the update while running the correct OS.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "UpdateNotApplicable": {
@@ -1674,7 +1429,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "UpdateRepositoryUnavailable": {
@@ -1683,7 +1437,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "UpdateTaskQueueFull": {
@@ -1692,7 +1445,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Remove completed tasks from the update task queue to retry the operation.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "UpdateTaskQueueWriteError": {
@@ -1703,7 +1455,6 @@
                 "string"
             ],
             "Resolution": "Ensure a valid name for the item and that space exists to hold the item.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "UpdateTemporarilyUnavailable": {
@@ -1712,7 +1463,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the update, ensuring that power state is stable.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "UpdateWithPowerOff": {
@@ -1721,7 +1471,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Power system on and retry the update.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "UpdateWithPowerOn": {
@@ -1730,7 +1479,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Power system on and retry the update.",
-            "MessageSeverity": "Critical",
             "Severity": "Critical"
         },
         "UserAlreadyExist": {
@@ -1739,7 +1487,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Try a different user or login user name.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "UserNameAlreadyExists": {
@@ -1750,7 +1497,6 @@
                 "string"
             ],
             "Resolution": "Enter a different name and try again.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "VirtualMediaIsDisabled": {
@@ -1759,7 +1505,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Enable Virtual Media to perform this operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ZonePowerLimitExceeded": {
@@ -1772,7 +1517,6 @@
                 "string"
             ],
             "Resolution": "Correct the value avoid the sum of power limit exceeds chassis power limit, and then retry the operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "iLOResetAndSystemRebootRequired": {
@@ -1781,7 +1525,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Reset the management processor and reboot the server.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "iLOSubnetConflict": {
@@ -1793,7 +1536,6 @@
                 "string"
             ],
             "Resolution": "Configure this interface with a different IP Address or Subnet Mask.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "SystemPowerStateChangeFailed": {
@@ -1802,7 +1544,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the request.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "UnsupportedSecurityState": {
@@ -1811,7 +1552,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Retry the operation with the correct security state.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "iLOVirtualNICDisabled": {
@@ -1820,7 +1560,6 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Enable iLO Virtual NIC to perform this operation.",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "ServerConfigLockStatusUnknown": {
@@ -1829,357 +1568,11 @@
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Ensure if the BIOS firmware supports Server Configuration Lock. If supported, reboot the server and retry the operation",
-            "MessageSeverity": "Warning",
             "Severity": "Warning"
         },
         "NoContent": {
             "Description": "The requested resource exists but has no content.",
             "Message": "The resource exists but has no content.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "None",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
-        },
-        "BundleUpdateInstallSetMetaDownloadStatus": {
-            "Description": "Download status of install set meta file.",
-            "Message": "Install set meta file %1 download %2",
-            "NumberOfArgs": 2,
-            "ParamTypes": [
-                "string",
-                "string"
-            ],
-            "Resolution": "None.",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
-        },
-        "BundleUpdateInstallSetMetaDownloadFailed": {
-            "Description": "Download of install set meta file failed.",
-            "Message": "Install set meta file %1 download failed, reason %2. Bundle update aborted.",
-            "NumberOfArgs": 2,
-            "ParamTypes": [
-                "string",
-                "string"
-            ],
-            "Resolution": "None.",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
-        },
-        "BundleUpdateInstallSetCreationSuccess": {
-            "Description": "Bundle update install set created successfully.",
-            "Message": "Install set %1 created successfully",
-            "NumberOfArgs": 1,
-            "ParamTypes": [
-                "string"
-            ],
-            "Resolution": "None.",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
-        },
-        "BundleUpdateInstallSetCreationFailed": {
-            "Description": "Failed to create bundle update install set.",
-            "Message": "Install set %1 creation failed, reason %2. Bundle update aborted.",
-            "NumberOfArgs": 2,
-            "ParamTypes": [
-                "string",
-                "string"
-            ],
-            "Resolution": "None.",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
-        },
-        "BundleUpdateInstallSetMetaProcessingSuccess": {
-            "Description": "Bundle update install set meta file processed successfully.",
-            "Message": "Install set meta file %1 processed successfully",
-            "NumberOfArgs": 1,
-            "ParamTypes": [
-                "string"
-            ],
-            "Resolution": "None.",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
-        },
-        "BundleUpdateInstallSetMetaProcessingFailed": {
-            "Description": "Failed to process bundle update install set meta file.",
-            "Message": "Install set meta file %1 processing failed, reason %2. Bundle update aborted.",
-            "NumberOfArgs": 2,
-            "ParamTypes": [
-                "string",
-                "string"
-            ],
-            "Resolution": "None.",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
-        },
-        "BundleUpdateComponentDownloadStatus": {
-            "Description": "Bundle update download status of components.",
-            "Message": "Component %1 download %2. %3 out of %4 downloaded",
-            "NumberOfArgs": 4,
-            "ParamTypes": [
-                "string",
-                "string",
-                "number",
-                "number"
-            ],
-            "Resolution": "None.",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
-        },
-        "BundleUpdateComponentDownloadFailed": {
-            "Description": "Download of bundle update component failed.",
-            "Message": "Component %1 download download failed, reason %2. Bundle update aborted.",
-            "NumberOfArgs": 2,
-            "ParamTypes": [
-                "string",
-                "string"
-            ],
-            "Resolution": "None.",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
-        },
-        "BundleUpdateComponentInstallationStatus": {
-            "Description": "Bundle update component installation status.",
-            "Message": "Component %1 installation %2. %3 out of %4 installed.",
-            "NumberOfArgs": 4,
-            "ParamTypes": [
-                "string",
-                "string",
-                "number",
-                "number"
-            ],
-            "Resolution": "None.",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
-        },
-        "BundleUpdateComponentInstallationFailed": {
-            "Description": "Installation of bundle update component failed.",
-            "Message": "Component %1 installation failed, reason %2. Bundle update aborted.",
-            "NumberOfArgs": 2,
-            "ParamTypes": [
-                "string",
-                "string"
-            ],
-            "Resolution": "None.",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
-        },
-        "BundleUpdateSuccess": {
-            "Description": "The status of bundle update installation.",
-            "Message": "Bundle update has completed successfully.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "None.",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
-        },
-        "BundleUpdateAlreadyInProgress": {
-            "Description": "A component upload operation is already in progress.",
-            "Message": "A component upload operation is already in progress.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Wait for the current upload to complete, and then retry the operation.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "BundleUpdateInvalidUrl": {
-            "Description": "The Url passed for bundle update is not valid.",
-            "Message": "The Url %1 is not valid.",
-            "NumberOfArgs": 1,
-            "ParamTypes": [
-                "string"
-            ],
-            "Resolution": "URL is incorrect. Provide a valid URL and resubmit the request.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "BundleUpdateResetPending": {
-            "Description": "Waiting for Server Reset",
-            "Message": "Waiting for Server Reset",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Reset the iLO to apply the changes.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "BundleUpdateResetComplete": {
-            "Description": "Server Reset complete.",
-            "Message": "Server Reset complete.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "iLO Pending Reset is performed.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "BundleUpdateResetFailed": {
-            "Description": "Pending Reset task failed.",
-            "Message": "Pending Reset task failed.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Bundle update Reset failed, Check the CA for more info.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "SimpleUpdateInvalidImageURI": {
-            "Description": "The Url passed for the simple update for firmware image download is not valid.",
-            "Message": "The firmware Image Url %1 posted in %2 is not valid.",
-            "NumberOfArgs": 2,
-            "ParamTypes": [
-                "string",
-                "string"
-            ],
-            "Resolution": "FirmwareImage URL is incorrect. Provide a valid firmware Image URL and resubmit the request.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "SmartNICNotPresent": {
-            "Description": "SmartNIC DPU not present in iLO.",
-            "Message": "SmartNIC DPU URI %1 posted in %2 is not present.",
-            "NumberOfArgs": 2,
-            "ParamTypes": [
-                "string",
-                "string"
-            ],
-            "Resolution": "System can either be managed by HPE OneView or Compute Ops Management.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "SmartNICDeviceError": {
-            "Description": "SmartNIC DPU operation failed due to SmartNIC device error.",
-            "Message": "SmartNIC DPU operation failed due to SmartNIC device error %1.",
-            "NumberOfArgs": 1,
-            "ParamTypes": [
-                "string"
-            ],
-            "Resolution": "None.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "SimpleUpdateInvalidImageOrCredentials": {
-            "Description": "The ESXio Image or Username and Password to access the ESXio image URI is not valid.",
-            "Message": "The ESXio image or username and password credentials provided to access the ESXio Image URI : %1 posted in %2 is not valid.",
-            "NumberOfArgs": 2,
-            "ParamTypes": [
-                "string",
-                "string"
-            ],
-            "Resolution": "ESXio image URI/Username/Password is incorrect. Please provide valid details and resubmit the request.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "UpdateSimpleStatus": {
-            "Description": "This is to update the esxio image flashing status into SmartNIC DPU systems.",
-            "Message": "TaskState is %1 and TaskStatus is %2 and Message is %3 and Percent Complete is %4",
-            "NumberOfArgs": 4,
-            "ParamTypes": [
-                "string",
-                "string",
-                "string",
-                "number"
-            ],
-            "Resolution": "None",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "InvalidUserDefSensorNumber": {
-            "Description": "The provided sensor number is not supported for this feature.",
-            "Message": "The provided sensor number is not supported for this feature.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Verify that the provided sensor number is a supported sensor.",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
-        },
-        "InvalidUserDefTemperatureThresholdValue": {
-            "Description": "The user defined temperature threshold value for a sensor cannot exceed the hardware defined cautionary temperature threshold.",
-            "Message": "The user defined temperature threshold value for a sensor cannot exceed the hardware defined cautionary temperature threshold.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Enter a value lower than the cautionary threshold defined for the corresponding sensor.",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
-        },
-        "InvalidUserDefAlertType": {
-            "Description": "The provided alert type is not supported for this feature.",
-            "Message": "The provided alert type is not supported for this feature.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "The supported alert types are 'Warning' and 'Critical.'",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
-        },
-        "UnsupportedOperationACEEnabled": {
-            "Description": "This operation is not supported when certificate enrollment service is enabled.",
-            "Message": "This operation is not supported when certificte enrollment service is enabled.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Disable certificate enrollment Service to initiate import, delete or generate CSR of SSL certificate.",
-            "MessageSeverity": "OK",
-            "Severity": "OK"
-        },
-        "UnsupportedOperationWeakCipherDisabled": {
-            "Description": "This operation is not supported when Weak ciphers are disabled.",
-            "Message": "This operation is not supported when Weak ciphers are disabled.",
-            "MessageSeverity": "Warning",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Enable weak ciphers to enable/disable TLS v1.0, v1.1.",
-            "Severity": "Warning"
-        },
-        "COMActivationDenied": {
-            "Description": "System already managed by an external manager.",
-            "Message": "System already managed by %1.",
-            "NumberOfArgs": 1,
-            "ParamTypes": [
-                "string"
-            ],
-            "Resolution": "System can either be managed by HPE OneView or Compute Ops Manager.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "ESXioOrTarImageDownloadAlreadyInProgress": {
-            "Description": "ESXio or tar image download is already in progress.",
-            "Message": "ESXio or tar image download is already in progress.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Wait for the current operation to complete, and then retry the operation.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "NonPLDMUpdateableTargetURI": {
-            "Description": "The Target Url passed is for non PLDM updateable device.",
-            "Message": "The Target Url %1 posted is for non PLDM updateable device",
-            "NumberOfArgs": 1,
-            "ParamTypes": [
-                "string"
-            ],
-            "Resolution": "Targets URI is for non PLDM updateable device. Provide a valid PLDM updateable Targets URI and resubmit the request.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "TargetsLimitExceeded": {
-            "Description": "The Target Url count exceeded the limit.",
-            "Message": "The Target Url count exceeded the limit.",
-            "NumberOfArgs": 0,
-            "ParamTypes": [],
-            "Resolution": "Provide Targets URI's within maximum allowable range and resubmit the request.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "InvalidTargetsURI": {
-            "Description": "The Targets URI passed is not valid.",
-            "Message": "The Targets URI %1 posted is not valid.",
-            "NumberOfArgs": 1,
-            "ParamTypes": [
-                "string"
-            ],
-            "Resolution": "Targets URI is incorrect. Provide a valid Targets URI and resubmit the request.",
-            "MessageSeverity": "Warning",
-            "Severity": "Warning"
-        },
-        "COMReconnectDenied": {
-            "Description": "Reconnect denied as the server is already connected to Compute Ops Management or is not currently managed by Compute Ops Management.",
-            "Message": "Reconnect denied as the server is already connected to Compute Ops Management or is not currently managed by Compute Ops Management.",
-            "MessageSeverity": "OK",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None",
@@ -2189,5 +1582,5 @@
     "Name": "Management Processor Message Registry",
     "OwningEntity": "Hewlett Packard Enterprise",
     "RegistryPrefix": "iLO",
-    "RegistryVersion": "2.25.1"
+    "RegistryVersion": "2.14.0"
 }

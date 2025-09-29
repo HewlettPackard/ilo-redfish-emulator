@@ -1,6 +1,6 @@
 {
-    "@Redfish.Copyright": "Copyright 2014-2023 Hewlett Packard Enterprise Development, LP. Portions Copyright 2014-2023 Distributed Management Task Force. All rights reserved.",
-    "@odata.type": "#MessageRegistry.v1_6_0.MessageRegistry",
+    "@Redfish.Copyright": "Copyright 2014-2019 Hewlett Packard Enterprise Development, LP. Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
+    "@odata.type": "#MessageRegistry.v1_2_0.MessageRegistry",
     "Description": "This registry defines the messages for Embedded Remote Support.",
     "Id": "iLOeRS.json",
     "Language": "en",
@@ -8,7 +8,6 @@
         "GenericTransmitError": {
             "Description": "Generic Transmit Error. Transmission to the HPE Insight Remote Support receiver was unsuccessful.",
             "Message": "Generic Transmit Error.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please check connectivity between Management Processor and the Insight Remote Support receiver.",
@@ -17,7 +16,6 @@
         "ClientTransmitTimeout": {
             "Description": "Client Transmit Timeout. Transmission to the HPE Insight Remote Support receiver was unsuccessful.",
             "Message": "Client Transmit Timeout.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please check connectivity between Management Processor and the Insight Remote Support receiver.",
@@ -26,7 +24,6 @@
         "ClientReceiveTimeout": {
             "Description": "Client Receive Timeout. Transmission to the HPE Insight Remote Support receiver was unsuccessful.",
             "Message": "Client Receive Timeout.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please check connectivity between Management Processor and the Insight Remote Support receiver.",
@@ -35,7 +32,6 @@
         "TransmitBufferTooShort": {
             "Description": "Transmit Buffer Too Short. Transmission to the HPE Insight Remote Support receiver was unsuccessful.",
             "Message": "Transmit Buffer Too Short.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please check connectivity between Management Processor and the Insight Remote Support receiver and retry.",
@@ -44,7 +40,6 @@
         "InvalidReceiveBuffer": {
             "Description": "Invalid Receive Buffer. Transmission to the HPE Insight Remote Support receiver was unsuccessful.",
             "Message": "Invalid Receive Buffer.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please check connectivity between Management Processor and the Insight Remote Support receiver and retry.",
@@ -53,7 +48,6 @@
         "InvalidFileDescriptor": {
             "Description": "Invalid File Descriptor. Transmission to the HPE Insight Remote Support receiver was unsuccessful.",
             "Message": "Invalid File Descriptor.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please check connectivity between Management Processor and the Insight Remote Support receiver and retry.",
@@ -62,7 +56,6 @@
         "ReceiveBIOError": {
             "Description": "Receive BIO Error. Transmission to the HPE Insight Remote Support receiver was unsuccessful.",
             "Message": "Receive BIO Error.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please check connectivity between Management Processor and the Insight Remote Support receiver and retry.",
@@ -71,7 +64,6 @@
         "ClientReceiveError": {
             "Description": "Client Receive Error. Transmission to the HPE Insight Remote Support receiver was unsuccessful.",
             "Message": "Client Receive Error.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please check connectivity between Management Processor and the Insight Remote Support receiver and retry.",
@@ -80,7 +72,6 @@
         "ConnectBIOerror": {
             "Description": "Connect BIO error. Transmission to the HPE Insight Remote Support receiver was unsuccessful.",
             "Message": "Connect BIO error.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please check connectivity between Management Processor and the Insight Remote Support receiver and retry.",
@@ -89,7 +80,6 @@
         "CannotConnectToRemoteHost": {
             "Description": "Can not connect to remote host. Transmission to the HPE Insight Remote Support receiver was unsuccessful.",
             "Message": "Can not connect to remote host.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please check connectivity between Management Processor and the Insight Remote Support receiver and retry.",
@@ -98,7 +88,6 @@
         "InvalidConnectFileDescriptor": {
             "Description": "Invalid Connect File Descriptor. Transmission to the HPE Insight Remote Support receiver was unsuccessful.",
             "Message": "Invalid Connect File Descriptor.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry.",
@@ -107,7 +96,6 @@
         "XMLParserAllocationError": {
             "Description": "XML Parser Allocation Error.",
             "Message": "XML Parser Allocation Error.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
@@ -116,7 +104,6 @@
         "XMLParseError": {
             "Description": "XML Parse Error.",
             "Message": "XML Parse Error.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
@@ -125,7 +112,6 @@
         "XMLNoPrintableCharDetected": {
             "Description": "XML No Printable Char Detected.",
             "Message": "XML No Printable Char Detected.",
-            "MessageSeverity": "OK",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
@@ -134,7 +120,6 @@
         "XMLNULLPropertyDetected": {
             "Description": "XML NULL Property Detected.",
             "Message": "XML NULL Property Detected.",
-            "MessageSeverity": "OK",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
@@ -143,7 +128,6 @@
         "SSLBioError": {
             "Description": "SSL Bio error.",
             "Message": "SSL Bio error.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
@@ -152,7 +136,6 @@
         "ErrorReadingERSConfiguration": {
             "Description": "Error reading Embedded Remote Support configuration.",
             "Message": "Error reading Embedded Remote Support configuration.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
@@ -161,7 +144,6 @@
         "ErrorRetrievingRegToken": {
             "Description": "Error retrieving registration token.",
             "Message": "Error retrieving registration token.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
@@ -170,7 +152,6 @@
         "TransactionTypeError": {
             "Description": "Transaction type error.",
             "Message": "Transaction type error.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
@@ -179,7 +160,6 @@
         "DestinationURLParseError": {
             "Description": "Destination URL Parse Error.",
             "Message": "Destination URL Parse Error.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
@@ -188,7 +168,6 @@
         "InvalidCommandForConnectModel": {
             "Description": "Invalid Command For Connect Model.",
             "Message": "Invalid Command For Connect Model.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
@@ -197,7 +176,6 @@
         "InvalidProxySettings": {
             "Description": "Invalid Proxy Settings.",
             "Message": "Invalid Proxy Settings.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please verify proxy settings.",
@@ -206,7 +184,6 @@
         "NoActiveHealthFilestoReport": {
             "Description": "No Active Health Files to Report.",
             "Message": "No Active Health Files to Report.",
-            "MessageSeverity": "OK",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
@@ -215,7 +192,6 @@
         "InvalidNumberOfDaysToReport": {
             "Description": "Invalid Number of Days to Report.",
             "Message": "Invalid Number of Days to Report.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
@@ -224,7 +200,6 @@
         "TooManyPendingRequests": {
             "Description": "Too Many Pending Requests.",
             "Message": "Too Many Pending Requests.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
@@ -233,7 +208,6 @@
         "InvalidMessageId": {
             "Description": "Invalid Message Id.",
             "Message": "Invalid Message Id.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
@@ -242,7 +216,6 @@
         "CannotConnectToProxyServer": {
             "Description": "Unable to connect to the proxy server.",
             "Message": "Unable to connect to the proxy server.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please verify proxy settings and connectivity.",
@@ -251,7 +224,6 @@
         "HttpServerProtocolError": {
             "Description": "HTTP Server Protocol error occurred while communicating with the HPE Insight Remote Support receiver.",
             "Message": "HTTP Server Protocol error occurred while communicating with the HPE Insight Remote Support receiver.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry.",
@@ -260,7 +232,6 @@
         "NoServerCertificate": {
             "Description": "Certificate error occurred while communicating with the HPE Insight Remote Support receiver.",
             "Message": "Certificate error occurred while communicating with the HPE Insight Remote Support receiver.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry.",
@@ -269,7 +240,6 @@
         "CannotEstablishSSLConnection": {
             "Description": "Protocol error occurred while communicating with the HPE Insight Remote Support receiver.",
             "Message": "Protocol error occurred while communicating with the HPE Insight Remote Support receiver.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry.",
@@ -278,7 +248,6 @@
         "AuthenticationError": {
             "Description": "Authentication error.",
             "Message": "Authentication error.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please unregister and re-register the device.",
@@ -287,7 +256,6 @@
         "MissingDeviceIdentifiers": {
             "Description": "Missing device identifiers.",
             "Message": "Missing device identifiers.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please unregister and re-register the device.",
@@ -296,7 +264,6 @@
         "CorruptDeviceIdentifiers": {
             "Description": "Corrupt device identifiers.",
             "Message": "Corrupt device identifiers.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please unregister and re-register the device.",
@@ -305,7 +272,6 @@
         "InsufficientDeviceIdentifierInformation": {
             "Description": "Insufficient device identifier information.",
             "Message": "Insufficient device identifier information.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please unregister and re-register the device.",
@@ -314,7 +280,6 @@
         "InvalidDeviceIdentifierInformation": {
             "Description": "Invalid device identifier information.",
             "Message": "Invalid device identifier information.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please unregister and re-register the device.",
@@ -323,7 +288,6 @@
         "StaleDeviceIdentifiers": {
             "Description": "Stale device identifiers.",
             "Message": "Stale device identifiers.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please unregister and re-register the device.",
@@ -332,7 +296,6 @@
         "MissingGDID": {
             "Description": "The GDID was found to be missing.",
             "Message": "Missing GDID.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please unregister and re-register the device.",
@@ -341,7 +304,6 @@
         "CorruptGDID": {
             "Description": "The GDID was found to be corrupted.",
             "Message": "Corrupt GDID.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please unregister and re-register the device.",
@@ -350,7 +312,6 @@
         "MissingRegistrationToken": {
             "Description": "The registration token was found to be missing.",
             "Message": "Missing registration token.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please unregister and re-register the device.",
@@ -359,7 +320,6 @@
         "CorruptRegistrationToken": {
             "Description": "The registration token was found to be corrupted.",
             "Message": "Corrupt registration token.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please unregister and re-register the device.",
@@ -368,7 +328,6 @@
         "ExpiredRegistrationToken": {
             "Description": "The registration token was found to be expired.",
             "Message": "Expired registration token.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please unregister and re-register the device.",
@@ -377,7 +336,6 @@
         "UnknownDevice": {
             "Description": "Unknown device.",
             "Message": "Unknown device.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please unregister and re-register the device.",
@@ -386,7 +344,6 @@
         "MissingRegistrationInformation": {
             "Description": "The registration information was found to be missing.",
             "Message": "Missing registration information.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please unregister and re-register the device.",
@@ -395,7 +352,6 @@
         "CorruptRegistrationInformation": {
             "Description": "The registration information was found to be corrupted.",
             "Message": "Corrupt registration information.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please unregister and re-register the device.",
@@ -404,7 +360,6 @@
         "InvalidHPEPassportCredentials": {
             "Description": "Invalid HPE Passport credentials was provided.",
             "Message": "Invalid HPE Passport credentials.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please provide valid HPE Passport credentials.",
@@ -413,7 +368,6 @@
         "DeviceAlreadyRegistered": {
             "Description": "Device is already registered.",
             "Message": "Device is already registered",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please delete the device from Insight Remote Support user interface and retry registration.",
@@ -422,7 +376,6 @@
         "DeviceUnregistrationFailed": {
             "Description": "Unregistration request was not processed successfully by the HPE Remote Support receiver. Remote Support has been disabled locally. No service events or data collections will be sent until this device has been re-registered.",
             "Message": "Unregistration request was not processed successfully by the HPE Remote Support receiver.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please Register the Device.",
@@ -431,7 +384,6 @@
         "ERSIsDisabled": {
             "Description": "Embedded Remote Support is disabled.",
             "Message": "Embedded Remote Support is disabled.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry registration.",
@@ -440,7 +392,6 @@
         "InsufficientRegistrationData": {
             "Description": "Insufficient registration data.",
             "Message": "Insufficient registration data.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry registration.",
@@ -449,7 +400,6 @@
         "UserIDIsRequiredField": {
             "Description": "User ID is a required field.",
             "Message": "User ID is a required field.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry registration.",
@@ -458,7 +408,6 @@
         "UserMustHaveAnActiveAuthenticatedSession": {
             "Description": "User must have an active authenticated session.",
             "Message": "User must have an active authenticated session.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry registration.",
@@ -467,7 +416,6 @@
         "InvalidSessiontoken": {
             "Description": "The session token is invalid.",
             "Message": "The session token is invalid.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry registration.",
@@ -476,7 +424,6 @@
         "HPEPassportPasswordIsRequired": {
             "Description": "HPE Passport Password is required.",
             "Message": "HPE Passport Password is required.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry registration.",
@@ -485,7 +432,6 @@
         "MissingSOAPHeader": {
             "Description": "Missing SOAP header.",
             "Message": "Missing SOAP header.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry your last step. If error persists and device is currently registered, unregister and re-register device.",
@@ -494,7 +440,6 @@
         "MissingGUID": {
             "Description": "The GUID is missing.",
             "Message": "Missing GUID.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry your last step. If error persists and device is currently registered, unregister and re-register device.",
@@ -503,7 +448,6 @@
         "CorruptGUID": {
             "Description": "The GUID is found to be corrupted.",
             "Message": "Corrupt GUID.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry your last step. If error persists and device is currently registered, unregister and re-register device.",
@@ -512,7 +456,6 @@
         "MissingDataPackage": {
             "Description": "The data package is missing.",
             "Message": "Missing data package.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry your last step. If error persists and device is currently registered, unregister and re-register device.",
@@ -521,7 +464,6 @@
         "DataPackageValidationFailed": {
             "Description": "Data Package validation failed.",
             "Message": "Data Package validation failed.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry your last step. If error persists and device is currently registered, unregister and re-register device.",
@@ -530,7 +472,6 @@
         "TooManyAttachments": {
             "Description": "Too Many Attachments.",
             "Message": "Too Many Attachments.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry your last step. If error persists and device is currently registered, unregister and re-register device.",
@@ -539,7 +480,6 @@
         "MissingAttachments": {
             "Description": "Missing Attachments.",
             "Message": "Missing Attachments.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry your last step. If error persists and device is currently registered, unregister and re-register device.",
@@ -548,7 +488,6 @@
         "ChangeOrResetHPEPassportPassword": {
             "Description": "The HPE Passport password must be changed or reset.",
             "Message": "The HPE Passport password must be changed or reset.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please attempt to register again after correcting the HPE Passport problem.",
@@ -557,7 +496,6 @@
         "ExpiredHPEPassportCredentials": {
             "Description": "THe HPE Passport credentials expired.",
             "Message": "The HPE Passport credentials expired.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please attempt to register again after correcting the HPE Passport problem.",
@@ -566,7 +504,6 @@
         "HPEPassportAccountLockedOut": {
             "Description": "The HPE Passport account is locked out.",
             "Message": "HPE Passport account locked out.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please attempt to register again after correcting the HPE Passport problem.",
@@ -575,7 +512,6 @@
         "UnmatchGDIDAndDeviceIdentifiers": {
             "Description": "GDID and device identifiers do not match.",
             "Message": "GDID and device identifiers do not match.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "If error persists and device is not currently registered, unregister and re-register device.",
@@ -584,7 +520,6 @@
         "DeviceIsNotRegistered": {
             "Description": "Device is not registered. Remote Support registration has been disabled locally on this device. No service events or data collections will be sent until this device has been re-registered.",
             "Message": "Device is not registered.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please register the device.",
@@ -593,7 +528,6 @@
         "DeviceDeleted": {
             "Description": "This device has been previously deleted from the Insight Remote Support user interface.",
             "Message": "This device has been previously deleted from the Insight Remote Support user interface.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please unregister and re-register device.",
@@ -602,7 +536,6 @@
         "InvalidProxyCredentials": {
             "Description": "Authentication with proxy server failed.",
             "Message": "Authentication with proxy server failed.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please provide proper credentials.",
@@ -611,7 +544,6 @@
         "ServiceUnavailableTemporarily": {
             "Description": "HPE Remote Support receiver is temporarily unavailable.",
             "Message": "HPE Remote Support receiver temporarily unavailable.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry later.",
@@ -620,7 +552,6 @@
         "GeneralReceiverError": {
             "Description": "General Receiver Error. HPE Remote Support receiver is temporarily unavailable.",
             "Message": "General Receiver Error.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry later.",
@@ -629,7 +560,6 @@
         "RegistrationRequestCouldNotBeQueued": {
             "Description": "Registration request could not be queued. HPE Remote Support receiver temporarily unavailable.",
             "Message": "Registration request could not be queued.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry later.",
@@ -638,7 +568,6 @@
         "HPEPassportSystemFailureOccurred": {
             "Description": "HPE Passport System failure occurred. A problem has been detected in the HPE Passport system.",
             "Message": "HPE Passport System failure occurred.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry later.",
@@ -647,7 +576,6 @@
         "InvalidHPEPassportUserID": {
             "Description": "HPE Passport User ID is invalid.",
             "Message": "HPE Passport User ID is invalid.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry registration with a valid user ID.",
@@ -656,7 +584,6 @@
         "HPEPassportAccountIsLockedOut": {
             "Description": "HPE Passport account is locked out.",
             "Message": "HPE Passport account is locked out.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please reset your password and retry registration.",
@@ -665,7 +592,6 @@
         "HPEPassportUserHasBeenAddedToaGroup": {
             "Description": "HPE Passport user has been added to a group.",
             "Message": "HPE Passport user has been added to a group.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please reset your password and retry registration.",
@@ -674,7 +600,6 @@
         "UserHasReachedHalfTheMaximumAllowedLoginAuthenticationFailures": {
             "Description": "User has reached half the maximum allowed login authentication failures.",
             "Message": "User has reached half the maximum allowed login authentication failures.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please verify your username and password are correct and retry registration.",
@@ -683,7 +608,6 @@
         "HPEPassportPasswordHasExpired": {
             "Description": "HPE Passport Password has expired.",
             "Message": "HPE Passport Password has expired.",
-            "MessageSeverity": "Critical",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please update your password and retry registration.",
@@ -692,7 +616,6 @@
         "HPEPassportUserIdentityElementsMissing": {
             "Description": "HPE Passport user identity elements missing.",
             "Message": "HPE Passport user identity elements missing.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please update your HPE Passport profile and retry registration.",
@@ -701,7 +624,6 @@
         "HPEPassportSecurityQandAIsNotCompliant": {
             "Description": "HPE Passport Security Q and A is not compliant.",
             "Message": "HPE Passport Security Q and A is not compliant.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please update your HPE Passport security Q and A and retry registration.",
@@ -710,7 +632,6 @@
         "IncorrectHPEPassportPassword": {
             "Description": "HPE Passport Password is incorrect.",
             "Message": "HPE Passport Password is incorrect.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please retry registration using the correct password.",
@@ -719,7 +640,6 @@
         "UserMustEnterAnHPEPassportSecurityQandAandChangePassword": {
             "Description": "User must enter an HPE Passport security Q and A and change password.",
             "Message": "User must enter an HPE Passport security Q and A and change password.",
-            "MessageSeverity": "Warning",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "Please update your security Q and A, update your password and retry registration.",
@@ -728,7 +648,6 @@
         "InvalidConfigurationForConnectModel": {
             "Description": "Configuration not supported for current connect model.",
             "Message": "Configuration not supported for current connect model.",
-            "MessageSeverity": "OK",
             "NumberOfArgs": 0,
             "ParamTypes": [],
             "Resolution": "None.",
@@ -738,5 +657,5 @@
     "Name": "Embedded Remote Support Message Registry",
     "OwningEntity": "Hewlett Packard Enterprise",
     "RegistryPrefix": "iLOeRS",
-    "RegistryVersion": "1.1.0"
+    "RegistryVersion": "1.0.0"
 }

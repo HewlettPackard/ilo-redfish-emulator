@@ -36,7 +36,7 @@
             }
         }
     },
-    "copyright": "Copyright 2014-2021 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2022 Distributed Management Task Force. All rights reserved.",
+    "copyright": "Copyright 2014-2021 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2021 Distributed Management Task Force. All rights reserved.",
     "description": "The HpeNetworkPort resource describes the The HpeNetworkPort resource describes the Hewlett Packard Enterprise property extensions for Network Ports",
     "additionalProperties": false,
     "definitions": {
@@ -188,7 +188,7 @@
                                 "description": "SCID value for this <SCID,SVID> S-Channel identifier pairreceived from the link partner on this port.",
                                 "etag": true,
                                 "maximum": 4095,
-                                "minimum": 0,
+                                "minimum": 1,
                                 "readonly": true,
                                 "type": [
                                     "integer",
@@ -479,7 +479,7 @@
                                 "description": "SCID value for this <SCID,SVID> S-Channel identifier pair being transmitted to the link partner on this port.",
                                 "etag": true,
                                 "maximum": 4095,
-                                "minimum": 0,
+                                "minimum": 1,
                                 "readonly": true,
                                 "type": [
                                     "integer",
@@ -561,24 +561,24 @@
         "IEEE802IDSubtype": {
             "enum": [
                 null,
-                "ChassisComp",
-                "IfAlias",
-                "PortComp",
-                "MacAddr",
-                "NetworkAddr",
-                "IfName",
-                "AgentId",
-                "LocalAssign"
+                "chassisComp",
+                "ifAlias",
+                "portComp",
+                "mac-Addr",
+                "networkAddr",
+                "ifName",
+                "agent-ID",
+                "local-Assign"
             ],
             "enumDescriptions": {
-                "AgentId": "Agent circuit ID, based on the agent-local identifier of the circuit as defined in RFC 3046.",
-                "ChassisComp": "Chassis component, based in the value of entPhysicalAlias in IETF RFC 4133.",
-                "IfAlias": "Interface alias, based on the IfAlias MIB object.",
-                "IfName": "Interface name, based on the IfName MIB object.",
-                "LocalAssign": "Locally assigned, based on a alpha-numeric value locally assigned.",
-                "MacAddr": "MAC address, based on an agent detected unicast source address as defined in IEEE Std. 802.",
-                "NetworkAddr": "Network address, based on an agent detected network address.",
-                "PortComp": "Port component, based in the value of entPhysicalAlias in IETF RFC 4133."
+                "agent-ID": "Agent circuit ID, based on the agent-local identifier of the circuit as defined in RFC 3046.",
+                "chassisComp": "Chassis component, based in the value of entPhysicalAlias in IETF RFC 4133.",
+                "ifAlias": "Interface alias, based on the ifAlias MIB object.",
+                "ifName": "Interface name, based on the ifName MIB object.",
+                "local-Assign": "Locally assigned, based on a alpha-numeric value locally assigned.",
+                "mac-Addr": "MAC address, based on an agent detected unicast source address as defined in IEEE Std. 802.",
+                "networkAddr": "Network address, based on an agent detected network address.",
+                "portComp": "Port component, based in the value of entPhysicalAlias in IETF RFC 4133."
             },
             "etag": true,
             "type": [
@@ -1334,7 +1334,7 @@
             "type": "array"
         }
     },
-    "title": "#HpeNetworkPort.v1_3_2.HpeNetworkPort",
+    "title": "#HpeNetworkPort.v1_3_0.HpeNetworkPort",
     "etag": true,
     "type": "object"
 }

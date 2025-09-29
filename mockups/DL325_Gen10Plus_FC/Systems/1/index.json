@@ -1,8 +1,8 @@
 {
     "@odata.context": "/redfish/v1/$metadata#ComputerSystem.ComputerSystem",
-    "@odata.etag": "W/\"0953A41C\"",
+    "@odata.etag": "W/\"1C210906\"",
     "@odata.id": "/redfish/v1/Systems/1",
-    "@odata.type": "#ComputerSystem.v1_17_0.ComputerSystem",
+    "@odata.type": "#ComputerSystem.v1_10_0.ComputerSystem",
     "Id": "1",
     "Actions": {
         "#ComputerSystem.Reset": {
@@ -22,32 +22,17 @@
     "Bios": {
         "@odata.id": "/redfish/v1/systems/1/bios"
     },
-    "BiosVersion": "A43 v3.72 (05/16/2025)",
+    "BiosVersion": "A43 v2.52 (10/29/2021)",
     "Boot": {
         "BootOptions": {
             "@odata.id": "/redfish/v1/Systems/1/BootOptions"
         },
         "BootOrder": [
-            "Boot0021",
-            "Boot001C",
-            "Boot000E",
-            "Boot0011",
-            "Boot0012",
-            "Boot0019",
-            "Boot001A",
-            "Boot0015",
-            "Boot0016",
-            "Boot0017",
-            "Boot0018",
-            "Boot0013",
+            "Boot0002",
+            "Boot0001",
             "Boot0014",
-            "Boot001B",
-            "Boot001D",
-            "Boot001E",
-            "Boot000F",
-            "Boot0010",
-            "Boot001F",
-            "Boot0020"
+            "Boot0018",
+            "Boot0010"
         ],
         "BootSourceOverrideEnabled": "Disabled",
         "BootSourceOverrideMode": "UEFI",
@@ -68,32 +53,17 @@
         ],
         "UefiTargetBootSourceOverride": "None",
         "UefiTargetBootSourceOverride@Redfish.AllowableValues": [
-            "HD(1,GPT,82CE8D58-B6E9-474C-8E85-D0D9F0EA080C,0x800,0xFA000)/\\EFI\\Microsoft\\Boot\\bootmgfw.efi",
-            "HD(1,GPT,DEF3F9D5-0B80-454D-AAB6-B8128CAC22B5,0x800,0x12C000)/\\EFI\\redhat\\shimx64.efi",
-            "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)",
-            "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)/Scsi(0x2,0x0)",
-            "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)/Scsi(0x3,0x0)",
-            "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)/MAC(88E9A46BF574,0x1)/IPv4(0.0.0.0)/Uri()",
-            "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)/MAC(88E9A46BF574,0x1)/IPv4(0.0.0.0)",
-            "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(6805CAF15866,0x1)/IPv4(0.0.0.0)/Uri()",
-            "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(6805CAF15866,0x1)/IPv4(0.0.0.0)",
-            "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)/MAC(88E9A46BF574,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)",
-            "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)/MAC(88E9A46BF574,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()",
-            "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(6805CAF15866,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)",
-            "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(6805CAF15866,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()",
-            "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x20310002AC02A8E5,0x0)",
-            "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x21310002AC02A8E5,0x0)",
-            "PciRoot(0x3)/Pci(0x1,0x3)/Pci(0x0,0x0)/Scsi(0x17B,0x0)",
-            "PciRoot(0x0)/Pci(0x5,0x2)/Pci(0x0,0x4)/USB(0x1,0x0)",
-            "PciRoot(0x0)/Pci(0x5,0x2)/Pci(0x0,0x4)/USB(0x2,0x0)",
-            "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x20310002AC02A8E5,0x1000000000000)",
-            "PciRoot(0x3)/Pci(0x3,0x1)/Pci(0x0,0x0)/Fibre(0x21310002AC02A8E5,0x1000000000000)"
+            "HD(1,GPT,344826DE-9945-47F1-915F-86C5AE43B0A2,0x800,0xEE000)/\\efi\\boot\\bootx64.efi",
+            "HD(1,GPT,6309A186-CE74-4290-A576-7B31BBB80030,0x800,0xEE000)/\\efi\\boot\\bootx64.efi",
+            "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(1402ECD93AA0,0x1)/IPv4(0.0.0.0)",
+            "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)/MAC(9440C95C86BC,0x1)/IPv4(0.0.0.0)",
+            "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)"
         ]
     },
     "EthernetInterfaces": {
         "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces"
     },
-    "HostName": "",
+    "HostName": "ncn-m003",
     "IndicatorLED": "Off",
     "Links": {
         "ManagedBy": [
@@ -107,7 +77,6 @@
             }
         ]
     },
-    "LocationIndicatorActive": false,
     "LogServices": {
         "@odata.id": "/redfish/v1/Systems/1/LogServices"
     },
@@ -133,7 +102,7 @@
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeComputerSystemExt.HpeComputerSystemExt",
-            "@odata.type": "#HpeComputerSystemExt.v2_14_0.HpeComputerSystemExt",
+            "@odata.type": "#HpeComputerSystemExt.v2_9_0.HpeComputerSystemExt",
             "Actions": {
                 "#HpeComputerSystemExt.PowerButton": {
                     "PushType@Redfish.AllowableValues": [
@@ -166,8 +135,7 @@
                 }
             },
             "AggregateHealthStatus": {
-                "AgentlessManagementService": "Unavailable",
-                "AggregateServerHealth": "OK",
+                "AgentlessManagementService": "Ready",
                 "BiosOrHardwareHealth": {
                     "Status": {
                         "Health": "OK"
@@ -186,7 +154,7 @@
                 },
                 "Network": {
                     "Status": {
-                        "Health": "OK"
+                        "Health": "Warning"
                     }
                 },
                 "PowerSupplies": {
@@ -197,11 +165,6 @@
                 },
                 "PowerSupplyRedundancy": "Redundant",
                 "Processors": {
-                    "Status": {
-                        "Health": "OK"
-                    }
-                },
-                "SmartStorageBattery": {
                     "Status": {
                         "Health": "OK"
                     }
@@ -219,36 +182,41 @@
             },
             "Bios": {
                 "Backup": {
-                    "Date": "05/16/2024",
+                    "Date": "02/23/2021",
                     "Family": "A43",
-                    "VersionString": "A43 v3.10 (05/16/2024)"
+                    "VersionString": "A43 v2.40 (02/23/2021)"
                 },
                 "Current": {
-                    "Date": "05/16/2025",
+                    "Date": "10/29/2021",
                     "Family": "A43",
-                    "VersionString": "A43 v3.72 (05/16/2025)"
+                    "VersionString": "A43 v2.52 (10/29/2021)"
                 },
                 "UefiClass": 2
             },
             "CriticalTempRemainOff": false,
-            "CurrentPowerOnTimeSeconds": 15249,
+            "CurrentPowerOnTimeSeconds": null,
             "DeviceDiscoveryComplete": {
-                "AMSDeviceDiscovery": "NoAMS",
+                "AMSDeviceDiscovery": "Complete",
                 "DeviceDiscovery": "vMainDeviceDiscoveryComplete",
-                "ServerFirmwareInventoryComplete": true,
                 "SmartArrayDiscovery": "Complete"
             },
             "ElapsedEraseTimeInMinutes": 0,
             "EndOfPostDelaySeconds": null,
             "EstimatedEraseTimeInMinutes": 0,
+            "HostOS": {
+                "OsName": "SLE_HPC",
+                "OsSysDescription": "Linux ncn-m003 5.3.18-24.99-default #1 SMP Sun Jan 23 19:03:51 UTC 2022 (712a8e6) x86_64",
+                "OsType": 48,
+                "OsVersion": "15.2"
+            },
             "IntelligentProvisioningAlwaysOn": true,
-            "IntelligentProvisioningIndex": 8,
+            "IntelligentProvisioningIndex": 7,
             "IntelligentProvisioningLocation": "System Board",
-            "IntelligentProvisioningVersion": "3.75.22",
+            "IntelligentProvisioningVersion": "3.40.192",
             "IsColdBooting": false,
             "Links": {
-                "SUT": {
-                    "@odata.id": "/redfish/v1/systems/1/hpsut"
+                "PCIDevices": {
+                    "@odata.id": "/redfish/v1/Systems/1/PCIDevices"
                 },
                 "PCISlots": {
                     "@odata.id": "/redfish/v1/Systems/1/PCISlots"
@@ -273,23 +241,18 @@
                 },
                 "SecureEraseReportService": {
                     "@odata.id": "/redfish/v1/Systems/1/SecureEraseReportService"
-                },
-                "PCIDevices": [
-                    {
-                        "@odata.id": "/redfish/v1/Systems/1/PCIDevices"
-                    }
-                ]
+                }
             },
-            "PCAPartNumber": "P12579-004",
-            "PCASerialNumber": "PZCHA0ARHGQ03P",
-            "PostDiscoveryCompleteTimeStamp": "2001-01-13T06:10:11Z",
+            "PCAPartNumber": "P12579-001",
+            "PCASerialNumber": "PWWSE0ARHDK0AD",
+            "PostDiscoveryCompleteTimeStamp": null,
             "PostDiscoveryMode": null,
             "PostMode": null,
             "PostState": "FinishedPost",
-            "PowerAllocationLimit": 1600,
+            "PowerAllocationLimit": 1000,
             "PowerAutoOn": "Restore",
             "PowerOnDelay": "Minimum",
-            "PowerOnMinutes": 12393,
+            "PowerOnMinutes": 786392,
             "PowerRegulatorMode": "OSControl",
             "PowerRegulatorModesSupported": [
                 "OSControl",
@@ -301,11 +264,6 @@
             "ServerFQDN": "",
             "ServerIntelligentDiagnosticsModeEnabled": false,
             "ServerSafeModeEnabled": false,
-            "SmartStorageConfig": [
-                {
-                    "@odata.id": "/redfish/v1/systems/1/smartstorageconfig"
-                }
-            ],
             "SystemROMAndiLOEraseComponentStatus": {
                 "BIOSSettingsEraseStatus": "Idle",
                 "iLOSettingsEraseStatus": "Idle"
@@ -331,7 +289,7 @@
     "SecureBoot": {
         "@odata.id": "/redfish/v1/Systems/1/SecureBoot"
     },
-    "SerialNumber": "MXQ2290J5P",
+    "SerialNumber": "MXQ019020B",
     "Status": {
         "Health": "OK",
         "HealthRollup": "OK",
@@ -358,5 +316,5 @@
             }
         }
     ],
-    "UUID": "36383150-3630-584D-5132-3239304A3550"
+    "UUID": "36383150-3630-584D-5130-313930323042"
 }

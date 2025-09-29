@@ -1,8 +1,8 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot",
-    "@odata.etag": "W/\"FD60883A\"",
+    "@odata.etag": "W/\"32C0DB2A\"",
     "@odata.id": "/redfish/v1/Systems/1/PCISlots/14",
-    "@odata.type": "#HpeServerPCISlot.v2_1_2.HpeServerPCISlot",
+    "@odata.type": "#HpeServerPCISlot.v2_1_0.HpeServerPCISlot",
     "Id": "14",
     "BusNumber": 71,
     "Characteristics": {
@@ -12,7 +12,6 @@
     },
     "DeviceNumber": 0,
     "FunctionNumber": 0,
-    "Length": "Drive2_5",
     "LinkLanes": "x4",
     "Name": "NVMe Slot 41",
     "Status": {

@@ -62,7 +62,7 @@
         "description": "POST custom actions defined for this type. (The implemented actions may be a subset of these.)"
     },
     "additionalProperties": false,
-    "copyright": "Copyright 2014-2023 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2023 Distributed Management Task Force. All rights reserved.",
+    "copyright": "Copyright 2014-2019 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
     "description": "The HpeComponentInstallSet resource describes an Install Set, an ordered list of installation instructions that may be invoked.",
     "properties": {
         "@odata.context": {
@@ -185,19 +185,13 @@
                             "ApplyUpdate",
                             "ResetServer",
                             "ResetBmc",
-                            "Wait",
-                            "BootToUefi",
-                            "PendingReset",
-                            "HostPoweroff"
+                            "Wait"
                         ],
                         "enumDescriptions": {
                             "ApplyUpdate": "Apply an update using the specified component.",
                             "ResetBmc": "Reset the BMC.",
                             "ResetServer": "Reset the server.",
-                            "Wait": "Wait for the WaitTimeSeconds number of seconds.",
-                            "BootToUefi": "Boot the server to UEFI shell",
-                            "PendingReset": "Reset is pending after bundle update",
-                            "HostPoweroff": "Power off Host"
+                            "Wait": "Wait for the WaitTimeSeconds number of seconds."
                         },
                         "readonly": false,
                         "type": "string"
@@ -253,15 +247,6 @@
                         "minimum": 0,
                         "readonly": false,
                         "type": "integer"
-                    },
-                    "Targets": {
-                        "description": "This property shall contain firmware inventory targets on which firmware updates to be applied.",
-                        "format": "uri-reference",
-                        "items": {
-                            "type": "string"
-                        },
-                        "readonly": false,
-                        "type": "array"
                     }
                 },
                 "type": "object"
@@ -270,6 +255,6 @@
             "type": "array"
         }
     },
-    "title": "#HpeComponentInstallSet.v1_4_0.HpeComponentInstallSet",
+    "title": "#HpeComponentInstallSet.v1_1_0.HpeComponentInstallSet",
     "type": "object"
 }

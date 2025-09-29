@@ -1,30 +1,28 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"2B7A4008\"",
+    "@odata.etag": "W/\"E2A03C29\"",
     "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/25",
-    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
     "Id": "25",
-    "Created": "2001-01-13T07:42:00Z",
+    "Created": "2022-04-14T15:23:51Z",
     "EntryType": "Oem",
-    "Message": "Browser logout: ctobmaas - 172.26.78.17(DNS name not found).",
-    "MessageArgs": [],
-    "MessageId": "35.1018",
+    "Message": "IPMI/RMCP login by: root - 10.254.1.12(ncn-w002-hmn).",
     "Name": "iLO Event Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
-            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
             "Categories": [
                 "Security",
                 "Administration"
             ],
             "Class": 35,
             "ClassDescription": "iLO 5",
-            "Code": 1018,
+            "Code": 1025,
             "Count": 1,
-            "EventNumber": 27871,
+            "EventNumber": 1561500,
             "Severity": "Informational",
-            "Updated": "2001-01-13T07:42:00Z"
+            "Updated": "2022-04-14T15:23:51Z"
         }
     },
     "OemRecordFormat": "Hpe-iLOEventLog",

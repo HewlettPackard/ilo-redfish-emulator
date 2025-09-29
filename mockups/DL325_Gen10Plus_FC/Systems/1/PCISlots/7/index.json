@@ -1,8 +1,8 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeServerPCISlot.HpeServerPCISlot",
-    "@odata.etag": "W/\"96454B7D\"",
+    "@odata.etag": "W/\"C8CDA823\"",
     "@odata.id": "/redfish/v1/Systems/1/PCISlots/7",
-    "@odata.type": "#HpeServerPCISlot.v2_1_2.HpeServerPCISlot",
+    "@odata.type": "#HpeServerPCISlot.v2_1_0.HpeServerPCISlot",
     "Id": "7",
     "BusNumber": 199,
     "Characteristics": {
@@ -12,7 +12,6 @@
     },
     "DeviceNumber": 0,
     "FunctionNumber": 0,
-    "Length": "Drive2_5",
     "LinkLanes": "x4",
     "Name": "NVMe Slot 22",
     "Status": {

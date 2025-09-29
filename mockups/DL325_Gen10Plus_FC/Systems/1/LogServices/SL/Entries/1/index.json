@@ -1,35 +1,31 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"8D983D85\"",
+    "@odata.etag": "W/\"B5E1D412\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/1",
-    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
     "Id": "1",
-    "Created": "0000-00-00T00:00:00Z",
+    "Created": "2020-05-09T04:00:32Z",
     "EntryType": "Oem",
-    "Message": "The overall security state of the system is at \"Risk\".",
-    "MessageArgs": [],
-    "MessageId": "55.5",
+    "Message": "Security log cleared by: System Administrator",
     "Name": "Security Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
-            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
             "Categories": [
                 "Security",
-                "Administration",
-                "Configuration"
+                "Maintenance"
             ],
-            "Class": 55,
-            "ClassDescription": "Security Configuration",
-            "Code": 5,
+            "Class": 33,
+            "ClassDescription": "Maintenance",
+            "Code": 4,
             "Count": 1,
-            "EventNumber": 1,
-            "RecommendedAction": "Refer to iLO user manual or Security Dashboard help page.",
-            "Severity": "Caution",
-            "Updated": "0000-00-00T00:00:00Z",
-            "UserAction": "None"
+            "EventNumber": 22,
+            "Severity": "Informational",
+            "Updated": "2020-05-09T04:00:32Z",
+            "UserAction": "Not Applicable"
         }
     },
     "OemRecordFormat": "Hpe-SL",
-    "Severity": "Warning"
+    "Severity": "OK"
 }

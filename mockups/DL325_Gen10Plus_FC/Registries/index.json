@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#MessageRegistryFileCollection.MessageRegistryFileCollection",
-    "@odata.etag": "W/\"33C11E14\"",
+    "@odata.etag": "W/\"1E796226\"",
     "@odata.id": "/redfish/v1/Registries",
     "@odata.type": "#MessageRegistryFileCollection.MessageRegistryFileCollection",
     "Description": "Registry Repository",
@@ -25,29 +25,14 @@
             "@odata.id": "/redfish/v1/Registries/iLOEvents"
         },
         {
-            "@odata.id": "/redfish/v1/Registries/iLOSecurityEvents"
-        },
-        {
-            "@odata.id": "/redfish/v1/Registries/NetworkDevice"
-        },
-        {
-            "@odata.id": "/redfish/v1/Registries/StorageDevice"
-        },
-        {
             "@odata.id": "/redfish/v1/Registries/TaskEvent"
         },
         {
-            "@odata.id": "/redfish/v1/Registries/SUTReg.v6_2_0.SUTReg"
-        },
-        {
-            "@odata.id": "/redfish/v1/Registries/BiosAttributeRegistryA43.v1_3_72"
+            "@odata.id": "/redfish/v1/Registries/BiosAttributeRegistryA43.v1_2_52"
         },
         {
             "@odata.id": "/redfish/v1/Registries/HpeBiosMessageRegistry.v1_0_0"
-        },
-        {
-            "@odata.id": "/redfish/v1/Registries/SmartStorageMessages.v2_0_1.SmartStorageMessages"
         }
     ],
-    "Members@odata.count": 14
+    "Members@odata.count": 9
 }

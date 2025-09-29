@@ -21,7 +21,7 @@
         }
     },
     "additionalProperties": false,
-    "copyright": "Copyright 2014-2022 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2022 Distributed Management Task Force. All rights reserved.",
+    "copyright": "Copyright 2014-2019 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
     "definitions": {
         "Controller": {
             "additionalProperties": true,
@@ -29,8 +29,7 @@
             "properties": {
                 "ControllerCapabilities": {
                     "$ref": "#/definitions/ControllerCapabilities",
-                    "description": "The capabilities of this controller.",
-                    "readonly": false
+                    "description": "The capabilities of this controller."
                 },
                 "FirmwarePackageVersion": {
                     "description": "The version number of the user-facing firmware package.",
@@ -73,20 +72,6 @@
                             },
                             "readonly": true,
                             "type": "array"
-                        },
-                        "Ports": {
-                            "description": "A reference to the collection(s) of physical network ports associated with this network adapter controller.",
-                            "etag": false,
-                            "items": {
-                                "properties": {
-                                    "@odata.id": {
-                                        "$ref": "Resource.json#/definitions/odataid"
-                                    }
-                                },
-                                "type": "object"
-                            },
-                            "readonly": true,
-                            "type": "array"
                         }
                     },
                     "readonly": true,
@@ -112,8 +97,7 @@
                 "NPAR": {
                     "$ref": "#/definitions/NicPartitioning",
                     "description": "NIC Partitioning (NPAR) capabilities for this controller.",
-                    "longDescription": "This object shall contain capability, status, and configuration values related to NIC partitioning for this controller.",
-                    "readonly": false
+                    "longDescription": "This object shall contain capability, status, and configuration values related to NIC partitioning for this controller."
                 },
                 "NPIV": {
                     "$ref": "#/definitions/NPortIDVirtualization",
@@ -294,20 +278,6 @@
         "@odata.type": {
             "$ref": "Resource.json#/definitions/odatatype"
         },
-        "@Redfish.Settings": {
-            "properties": {
-                "SettingsObject": {
-                    "properties": {
-                        "@odata.id": {
-                            "$ref": "Resource.json#/definitions/odataid"
-                        }
-                    },
-                    "readonly": true,
-                    "type": "object"
-                }
-            },
-            "type": "object"
-        },
         "Actions": {
             "additionalProperties": false,
             "properties": {
@@ -334,7 +304,6 @@
             "items": {
                 "$ref": "#/definitions/Controller"
             },
-            "readonly": false,
             "type": "array"
         },
         "Description": {
@@ -407,17 +376,6 @@
                 "null"
             ]
         },
-        "Ports": {
-            "description": "A reference to the collection of physical network ports associated with this network adapter.",
-            "etag": false,
-            "properties": {
-                "@odata.id": {
-                    "$ref": "Resource.json#/definitions/odataid"
-                }
-            },
-            "readonly": true,
-            "type": "object"
-        },
         "SKU": {
             "description": "The value of this property shall contain the Stock Keeping Unit (SKU) for the network adapter.",
             "etag": true,
@@ -437,8 +395,7 @@
             ]
         },
         "Settings": {
-            "$ref": "Resource.json#/definitions/Settings",
-            "description": "The Settings object returns currently pending configuration changes on GET, and is used to initiate configuration changes via PATCH."
+            "$ref": "Resource.json#/definitions/Settings"
         },
         "Status": {
             "$ref": "Resource.json#/definitions/Status"
@@ -450,6 +407,6 @@
         "Id",
         "Name"
     ],
-    "title": "#NetworkAdapter.v1_5_0.NetworkAdapter",
+    "title": "#NetworkAdapter.v1_4_0.NetworkAdapter",
     "type": "object"
 }

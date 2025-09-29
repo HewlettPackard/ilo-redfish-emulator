@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#JsonSchemaFileCollection.JsonSchemaFileCollection",
-    "@odata.etag": "W/\"606E52B6\"",
+    "@odata.etag": "W/\"9F1A8F14\"",
     "@odata.id": "/redfish/v1/JsonSchemas",
     "@odata.type": "#JsonSchemaFileCollection.JsonSchemaFileCollection",
     "Description": "Schema Repository",
@@ -43,9 +43,6 @@
             "@odata.id": "/redfish/v1/JsonSchemas/Drive"
         },
         {
-            "@odata.id": "/redfish/v1/JsonSchemas/DriveCollection"
-        },
-        {
             "@odata.id": "/redfish/v1/JsonSchemas/EthernetInterface"
         },
         {
@@ -67,12 +64,6 @@
             "@odata.id": "/redfish/v1/JsonSchemas/ExtendedInfo"
         },
         {
-            "@odata.id": "/redfish/v1/JsonSchemas/Fabric"
-        },
-        {
-            "@odata.id": "/redfish/v1/JsonSchemas/FabricCollection"
-        },
-        {
             "@odata.id": "/redfish/v1/JsonSchemas/HostInterface"
         },
         {
@@ -82,9 +73,6 @@
             "@odata.id": "/redfish/v1/JsonSchemas/HpeAdvancedMemoryProtection"
         },
         {
-            "@odata.id": "/redfish/v1/JsonSchemas/HpeAutomaticCertEnrollment"
-        },
-        {
             "@odata.id": "/redfish/v1/JsonSchemas/HpeBaseNetworkAdapter"
         },
         {
@@ -92,12 +80,6 @@
         },
         {
             "@odata.id": "/redfish/v1/JsonSchemas/HpeBaseNetworkAdapterExt"
-        },
-        {
-            "@odata.id": "/redfish/v1/JsonSchemas/HpeBundleUpdateReport"
-        },
-        {
-            "@odata.id": "/redfish/v1/JsonSchemas/HpeBundleUpdateReportCollection"
         },
         {
             "@odata.id": "/redfish/v1/JsonSchemas/HpeCertAuth"
@@ -122,12 +104,6 @@
         },
         {
             "@odata.id": "/redfish/v1/JsonSchemas/HpeComponentRepositoryInformation"
-        },
-        {
-            "@odata.id": "/redfish/v1/JsonSchemas/HpeComponentUpdateEntry"
-        },
-        {
-            "@odata.id": "/redfish/v1/JsonSchemas/HpeComponentUpdateEntryCollection"
         },
         {
             "@odata.id": "/redfish/v1/JsonSchemas/HpeComponentUpdateTask"
@@ -319,9 +295,6 @@
             "@odata.id": "/redfish/v1/JsonSchemas/HpeNetworkPortLLDP"
         },
         {
-            "@odata.id": "/redfish/v1/JsonSchemas/HpePCIeDevice"
-        },
-        {
             "@odata.id": "/redfish/v1/JsonSchemas/HpePowerMeter"
         },
         {
@@ -332,9 +305,6 @@
         },
         {
             "@odata.id": "/redfish/v1/JsonSchemas/HpeRemoteSupport"
-        },
-        {
-            "@odata.id": "/redfish/v1/JsonSchemas/HpeRootCA"
         },
         {
             "@odata.id": "/redfish/v1/JsonSchemas/HpeSeaOfSensors"
@@ -586,12 +556,6 @@
             "@odata.id": "/redfish/v1/JsonSchemas/PCIeSlots"
         },
         {
-            "@odata.id": "/redfish/v1/JsonSchemas/Port"
-        },
-        {
-            "@odata.id": "/redfish/v1/JsonSchemas/PortCollection"
-        },
-        {
             "@odata.id": "/redfish/v1/JsonSchemas/Power"
         },
         {
@@ -644,18 +608,6 @@
         },
         {
             "@odata.id": "/redfish/v1/JsonSchemas/StorageCollection"
-        },
-        {
-            "@odata.id": "/redfish/v1/JsonSchemas/StorageController"
-        },
-        {
-            "@odata.id": "/redfish/v1/JsonSchemas/StorageControllerCollection"
-        },
-        {
-            "@odata.id": "/redfish/v1/JsonSchemas/Switch"
-        },
-        {
-            "@odata.id": "/redfish/v1/JsonSchemas/SwitchCollection"
         },
         {
             "@odata.id": "/redfish/v1/JsonSchemas/Task"
@@ -728,22 +680,7 @@
         },
         {
             "@odata.id": "/redfish/v1/JsonSchemas/HpeiSCSISoftwareInitiator.v2_0_0.HpeiSCSISoftwareInitiator"
-        },
-        {
-            "@odata.id": "/redfish/v1/JsonSchemas/SUT.v6_2_0.SUT"
-        },
-        {
-            "@odata.id": "/redfish/v1/JsonSchemas/SUTSettings.v6_2_0.SUTSettings"
-        },
-        {
-            "@odata.id": "/redfish/v1/JsonSchemas/SUTSystemInventory.v6_2_0.SUTSystemInventory"
-        },
-        {
-            "@odata.id": "/redfish/v1/JsonSchemas/SUTTaskSettings.v6_2_0.SUTTaskSettings"
-        },
-        {
-            "@odata.id": "/redfish/v1/JsonSchemas/SmartStorageConfig.v2_0_2.SmartStorageConfig"
         }
     ],
-    "Members@odata.count": 246
+    "Members@odata.count": 225
 }

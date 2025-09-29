@@ -258,12 +258,6 @@
             "readonly": true,
             "type": "string"
         },
-        "ChassisInputPowerWatts": {
-            "description": "The total input power consumed by the chassis and nodes.",
-            "etag": true,
-            "readonly": true,
-            "type": "integer"
-        },
         "ChassisPowerWatts": {
             "description": "The total power consumed by the chassis and nodes.",
             "etag": true,
@@ -1031,19 +1025,9 @@
             "description": "The value indicates if Thermal Configuration includes Edgeline specific options.",
             "readonly": false,
             "type": "boolean"
-        },
-        "ChassisServerLockActive": {
-            "description": "When Chassis Server Lock is activated, the server will be linked to the current chassis and not allow SSO connections from any other chassis.",
-            "readonly": false,
-            "type": "boolean"
-        },
-        "ChassisServerLockValid": {
-            "description": "The server is installed in the same chassis that it was linked to when Chassis Server Lock was activated.",
-            "readonly": true,
-            "type": "boolean"
         }
     },
     "readonly": true,
-    "title": "#HpeServerChassis.v2_4_0.HpeServerChassis",
+    "title": "#HpeServerChassis.v2_3_1.HpeServerChassis",
     "type": "object"
 }

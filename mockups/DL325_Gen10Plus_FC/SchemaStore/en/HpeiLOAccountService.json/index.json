@@ -240,21 +240,9 @@
             "minimum": 0,
             "readonly": false,
             "type": "integer"
-        },
-        "TwoFactorAuth": {
-            "description": "This property indicates two factor authentication enabled or not",
-            "etag": true,
-            "readonly": false,
-            "enum": [
-                "Enabled",
-                "Disabled"
-            ],
-            "type": [
-                "string"
-            ]
         }
     },
     "readonly": false,
-    "title": "#HpeiLOAccountService.v2_4_0.HpeiLOAccountService",
+    "title": "#HpeiLOAccountService.v2_3_0.HpeiLOAccountService",
     "type": "object"
 }

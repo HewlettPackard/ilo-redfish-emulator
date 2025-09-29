@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#Processor.Processor",
-    "@odata.etag": "W/\"F0EF4E70\"",
+    "@odata.etag": "W/\"C4E25F8A\"",
     "@odata.id": "/redfish/v1/Systems/1/Processors/1",
     "@odata.type": "#Processor.v1_7_2.Processor",
     "Id": "1",
@@ -12,14 +12,14 @@
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeProcessorExt.HpeProcessorExt",
-            "@odata.type": "#HpeProcessorExt.v2_0_1.HpeProcessorExt",
+            "@odata.type": "#HpeProcessorExt.v2_0_0.HpeProcessorExt",
             "AssetTag": "Unknown",
             "Cache": [
                 {
                     "Associativity": "8waySetAssociative",
                     "CacheSpeedns": 1,
                     "CurrentSRAMType": [
-                        "PipelineBurst"
+                        "Pipeline Burst"
                     ],
                     "EccType": "MultiBitECC",
                     "InstalledSizeKB": 1024,
@@ -29,7 +29,7 @@
                     "Policy": "WriteBack",
                     "Socketed": false,
                     "SupportedSRAMType": [
-                        "PipelineBurst"
+                        "Pipeline Burst"
                     ],
                     "SystemCacheType": "Unified"
                 },
@@ -37,7 +37,7 @@
                     "Associativity": "8waySetAssociative",
                     "CacheSpeedns": 1,
                     "CurrentSRAMType": [
-                        "PipelineBurst"
+                        "Pipeline Burst"
                     ],
                     "EccType": "MultiBitECC",
                     "InstalledSizeKB": 8192,
@@ -47,7 +47,7 @@
                     "Policy": "WriteBack",
                     "Socketed": false,
                     "SupportedSRAMType": [
-                        "PipelineBurst"
+                        "Pipeline Burst"
                     ],
                     "SystemCacheType": "Unified"
                 },
@@ -55,7 +55,7 @@
                     "Associativity": "16waySetAssociative",
                     "CacheSpeedns": 1,
                     "CurrentSRAMType": [
-                        "PipelineBurst"
+                        "Pipeline Burst"
                     ],
                     "EccType": "MultiBitECC",
                     "InstalledSizeKB": 131072,
@@ -65,7 +65,7 @@
                     "Policy": "WriteBack",
                     "Socketed": false,
                     "SupportedSRAMType": [
-                        "PipelineBurst"
+                        "Pipeline Burst"
                     ],
                     "SystemCacheType": "Unified"
                 }
@@ -87,23 +87,13 @@
             "MicrocodePatches": [
                 {
                     "CpuId": "0x00008310",
-                    "Date": "2024-10-21T00:00:00Z",
-                    "PatchId": "0x0830107D"
+                    "Date": "2020-07-28T00:00:00Z",
+                    "PatchId": "0x0830104D"
                 },
                 {
                     "CpuId": "0x00008300",
                     "Date": "2019-04-01T00:00:00Z",
                     "PatchId": "0x08300027"
-                },
-                {
-                    "CpuId": "0x00008310",
-                    "Date": "2024-11-11T00:00:00Z",
-                    "PatchId": "0x0830107F"
-                },
-                {
-                    "CpuId": "0x00008310",
-                    "Date": "2023-12-18T00:00:00Z",
-                    "PatchId": "0x0830107C"
                 }
             ],
             "PartNumber": "",

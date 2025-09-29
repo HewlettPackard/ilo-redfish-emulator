@@ -1,11 +1,10 @@
 {
     "@odata.context": "/redfish/v1/$metadata#ManagerAccount.ManagerAccount",
-    "@odata.etag": "W/\"487038C3\"",
+    "@odata.etag": "W/\"EBA8D8B6\"",
     "@odata.id": "/redfish/v1/AccountService/Accounts/2",
     "@odata.type": "#ManagerAccount.v1_3_0.ManagerAccount",
     "Id": "2",
     "Description": "iLO User Account",
-    "Enabled": true,
     "Links": {
         "Role": {
             "@odata.id": "/redfish/v1/AccountService/Roles/Administrator"
@@ -16,7 +15,7 @@
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeiLOAccount.HpeiLOAccount",
             "@odata.type": "#HpeiLOAccount.v2_2_0.HpeiLOAccount",
-            "LoginName": "ctobmaas",
+            "LoginName": "root",
             "Privileges": {
                 "HostBIOSConfigPriv": true,
                 "HostNICConfigPriv": true,
@@ -35,5 +34,5 @@
     "Password": null,
     "PasswordChangeRequired": false,
     "RoleId": "Administrator",
-    "UserName": "ctobmaas"
+    "UserName": "root"
 }

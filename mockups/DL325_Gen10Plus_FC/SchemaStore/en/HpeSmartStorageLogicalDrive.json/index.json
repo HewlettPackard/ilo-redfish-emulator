@@ -238,11 +238,7 @@
                     "NewKeyRekeyInProgress",
                     "NoAccessEncryptedControllerEncryptionNotEnabled",
                     "UnencryptedToEncryptedNotStarted",
-                    "NewLogDrvKeyRekeyRequestReceived",
-                    "Unsupproted",
-                    "Offline",
-                    "SEDQualinprogress",
-                    "SEDQualFailed"
+                    "NewLogDrvKeyRekeyRequestReceived"
                 ],
                 "enumDescriptions": {
                     "BadConnect": "A physical drive is not responding",
@@ -255,7 +251,6 @@
                     "NoAccessEncryptedControllerEncryptionNotEnabled": "The logical drive is currently encrypted and cannot be accessed because the array controller does not have encryption enabled",
                     "NoAccessEncryptedNoControllerKey": "The logical drive is currently encrypted and cannot be accessed because the array controller has not yet received the encryption key nor was it found in the controller's CSP NVRAM",
                     "NotAvailable": "The logical drive is currently unavailable. If a logical drive is expanding and the new configuration frees additional disk space, this free space can be configured into another logical volume. If this is done, the new volume will be set to not available",
-                    "Offline": "Logical volume is comprised of  one or more Locked SEDs. Volume is offline",
                     "Ok": "The logical drive is in normal operation mode",
                     "Overheating": "The drive array enclosure that contains the logical drive is overheating. The drive array is still functional, but should be shutdown",
                     "PredictiveSpareRebuildReady": "The logical drive is ready to perform a predictive spare rebuild. The logical drive is in the queue for rebuild",
@@ -265,14 +260,11 @@
                     "ReadyForRebuild": "The logical drive is ready for Automatic Data Recovery. A failed physical drive has been replaced, but the logical drive is still operating in Interim Recovery Mode",
                     "Rebuilding": "The logical drive is currently doing Automatic Data Recovery, where fault tolerance algorithms restore data to the replacement drive",
                     "Recovering": "The logical drive is using Interim Recovery Mode. In Interim Recovery Mode, at least one physical drive has failed, but the logical drive's fault tolerance mode lets the drive continue to operate with no data loss",
-                    "SEDQualinprogress": "Logical volume SED Qualification is in progress",
-                    "SEDQualFailed": "Logical volume SED Qualification failed",
                     "Shutdown": "The drive array enclosure that contains the logical drive has overheated. The logical drive is no longer functional",
                     "Unconfigured": "The logical drive is not configured",
                     "UnencryptedToEncryptedInProgress": " The logical drive is currently being transformed from unencrypted to encrypted and the volume is online. Data will be written unencrypted if the write is directed to an LBA range on th e logical drive that has not yet been migrated",
                     "UnencryptedToEncryptedNotStarted": "The logical drive has received a request to transform from unencrypted to encrypted but this process has not yet started. The unencrypted logical drive is currently online",
                     "Unknown": "The state of the logical drive is unknown",
-                    "Unsupproted": "The state of the logical drive is unsupported",
                     "WrongDrive": "The wrong physical drive was replaced after a failure"
                 },
                 "type": "string"

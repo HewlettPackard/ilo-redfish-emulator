@@ -49,34 +49,6 @@
                         "etag": false,
                         "readonly": false,
                         "type": "boolean"
-                    },
-                    "TransferProtocolType": {
-                        "description": "Network Protocol to use with the image",
-                        "enum": [
-                            "CIFS",
-                            "FTP",
-                            "SFTP",
-                            "HTTP",
-                            "HTTPS",
-                            "NFS",
-                            "SCP",
-                            "TFTP",
-                            "OEM"
-                        ],
-                        "enumDescriptions": {
-                            "CIFS": "Common Internet File System protocol.",
-                            "FTP": "File Transfer Protocol.",
-                            "SFTP": "Secure File Transfer Protocol.",
-                            "HTTP": "Hypertext Transfer Protocol.",
-                            "HTTPS": "HTTP Secure protocol.",
-                            "NFS": "Network File System protocol.",
-                            "SCP": "Secure File Copy protocol.",
-                            "TFTP": "Trivial File Transfer Protocol.",
-                            "OEM": "A protocol defined by the manufacturer."
-                        },
-                        "etag": true,
-                        "readonly": true,
-                        "type": "string"
                     }
                 },
                 "readonly": true,
@@ -236,37 +208,9 @@
                 "boolean",
                 "null"
             ]
-        },
-        "TransferProtocolType": {
-            "description": "Network Protocol to use with the image",
-            "enum": [
-                "CIFS",
-                "FTP",
-                "SFTP",
-                "HTTP",
-                "HTTPS",
-                "NFS",
-                "SCP",
-                "TFTP",
-                "OEM"
-            ],
-            "enumDescriptions": {
-                "CIFS": "Common Internet File System protocol.",
-                "FTP": "File Transfer Protocol.",
-                "SFTP": "Secure File Transfer Protocol.",
-                "HTTP": "Hypertext Transfer Protocol.",
-                "HTTPS": "HTTP Secure protocol.",
-                "NFS": "Network File System protocol.",
-                "SCP": "Secure File Copy protocol.",
-                "TFTP": "Trivial File Transfer Protocol.",
-                "OEM": "A protocol defined by the manufacturer."
-            },
-            "etag": true,
-            "readonly": true,
-            "type": "string"
         }
     },
     "readonly": false,
-    "title": "#VirtualMedia.v1_3_0.VirtualMedia",
+    "title": "#VirtualMedia.v1_2_0.VirtualMedia",
     "type": "object"
 }

@@ -20,11 +20,6 @@
         "Description": {
             "$ref": "Resource.json#/definitions/Description"
         },
-        "Enabled": {
-            "description": "An indication of whether an account is enabled.  An administrator can disable it without deleting the user information.  If `true`, the account is enabled and the user can log in.  If `false`, the account is disabled and, in the future, the user cannot log in.",
-            "readonly": false,
-            "type": "boolean"
-        },
         "Id": {
             "$ref": "Resource.json#/definitions/Id"
         },

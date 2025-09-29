@@ -367,16 +367,6 @@
             "readonly": true,
             "type": "object"
         },
-        "LocationIndicatorActive": {
-            "description": "An indicator allowing an operator to physically locate this resource.",
-            "longDescription": "This property shall contain the state of the indicator used to physically identify or locate this resource.  A write to this property shall update the value of IndicatorLED in this resource, if supported, to reflect the implementation of the locating function.",
-            "etag": true,
-            "readonly": false,
-            "type": [
-                "boolean",
-                "null"
-            ]
-        },
         "LogServices": {
             "description": "The LogService collection URI for this resource.",
             "etag": false,
@@ -502,9 +492,7 @@
                 "On",
                 "Off",
                 "Unknown",
-                "Reset",
-                "PoweringOn",
-                "PoweringOff"
+                "Reset"
             ],
             "longDescription": "The value of this property shall contain the power state of the system.",
             "readonly": true,
@@ -602,11 +590,9 @@
                 "Virtual",
                 "OS",
                 "PhysicallyPartitioned",
-                "VirtuallyPartitioned",
-                "DPU"
+                "VirtuallyPartitioned"
             ],
             "enumDescriptions": {
-                "DPU": "SmartNIC DPU System",
                 "OS": "An operating system instance",
                 "Physical": "A computer system",
                 "PhysicallyPartitioned": "A hardware-based partition of a computer system",
@@ -678,58 +664,9 @@
                 "string",
                 "null"
             ]
-        },
-        "BootProgress": {
-            "description": "Information about SmartNIC device Operating Boot progress",
-            "additionalProperties": false,
-            "etag": true,
-            "properties": {
-                "LastState": {
-                    "description": "SmartNIC device operating system status",
-                    "enum": [
-                        "OSBootStarted",
-                        "OSRunning",
-                        "OEM"
-                    ],
-                    "enumDescriptions": {
-                        "OSBootStarted": "The operating system has started booting.",
-                        "OSRunning": "The operating system is running.",
-                        "OEM": "The operating system state is reported in the OemLastState property."
-                    },
-                    "etag": true,
-                    "readonly": true,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "OemLastState": {
-                    "description": "SmartNIC device operating system oem status",
-                    "enum": [
-                        "OSServicesReady",
-                        "OSServicesOffline",
-                        "OSHalting",
-                        "OSHalted"
-                    ],
-                    "enumDescriptions": {
-                        "OSServicesReady": "The operating system services are ready.",
-                        "OSServicesOffline": "The operating system services are offline.",
-                        "OSHalting": "The operating system has started halting.",
-                        "OSHalted": "The operating system has performed a shutdown."
-                    },
-                    "etag": true,
-                    "readonly": true,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                }
-            },
-            "readonly": false,
-            "type": "object"
         }
     },
     "readonly": false,
-    "title": "#ComputerSystem.v1_17_0.ComputerSystem",
+    "title": "#ComputerSystem.v1_10_0.ComputerSystem",
     "type": "object"
 }

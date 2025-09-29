@@ -19,6 +19,22 @@
                 ],
                 "type": "object"
             },
+            "HpeRemoteSupport.CompleteDirectConnectRegistration": {
+                "additionalProperties": false,
+                "properties": {
+                    "Action": {
+                        "description": "To fully register your device, first RegisterDevice with DirectConnect and then complete the registration to Insight Remote Support using this Action.",
+                        "enum": [
+                            "HpeRemoteSupport.CompleteDirectConnectRegistration"
+                        ],
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "Action"
+                ],
+                "type": "object"
+            },
             "HpeRemoteSupport.DisableRemoteSupport": {
                 "additionalProperties": false,
                 "properties": {
@@ -250,6 +266,20 @@
             "additionalProperties": false,
             "properties": {
                 "#HpeRemoteSupport.ClearServiceEventLog": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "target": {
+                            "description": "Link to invoke action",
+                            "type": "string"
+                        },
+                        "title": {
+                            "description": "Friendly action name",
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                },
+                "#HpeRemoteSupport.CompleteDirectConnectRegistration": {
                     "additionalProperties": false,
                     "properties": {
                         "target": {

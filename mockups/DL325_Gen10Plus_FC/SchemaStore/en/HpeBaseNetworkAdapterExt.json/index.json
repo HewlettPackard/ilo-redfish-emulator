@@ -53,15 +53,6 @@
                 "null"
             ]
         },
-        "PortNumber": {
-            "description": "Port Number of physical adapter.",
-            "etag": false,
-            "readonly": true,
-            "type": [
-                "integer",
-                "null"
-            ]
-        },
         "Id": {
             "$ref": "Resource.json#/definitions/Id"
         },
@@ -85,6 +76,6 @@
         }
     },
     "readonly": true,
-    "title": "#HpeBaseNetworkAdapterExt.v2_1_0.HpeBaseNetworkAdapterExt",
+    "title": "#HpeBaseNetworkAdapterExt.v2_0_0.HpeBaseNetworkAdapterExt",
     "type": "object"
 }

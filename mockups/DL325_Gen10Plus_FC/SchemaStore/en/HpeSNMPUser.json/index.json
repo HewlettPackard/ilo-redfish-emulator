@@ -60,10 +60,12 @@
         "PrivacyProtocol": {
             "description": "Sets the encryption algorithm to use for encoding the privacy passphrase. A portion of an SNMP message is encrypted before transmission.",
             "enum": [
+                "DES",
                 "AES"
             ],
             "enumDescriptions": {
-                "AES": "Indicate Advanced Encryption Standard Algorithm."
+                "AES": "Indicate Advanced Encryption Standard Algorithm.",
+                "DES": "Indicate Data Encryption Standard Algorithm."
             },
             "etag": true,
             "readonly": false,
@@ -89,6 +91,6 @@
         }
     },
     "readonly": false,
-    "title": "#HpeSNMPUser.v2_1_1.HpeSNMPUser",
+    "title": "#HpeSNMPUser.v2_1_0.HpeSNMPUser",
     "type": "object"
 }

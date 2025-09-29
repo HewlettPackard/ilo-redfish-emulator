@@ -49,65 +49,8 @@
             "additionalProperties": false,
             "description": "The Certificate Authority that issued the certificate.",
             "etag": true,
-            "properties": {
-                "City": {
-                    "description": "The city or locality of the organization of the entity.",
-                    "longDescription": "This property shall contain the city or locality of the organization of the entity.",
-                    "readonly": true,
-                    "type": "string"
-                },
-                "CommonName": {
-                    "description": "The fully qualified domain name of the entity.",
-                    "longDescription": "This property shall contain the fully qualified domain name of the entity.",
-                    "readonly": true,
-                    "type": "string"
-                },
-                "Country": {
-                    "description": "The country of the organization of the entity.",
-                    "longDescription": "This property shall contain the two-letter ISO code for the country of the organization of the entity.",
-                    "readonly": true,
-                    "type": "string"
-                },
-                "DisplayString": {
-                    "description": "A human-readable string for this identifier.",
-                    "longDescription": "The value of this property shall contain a display string that represents the entire identifier.  The string should be formatted using industry conventions, such as the single-line human-readable string described by RFC2253 and preserving the field order as shown in the certificate.",
-                    "readonly": true,
-                    "type": [
-                        "string",
-                        "null"
-                    ],
-                    "versionAdded": "v1_6_0"
-                },
-                "Email": {
-                    "description": "The email address of the contact within the organization of the entity.",
-                    "longDescription": "This property shall contain the email address of the contact within the organization of the entity.",
-                    "readonly": true,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "Organization": {
-                    "description": "The name of the organization of the entity.",
-                    "longDescription": "This property shall contain the name of the organization of the entity.",
-                    "readonly": true,
-                    "type": "string"
-                },
-                "OrganizationalUnit": {
-                    "description": "The name of the unit or division of the organization of the entity.",
-                    "longDescription": "This property shall contain the name of the unit or division of the organization of the entity.",
-                    "readonly": true,
-                    "type": "string"
-                },
-                "State": {
-                    "description": "The state, province, or region of the organization of the entity.",
-                    "longDescription": "This property shall contain the state, province, or region of the organization of the entity.",
-                    "readonly": true,
-                    "type": "string"
-                }
-            },
             "readonly": true,
-            "type": "object"
+            "type": "string"
         },
         "Name": {
             "$ref": "Resource.json#/definitions/Name"
@@ -123,64 +66,8 @@
             "additionalProperties": false,
             "description": "The entity to which the certificate was issued.",
             "etag": true,
-            "properties": {
-                "City": {
-                    "description": "The city or locality of the organization of the entity.",
-                    "longDescription": "This property shall contain the city or locality of the organization of the entity.",
-                    "readonly": true,
-                    "type": "string"
-                },
-                "CommonName": {
-                    "description": "The fully qualified domain name of the entity.",
-                    "longDescription": "This property shall contain the fully qualified domain name of the entity.",
-                    "readonly": true,
-                    "type": "string"
-                },
-                "Country": {
-                    "description": "The country of the organization of the entity.",
-                    "longDescription": "This property shall contain the two-letter ISO code for the country of the organization of the entity.",
-                    "readonly": true,
-                    "type": "string"
-                },
-                "DisplayString": {
-                    "description": "A human-readable string for this identifier.",
-                    "longDescription": "The value of this property shall contain a display string that represents the entire identifier.  The string should be formatted using industry conventions, such as the single-line human-readable string described by RFC2253 and preserving the field order as shown in the certificate.",
-                    "readonly": true,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "Email": {
-                    "description": "The email address of the contact within the organization of the entity.",
-                    "longDescription": "This property shall contain the email address of the contact within the organization of the entity.",
-                    "readonly": true,
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "Organization": {
-                    "description": "The name of the organization of the entity.",
-                    "longDescription": "This property shall contain the name of the organization of the entity.",
-                    "readonly": true,
-                    "type": "string"
-                },
-                "OrganizationalUnit": {
-                    "description": "The name of the unit or division of the organization of the entity.",
-                    "longDescription": "This property shall contain the name of the unit or division of the organization of the entity.",
-                    "readonly": true,
-                    "type": "string"
-                },
-                "State": {
-                    "description": "The state, province, or region of the organization of the entity.",
-                    "longDescription": "This property shall contain the state, province, or region of the organization of the entity.",
-                    "readonly": true,
-                    "type": "string"
-                }
-            },
             "readonly": true,
-            "type": "object"
+            "type": "string"
         },
         "ValidNotAfter": {
             "additionalProperties": false,
@@ -216,6 +103,6 @@
         "CertificateType"
     ],
     "readonly": false,
-    "title": "#Certificate.v1_6_0.Certificate",
+    "title": "#Certificate.v1_1_0.Certificate",
     "type": "object"
 }

@@ -1,18 +1,21 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
-    "@odata.etag": "W/\"CF78BB69\"",
+    "@odata.etag": "W/\"5122DC29\"",
     "@odata.id": "/redfish/v1/Chassis/1/Devices/4",
-    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "@odata.type": "#HpeServerDevice.v2_0_0.HpeServerDevice",
     "Id": "4",
     "DeviceInstances": [
         {
-            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/4"
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/5"
         }
     ],
     "DeviceType": "LOM/NIC",
     "FirmwareVersion": {
         "Current": {
-            "VersionString": "1.3755.0"
+            "VersionString": "08.50.78"
         }
     },
     "Links": {
@@ -22,14 +25,14 @@
     },
     "Location": "OCP 3.0 Slot 10",
     "MCTPProtocolDisabled": false,
-    "Manufacturer": "Intel Corporation",
-    "Name": "Intel Eth Adptr I350T4 OCPv3",
-    "PartNumber": "MM#999HCV",
-    "ProductPartNumber": "K53978-004",
-    "ProductVersion": "K53978-004",
-    "SerialNumber": "6805CAF15866",
+    "Manufacturer": "Marvell",
+    "Name": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter",
+    "PartNumber": "AH2010414-31  A",
+    "ProductPartNumber": "AH2010414-31  A",
+    "ProductVersion": " ",
+    "SerialNumber": "REE1939F35261",
     "Status": {
-        "Health": null,
-        "State": null
+        "Health": "Warning",
+        "State": "Enabled"
     }
 }

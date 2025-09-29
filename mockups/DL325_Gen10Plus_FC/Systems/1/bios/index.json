@@ -1,7 +1,7 @@
 {
     "@Redfish.Settings": {
         "@odata.type": "#Settings.v1_0_0.Settings",
-        "ETag": "",
+        "ETag": "E3D06694",
         "Messages": [
             {
                 "MessageId": "Base.1.0.Success"
@@ -10,10 +10,10 @@
         "SettingsObject": {
             "@odata.id": "/redfish/v1/systems/1/bios/settings/"
         },
-        "Time": null
+        "Time": "1970-01-01T00:02:25+00:00"
     },
     "@odata.context": "/redfish/v1/$metadata#Bios.Bios",
-    "@odata.etag": "W/\"D11AF86CEAD65F5F5FC0B39E593DE31E\"",
+    "@odata.etag": "W/\"6DB0E0782CCE090909D9A45F01FCC432\"",
     "@odata.id": "/redfish/v1/systems/1/bios/",
     "@odata.type": "#Bios.v1_0_4.Bios",
     "Actions": {
@@ -24,7 +24,7 @@
             "target": "/redfish/v1/systems/1/bios/settings/Actions/Bios.ResetBios/"
         }
     },
-    "AttributeRegistry": "BiosAttributeRegistryA43.v1_3_72",
+    "AttributeRegistry": "BiosAttributeRegistryA43.v1_2_52",
     "Attributes": {
         "AccessControlService": "Enabled",
         "AcpiHpet": "Enabled",
@@ -54,7 +54,6 @@
         "CollabPowerControl": "Disabled",
         "ConsistentDevNaming": "LomsAndSlots",
         "CustomPostMessage": "",
-        "CustomPstate0": "Auto",
         "DataFabricCStateEnable": "Auto",
         "DaylightSavingsTime": "DaylightSavingsTimeDisabled",
         "DeterminismControl": "DeterminismCtrlAuto",
@@ -83,7 +82,6 @@
         "FCScanPolicy": "CardConfig",
         "FanFailPolicy": "Shutdown",
         "FanInstallReq": "EnableMessaging",
-        "FilterNonbootableDrive": "Auto",
         "HourFormat": "24Hours",
         "HttpSupport": "Auto",
         "InfinityFabricPstate": "Auto",
@@ -135,27 +133,12 @@
         "Nbio7BusBase": 0,
         "Nbio7BusLimit": 0,
         "NetworkBootRetry": "Enabled",
-        "NetworkBootRetryCount": 20,
+        "NetworkBootRetryCount": 1,
         "NoExecutionProtection": "Enabled",
         "NumaGroupSizeOpt": "Flat",
         "NumaMemoryDomainsPerSocket": "Auto",
         "NvmeOptionRom": "Enabled",
-        "NvmePort1": "Nvme",
-        "NvmePort10": "Nvme",
-        "NvmePort11": "Nvme",
-        "NvmePort12": "Nvme",
-        "NvmePort13": "Nvme",
-        "NvmePort14": "Nvme",
-        "NvmePort15": "Nvme",
-        "NvmePort16": "Nvme",
-        "NvmePort2": "Nvme",
         "NvmePort3": "Nvme",
-        "NvmePort4": "Nvme",
-        "NvmePort5": "Nvme",
-        "NvmePort6": "Nvme",
-        "NvmePort7": "Nvme",
-        "NvmePort8": "Nvme",
-        "NvmePort9": "Nvme",
         "NvmeRaid": "Disabled",
         "Ocp1AuxiliaryPower": "Enabled",
         "OmitBootDeviceEvent": "Disabled",
@@ -168,20 +151,12 @@
         "PciSlot10Enable": "Auto",
         "PciSlot10LinkSpeed": "Auto",
         "PciSlot10OptionROM": "Enabled",
-        "PciSlot12Aspm": "Disabled",
-        "PciSlot12Enable": "Auto",
-        "PciSlot12LinkSpeed": "Auto",
-        "PciSlot12OptionROM": "Enabled",
         "PciSlot1Aspm": "Disabled",
         "PciSlot1Bifurcation": "Auto",
         "PciSlot1Enable": "Auto",
         "PciSlot1LinkSpeed": "Auto",
         "PciSlot1OptionROM": "Enabled",
-        "PciSlot2Aspm": "Disabled",
         "PciSlot2Bifurcation": "Auto",
-        "PciSlot2Enable": "Auto",
-        "PciSlot2LinkSpeed": "Auto",
-        "PciSlot2OptionROM": "Enabled",
         "PerformanceDeterminism": "PowerDeterministic",
         "PlatformCertificate": "Enabled",
         "PlatformRASPolicy": "FirmwareFirst",
@@ -208,7 +183,6 @@
         "ProcSMT": "Enabled",
         "ProcX2Apic": "Auto",
         "ProductId": "P18606-B21",
-        "Pstate0Frequency": 0,
         "RedundantPowerSupply": "BalancedMode",
         "RemovableFlashBootSeq": "ExternalKeysFirst",
         "RestoreDefaults": "No",
@@ -223,10 +197,10 @@
         "SerialConsoleBaudRate": "BaudRate115200",
         "SerialConsoleEmulation": "Vt100Plus",
         "SerialConsolePort": "Auto",
-        "SerialNumber": "MXQ2290J5P",
+        "SerialNumber": "MXQ019020B",
         "ServerAssetTag": "",
         "ServerConfigLockStatus": "Disabled",
-        "ServerName": "",
+        "ServerName": "ncn-m003",
         "ServerOtherInfo": "",
         "ServerPrimaryOs": "",
         "ServiceEmail": "",
@@ -237,16 +211,10 @@
         "Slot10MctpBroadcastSupport": "Enabled",
         "Slot10NicBoot1": "NetworkBoot",
         "Slot10NicBoot2": "Disabled",
-        "Slot10NicBoot3": "Disabled",
-        "Slot10NicBoot4": "Disabled",
-        "Slot12StorageBoot": "ThirtyTwoTargets",
         "Slot1MctpBroadcastSupport": "Enabled",
         "Slot1NicBoot1": "NetworkBoot",
         "Slot1NicBoot2": "Disabled",
         "Slot2MctpBroadcastSupport": "Enabled",
-        "Slot2NicBoot1": "NetworkBoot",
-        "Slot2NicBoot2": "Disabled",
-        "Slot2StorageBoot": "ThirtyTwoTargets",
         "SmartRAIDSwRaid": "Disabled",
         "SpeculativeLockScheduling": "Enabled",
         "Sriov": "Enabled",
@@ -324,7 +292,7 @@
                 }
             },
             "SettingsObject": {
-                "UnmodifiedETag": "W/\"E7C389596C576F6F6F9B31F064582920\""
+                "UnmodifiedETag": "W/\"D71327D9CCF83A3A3A358F915EA48FDB\""
             }
         }
     }

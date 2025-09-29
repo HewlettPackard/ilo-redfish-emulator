@@ -40,24 +40,6 @@
             "minimum": 0,
             "readonly": true,
             "type": "integer"
-        },
-        "WarningTempUserThreshold": {
-            "description": "User provided temperature threshold value for the sensor that results in a warning alert.",
-            "etag": true,
-            "readonly": true,
-            "type": "integer"
-        },
-        "CriticalTempUserThreshold": {
-            "description": "User provided temperature threshold value for the sensor that results in a critical alert.",
-            "etag": true,
-            "readonly": true,
-            "type": "integer"
-        },
-        "MainSensorName": {
-            "description": "Sensor name of main temperature sensor that has atleast one sub sensor",
-            "etag": true,
-            "readonly": true,
-            "type": "string"
         }
     },
     "readonly": true,

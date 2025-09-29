@@ -39,11 +39,11 @@
             ]
         },
         "SessionTimeout": {
-            "description": "This is the number of seconds of inactivity that a session may have before the session service closes the session due to inactivity. Here the value 0 means no timeout or infinte timeout.",
+            "description": "This is the number of seconds of inactivity that a session may have before the session service closes the session due to inactivity.",
             "displayname": "SessionTimeout",
             "etag": true,
-            "maximum": 120,
-            "minimum": 0,
+            "maximum": 86400,
+            "minimum": 30,
             "readonly": false,
             "type": "integer"
         },

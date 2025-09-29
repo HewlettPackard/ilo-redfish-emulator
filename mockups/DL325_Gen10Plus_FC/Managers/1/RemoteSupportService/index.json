@@ -1,6 +1,6 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeRemoteSupport.HpeRemoteSupport",
-    "@odata.etag": "W/\"9FB85DD0\"",
+    "@odata.etag": "W/\"BF0214E1\"",
     "@odata.id": "/redfish/v1/Managers/1/RemoteSupportService",
     "@odata.type": "#HpeRemoteSupport.v2_6_0.HpeRemoteSupport",
     "Id": "RemoteSupportService",
@@ -8,11 +8,15 @@
         "#HpeRemoteSupport.ClearServiceEventLog": {
             "target": "/redfish/v1/Managers/1/RemoteSupportService/Actions/HpeRemoteSupport.ClearServiceEventLog"
         },
+        "#HpeRemoteSupport.CompleteDirectConnectRegistration": {
+            "target": "/redfish/v1/Managers/1/RemoteSupportService/Actions/HpeRemoteSupport.CompleteDirectConnectRegistration"
+        },
         "#HpeRemoteSupport.DisableRemoteSupport": {
             "target": "/redfish/v1/Managers/1/RemoteSupportService/Actions/HpeRemoteSupport.DisableRemoteSupport"
         },
         "#HpeRemoteSupport.RegisterDeviceToRemoteSupport": {
             "ConnectionType@Redfish.AllowableValues": [
+                "DirectConnect",
                 "CentralConnect"
             ],
             "target": "/redfish/v1/Managers/1/RemoteSupportService/Actions/HpeRemoteSupport.RegisterDeviceToRemoteSupport"
@@ -38,6 +42,7 @@
     "LastTransmissionError": "No error",
     "LastTransmissionType": "NoTransmission",
     "MaintenanceModeEnabled": false,
+    "ProxySettings": {},
     "RemoteSupportEnabled": false,
     "ServiceEventLogs": {
         "@odata.id": "/redfish/v1/Managers/1/RemoteSupportService/ServiceEventLogs"

@@ -9,7 +9,7 @@
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
-            "@odata.type": "#HpeiLOSoftwareInventory.v2_1_0.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory",
             "DeviceClass": "9e48a28a-586c-4519-8405-a04f84e27f0f",
             "DeviceContext": "System Board",
             "Targets": [
@@ -18,6 +18,5 @@
             ]
         }
     },
-    "Updateable": true,
-    "Version": "1.1.4"
+    "Version": "1.0.7"
 }

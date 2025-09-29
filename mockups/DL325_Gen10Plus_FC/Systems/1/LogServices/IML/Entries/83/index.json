@@ -1,32 +1,28 @@
 {
     "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
-    "@odata.etag": "W/\"2162C694\"",
+    "@odata.etag": "W/\"BDA1A6E4\"",
     "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/83",
-    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
     "Id": "83",
-    "Created": "2001-01-05T07:35:58Z",
+    "Created": "2021-06-17T22:12:11Z",
     "EntryType": "Oem",
-    "Message": "Ethernet 10/25Gb 2-port SFP28 MCX512F-ACHT Adapter Connectivity status changed to OK for adapter in slot 1, port 1",
-    "MessageArgs": [],
-    "MessageId": "17.10",
+    "Message": "At least one of the links is up in adapter Marvell FastLinQ 41000 Series - 2P 25GbE SFP28 QL41232HLCU-HC MD2 Adapter - NIC in slot 1",
     "Name": "Integrated Management Log",
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
-            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
             "Categories": [
                 "Hardware"
             ],
             "Class": 17,
             "ClassDescription": "Network",
-            "Code": 10,
+            "Code": 14,
             "Count": 1,
-            "EventNumber": 120,
-            "LearnMoreLink": "http://www.hpe.com/support/class0x0011code0x000a-gen10",
-            "RecommendedAction": "If the connection is lost, then check the physical connection from the server to its destination device such as interconnect ,blade, switch etc, including any cables. Refer to the NIC issues flowchart in the Troubleshooting Guide for more information.",
+            "EventNumber": 292,
             "Repaired": true,
             "Severity": "Repaired",
-            "Updated": "2001-01-05T07:35:58Z"
+            "Updated": "2021-06-17T22:17:31Z"
         }
     },
     "OemRecordFormat": "Hpe-IML",

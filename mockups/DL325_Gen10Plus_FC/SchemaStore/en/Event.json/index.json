@@ -19,17 +19,17 @@
         "@odata.type": {
             "$ref": "Resource.json#/definitions/odatatype"
         },
-        "Context": {
-            "description": "A context can be supplied at subscription time.  This property is the context value supplied by the subscriber.",
-            "displayname": "Context",
-            "readonly": true,
-            "type": "string"
-        },
         "Events": {
             "items": {
                 "description": "Each event in this array has a set of properties that describe the event.  Since this is an array, more than one event can be sent simultaneously.",
                 "displayname": "Events Item",
                 "properties": {
+                    "Context": {
+                        "description": "A context can be supplied at subscription time.  This property is the context value supplied by the subscriber.",
+                        "displayname": "Context",
+                        "readonly": true,
+                        "type": "string"
+                    },
                     "EventId": {
                         "description": "This is a unique instance identifier of an event.",
                         "displayname": "EventID",
@@ -137,6 +137,6 @@
         }
     },
     "readonly": true,
-    "title": "#Event.v1_2_9.Event",
+    "title": "#Event.v1_0_0.Event",
     "type": "object"
 }

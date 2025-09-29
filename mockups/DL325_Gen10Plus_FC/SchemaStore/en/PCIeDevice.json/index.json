@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "@odata.id": "PCIeDevice",
     "additionalProperties": false,
-    "copyright": "Copyright 2014-2022 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
+    "copyright": "Copyright 2014-2020 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
     "description": "This is the schema definition for the PCIeDevice resource.  It represents the properties of a PCIe Device attached to a System.",
     "properties": {
         "@odata.context": {
@@ -16,15 +16,6 @@
         },
         "@odata.type": {
             "$ref": "Resource.json#/definitions/odatatype"
-        },
-        "AssetTag": {
-            "description": "The user-assigned asset tag for this PCIe device.",
-            "longDescription": "This property shall contain an identifying string that tracks the PCIe device for inventory purposes.",
-            "readonly": false,
-            "type": [
-                "string",
-                "null"
-            ]
         },
         "Description": {
             "$ref": "Resource.json#/definitions/Description"
@@ -59,7 +50,7 @@
             "readonly": true
         },
         "Links": {
-            "$ref": "Resource.json#/definitions/Oem",
+            "$ref": "#/definitions/Links",
             "description": "The links to other Resources that are related to this Resource.",
             "longDescription": "This property shall contain links to Resources that are related to but are not contained by, or subordinate to, this Resource."
         },
@@ -84,17 +75,6 @@
         "Name": {
             "$ref": "Resource.json#/definitions/Name",
             "readonly": true
-        },
-        "Oem": {
-            "additionalProperties": true,
-            "properties": {
-                "Hpe": {
-                    "$ref": "HpePCIeDevice.json#",
-                    "readonly": false
-                }
-            },
-            "readonly": false,
-            "type": "object"
         },
         "PCIeFunctions": {
             "description": "The link to the collection of PCIe functions associated with this PCIe device.",
@@ -185,6 +165,6 @@
         "Name"
     ],
     "readonly": true,
-    "title": "#PCIeDevice.v1_5_0.PCIeDevice",
+    "title": "#PCIeDevice.v1_4_0.PCIeDevice",
     "type": "object"
 }

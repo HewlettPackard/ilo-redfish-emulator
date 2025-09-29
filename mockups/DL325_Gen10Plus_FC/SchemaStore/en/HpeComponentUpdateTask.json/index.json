@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "@odata.id": "HpeComponentUpdateTask",
     "additionalProperties": false,
-    "copyright": "Copyright 2014-2023 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2021 Distributed Management Task Force. All rights reserved.",
+    "copyright": "Copyright 2014-2019 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
     "description": "The HpeComponentUpdateTask resource describes an Update Task, an element in the update task queue.  This represents an install instruction.",
     "properties": {
         "@odata.context": {
@@ -23,15 +23,13 @@
                 "ApplyUpdate",
                 "ResetServer",
                 "ResetBmc",
-                "Wait",
-                "PendingReset"
+                "Wait"
             ],
             "enumDescriptions": {
                 "ApplyUpdate": "Apply an update using the specified component.",
                 "ResetBmc": "Reset the BMC.",
                 "ResetServer": "Reset the server.",
-                "Wait": "Wait for the WaitTimeSeconds number of seconds.",
-                "PendingReset": "Reset is pending after bundle update."
+                "Wait": "Wait for the WaitTimeSeconds number of seconds."
             },
             "readonly": false,
             "type": "string"
@@ -190,17 +188,8 @@
             "minimum": 0,
             "readonly": false,
             "type": "integer"
-        },
-        "Targets": {
-            "description": "This property shall contain firmware inventory targets on which firmware updates to be applied.",
-            "format": "uri-reference",
-            "items": {
-                "type": "string"
-            },
-            "readonly": false,
-            "type": "array"
         }
     },
-    "title": "#HpeComponentUpdateTask.v1_4_0.HpeComponentUpdateTask",
+    "title": "#HpeComponentUpdateTask.v1_2_0.HpeComponentUpdateTask",
     "type": "object"
 }

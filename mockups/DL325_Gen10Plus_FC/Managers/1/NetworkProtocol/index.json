@@ -1,10 +1,10 @@
 {
     "@odata.context": "/redfish/v1/$metadata#ManagerNetworkProtocol.ManagerNetworkProtocol",
-    "@odata.etag": "W/\"BA188513\"",
+    "@odata.etag": "W/\"728E1457\"",
     "@odata.id": "/redfish/v1/Managers/1/NetworkProtocol",
     "@odata.type": "#ManagerNetworkProtocol.v1_0_0.ManagerNetworkProtocol",
     "Id": "NetworkProtocol",
-    "FQDN": "",
+    "FQDN": "ILOMXQ019020B.hmn",
     "HTTP": {
         "Port": 80,
         "ProtocolEnabled": true
@@ -13,10 +13,10 @@
         "Port": 443,
         "ProtocolEnabled": true
     },
-    "HostName": "ILOMXQ2290J5P",
+    "HostName": "ILOMXQ019020B",
     "IPMI": {
         "Port": 623,
-        "ProtocolEnabled": false
+        "ProtocolEnabled": true
     },
     "KVMIP": {
         "Port": 17990,
@@ -26,7 +26,7 @@
     "Oem": {
         "Hpe": {
             "@odata.context": "/redfish/v1/$metadata#HpeiLOManagerNetworkService.HpeiLOManagerNetworkService",
-            "@odata.type": "#HpeiLOManagerNetworkService.v2_3_0.HpeiLOManagerNetworkService",
+            "@odata.type": "#HpeiLOManagerNetworkService.v2_2_0.HpeiLOManagerNetworkService",
             "Actions": {
                 "#HpeiLOManagerNetworkService.SendTestAlertMail": {
                     "target": "/redfish/v1/Managers/1/NetworkProtocol/Actions/Oem/Hpe/HpeiLOManagerNetworkService.SendTestAlertMail"
@@ -45,7 +45,6 @@
             "AlertMailSMTPServer": "",
             "AlertMailSenderDomain": "",
             "ConfigurationSettings": "Current",
-            "EnhancedDownloadPerformanceEnabled": false,
             "FederationEnabled": true,
             "FederationSupported": true,
             "Links": {
@@ -59,16 +58,9 @@
             "RemoteSyslogEnabled": false,
             "RemoteSyslogPort": 514,
             "RemoteSyslogServer": "",
-            "SMTPForTFAEnabled": false,
             "SNMPTrapPort": 162,
             "SerialOverLanLogging": false,
             "VirtualMediaEncryptionEnabled": true,
-            "WebProxyConfiguration": {
-                "ProxyPassword": null,
-                "ProxyPort": null,
-                "ProxyServer": "",
-                "ProxyUserName": ""
-            },
             "XMLResponseEnabled": true
         }
     },
