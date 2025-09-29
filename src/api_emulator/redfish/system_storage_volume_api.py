@@ -157,7 +157,6 @@ def InitVolumes(resource_dict, storage_id, volumes):
         members[storage_id] = volumes
 
         for i in range(len(members[storage_id]['Members'])):
-           #vol_id = members[storage_id]['Members'][i]['@odata.id'].replace('/redfish/v1/Systems/1/Storage/%s/Volumes/' % storage_id, '')
            vol_id = members[storage_id]['Members'][i]['@odata.id'].split('/')[-1]
            vol = resource_dict.get_resource('Systems/1/Storage/%s/Volumes/%s' % (storage_id, vol_id))
            vol_res[storage_id] = { vol_id: vol}
@@ -215,7 +214,6 @@ class StorageVolumeAPI(Resource):
                 for drive in vol_res[storage_id][volume_id]['Links']['Drives']:
                     if 'chassis' not in drive.get('@odata.id', '').lower():
                         continue
-                    #drive_id = drive['@odata.id'].replace('/redfish/v1/Chassis/{}/Drives/'.format(storage_id), '')
                     drive_id = drive['@odata.id'].split('/')[-1]
                     # restore the actions
                     ident = storage_id + "_" + drive_id
