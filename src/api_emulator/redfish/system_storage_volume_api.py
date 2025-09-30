@@ -18,6 +18,7 @@ from flask import Flask, request, make_response, render_template
 from flask_restful import reqparse, Api, Resource
 from .redfish_auth import auth, Privilege
 from .chassis_api import getChassisMemberDrives
+from .system_storage_instance_api import getSystemStorageMemberDrives
 from .computer_system_api import isPowerOn
 from .response import success_response, simple_error_response, error_404_response, error_not_allowed_response
 
@@ -109,15 +110,21 @@ class StorageVolumeCollectionAPI(Resource):
                 members[storage_id]['Members'] = [{'@odata.id': '/redfish/v1/Systems/1/Storage/{}/Volumes/1'.format(storage_id)}]
 
                 # remove Actions from /redfish/v1/Systems/1/Chassis/<chassis_id>/Drives/<drive_id>
+                # or /redfish/v1/Systems/1/Storage/<storage_id>/Drives/<drive_id>
                 # this is needed so this drive is not allowed to run secure erase.
                 chassisMemberDrives = getChassisMemberDrives()
+                systemStorageMemberDrives = getSystemStorageMemberDrives()
                 for drive in drives:
-                    if 'chassis' not in drive.get('@odata.id', '').lower():
-                        continue
-                    drive_id = drive['@odata.id'].replace('/redfish/v1/Chassis/{}/Drives/'.format(storage_id), '')
-                    # remove the actions from the drive
-                    ident = storage_id + "_" + drive_id
-                    chassisMemberDrives[ident]['Actions'] = {}
+                    drive_id = drive['@odata.id'].split('/')[-1]
+                    odata_drive = drive.get('@odata.id', '').lower()
+                    if 'chassis' in odata_drive:
+                        ident = storage_id + "_" + drive_id
+                        if ident in chassisMemberDrives:
+                            chassisMemberDrives[ident]['Actions'] = {}
+                    elif 'systems' in odata_drive:
+                        ident = system_id + "_" + storage_id + "_" + drive_id
+                        if ident in systemStorageMemberDrives:
+                            systemStorageMemberDrives[ident]['Actions'] = {}
 
             return members[storage_id], 200
 
@@ -144,13 +151,13 @@ class StorageVolumeCollectionAPI(Resource):
 #
 # TODO: Add support for system_id
 def InitVolumes(resource_dict, storage_id, volumes):
-    logging.info('CreateVolumes called for storage_id %s' % storage_id)
+    logging.info('InitVolumes called for storage_id %s' % storage_id)
     try:
         # Create a new Volumes resource
         members[storage_id] = volumes
 
         for i in range(len(members[storage_id]['Members'])):
-           vol_id = members[storage_id]['Members'][i]['@odata.id'].replace('/redfish/v1/Systems/1/Storage/%s/Volumes/' % storage_id, '')
+           vol_id = members[storage_id]['Members'][i]['@odata.id'].split('/')[-1]
            vol = resource_dict.get_resource('Systems/1/Storage/%s/Volumes/%s' % (storage_id, vol_id))
            vol_res[storage_id] = { vol_id: vol}
 
@@ -207,13 +214,12 @@ class StorageVolumeAPI(Resource):
                 for drive in vol_res[storage_id][volume_id]['Links']['Drives']:
                     if 'chassis' not in drive.get('@odata.id', '').lower():
                         continue
-                    drive_id = drive['@odata.id'].replace('/redfish/v1/Chassis/{}/Drives/'.format(storage_id), '')
+                    drive_id = drive['@odata.id'].split('/')[-1]
                     # restore the actions
                     ident = storage_id + "_" + drive_id
                     chassisMemberDrives[ident]['Actions'] = {
                         "#Drive.SecureErase": {
-                            "target": "/redfish/v1/Chassis/{}/Drives/{}/Actions/Drive.SecureErase".format(storage_id,
-                                                                                                          drive_id)
+                            "target": "/redfish/v1/Chassis/{}/Drives/{}/Actions/Drive.SecureErase".format(storage_id, drive_id)
                         }
                     }
 
