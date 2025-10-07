@@ -70,7 +70,7 @@ import api_emulator.redfish.templates.intel_events as intel_events
 # Called to build the static resources to emulate a custom redfish device.
 #
 # - The custom static files live in api_emulator/redfish/static/<MyBMC>
-# - Dynamic recource files live in api_emulator/redfish/<dynamic_resource>_api.py
+# - Dynamic resource files live in api_emulator/redfish/<dynamic_resource>_api.py
 # - Templates for event schemas live in api_emulator/redfish/templates/<schema>_events.py
 #
 # Dynamic resources:
@@ -586,6 +586,16 @@ class Loader:
             break
         return templates
 
+    def generate_wwn(self):
+        rndMAC = [random.randint(0x00, 0xFF) for _ in range(8)]
+        return ':'.join(map(lambda x: "%02X" % x, rndMAC))
+
+    def increment_wwn(self, wwn):
+        value = int(wwn.replace(':', ''), 16)
+        value += 1
+        hex_str = f"{value:016X}"
+        return ':'.join(hex_str[i:i+2] for i in range(0, 16, 2))
+
     def randomize(self):
         # By seeding the random number generated based off the BMC's xname (if set) will allow the
         # RIE instance to return build up the same data if the BMC is restarted.
@@ -593,6 +603,8 @@ class Loader:
 
         # List of all of the paths with serial numbers we want to randomize
         foundSNs = {}
+        network_port_wwn = {}
+        network_port_wwpn = {}
         base = self.resource_dictionary.get_resource('')
         if 'Chassis' in base:
             chassisCollection = self.resource_dictionary.get_resource('Chassis')
@@ -625,7 +637,8 @@ class Loader:
                     if 'Members' in collection_page:
                         for memberUrl in collection_page['Members']:
                             url = memberUrl['@odata.id'].replace('/redfish/v1/', '')
-                            page = self.resource_dictionary.get_resource(url)
+                            adapter_id = url.split('/')[-1]
+                            page = self.resource_dictionary.get_resource(f"Chassis/1/NetworkAdapters/{adapter_id}")
                             if 'SerialNumber' in page:
                                 sn = page['SerialNumber']
                                 if sn in foundSNs:
@@ -634,6 +647,72 @@ class Loader:
                                     rndSN = strgen.StringGenerator('[A-Z]{3}[0-9]{10}', randomizer=fru_random).render()
                                     foundSNs[sn] = rndSN
                                     page['SerialNumber'] = rndSN
+                            if 'Model' in page and 'FC' in page['Model']: # only randomize WW(P)N for Fibre Channel adapters
+                                logging.info("Detected Fibre Channel network adapter %s" % adapter_id)
+                                if 'NetworkPorts' in page:
+                                    url = page['NetworkPorts']['@odata.id'].replace('/redfish/v1/', '')
+                                    na_page = self.resource_dictionary.get_resource(url)
+                                    if 'Members' in na_page:
+                                        for memberUrl in na_page['Members']:
+                                            newWWN = self.generate_wwn()
+                                            url = memberUrl['@odata.id'].replace('/redfish/v1/', '')
+                                            port_id = url.split('/')[-1]
+                                            port = self.resource_dictionary.get_resource(url)
+                                            settings = self.resource_dictionary.get_resource(url + '/Settings')
+                                            network_port_wwn[port_id] = newWWN
+                                            logging.info("Setting dynamic WWN for adapter %s and network port %s to %s" % (adapter_id, port_id, network_port_wwn[port_id]))
+                                            if "AssociatedNetworkAddresses" in port and len(port["AssociatedNetworkAddresses"]) > 0:
+                                                port["AssociatedNetworkAddresses"][0] = network_port_wwn[port_id]
+                                            if "AssociatedNetworkAddresses" in settings and len(settings["AssociatedNetworkAddresses"]) > 0:
+                                                settings["AssociatedNetworkAddresses"][0] = network_port_wwn[port_id]
+                                if 'Ports' in page:
+                                    url = page['Ports']['@odata.id'].replace('/redfish/v1/', '')
+                                    p_page = self.resource_dictionary.get_resource(url)
+                                    if 'Members' in p_page:
+                                        for memberUrl in p_page['Members']:
+                                            url = memberUrl['@odata.id'].replace('/redfish/v1/', '')
+                                            port_id = url.split('/')[-1]
+                                            port = self.resource_dictionary.get_resource(url)
+                                            settings = self.resource_dictionary.get_resource(url + '/Settings')
+                                            logging.info("Setting dynamic WWN for adapter %s and port %s to %s" % (adapter_id, port_id, network_port_wwn[port_id]))
+                                            if "AssociatedMACAddresses" in port["Ethernet"] and len(port["Ethernet"]["AssociatedMACAddresses"]) > 0:
+                                                port["Ethernet"]["AssociatedMACAddresses"][0] = network_port_wwn[port_id]
+                                            if "AssociatedMACAddresses" in settings["Ethernet"] and len(settings["Ethernet"]["AssociatedMACAddresses"]) > 0:
+                                                settings["Ethernet"]["AssociatedMACAddresses"][0] = network_port_wwn[port_id]
+                                if 'NetworkDeviceFunctions' in page:
+                                    url = page['NetworkDeviceFunctions']['@odata.id'].replace('/redfish/v1/', '')
+                                    ndf_page = self.resource_dictionary.get_resource(url)
+                                    if 'Members' in ndf_page:
+                                        for memberUrl in ndf_page['Members']:
+                                            url = memberUrl['@odata.id'].replace('/redfish/v1/', '')
+                                            port_id = url.split('/')[-1]
+                                            ndf = self.resource_dictionary.get_resource(url)
+                                            ndf_settings = self.resource_dictionary.get_resource(url + '/Settings')
+                                            logging.info("Setting dynamic WWN for adapter %s and network device function %s to %s" % (adapter_id, port_id, network_port_wwn[port_id]))
+                                            if "FibreChannel" in ndf and "PermanentWWNN" in ndf["FibreChannel"]:
+                                                ndf["FibreChannel"]["PermanentWWNN"] = network_port_wwn[port_id]
+                                            if "FibreChannel" in ndf and "WWNN" in ndf["FibreChannel"]:
+                                                ndf["FibreChannel"]["WWNN"] = network_port_wwn[port_id]
+                                            if "FibreChannel" in ndf and "PermanentWWPN" in ndf["FibreChannel"]:
+                                                newWWPN = self.increment_wwn(network_port_wwn[port_id])
+                                                network_port_wwpn[port_id] = newWWPN
+                                                logging.info("Setting dynamic permanent WWPN for adapter %s and network device function %s to %s" % (adapter_id, port_id, network_port_wwpn[port_id] ))
+                                                ndf["FibreChannel"]["PermanentWWPN"] = network_port_wwpn[port_id]
+                                            if "FibreChannel" in ndf and "WWPN" in ndf["FibreChannel"]:
+                                                logging.info("Setting dynamic WWPN for adapter %s and network device function %s to %s" % (adapter_id, port_id, network_port_wwpn[port_id] ))
+                                                ndf["FibreChannel"]["WWPN"] = network_port_wwpn[port_id]
+                                            if "FibreChannel" in ndf_settings and "PermanentWWNN" in ndf_settings["FibreChannel"]:
+                                                ndf_settings["FibreChannel"]["PermanentWWNN"] = network_port_wwn[port_id]
+                                            if "FibreChannel" in ndf_settings and "WWNN" in ndf_settings["FibreChannel"]:
+                                                ndf_settings["FibreChannel"]["WWNN"] = network_port_wwn[port_id]
+                                            if "FibreChannel" in ndf_settings and "PermanentWWPN" in ndf_settings["FibreChannel"]:
+                                                logging.info("Setting dynamic permanent WWPN for adapter %s and network device function settings %s to %s" % (adapter_id, port_id, network_port_wwpn[port_id] ))
+                                                ndf_settings["FibreChannel"]["PermanentWWPN"] = network_port_wwpn[port_id]
+                                            if "FibreChannel" in ndf_settings and "WWPN" in ndf_settings["FibreChannel"]:
+                                                logging.info("Setting dynamic WWPN for adapter %s and network device function settings %s to %s" % (adapter_id, port_id, network_port_wwpn[port_id] ))
+                                                ndf_settings["FibreChannel"]["WWPN"] = network_port_wwpn[port_id]
+
+
                 if 'Power' in chassis:
                     url = chassis['Power']['@odata.id'].replace('/redfish/v1/', '')
                     power = self.resource_dictionary.get_resource(url)
