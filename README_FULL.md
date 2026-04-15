@@ -77,6 +77,21 @@ EXTERNAL_PORT=<your port range> docker compose up --scale emu=<number of instanc
 EXTERNAL_PORT=5000-5100 docker compose up --scale emu=2 -d 
 ```
 
+### Run isolated groups of the emulator:
+To run isolated groups of the emulator container you can use docker compose projects. The different groups need
+different EXTERNAL_PORTs. This works well for simulating multiple hosts of different or mixed types (DL360 and DL380a).
+
+- Example: run 2 groups of the emulator:
+```
+EXTERNAL_PORT=5001 MOCKUP_FOLDER=DL380a docker compose -p dl380 up -d
+EXTERNAL_PORT=5002 MOCKUP_FOLDER=DL360 docker compose -p dl360 up -d
+```
+- Example: stop 2 groups of the emulator
+```
+docker compose -p dl380 down
+docker compose -p dl360 down
+```
+
 ### To see the running containers with their assigned ports:
 ```
 docker container ls
