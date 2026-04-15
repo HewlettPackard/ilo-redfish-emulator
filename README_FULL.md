@@ -83,8 +83,8 @@ multiple hosts of different or mixed types (DL360 and DL380a).
 
 - Example: run two groups of the emulator:
 ```
-MOCKUP_FOLDER=DL380a docker compose -p dl380 up -d
-MOCKUP_FOLDER=DL360 docker compose -p dl360 up -d
+EXTERNAL_PORT=<your port range> MOCKUP_FOLDER=DL380a docker compose -p dl380 up -d
+EXTERNAL_PORT=<your port range> MOCKUP_FOLDER=DL360 docker compose -p dl360 up -d
 ```
 To stop the groups:
 ```
