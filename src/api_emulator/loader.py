@@ -38,6 +38,7 @@ import random
 
 # Resource and SubResource imports
 from .redfish.computer_system_api import ComputerSystemAPI, CreateComputerSystem, ResetAction_API
+from .redfish.bios_settings_api import BiosSettingsAPI, CreateBiosSettings
 from .redfish.chassis_api import (ChassisAPI, InitChassis, ChassisResetActionAPI, InitChassisDrive,
                                   DriveSecureEraseActionAPI, ChassisDriveAPI)
 from .redfish.manager_api import ManagerAPI, CreateManager, ManagerResetActionAPI
@@ -53,6 +54,7 @@ from .redfish.manager_vmedia_api import (VirtualMediaAPI, VirtualMediaEjectAPI, 
 from .redfish.system_storage_api import (SystemStorageAPI, InitStorage)
 from .redfish.system_storage_instance_api import (SystemStorageInstanceAPI, InitSystemStorageInstance, SystemStorageResetToDefaultsAction, StorageDriveSecureEraseActionAPI, SystemStorageDriveAPI)
 from .redfish.system_storage_volume_api import (StorageVolumeCollectionAPI, InitVolumes, StorageVolumeAPI)
+from .redfish.network_device_function_api import NetworkDeviceFunctionAPI, InitNetworkDeviceFunction
 
 import api_emulator.redfish.power_control_api as generic_power
 import api_emulator.redfish.hpe_cray_ex_power_control_api as hpe_cray_ex_power
@@ -154,6 +156,7 @@ class Loader:
         # Add dynamic resources here. This will override any previously loaded static URL
         self.init_power_limit()
         self.init_system()
+        self.init_bios_settings()
         self.init_chassis()
         self.init_manager_reset()
         self.init_update_service()
@@ -165,6 +168,7 @@ class Loader:
         self.init_manager_virtual_media()
         self.init_system_storage()
         self.init_chassis_drive()
+        self.init_network_device_functions()
 
     def init_power_limit(self):
         try:
@@ -248,6 +252,25 @@ class Loader:
             g.api.add_resource(ComputerSystemAPI, '/redfish/v1/Systems/<string:ident>')
         if found_reset:
             g.api.add_resource(ResetAction_API, '/redfish/v1/Systems/<string:ident>/Actions/ComputerSystem.Reset')
+
+    def init_bios_settings(self):
+        try:
+            systems = self.resource_dictionary.get_resource('Systems')
+            if len(systems['Members']) == 0:
+                return
+        except:
+            return
+        found = False
+        for system in systems['Members']:
+            sys_id = system['@odata.id'].replace('/redfish/v1/Systems/', '')
+            try:
+                config = self.resource_dictionary.get_resource('Systems/%s/bios/settings' % sys_id)
+                CreateBiosSettings(sys_id, config)
+                found = True
+            except:
+                logging.info('No bios/settings found for Systems/%s' % sys_id)
+        if found:
+            g.api.add_resource(BiosSettingsAPI, '/redfish/v1/Systems/<string:sys_id>/bios/settings')
 
     def init_chassis(self):
         try:
@@ -541,6 +564,46 @@ class Loader:
         if found:
             g.api.add_resource(ChassisDriveAPI, '/redfish/v1/Chassis/<string:chassis_id>/Drives/<string:drive_id>')
             g.api.add_resource(DriveSecureEraseActionAPI, '/redfish/v1/Chassis/<string:chassis_id>/Drives/<string:drive_id>/Actions/Drive.SecureErase')
+
+    def init_network_device_functions(self):
+        try:
+            collection = self.resource_dictionary.get_resource('Chassis')
+            if len(collection['Members']) == 0:
+                return
+        except:
+            return
+
+        found = False
+        try:
+            for member in collection['Members']:
+                chassis_id = member['@odata.id'].replace('/redfish/v1/Chassis/', '')
+                try:
+                    adapters = self.resource_dictionary.get_resource('Chassis/%s/NetworkAdapters' % chassis_id)
+                except:
+                    continue
+                for adapter_member in adapters.get('Members', []):
+                    adapter_id = adapter_member['@odata.id'].replace('/redfish/v1/Chassis/%s/NetworkAdapters/' % chassis_id, '')
+                    try:
+                        functions = self.resource_dictionary.get_resource(
+                            'Chassis/%s/NetworkAdapters/%s/NetworkDeviceFunctions' % (chassis_id, adapter_id))
+                    except:
+                        continue
+                    for func_member in functions.get('Members', []):
+                        func_id = func_member['@odata.id'].split('/')[-1]
+                        try:
+                            func_config = self.resource_dictionary.get_resource(
+                                'Chassis/%s/NetworkAdapters/%s/NetworkDeviceFunctions/%s' % (chassis_id, adapter_id, func_id))
+                            InitNetworkDeviceFunction(chassis_id, adapter_id, func_id, func_config)
+                            found = True
+                        except Exception as e:
+                            logging.warning('Could not load NetworkDeviceFunction %s/%s/%s: %s' % (chassis_id, adapter_id, func_id, e))
+        except Exception as e:
+            logging.error('Exception loading NetworkDeviceFunctions: %s' % e)
+            return
+
+        if found:
+            g.api.add_resource(NetworkDeviceFunctionAPI,
+                '/redfish/v1/Chassis/<string:chassis_id>/NetworkAdapters/<string:adapter_id>/NetworkDeviceFunctions/<string:func_id>')
 
     # Get the BMC type
     def get_type(self):
