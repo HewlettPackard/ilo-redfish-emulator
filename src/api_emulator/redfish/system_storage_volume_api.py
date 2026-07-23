@@ -25,6 +25,59 @@ from .response import success_response, simple_error_response, error_404_respons
 members = {} # [storage_id] -> volumes
 vol_res = {} # [storage_id][volume_id] -> volume resource
 
+# RAID levels that mirror data (usable capacity = size of one member drive)
+MIRRORED_RAID_TYPES = {'RAID1', 'RAID1E', 'RAID10', 'RAID6', 'RAID60'}
+
+def getDriveCapacityBytes(drive, storage_id, system_id):
+    """
+    Resolve the CapacityBytes for a Drive referenced via its @odata.id link,
+    looking it up in either the Chassis or Systems/Storage drive collections.
+    """
+    odata_drive = drive.get('@odata.id', '').lower()
+    drive_id = drive['@odata.id'].split('/')[-1]
+    chassisMemberDrives = getChassisMemberDrives()
+    systemStorageMemberDrives = getSystemStorageMemberDrives()
+    drive_resource = None
+    if 'chassis' in odata_drive:
+        ident = storage_id + "_" + drive_id
+        drive_resource = chassisMemberDrives.get(ident)
+    elif 'systems' in odata_drive:
+        ident = system_id + "_" + storage_id + "_" + drive_id
+        drive_resource = systemStorageMemberDrives.get(ident)
+    if drive_resource:
+        return drive_resource.get('CapacityBytes', 0)
+    return 0
+
+def computeVolumeCapacityBytes(raid_type, drives, storage_id, system_id):
+    """
+    Compute the usable CapacityBytes for a new Volume based on its RAIDType
+    and the CapacityBytes of the member Drives, using the smallest drive's
+    size as the per-member capacity (as real RAID controllers do).
+    """
+    capacities = [getDriveCapacityBytes(drive, storage_id, system_id) for drive in drives]
+    capacities = [c for c in capacities if c > 0]
+    if not capacities:
+        return 0
+    min_capacity = min(capacities)
+    num_drives = len(capacities)
+
+    if raid_type in ('RAID0',):
+        return min_capacity * num_drives
+    elif raid_type in ('RAID1', 'RAID1E'):
+        return min_capacity * (num_drives // 2 if num_drives > 1 else 1)
+    elif raid_type == 'RAID5':
+        return min_capacity * (num_drives - 1) if num_drives > 1 else min_capacity
+    elif raid_type in ('RAID6',):
+        return min_capacity * (num_drives - 2) if num_drives > 2 else min_capacity
+    elif raid_type in ('RAID10',):
+        return min_capacity * (num_drives // 2)
+    elif raid_type in ('RAID50',):
+        return min_capacity * (num_drives - 2) if num_drives > 2 else min_capacity
+    elif raid_type in ('RAID60',):
+        return min_capacity * (num_drives - 4) if num_drives > 4 else min_capacity
+    else:
+        return min_capacity * num_drives
+
 # Called internally to create an instance of the Volume resource.
 # This resource is affected by VolumeActionsAPI()
 class StorageVolumeCollectionAPI(Resource):
@@ -71,6 +124,7 @@ class StorageVolumeCollectionAPI(Resource):
                 displayName = raw_dict['DisplayName']
                 raid_type = raw_dict['RAIDType']
                 drives = raw_dict['Links']['Drives']
+                capacity_bytes = computeVolumeCapacityBytes(raid_type, drives, storage_id, system_id)
                 vol1 = {
                     '@odata.id': '/redfish/v1/Systems/1/Storage/{}/Volumes/1'.format(storage_id),
                     '@odata.type': "#Volume.v1_9_0.Volume",
@@ -87,7 +141,7 @@ class StorageVolumeCollectionAPI(Resource):
                         }
                     ],
                     'Encrypted': False,
-                    'CapacityBytes': 480070426624,
+                    'CapacityBytes': capacity_bytes,
                     'BlockSizeBytes': 512,
                     'OptimumIOSizeBytes': 262144,
                     'StripSizeBytes': 262144,
