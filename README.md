@@ -1,9 +1,6 @@
 # HPE iLO Redfish Interface Emulator
 
-The HPE iLO Redfish Interface Emulator emulates various HPE iLO BMCs for testing and development.  
-The emulator mimics HPE iLO BMC behavior, allowing application development and testing without access to physical hardware.
-This is particularly useful for developers working with the Morpheus HPE Bare Metal plugin, as it enables development and
-testing of the plugin without needing actual HPE servers.
+A lightweight emulator for HPE iLO BMCs designed for testing and development purposes.
 
 ## Topics:
 
@@ -23,7 +20,7 @@ The emulator currently supports the following BMC types:
 - DL380a (ProLiant DL380a Gen11 - w/ 2 Nvidia H100 NVL GPUs)
 - DL380a_Gen12 (ProLiant DL380 Gen12 - w/ 4 Nvidia H200 NVL GPUs, NS204 Boot Controller)
 - DL360_Gen12 (ProLiant DL360 Gen12)
-- DL365_Gen10Plus (ProLiant DL365 Gen10 Plus w/ HBA)
+- DL365_Gen10Plus (ProLiant DL365 Gen10 Plus w/ HBA, 2 1.5TB disks for RAID1)
 - DL325_Gen10Plus_FC (ProLiant DL325 Gen10 Plus w/ FC)
 - ... more to come
 
@@ -136,6 +133,9 @@ The emulated iLO's username and password are:
 Username: root
 Password: root_password
 ```
+
+## Disclaimer
+This emulator is provided for development and testing purposes only and is not officially supported by HPE. It is not a substitute for testing with actual HPE hardware. The emulated BMC behavior may not reflect all edge cases or advanced features of production iLO systems. Use at your own risk.
 
 ## Credit
 The HPE iLO Redfish Interface Emulator is based on Cray's CSM Redfish Interface Emulator (https://github.com/Cray-HPE/csm-redfish-interface-emulator), which is based on DMTF's [Redfish Interface Emulator] (https://github.com/DMTF/Redfish-Interface-Emulator).
