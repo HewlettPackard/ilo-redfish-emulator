@@ -35,14 +35,14 @@ def getDriveCapacityBytes(drive, storage_id, system_id):
     """
     odata_drive = drive.get('@odata.id', '').lower()
     drive_id = drive['@odata.id'].split('/')[-1]
-    chassisMemberDrives = getChassisMemberDrives()
-    systemStorageMemberDrives = getSystemStorageMemberDrives()
     drive_resource = None
     if 'chassis' in odata_drive:
         ident = storage_id + "_" + drive_id
+        chassisMemberDrives = getChassisMemberDrives()
         drive_resource = chassisMemberDrives.get(ident)
     elif 'systems' in odata_drive:
         ident = system_id + "_" + storage_id + "_" + drive_id
+        systemStorageMemberDrives = getSystemStorageMemberDrives()
         drive_resource = systemStorageMemberDrives.get(ident)
     if drive_resource:
         return drive_resource.get('CapacityBytes', 0)
