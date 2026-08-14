@@ -1,0 +1,18 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"3065819330\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/Event/Entries/57",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "57",
+    "Created": "2001-08-27T11:22:54Z",
+    "EntryType": "Oem",
+    "EventId": "4e000000-e700-0000-2000-00003a000000",
+    "EventTimestamp": "2001-08-27T11:22:54Z",
+    "MessageArgs": [
+        "3"
+    ],
+    "MessageId": "iLOEvents.7.3.UnauthorizedLoginAttempts",
+    "Name": "Event",
+    "OemRecordFormat": "Hpe-Event",
+    "Severity": "OK"
+}

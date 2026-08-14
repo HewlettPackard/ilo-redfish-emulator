@@ -1,0 +1,65 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeiLOLicense.HpeiLOLicense",
+    "@odata.etag": "W/\"3331225228\"",
+    "@odata.id": "/redfish/v1/Managers/1/LicenseService/1",
+    "@odata.type": "#HpeiLOLicense.v2_5_0.HpeiLOLicense",
+    "Id": "1",
+    "Actions": {
+        "#HpeiLOLicense.ConfirmLicense": {}
+    },
+    "Confirmation": {
+        "Code": "",
+        "Message": "",
+        "Service": "www.hpe.com/glis",
+        "Status": false
+    },
+    "ConfirmationRequest": {
+        "EON": {
+            "License": "iLO Standard",
+            "LicenseKey": "",
+            "Quantity": 1,
+            "State": "unlicensed"
+        },
+        "Signer": "iLO",
+        "System": {
+            "ChipId": "285AF009340130DC",
+            "Product": "HPE Alletra Storage Server 4220 Gen12",
+            "SerialNumber": "SANJACSCM"
+        }
+    },
+    "Description": "iLO License View",
+    "License": "iLO Standard",
+    "LicenseClass": null,
+    "LicenseErr": "",
+    "LicenseExpire": "",
+    "LicenseFeatures": {
+        "AutoCertEnroll": false,
+        "DirectoryAuth": false,
+        "DowngradePolicy": false,
+        "EmailAlert": false,
+        "FWScan": false,
+        "Federation": false,
+        "Jitter": false,
+        "KD": true,
+        "KeyMgr": false,
+        "MURC": false,
+        "ODIM": false,
+        "PowerReg": false,
+        "RC": false,
+        "Recovery": false,
+        "RemoteSyslog": false,
+        "Scrncap": false,
+        "SecureErase": false,
+        "SmartCard": false,
+        "SuiteB": false,
+        "VM": false,
+        "VMScript": false,
+        "VSPLogging": false
+    },
+    "LicenseInstallDate": "",
+    "LicenseKey": "",
+    "LicenseSeats": 0,
+    "LicenseTier": "STD",
+    "LicenseType": "Unlicensed",
+    "Name": "iLO License"
+}

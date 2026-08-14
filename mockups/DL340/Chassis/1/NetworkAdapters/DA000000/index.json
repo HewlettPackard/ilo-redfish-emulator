@@ -1,0 +1,186 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkAdapter.NetworkAdapter",
+    "@odata.etag": "W/\"1792009612\"",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DA000000",
+    "@odata.type": "#NetworkAdapter.v1_11_0.NetworkAdapter",
+    "Id": "DA000000",
+    "@Redfish.Settings": {
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DA000000/Settings"
+        }
+    },
+    "Assembly": {},
+    "Controllers": [
+        {
+            "ControllerCapabilities": {
+                "NetworkPortCount": 4
+            },
+            "FirmwarePackageVersion": "20.27.42",
+            "Links": {
+                "Ports": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DA000000/Ports/1"
+                    },
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DA000000/Ports/2"
+                    },
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DA000000/Ports/3"
+                    },
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DA000000/Ports/4"
+                    }
+                ]
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 20,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "OCP Slot A"
+                }
+            }
+        }
+    ],
+    "Location": {
+        "PartLocation": {
+            "LocationOrdinalValue": 20,
+            "LocationType": "Slot",
+            "ServiceLabel": "OCP Slot A"
+        }
+    },
+    "Manufacturer": "Broadcom",
+    "Model": "BCM 5719 1Gb 4p BASE-T OCP Adptr",
+    "Name": "BCM 5719 1Gb 4p BASE-T OCP Adptr",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeNetworkAdapter.HpeNetworkAdapter",
+            "@odata.type": "#HpeNetworkAdapter.v1_10_1.HpeNetworkAdapter",
+            "Controllers": [],
+            "PhysicalPorts": [
+                {
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "FullDuplex": false,
+                    "GoodReceives": 0,
+                    "GoodTransmits": 0,
+                    "IPv4Addresses": [
+                        {
+                            "Address": ""
+                        }
+                    ],
+                    "IPv6Addresses": [
+                        {
+                            "Address": ""
+                        }
+                    ],
+                    "LinkStatus": null,
+                    "MacAddress": "8c:84:74:ec:42:7c",
+                    "Name": "",
+                    "PortNumber": 1,
+                    "SpeedMbps": 0,
+                    "Status": {
+                        "Health": null,
+                        "State": null
+                    },
+                    "Team": "",
+                    "UEFIDevicePath": null
+                },
+                {
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "FullDuplex": false,
+                    "GoodReceives": 0,
+                    "GoodTransmits": 0,
+                    "IPv4Addresses": [
+                        {
+                            "Address": ""
+                        }
+                    ],
+                    "IPv6Addresses": [
+                        {
+                            "Address": ""
+                        }
+                    ],
+                    "LinkStatus": null,
+                    "MacAddress": "8c:84:74:ec:42:7d",
+                    "Name": "",
+                    "PortNumber": 2,
+                    "SpeedMbps": 0,
+                    "Status": {
+                        "Health": null,
+                        "State": null
+                    },
+                    "Team": "",
+                    "UEFIDevicePath": null
+                },
+                {
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "FullDuplex": false,
+                    "GoodReceives": 0,
+                    "GoodTransmits": 0,
+                    "IPv4Addresses": [
+                        {
+                            "Address": ""
+                        }
+                    ],
+                    "IPv6Addresses": [
+                        {
+                            "Address": ""
+                        }
+                    ],
+                    "LinkStatus": null,
+                    "MacAddress": "8c:84:74:ec:42:7e",
+                    "Name": "",
+                    "PortNumber": 3,
+                    "SpeedMbps": 0,
+                    "Status": {
+                        "Health": null,
+                        "State": null
+                    },
+                    "Team": "",
+                    "UEFIDevicePath": null
+                },
+                {
+                    "BadReceives": 0,
+                    "BadTransmits": 0,
+                    "FullDuplex": false,
+                    "GoodReceives": 0,
+                    "GoodTransmits": 0,
+                    "IPv4Addresses": [
+                        {
+                            "Address": ""
+                        }
+                    ],
+                    "IPv6Addresses": [
+                        {
+                            "Address": ""
+                        }
+                    ],
+                    "LinkStatus": null,
+                    "MacAddress": "8c:84:74:ec:42:7f",
+                    "Name": "",
+                    "PortNumber": 4,
+                    "SpeedMbps": 0,
+                    "Status": {
+                        "Health": null,
+                        "State": null
+                    },
+                    "Team": "",
+                    "UEFIDevicePath": null
+                }
+            ],
+            "StructuredName": "OCP.Slot.20.1",
+            "UEFIDevicePath": "PciRoot(0x33)/Pci(0x2,0x0)/Pci(0x0,0x0)"
+        }
+    },
+    "PartNumber": "BCM95719N1905HC",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DA000000/Ports"
+    },
+    "SerialNumber": "VNM4490CN7",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

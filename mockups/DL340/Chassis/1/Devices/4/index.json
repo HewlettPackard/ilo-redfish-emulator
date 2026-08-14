@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"3293365664\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/4",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "4",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceType": "Unknown",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "N/A"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/1"
+        }
+    },
+    "Location": "PCI-E Slot 1",
+    "Manufacturer": "",
+    "Name": "Empty slot 1",
+    "PartNumber": "",
+    "ProductPartNumber": "",
+    "ProductVersion": "",
+    "SerialNumber": "",
+    "Status": {
+        "State": "Absent"
+    }
+}

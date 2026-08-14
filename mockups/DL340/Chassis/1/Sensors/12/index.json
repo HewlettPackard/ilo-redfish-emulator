@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "W/\"259105420\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Sensors/12",
+    "@odata.type": "#Sensor.v1_10_0.Sensor",
+    "Id": "12",
+    "Name": "24-P/S 1 Inlet",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeSeaOfSensors.HpeSeaOfSensors",
+            "@odata.type": "#HpeSeaOfSensors.v2_1_0.HpeSeaOfSensors",
+            "LocationXmm": 2,
+            "LocationYmm": 8
+        }
+    },
+    "PhysicalContext": "PowerSupply",
+    "Reading": 33,
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {},
+        "UpperCritical": {},
+        "UpperFatal": {}
+    }
+}

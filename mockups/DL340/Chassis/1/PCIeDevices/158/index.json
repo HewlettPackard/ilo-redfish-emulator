@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "W/\"1302683408\"",
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/158",
+    "@odata.type": "#PCIeDevice.v1_5_0.PCIeDevice",
+    "Id": "158",
+    "FirmwareVersion": "2.7",
+    "Manufacturer": "",
+    "Model": "",
+    "Name": "Embedded Video Controller",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/158/PCIeFunctions"
+    },
+    "PartNumber": "",
+    "SKU": "",
+    "SerialNumber": "",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

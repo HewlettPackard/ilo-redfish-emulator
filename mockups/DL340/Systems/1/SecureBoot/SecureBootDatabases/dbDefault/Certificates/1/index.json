@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Certificate.Certificate",
+    "@odata.etag": "W/\"3693762181\"",
+    "@odata.id": "/redfish/v1/Systems/1/SecureBoot/SecureBootDatabases/dbDefault/Certificates/1",
+    "@odata.type": "#Certificate.v1_6_0.Certificate",
+    "Id": "1",
+    "CertificateString": "-----BEGIN CERTIFICATE-----\r\nMIIFeDCCBGCgAwIBAgIQVnSnA+85CRCLH0dTaHNtbTANBgkqhkiG9w0BAQsFADBr\r\nMQswCQYDVQQGEwJVUzEgMB4GA1UEChMXSGV3bGV0dC1QYWNrYXJkIENvbXBhbnkx\r\nOjA4BgNVBAMTMUhld2xldHQtUGFja2FyZCBQcmludGluZyBEZXZpY2UgSW5mcmFz\r\ndHJ1Y3R1cmUgQ0EwHhcNMTMwODIzMDAwMDAwWhcNMzMwODIzMjM1OTU5WjB5MSAw\r\nHgYDVQQKExdIZXdsZXR0LVBhY2thcmQgQ29tcGFueTErMCkGA1UECxQiTG9uZyBM\r\naXZlZCBDb2RlU2lnbmluZyBDZXJ0aWZpY2F0ZTEoMCYGA1UEAxQfSFAgVUVGSSBT\r\nZWN1cmUgQm9vdCAyMDEzIERCIGtleTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC\r\nAQoCggEBAMlHv4hkphZZV29sfwzKCN+XgqE77zYCFUOb6pqr5U28+7S0T4WJ5Kfl\r\nJdTmmzZLmY4vAX3hkNiKOWGOkGafc9PzOC5o/eYY2/M+rITsZBzpB6Py51JrKHVv\r\nNHmrJD+nzP38OjJx/LMiERhgdusxoiiNcvM8r02VAb2i8LFDal0UMzsRcoxpcau0\r\nox3HM2SGin/hQTPYGRWacRTfunYQyY8D/Vw6TMWT5am2QOADe3VHejo+OlGv00Mq\r\nK8pqz9A8RB7pv8mvprPQxMDzGLmcpmtuPFdOgvZqRDJl2jhS9FufvLEiGpjz8OGJ\r\npaGLpJohMSqJtevzsZtEk9UCtaUrFosCAwEAAaOCAggwggIEMAwGA1UdEwEB/wQC\r\nMAAwawYDVR0fBGQwYjBgoF6gXIZaaHR0cDovL29uc2l0ZWNybC52ZXJpc2lnbi5j\r\nb20vSGV3bGV0dFBhY2thcmRDb21wYW55RGVTUHJpbnRpbmdEZXZpY2VDU0lEVGVt\r\ncC9MYXRlc3RDUkwuY3JsMA4GA1UdDwEB/wQEAwIHgDCB4QYDVR0gBIHZMIHWMIHT\r\nBgorBgEEAQsEBAEBMIHEMIHBBggrBgEFBQcCAjCBtBqBsUhld2xldHQgUGFja2Fy\r\nZCBDb21wYW55LCAyLCBBdXRob3JpdHkgdG8gYmluZCBIZXdsZXR0LVBhY2thcmQg\r\nQ29tcGFueSBkb2VzIG5vdCBjb3JyZXNwb25kIHdpdGggdXNlIG9yIHBvc3Nlc3Np\r\nb24gb2YgdGhpcyBjZXJ0aWZpY2F0ZS4gSXNzdWVkIHRvIGZhY2lsaXRhdGUgY29t\r\nbXVuaWNhdGlvbiB3aXRoIEhQLjA7BggrBgEFBQcBAQQvMC0wKwYIKwYBBQUHMAGG\r\nH2h0dHA6Ly9vbnNpdGUtb2NzcC52ZXJpc2lnbi5jb20wHQYDVR0OBBYEFB188sK5\r\nJnP2nI7h7HBjlnq5tivsMB8GA1UdIwQYMBaAFLihDL0GX0YR6YDb95m9HfT96g3G\r\nMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMDMA0GCSqGSIb3DQEBCwUAA4IBAQBFzx6B\r\nvBJCurNC31IQ4ilrLmlmM4L0pEfKc3hUA+f+7eWH5225BOsI/yE6MsOcQgRSKj+X\r\n8CvVvJN7QT456SdnefLaOkGBmpmdoXnhxpRr8Jgd7duURJvSPMvI0zVH16iWx9ON\r\nP6TpbTTsqWxoWCOfJ2o25uKamOGSprKwbinsk53SNVmmBquDvs/Dfl34Etm6Z3Z6\r\nmeEYBVH6NIXrH4VfGaoyvTJBmHIiaSRBIsusrnMXF1pZKNcp+Kf9VI7PvhTrRh6C\r\njXeNk82TBptW2rKyTsmWiG2XBHKI4/eoHqA3r9xuBa7oyFAoWkGj6krtfgyt/G6A\r\n68k2VJenVGEMNGBA\r\n-----END CERTIFICATE-----\r\n",
+    "CertificateType": "PEM",
+    "Issuer": {
+        "City": "",
+        "CommonName": "Hewlett-Packard Printing Device Infrastructure CA",
+        "Country": "US",
+        "Email": "",
+        "Organization": "Hewlett-Packard Company",
+        "OrganizationalUnit": "",
+        "State": ""
+    },
+    "Name": "HP UEFI Secure Boot 2013 DB key",
+    "Subject": {
+        "City": "",
+        "CommonName": "HP UEFI Secure Boot 2013 DB key",
+        "Country": "",
+        "Email": "",
+        "Organization": "Hewlett-Packard Company",
+        "OrganizationalUnit": "Long Lived CodeSigning Certificate",
+        "State": ""
+    },
+    "UefiSignatureOwner": "1E910BE1-4BEB-6337-19F1-8A8AC107D512",
+    "ValidNotAfter": "2033-08-23T23:59:59Z",
+    "ValidNotBefore": "2013-08-23T00:00:00Z"
+}

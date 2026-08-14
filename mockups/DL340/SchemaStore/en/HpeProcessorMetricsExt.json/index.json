@@ -1,0 +1,109 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "HpeProcessorMetricsExt",
+    "additionalProperties": false,
+    "copyright": "Copyright 2024-2025 Hewlett Packard Enterprise Development LP.  Portions Copyright 2024-2025 DMTF. All rights reserved.",
+    "description": "The HpeProcessorMetricsExt object extends the properties of a CPU.",
+    "private": false,
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "MemorySpareChannelPresence": {
+            "description": "The memory spare channel presence state.",
+            "longDescription": "This property shall indicate memory spare channel is presence for this processor.",
+            "readonly": true,
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "EDPViolationStateType": {
+            "description": "EDP violation.",
+            "longDescription": "This property shall indicate EDP violation for this processor.",
+            "readonly": true,
+            "enum": [
+                "Normal",
+                "OutOfRange"
+            ],
+            "enumDescriptions": {
+                "Normal": "The value is within the range",
+                "OutOfRange": "The value is outside the range"
+            },
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "PerformanceState": {
+            "description": "The performance state",
+            "longDescription": "This property shall contain the performance state value for this resource.",
+            "readonly": true,
+            "enum": [
+                "Degraded",
+                "Normal",
+                "Throttled"
+            ],
+            "enumDescriptions": {
+                "Degraded": "The entity is operating at a degraded functional level",
+                "Normal": "The entity is operating at a full functional level at full speed",
+                "Throttled": "The entity is operating at a full functional level at reduced speed"
+            },
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "PowerBreakPerformanceState": {
+            "description": "The power break performance state",
+            "longDescription": "This property shall contain the power break performance state value for this resource.",
+            "readonly": true,
+            "enum": [
+                "Degraded",
+                "Normal",
+                "Throttled"
+            ],
+            "enumDescriptions": {
+                "Degraded": "The entity is operating at a degraded functional level",
+                "Normal": "The value is within the range",
+                "Throttled": "The value is outside the range"
+            },
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "PCIeConnectionLinksStatus": {
+            "description": "PCIe Connection Link",
+            "longDescription": "This property shall contain the state of PCIe connection link for this processor.",
+            "readonly": true,
+            "items": {
+                "enum": [
+                    "Connected",
+                    "Disconnected"
+                ],
+                "enumDescriptions": {
+                    "Connected": "This channel between GPU and CPU is connected",
+                    "Disconnected": "This channel between GPU and CPU is not connected"
+                },
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "type": "array"
+        }
+    },
+    "readonly": true,
+    "title": "#HpeProcessorMetricsExt.v1_0_0.HpeProcessorMetricsExt",
+    "type": "object"
+}

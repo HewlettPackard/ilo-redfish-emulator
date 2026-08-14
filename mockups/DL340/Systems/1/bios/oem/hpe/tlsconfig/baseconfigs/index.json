@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeBaseConfigs.HpeBaseConfigs",
+    "@odata.etag": "W/\"2F232BF31485D5D5D58952B3BADA9B37\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/tlsconfig/baseconfigs/",
+    "@odata.type": "#HpeBaseConfigs.v2_0_0.HpeBaseConfigs",
+    "BaseConfigs": [
+        {
+            "default": {
+                "Certificates": [],
+                "Ciphers": "DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-CCM:DHE-RSA-AES256-CCM:TLS_AES_128_GCM_SHA256:TLS_AES_256_GCM_SHA384",
+                "DeleteCertificates": [],
+                "HostnameCheck": "Disabled",
+                "NewCertificates": [],
+                "ProtocolVersion": "AUTO",
+                "TlsCaCertificateCount": 0,
+                "VerifyMode": "PEER"
+            }
+        }
+    ],
+    "Capabilities": {
+        "BaseConfig": true,
+        "BaseConfigs": false
+    },
+    "Id": "baseconfigs",
+    "Name": "TLS Default Settings"
+}

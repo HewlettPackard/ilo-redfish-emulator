@@ -1,0 +1,58 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "Pump",
+    "additionalProperties": false,
+    "copyright": "Copyright 2024-2025 Hewlett Packard Enterprise Development LP.  Portions Copyright 2024-2025 DMTF. All rights reserved.",
+    "description": "The Pump schema describes a pump unit for a cooling system or similar device.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Assembly": {
+            "description": "The link to the summary of assembly for this subsystem.",
+            "longDescription": "This property shall contain a link to a resource collection of type Assembly.",
+            "properties": {
+                "@odata.id": {
+                    "$ref": "Resource.json#/definitions/odataid"
+                }
+            },
+            "readonly": true,
+            "type": "object"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id",
+            "readonly": true
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "PhysicalContext": {
+            "$ref": "Resource.json#/definitions/PhysicalContext",
+            "description": "The area or device associated with this pump.",
+            "longDescription": "This property shall contain a description of the affected device or region within the chassis with which this pump is associated.",
+            "readonly": true
+        },
+        "PumpSpeedPercent": {
+            "$ref": "Sensor.json#/definitions/SensorPumpExcerpt",
+            "description": "The pump speed (percent).",
+            "excerptCopy": "SensorPumpExcerpt",
+            "longDescription": "This property shall contain the fan speed, in percent units, for this resource.  The value of the DataSourceUri property, if present, shall reference a resource of type Sensor with the ReadingType property containing the value `Percent`."
+        },
+        "Status": {
+            "$ref": "Resource.json#/definitions/Status",
+            "description": "The status and health of the resource and its subordinate or dependent resources.",
+            "longDescription": "This property shall contain any status or health properties of the resource."
+        }
+    },
+    "type": "object",
+    "title": "#Pump.v1_1_0.Pump"
+}

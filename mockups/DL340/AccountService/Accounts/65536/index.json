@@ -1,0 +1,45 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ManagerAccount.ManagerAccount",
+    "@odata.etag": "W/\"1261193879\"",
+    "@odata.id": "/redfish/v1/AccountService/Accounts/65536",
+    "@odata.type": "#ManagerAccount.v1_12_1.ManagerAccount",
+    "Id": "65536",
+    "AccountTypes": [
+        "WebUI"
+    ],
+    "Description": "iLO User Account",
+    "Enabled": true,
+    "Keys": {
+        "@odata.id": "/redfish/v1/AccountService/Accounts/65536/Keys"
+    },
+    "Links": {
+        "Role": {
+            "@odata.id": "/redfish/v1/AccountService/Roles/Administrator"
+        }
+    },
+    "Name": "User Account",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOAccount.HpeiLOAccount",
+            "@odata.type": "#HpeiLOAccount.v2_2_0.HpeiLOAccount",
+            "LoginName": "Administrator",
+            "Privileges": {
+                "HostBIOSConfigPriv": true,
+                "HostNICConfigPriv": true,
+                "HostStorageConfigPriv": true,
+                "LoginPriv": true,
+                "RemoteConsolePriv": true,
+                "SystemRecoveryConfigPriv": true,
+                "UserConfigPriv": true,
+                "VirtualMediaPriv": true,
+                "VirtualPowerAndResetPriv": true,
+                "iLOConfigPriv": true
+            },
+            "ServiceAccount": false
+        }
+    },
+    "Password": null,
+    "PasswordChangeRequired": false,
+    "RoleId": "Administrator",
+    "UserName": "Administrator"
+}

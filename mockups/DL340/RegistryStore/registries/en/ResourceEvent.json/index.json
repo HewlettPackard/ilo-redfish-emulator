@@ -1,0 +1,67 @@
+{
+    "@Redfish.Copyright": "Copyright 2021-2025 Hewlett Packard Enterprise Development LP.  Portions Copyright 2021-2025 DMTF. All rights reserved.",
+    "@odata.type": "#MessageRegistry.v1_6_0.MessageRegistry",
+    "Description": "This registry defines the events for the management processor.",
+    "Id": "ResourceEvent.json",
+    "Language": "en",
+    "Messages": {
+        "ResourceChanged": {
+            "Description": "Resource updated.",
+            "Message": "Resource updated.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "ResourceCreated": {
+            "Description": "Resource added.",
+            "Message": "Resource added.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "ResourceRemoved": {
+            "Description": "Resource removed.",
+            "Message": "Resource removed.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "ResourceStatusChangedCritical": {
+            "Description": "Resource status changed.",
+            "Message": "Resource status changed.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "ResourceStatusChangedOK": {
+            "Description": "Resource status changed.",
+            "Message": "Resource status changed.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        },
+        "ResourceStatusChangedWarning": {
+            "Description": "Resource status changed.",
+            "Message": "Resource status changed.",
+            "MessageSeverity": "OK",
+            "NumberOfArgs": 0,
+            "ParamTypes": [],
+            "Resolution": "None.",
+            "Severity": "OK"
+        }
+    },
+    "Name": "Resource Event Message Registry",
+    "OwningEntity": "Hewlett Packard Enterprise",
+    "RegistryPrefix": "ResourceEvent",
+    "RegistryVersion": "1.2.1"
+}

@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"4140259101\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/10",
+    "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+    "Id": "10",
+    "Created": "2025-03-01T00:38:32Z",
+    "EntryType": "Oem",
+    "Message": "Security jumper setting normal.",
+    "MessageArgs": [],
+    "MessageId": "33.9",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+            "Categories": [
+                "Security"
+            ],
+            "Class": 33,
+            "ClassDescription": "Maintenance",
+            "Code": 9,
+            "Count": 1,
+            "EventNumber": 10,
+            "Severity": "Caution",
+            "Updated": "2025-03-01T00:38:32Z",
+            "UserAction": "None"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "Warning"
+}

@@ -1,0 +1,120 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_0_0.Settings",
+        "ETag": "",
+        "Messages": [
+            {
+                "MessageId": "Base.1.0.Success"
+            }
+        ],
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/settings/"
+        },
+        "Time": null
+    },
+    "@odata.context": "/redfish/v1/$metadata#HpeServerBootSettings.HpeServerBootSettings",
+    "@odata.etag": "W/\"545AE0719128545454915B8B814236F8\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/",
+    "@odata.type": "#HpeServerBootSettings.v2_0_0.HpeServerBootSettings",
+    "BootSources": [
+        {
+            "BootOptionNumber": "000D",
+            "BootString": "Generic USB Boot",
+            "CorrelatableID": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)",
+            "StructuredBootString": "Generic.USB.1.1",
+            "UEFIDevicePath": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)"
+        },
+        {
+            "BootOptionNumber": "000E",
+            "BootString": "OCP Slot A Port 1 : Broadcom NetXtreme Gigabit Ethernet - NIC (HTTP(S) IPv4)",
+            "CorrelatableID": "PciRoot(0x33)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.20.1.Httpv4",
+            "UEFIDevicePath": "PciRoot(0x33)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(8C8474EC427C,0x1)/IPv4(0.0.0.0)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0010",
+            "BootString": "OCP Slot A Port 1 : Broadcom NetXtreme Gigabit Ethernet - NIC (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x33)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.20.1.IPv4",
+            "UEFIDevicePath": "PciRoot(0x33)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(8C8474EC427C,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "000F",
+            "BootString": "OCP Slot A Port 1 : Broadcom NetXtreme Gigabit Ethernet - NIC (HTTP(S) IPv6)",
+            "CorrelatableID": "PciRoot(0x33)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.20.1.Httpv6",
+            "UEFIDevicePath": "PciRoot(0x33)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(8C8474EC427C,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)/Uri()"
+        },
+        {
+            "BootOptionNumber": "0011",
+            "BootString": "OCP Slot A Port 1 : Broadcom NetXtreme Gigabit Ethernet - NIC (PXE IPv6)",
+            "CorrelatableID": "PciRoot(0x33)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.1.2.IPv6",
+            "UEFIDevicePath": "PciRoot(0x33)/Pci(0x2,0x0)/Pci(0x0,0x0)/MAC(8C8474EC427C,0x1)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000)"
+        }
+    ],
+    "DefaultBootOrder": [
+        "Cd",
+        "Usb",
+        "EmbeddedStorage",
+        "PcieSlotStorage",
+        "EmbeddedFlexLOM",
+        "PcieSlotNic",
+        "UefiShell",
+        "iPXE"
+    ],
+    "DesiredBootDevices": [
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        }
+    ],
+    "Id": "boot",
+    "Name": "Boot Order Current Settings",
+    "Oem": {
+        "Hpe": {
+            "@odata.type": "#HpeBiosExt.v2_0_1.HpeBiosExt",
+            "Links": {
+                "BaseConfigs": {
+                    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/baseconfigs/"
+                }
+            },
+            "SettingsObject": {
+                "UnmodifiedETag": "W/\"FE240C472C500E0E0EE2B629A9124033\""
+            }
+        }
+    },
+    "PersistentBootConfigOrder": [
+        "Generic.USB.1.1",
+        "OCP.Slot.20.1.Httpv4",
+        "OCP.Slot.20.1.IPv4",
+        "OCP.Slot.20.1.Httpv6",
+        "OCP.Slot.1.2.IPv6"
+    ]
+}

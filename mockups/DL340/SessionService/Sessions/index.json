@@ -1,0 +1,40 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SessionCollection.SessionCollection",
+    "@odata.etag": "W/\"763333962\"",
+    "@odata.id": "/redfish/v1/SessionService/Sessions",
+    "@odata.type": "#SessionCollection.SessionCollection",
+    "Description": "Manager User and Application Sessions",
+    "Name": "Sessions",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSessionsSummary.HpeiLOSessionsSummary",
+            "@odata.type": "#HpeiLOSessionsSummary.v2_0_0.HpeiLOSessionsSummary",
+            "Links": {
+                "MySession": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/administrator000000003be37ea699c6ea5"
+                }
+            }
+        }
+    },
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/administrator000000003be3785840663f2"
+        },
+        {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/administrator000000003be37869b5237c0"
+        },
+        {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/administrator000000003be37b0dc0d3974"
+        },
+        {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/administrator000000003be37c5160458ca"
+        },
+        {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/administrator000000003be37e5e66b7fa0"
+        },
+        {
+            "@odata.id": "/redfish/v1/SessionService/Sessions/administrator000000003be37ea699c6ea5"
+        }
+    ],
+    "Members@odata.count": 6
+}

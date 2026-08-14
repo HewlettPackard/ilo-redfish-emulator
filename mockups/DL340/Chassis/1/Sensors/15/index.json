@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "W/\"1616838760\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Sensors/15",
+    "@odata.type": "#Sensor.v1_10_0.Sensor",
+    "Id": "15",
+    "Name": "27-P/S 2",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeSeaOfSensors.HpeSeaOfSensors",
+            "@odata.type": "#HpeSeaOfSensors.v2_1_0.HpeSeaOfSensors",
+            "LocationXmm": 4,
+            "LocationYmm": 12
+        }
+    },
+    "PhysicalContext": "PowerSupply",
+    "Reading": 0,
+    "Status": {
+        "Health": null,
+        "State": "UnavailableOffline"
+    },
+    "Thresholds": {
+        "UpperCaution": {},
+        "UpperCritical": {},
+        "UpperFatal": {}
+    }
+}

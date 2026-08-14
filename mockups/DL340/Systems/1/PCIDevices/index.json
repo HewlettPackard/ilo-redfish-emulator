@@ -1,0 +1,17 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerPciDeviceCollection.HpeServerPciDeviceCollection",
+    "@odata.etag": "W/\"1459770610\"",
+    "@odata.id": "/redfish/v1/Systems/1/PCIDevices",
+    "@odata.type": "#HpeServerPciDeviceCollection.HpeServerPciDeviceCollection",
+    "Description": " PciDevices view",
+    "Name": "PciDevices",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/2"
+        }
+    ],
+    "Members@odata.count": 2
+}

@@ -1,0 +1,13 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeiLOSecurityParam.HpeiLOSecurityParam",
+    "@odata.etag": "W/\"2745614147\"",
+    "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard/SecurityParams/9",
+    "@odata.type": "#HpeiLOSecurityParam.v1_1_0.HpeiLOSecurityParam",
+    "Id": "9",
+    "Description": "The component integrity status for one or more components is at risk. If a component has been replaced, perform the Bind operation to authenticate the replaced component",
+    "Ignore": false,
+    "Name": "Component Integrity Status",
+    "RecommendedAction": "Review the component integrity status and take action.",
+    "SecurityStatus": "Risk",
+    "State": "HpmAuthFailure"
+}

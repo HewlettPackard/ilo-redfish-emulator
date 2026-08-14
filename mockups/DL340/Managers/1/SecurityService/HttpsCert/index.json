@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeHttpsCert.HpeHttpsCert",
+    "@odata.etag": "W/\"4023998632\"",
+    "@odata.id": "/redfish/v1/Managers/1/SecurityService/HttpsCert",
+    "@odata.type": "#HpeHttpsCert.v2_1_0.HpeHttpsCert",
+    "Id": "HttpsCert",
+    "Actions": {
+        "#HpeHttpsCert.GenerateCSR": {
+            "target": "/redfish/v1/Managers/1/SecurityService/HttpsCert/Actions/HpeHttpsCert.GenerateCSR"
+        },
+        "#HpeHttpsCert.ImportCertificate": {
+            "target": "/redfish/v1/Managers/1/SecurityService/HttpsCert/Actions/HpeHttpsCert.ImportCertificate"
+        }
+    },
+    "CertificateSigningRequest": "-----BEGIN CERTIFICATE REQUEST-----\nMIIE6zCCAtMCAQAwfDEVMBMGA1UEAwwMSUxPU0FOSkFDU0NNMQwwCgYDVQQLDANJ\nU1MxIzAhBgNVBAoMGkhld2xldHQgUGFja2FyZCBFbnRlcnByaXNlMREwDwYDVQQH\nDAhBbWVyaWNhczEQMA4GA1UECAwHSG91c3RvbjELMAkGA1UEBhMCVVMwggIiMA0G\nCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCiOpGImhoD/0eX2Dqg6u1axRsXBuMO\nfVpWHHrftOikmAzo7Z219Ty375628bRggYCorK5fUNfPTqnvXA889j8fsxPJ81vl\nXVVeu4VrWkFhFxGMhuVKR2gZSVg1MS+zeeNjXXyJuP5O5O//KB/vMJ56HxkfbKNU\nbGku3DIPUGImSIk/vOwc+lpDS1/vRgfkpzqQwmcuI7D0tSyInGZp4c7RD21Vwews\na0UJsn+S+NSlSchKgJ2SP6XgM72aYbRL6/xnbOIBCZd7mdYbOzahmwTPhP44gj2J\nQ4cKN+Jq6fdDn5RhaV5xIKUJK068tL507kfXDq1WjnDVlsyK2x1d4FHLR7nFqXnw\nMxM1ecbvwRWGJRWlHMe7LoKEXrJYGTfwwhy8kvnwrBOHsyVuH4mpMvUMpWG6mizA\nCi3sQ7TQq4SE8FhpuFnHSdm3WrYHyI01vFJlK1q9+0c8QaxWsgV7vhMCWup0hU+C\n6TTFOjS3d6Ow+9xrrIC/vzkTAshaHuurVJJPl8Mx1pX2iuyCB/AlohTf/8wteAt8\nmFTMWjn/zJ+2TTLN08NQ4XspGL6XsrqLJ5vj8ETr+WHtnRtexGCbFhZGP3q3XFFP\npOxrH0Zrjdbg959Z9ieLSn+Mubxthp1uLxXPoG/A1Gnjm7nrTEpdP11giogSK3Hj\niOtWOKCKcs050wIDAQABoCowKAYJKoZIhvcNAQkOMRswGTAXBgNVHREEEDAOggxJ\nTE9TQU5KQUNTQ00wDQYJKoZIhvcNAQELBQADggIBACdDCpQ5cfkvHL4wD3kJ/qG/\ndFc4XZaRSp85NWhJVizHtbVfIyTMijHHmC/V26JPo6vpdqrxquzEEGX508G6/dB+\nmnl6g9tyEdWtZuvRBbFyRJmBA2C/iQEQ8CzwFN0fUK3GBH8serOTI0te6ifMLfwo\nvZAmVdw9XGyG7MVdN0KqycxklLSYUzyg/f8r4p2A4zcfySGrkDBCMi447G4Xb3Yo\nAylNcJJpHpEu6SW8uEc1jpcqDiyrQ6pwAmAuERa91PYBOc2cyqIQFE7wnqwqQu1b\npMvMSt1ekT4mIp4o0Tq9gdzBX/1fJw6FlahhZpEDAkzieK2GJPx/KvtIrcBjw+MZ\nGP2W/MTPpUAaAO7aYpqAG5Fe0Qz7duAXe5hYBlvIvDSd/qUTuCjrTiAXHdcvtak+\nK1j/RwOke1FcxCWUE/rAUMRBFLdP520zgiUAOyGJ++lsbJtndOrFi6QgcIwBfs1v\nCiJ9Qzzt9V60IQIEXh1mYXvg5u5P/yCj/FMbWGkoYtdIMIT+I6fvMBc29g000RC8\nmWZ5BDjaAywdZJzL6LVFk2TXhKacIYkfbOokZEiKwfPpKtEv6HoOP25nT08xIpcs\njsdLh67WTnfDU4aO5C+B/qep7n3wmuFMY5eyC+O7otojG4TZYnlaA/6w54+liI/K\niYe0ZzMPhd3vtgGpHlM8\n-----END CERTIFICATE REQUEST-----\n",
+    "HttpsCertCSRSubjectValue": {
+        "City": "Americas",
+        "CommonName": "ILOSANJACSCM",
+        "Country": "US",
+        "IncludeIP": false,
+        "OrgName": "Hewlett Packard Enterprise",
+        "OrgUnit": "ISS",
+        "State": "Houston"
+    },
+    "KeyType": "RSA",
+    "X509CertificateInformation": {
+        "Issuer": "CN = Default Issuer (Do not trust), O = Hewlett Packard Enterprise, OU = ISS, L = Americas, ST = Houston, C = US",
+        "SerialNumber": "5e:20:84:5b:2f:25:0c:b4",
+        "Subject": "CN = ILOSANJACSCM, O = Hewlett Packard Enterprise, OU = ISS, L = Americas, ST = Houston, C = US",
+        "ValidNotAfter": "2040-02-29T00:01:14Z",
+        "ValidNotBefore": "2025-03-01T00:01:14Z"
+    }
+}

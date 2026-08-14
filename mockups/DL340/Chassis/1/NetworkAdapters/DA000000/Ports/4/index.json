@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Port.Port",
+    "@odata.etag": "W/\"3173204384\"",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DA000000/Ports/4",
+    "@odata.type": "#Port.v1_12_0.Port",
+    "Id": "4",
+    "@Redfish.Settings": {
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DA000000/Ports/4/Settings"
+        }
+    },
+    "Description": "Port status and active configuration data",
+    "Ethernet": {
+        "AssociatedMACAddresses": [
+            "8c:84:74:ec:42:7f"
+        ]
+    },
+    "LinkNetworkTechnology": "Ethernet",
+    "Name": "Port",
+    "PortId": "4"
+}
