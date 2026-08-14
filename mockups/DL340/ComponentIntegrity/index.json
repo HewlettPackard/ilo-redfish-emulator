@@ -1,0 +1,17 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ComponentIntegrityCollection.ComponentIntegrityCollection",
+    "@odata.etag": "W/\"1459770610\"",
+    "@odata.id": "/redfish/v1/ComponentIntegrity",
+    "@odata.type": "#ComponentIntegrityCollection.ComponentIntegrityCollection",
+    "Description": "Collection of Component Integrity Resource Instances",
+    "Name": "Component Integrity Collection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/TPM-1"
+        },
+        {
+            "@odata.id": "/redfish/v1/ComponentIntegrity/HPM"
+        }
+    ],
+    "Members@odata.count": 2
+}

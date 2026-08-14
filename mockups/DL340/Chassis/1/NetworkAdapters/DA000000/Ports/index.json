@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PortCollection.PortCollection",
+    "@odata.etag": "W/\"2531265068\"",
+    "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DA000000/Ports",
+    "@odata.type": "#PortCollection.PortCollection",
+    "Description": "Network Adapter Port Configuration and Status",
+    "Name": "Network Adapter Port Collection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DA000000/Ports/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DA000000/Ports/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DA000000/Ports/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/DA000000/Ports/4"
+        }
+    ],
+    "Members@odata.count": 4
+}

@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "W/\"2706403208\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Sensors/27",
+    "@odata.type": "#Sensor.v1_10_0.Sensor",
+    "Id": "27",
+    "Name": "48-Sys Exhaust 2",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeSeaOfSensors.HpeSeaOfSensors",
+            "@odata.type": "#HpeSeaOfSensors.v2_1_0.HpeSeaOfSensors",
+            "LocationXmm": 9,
+            "LocationYmm": 10
+        }
+    },
+    "PhysicalContext": "SystemBoard",
+    "Reading": 33,
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {},
+        "UpperCritical": {
+            "Reading": 85
+        },
+        "UpperFatal": {
+            "Reading": 95
+        }
+    }
+}

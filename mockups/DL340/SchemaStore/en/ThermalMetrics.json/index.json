@@ -1,0 +1,98 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "ThermalMetrics",
+    "additionalProperties": false,
+    "copyright": "Copyright 2024-2025 Hewlett Packard Enterprise Development LP.  Portions Copyright 2024-2025 DMTF. All rights reserved.",
+    "description": "The ThermalMetrics schema represents the thermal metrics of a chassis.",
+    "longDescription": "This resource shall represent the thermal metrics of a chassis for a Redfish implementation.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "PowerWatts": {
+            "description": "Power consumption (W) of the thermal management subsystem.",
+            "longDescription": "This property shall contain the power, in watt units, for the thermal subsystem. The value shall include the total power consumption of devices involved in thermal management of the chassis, such as fans, pumps, and heaters.  The value of the `DataSourceUri` property, if present, shall reference a resource of type `Sensor` with the `ReadingType` property containing the value `Power`.",
+            "$ref": "Sensor.json#/definitions/SensorPowerExcerpt"
+        },
+        "TemperatureReadingsCelsius": {
+            "description": "The temperatures (in degree Celsius units) from all related sensors for this device.",
+            "longDescription": "This property shall contain the temperatures, in degree Celsius units, for this subsystem.  The value of the DataSourceUri property, if present, shall reference a resource of type Sensor with the ReadingType property containing the value `Temperature`.",
+            "items": {
+                "properties": {
+                    "Reading": {
+                        "description": "The sensor value.",
+                        "longDescription": "This property shall contain the sensor value.",
+                        "readonly": true,
+                        "type": [
+                            "integer",
+                            "null"
+                        ]
+                    },
+                    "DeviceName": {
+                        "description": "The name of the device.",
+                        "longDescription": "This property shall contain the name of the device associated with this sensor.  If the device is represented by a resource, the value shall contain the value of the Name property of the associated resource",
+                        "readonly": true,
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "PhysicalContext": {
+                        "$ref": "Resource.json#/definitions/PhysicalContext",
+                        "description": "Describes the area or device to which this voltage measurement applies.",
+                        "longDescription": "The value of this property shall be a description of the affected device or region within the chassis to which this voltage measurement applies.",
+                        "readonly": true
+                    }
+                },
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "TemperatureReadingsCelsius@odata.count": {
+            "type": "integer",
+            "readonly": true,
+            "etag": true,
+            "minimum": 0,
+            "description": "The number of items in a collection.",
+            "longDescription": "The value of this property shall be an integer representing the number of items in a collection."
+        },
+        "TemperatureSummaryCelsius": {
+            "additionalProperties": false,
+            "description": "The summary temperature readings for this chassis.",
+            "longDescription": "This property shall contain the temperature sensor readings for this subsystem.",
+            "readonly": false,
+            "properties": {
+                "Ambient": {
+                    "$ref": "Sensor.json#/definitions/SensorExcerpt",
+                    "description": "The ambient temperature (Celsius) of this subsystem.",
+                    "longDescription": "This property shall contain the temperature, in degree Celsius units, for the ambient temperature of this subsystem.  The value of the DataSourceUri property, if present, shall reference a resource of type Sensor with the ReadingType property containing the value `Temperature`.",
+                    "readonly": false
+                }
+            },
+            "type": "object"
+        }
+    },
+    "required": [
+        "@odata.id",
+        "@odata.type",
+        "Id",
+        "Name"
+    ],
+    "title": "#ThermalMetrics.v1_3_1.ThermalMetrics",
+    "type": "object"
+}

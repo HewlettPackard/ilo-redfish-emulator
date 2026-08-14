@@ -1,0 +1,105 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeSecurityService.HpeSecurityService",
+    "@odata.etag": "W/\"3719373621\"",
+    "@odata.id": "/redfish/v1/Managers/1/SecurityService",
+    "@odata.type": "#HpeSecurityService.v2_7_0.HpeSecurityService",
+    "Id": "SecurityService",
+    "Actions": {
+        "#HpeSecurityService.RebindHPM": {
+            "target": "/redfish/v1/Managers/1/SecurityService/Actions/HpeSecurityService.RebindHPM"
+        }
+    },
+    "BMCHPELDevID": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCHPELDevID/Certificates"
+        }
+    },
+    "BMCIAK": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCIAK/Certificates"
+        }
+    },
+    "BMCIDevIDPca": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCIDevIDPca/Certificates"
+        }
+    },
+    "BMCLAK": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/BMCLAK/Certificates"
+        }
+    },
+    "ComponentIntegrityPolicy": "NoPolicy",
+    "CurrentCipher": "TLS_AES_256_GCM_SHA384",
+    "GlobalComponentIntegrity": "Disabled",
+    "KeyLocation": "Local",
+    "KeyPolicy": "Auto",
+    "Links": {
+        "ESKM": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/ESKM"
+        },
+        "HttpsCert": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/HttpsCert"
+        },
+        "SSO": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SSO"
+        },
+        "SecurityDashboard": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SecurityDashboard"
+        },
+        "CertAuth": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/CertificateAuthentication"
+        }
+    },
+    "LoginSecurityBanner": {
+        "IsEnabled": false,
+        "SecurityMessage": ""
+    },
+    "OpenBMCTransferOfOwnership": "Supported",
+    "OpenBMCTransferStatus": "NotPerformed",
+    "PlatformCert": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/PlatformCert/Certificates"
+        }
+    },
+    "PlatformCertUpdate": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/PlatformCertUpdate/Certificates"
+        }
+    },
+    "SSHHostKey": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDX+apkBUg5uqAa9OavMmvO2xQPDW25/5jQnn5OGB6gXjcYCZOHMZCQhFbX0h392k+vEl0qfdD2LIwv7wSKd+lKnCizYZ+SF8Q6i0Bb4p9zulYjSkDZjji5PYrFB3n9e1p5agySdWpLGTybvnSzZxTCCiJnHclXL6u97kQJCkZ3S8S+zazJ8sg4/zext3uiU6ywFUdI6f+Iaf5gboO003u5IL18SeCFNLJQQkuVad6/BNCgIKrAdZeF7OyZvZ1K+Q2hyjS0SYRxDC9YHsM51++/7RKpt4yMBRFVggYwcz05ghBl+SWkWLCXGqq33nHo6fSxrl9p0351cTEfr11vNhpSvI6oT7Hhu7NHOAiCtIldopXAtdfY+NFRso5+2L3s0OJcKvK8jISEfks0z1QRCXdgWVcUrheuHSaXykQVVMWSllM+2MZFt4Xtn9yeTnCG+O4kcjAzeomX6gZR316ejZZGG8Sjn6S5zHGnX4O0irrgKj9Yx9F7iVDfDcsyUu6XWbzDritfpOcLeZl5wwNMp1BAXGoPkV5jDmi3idluL5lEyRa1DuMYt8NmBxxKy8nIGY/uKJm8F7BvdlQw+CoQXEH/OBPIXrRahGdLpSr17cBGCgbKNZNlYbwGkhmpNOrNzwcaMVmZPKwZj6RWKbSooULhXI7qQzCS9/WI5SD1bMI2Tw==",
+    "SecurityState": "SecureStandard",
+    "SecurityState@Redfish.AllowableValues": [
+        "SecureStandard",
+        "FIPS"
+    ],
+    "SystemIAK": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemIAK/Certificates"
+        }
+    },
+    "SystemIDevID": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemIDevID/Certificates"
+        }
+    },
+    "SystemLAKCert": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemLAK/Certificates"
+        }
+    },
+    "SystemLDevID": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SystemLDevID/Certificates"
+        }
+    },
+    "TLSVersion": {
+        "TLS1_2": "Enabled",
+        "TLS1_3": "Enabled"
+    },
+    "iLOLDevID": {
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/iLOLDevID/Certificates"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"3495628461\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/HpeNetworkAdapter",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "HpeNetworkAdapter",
+    "Description": "Schema Definition File for HpeNetworkAdapter",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/HpeNetworkAdapter.json"
+        }
+    ],
+    "Name": "HpeNetworkAdapter Schema Definition File",
+    "Schema": "#HpeNetworkAdapter.v1_10_1.HpeNetworkAdapter"
+}

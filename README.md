@@ -22,6 +22,7 @@ The emulator currently supports the following BMC types:
 - DL360_Gen12 (ProLiant DL360 Gen12)
 - DL365_Gen10Plus (ProLiant DL365 Gen10 Plus w/ HBA, 2 1.5TB disks for RAID1)
 - DL325_Gen10Plus_FC (ProLiant DL325 Gen10 Plus w/ FC)
+- DL340 (ProLiant DL340 Gen12 Xeon)
 - ... more to come
 
 <a name="running-the-emulator"></a>

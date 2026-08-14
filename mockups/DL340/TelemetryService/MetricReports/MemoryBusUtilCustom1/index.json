@@ -1,0 +1,254 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricReport.MetricReport",
+    "@odata.etag": "W/\"567629397\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReports/MemoryBusUtilCustom1",
+    "@odata.type": "#MetricReport.v1_0_0.MetricReport",
+    "Id": "MemoryBusUtilCustom1",
+    "Description": "Metric report of Memory Bus Utilization for 10 minutes with sensing interval of 20 seconds.",
+    "MetricReportDefinition": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/MemoryBusUtilCustom1"
+    },
+    "MetricValues": [
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:10:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:11:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:11:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:11:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:12:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:12:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:12:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:13:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:13:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:13:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:14:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:14:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:14:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:15:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:15:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:15:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:16:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:16:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:16:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:17:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:17:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:17:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:18:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:18:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:18:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "5",
+            "Timestamp": "2001-11-03T05:19:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:19:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:19:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:20:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+            },
+            "MetricId": "MemoryBusUtil",
+            "MetricValue": "0",
+            "Timestamp": "2001-11-03T05:20:27Z"
+        }
+    ],
+    "Name": "Metric report of Memory Bus Utilization for 10 minutes with sensing interval of 20 seconds."
+}

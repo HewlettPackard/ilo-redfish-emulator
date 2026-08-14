@@ -1,0 +1,58 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+    "@odata.etag": "W/\"4193099275\"",
+    "@odata.id": "/redfish/v1/Systems/1/Memory/proc1dimm10",
+    "@odata.type": "#Memory.v1_14_0.Memory",
+    "Id": "proc1dimm10",
+    "BaseModuleType": "RDIMM",
+    "BusWidthBits": 80,
+    "CacheSizeMiB": 0,
+    "CapacityMiB": 16384,
+    "DataWidthBits": 64,
+    "DeviceLocator": "PROC 1 DIMM 10",
+    "ErrorCorrection": "MultiBitECC",
+    "LogicalSizeMiB": 0,
+    "Manufacturer": "Hynix",
+    "MemoryDeviceType": "DDR5",
+    "MemoryLocation": {
+        "Channel": 1,
+        "MemoryController": 1,
+        "Slot": 10,
+        "Socket": 1
+    },
+    "MemoryMedia": [
+        "DRAM"
+    ],
+    "MemoryType": "DRAM",
+    "Name": "proc1dimm10",
+    "NonVolatileSizeMiB": 0,
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeMemoryExt.HpeMemoryExt",
+            "@odata.type": "#HpeMemoryExt.v2_5_0.HpeMemoryExt",
+            "BaseModuleType": "RDIMM",
+            "DIMMManufacturingDate": "2412",
+            "DIMMStatus": "GoodInUse",
+            "MaxOperatingSpeedMTs": 6400,
+            "MinimumVoltageVoltsX10": 11,
+            "PartNumber": "Unknown",
+            "VendorName": "SK Hynix"
+        }
+    },
+    "OperatingMemoryModes": [
+        "Volatile"
+    ],
+    "OperatingSpeedMhz": 6400,
+    "PartNumber": "HMCG78AHBRA477N",
+    "PersistentRegionSizeLimitMiB": 0,
+    "RankCount": 1,
+    "SecurityCapabilities": {},
+    "SerialNumber": "46C282A7",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "VendorID": "44288",
+    "VolatileRegionSizeLimitMiB": 16384,
+    "VolatileSizeMiB": 16384
+}

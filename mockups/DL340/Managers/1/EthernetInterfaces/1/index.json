@@ -1,0 +1,206 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+    "@odata.etag": "W/\"187677804\"",
+    "@odata.id": "/redfish/v1/Managers/1/EthernetInterfaces/1",
+    "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
+    "Id": "1",
+    "AutoNeg": true,
+    "DHCPv4": {
+        "DHCPEnabled": false,
+        "UseDNSServers": false,
+        "UseDomainName": false,
+        "UseGateway": false,
+        "UseNTPServers": false,
+        "UseStaticRoutes": false
+    },
+    "DHCPv6": {
+        "OperatingMode": "Stateful",
+        "UseDNSServers": false,
+        "UseDomainName": true,
+        "UseNTPServers": false,
+        "UseRapidCommit": false
+    },
+    "Description": "Configuration of this Manager Network Interface",
+    "FQDN": null,
+    "FullDuplex": null,
+    "HostName": "ILOSANJACSCM",
+    "IPv4Addresses": [
+        {
+            "Address": "10.225.124.103",
+            "AddressOrigin": "Static",
+            "Gateway": "10.225.120.1",
+            "SubnetMask": "255.255.248.0"
+        }
+    ],
+    "IPv4StaticAddresses": [
+        {
+            "Address": "10.225.124.103",
+            "Gateway": "10.225.120.1",
+            "SubnetMask": "255.255.248.0"
+        }
+    ],
+    "IPv6AddressPolicyTable": [
+        {
+            "Label": null,
+            "Precedence": 35,
+            "Prefix": "::ffff:0:0/96"
+        }
+    ],
+    "IPv6Addresses": [
+        {
+            "Address": "FE80::7EA6:2AFF:FE87:189C",
+            "AddressOrigin": "SLAAC",
+            "AddressState": "Preferred",
+            "PrefixLength": 64
+        }
+    ],
+    "IPv6DefaultGateway": "::",
+    "IPv6StaticAddresses": [
+        {
+            "Address": "::",
+            "PrefixLength": null
+        },
+        {
+            "Address": "::",
+            "PrefixLength": null
+        },
+        {
+            "Address": "::",
+            "PrefixLength": null
+        },
+        {
+            "Address": "::",
+            "PrefixLength": null
+        }
+    ],
+    "IPv6StaticDefaultGateways": [
+        {
+            "Address": "::"
+        }
+    ],
+    "InterfaceEnabled": true,
+    "LinkStatus": "LinkUp",
+    "Links": {
+        "Ports": [
+            {
+                "@odata.id": "/redfish/v1/Managers/1/DedicatedNetworkPorts/1"
+            }
+        ]
+    },
+    "MACAddress": "7C:A6:2A:87:18:9C",
+    "MaxIPv6StaticAddresses": 4,
+    "Name": "Manager Dedicated Network Interface",
+    "NameServers": [],
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOEthernetNetworkInterface.HpeiLOEthernetNetworkInterface",
+            "@odata.type": "#HpeiLOEthernetNetworkInterface.v2_4_0.HpeiLOEthernetNetworkInterface",
+            "ConfigurationSettings": "Current",
+            "DHCPv4": {
+                "ClientIdType": "Default",
+                "Enabled": false,
+                "UseDNSServers": false,
+                "UseDomainName": false,
+                "UseGateway": false,
+                "UseNTPServers": false,
+                "UseStaticRoutes": false,
+                "UseWINSServers": false
+            },
+            "DHCPv6": {
+                "StatefulModeEnabled": true,
+                "StatelessModeEnabled": true,
+                "UseDNSServers": false,
+                "UseDomainName": true,
+                "UseNTPServers": false,
+                "UseRapidCommit": false
+            },
+            "DomainName": "",
+            "HostName": "ILOSANJACSCM",
+            "IPv4": {
+                "DDNSRegistration": true,
+                "DNSServers": [
+                    "0.0.0.0",
+                    "0.0.0.0",
+                    "0.0.0.0"
+                ],
+                "StaticRoutes": [
+                    {
+                        "Destination": "0.0.0.0",
+                        "Gateway": "0.0.0.0",
+                        "SubnetMask": "0.0.0.0"
+                    },
+                    {
+                        "Destination": "0.0.0.0",
+                        "Gateway": "0.0.0.0",
+                        "SubnetMask": "0.0.0.0"
+                    },
+                    {
+                        "Destination": "0.0.0.0",
+                        "Gateway": "0.0.0.0",
+                        "SubnetMask": "0.0.0.0"
+                    }
+                ],
+                "WINSRegistration": false,
+                "WINSServers": [
+                    "0.0.0.0",
+                    "0.0.0.0"
+                ]
+            },
+            "IPv6": {
+                "DDNSRegistration": false,
+                "DNSServers": [
+                    "::",
+                    "::",
+                    "::"
+                ],
+                "SLAACEnabled": true,
+                "StaticDefaultGateway": "::",
+                "StaticRoutes": [
+                    {
+                        "Destination": "::",
+                        "Gateway": "::",
+                        "PrefixLength": null,
+                        "Status": "Unknown"
+                    },
+                    {
+                        "Destination": "::",
+                        "Gateway": "::",
+                        "PrefixLength": null,
+                        "Status": "Unknown"
+                    },
+                    {
+                        "Destination": "::",
+                        "Gateway": "::",
+                        "PrefixLength": null,
+                        "Status": "Unknown"
+                    }
+                ]
+            },
+            "InterfaceType": "Dedicated",
+            "NICEnabled": true,
+            "NICSupportsIPv6": true,
+            "PingGatewayOnStartup": true
+        }
+    },
+    "PermanentMACAddress": "7C:A6:2A:87:18:9C",
+    "SpeedMbps": 1000,
+    "StatelessAddressAutoConfig": {
+        "IPv6AutoConfigEnabled": true
+    },
+    "StaticNameServers": [
+        "0.0.0.0",
+        "0.0.0.0",
+        "0.0.0.0",
+        "::",
+        "::",
+        "::"
+    ],
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "VLAN": {
+        "VLANEnable": false,
+        "VLANId": null
+    }
+}

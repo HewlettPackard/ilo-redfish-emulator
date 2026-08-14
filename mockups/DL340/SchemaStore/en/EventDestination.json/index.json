@@ -1,0 +1,139 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "EventDestination",
+    "additionalProperties": false,
+    "copyright": "Copyright 2014-2025 Hewlett Packard Enterprise Development LP.  Portions Copyright 2014-2025 DMTF. All rights reserved.",
+    "description": "The EventDestination resource describes the target of an event subscription, including the types of events subscribed and context to provide to the target in the Event payload.",
+    "private": false,
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Context": {
+            "description": "A client-supplied string that is stored with the listener destination subscription.",
+            "etag": true,
+            "readonly": false,
+            "type": "string"
+        },
+        "Description": {
+            "$ref": "Resource.json#/definitions/Description"
+        },
+        "Destination": {
+            "description": "The URI of the destination listener service.",
+            "displayname": "Destination",
+            "etag": true,
+            "format": "uri-reference",
+            "readonly": false,
+            "type": "string"
+        },
+        "RegistryPrefixes": {
+            "description": "The list of the prefixes of the message registries that can be used for the RegistryPrefix property on a subscription.  If this property is absent or contains an empty array, the service does not support RegistryPrefix-based subscriptions.",
+            "displayname": "RegistryPrefixes",
+            "items": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "longDescription": "This property shall contain the array of the prefixes of the message registries that shall be allowed for an event subscription.",
+            "readonly": false,
+            "type": "array"
+        },
+        "HttpHeaders": {
+            "description": "This is for setting HTTP headers, such as authorization information.  This object will be null on a GET.",
+            "displayname": "HttpHeaders",
+            "etag": true,
+            "items": {
+                "patternProperties": {
+                    "^[^:\\s]+$": {
+                        "etag": true,
+                        "type": "string"
+                    }
+                },
+                "readonly": false,
+                "type": [
+                    "object",
+                    "null"
+                ]
+            },
+            "readonly": false,
+            "type": "array"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "Oem": {
+            "additionalProperties": true,
+            "properties": {
+                "Hpe": {
+                    "$ref": "HpeEventDestination.json#",
+                    "readonly": false
+                }
+            },
+            "readonly": false,
+            "type": "object"
+        },
+        "Protocol": {
+            "description": "The protocol type of the event connection.",
+            "enum": [
+                "Redfish"
+            ],
+            "longDescription": "This property shall contain the protocol type that the event will use for sending the event to the destination.  A value of Redfish shall be used to indicate that the event type shall adhere to that defined in the Redfish specification.",
+            "readonly": true,
+            "type": "string"
+        },
+        "EventFormatType": {
+            "description": "The content types of the message that are sent to the EventDestination.",
+            "longDescription": "This property shall indicate the content types of the message that this service sends to the EventDestination.  If this property is not present, the EventFormatType shall be assumed to be Event.",
+            "enum": [
+                "Event",
+                "MetricReport"
+            ],
+            "readonly": false,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "MetricReportDefinitions": {
+            "additionalProperties": false,
+            "description": "A list of metric report definitions for which the service only sends related metric reports.  If this property is absent or the array is empty, metric reports that originate from any metric report definition are sent to the subscriber.",
+            "items": {
+                "properties": {
+                    "@odata.id": {
+                        "$ref": "Resource.json#/definitions/odataid"
+                    }
+                },
+                "type": "object"
+            },
+            "readonly": false,
+            "type": "array"
+        },
+        "SubscriptionType": {
+            "description": "The subscription type for events.",
+            "longDescription": "This property shall indicate the type of subscription for events.  If this property is not present, the SubscriptionType shall be assumed to be RedfishEvent.",
+            "enum": [
+                "RedfishEvent"
+            ],
+            "readonly": true,
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "title": "#EventDestination.v1_13_0.EventDestination",
+    "type": "object"
+}

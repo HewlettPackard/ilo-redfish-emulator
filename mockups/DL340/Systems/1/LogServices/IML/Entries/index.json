@@ -1,0 +1,307 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "W/\"3559766623\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Integrated Management Logs view",
+    "Name": "Integrated Management Logs view",
+    "Members": [
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/1",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "1",
+            "Created": "2025-03-01T00:00:44Z",
+            "EntryType": "Oem",
+            "Message": "Invalid Server Serial Number and Product ID - The Serial Number and/or Product ID have been corrupted or lost.",
+            "MessageArgs": [],
+            "MessageId": "10.642",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 642,
+                    "Count": 1,
+                    "EventNumber": 1,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x0282-gen11",
+                    "RecommendedAction": "Enter the correct values for these fields in Platform Configuration (RBSU).",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-03-01T00:00:44Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/2",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "2",
+            "Created": "2025-03-01T00:01:04Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Hardware installed.",
+            "MessageArgs": [],
+            "MessageId": "2.45",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 45,
+                    "Count": 1,
+                    "EventNumber": 2,
+                    "RecommendedAction": "No action required if this hardware addition is expected.",
+                    "Severity": "Informational",
+                    "Updated": "2025-03-01T00:01:04Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/3",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "3",
+            "Created": "2025-03-01T00:13:40Z",
+            "EntryType": "Oem",
+            "Message": "Invalid Server Serial Number and Product ID - The Serial Number and/or Product ID have been corrupted or lost.",
+            "MessageArgs": [],
+            "MessageId": "10.642",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 642,
+                    "Count": 1,
+                    "EventNumber": 3,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x0282-gen11",
+                    "RecommendedAction": "Enter the correct values for these fields in Platform Configuration (RBSU).",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-03-01T00:13:40Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/4",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "4",
+            "Created": "2025-03-01T00:38:26Z",
+            "EntryType": "Oem",
+            "Message": "Intrusion Alert Detection - The server chassis hood was removed Alert detection timestamp 2025-3-1T0:33:45.",
+            "MessageArgs": [],
+            "MessageId": "2.113",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware"
+                    ],
+                    "Class": 2,
+                    "ClassDescription": "Environment",
+                    "Code": 113,
+                    "Count": 1,
+                    "EventNumber": 4,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0002code0x0071-gen11",
+                    "RecommendedAction": "Ensure that the server chassis hood was intentionally removed and that the server is secure.",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-03-01T00:38:26Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/5",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "5",
+            "Created": "2025-03-01T00:38:34Z",
+            "EntryType": "Oem",
+            "Message": "Invalid Server Serial Number and Product ID - The Serial Number and/or Product ID have been corrupted or lost.",
+            "MessageArgs": [],
+            "MessageId": "10.642",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 642,
+                    "Count": 1,
+                    "EventNumber": 5,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x0282-gen11",
+                    "RecommendedAction": "Enter the correct values for these fields in Platform Configuration (RBSU).",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-03-01T00:38:34Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/6",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "6",
+            "Created": "2025-03-01T00:39:10Z",
+            "EntryType": "Oem",
+            "Message": "HPM authentication failed. Reason: HPM binding not performed, component integrity policy set as No policy.",
+            "MessageArgs": [],
+            "MessageId": "35.17758",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Security",
+                        "Hardware",
+                        "Administration"
+                    ],
+                    "Class": 35,
+                    "ClassDescription": "iLO 7",
+                    "Code": 17758,
+                    "Count": 1,
+                    "EventNumber": 6,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0023code0x455e-gen11",
+                    "RecommendedAction": "1. Perform AC power cycle.\n2. Upgrade the firmware of the component.\n3. Contact HPE service customer care.",
+                    "Repaired": false,
+                    "Severity": "Critical",
+                    "Updated": "2025-03-01T00:39:10Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/7",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "7",
+            "Created": "2025-03-01T06:01:01Z",
+            "EntryType": "Oem",
+            "Message": "Invalid Server Serial Number and Product ID - The Serial Number and/or Product ID have been corrupted or lost.",
+            "MessageArgs": [],
+            "MessageId": "10.642",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 642,
+                    "Count": 1,
+                    "EventNumber": 7,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x000acode0x0282-gen11",
+                    "RecommendedAction": "Enter the correct values for these fields in Platform Configuration (RBSU).",
+                    "Repaired": false,
+                    "Severity": "Caution",
+                    "Updated": "2025-03-01T06:01:01Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Warning"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/8",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "8",
+            "Created": "2025-03-01T06:01:55Z",
+            "EntryType": "Oem",
+            "Message": "Invalid Server Serial Number and Product ID - The Serial Number and/or Product ID have been corrupted or lost.",
+            "MessageArgs": [],
+            "MessageId": "10.642",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Administration"
+                    ],
+                    "Class": 10,
+                    "ClassDescription": "UEFI",
+                    "Code": 642,
+                    "Count": 1,
+                    "EventNumber": 8,
+                    "RecommendedAction": "Enter the correct values for these fields in Platform Configuration (RBSU).",
+                    "Severity": "Informational",
+                    "Updated": "2025-03-01T06:01:55Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "OK"
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+            "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/9",
+            "@odata.type": "#LogEntry.v1_11_0.LogEntry",
+            "Id": "9",
+            "Created": "2025-03-01T06:01:55Z",
+            "EntryType": "Oem",
+            "Message": "iLO FW Communication Issue - Unable to communicate with iLO FW. Certain management functionality is not available.",
+            "MessageArgs": [],
+            "MessageId": "50.624",
+            "Name": "Integrated Management Log",
+            "Oem": {
+                "Hpe": {
+                    "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+                    "@odata.type": "#HpeLogEntry.v2_4_0.HpeLogEntry",
+                    "Categories": [
+                        "Firmware"
+                    ],
+                    "Class": 50,
+                    "ClassDescription": "UEFI",
+                    "Code": 624,
+                    "Count": 1,
+                    "EventNumber": 9,
+                    "LearnMoreLink": "http://www.hpe.com/support/class0x0032code0x0270-gen11",
+                    "RecommendedAction": "Remove power. If issue persists, update iLO FW. If issue still persists, call HPE service.",
+                    "Repaired": false,
+                    "Severity": "Critical",
+                    "Updated": "2025-03-01T06:01:55Z"
+                }
+            },
+            "OemRecordFormat": "Hpe-IML",
+            "Severity": "Critical"
+        }
+    ],
+    "Members@odata.count": 9
+}

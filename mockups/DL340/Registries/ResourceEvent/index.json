@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MessageRegistryFile.MessageRegistryFile",
+    "@odata.etag": "W/\"789235546\"",
+    "@odata.id": "/redfish/v1/Registries/ResourceEvent",
+    "@odata.type": "#MessageRegistryFile.v1_0_4.MessageRegistryFile",
+    "Id": "ResourceEvent",
+    "Description": "Registry Definition File for ResourceEvent",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/RegistryStore/registries/en/ResourceEvent.json"
+        }
+    ],
+    "Name": "ResourceEvent Message Registry File",
+    "Registry": "ResourceEvent.1.2.1"
+}

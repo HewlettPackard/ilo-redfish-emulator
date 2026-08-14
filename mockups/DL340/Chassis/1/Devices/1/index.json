@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"4052712844\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/1",
+    "@odata.type": "#HpeServerDevice.v2_1_0.HpeServerDevice",
+    "Id": "1",
+    "ComponentIntegrityStatus": "Unsupported",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/2"
+        }
+    ],
+    "DeviceType": "LOM/NIC",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "20.27.42"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/6"
+        }
+    },
+    "Location": "OCP Slot A",
+    "Manufacturer": "Broadcom",
+    "Name": "BCM 5719 1Gb 4p BASE-T OCP Adptr",
+    "PartNumber": "BCM95719N1905HC",
+    "ProductPartNumber": "P51183-001",
+    "ProductVersion": "A1",
+    "SerialNumber": "VNM4490CN7",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

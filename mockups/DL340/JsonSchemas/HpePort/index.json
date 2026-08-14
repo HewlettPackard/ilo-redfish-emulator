@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"469599789\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/HpePort",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "HpePort",
+    "Description": "Schema Definition File for HpePort",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/HpePort.json"
+        }
+    ],
+    "Name": "HpePort Schema Definition File",
+    "Schema": "#HpePort.v1_0_2.HpePort"
+}

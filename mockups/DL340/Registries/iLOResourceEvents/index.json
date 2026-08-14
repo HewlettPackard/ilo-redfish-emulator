@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MessageRegistryFile.MessageRegistryFile",
+    "@odata.etag": "W/\"3805627737\"",
+    "@odata.id": "/redfish/v1/Registries/iLOResourceEvents",
+    "@odata.type": "#MessageRegistryFile.v1_0_4.MessageRegistryFile",
+    "Id": "iLOResourceEvents",
+    "Description": "Registry Definition File for iLOResourceEvents",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/RegistryStore/registries/en/iLOResourceEvents.json"
+        }
+    ],
+    "Name": "iLOResourceEvents Message Registry File",
+    "Registry": "iLOResourceEvents.7.1.0"
+}

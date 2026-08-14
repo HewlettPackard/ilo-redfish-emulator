@@ -1,0 +1,112 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "HpeiLOAppAccount",
+    "additionalProperties": false,
+    "copyright": "Copyright 2024-2025 Hewlett Packard Enterprise Development LP.  Portions Copyright 2024-2025 DMTF. All rights reserved.",
+    "description": "The application accounts, owned by a host applications, are defined in this resource.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Description": {
+            "$ref": "Resource.json#/definitions/Description"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "Privileges": {
+            "additionalProperties": false,
+            "description": "This is a list of the account privileges available to the user.",
+            "properties": {
+                "HostBIOSConfigPriv": {
+                    "description": "This privilege enables a user to configure Host Bios Settings.",
+                    "etag": true,
+                    "readonly": true,
+                    "type": "boolean"
+                },
+                "HostNICConfigPriv": {
+                    "description": "This privilege enables a user to configure Host NIC Settings.",
+                    "etag": true,
+                    "readonly": true,
+                    "type": "boolean"
+                },
+                "HostStorageConfigPriv": {
+                    "description": "This privilege enables a user to configure Host Storage Settings.",
+                    "etag": true,
+                    "readonly": true,
+                    "type": "boolean"
+                },
+                "LoginPriv": {
+                    "description": "This privilege enables a user to log in to management processor. All local accounts have the login privilege. This privilege is added automatically if it is not specified.",
+                    "etag": true,
+                    "readonly": true,
+                    "type": "boolean"
+                },
+                "RemoteConsolePriv": {
+                    "description": "This privilege enables a user to remotely access the host system Remote Console, including video, keyboard, and mouse control.",
+                    "etag": true,
+                    "readonly": true,
+                    "type": "boolean"
+                },
+                "SystemRecoveryConfigPriv": {
+                    "description": "This privilege enables a user to manage the critical recovery firmware images on the iLO Repository.",
+                    "etag": true,
+                    "readonly": true,
+                    "type": "boolean"
+                },
+                "UserConfigPriv": {
+                    "description": "This privilege enables a user to add, edit, and delete local management processor user accounts. A user with this privilege can change privileges for all users.",
+                    "etag": true,
+                    "readonly": true,
+                    "type": "boolean"
+                },
+                "VirtualMediaPriv": {
+                    "description": "This privilege enables a user to use the Virtual Media feature on the host system.",
+                    "etag": true,
+                    "readonly": true,
+                    "type": "boolean"
+                },
+                "VirtualPowerAndResetPriv": {
+                    "description": "This privilege enables a user to power-cycle or reset the host system. These activities interrupt system availability. A user with this privilege can diagnose the system by using the Generate NMI to System button.",
+                    "etag": true,
+                    "readonly": true,
+                    "type": "boolean"
+                },
+                "iLOConfigPriv": {
+                    "description": "This privilege enables a user to configure most management processor settings, including security settings, and to remotely update the management processor firmware. This privilege does not enable local user account administration.",
+                    "etag": true,
+                    "readonly": true,
+                    "type": "boolean"
+                }
+            },
+            "readonly": true,
+            "type": "object"
+        },
+        "HostAppId": {
+            "description": "This property contains the host application ID for this account.",
+            "readonly": false,
+            "type": "string"
+        },
+        "HostAppName": {
+            "description": "The name used to log in to the management processor. This property contains the host application name for this account.",
+            "etag": true,
+            "readonly": false,
+            "type": "string"
+        }
+    },
+    "readonly": false,
+    "title": "#HpeiLOAppAccount.v1_0_0.HpeiLOAppAccount",
+    "type": "object"
+}

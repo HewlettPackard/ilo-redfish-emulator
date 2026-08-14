@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"00505419\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/PumpCollection",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "PumpCollection",
+    "Description": "Schema Definition File for PumpCollection",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/PumpCollection.json"
+        }
+    ],
+    "Name": "PumpCollection Schema Definition File",
+    "Schema": "#PumpCollection.PumpCollection"
+}

@@ -1,0 +1,154 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "ManagerAccount",
+    "additionalProperties": false,
+    "copyright": "Copyright 2014-2025 Hewlett Packard Enterprise Development LP.  Portions Copyright 2014-2025 DMTF. All rights reserved.",
+    "description": "The user accounts, owned by a Manager, are defined in this resource.  Changes to a Manager Account may affect the current Redfish service connection if this manager is responsible for the Redfish service.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Description": {
+            "$ref": "Resource.json#/definitions/Description"
+        },
+        "AccountTypes": {
+            "description": "The list of services in the manager that the account is allowed to access.",
+            "items": {
+                "enum": [
+                    "Redfish",
+                    "SNMP",
+                    "OEM",
+                    "HostConsole",
+                    "ManagerConsole",
+                    "IPMI",
+                    "KVMIP",
+                    "VirtualMedia",
+                    "WebUI"
+                ],
+                "enumDescriptions": {
+                    "HostConsole": "Allow access to the host's console, which could be connected through Telnet, SSH, or another protocol.",
+                    "IPMI": "Allow access to the Intelligent Platform Management Interface service.",
+                    "KVMIP": "Allow access to a Keyboard-Video-Mouse over IP session.",
+                    "ManagerConsole": "Allow access to the manager's console, which could be connected through Telnet, SSH, SM CLP, or another protocol.",
+                    "OEM": "OEM account type.  See the `OEMAccountTypes` property.",
+                    "Redfish": "Allow access to the Redfish service.",
+                    "SNMP": "Allow access to SNMP services.",
+                    "VirtualMedia": "Allow access to control virtual media.",
+                    "WebUI": "Allow access to a web user interface session, such as a graphical interface or another web-based protocol."
+                },
+                "enumLongDescriptions": {
+                    "HostConsole": "This value shall indicate the account is allowed to access the host console.",
+                    "IPMI": "This value shall indicate the account is allowed to access the Intelligent Platform Management Interface service.",
+                    "KVMIP": "This value shall indicate the account is allowed to access the Keyboard-Video-Mouse over IP session service.",
+                    "ManagerConsole": "This value shall indicate the account is allowed to access the manager console.",
+                    "OEM": "This value shall indicate the account is allowed to access the services listed in the `OEMAccountTypes` property.",
+                    "Redfish": "This value shall indicate the account is allowed to access Redfish services.  If the version of the `ManagerAccount` resource is lower than the schema version when another enumeration value in this list was added, the implementation may include that functionality as part of the `Redfish` value.",
+                    "SNMP": "This value shall indicate the account is allowed to access SNMP services.",
+                    "VirtualMedia": "This value shall indicate the account is allowed to control virtual media.",
+                    "WebUI": "This value shall indicate the account is allowed to access the web interface."
+                },
+                "enumVersionAdded": {
+                    "HostConsole": "v1_7_0",
+                    "IPMI": "v1_7_0",
+                    "KVMIP": "v1_7_0",
+                    "ManagerConsole": "v1_7_0",
+                    "VirtualMedia": "v1_7_0",
+                    "WebUI": "v1_7_0"
+                },
+                "type": "string"
+            },
+            "longDescription": "This property shall contain an array of the various manager services that the account is allowed to access.  This shall not include functionality for receiving events or other notifications.  If this property is not provided by the client, the default value shall be an array that contains the value `Redfish`.  The service may add additional values when this property is set or updated if allowed by the value of the StrictAccountTypes property.",
+            "readonly": false,
+            "type": "array",
+            "versionAdded": "v1_4_0"
+        },
+        "Enabled": {
+            "description": "An indication of whether an account is enabled.  An administrator can disable it without deleting the user information.  If `true`, the account is enabled and the user can log in.  If `false`, the account is disabled and, in the future, the user cannot log in.",
+            "readonly": false,
+            "type": "boolean"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "Keys": {
+            "description": "The link to the collection of keys that can be used to authenticate this account.  For example, an SSH public key could be added to this collection to allow for SSH public key authentication.",
+            "longDescription": "This property shall contain a link to a resource collection of type KeyCollection that contains the keys that can be used to authenticate this account.",
+            "properties": {
+                "@odata.id": {
+                    "$ref": "Resource.json#/definitions/odataid"
+                }
+            },
+            "readonly": true,
+            "type": "object",
+            "versionAdded": "v1_9_0"
+        },
+        "Links": {
+            "additionalProperties": false,
+            "description": "Contains references to other resources that are related to this resource.",
+            "properties": {
+                "Role": {
+                    "description": "A reference to the Role object defining Privileges for this account--returned when the resource is read. The ID of the role is the same as property RoleId.",
+                    "properties": {
+                        "@odata.id": {
+                            "$ref": "Resource.json#/definitions/odataid"
+                        }
+                    },
+                    "readonly": true,
+                    "type": "object"
+                }
+            },
+            "type": "object"
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "Oem": {
+            "additionalProperties": true,
+            "properties": {
+                "Hpe": {
+                    "$ref": "HpeiLOAccount.json#",
+                    "readonly": false
+                }
+            },
+            "readonly": false,
+            "type": "object"
+        },
+        "Password": {
+            "description": "The password used to log in to the management processor. The maximum length for a password is 39 characters. The minimum length for a password is specified in the MinPasswordLength property of the AccountService schema.",
+            "etag": false,
+            "readonly": false,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "PasswordChangeRequired": {
+            "description": "Indicates that the password for this account must be changed. The service requires the password to be changed before access is allowed.",
+            "readonly": true,
+            "type": "boolean"
+        },
+        "RoleId": {
+            "description": "This property contains the name of the Role for this account.",
+            "readonly": false,
+            "type": "string"
+        },
+        "UserName": {
+            "description": "The name used to log in to the management processor. The user name does not have to be the same as the login name. The maximum length for the user name is 39 characters. The user name must use printable characters.",
+            "etag": true,
+            "readonly": false,
+            "type": "string"
+        }
+    },
+    "readonly": false,
+    "title": "#ManagerAccount.v1_12_1.ManagerAccount",
+    "type": "object"
+}

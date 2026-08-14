@@ -1,0 +1,479 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "Sensor",
+    "additionalProperties": false,
+    "copyright": "Copyright 2024-2025 Hewlett Packard Enterprise Development LP.  Portions Copyright 2024-2025 DMTF. All rights reserved.",
+    "description": "The Sensor schema describes a sensor and its properties.",
+    "longDescription": "This resource shall represent a sensor for a Redfish implementation.",
+    "definitions": {
+        "SensorExcerpt": {
+            "additionalProperties": false,
+            "properties": {
+                "DataSourceUri": {
+                    "description": "The link to the resource that provides the data for this sensor.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "Reading": {
+                    "description": "The sensor value",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                }
+            },
+            "readonly": false,
+            "type": "object"
+        },
+        "SensorFanExcerpt": {
+            "additionalProperties": false,
+            "properties": {
+                "DataSourceUri": {
+                    "description": "The link to the resource that provides the data for this sensor.",
+                    "longDescription": "This property shall contain a URI to the resource that provides the source of the excerpt contained within this copy.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "Reading": {
+                    "description": "The sensor value",
+                    "longDescription": "This property shall contain the sensor value.",
+                    "readonly": true,
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "SpeedRPM": {
+                    "description": "The rotational speed.",
+                    "longDescription": "This property shall contain a reading of the rotational speed of the device in revolutions per minute (RPM) units.",
+                    "readonly": true,
+                    "type": [
+                        "number",
+                        "null"
+                    ],
+                    "units": "{rev}/min"
+                }
+            },
+            "readonly": false,
+            "type": "object"
+        },
+        "SensorPumpExcerpt": {
+            "additionalProperties": false,
+            "properties": {
+                "DataSourceUri": {
+                    "description": "The link to the resource that provides the data for this sensor.",
+                    "longDescription": "This property shall contain a URI to the resource that provides the source of the excerpt contained within this copy.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "Reading": {
+                    "description": "The sensor value.",
+                    "longDescription": "This property shall contain the sensor value.",
+                    "readonly": true,
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "SpeedRPM": {
+                    "description": "The rotational speed.",
+                    "longDescription": "This property shall contain a reading of the rotational speed of the device in revolutions per minute (RPM) units.",
+                    "readonly": true,
+                    "type": [
+                        "number",
+                        "null"
+                    ],
+                    "units": "{rev}/min"
+                }
+            },
+            "type": "object"
+        },
+        "SensorPowerExcerpt": {
+            "additionalProperties": false,
+            "properties": {
+                "Reading": {
+                    "description": "The sensor value",
+                    "longDescription": "This property shall contain the sensor value.",
+                    "readonly": true,
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                }
+            },
+            "type": "object"
+        }
+    },
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Description": {
+            "$ref": "Resource.json#/definitions/Description",
+            "readonly": true
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id",
+            "readonly": true
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name",
+            "readonly": true
+        },
+        "Oem": {
+            "additionalProperties": true,
+            "properties": {
+                "Hpe": {
+                    "$ref": "HpeSeaOfSensors.json#"
+                }
+            },
+            "type": "object"
+        },
+        "PhysicalContext": {
+            "$ref": "Resource.json#/definitions/PhysicalContext",
+            "description": "The area or device to which this sensor measurement applies.",
+            "excerpt": "SensorArray,SensorFanArray,SensorPowerArray",
+            "longDescription": "This property shall contain a description of the affected component or region within the equipment to which this sensor measurement applies.",
+            "readonly": true
+        },
+        "Reading": {
+            "description": "The sensor value.",
+            "excerpt": "Sensor",
+            "longDescription": "This property shall contain the sensor value.",
+            "readonly": true,
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "Status": {
+            "$ref": "Resource.json#/definitions/Status",
+            "description": "The status and health of the resource and its subordinate or dependent resources.",
+            "longDescription": "This property shall contain any status or health properties of the resource."
+        },
+        "Thresholds": {
+            "additionalProperties": false,
+            "description": "The set of thresholds defined for a sensor.",
+            "longDescription": "This object shall contain the set of thresholds that derive a sensor's health and operational range.",
+            "properties": {
+                "LowerCritical": {
+                    "description": "The value at which the reading is below normal range but not yet fatal.",
+                    "longDescription": "This property shall contain the value at which the `Reading` property is below the normal range but is not yet fatal.  The value of the property shall use the same units as the `Reading` property.",
+                    "properties": {
+                        "Activation": {
+                            "description": "The direction of crossing that activates this threshold.",
+                            "enum": [
+                                "Increasing",
+                                "Decreasing",
+                                "Either"
+                            ],
+                            "enumDescriptions": {
+                                "Decreasing": "Value decreases below the threshold.",
+                                "Either": "Value crosses the threshold in either direction.",
+                                "Increasing": "Value increases above the threshold."
+                            },
+                            "enumLongDescriptions": {
+                                "Decreasing": "This threshold is activated when the value of Reading changes from a value higher than the threshold to a value lower than the threshold.",
+                                "Either": "This threshold is activated when either the Increasing or Decreasing conditions are met.",
+                                "Increasing": "This threshold is activated when the value of Reading changes from a value lower than the threshold to a value higher than the threshold."
+                            },
+                            "longDescription": "This property shall indicate the direction of crossing of the Reading valuefor this Sensor that triggers the threshold.",
+                            "type": "string"
+                        },
+                        "DwellTime": {
+                            "description": "The time interval over which the sensor reading must have passed through this Threshold value before the threshold is considered to be violated.",
+                            "longDescription": "This property shall indicate the time interval over which the sensor reading must have passed through this Threshold value before the threshold is considered to be violated.",
+                            "pattern": "-?P(\\d+D)?(T(\\d+H)?(\\d+M)?(\\d+(.\\d+)?S)?)?",
+                            "readonly": false,
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "Reading": {
+                            "description": "The threshold value.",
+                            "longDescription": "This property shall indicate the Reading value of this Sensor that triggers the threshold.  The units of this property shall follow the same units as the property described by MetricProperties.",
+                            "readonly": false,
+                            "type": [
+                                "integer",
+                                "null"
+                            ]
+                        }
+                    },
+                    "readonly": false,
+                    "type": [
+                        "object",
+                        "null"
+                    ]
+                },
+                "LowerCaution": {
+                    "description": "The value at which the reading is below normal range.",
+                    "longDescription": "This property shall contain the value at which the `Reading` property is below normal range.  The value of the property shall use the same units as the `Reading` property.",
+                    "properties": {
+                        "Activation": {
+                            "description": "The direction of crossing that activates this threshold.",
+                            "enum": [
+                                "Increasing",
+                                "Decreasing",
+                                "Either"
+                            ],
+                            "enumDescriptions": {
+                                "Decreasing": "Value decreases below the threshold.",
+                                "Either": "Value crosses the threshold in either direction.",
+                                "Increasing": "Value increases above the threshold."
+                            },
+                            "enumLongDescriptions": {
+                                "Decreasing": "This threshold is activated when the value of Reading changes from a value higher than the threshold to a value lower than the threshold.",
+                                "Either": "This threshold is activated when either the Increasing or Decreasing conditions are met.",
+                                "Increasing": "This threshold is activated when the value of Reading changes from a value lower than the threshold to a value higher than the threshold."
+                            },
+                            "longDescription": "This property shall indicate the direction of crossing of the Reading value for this Sensor that triggers the threshold.",
+                            "type": "string"
+                        },
+                        "DwellTime": {
+                            "description": "The time interval over which the sensor reading must have passed through this Threshold value before the threshold is considered to be violated.",
+                            "longDescription": "This property shall indicate the time interval over which the sensor reading must have passed through this Threshold value before the threshold is considered to be violated.",
+                            "pattern": "-?P(\\d+D)?(T(\\d+H)?(\\d+M)?(\\d+(.\\d+)?S)?)?",
+                            "readonly": false,
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "Reading": {
+                            "description": "The threshold value.",
+                            "longDescription": "This property shall indicate the Reading value of this Sensor that triggers the threshold.  The units of this property shall follow the same units as the property described by MetricProperties.",
+                            "readonly": false,
+                            "type": [
+                                "integer",
+                                "null"
+                            ]
+                        }
+                    },
+                    "readonly": false,
+                    "type": [
+                        "object",
+                        "null"
+                    ]
+                },
+                "UpperCritical": {
+                    "description": "The value at which the reading is above normal range but not yet fatal.",
+                    "longDescription": "This property shall contain the value at which the `Reading` property is above the normal range but is not yet fatal.  The value of the property shall use the same units as the `Reading` property.",
+                    "properties": {
+                        "Activation": {
+                            "description": "The direction of crossing that activates this threshold.",
+                            "enum": [
+                                "Increasing",
+                                "Decreasing",
+                                "Either"
+                            ],
+                            "enumDescriptions": {
+                                "Decreasing": "Value decreases below the threshold.",
+                                "Either": "Value crosses the threshold in either direction.",
+                                "Increasing": "Value increases above the threshold."
+                            },
+                            "enumLongDescriptions": {
+                                "Decreasing": "This threshold is activated when the value of Reading changes from a value higher than the threshold to a value lower than the threshold.",
+                                "Either": "This threshold is activated when either the Increasing or Decreasing conditions are met.",
+                                "Increasing": "This threshold is activated when the value of Reading changes from a value lower than the threshold to a value higher than the threshold."
+                            },
+                            "longDescription": "This property shall indicate the direction of crossing of the Reading value for this Sensor that triggers the threshold.",
+                            "type": "string"
+                        },
+                        "DwellTime": {
+                            "description": "The time interval over which the sensor reading must have passed through this Threshold value before the threshold is considered to be violated.",
+                            "longDescription": "This property shall indicate the time interval over which the sensor reading must have passed through this Threshold value before the threshold is considered to be violated.",
+                            "pattern": "-?P(\\d+D)?(T(\\d+H)?(\\d+M)?(\\d+(.\\d+)?S)?)?",
+                            "readonly": false,
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "Reading": {
+                            "description": "The threshold value.",
+                            "longDescription": "This property shall indicate the Reading value of this Sensor that triggers the threshold.  The units of this property shall follow the same units as the property described by MetricProperties.",
+                            "readonly": false,
+                            "type": [
+                                "integer",
+                                "null"
+                            ]
+                        }
+                    },
+                    "readonly": false,
+                    "type": [
+                        "object",
+                        "null"
+                    ]
+                },
+                "UpperCaution": {
+                    "description": "The value at which the reading is above normal range.",
+                    "longDescription": "This property shall contain the value at which the `Reading` property is above the normal range.  The value of the property shall use the same units as the `Reading` property.",
+                    "properties": {
+                        "Activation": {
+                            "description": "The direction of crossing that activates this threshold.",
+                            "enum": [
+                                "Increasing",
+                                "Decreasing",
+                                "Either"
+                            ],
+                            "enumDescriptions": {
+                                "Decreasing": "Value decreases below the threshold.",
+                                "Either": "Value crosses the threshold in either direction.",
+                                "Increasing": "Value increases above the threshold."
+                            },
+                            "enumLongDescriptions": {
+                                "Decreasing": "This threshold is activated when the value of Reading changes from a value higher than the threshold to a value lower than the threshold.",
+                                "Either": "This threshold is activated when either the Increasing or Decreasing conditions are met.",
+                                "Increasing": "This threshold is activated when the value of Reading changes from a value lower than the threshold to a value higher than the threshold."
+                            },
+                            "longDescription": "This property shall indicate the direction of crossing of the Reading value for this Sensor that triggers the threshold.",
+                            "type": "string"
+                        },
+                        "DwellTime": {
+                            "description": "The time interval over which the sensor reading must have passed through this Threshold value before the threshold is considered to be violated.",
+                            "longDescription": "This property shall indicate the time interval over which the sensor reading must have passed through this Threshold value before the threshold is considered to be violated.",
+                            "pattern": "-?P(\\d+D)?(T(\\d+H)?(\\d+M)?(\\d+(.\\d+)?S)?)?",
+                            "readonly": false,
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "Reading": {
+                            "description": "The threshold value.",
+                            "longDescription": "This property shall indicate the Reading value of this Sensor that triggers the threshold.  The units of this property shall follow the same units as the property described by MetricProperties.",
+                            "readonly": false,
+                            "type": [
+                                "integer",
+                                "null"
+                            ]
+                        }
+                    },
+                    "readonly": false,
+                    "type": [
+                        "object",
+                        "null"
+                    ]
+                },
+                "UpperFatal": {
+                    "description": "The value at which the reading is above normal range and fatal.",
+                    "longDescription": "This property shall contain the value at which the `Reading` property is above the normal range and fatal.  The value of the property shall use the same units as the `Reading` property.",
+                    "properties": {
+                        "Activation": {
+                            "description": "The direction of crossing that activates this threshold.",
+                            "enum": [
+                                "Increasing",
+                                "Decreasing",
+                                "Either"
+                            ],
+                            "enumDescriptions": {
+                                "Decreasing": "Value decreases below the threshold.",
+                                "Either": "Value crosses the threshold in either direction.",
+                                "Increasing": "Value increases above the threshold."
+                            },
+                            "enumLongDescriptions": {
+                                "Decreasing": "This threshold is activated when the value of Reading changes from a value higher than the threshold to a value lower than the threshold.",
+                                "Either": "This threshold is activated when either the Increasing or Decreasing conditions are met.",
+                                "Increasing": "This threshold is activated when the value of Reading changes from a value lower than the threshold to a value higher than the threshold."
+                            },
+                            "longDescription": "This property shall indicate the direction of crossing of the Reading value for this Sensor that triggers the threshold.",
+                            "type": "string"
+                        },
+                        "DwellTime": {
+                            "description": "The time interval over which the sensor reading must have passed through this Threshold value before the threshold is considered to be violated.",
+                            "longDescription": "This property shall indicate the time interval over which the sensor reading must have passed through this Threshold value before the threshold is considered to be violated.",
+                            "pattern": "-?P(\\d+D)?(T(\\d+H)?(\\d+M)?(\\d+(.\\d+)?S)?)?",
+                            "readonly": false,
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "Reading": {
+                            "description": "The threshold value.",
+                            "longDescription": "This property shall indicate the Reading value of this Sensor that triggers the threshold.  The units of this property shall follow the same units as the property described by MetricProperties.",
+                            "readonly": false,
+                            "type": [
+                                "integer",
+                                "null"
+                            ]
+                        }
+                    },
+                    "readonly": false,
+                    "type": [
+                        "object",
+                        "null"
+                    ]
+                },
+                "UpperCautionUser": {
+                    "description": "A user-defined value at which the reading is considered above normal range.",
+                    "longDescription": "This property shall contain a user-defined value at which the `Reading` property is considered above the normal range.  The value of the property shall use the same units as the `Reading` property.  The `Reading` property shall be considered above normal range if either the `UpperCaution` or `UpperCautionUser` threshold has been violated.  This property is used to provide an additional, user-defined threshold value when the `UpperCaution` threshold is implemented as read-only to reflect a service-defined value that cannot be changed.",
+                    "properties": {
+                        "Reading": {
+                            "description": "The threshold value.",
+                            "longDescription": "This property shall indicate the Reading value of this Sensor that triggers the threshold.  The units of this property shall follow the same units as the property described by MetricProperties.",
+                            "readonly": false,
+                            "type": [
+                                "integer",
+                                "null"
+                            ]
+                        }
+                    },
+                    "readonly": false,
+                    "type": [
+                        "object",
+                        "null"
+                    ]
+                },
+                "UpperCriticalUser": {
+                    "description": "A user-defined value at which the reading is considered above normal range but not yet fatal.",
+                    "longDescription": "This property shall contain a user-defined value at which the `Reading` property is considered above the normal range but is not yet fatal.  The value of the property shall use the same units as the `Reading` property.  The `Reading` property shall be considered above normal range if either the `UpperCritical` or `UpperCriticalUser` threshold has been violated.  This property is used to provide an additional, user-defined threshold value when the `UpperCritical` threshold is implemented as read-only to reflect a service-defined value that cannot be changed.",
+                    "properties": {
+                        "Reading": {
+                            "description": "The threshold value.",
+                            "longDescription": "This property shall indicate the Reading value of this Sensor that triggers the threshold.  The units of this property shall follow the same units as the property described by MetricProperties.",
+                            "readonly": false,
+                            "type": [
+                                "integer",
+                                "null"
+                            ]
+                        }
+                    },
+                    "readonly": false,
+                    "type": [
+                        "object",
+                        "null"
+                    ]
+                }
+            },
+            "readonly": false,
+            "type": [
+                "object",
+                "null"
+            ]
+        }
+    },
+    "readonly": false,
+    "title": "#Sensor.v1_10_0.Sensor",
+    "type": "object"
+}

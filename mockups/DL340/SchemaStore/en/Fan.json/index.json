@@ -1,0 +1,67 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "Fans",
+    "additionalProperties": false,
+    "copyright": "Copyright 2024-2025 Hewlett Packard Enterprise Development LP.  Portions Copyright 2024-2025 DMTF. All rights reserved.",
+    "description": "The Fan schema describes a cooling fan unit for a computer system or similar devices contained within a chassis.  It also describes the location, such as a slot, socket, or bay, where a unit can be installed, by populating a resource instance with an absent state if a unit is not present.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "HotPluggable": {
+            "description": "An indication of whether this device can be inserted or removed while the equipment is in operation.",
+            "longDescription": "This property shall indicate whether the device can be inserted or removed while the underlying equipment otherwise remains in its current operational state.  Hot-pluggable devices can become operable without altering the operational state of the underlying equipment.  Devices that cannot be inserted or removed from equipment in operation, or devices that cannot become operable without affecting the operational state of that equipment, shall not be hot-pluggable.",
+            "readonly": true,
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id",
+            "readonly": true
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "PhysicalContext": {
+            "$ref": "Resource.json#/definitions/PhysicalContext",
+            "description": "The area or device associated with this fan.",
+            "longDescription": "This property shall contain a description of the affected device or region within the chassis with which this fan is associated.",
+            "readonly": true
+        },
+        "SpeedPercent": {
+            "$ref": "Sensor.json#/definitions/SensorFanExcerpt",
+            "description": "The fan speed (percent).",
+            "excerptCopy": "SensorFanExcerpt",
+            "longDescription": "This property shall contain the fan speed, in percent units, for this resource.  The value of the DataSourceUri property, if present, shall reference a resource of type Sensor with the ReadingType property containing the value `Percent`."
+        },
+        "Status": {
+            "$ref": "Resource.json#/definitions/Status",
+            "description": "The status and health of the resource and its subordinate or dependent resources.",
+            "longDescription": "This property shall contain any status or health properties of the resource."
+        },
+        "Assembly": {
+            "description": "The link to the summary of assembly for this subsystem.",
+            "longDescription": "This property shall contain a link to a resource collection of type Assembly.",
+            "properties": {
+                "@odata.id": {
+                    "$ref": "Resource.json#/definitions/odataid"
+                }
+            },
+            "readonly": true,
+            "type": "object"
+        }
+    },
+    "title": "#Fan.v1_5_1.Fan",
+    "type": "object"
+}

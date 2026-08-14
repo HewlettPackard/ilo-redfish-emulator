@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ComponentIntegrity.ComponentIntegrity",
+    "@odata.etag": "W/\"3250275015\"",
+    "@odata.id": "/redfish/v1/ComponentIntegrity/HPM",
+    "@odata.type": "#ComponentIntegrity.v1_2_3.ComponentIntegrity",
+    "Id": "HPM",
+    "ComponentIntegrityEnabled": true,
+    "ComponentIntegrityType": "OEM",
+    "ComponentIntegrityTypeVersion": "N/A",
+    "Name": "Host Processor Module",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOComponentIntegrity.HpeiLOComponentIntegrity",
+            "@odata.type": "#HpeiLOComponentIntegrity.v1_1_0.HpeiLOComponentIntegrity",
+            "ExtendedVerificationStatus": "BindNotPerformed"
+        }
+    },
+    "TargetComponentURI": "/redfish/v1/Systems/1"
+}

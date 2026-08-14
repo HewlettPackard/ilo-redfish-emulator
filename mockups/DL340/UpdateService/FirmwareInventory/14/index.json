@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"87676162\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/14",
+    "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+    "Id": "14",
+    "Description": "14e4165714e41590",
+    "Name": "BCM 5719 1Gb 4p BASE-T OCP Adptr",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_2_0.HpeiLOSoftwareInventory",
+            "DeviceClass": null,
+            "DeviceContext": "OCP Slot A",
+            "DeviceInstance": "PciRoot(0x33)/Pci(0x2,0x0)/Pci(0x0,0x0)",
+            "DeviceSlotLocation": "Slot=20",
+            "Targets": [
+                "a6b1a447-382a-5a4f-14e4-165714e41590"
+            ]
+        }
+    },
+    "Updateable": false,
+    "Version": "20.27.42",
+    "VersionScheme": "OEM"
+}
