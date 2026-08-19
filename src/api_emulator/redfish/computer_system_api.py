@@ -50,6 +50,7 @@ import g
 from .redfish_auth import auth, Privilege
 from .event_generator import GenEvent, GenEventRecord
 from .event_service_api import send_event
+from .bios_settings_api import apply_pending_bios_settings
 from .response import success_response, simple_error_response, error_404_response, error_not_allowed_response
 
 members = {}
@@ -91,6 +92,7 @@ class ResetWorker(Thread):
         members[self.sys_id]['Oem']['Hpe']['PostState'] = 'InPost'
         send_power_event(self.sys_id, 'On')
         sleep(g.async_sleep)
+        apply_pending_bios_settings(self.sys_id)
         members[self.sys_id]['PowerState'] = 'On'
         members[self.sys_id]['Status']['State'] = 'Enabled'
         members[self.sys_id]['Oem']['Hpe']['PostState'] = 'InPostDiscoveryComplete'
@@ -110,6 +112,7 @@ class PowerOnWorker(Thread):
         members[self.sys_id]['Oem']['Hpe']['PostState'] = 'InPost'
         send_power_event(self.sys_id, 'On')
         sleep(g.async_sleep)
+        apply_pending_bios_settings(self.sys_id)
         members[self.sys_id]['PowerState'] = 'On'
         members[self.sys_id]['Status']['State'] = 'Enabled'
         members[self.sys_id]['Oem']['Hpe']['PostState'] = 'InPostDiscoveryComplete'
