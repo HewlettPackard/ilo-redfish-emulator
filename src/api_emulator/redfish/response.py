@@ -18,6 +18,25 @@ def simple_error_response(msg, status, jsonify=False):
         data = json.dumps(data, indent=4)
     return data, status
 
+def error_invalid_operation_for_system_state_response(message_arg, jsonify=False):
+    data = {
+        "error": {
+            "code": "iLO.0.10.ExtendedInfo",
+            "message": "See @Message.ExtendedInfo for more information.",
+            "@Message.ExtendedInfo": [
+                {
+                    "MessageArgs": [
+                        "{}".format(message_arg)
+                    ],
+                    "MessageId": "iLO.2.25.InvalidOperationForSystemState"
+                }
+            ]
+        }
+    }
+    if jsonify:
+        data = json.dumps(data, indent=4)
+    return data, 400
+
 def error_400_response(jsonify=False):
     data = {
         "error": {
