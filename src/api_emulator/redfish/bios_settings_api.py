@@ -37,6 +37,7 @@ Dynamic resources:
 """
 
 import sys, traceback
+import copy
 import logging
 import json_merge_patch
 from flask import request
@@ -125,3 +126,44 @@ def CreateBiosSettings(sys_id, config):
         traceback.print_exc()
         resp = simple_error_response('Server encountered an unexpected Error', 500)
     return resp
+
+
+def apply_pending_bios_settings(sys_id):
+    """
+    Emulates the BIOS applying its pending (staged) settings during POST.
+
+    Called when an emulated system restart/power-on completes. Merges the
+    pending Attributes from Bios/Settings into the live Bios resource, then
+    clears the pending settings by resyncing Bios/Settings' Attributes to
+    match the newly-applied current values. This mirrors real hardware
+    behavior, where the Settings resource is left in a diff-free state
+    after a successful apply so it does not silently re-apply on a later
+    reboot.
+    """
+    logging.info('apply_pending_bios_settings called for Systems/%s' % sys_id)
+    try:
+        if sys_id not in members:
+            return
+        pending_attrs = members[sys_id].get('Attributes')
+        if not pending_attrs:
+            return
+
+        # Imported lazily to avoid a hard import-time dependency between
+        # these two modules; resourceManager is only populated at runtime
+        # once the ResourceManager has finished initializing.
+        from . import redfish_api
+        current_bios = redfish_api.resourceManager.get_resource('Systems/%s/bios' % sys_id)
+        if 'Attributes' not in current_bios:
+            return
+
+        current_bios['Attributes'].update(pending_attrs)
+
+        # Clear the pending settings so they don't re-apply on the next boot.
+        members[sys_id]['Attributes'] = copy.deepcopy(current_bios['Attributes'])
+        settings_meta = members[sys_id].get('@Redfish.Settings')
+        if settings_meta is not None:
+            settings_meta['Messages'] = [{'MessageId': 'Base.1.0.Success'}]
+
+        logging.info('Applied pending BIOS settings for Systems/%s' % sys_id)
+    except Exception:
+        traceback.print_exc()
