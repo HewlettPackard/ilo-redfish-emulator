@@ -51,7 +51,7 @@ from .redfish_auth import auth, Privilege
 from .event_generator import GenEvent, GenEventRecord
 from .event_service_api import send_event
 from .bios_settings_api import apply_pending_bios_settings
-from .response import success_response, simple_error_response, error_404_response, error_not_allowed_response
+from .response import success_response, simple_error_response, error_404_response, error_not_allowed_response, error_invalid_operation_for_system_state_response
 
 members = {}
 members_actions = {}
@@ -265,6 +265,7 @@ class ResetAction_API(Resource):
                         if members_reset_thread[ident] is not None and members_reset_thread[ident].is_alive():
                             # Ignore other power actions if we have a pending thread.
                             logging.info('Thread is running. Ignoring request')
+                            resp = members[ident], 200
                         elif value in reboot_actions:
                             if state == 'On':
                                 logging.info('Starting reset thread')
@@ -274,16 +275,28 @@ class ResetAction_API(Resource):
                                 logging.info('Reset action with current PowerState Off. Starting reset thread')
                                 members_reset_thread[ident] = PowerOnWorker(ident)
                                 members_reset_thread[ident].start()
+                            resp = members[ident], 200
                         elif value in off_actions:
-                            logging.info('Powering Off')
-                            members[ident]['PowerState'] = 'Off'
-                            members[ident]['Status']['State'] = 'Disabled'
-                            members[ident]['Oem']['Hpe']['PostState'] = 'PowerOff'
+                            if state == 'Off':
+                                logging.info('Reject: already Off')
+                                resp = error_invalid_operation_for_system_state_response('Power is off')
+                            else:
+                                logging.info('Powering Off')
+                                members[ident]['PowerState'] = 'Off'
+                                members[ident]['Status']['State'] = 'Disabled'
+                                members[ident]['Oem']['Hpe']['PostState'] = 'PowerOff'
+                                resp = members[ident], 200
                         elif value in on_actions:
-                            logging.info('Starting reset thread')
-                            members_reset_thread[ident] = PowerOnWorker(ident)
-                            members_reset_thread[ident].start()
-                        resp = members[ident], 200
+                            if state == 'On':
+                                logging.info('Reject: already On')
+                                resp = error_invalid_operation_for_system_state_response('Power is on')
+                            else:
+                                logging.info('Starting reset thread')
+                                members_reset_thread[ident] = PowerOnWorker(ident)
+                                members_reset_thread[ident].start()
+                                resp = members[ident], 200
+                        else:
+                            resp = members[ident], 200
                     else:
                         resp = simple_error_response('Invalid ResetType', 400)
                 else:
