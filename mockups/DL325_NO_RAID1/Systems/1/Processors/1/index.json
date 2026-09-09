@@ -1,0 +1,124 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Processor.Processor",
+    "@odata.etag": "W/\"C4E25F8A\"",
+    "@odata.id": "/redfish/v1/Systems/1/Processors/1",
+    "@odata.type": "#Processor.v1_7_2.Processor",
+    "Id": "1",
+    "InstructionSet": "x86-64",
+    "Manufacturer": "Advanced Micro Devices, Inc.",
+    "MaxSpeedMHz": 4100,
+    "Model": "AMD EPYC 7302P 16-Core Processor               ",
+    "Name": "Processors",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeProcessorExt.HpeProcessorExt",
+            "@odata.type": "#HpeProcessorExt.v2_0_0.HpeProcessorExt",
+            "AssetTag": "Unknown",
+            "Cache": [
+                {
+                    "Associativity": "8waySetAssociative",
+                    "CacheSpeedns": 1,
+                    "CurrentSRAMType": [
+                        "Pipeline Burst"
+                    ],
+                    "EccType": "MultiBitECC",
+                    "InstalledSizeKB": 1024,
+                    "Location": "Internal",
+                    "MaximumSizeKB": 1024,
+                    "Name": "L1-Cache",
+                    "Policy": "WriteBack",
+                    "Socketed": false,
+                    "SupportedSRAMType": [
+                        "Pipeline Burst"
+                    ],
+                    "SystemCacheType": "Unified"
+                },
+                {
+                    "Associativity": "8waySetAssociative",
+                    "CacheSpeedns": 1,
+                    "CurrentSRAMType": [
+                        "Pipeline Burst"
+                    ],
+                    "EccType": "MultiBitECC",
+                    "InstalledSizeKB": 8192,
+                    "Location": "Internal",
+                    "MaximumSizeKB": 8192,
+                    "Name": "L2-Cache",
+                    "Policy": "WriteBack",
+                    "Socketed": false,
+                    "SupportedSRAMType": [
+                        "Pipeline Burst"
+                    ],
+                    "SystemCacheType": "Unified"
+                },
+                {
+                    "Associativity": "16waySetAssociative",
+                    "CacheSpeedns": 1,
+                    "CurrentSRAMType": [
+                        "Pipeline Burst"
+                    ],
+                    "EccType": "MultiBitECC",
+                    "InstalledSizeKB": 131072,
+                    "Location": "Internal",
+                    "MaximumSizeKB": 131072,
+                    "Name": "L3-Cache",
+                    "Policy": "WriteBack",
+                    "Socketed": false,
+                    "SupportedSRAMType": [
+                        "Pipeline Burst"
+                    ],
+                    "SystemCacheType": "Unified"
+                }
+            ],
+            "Characteristics": [
+                "64Bit",
+                "MultiCore",
+                "HwThread",
+                "ExecuteProtection",
+                "EnhancedVirtualization",
+                "PowerPerfControl"
+            ],
+            "ConfigStatus": {
+                "Populated": true,
+                "State": "Enabled"
+            },
+            "CoresEnabled": 16,
+            "ExternalClockMHz": 100,
+            "MicrocodePatches": [
+                {
+                    "CpuId": "0x00008310",
+                    "Date": "2020-07-28T00:00:00Z",
+                    "PatchId": "0x0830104D"
+                },
+                {
+                    "CpuId": "0x00008300",
+                    "Date": "2019-04-01T00:00:00Z",
+                    "PatchId": "0x08300027"
+                }
+            ],
+            "PartNumber": "",
+            "RatedSpeedMHz": 3000,
+            "SerialNumber": "",
+            "VoltageVoltsX10": 11
+        }
+    },
+    "PartNumber": "",
+    "ProcessorArchitecture": "x86",
+    "ProcessorId": {
+        "EffectiveFamily": "107",
+        "EffectiveModel": "1",
+        "IdentificationRegisters": "0x0f100083fbff178b",
+        "MicrocodeInfo": null,
+        "Step": "0",
+        "VendorId": "Advanced Micro Devices, Inc."
+    },
+    "ProcessorType": "CPU",
+    "SerialNumber": "",
+    "Socket": "Proc 1",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "TotalCores": 16,
+    "TotalThreads": 32
+}

@@ -56,6 +56,28 @@ def error_400_response(jsonify=False):
         data = json.dumps(data, indent=4)
     return data, 400
 
+def error_array_property_out_of_bound_response(array_name, count, min_count, max_count, jsonify=False):
+    data = {
+        "error": {
+            "code": "iLO.0.10.ExtendedInfo",
+            "message": "See @Message.ExtendedInfo for more information.",
+            "@Message.ExtendedInfo": [
+                {
+                    "MessageArgs": [
+                        "{}".format(array_name),
+                        "{}".format(count),
+                        "{}".format(min_count),
+                        "{}".format(max_count)
+                    ],
+                    "MessageId": "iLO.2.25.ArrayPropertyOutOfBound"
+                }
+            ]
+        }
+    }
+    if jsonify:
+        data = json.dumps(data, indent=4)
+    return data, 400
+
 def error_404_response(path, jsonify=False):
     data = {
         'error': {

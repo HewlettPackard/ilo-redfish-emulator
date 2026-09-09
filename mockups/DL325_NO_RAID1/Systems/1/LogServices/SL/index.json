@@ -1,0 +1,17 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogService.LogService",
+    "@odata.etag": "W/\"4FFE04A1\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL",
+    "@odata.type": "#LogService.v1_0_0.LogService",
+    "Id": "SL",
+    "Actions": {
+        "#LogService.ClearLog": {
+            "target": "/redfish/v1/Systems/1/LogServices/SL/Actions/LogService.ClearLog"
+        }
+    },
+    "Entries": {
+        "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries"
+    },
+    "Name": "Security Log",
+    "OverWritePolicy": "WrapsWhenFull"
+}

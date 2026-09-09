@@ -1,0 +1,224 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "Storage",
+    "additionalProperties": false,
+    "copyright": "Copyright 2014-2019 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
+    "description": "Storage defines a storage subsystem and its respective properties.  A storage subsystem represents a set of storage controllers (physical or virtual) and the resources such as volumes that can be accessed from that subsystem.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "Drives": {
+            "description": "Array of links to drives attached to this controller.",
+            "items": {
+                "additionalProperties": false,
+                "properties": {
+                    "@odata.id": {
+                        "$ref": "Resource.json#/definitions/odataid"
+                    }
+                },
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "Links": {
+            "additionalProperties": false,
+            "description": "Array of links to enclosing chassis.",
+            "properties": {
+                "Enclosures": {
+                    "items": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "@odata.id": {
+                                "$ref": "Resource.json#/definitions/odataid"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "type": "array"
+                }
+            },
+            "type": "object"
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "Status": {
+            "$ref": "Resource.json#/definitions/Status"
+        },
+        "StorageControllers": {
+            "items": {
+                "additionalProperties": false,
+                "properties": {
+                    "@odata.id": {
+                        "$ref": "Resource.json#/definitions/odataid"
+                    },
+                    "@odata.type": {
+                        "$ref": "Resource.json#/definitions/odatatype"
+                    },
+                    "Description": {
+                        "$ref": "Resource.json#/definitions/Description"
+                    },
+                    "Id": {
+                        "$ref": "Resource.json#/definitions/Id"
+                    },
+                    "FirmwareVersion": {
+                        "description": "The firmware version of this storage controller.",
+                        "longDescription": "This property shall contain the firwmare version as defined by the manufacturer for the associated storage controller.",
+                        "readonly": true,
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "Location": {
+                        "$ref": "Resource.json#/definitions/Location",
+                        "description": "The location of the storage controller.",
+                        "longDescription": "This property shall contain location information of the associated storage controller."
+                    },
+                    "Manufacturer": {
+                        "description": "Controller Manufacturer name.",
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "MemberId": {
+                        "description": "This is the identifier for the member within the collection.",
+                        "longDescription": "The value of this string shall uniquely identify the member within the collection.",
+                        "type": "string"
+                    },
+                    "Model": {
+                        "description": "Controller model name.",
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "Name": {
+                        "$ref": "Resource.json#/definitions/Name"
+                    },
+                    "PCIeInterface": {
+                        "additionalProperties": false,
+                        "description": "The PCIe interface details for this controller.",
+                        "properties": {
+                            "LanesInUse": {
+                                "description": "This is the number of PCIe lanes in use by this device.",
+                                "maximum": 32,
+                                "readonly": true,
+                                "type": [
+                                    "integer",
+                                    "null"
+                                ]
+                            },
+                            "MaxLanes": {
+                                "description": "This is the number of PCIe lanes supported by this device.",
+                                "maximum": 32,
+                                "readonly": true,
+                                "type": [
+                                    "integer",
+                                    "null"
+                                ]
+                            },
+                            "MaxPCIeType": {
+                                "description": "The highest version of the PCIe specification supported by this device.",
+                                "enum": [
+                                    "Gen1",
+                                    "Gen2",
+                                    "Gen3",
+                                    "Gen4",
+                                    "Gen5"
+                                ],
+                                "enumDescriptions": {
+                                    "Gen1": "A PCIe v1.0 slot.",
+                                    "Gen2": "A PCIe v2.0 slot.",
+                                    "Gen3": "A PCIe v3.0 slot.",
+                                    "Gen4": "A PCIe v4.0 slot.",
+                                    "Gen5": "A PCIe v5.0 slot."
+                                },
+                                "readonly": true,
+                                "type": "string"
+                            },
+                            "PCIeType": {
+                                "description": "The version of the PCIe specification in use by this device.",
+                                "enum": [
+                                    "Gen1",
+                                    "Gen2",
+                                    "Gen3",
+                                    "Gen4",
+                                    "Gen5"
+                                ],
+                                "enumDescriptions": {
+                                    "Gen1": "A PCIe v1.0 slot.",
+                                    "Gen2": "A PCIe v2.0 slot.",
+                                    "Gen3": "A PCIe v3.0 slot.",
+                                    "Gen4": "A PCIe v4.0 slot.",
+                                    "Gen5": "A PCIe v5.0 slot."
+                                },
+                                "readonly": true,
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "SerialNumber": {
+                        "description": "Controller serial number.",
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "Status": {
+                        "$ref": "Resource.json#/definitions/Status"
+                    },
+                    "SupportedControllerProtocols": {
+                        "items": {
+                            "enum": [
+                                "PCIe"
+                            ],
+                            "type": "string"
+                        },
+                        "type": "array"
+                    },
+                    "SupportedDeviceProtocols": {
+                        "items": {
+                            "enum": [
+                                "USB",
+                                "SATA",
+                                "NVMe"
+                            ],
+                            "type": "string"
+                        },
+                        "type": "array"
+                    }
+                },
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "Volumes": {
+            "description": "A reference to the Volumes associated with this storage system.",
+            "properties": {
+                "@odata.id": {
+                    "$ref": "Resource.json#/definitions/odataid"
+                }
+            },
+            "readonly": true,
+            "type": "object"
+        }
+    },
+    "title": "#Storage.v1_5_0.Storage",
+    "type": "object"
+}

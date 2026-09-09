@@ -1,0 +1,120 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_0_0.Settings",
+        "ETag": "AB457FF5",
+        "Messages": [
+            {
+                "MessageId": "Base.1.0.Success"
+            }
+        ],
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/settings/"
+        },
+        "Time": "2020-05-09T03:36:46+00:00"
+    },
+    "@odata.context": "/redfish/v1/$metadata#HpeServerBootSettings.HpeServerBootSettings",
+    "@odata.etag": "W/\"E17C7648D026D5D5D530A0262EC5B17A\"",
+    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/",
+    "@odata.type": "#HpeServerBootSettings.v2_0_0.HpeServerBootSettings",
+    "BootSources": [
+        {
+            "BootOptionNumber": "0002",
+            "BootString": "cray (sdb1)",
+            "CorrelatableID": "HD(1,GPT,344826DE-9945-47F1-915F-86C5AE43B0A2,0x800,0xEE000)/\\efi\\boot\\bootx64.efi",
+            "StructuredBootString": "HD.EmbSATA.2.3",
+            "UEFIDevicePath": "HD(1,GPT,344826DE-9945-47F1-915F-86C5AE43B0A2,0x800,0xEE000)/\\efi\\boot\\bootx64.efi"
+        },
+        {
+            "BootOptionNumber": "0001",
+            "BootString": "cray (sda1)",
+            "CorrelatableID": "HD(1,GPT,6309A186-CE74-4290-A576-7B31BBB80030,0x800,0xEE000)/\\efi\\boot\\bootx64.efi",
+            "StructuredBootString": "HD.EmbSATA.1.2",
+            "UEFIDevicePath": "HD(1,GPT,6309A186-CE74-4290-A576-7B31BBB80030,0x800,0xEE000)/\\efi\\boot\\bootx64.efi"
+        },
+        {
+            "BootOptionNumber": "0014",
+            "BootString": "OCP Slot 10 Port 1 : Marvell FastLinQ 41000 Series - 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter - NIC - Marvell FastLinQ 41000 Series - 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter - PXE (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "OCP.Slot.10.1.IPv4",
+            "UEFIDevicePath": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/MAC(1402ECD93AA0,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "0018",
+            "BootString": "Slot 1 Port 1 : Marvell FastLinQ 41000 Series - 2P 25GbE SFP28 QL41232HLCU-HC MD2 Adapter - NIC - Marvell FastLinQ 41000 Series - 2P 25GbE SFP28 QL41232HLCU-HC MD2 Adapter - PXE (PXE IPv4)",
+            "CorrelatableID": "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)",
+            "StructuredBootString": "NIC.Slot.1.1.IPv4",
+            "UEFIDevicePath": "PciRoot(0x1)/Pci(0x3,0x1)/Pci(0x0,0x0)/MAC(9440C95C86BC,0x1)/IPv4(0.0.0.0)"
+        },
+        {
+            "BootOptionNumber": "0010",
+            "BootString": "Generic USB Boot",
+            "CorrelatableID": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)",
+            "StructuredBootString": "Generic.USB.1.1",
+            "UEFIDevicePath": "UsbClass(0xFFFF,0xFFFF,0xFF,0xFF,0xFF)"
+        }
+    ],
+    "DefaultBootOrder": [
+        "Cd",
+        "Usb",
+        "EmbeddedStorage",
+        "PcieSlotStorage",
+        "EmbeddedFlexLOM",
+        "PcieSlotNic",
+        "UefiShell",
+        "iPXE"
+    ],
+    "DesiredBootDevices": [
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        },
+        {
+            "CorrelatableID": "",
+            "Lun": "",
+            "Wwn": "",
+            "iScsiTargetName": ""
+        }
+    ],
+    "Id": "boot",
+    "Name": "Boot Order Current Settings",
+    "Oem": {
+        "Hpe": {
+            "@odata.type": "#HpeBiosExt.v2_0_0.HpeBiosExt",
+            "Links": {
+                "BaseConfigs": {
+                    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/boot/baseconfigs/"
+                }
+            },
+            "SettingsObject": {
+                "UnmodifiedETag": "W/\"16C8EAA38F40242424ED692B27FED610\""
+            }
+        }
+    },
+    "PersistentBootConfigOrder": [
+        "HD.EmbSATA.2.3",
+        "HD.EmbSATA.1.2",
+        "OCP.Slot.10.1.IPv4",
+        "NIC.Slot.1.1.IPv4",
+        "Generic.USB.1.1"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"0539D502\"",
+    "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/21",
+    "@odata.type": "#SoftwareInventory.v1_2_0.SoftwareInventory",
+    "Id": "21",
+    "Description": "Agentless Management Service",
+    "Name": "amsd",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "e7a8b7dd-a6c0-4056-b14a-97bc423ddc7b",
+            "Targets": [
+                "20a6e8e4-bf33-4c71-a6bf-d9ecb37bf5ae"
+            ]
+        }
+    },
+    "Version": "2.4.1-1571.4.sles15"
+}

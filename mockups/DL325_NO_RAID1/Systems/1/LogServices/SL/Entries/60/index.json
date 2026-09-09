@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"2D94F9FE\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/60",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "60",
+    "Created": "2020-09-18T15:02:58Z",
+    "EntryType": "Oem",
+    "Message": "UNKNOWN EVENT - Class [0xa] and Code [0x277]",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Unknown"
+            ],
+            "Class": 10,
+            "ClassDescription": "UEFI",
+            "Code": 631,
+            "Count": 1,
+            "EventNumber": 81,
+            "Severity": "Caution",
+            "Updated": "2020-09-18T15:02:58Z",
+            "UserAction": "None"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "Warning"
+}

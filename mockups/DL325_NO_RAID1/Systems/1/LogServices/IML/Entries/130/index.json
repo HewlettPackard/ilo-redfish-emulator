@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"258EF724\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/130",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "130",
+    "Created": "2021-07-30T17:22:26Z",
+    "EntryType": "Oem",
+    "Message": "At least one of the links is up in adapter Marvell FastLinQ 41000 Series - 2P 25GbE SFP28 QL41232HLCU-HC MD2 Adapter - NIC in slot 1",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 17,
+            "ClassDescription": "Network",
+            "Code": 14,
+            "Count": 1,
+            "EventNumber": 339,
+            "Repaired": true,
+            "Severity": "Repaired",
+            "Updated": "2021-07-30T17:25:10Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

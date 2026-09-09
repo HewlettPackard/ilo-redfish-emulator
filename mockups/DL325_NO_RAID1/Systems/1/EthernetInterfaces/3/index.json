@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+    "@odata.etag": "W/\"CBA3C0A6\"",
+    "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces/3",
+    "@odata.type": "#EthernetInterface.v1_4_1.EthernetInterface",
+    "Id": "3",
+    "FullDuplex": true,
+    "IPv4Addresses": [
+        {
+            "Address": "N/A"
+        }
+    ],
+    "IPv4StaticAddresses": [],
+    "IPv6AddressPolicyTable": [],
+    "IPv6Addresses": [
+        {
+            "Address": "fe80::1602:ecff:fed9:3aa0/64"
+        }
+    ],
+    "IPv6StaticAddresses": [],
+    "IPv6StaticDefaultGateways": [],
+    "InterfaceEnabled": true,
+    "LinkStatus": "LinkUp",
+    "MACAddress": "14:02:ec:d9:3a:a0",
+    "Name": "bond0",
+    "NameServers": [],
+    "SpeedMbps": 25000,
+    "StaticNameServers": [],
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "UefiDevicePath": "PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)"
+}
