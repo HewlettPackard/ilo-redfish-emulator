@@ -1,0 +1,338 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "@odata.id": "Drive",
+    "actions": {
+        "actions": {
+            "Drive.Reset": {
+                "additionalProperties": false,
+                "properties": {
+                    "Action": {
+                        "enum": [
+                            "Drive.Reset"
+                        ],
+                        "type": "string"
+                    },
+                    "ResetValue": {
+                        "description": "Reset Drive",
+                        "readonly": false,
+                        "enum": [
+                            "ForceOff",
+                            "ForceOn",
+                            "PowerCycle"
+                        ],
+                        "enumDescriptions": {
+                            "ForceOff": "Turn off the unit immediately (non-graceful shutdown).",
+                            "ForceOn": "Turn on the unit immediately.",
+                            "PowerCycle": "Power cycle the unit."
+                        },
+                        "type": "string"
+                    },
+                    "target": {
+                        "description": "Link to invoke action",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "Action"
+                ],
+                "type": "object"
+            }
+        },
+        "description": "Reset device."
+    },
+    "additionalProperties": false,
+    "copyright": "Copyright 2014-2021 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2021 Distributed Management Task Force. All rights reserved.",
+    "description": "The Drive resource describes a single physical disk drive for a system, including links to associated Volumes.",
+    "properties": {
+        "@odata.context": {
+            "$ref": "Resource.json#/definitions/odatacontext"
+        },
+        "@odata.etag": {
+            "$ref": "Resource.json#/definitions/odataetag"
+        },
+        "@odata.id": {
+            "$ref": "Resource.json#/definitions/odataid"
+        },
+        "@odata.type": {
+            "$ref": "Resource.json#/definitions/odatatype"
+        },
+        "BlockSizeBytes": {
+            "description": "The size of the smallest addressible unit (Block) of this drive in bytes",
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "CapableSpeedGbs": {
+            "description": "The speed which this drive can communicate to a storage controller in ideal conditions in Gigabits per second",
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "CapacityBytes": {
+            "description": "The size in bytes of this Drive",
+            "minimum": 0,
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "FailurePredicted": {
+            "description": "Is this drive currently predicting a failure in the near future",
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "Id": {
+            "$ref": "Resource.json#/definitions/Id"
+        },
+        "Actions": {
+            "additionalProperties": false,
+            "properties": {
+                "#Drive.Reset": {
+                    "additionalProperties": false,
+                    "properties": {
+                        "ResetValue": {
+                            "description": "Reset Drive",
+                            "readonly": false,
+                            "enum": [
+                                "ForceOff",
+                                "ForceOn",
+                                "PowerCycle"
+                            ],
+                            "enumDescriptions": {
+                                "ForceOff": "Turn off the unit immediately (non-graceful shutdown).",
+                                "ForceOn": "Turn on the unit immediately.",
+                                "PowerCycle": "Power cycle the unit."
+                            },
+                            "type": "string"
+                        },
+                        "target": {
+                            "description": "Link to invoke action",
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "Action"
+                    ],
+                    "type": "object"
+                }
+            },
+            "type": "object"
+        },
+        "Identifiers": {
+            "additionalProperties": false,
+            "description": "The Durable names for the drive",
+            "properties": {
+                "DurableName": {
+                    "description": "This indicates the world wide, persistent name of the resource.",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "DurableNameFormat": {
+                    "description": "This represents the format of the DurableName property.",
+                    "enum": [
+                        "EUI",
+                        "UUID"
+                    ],
+                    "enumDescriptions": {
+                        "EUI": "IEEE-defined 64-bit Extended Unique Identifier",
+                        "UUID": "Universally Unique Identifier"
+                    },
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "type": "object"
+        },
+        "Links": {
+            "additionalProperties": false,
+            "properties": {
+                "Volumes": {
+                    "description": "A reference to the Volumes associated with this drive.",
+                    "items": {
+                        "properties": {
+                            "@odata.id": {
+                                "$ref": "Resource.json#/definitions/odataid"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "readonly": true,
+                    "type": "array"
+                }
+            },
+            "type": "object"
+        },
+        "Location": {
+            "items": {
+                "additionalProperties": false,
+                "description": "The Location of the drive",
+                "properties": {
+                    "Info": {
+                        "description": "This indicates the location of the resource.",
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "InfoFormat": {
+                        "description": "This represents the format of the Info property.",
+                        "enum": [
+                            "Box:Bay",
+                            "BayNumber",
+                            "Slot"
+                        ],
+                        "enumDescriptions": {
+                            "BayNumber": "The Info is the bay number of the Drive.",
+                            "Box:Bay": "The Info is the box and bay number of the Drive.",
+                            "Slot": "The Info is the PCIe slot of the Drive (eg: NVMe drives)."
+                        },
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    }
+                },
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "Manufacturer": {
+            "description": "This is the manufacturer of this drive.",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "MediaType": {
+            "description": "The type of media contained in this drive.",
+            "enum": [
+                "HDD",
+                "SSD"
+            ],
+            "enumDescriptions": {
+                "HDD": "The drive media type is traditional magnetic platters",
+                "SSD": "The drive media type is solid state or flash memory"
+            },
+            "maxLength": 256,
+            "minLength": 0,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "Model": {
+            "description": "This is the model number for the drive.",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "Name": {
+            "$ref": "Resource.json#/definitions/Name"
+        },
+        "NegotiatedSpeedGbs": {
+            "description": "The speed which this drive is currently communicating to the storage controller in Gigabits per second",
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "Oem": {
+            "additionalProperties": true,
+            "properties": {
+                "Hpe": {
+                    "$ref": "HpeiLODriveExt.json#",
+                    "readonly": true
+                }
+            },
+            "readonly": false,
+            "type": "object"
+        },
+        "PartNumber": {
+            "description": "The part number for this drive.",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "PredictedMediaLifeLeftPercent": {
+            "description": "The percentage of reads and writes that are predicted to still be available for the media",
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "Protocol": {
+            "description": "The protocol this drive is using to communicate to the storage controller",
+            "enum": [
+                "NVMe",
+                "SATA",
+                "USB"
+            ],
+            "enumDescriptions": {
+                "NVMe": "Non-Volatile Memory Express",
+                "SATA": "Serial AT Attachment",
+                "USB": "Universal Serial Bus"
+            },
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "Revision": {
+            "description": "The revision of this Drive",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "RotationSpeedRPM": {
+            "description": "The rotation speed of this Drive in Revolutions per Minute (RPM)",
+            "minimum": 0,
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "SerialNumber": {
+            "description": "Serial Number of the drive.",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "Status": {
+            "$ref": "Resource.json#/definitions/Status"
+        },
+        "IndicatorLED": {
+            "description": "The state of the indicator LED.",
+            "enum": [
+                null,
+                "Lit",
+                "Blinking",
+                "Off"
+            ],
+            "enumDescriptions": {
+                "Lit": "The Indicator LED is lit.",
+                "Blinking": "The indicator LED is blinking.",
+                "Off": "The Indicator LED is off."
+            },
+            "etag": true,
+            "readonly": false,
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "title": "#Drive.v1_1_0.Drive",
+    "type": "object"
+}

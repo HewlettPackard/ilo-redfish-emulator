@@ -20,13 +20,41 @@ from .redfish_auth import auth, Privilege
 from .chassis_api import getChassisMemberDrives
 from .system_storage_instance_api import getSystemStorageMemberDrives
 from .computer_system_api import isPowerOn
-from .response import success_response, simple_error_response, error_404_response, error_not_allowed_response
+from .response import success_response, simple_error_response, error_404_response, error_not_allowed_response, error_array_property_out_of_bound_response
 
 members = {} # [storage_id] -> volumes
 vol_res = {} # [storage_id][volume_id] -> volume resource
 
 # RAID levels that mirror data (usable capacity = size of one member drive)
 MIRRORED_RAID_TYPES = {'RAID1', 'RAID1E', 'RAID10', 'RAID6', 'RAID60'}
+
+# Minimum/maximum number of member Drives supported for each RAID level,
+# matching the requirements enforced by real HPE Smart Array/SR controllers.
+# (RAID1 mirrors exactly one pair of drives; the other levels accept a
+# range of drives up to what a controller could reasonably support.)
+MIN_MAX_DRIVES_FOR_RAID_TYPE = {
+    'RAID0': (1, 32),
+    'RAID1': (2, 2),
+    'RAID1E': (3, 32),
+    'RAID5': (3, 32),
+    'RAID6': (4, 32),
+    'RAID10': (4, 32),
+    'RAID50': (6, 32),
+    'RAID60': (8, 32),
+}
+
+def validateDriveCountForRaidType(raid_type, num_drives):
+    """
+    Return (min_count, max_count) if num_drives does not meet the min/max
+    range supported for raid_type, else None.
+    """
+    min_max = MIN_MAX_DRIVES_FOR_RAID_TYPE.get(raid_type)
+    if min_max is None:
+        return None
+    min_drives, max_drives = min_max
+    if num_drives < min_drives or num_drives > max_drives:
+        return (min_drives, max_drives)
+    return None
 
 def getDriveCapacityBytes(drive, storage_id, system_id):
     """
@@ -124,6 +152,15 @@ class StorageVolumeCollectionAPI(Resource):
                 displayName = raw_dict['DisplayName']
                 raid_type = raw_dict['RAIDType']
                 drives = raw_dict['Links']['Drives']
+
+                # Reject the request if the number of Drives doesn't fall
+                # within the min/max range supported for the requested
+                # RAIDType (e.g. RAID1 requires exactly 2 drives).
+                bounds = validateDriveCountForRaidType(raid_type, len(drives))
+                if bounds:
+                    min_drives, max_drives = bounds
+                    return error_array_property_out_of_bound_response('Drives', len(drives), min_drives, max_drives)
+
                 capacity_bytes = computeVolumeCapacityBytes(raid_type, drives, storage_id, system_id)
                 vol1 = {
                     '@odata.id': '/redfish/v1/Systems/1/Storage/{}/Volumes/1'.format(storage_id),

@@ -1,0 +1,38 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"5122DC29\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/4",
+    "@odata.type": "#HpeServerDevice.v2_0_0.HpeServerDevice",
+    "Id": "4",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/5"
+        }
+    ],
+    "DeviceType": "LOM/NIC",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "08.50.78"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/3"
+        }
+    },
+    "Location": "OCP 3.0 Slot 10",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "Marvell",
+    "Name": "Marvell 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter",
+    "PartNumber": "AH2010414-31  A",
+    "ProductPartNumber": "AH2010414-31  A",
+    "ProductVersion": " ",
+    "SerialNumber": "REE1939F35261",
+    "Status": {
+        "Health": "Warning",
+        "State": "Enabled"
+    }
+}

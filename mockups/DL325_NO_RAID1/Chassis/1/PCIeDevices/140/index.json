@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "W/\"4DA55F10\"",
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/140",
+    "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
+    "Id": "140",
+    "FirmwareVersion": "08.50.78",
+    "Manufacturer": "Marvell",
+    "Model": "AH2010414-31  A",
+    "Name": "Marvell FastLinQ 41000 Series - 2P 25GbE SFP28 QL41232HQCU-HC OCP3 Adapter - NIC",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/140/PCIeFunctions"
+    },
+    "PartNumber": "AH2010414-31  A",
+    "SKU": "AH2010414-31  A",
+    "SerialNumber": "REE1939F35261",
+    "Status": {
+        "Health": "Warning",
+        "State": "Enabled"
+    }
+}

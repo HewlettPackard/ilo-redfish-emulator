@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#JsonSchemaFile.JsonSchemaFile",
+    "@odata.etag": "W/\"3C021ED6\"",
+    "@odata.id": "/redfish/v1/JsonSchemas/HpeLogEntry",
+    "@odata.type": "#JsonSchemaFile.v1_0_4.JsonSchemaFile",
+    "Id": "HpeLogEntry",
+    "Description": "Schema Definition File for HpeLogEntry",
+    "Languages": [
+        "en"
+    ],
+    "Location": [
+        {
+            "Language": "en",
+            "Uri": "/redfish/v1/SchemaStore/en/HpeLogEntry.json"
+        }
+    ],
+    "Name": "HpeLogEntry Schema Definition File",
+    "Schema": "#HpeLogEntry.v2_3_0.HpeLogEntry"
+}

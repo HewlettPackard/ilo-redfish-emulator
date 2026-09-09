@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"6513ED30\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/134",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "134",
+    "Created": "2021-08-26T20:44:11Z",
+    "EntryType": "Oem",
+    "Message": "Firmware flashed (iLO 5 2.46)",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Administration"
+            ],
+            "Class": 32,
+            "ClassDescription": "System Revision",
+            "Code": 2,
+            "Count": 1,
+            "EventNumber": 343,
+            "Severity": "Informational",
+            "Updated": "2021-08-26T20:44:11Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

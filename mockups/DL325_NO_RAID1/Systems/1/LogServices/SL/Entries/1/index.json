@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"B5E1D412\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/1",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "1",
+    "Created": "2020-05-09T04:00:32Z",
+    "EntryType": "Oem",
+    "Message": "Security log cleared by: System Administrator",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Maintenance"
+            ],
+            "Class": 33,
+            "ClassDescription": "Maintenance",
+            "Code": 4,
+            "Count": 1,
+            "EventNumber": 22,
+            "Severity": "Informational",
+            "Updated": "2020-05-09T04:00:32Z",
+            "UserAction": "Not Applicable"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "OK"
+}

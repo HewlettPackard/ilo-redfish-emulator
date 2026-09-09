@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/0ca1ea63",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "0ca1ea63",
+    "Activates": "AfterHardPowerCycle",
+    "ComponentUri": "/fwrepo/CPLD_DL325_Gen10P5_V0D_signed.vme",
+    "Configuration": "",
+    "Created": "2020-05-09T00:08:14Z",
+    "Criticality": "Optional",
+    "DeviceClass": "b1ad439a-9dd1-41c1-a496-2da9313f1f07",
+    "ExecutionParameters": "",
+    "Filename": "CPLD_DL325_Gen10P5_V0D_signed.vme",
+    "Filepath": "CPLD_DL325_Gen10P5_V0D_signed.vme",
+    "Locked": true,
+    "Name": "System Programmable Logic Device",
+    "SizeBytes": 875931,
+    "Targets": [
+        "00000000-0000-0000-0000-00000000021c"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "0D"
+}

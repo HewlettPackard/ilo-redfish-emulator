@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"14B9453E\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/120",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "120",
+    "Created": "2022-04-14T16:13:15Z",
+    "EntryType": "Oem",
+    "Message": "Browser login: root - 10.254.1.12(ncn-w002-hmn).",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 1017,
+            "Count": 4,
+            "EventNumber": 1561602,
+            "Severity": "Informational",
+            "Updated": "2022-04-14T16:13:46Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

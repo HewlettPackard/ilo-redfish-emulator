@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "W/\"4DA55F10\"",
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/138",
+    "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
+    "Id": "138",
+    "FirmwareVersion": "08.50.78",
+    "Manufacturer": "",
+    "Model": "AH2010406-38  A",
+    "Name": "Marvell FastLinQ 41000 Series - 2P 25GbE SFP28 QL41232HLCU-HC MD2 Adapter - NIC",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/138/PCIeFunctions"
+    },
+    "PartNumber": "AH2010406-38  A",
+    "SKU": "",
+    "SerialNumber": "REE1950F79864",
+    "Status": {
+        "Health": "Warning",
+        "State": "Enabled"
+    }
+}

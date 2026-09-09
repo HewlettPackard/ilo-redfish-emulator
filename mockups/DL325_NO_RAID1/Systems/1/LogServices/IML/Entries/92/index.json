@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"90D51691\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/92",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "92",
+    "Created": "2021-06-18T02:03:09Z",
+    "EntryType": "Oem",
+    "Message": "System Power Supplies Not Redundant",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Power"
+            ],
+            "Class": 11,
+            "ClassDescription": "Power",
+            "Code": 54,
+            "Count": 1,
+            "EventNumber": 301,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x000bcode0x0036-gen10",
+            "RecommendedAction": "Add a power supply or replace the failed power supply.",
+            "Repaired": false,
+            "Severity": "Caution",
+            "Updated": "2021-06-18T02:03:09Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "Warning"
+}

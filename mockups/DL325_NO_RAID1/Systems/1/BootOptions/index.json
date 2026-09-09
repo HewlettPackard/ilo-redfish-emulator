@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOptionCollection.BootOptionCollection",
+    "@odata.etag": "W/\"08A22FCA\"",
+    "@odata.id": "/redfish/v1/Systems/1/BootOptions",
+    "@odata.type": "#BootOptionCollection.BootOptionCollection",
+    "Description": "Configuration of Boot Options",
+    "Name": "Boot Options",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/BootOptions/5"
+        }
+    ],
+    "Members@odata.count": 5
+}
