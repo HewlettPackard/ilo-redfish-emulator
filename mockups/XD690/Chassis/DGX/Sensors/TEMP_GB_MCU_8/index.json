@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_MCU_8",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "TEMP_GB_MCU_8",
+    "Name": "TEMP_GB_MCU_8",
+    "PhysicalContext": "Intake",
+    "Reading": 42,
+    "ReadingType": "Temperature",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {
+            "Reading": 120
+        },
+        "UpperCritical": {
+            "Reading": 123
+        },
+        "UpperFatal": {
+            "Reading": 125
+        }
+    }
+}

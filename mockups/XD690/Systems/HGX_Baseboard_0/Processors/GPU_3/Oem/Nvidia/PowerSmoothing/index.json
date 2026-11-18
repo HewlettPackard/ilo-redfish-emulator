@@ -1,0 +1,54 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/PowerSmoothing",
+    "@odata.type": "#NvidiaPowerSmoothing.v1_2_0.NvidiaPowerSmoothing",
+    "Actions": {
+        "#NvidiaPowerSmoothing.ActivatePresetProfile": {
+            "@Redfish.ActionInfo": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/PowerSmoothing/ActivatePresetProfileActionInfo",
+            "target": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/PowerSmoothing/Actions/NvidiaPowerSmoothing.ActivatePresetProfile"
+        },
+        "#NvidiaPowerSmoothing.ApplyAdminOverrides": {
+            "target": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/PowerSmoothing/Actions/NvidiaPowerSmoothing.ApplyAdminOverrides"
+        }
+    },
+    "AdminOverrideActiveMask": {
+        "PFAOffsetSettingApplied": false,
+        "PFAWindowMultiplierSettingApplied": false,
+        "PFTWindowMultiplierSettingApplied": false,
+        "RampDownHysteresisSecondsApplied": false,
+        "RampDownWattsPerSecondApplied": false,
+        "RampUpWattsPerSecondApplied": false,
+        "SecondaryPowerFloorSettingApplied": false,
+        "TMPFloorPercentApplied": false
+    },
+    "AdminOverrideProfile": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/PowerSmoothing/AdminOverrideProfile"
+    },
+    "AppliedPresetProfile": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/PowerSmoothing/PresetProfiles/0"
+    },
+    "DelayedPowerSmoothingSupported": false,
+    "Enabled": false,
+    "FloorWindowMultiplierPeriod": 0.02,
+    "Id": "PowerSmoothing",
+    "ImmediateRampDown": false,
+    "MaxAllowedTMPFloorPercent": 100,
+    "MinAllowedPFAOffsetWatts": 0,
+    "MinAllowedPFAPointWatts": 0,
+    "MinAllowedTMPFloorPercent": 0,
+    "Name": "GPU_3 Power Smoothing",
+    "PFAOffsetWatts": 0,
+    "PFAWindowMultiplier": 0,
+    "PFTWindowMultiplier": 0,
+    "PowerSmoothingSupported": true,
+    "PresetProfiles": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/PowerSmoothing/PresetProfiles"
+    },
+    "RampDownHysteresisSeconds": 10,
+    "RampDownWattsPerSecond": 20,
+    "RampUpWattsPerSecond": 20,
+    "RemainingLifetimeCircuitryPercent": 100,
+    "SecondaryPowerFloorWatts": 0,
+    "TMPFloorPercent": 89.990234375,
+    "TMPFloorWatts": 0,
+    "TMPWatts": 1154.785
+}

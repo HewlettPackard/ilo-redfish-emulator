@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PowerSupply.PowerSupply",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_4",
+    "@odata.type": "#PowerSupply.v1_3_0.PowerSupply",
+    "Description": "Power Supply Unit PSU_4",
+    "HotPluggable": true,
+    "Id": "PSU_4",
+    "InputNominalVoltageType": "AC100To240V",
+    "Links": {
+        "PowerOutlets@odata.count": 0
+    },
+    "Location": {
+        "PartLocation": {
+            "LocationType": "Embedded"
+        }
+    },
+    "LocationIndicatorActive": false,
+    "Manufacturer": "Delta",
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_4/Metrics"
+    },
+    "Name": "PSU_4",
+    "PartNumber": "ECD17020047     ",
+    "PowerCapacityWatts": 3200,
+    "PowerSupplyType": "AC",
+    "SerialNumber": "THAXS2533031Q                   "
+}

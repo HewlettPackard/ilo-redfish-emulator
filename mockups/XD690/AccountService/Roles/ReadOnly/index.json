@@ -1,0 +1,16 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Role.Role",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/AccountService/Roles/ReadOnly",
+    "@odata.type": "#Role.v1_3_0.Role",
+    "AssignedPrivileges": [
+        "ConfigureSelf",
+        "Login"
+    ],
+    "Description": "ReadOnly User Role",
+    "Id": "ReadOnly",
+    "IsPredefined": true,
+    "Name": "User Role",
+    "Restricted": false,
+    "RoleId": "ReadOnly"
+}

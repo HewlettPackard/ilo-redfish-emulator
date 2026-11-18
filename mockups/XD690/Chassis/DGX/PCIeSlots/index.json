@@ -1,0 +1,723 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeSlots.PCIeSlots",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/PCIeSlots",
+    "@odata.type": "#PCIeSlots.v1_1_1.PCIeSlots",
+    "Description": "PcieSlot_0",
+    "Id": "PcieSlot_0",
+    "Name": "PcieSlot_0",
+    "Slots": [
+        {
+            "Lanes": 1,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX7"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 301,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "CX7"
+                }
+            },
+            "PCIeType": "Gen4",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 4,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/NVME1"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 304,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "NVME1"
+                }
+            },
+            "PCIeType": "Gen4",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 4,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/NVME0"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 305,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "NVME0"
+                }
+            },
+            "PCIeType": "Gen4",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU0"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 200,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "GPU0"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU1"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 201,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "GPU1"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU2"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 202,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "GPU2"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU3"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 203,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "GPU3"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU4"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 204,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "GPU4"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU5"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 205,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "GPU5"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU6"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 206,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "GPU6"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU7"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 207,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "GPU7"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_7"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 100,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "CX8 7"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_6"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 101,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "CX8 6"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_8"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 102,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "CX8 8"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_5"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 103,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "CX8 5"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_3"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 104,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "CX8 3"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_2"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 105,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "CX8 2"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_4"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 106,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "CX8 4"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_1"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 107,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "CX8 1"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/IO_BAY_2"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 80,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "IO BAY 2"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/IO_BAY_1"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 256,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "IO BAY 1"
+                }
+            },
+            "PCIeType": "Gen5",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 1,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/I210"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 303,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "I210"
+                }
+            },
+            "PCIeType": "Gen4",
+            "SlotType": "FullLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 4,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_5"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 16,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "E1S5_PCIe_switch"
+                }
+            },
+            "SlotType": "HalfLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 4,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_6"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 20,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "E1S6_PCIe_switch"
+                }
+            },
+            "SlotType": "HalfLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 4,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_7"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 24,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "E1S7_PCIe_switch"
+                }
+            },
+            "SlotType": "HalfLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 4,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_8"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 28,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "E1S8_PCIe_switch"
+                }
+            },
+            "SlotType": "HalfLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 4,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_4"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 272,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "E1S4_PCIe_switch"
+                }
+            },
+            "SlotType": "HalfLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 4,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_3"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 276,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "E1S3_PCIe_switch"
+                }
+            },
+            "SlotType": "HalfLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 4,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_2"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 280,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "E1S2_PCIe_switch"
+                }
+            },
+            "SlotType": "HalfLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "Lanes": 4,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_1"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 284,
+                    "LocationType": "Slot",
+                    "ServiceLabel": "E1S1_PCIe_switch"
+                }
+            },
+            "SlotType": "HalfLength",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#StorageCollection.StorageCollection",
+    "@odata.etag": "\"1792278296\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/Storage",
+    "@odata.type": "#StorageCollection.StorageCollection",
+    "Description": "Collection of Storage resource instances",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_5"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_6"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_7"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_8"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/Storage/NVME0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/Storage/NVME1"
+        }
+    ],
+    "Members@odata.count": 10,
+    "Name": "Storage Collection"
+}

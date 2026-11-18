@@ -1,0 +1,14 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Oem/Nvidia/WorkloadPowerProfile/EnableProfilesActionInfo",
+    "@odata.type": "#ActionInfo.v1_3_0.ActionInfo",
+    "Id": "EnableProfilesActionInfo",
+    "Name": "WorkloadPowerProfile EnableProfiles Action Info",
+    "Parameters": [
+        {
+            "AllowablePattern": "^0x[0-9A-Fa-f]+$",
+            "DataType": "String",
+            "Name": "ProfileMask",
+            "Required": true
+        }
+    ]
+}

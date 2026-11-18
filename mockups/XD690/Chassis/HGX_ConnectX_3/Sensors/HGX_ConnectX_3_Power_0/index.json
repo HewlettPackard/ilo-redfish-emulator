@@ -1,0 +1,23 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_3/Sensors/HGX_ConnectX_3_Power_0",
+    "@odata.type": "#Sensor.v1_7_0.Sensor",
+    "Id": "HGX_ConnectX_3_Power_0",
+    "Name": "HGX ConnectX 3 Power 0",
+    "PhysicalContext": "NetworkingDevice",
+    "Reading": 23.3,
+    "ReadingRangeMax": 6553.5,
+    "ReadingRangeMin": 0,
+    "ReadingType": "Power",
+    "ReadingUnits": "W",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_3/NetworkAdapters/ConnectX_NIC_3"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

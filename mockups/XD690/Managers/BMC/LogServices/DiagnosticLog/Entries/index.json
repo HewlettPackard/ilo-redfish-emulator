@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/DiagnosticLog/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/DiagnosticLog/Entries/1",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "AdditionalDataSizeBytes": 60195000,
+            "AdditionalDataURI": "/redfish/v1/Managers/BMC/LogServices/DiagnosticLog/Entries/1/nvidiadiag7KTiPo.tar.gz",
+            "Created": "2026-02-18T09:53:59-04:00",
+            "Description": "DiagnosticLog CollectDiagnosticData Action - ",
+            "DiagnosticDataType": "Manager",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-02-18T09:53:59-04:00",
+            "Id": "1",
+            "Name": "BMC DiagnosticLog Entry 1"
+        }
+    ],
+    "Members@odata.count": 1,
+    "Name": "Log Service Entries Collection"
+}

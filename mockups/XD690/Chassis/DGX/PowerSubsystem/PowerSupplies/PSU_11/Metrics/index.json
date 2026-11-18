@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PowerSupplyMetrics.PowerSupplyMetrics",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_11/Metrics",
+    "@odata.type": "#PowerSupplyMetrics.v1_1_0.PowerSupplyMetrics",
+    "Description": "Metrics for this Power Supply",
+    "FanSpeedsPercent": [
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/SPD_FAN_PSU11_F",
+            "DeviceName": "SPD_FAN_PSU11_F",
+            "Reading": "21024.00",
+            "SpeedRPM": "21024.00"
+        }
+    ],
+    "FanSpeedsPercent@odata.count": 1,
+    "Id": "PowerSupplyMetrics",
+    "Name": "Power Supply Metrics",
+    "OutputPowerWatts": {
+        "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/PWR_PSU11",
+        "Reading": 246.5
+    },
+    "TemperatureCelsius": {
+        "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PSU11",
+        "Reading": 52.4
+    }
+}

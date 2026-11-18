@@ -1,0 +1,20 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_4/Oem/Nvidia/ErrorInjection",
+    "@odata.type": "#NvidiaErrorInjection.v1_1_0.NvidiaErrorInjection",
+    "Actions": {
+        "#NvidiaErrorInjection.Activate": {
+            "target": "/redfish/v1/Chassis/HGX_SXM_SMA_4/Oem/Nvidia/ErrorInjection/Actions/NvidiaErrorInjection.Activate"
+        }
+    },
+    "ErrorInjectionCapabilities": {
+        "FatalErrors": {
+            "Enabled": false,
+            "FaultBitmap": "0x00000000",
+            "Supported": true
+        }
+    },
+    "ErrorInjectionModeEnabled": false,
+    "Id": "ErrorInjection",
+    "Name": "HGX_SXM_SMA_4 Error Injection",
+    "PersistentDataModified": false
+}

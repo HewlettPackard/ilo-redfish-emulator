@@ -1,0 +1,38 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventoryCollection.SoftwareInventoryCollection",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory",
+    "@odata.type": "#SoftwareInventoryCollection.SoftwareInventoryCollection",
+    "Description": "Collection of Software Inventory resources available to the UpdateService",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/HGX_Driver_GPU_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/HGX_Driver_GPU_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/HGX_Driver_GPU_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/HGX_Driver_GPU_3"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/HGX_Driver_GPU_4"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/HGX_Driver_GPU_5"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/HGX_Driver_GPU_6"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/HGX_Driver_GPU_7"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/HGX_Driver_NVLinkManagementNIC_0"
+        }
+    ],
+    "Members@odata.count": 9,
+    "Name": "Software Inventory Collection"
+}

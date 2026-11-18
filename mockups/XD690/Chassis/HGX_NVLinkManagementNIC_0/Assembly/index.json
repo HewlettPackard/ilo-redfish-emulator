@@ -1,0 +1,25 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/Assembly",
+    "@odata.type": "#Assembly.v1_3_0.Assembly",
+    "Assemblies": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/Assembly#/Assemblies/0",
+            "Location": {
+                "PartLocation": {
+                    "LocationType": "Embedded"
+                }
+            },
+            "MemberId": "0",
+            "Model": "Nvidia ConnectX7 mezz for Nvidia B300 NVL8 Umbriel System",
+            "Name": "NVLinkManagementNIC Board Assembly",
+            "PartNumber": "V000S4N03X",
+            "PhysicalContext": "Board",
+            "ProductionDate": "2026-05-13T11:26:53Z",
+            "SerialNumber": "1662925751056",
+            "Vendor": "NVIDIA",
+            "Version": "0x0000"
+        }
+    ],
+    "Id": "Assembly",
+    "Name": "Assembly data for HGX_NVLinkManagementNIC_0"
+}

@@ -1,0 +1,14 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports/NVLink_45/Oem/Nvidia/Histograms/FEC_0",
+    "@odata.type": "#NvidiaHistogram.v1_1_0.NvidiaHistogram",
+    "AccumulationCycle": 0,
+    "BucketFormat": "NvU64",
+    "BucketUnits": "Counts",
+    "HistogramBuckets": {
+        "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports/NVLink_45/Oem/Nvidia/Histograms/FEC_0/Buckets"
+    },
+    "Id": "FEC_0",
+    "IncrementDurationMicroseconds": 0,
+    "Name": "NVSwitch_1_NVLink_45_Histogram_FEC_0",
+    "UpdatePeriodMilliseconds": 50
+}

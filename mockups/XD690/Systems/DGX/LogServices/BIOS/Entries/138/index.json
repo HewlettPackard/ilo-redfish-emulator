@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/138",
+    "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+    "Created": "2026-10-07T17:29:39+00:00",
+    "Description": "BIOS 648",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventTimestamp": "2026-10-07T17:29:31+00:00",
+    "Id": "138",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Systems/DGX"
+        }
+    },
+    "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 648, Sensor_Type : System Firmware Progress, ",
+    "MessageId": "0xC202FF",
+    "Name": "BIOS 648",
+    "SensorNumber": 0,
+    "SensorType": "System Firmware Progress",
+    "Severity": "OK"
+}

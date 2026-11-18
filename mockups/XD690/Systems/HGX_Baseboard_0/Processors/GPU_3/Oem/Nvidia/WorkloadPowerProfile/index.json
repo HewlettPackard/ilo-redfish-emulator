@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/WorkloadPowerProfile",
+    "@odata.type": "#NvidiaWorkloadPower.v1_0_0.NvidiaWorkloadPower",
+    "Actions": {
+        "#NvidiaWorkloadPower.DisableProfiles": {
+            "@Redfish.ActionInfo": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/WorkloadPowerProfile/DisableProfilesActionInfo",
+            "target": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/WorkloadPowerProfile/Actions/NvidiaWorkloadPower.DisableProfiles"
+        },
+        "#NvidiaWorkloadPower.EnableProfiles": {
+            "@Redfish.ActionInfo": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/WorkloadPowerProfile/EnableProfilesActionInfo",
+            "target": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/WorkloadPowerProfile/Actions/NvidiaWorkloadPower.EnableProfiles"
+        }
+    },
+    "EnforcedProfileMask": "0x0",
+    "Id": "WorkloadPowerProfile",
+    "Name": "GPU_3 Workload Power Profile",
+    "Profiles": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/WorkloadPowerProfile/Profiles"
+    },
+    "RequestedProfileMask": "0x0",
+    "SupportedProfileMask": "0x798"
+}

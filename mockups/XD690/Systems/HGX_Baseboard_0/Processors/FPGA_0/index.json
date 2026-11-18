@@ -1,0 +1,46 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_3_3.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/FPGA_0/Settings"
+        }
+    },
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/FPGA_0",
+    "@odata.type": "#Processor.v1_20_0.Processor",
+    "EnvironmentMetrics": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/FPGA_0/EnvironmentMetrics"
+    },
+    "FPGA": {
+        "FpgaType": "Discrete"
+    },
+    "FirmwareVersion": "1.54",
+    "Id": "FPGA_0",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/HGX_FPGA_0"
+        }
+    },
+    "Location": {
+        "PartLocation": {
+            "LocationType": "Embedded"
+        }
+    },
+    "Manufacturer": "NVIDIA",
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/FPGA_0/ProcessorMetrics"
+    },
+    "Model": "NA",
+    "Name": "Processor",
+    "PartNumber": "NA",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/FPGA_0/Ports"
+    },
+    "ProcessorType": "FPGA",
+    "SerialNumber": "NA",
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_4/PCIeDevices/ConnectX_4",
+    "@odata.type": "#PCIeDevice.v1_14_0.PCIeDevice",
+    "DeviceType": "SingleFunction",
+    "Id": "ConnectX_4",
+    "Links": {
+        "Switch": {
+            "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_4/Switches/ConnectX_Switch_4"
+        }
+    },
+    "Manufacturer": "NVIDIA",
+    "Model": "Nvidia ConnectX8 XDR IB/800GBE for Nvidia B300 NVL8 Umbriel System",
+    "Name": "PCIe Device",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaPCIeDevice.v1_2_0.NvidiaPCIeDevice"
+        }
+    },
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_4/PCIeDevices/ConnectX_4/PCIeFunctions"
+    },
+    "PCIeInterface": {
+        "LanesInUse": 16,
+        "MaxLanes": 16,
+        "MaxPCIeType": "Gen5",
+        "PCIeType": "Gen5"
+    },
+    "PartNumber": "MLX000647",
+    "SerialNumber": "1662925751056",
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "UUID": "ae0a96c0-cb06-11e5-a837-3c6d66d5a10e"
+}

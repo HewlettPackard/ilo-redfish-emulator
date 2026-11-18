@@ -1,0 +1,88 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Endpoints/GPU_6",
+    "@odata.type": "#Endpoint.v1_6_0.Endpoint",
+    "ConnectedEntities": [
+        {
+            "EntityLink": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6"
+            },
+            "EntityPciId": {
+                "DeviceId": "0x3182",
+                "SubsystemId": "0x20E6",
+                "SubsystemVendorId": "0x10DE",
+                "VendorId": "0x10DE"
+            },
+            "EntityType": "Processor"
+        }
+    ],
+    "EndpointProtocol": "NVLink",
+    "Id": "GPU_6",
+    "Links": {
+        "ConnectedPorts": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_0/Ports/NVLink_38"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_0/Ports/NVLink_42"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_0/Ports/NVLink_46"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_0/Ports/NVLink_50"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_0/Ports/NVLink_54"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_0/Ports/NVLink_58"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_0/Ports/NVLink_62"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_0/Ports/NVLink_66"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_0/Ports/NVLink_70"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports/NVLink_38"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports/NVLink_42"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports/NVLink_46"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports/NVLink_50"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports/NVLink_54"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports/NVLink_58"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports/NVLink_62"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports/NVLink_66"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports/NVLink_70"
+            }
+        ],
+        "Zones": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Zones/0"
+            }
+        ]
+    },
+    "Name": "GPU_6 Endpoint Resource",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

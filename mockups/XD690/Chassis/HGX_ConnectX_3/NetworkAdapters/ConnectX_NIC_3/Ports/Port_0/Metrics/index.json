@@ -1,0 +1,44 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_3/NetworkAdapters/ConnectX_NIC_3/Ports/Port_0/Metrics",
+    "@odata.type": "#PortMetrics.v1_7_0.PortMetrics",
+    "Id": "Port_0",
+    "Name": "Port_0 Port Metrics",
+    "Networking": {
+        "RXBroadcastFrames": 0,
+        "RXFCSErrors": 0,
+        "RXFalseCarrierErrors": 0,
+        "RXFrameAlignmentErrors": 0,
+        "RXMulticastFrames": 0,
+        "RXOversizeFrames": 0,
+        "RXPauseXOFFFrames": 0,
+        "RXPauseXONFrames": 0,
+        "RXUndersizeFrames": 0,
+        "RXUnicastFrames": 0,
+        "TXBroadcastFrames": 0,
+        "TXExcessiveCollisions": 0,
+        "TXLateCollisions": 0,
+        "TXMulticastFrames": 0,
+        "TXMultipleCollisions": 0,
+        "TXPauseXOFFFrames": 0,
+        "TXPauseXONFrames": 0,
+        "TXSingleCollisions": 0,
+        "TXUnicastFrames": 0
+    },
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaPortMetrics.v1_7_0.NvidiaNetworkPortMetrics",
+            "ECC": {
+                "CorrectedBits": 0,
+                "RawErrorsPerLane": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "SymbolErrorRXBytes": 0
+            }
+        }
+    },
+    "RXBytes": 0,
+    "TXBytes": 0
+}

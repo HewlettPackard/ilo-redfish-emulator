@@ -1,0 +1,63 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkAdapter.NetworkAdapter",
+    "@odata.etag": "\"1792167374\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/I210",
+    "@odata.type": "#NetworkAdapter.v1_5_0.NetworkAdapter",
+    "Controllers": [
+        {
+            "ControllerCapabilities": {
+                "DataCenterBridging": {
+                    "Capable": false
+                },
+                "NPAR": {
+                    "NparCapable": false,
+                    "NparEnabled": false
+                },
+                "NetworkDeviceFunctionCount": 1,
+                "NetworkPortCount": 1,
+                "VirtualizationOffload": {
+                    "SRIOV": {
+                        "SRIOVVEPACapable": false
+                    }
+                }
+            },
+            "FirmwarePackageVersion": "9.8.86",
+            "Links": {
+                "NetworkDeviceFunctions": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/I210/NetworkDeviceFunctions/NetworkDeviceFunction0"
+                    }
+                ],
+                "NetworkDeviceFunctions@odata.count": 1,
+                "PCIeDevices": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/I210"
+                    }
+                ],
+                "PCIeDevices@odata.count": 1,
+                "Ports": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/I210/Ports/NetworkPort_0"
+                    }
+                ],
+                "Ports@odata.count": 1
+            }
+        }
+    ],
+    "Id": "I210",
+    "Manufacturer": "Intel",
+    "Model": "NA",
+    "Name": "I210",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/I210/NetworkDeviceFunctions"
+    },
+    "PartNumber": "NA",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/I210/Ports"
+    },
+    "SerialNumber": "NA",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

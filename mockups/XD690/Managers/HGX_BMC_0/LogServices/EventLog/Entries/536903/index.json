@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536903",
+    "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+    "Created": "2026-10-16T12:16:09+00:00",
+    "EntryType": "Event",
+    "Id": "536903",
+    "Message": "Processes consuming HIGH Resource CPU are nsmd (18%) /usr/libexec/phosphor-objmgr/mapperx (18%) /usr/bin/pldmd (9%) dbus-broker (9%)",
+    "MessageArgs": [
+        "CPU",
+        "nsmd (18%) /usr/libexec/phosphor-objmgr/mapperx (18%) /usr/bin/pldmd (9%) dbus-broker (9%)"
+    ],
+    "MessageId": "OpenBMC.0.4.BMCSystemResourceInfo",
+    "Name": "Manager Event Log Entry",
+    "Resolution": "None",
+    "Resolved": false,
+    "Severity": "OK"
+}

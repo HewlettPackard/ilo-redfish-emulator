@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.v1_12_0.LogEntry",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/DecodedLog/Entries/0",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2026-09-28T10:33:35-04:00",
+    "EntryType": "SEL",
+    "EventId": "95",
+    "EventTimestamp": "2026-09-28T10:33:35-04:00",
+    "GeneratorId": "0x0020",
+    "Id": "0",
+    "Message": "The state of resource `entity` has changed to Present.",
+    "MessageArgs": [
+        "entity",
+        "Present"
+    ],
+    "Name": "sel 0",
+    "Resolution": "No action needed.",
+    "Resolved": true,
+    "SensorNumber": 243,
+    "SensorType": "Monitor ASIC/IC",
+    "Severity": "OK"
+}

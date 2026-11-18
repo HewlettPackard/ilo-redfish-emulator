@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536871",
+    "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+    "Created": "2026-10-07T17:26:57+00:00",
+    "EntryType": "Event",
+    "Id": "536871",
+    "Message": "The resource property NVSwitch_1 NVLink_56 has corrected errors of type 'LinkUp'.",
+    "MessageArgs": [
+        "NVSwitch_1 NVLink_56",
+        "LinkUp"
+    ],
+    "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+    "Name": "Manager Event Log Entry",
+    "Resolution": "None",
+    "Resolved": false,
+    "Severity": "OK"
+}

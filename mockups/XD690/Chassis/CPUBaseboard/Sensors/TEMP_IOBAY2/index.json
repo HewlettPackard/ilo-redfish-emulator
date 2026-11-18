@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/CPUBaseboard/Sensors/TEMP_IOBAY2",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "TEMP_IOBAY2",
+    "Name": "TEMP_IOBAY2",
+    "PhysicalContext": "Intake",
+    "Reading": 37,
+    "ReadingType": "Temperature",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {
+            "Reading": 95
+        },
+        "UpperCritical": {
+            "Reading": 98
+        },
+        "UpperFatal": {
+            "Reading": 100
+        }
+    }
+}

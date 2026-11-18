@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.v1_12_0.LogEntry",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/DecodedLog/Entries/0",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2026-09-28T10:31:31-04:00",
+    "EntryType": "SEL",
+    "EventId": "75",
+    "EventTimestamp": "2026-09-28T10:31:31-04:00",
+    "GeneratorId": "0x0020",
+    "Id": "0",
+    "Message": "The state of resource `GPU_BASE_HMC_READY` has changed to DeAsserted.",
+    "MessageArgs": [
+        "GPU_BASE_HMC_READY",
+        "DeAsserted"
+    ],
+    "Name": "sel 0",
+    "Resolution": "Please contact NVIDIA support for further investigation.",
+    "Resolved": true,
+    "SensorNumber": 219,
+    "Severity": "OK"
+}

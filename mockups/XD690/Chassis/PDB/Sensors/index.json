@@ -1,0 +1,74 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SensorCollection.SensorCollection",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/PDB/Sensors",
+    "@odata.type": "#SensorCollection.SensorCollection",
+    "Description": "Resource Collection of Sensor instances",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_3V_BATTERY"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_MB_12V"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_MB_12V_AUX"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_MB_1V2_AUX"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_MB_1V8_AUX"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_MB_2V5_AUX"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_MB_3V3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_MB_5V_AUX"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_MB_VRM_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_MB_VRM_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_PDB_FAN_HSC"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_PDB_VRM_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_SCM_12V"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_SCM_1V05"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_SCM_1V8"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_SCM_3V3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_SCM_5V"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_VCCFA_CPU0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_VCCFA_CPU1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_VCCIN_CPU0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_VCCIN_CPU1"
+        }
+    ],
+    "Members@odata.count": 21,
+    "Name": "Sensor Collection"
+}

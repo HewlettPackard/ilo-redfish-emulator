@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/Sensors/TEMP_MB_VRM1",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "TEMP_MB_VRM1",
+    "Name": "TEMP_MB_VRM1",
+    "PhysicalContext": "Intake",
+    "Reading": 36,
+    "ReadingType": "Temperature",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {
+            "Reading": 110
+        },
+        "UpperCritical": {
+            "Reading": 130
+        },
+        "UpperFatal": {
+            "Reading": 135
+        }
+    }
+}

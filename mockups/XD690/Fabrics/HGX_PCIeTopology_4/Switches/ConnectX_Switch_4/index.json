@@ -1,0 +1,55 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_4/Switches/ConnectX_Switch_4",
+    "@odata.type": "#Switch.v1_8_0.Switch",
+    "Actions": {
+        "#Switch.Reset": {
+            "ResetType@Redfish.AllowableValues": [
+                "ForceRestart"
+            ],
+            "target": "/redfish/v1/Fabrics/HGX_PCIeTopology_4/Switches/ConnectX_Switch_4/Actions/Switch.Reset"
+        }
+    },
+    "CurrentBandwidthGbps": 0,
+    "Enabled": false,
+    "FirmwareVersion": "40.48.1132",
+    "Id": "ConnectX_Switch_4",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_4"
+        },
+        "Endpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_4/Endpoints/GPU_4"
+            }
+        ],
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_4/PCIeDevices/ConnectX_4"
+        }
+    },
+    "MaxBandwidthGbps": 0,
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_4/Switches/ConnectX_Switch_4/SwitchMetrics"
+    },
+    "Name": "ConnectX_Switch_4 Resource",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaSwitch.v1_4_0.NvidiaSwitch",
+            "DeviceId": "0x1023",
+            "VendorId": "0x15b3"
+        }
+    },
+    "Ports": {
+        "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_4/Switches/ConnectX_Switch_4/Ports"
+    },
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "SupportedProtocols": [
+        "PCIe"
+    ],
+    "SwitchType": "PCIe",
+    "TotalSwitchWidth": 0
+}

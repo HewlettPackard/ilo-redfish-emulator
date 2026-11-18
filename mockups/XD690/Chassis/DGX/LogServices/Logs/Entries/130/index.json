@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/130",
+    "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+    "Created": "2026-10-14T15:56:21+00:00",
+    "Description": "LOG 672",
+    "EntryCode": "Lower Critical - going low",
+    "EntryType": "SEL",
+    "EventTimestamp": "2026-10-14T15:56:20+00:00",
+    "Id": "130",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+        }
+    },
+    "Message": "Event_Data_1 : 82, Record_Type : system event record, Sensor_Number : 73, Event_Dir : Deassertion event, Event_Data_2 : 20, Timestamp : 2026-10-14T15:56:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : Lower Critical - going low, Record_ID : 672, Sensor_Type : Power Supply / Converter, ",
+    "MessageId": "0x521400",
+    "Name": "LOG 672",
+    "SensorNumber": 73,
+    "SensorType": "Power Supply / Converter",
+    "Severity": "Critical"
+}

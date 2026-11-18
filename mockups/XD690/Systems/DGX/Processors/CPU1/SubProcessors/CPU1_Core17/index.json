@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Processor.Processor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core17",
+    "@odata.type": "#Processor.v1_10_0.Processor",
+    "Id": "CPU1_Core17",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/DGX"
+        },
+        "ConnectedProcessors": [
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core17_Thread0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core17_Thread1"
+            }
+        ],
+        "ConnectedProcessors@odata.count": 2
+    },
+    "MaxSpeedMHz": 4600,
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core17/ProcessorMetrics"
+    },
+    "Name": "CPU1_Core17",
+    "ProcessorType": "Core",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "TotalThreads": 2
+}

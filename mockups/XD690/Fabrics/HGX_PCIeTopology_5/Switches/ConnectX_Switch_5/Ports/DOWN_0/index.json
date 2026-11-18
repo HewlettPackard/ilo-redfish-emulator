@@ -1,0 +1,33 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_5/Switches/ConnectX_Switch_5/Ports/DOWN_0",
+    "@odata.type": "#Port.v1_4_0.Port",
+    "ActiveWidth": 16,
+    "CurrentSpeedGbps": 64,
+    "Id": "DOWN_0",
+    "Links": {
+        "AssociatedEndpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_5/Endpoints/GPU_5"
+            }
+        ],
+        "ConnectedPorts": [
+            {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/PCIe_0"
+            }
+        ]
+    },
+    "MaxSpeedGbps": 64,
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_5/Switches/ConnectX_Switch_5/Ports/DOWN_0/Metrics"
+    },
+    "Name": "DOWN_0 Resource",
+    "PortProtocol": "PCIe",
+    "PortType": "DownstreamPort",
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Width": 16
+}

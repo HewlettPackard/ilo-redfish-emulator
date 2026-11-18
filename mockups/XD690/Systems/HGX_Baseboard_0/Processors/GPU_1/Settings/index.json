@@ -1,0 +1,16 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Settings",
+    "@odata.type": "#Processor.v1_20_0.Processor",
+    "Id": "Settings",
+    "MemorySummary": {
+        "ECCModeEnabled": true
+    },
+    "Name": "GPU_1PendingSettings",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaProcessor.v1_6_0.NvidiaGPU",
+            "CCDevModeEnabled": false,
+            "CCModeEnabled": false
+        }
+    }
+}

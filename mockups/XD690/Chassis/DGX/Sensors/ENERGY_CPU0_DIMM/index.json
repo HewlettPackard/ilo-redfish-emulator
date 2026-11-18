@@ -1,0 +1,17 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/Sensors/ENERGY_CPU0_DIMM",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "ENERGY_CPU0_DIMM",
+    "Name": "ENERGY_CPU0_DIMM",
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 218914,
+    "ReadingRangeMax": 280500,
+    "ReadingRangeMin": 0,
+    "ReadingType": "EnergyJoules",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

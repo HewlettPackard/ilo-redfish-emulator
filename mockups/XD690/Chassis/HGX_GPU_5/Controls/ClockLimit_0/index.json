@@ -1,0 +1,29 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_GPU_5/Controls/ClockLimit_0",
+    "@odata.type": "#Control.v1_3_0.Control",
+    "Actions": {
+        "#Control.ResetToDefaults": {
+            "target": "/redfish/v1/Chassis/HGX_GPU_5/Controls/ClockLimit_0/Actions/Control.ResetToDefaults"
+        }
+    },
+    "AllowableMax": 2032,
+    "AllowableMin": 120,
+    "ControlMode": "Automatic",
+    "ControlType": "FrequencyMHz",
+    "Id": "ClockLimit_0",
+    "Name": "Control for GPU_5 ClockLimit_0",
+    "PhysicalContext": "GPU",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5"
+        }
+    ],
+    "SetPointUnits": "MHz",
+    "SettingMax": 4294967295,
+    "SettingMin": 4294967295,
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

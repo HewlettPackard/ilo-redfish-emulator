@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#StorageController.v1_0_0.StorageController",
+    "@odata.etag": "\"1792167380\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_2/Controllers/8",
+    "@odata.type": "#StorageController.v1_0_0.StorageController",
+    "AssetTag": "Micron NVME",
+    "FirmwareVersion": "F3MU011",
+    "Id": "8",
+    "Manufacturer": "Micron Technology Inc.",
+    "Model": "MTFDLCE7T6THA-1BK1DABYY",
+    "NVMeControllerProperties": {
+        "MaxQueueSize": 2047,
+        "NVMeVersion": "NVMe Spec v2.0"
+    },
+    "Name": "Micron NVME",
+    "SerialNumber": "4125111516E2",
+    "SpeedGbps": 126.03,
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "SupportedControllerProtocols": [
+        "NVMe",
+        "PCIe"
+    ],
+    "SupportedDeviceProtocols": [
+        "NVMe"
+    ]
+}

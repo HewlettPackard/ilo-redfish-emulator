@@ -1,0 +1,331 @@
+{
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReports/HGX_ProcessorResetMetrics_0",
+    "@odata.type": "#MetricReport.v1_4_2.MetricReport",
+    "Id": "HGX_ProcessorResetMetrics_0",
+    "MetricReportDefinition": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/HGX_ProcessorResetMetrics_0"
+    },
+    "MetricValues": [
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Oem/Nvidia/ProcessorResetMetrics#/ConventionalResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.132+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Oem/Nvidia/ProcessorResetMetrics#/ConventionalResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.132+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Oem/Nvidia/ProcessorResetMetrics#/FundamentalResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.132+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Oem/Nvidia/ProcessorResetMetrics#/FundamentalResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.132+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Oem/Nvidia/ProcessorResetMetrics#/IRoTResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.132+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Oem/Nvidia/ProcessorResetMetrics#/LastResetType",
+            "MetricValue": "IRoTReset",
+            "Timestamp": "2026-10-20T18:03:22.132+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Oem/Nvidia/ProcessorResetMetrics#/PF_FLR_ResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.132+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Oem/Nvidia/ProcessorResetMetrics#/PF_FLR_ResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.132+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Oem/Nvidia/ProcessorResetMetrics#/ConventionalResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:33.693+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Oem/Nvidia/ProcessorResetMetrics#/ConventionalResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:33.693+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Oem/Nvidia/ProcessorResetMetrics#/FundamentalResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:33.693+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Oem/Nvidia/ProcessorResetMetrics#/FundamentalResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:33.693+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Oem/Nvidia/ProcessorResetMetrics#/IRoTResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:33.693+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Oem/Nvidia/ProcessorResetMetrics#/LastResetType",
+            "MetricValue": "IRoTReset",
+            "Timestamp": "2026-10-20T18:03:33.693+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Oem/Nvidia/ProcessorResetMetrics#/PF_FLR_ResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:33.693+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Oem/Nvidia/ProcessorResetMetrics#/PF_FLR_ResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:33.693+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Oem/Nvidia/ProcessorResetMetrics#/ConventionalResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:37.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Oem/Nvidia/ProcessorResetMetrics#/ConventionalResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:37.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Oem/Nvidia/ProcessorResetMetrics#/FundamentalResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:37.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Oem/Nvidia/ProcessorResetMetrics#/FundamentalResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:37.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Oem/Nvidia/ProcessorResetMetrics#/IRoTResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:37.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Oem/Nvidia/ProcessorResetMetrics#/LastResetType",
+            "MetricValue": "IRoTReset",
+            "Timestamp": "2026-10-20T18:03:37.140+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Oem/Nvidia/ProcessorResetMetrics#/PF_FLR_ResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:37.140+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Oem/Nvidia/ProcessorResetMetrics#/PF_FLR_ResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:37.140+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/ProcessorResetMetrics#/ConventionalResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.940+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/ProcessorResetMetrics#/ConventionalResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.940+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/ProcessorResetMetrics#/FundamentalResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.940+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/ProcessorResetMetrics#/FundamentalResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.940+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/ProcessorResetMetrics#/IRoTResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.940+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/ProcessorResetMetrics#/LastResetType",
+            "MetricValue": "IRoTReset",
+            "Timestamp": "2026-10-20T18:03:24.940+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/ProcessorResetMetrics#/PF_FLR_ResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.940+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/ProcessorResetMetrics#/PF_FLR_ResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.940+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Oem/Nvidia/ProcessorResetMetrics#/ConventionalResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:19.672+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Oem/Nvidia/ProcessorResetMetrics#/ConventionalResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:19.672+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Oem/Nvidia/ProcessorResetMetrics#/FundamentalResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:19.671+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Oem/Nvidia/ProcessorResetMetrics#/FundamentalResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:19.672+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Oem/Nvidia/ProcessorResetMetrics#/IRoTResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:19.672+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Oem/Nvidia/ProcessorResetMetrics#/LastResetType",
+            "MetricValue": "IRoTReset",
+            "Timestamp": "2026-10-20T18:03:19.672+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Oem/Nvidia/ProcessorResetMetrics#/PF_FLR_ResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:19.672+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Oem/Nvidia/ProcessorResetMetrics#/PF_FLR_ResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:19.672+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Oem/Nvidia/ProcessorResetMetrics#/ConventionalResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:37.935+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Oem/Nvidia/ProcessorResetMetrics#/ConventionalResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:37.935+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Oem/Nvidia/ProcessorResetMetrics#/FundamentalResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:37.935+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Oem/Nvidia/ProcessorResetMetrics#/FundamentalResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:37.935+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Oem/Nvidia/ProcessorResetMetrics#/IRoTResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:37.935+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Oem/Nvidia/ProcessorResetMetrics#/LastResetType",
+            "MetricValue": "IRoTReset",
+            "Timestamp": "2026-10-20T18:03:37.935+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Oem/Nvidia/ProcessorResetMetrics#/PF_FLR_ResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:37.935+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Oem/Nvidia/ProcessorResetMetrics#/PF_FLR_ResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:37.935+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Oem/Nvidia/ProcessorResetMetrics#/ConventionalResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.026+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Oem/Nvidia/ProcessorResetMetrics#/ConventionalResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.026+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Oem/Nvidia/ProcessorResetMetrics#/FundamentalResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.026+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Oem/Nvidia/ProcessorResetMetrics#/FundamentalResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.026+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Oem/Nvidia/ProcessorResetMetrics#/IRoTResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.026+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Oem/Nvidia/ProcessorResetMetrics#/LastResetType",
+            "MetricValue": "IRoTReset",
+            "Timestamp": "2026-10-20T18:03:17.026+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Oem/Nvidia/ProcessorResetMetrics#/PF_FLR_ResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.026+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Oem/Nvidia/ProcessorResetMetrics#/PF_FLR_ResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.026+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Oem/Nvidia/ProcessorResetMetrics#/ConventionalResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.088+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Oem/Nvidia/ProcessorResetMetrics#/ConventionalResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.088+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Oem/Nvidia/ProcessorResetMetrics#/FundamentalResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.088+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Oem/Nvidia/ProcessorResetMetrics#/FundamentalResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.088+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Oem/Nvidia/ProcessorResetMetrics#/IRoTResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.088+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Oem/Nvidia/ProcessorResetMetrics#/LastResetType",
+            "MetricValue": "IRoTReset",
+            "Timestamp": "2026-10-20T18:03:15.088+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Oem/Nvidia/ProcessorResetMetrics#/PF_FLR_ResetEntryCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.088+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Oem/Nvidia/ProcessorResetMetrics#/PF_FLR_ResetExitCount",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.088+00:00"
+        }
+    ],
+    "Name": "HGX_ProcessorResetMetrics_0"
+}

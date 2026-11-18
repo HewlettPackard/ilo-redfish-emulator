@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/536575",
+    "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+    "Created": "2026-10-07T17:07:51+00:00",
+    "EntryType": "Event",
+    "Id": "536575",
+    "Message": "The resource property NVSwitch_0 NVLink_31 has detected errors of type 'LinkDown'.",
+    "MessageArgs": [
+        "NVSwitch_0 NVLink_31",
+        "LinkDown"
+    ],
+    "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+    "Name": "System Event Log Entry",
+    "Resolution": "None",
+    "Resolved": false,
+    "Severity": "Critical"
+}

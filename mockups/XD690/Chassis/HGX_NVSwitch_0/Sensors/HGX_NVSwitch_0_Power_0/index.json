@@ -1,0 +1,23 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_NVSwitch_0/Sensors/HGX_NVSwitch_0_Power_0",
+    "@odata.type": "#Sensor.v1_7_0.Sensor",
+    "Id": "HGX_NVSwitch_0_Power_0",
+    "Name": "HGX NVSwitch 0 Power 0",
+    "PhysicalContext": "SystemBoard",
+    "Reading": 295,
+    "ReadingRangeMax": 65535,
+    "ReadingRangeMin": 0,
+    "ReadingType": "Power",
+    "ReadingUnits": "W",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_0"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

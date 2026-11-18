@@ -1,0 +1,27 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_5_DRAM_0/MemoryMetrics",
+    "@odata.type": "#MemoryMetrics.v1_7_0.MemoryMetrics",
+    "BandwidthPercent": 0,
+    "CapacityUtilizationPercent": 0,
+    "Id": "MemoryMetrics",
+    "LifeTime": {
+        "CorrectableECCErrorCount": 0,
+        "UncorrectableECCErrorCount": 0
+    },
+    "Name": "GPU_5_DRAM_0 Memory Metrics",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaMemoryMetrics.v1_2_0.NvidiaGPUMemoryMetrics",
+            "RowRemapping": {
+                "CorrectableRowRemappingCount": 0,
+                "HighAvailabilityBankCount": 0,
+                "LowAvailabilityBankCount": 0,
+                "MaxAvailabilityBankCount": 5952,
+                "NoAvailabilityBankCount": 0,
+                "PartialAvailabilityBankCount": 0,
+                "UncorrectableRowRemappingCount": 0
+            }
+        }
+    },
+    "OperatingSpeedMHz": 3996
+}

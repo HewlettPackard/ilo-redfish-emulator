@@ -1,0 +1,28 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_BMC_0/Sensors/HGX_BMC_0_Temp_0",
+    "@odata.type": "#Sensor.v1_7_0.Sensor",
+    "Id": "HGX_BMC_0_Temp_0",
+    "Name": "HGX BMC 0 Temp 0",
+    "PhysicalContext": "GPUSubsystem",
+    "Reading": 38.75,
+    "ReadingRangeMax": 127,
+    "ReadingRangeMin": -128,
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperFatal": {
+            "Reading": 85
+        }
+    }
+}

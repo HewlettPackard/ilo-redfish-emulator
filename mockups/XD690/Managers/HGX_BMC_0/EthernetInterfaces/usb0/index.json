@@ -1,0 +1,63 @@
+{
+    "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/EthernetInterfaces/usb0",
+    "@odata.type": "#EthernetInterface.v1_9_0.EthernetInterface",
+    "DHCPv4": {
+        "DHCPEnabled": true,
+        "UseDNSServers": true,
+        "UseDomainName": true,
+        "UseNTPServers": true
+    },
+    "DHCPv6": {
+        "OperatingMode": "Enabled",
+        "UseDNSServers": true,
+        "UseDomainName": true,
+        "UseNTPServers": true
+    },
+    "Description": "Management Network Interface",
+    "EthernetInterfaceType": "Physical",
+    "FQDN": "hgxb300",
+    "HostName": "hgxb300",
+    "IPv4Addresses": [
+        {
+            "Address": "192.168.31.1",
+            "AddressOrigin": "Static",
+            "Gateway": "0.0.0.0",
+            "SubnetMask": "255.255.255.248"
+        }
+    ],
+    "IPv4StaticAddresses": [
+        {
+            "Address": "192.168.31.1",
+            "AddressOrigin": "Static",
+            "Gateway": "0.0.0.0",
+            "SubnetMask": "255.255.255.248"
+        }
+    ],
+    "IPv6AddressPolicyTable": [],
+    "IPv6Addresses": [
+        {
+            "Address": "fe80::3416:20ff:fe00:c100",
+            "AddressOrigin": "LinkLocal",
+            "AddressState": "Preferred",
+            "PrefixLength": 64
+        }
+    ],
+    "IPv6DefaultGateway": "0:0:0:0:0:0:0:0",
+    "IPv6StaticAddresses": [],
+    "IPv6StaticDefaultGateways": [],
+    "Id": "usb0",
+    "InterfaceEnabled": true,
+    "LinkStatus": "LinkUp",
+    "MACAddress": "36:16:20:00:c1:00",
+    "MTUSize": 1500,
+    "Name": "Manager Ethernet Interface",
+    "NameServers": [],
+    "SpeedMbps": 0,
+    "StatelessAddressAutoConfig": {
+        "IPv6AutoConfigEnabled": true
+    },
+    "StaticNameServers": [],
+    "Status": {
+        "State": "Enabled"
+    }
+}

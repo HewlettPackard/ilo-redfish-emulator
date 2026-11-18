@@ -1,0 +1,36 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ActionInfo.ActionInfo",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/DiagnosticLog/CollectDiagnosticDataActionInfo",
+    "@odata.type": "#ActionInfo.v1_1_2.ActionInfo",
+    "Description": "This Actioninfo is used for CollectDiagnosticData Action",
+    "Id": "DiagnosticLog ActionInfo",
+    "Name": "DiagnosticLog ActionInfo",
+    "Parameters": [
+        {
+            "AllowableValues": [
+                "OEM"
+            ],
+            "DataType": "String",
+            "Name": "DiagnosticDataType",
+            "Required": true
+        },
+        {
+            "AllowableValues": [
+                "logs",
+                "INVENTORY",
+                "HGXFPGA",
+                "FPGA",
+                "ALL",
+                "HGXFDR",
+                "SERVICELOGS",
+                "BMCLOG",
+                "EROT",
+                "HGX"
+            ],
+            "DataType": "String",
+            "Name": "OEMDiagnosticDataType",
+            "Required": false
+        }
+    ]
+}

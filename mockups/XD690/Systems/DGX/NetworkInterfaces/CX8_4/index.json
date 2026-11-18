@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkInterface.NetworkInterface",
+    "@odata.etag": "\"1792167379\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces/CX8_4",
+    "@odata.type": "#NetworkInterface.v1_1_3.NetworkInterface",
+    "Description": "NetworkInterface instance",
+    "Id": "CX8_4",
+    "Links": {
+        "NetworkAdapter": {
+            "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/CX8_4"
+        }
+    },
+    "Name": "CX8 4",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces/CX8_4/NetworkDeviceFunctions"
+    },
+    "NetworkPorts": {
+        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/CX8_4/NetworkPorts"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

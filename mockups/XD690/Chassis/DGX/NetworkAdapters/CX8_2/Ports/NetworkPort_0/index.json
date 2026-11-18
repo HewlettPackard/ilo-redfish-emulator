@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata",
+    "@odata.etag": "\"1792290907\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/CX8_2/Ports/NetworkPort_0",
+    "@odata.type": "#Port.v1_5_0.Port",
+    "Ethernet": {
+        "EEEEnabled": false,
+        "LLDPEnabled": false,
+        "WakeOnLANEnabled": false
+    },
+    "Id": "NetworkPort_0",
+    "InterfaceEnabled": false,
+    "LinkConfiguration": [
+        {
+            "AutoSpeedNegotiationCapable": false
+        }
+    ],
+    "LinkTransitionIndicator": false,
+    "LocationIndicatorActive": false,
+    "Name": "NetworkPort_0",
+    "PortId": "0",
+    "PortProtocol": "InfiniBand",
+    "SignalDetected": false
+}

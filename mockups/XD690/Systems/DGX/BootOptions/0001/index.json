@@ -1,0 +1,21 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_2_2.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/0001/SD"
+        }
+    },
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "\"1792167379\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/0001",
+    "@odata.type": "#BootOption.v1_0_3.BootOption",
+    "Alias": "Hdd",
+    "BootOptionEnabled": true,
+    "BootOptionReference": "Boot0001",
+    "Description": "ubuntu",
+    "DisplayName": "ubuntu",
+    "Id": "0001",
+    "Name": "Boot0001",
+    "RelatedItem@odata.count": 0,
+    "UefiDevicePath": "HD(1,GPT,BC96F3E7-F6D6-4801-8179-5A41F6A70E84,0x800,0x219800)/\\EFI\\ubuntu\\shimx64.efi"
+}

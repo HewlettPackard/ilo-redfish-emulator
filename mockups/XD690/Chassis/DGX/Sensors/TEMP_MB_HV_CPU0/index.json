@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/Sensors/TEMP_MB_HV_CPU0",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "TEMP_MB_HV_CPU0",
+    "Name": "TEMP_MB_HV_CPU0",
+    "PhysicalContext": "Intake",
+    "Reading": 37,
+    "ReadingType": "Temperature",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {
+            "Reading": 125
+        },
+        "UpperCritical": {
+            "Reading": 128
+        },
+        "UpperFatal": {
+            "Reading": 130
+        }
+    }
+}

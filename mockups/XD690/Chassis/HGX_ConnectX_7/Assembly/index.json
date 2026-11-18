@@ -1,0 +1,25 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_7/Assembly",
+    "@odata.type": "#Assembly.v1_3_0.Assembly",
+    "Assemblies": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_7/Assembly#/Assemblies/0",
+            "Location": {
+                "PartLocation": {
+                    "LocationType": "Embedded"
+                }
+            },
+            "MemberId": "0",
+            "Model": "Nvidia ConnectX8 XDR IB/800GBE for Nvidia B300 NVL8 Umbriel System",
+            "Name": "HGX_ConnectX_7 Device Assembly",
+            "PartNumber": "MLX000647",
+            "PhysicalContext": "Board",
+            "ProductionDate": "2026-05-13T11:27:02Z",
+            "SerialNumber": "1662925751056",
+            "Vendor": "NVIDIA",
+            "Version": "0x0000"
+        }
+    ],
+    "Id": "Assembly",
+    "Name": "Assembly data for HGX_ConnectX_7"
+}

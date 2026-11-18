@@ -1,0 +1,74 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#UpdateService.UpdateService",
+    "@odata.etag": "\"1791389783\"",
+    "@odata.id": "/redfish/v1/UpdateService",
+    "@odata.type": "#UpdateService.v1_11_0.UpdateService",
+    "Actions": {
+        "#UpdateService.StartUpdate": {
+            "@Redfish.ActionInfo": "/redfish/v1/UpdateService/StartUpdateActionInfo",
+            "target": "/redfish/v1/UpdateService/Actions/StartUpdate"
+        },
+        "Oem": {
+            "#UpdateService.UploadCABundle": {
+                "@Redfish.ActionInfo": "/redfish/v1/UpdateService/UploadCABundleActionInfo",
+                "target": "/redfish/v1/UpdateService/Actions/Oem/UpdateService.UploadCABundle"
+            }
+        }
+    },
+    "Description": "Redfish Update Service",
+    "FirmwareInventory": {
+        "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory"
+    },
+    "HttpPushUriOptions": {
+        "ForceUpdate": true,
+        "HttpPushUriApplyTime": {
+            "ApplyTime": "Immediate"
+        }
+    },
+    "HttpPushUriOptionsBusy": false,
+    "HttpPushUriTargetsBusy": false,
+    "Id": "UpdateService",
+    "MaxImageSizeBytes": 431480832,
+    "MultipartHttpPushUri": "/redfish/v1/UpdateService/upload",
+    "Name": "Update Service",
+    "Oem": {
+        "AMIUpdateService": {
+            "@odata.type": "#AMIUpdateService.v1_0_0.AMIUpdateService",
+            "FlashPercentage": null,
+            "PreserveConfiguration": {
+                "Authentication": false,
+                "EXTLOG": false,
+                "FRU": false,
+                "IPMI": false,
+                "KVM": false,
+                "NTP": false,
+                "Network": false,
+                "REDFISH": false,
+                "SDR": false,
+                "SEL": false,
+                "SNMP": false,
+                "SSH": false,
+                "Syslog": false,
+                "WEB": false
+            },
+            "UpdateStatus": null,
+            "UpdateTarget": null
+        },
+        "Ami": {
+            "HttpPushUriOptions": {
+                "ForceUpdateClearConfig": false
+            }
+        },
+        "BMC": {
+            "@odata.type": "#AMIUpdateService.v1_0_0.BMC"
+        }
+    },
+    "ServiceEnabled": true,
+    "SoftwareInventory": {
+        "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SimpleStorage.SimpleStorage",
+    "@odata.etag": "\"1792167381\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/SimpleStorage/1",
+    "@odata.type": "#SimpleStorage.v1_3_0.SimpleStorage",
+    "Devices": [
+        {
+            "CapacityBytes": 960197124096,
+            "Manufacturer": "Micron Technology Inc.",
+            "Model": "Micron_7450_MTFDKBA960TFR",
+            "Name": "NVMe_Device",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        }
+    ],
+    "Id": "1",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/DGX"
+        },
+        "Storage": {
+            "@odata.id": "/redfish/v1/Systems/DGX/Storage/NVME0"
+        }
+    },
+    "Name": "Micron NVME",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "UefiDevicePath": "PciRoot(0x111)/Pci(0x8,0x0)/Pci(0x0,0x0)"
+}

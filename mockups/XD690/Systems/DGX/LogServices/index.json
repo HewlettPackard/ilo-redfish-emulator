@@ -1,0 +1,17 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogServiceCollection.LogServiceCollection",
+    "@odata.etag": "\"1792181649\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/LogServices",
+    "@odata.type": "#LogServiceCollection.LogServiceCollection",
+    "Description": "Collection of log services for this system",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/DebugTokenService"
+        }
+    ],
+    "Members@odata.count": 2,
+    "Name": "Log Services Collection"
+}

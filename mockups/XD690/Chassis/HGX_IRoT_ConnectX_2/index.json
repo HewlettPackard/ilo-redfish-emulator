@@ -1,0 +1,50 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_IRoT_ConnectX_2",
+    "@odata.type": "#Chassis.v1_22_0.Chassis",
+    "Certificates": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_IRoT_ConnectX_2/Certificates"
+    },
+    "ChassisType": "Component",
+    "Id": "HGX_IRoT_ConnectX_2",
+    "Links": {
+        "ComputerSystems": [
+            {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            }
+        ],
+        "ContainedBy": {
+            "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_2"
+        },
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/HGX_BMC_0"
+            }
+        ],
+        "Oem": {
+            "Nvidia": {
+                "@odata.type": "#NvidiaChassis.v1_3_0.NvidiaChassis",
+                "ComponentsProtected": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_2/NetworkAdapters/ConnectX_NIC_2"
+                    }
+                ]
+            }
+        }
+    },
+    "Location": {
+        "PartLocation": {
+            "LocationType": "Embedded"
+        }
+    },
+    "Manufacturer": "NVIDIA",
+    "Name": "HGX_IRoT_ConnectX_2",
+    "SKU": "NA",
+    "SerialNumber": "0xFF",
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "UUID": "ae0a96c0-cb06-11e5-a837-3c6d66d5a0ee"
+}

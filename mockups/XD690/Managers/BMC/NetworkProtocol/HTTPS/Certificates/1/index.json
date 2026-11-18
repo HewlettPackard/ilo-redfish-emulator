@@ -1,0 +1,51 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Certificate.Certificate",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/NetworkProtocol/HTTPS/Certificates/1",
+    "@odata.type": "#Certificate.v1_4_0.Certificate",
+    "Actions": {
+        "#Certificate.Rekey": {
+            "@Redfish.ActionInfo": "/redfish/v1/Managers/BMC/NetworkProtocol/HTTPS/Certificates/1/Certificate.RekeyActionInfo",
+            "target": "/redfish/v1/Managers/BMC/NetworkProtocol/HTTPS/Certificates/1/Actions/Certificate.Rekey"
+        },
+        "#Certificate.Renew": {
+            "@Redfish.ActionInfo": "/redfish/v1/Managers/BMC/NetworkProtocol/HTTPS/Certificates/1/Certificate.RenewActionInfo",
+            "target": "/redfish/v1/Managers/BMC/NetworkProtocol/HTTPS/Certificates/1/Actions/Certificate.Renew"
+        }
+    },
+    "CertificateString": "-----BEGIN CERTIFICATE-----\nMIIFUzCCA7ugAwIBAgIUYRyLQGKA692h/PPzxFTNCIPQTe0wDQYJKoZIhvcNAQEL\nBQAwgbsxCzAJBgNVBAYTAlVTMRAwDgYDVQQIDAdHZW9yZ2lhMREwDwYDVQQHDAhO\nb3Jjcm9zczE0MDIGA1UECgwrQW1lcmljYW4gTWVnYXRyZW5kcyBJbnRlcm5hdGlv\nbmFsIExMQyAoQU1JKTEbMBkGA1UECwwSU2VydmljZSBQcm9jZXNzb3JzMRQwEgYD\nVQQDDAttZWdhcmFjLmNvbTEeMBwGCSqGSIb3DQEJARYPc3VwcG9ydEBhbWkuY29t\nMB4XDTI2MDkyODE0MDQxN1oXDTM2MDkyNTE0MDQxN1owgaMxCzAJBgNVBAYTAlVT\nMRMwEQYDVQQIDApDYWxpZm9ybmlhMRQwEgYDVQQHDAtTYW50YSBDbGFyYTEbMBkG\nA1UECgwSTnZpZGlhIENvcnBvcmF0aW9uMQwwCgYDVQQLDANHUFUxHjAcBgNVBAMM\nFU5WSURJQSBCTUMgV2ViIFNlcnZlcjEeMBwGCSqGSIb3DQEJARYPaW5mb0Budmlk\naWEuY29tMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAxWrhMhnD9FRD\neOZYu6dSHd8rpp1pSieMbh3ueiTCZO2dOp9oINgma4LQA1hXhFNtZN91ha6g1tvU\n8m5qf1b8e5lo+FfSyQ9SpFWXFMZvqF68VIHbM/NXqXx63LQsgrTUQYIUSR+C+97s\n7ibLwnCZEd9e2ztk0ncJ80gJk9XJbTe0VTqGaZUPQ2cNEVTgZGO8pe84Mztnsu3a\nzRlVuAvQUS/7VOWl1mLCOH9ieQ/m/JUy7Ozv6tYZOBS/V8YiewkjXyZhQJcwV2VN\nLpw5X1cBJ9nRol3CU9UFlbH0L7xgOs7E7Ao30MOfYc2ipc7GHM8kmzhGCSz1mB00\nNmGksjDWFc6tgDU+CrWkxYhEc7ceb0j1/QDDdtmaNbvPa5ymlz8U4CeoWcXFl+ur\nRjWyQzixdqucfk3mkjgHpogVrpqAgmcVHi41jDwjDdMlNyZwzwTEtssLCvDpQYOm\nUXLrP2dCsvBZVw3EbpbGl2/Kz/sHy/yBnXPWVl8Bo2jQiRkUnUrRAgMBAAGjZTBj\nMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgXgMCoGA1UdEQQjMCGCC21lZ2FyYWMuY29t\nggwxNjkuMjU0LjAuMTeHBKn+ABEwHQYDVR0OBBYEFF2YiWRqAXCiyQGBY52Tawe5\n2QUyMA0GCSqGSIb3DQEBCwUAA4IBgQBIq5Pe9jIwqj0XkADhG2vqniJMtWsSOjkb\nQLkA/3ksgtDzeOfc6AscxkGfYpGKbPqgiOCDU81xlsXDfY7hkGMgqSSQQp0kj42A\nXWdEolcsVOfalfdhM05ZvE+nT8vCiNpM1XfmCcrEeHDiXeP0E1Zc1HA6kk+vA2YK\nnM97LA2OrIc9V6rwxDDQfA9tsWvQl7Z9jt1W9seHHte3BNYY2dHWjKvx1mijQDSO\nKZbtY4+d9GEZS+QcV6Iu6CGcGDXLulQu9A41hM78CA4wCIELkW2VHAqiom0gqFJQ\nu9571PLHld4t7Nj4fsvj80lE2F0CRDaqL72TsnCxrzv02aR4kM3xoC0GvMCh19wi\n0qHmqFYB1+XPS6sIpd+Um8rKiU67j7XWoOwNOG3NsAHXgPSE/5w5l+WN44GYA6P9\nzNITHIfx2o0tXA0A7X4Ne6+nWElz4vRBpY70Mb9zFUSv9uk61J1IOI8ibqQRgwgL\nMc5kxcfoEOk0eerTc4G71vBW6y5hFjw=\n-----END CERTIFICATE-----",
+    "CertificateType": "PEM",
+    "Description": "Instance for Certificate Instance",
+    "Id": "1",
+    "Issuer": {
+        "City": "Norcross",
+        "CommonName": "megarac.com",
+        "Country": "US",
+        "Email": "support@ami.com",
+        "Organization": "American Megatrends International LLC (AMI)",
+        "OrganizationalUnit": "Service Processors",
+        "State": "Georgia"
+    },
+    "KeyUsage": [
+        "KeyEncipherment",
+        "NonRepudiation",
+        "DigitalSignature"
+    ],
+    "Name": "Certificate Instance",
+    "Oem": {
+        "Ami": {
+            "@odata.type": "#AMICaCert.v1_0_0.AMICaCert"
+        }
+    },
+    "Subject": {
+        "City": "Santa Clara",
+        "CommonName": "NVIDIA BMC Web Server",
+        "Country": "US",
+        "Email": "info@nvidia.com",
+        "Organization": "Nvidia Corporation",
+        "OrganizationalUnit": "GPU",
+        "State": "California"
+    },
+    "ValidNotAfter": "2036-9-25T14:04:17+00:00",
+    "ValidNotBefore": "2026-9-28T14:04:17+00:00"
+}

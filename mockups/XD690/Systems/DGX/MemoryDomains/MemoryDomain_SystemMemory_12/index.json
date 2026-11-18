@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MemoryDomain.MemoryDomain",
+    "@odata.etag": "\"1790606971\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/MemoryDomains/MemoryDomain_SystemMemory_12",
+    "@odata.type": "#MemoryDomain.v1_2_3.MemoryDomain",
+    "AllowsBlockProvisioning": false,
+    "AllowsMemoryChunkCreation": false,
+    "AllowsMirroring": false,
+    "AllowsSparing": false,
+    "Id": "MemoryDomain_SystemMemory_12",
+    "InterleavableMemorySets": [
+        {
+            "MemorySet": [
+                {
+                    "@odata.id": "/redfish/v1/Systems/DGX/Memory/DIMM24"
+                }
+            ],
+            "MemorySet@odata.count": 1
+        },
+        {
+            "MemorySet": [
+                {
+                    "@odata.id": "/redfish/v1/Systems/DGX/Memory/DIMM25"
+                }
+            ],
+            "MemorySet@odata.count": 1
+        }
+    ],
+    "MemoryChunks": {
+        "@odata.id": "/redfish/v1/Systems/DGX/MemoryDomains/MemoryDomain_SystemMemory_12/MemoryChunks"
+    },
+    "Name": "MemoryDomain_SystemMemory_12"
+}

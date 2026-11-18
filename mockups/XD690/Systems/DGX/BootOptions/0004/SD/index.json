@@ -1,0 +1,14 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "\"1792278296\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/0004/SD",
+    "@odata.type": "#BootOption.v1_0_3.BootOption",
+    "Alias": "Pxe",
+    "BootOptionEnabled": true,
+    "BootOptionReference": "Boot0004",
+    "Description": "MAC:303EA71C09CC UEFI: PXE IPv4 Intel(R) Ethernet Network Adapter E810-C-Q2",
+    "DisplayName": "MAC:303EA71C09CC UEFI: PXE IPv4 Intel(R) Ethernet Network Adapter E810-C-Q2",
+    "Id": "0004",
+    "Name": "Boot0004",
+    "UefiDevicePath": "PciRoot(0x31)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x8,0x0)/Pci(0x0,0x0)/Pci(0x10,0x0)/Pci(0x0,0x0)/MAC(303EA71C09CC,0x1)/IPv4(0.0.0.0,0x0,DHCP,0.0.0.0,0.0.0.0,0.0.0.0)"
+}

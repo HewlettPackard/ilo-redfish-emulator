@@ -1,0 +1,17 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MemoryChunksCollection.MemoryChunksCollection",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/MemoryDomains/MemoryDomain_SystemMemory_2/MemoryChunks",
+    "@odata.type": "#MemoryChunksCollection.MemoryChunksCollection",
+    "Description": "Collection of MemoryChunks",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/MemoryDomains/MemoryDomain_SystemMemory_2/MemoryChunks/MemoryDomain_SystemMemory_2_Chunk_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/MemoryDomains/MemoryDomain_SystemMemory_2/MemoryChunks/MemoryDomain_SystemMemory_2_Chunk_1"
+        }
+    ],
+    "Members@odata.count": 2,
+    "Name": "MemoryChunks Collection"
+}

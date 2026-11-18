@@ -1,0 +1,94 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_7",
+    "@odata.type": "#Chassis.v1_22_0.Chassis",
+    "Assembly": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_7/Assembly"
+    },
+    "ChassisType": "Component",
+    "Controls": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_7/Controls"
+    },
+    "EnvironmentMetrics": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_7/EnvironmentMetrics"
+    },
+    "Id": "HGX_SXM_SMA_7",
+    "Links": {
+        "ComputerSystems": [
+            {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            }
+        ],
+        "Contains": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/HGX_IRoT_SXM_SMA_7"
+            }
+        ],
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/HGX_BMC_0"
+            }
+        ],
+        "Oem": {
+            "Nvidia": {
+                "@odata.type": "#NvidiaChassis.v1_7_0.NvidiaSMAChassis",
+                "ProtocolBridgeForDevices": [
+                    {
+                        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7"
+                    }
+                ]
+            }
+        }
+    },
+    "Location": {
+        "PartLocation": {
+            "LocationType": "Embedded"
+        }
+    },
+    "LogServices": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_7/LogServices"
+    },
+    "Manufacturer": "NVIDIA",
+    "Model": "NA",
+    "Name": "HGX_SXM_SMA_7",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaChassis.v1_11_0.NvidiaSMAChassis",
+            "ErrorInjection": {
+                "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_7/Oem/Nvidia/ErrorInjection"
+            },
+            "LastResetReasons": [
+                "PowerOn",
+                "VoltageDetect"
+            ]
+        }
+    },
+    "PCIeDevices": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_7/PCIeDevices"
+    },
+    "PCIeSlots": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_7/PCIeSlots"
+    },
+    "PartNumber": "NA",
+    "PowerState": "On",
+    "PowerSubsystem": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_7/PowerSubsystem"
+    },
+    "SKU": "0x06000000",
+    "Sensors": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_7/Sensors"
+    },
+    "SerialNumber": "NA",
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "ThermalSubsystem": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_7/ThermalSubsystem"
+    },
+    "TrustedComponents": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_7/TrustedComponents"
+    },
+    "UUID": "e204218b-55d7-fa5c-bbd5-198c2cd6e915"
+}

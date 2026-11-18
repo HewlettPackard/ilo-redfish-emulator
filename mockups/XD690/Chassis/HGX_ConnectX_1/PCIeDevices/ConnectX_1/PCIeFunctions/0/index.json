@@ -1,0 +1,20 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_1/PCIeDevices/ConnectX_1/PCIeFunctions/0",
+    "@odata.type": "#PCIeFunction.v1_2_0.PCIeFunction",
+    "ClassCode": "0x000000",
+    "DeviceClass": "ProcessingAccelerators",
+    "DeviceId": "0x1023",
+    "FunctionId": 0,
+    "FunctionType": "Physical",
+    "Id": "0",
+    "Links": {
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_1/PCIeDevices/ConnectX_1"
+        }
+    },
+    "Name": "PCIe Function",
+    "RevisionId": "0x00",
+    "SubsystemId": "0x0101",
+    "SubsystemVendorId": "0x15B3",
+    "VendorId": "0x15B3"
+}

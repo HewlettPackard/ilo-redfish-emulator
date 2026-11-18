@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_MB_5V_AUX",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "VOLT_MB_5V_AUX",
+    "Name": "VOLT_MB_5V_AUX",
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 4.994,
+    "ReadingRangeMax": 6.579,
+    "ReadingRangeMin": 0,
+    "ReadingType": "Voltage",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 4.7472
+        },
+        "LowerCritical": {
+            "Reading": 4.4892
+        },
+        "UpperCaution": {
+            "Reading": 5.2374
+        },
+        "UpperCritical": {
+            "Reading": 5.5986
+        }
+    }
+}

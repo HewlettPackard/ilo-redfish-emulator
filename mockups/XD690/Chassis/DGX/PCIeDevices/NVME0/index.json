@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "\"1792167375\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/NVME0",
+    "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
+    "Description": "Storage Device",
+    "DeviceType": "SingleFunction",
+    "FirmwareVersion": "E2MU200",
+    "Id": "NVME0",
+    "Manufacturer": "Micron Technology Inc.",
+    "Model": "Micron_7450_MTFDKBA960TFR",
+    "Name": "Micron NVME",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/NVME0/PCIeFunctions"
+    },
+    "PCIeInterface": {
+        "LanesInUse": 4,
+        "MaxLanes": 4,
+        "MaxPCIeType": "Gen4",
+        "PCIeType": "Gen4"
+    },
+    "SerialNumber": "2539538A8C7B",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

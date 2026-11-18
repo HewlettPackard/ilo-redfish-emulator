@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/119",
+    "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+    "Created": "2026-10-07T17:29:37+00:00",
+    "Description": "LOG 629",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventTimestamp": "2026-10-07T17:29:31+00:00",
+    "Id": "119",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+        }
+    },
+    "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 629, Sensor_Type : Temperature, ",
+    "MessageId": "0x01FFFF",
+    "Name": "LOG 629",
+    "SensorNumber": 96,
+    "SensorType": "Temperature",
+    "Severity": "OK"
+}

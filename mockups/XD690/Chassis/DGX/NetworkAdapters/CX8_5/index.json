@@ -1,0 +1,63 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkAdapter.NetworkAdapter",
+    "@odata.etag": "\"1792167374\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/CX8_5",
+    "@odata.type": "#NetworkAdapter.v1_5_0.NetworkAdapter",
+    "Controllers": [
+        {
+            "ControllerCapabilities": {
+                "DataCenterBridging": {
+                    "Capable": false
+                },
+                "NPAR": {
+                    "NparCapable": false,
+                    "NparEnabled": false
+                },
+                "NetworkDeviceFunctionCount": 1,
+                "NetworkPortCount": 1,
+                "VirtualizationOffload": {
+                    "SRIOV": {
+                        "SRIOVVEPACapable": false
+                    }
+                }
+            },
+            "FirmwarePackageVersion": "nil",
+            "Links": {
+                "NetworkDeviceFunctions": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/CX8_5/NetworkDeviceFunctions/NetworkDeviceFunction0"
+                    }
+                ],
+                "NetworkDeviceFunctions@odata.count": 1,
+                "PCIeDevices": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_5"
+                    }
+                ],
+                "PCIeDevices@odata.count": 1,
+                "Ports": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/CX8_5/Ports/NetworkPort_0"
+                    }
+                ],
+                "Ports@odata.count": 1
+            }
+        }
+    ],
+    "Id": "CX8_5",
+    "Manufacturer": "Mellanox",
+    "Model": "Nvidia ConnectX8 XDR IB/800GBE for Nvidia B300 NVL8 Umbriel System                                                                                                                    ",
+    "Name": "CX8 5",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/CX8_5/NetworkDeviceFunctions"
+    },
+    "PartNumber": "MLX000647                ",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/CX8_5/Ports"
+    },
+    "SerialNumber": "1662925751056  ",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

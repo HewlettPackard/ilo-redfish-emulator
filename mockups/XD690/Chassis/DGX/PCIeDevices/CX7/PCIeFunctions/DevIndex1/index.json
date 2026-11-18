@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+    "@odata.etag": "\"1792167375\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX7/PCIeFunctions/DevIndex1",
+    "@odata.type": "#PCIeFunction.v1_2_3.PCIeFunction",
+    "ClassCode": "0x020700",
+    "DeviceClass": "NetworkController",
+    "DeviceId": "0x1021",
+    "FunctionId": 0,
+    "FunctionType": "Physical",
+    "Id": "DevIndex1",
+    "Links": {
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX7"
+        }
+    },
+    "Name": "PCIeFunction_1",
+    "RevisionId": "0x00",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "SubsystemId": "0x1113",
+    "SubsystemVendorId": "0x15B3",
+    "VendorId": "0x15B3"
+}

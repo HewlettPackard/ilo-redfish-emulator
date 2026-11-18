@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/CPUBaseboard/Sensors/TEMP_GB_PCB1",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "TEMP_GB_PCB1",
+    "Name": "TEMP_GB_PCB1",
+    "PhysicalContext": "Intake",
+    "Reading": 43,
+    "ReadingType": "Temperature",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {
+            "Reading": 100
+        },
+        "UpperCritical": {
+            "Reading": 103
+        },
+        "UpperFatal": {
+            "Reading": 105
+        }
+    }
+}

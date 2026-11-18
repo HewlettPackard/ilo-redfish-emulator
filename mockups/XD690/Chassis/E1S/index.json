@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/E1S",
+    "@odata.type": "#Chassis.v1_15_0.Chassis",
+    "AssetTag": "NA            ",
+    "ChassisType": "Component",
+    "Description": "Chassis Instance for E1S",
+    "Id": "E1S",
+    "IndicatorLED": null,
+    "Links": {
+        "ContainedBy": {
+            "@odata.id": "/redfish/v1/Chassis/DGX"
+        },
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/BMC"
+            }
+        ],
+        "ManagedBy@odata.count": 1
+    },
+    "Manufacturer": "HPE",
+    "Model": "Compute XD690 ",
+    "Name": "E1S",
+    "PartNumber": "S6G97A        ",
+    "PowerState": null,
+    "SerialNumber": "123456789A    "
+}

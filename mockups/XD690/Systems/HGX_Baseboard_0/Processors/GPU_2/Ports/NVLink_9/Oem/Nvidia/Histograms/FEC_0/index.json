@@ -1,0 +1,13 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_9/Oem/Nvidia/Histograms/FEC_0",
+    "@odata.type": "#NvidiaHistogram.v1_1_0.NvidiaHistogram",
+    "AccumulationCycle": 0,
+    "BucketFormat": "NvU8",
+    "HistogramBuckets": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_9/Oem/Nvidia/Histograms/FEC_0/Buckets"
+    },
+    "Id": "FEC_0",
+    "IncrementDurationMicroseconds": 0,
+    "Name": "GPU_2_NVLink_9_Histogram_FEC_0",
+    "UpdatePeriodMilliseconds": 0
+}

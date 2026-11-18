@@ -1,0 +1,14 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "\"1792278296\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/000A/SD",
+    "@odata.type": "#BootOption.v1_0_3.BootOption",
+    "Alias": "Pxe",
+    "BootOptionEnabled": true,
+    "BootOptionReference": "Boot000A",
+    "Description": "MAC:8C913A4F4F73 UEFI: PXE IPv4 Nvidia Network Adapter - 8C:91:3A:4F:4F:73",
+    "DisplayName": "MAC:8C913A4F4F73 UEFI: PXE IPv4 Nvidia Network Adapter - 8C:91:3A:4F:4F:73",
+    "Id": "000A",
+    "Name": "Boot000A",
+    "UefiDevicePath": "PciRoot(0x131)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)/MAC(8C913A4F4F73,0x1)/IPv4(0.0.0.0,0x0,DHCP,0.0.0.0,0.0.0.0,0.0.0.0)"
+}

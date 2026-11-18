@@ -1,0 +1,18 @@
+{
+    "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536899",
+    "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+    "Created": "2026-10-16T07:07:43+00:00",
+    "EntryType": "Event",
+    "Id": "536899",
+    "Message": "ProcessCPU_fdr sensor crossed a critical high threshold going high. Reading=15.077548 Threshold=15.000000.",
+    "MessageArgs": [
+        "ProcessCPU_fdr",
+        "15.077548",
+        "15.000000"
+    ],
+    "MessageId": "OpenBMC.0.4.SensorThresholdCriticalHighGoingHigh",
+    "Name": "Manager Event Log Entry",
+    "Resolution": "None",
+    "Resolved": false,
+    "Severity": "OK"
+}

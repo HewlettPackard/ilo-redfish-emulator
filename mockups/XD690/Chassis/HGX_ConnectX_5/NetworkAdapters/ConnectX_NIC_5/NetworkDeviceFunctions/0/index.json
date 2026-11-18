@@ -1,0 +1,15 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_5/NetworkAdapters/ConnectX_NIC_5/NetworkDeviceFunctions/0",
+    "@odata.type": "#NetworkDeviceFunction.v1_10_0.NetworkDeviceFunction",
+    "AssignablePhysicalNetworkPorts": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_5/NetworkAdapters/ConnectX_NIC_5/Ports/Port_0"
+        }
+    ],
+    "Ethernet": {
+        "PermanentMACAddress": ""
+    },
+    "Id": "0",
+    "Name": "HGX_ConnectX_5 NetworkAdapters ConnectX_NIC_5 NetworkDeviceFunctions 0",
+    "NetDevFuncType": "Ethernet"
+}

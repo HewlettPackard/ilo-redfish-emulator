@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "\"1792167376\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU2",
+    "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
+    "Description": "Display Device",
+    "DeviceType": "SingleFunction",
+    "Id": "GPU2",
+    "Name": "PCIeDevice_00_62_00",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU2/PCIeFunctions"
+    },
+    "PCIeInterface": {
+        "LanesInUse": 16,
+        "MaxLanes": 16
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

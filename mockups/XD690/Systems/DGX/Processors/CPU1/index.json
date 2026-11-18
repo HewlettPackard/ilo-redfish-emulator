@@ -1,0 +1,249 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Processor.Processor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1",
+    "@odata.type": "#Processor.v1_10_0.Processor",
+    "Id": "CPU1",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/DGX"
+        },
+        "ConnectedProcessors": [
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core10"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core11"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core12"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core13"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core14"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core15"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core16"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core17"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core18"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core19"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core2"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core20"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core21"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core22"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core23"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core24"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core25"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core26"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core27"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core28"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core29"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core3"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core30"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core31"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core32"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core33"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core34"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core35"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core36"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core37"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core38"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core39"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core4"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core40"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core41"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core42"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core43"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core44"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core45"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core46"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core47"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core48"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core49"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core5"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core50"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core51"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core52"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core53"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core54"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core55"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core56"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core57"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core58"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core59"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core6"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core60"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core61"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core62"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core63"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core7"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core8"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors/CPU1_Core9"
+            }
+        ],
+        "ConnectedProcessors@odata.count": 64
+    },
+    "Manufacturer": "Intel(R) Corporation",
+    "MaxSpeedMHz": 4600,
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/ProcessorMetrics"
+    },
+    "Model": "Intel(R) Xeon(R) 6776P",
+    "Name": "Processor_1",
+    "ProcessorArchitecture": "x86",
+    "ProcessorId": {
+        "EffectiveFamily": "0x6",
+        "MicrocodeInfo": "10003F3",
+        "Step": "0x1"
+    },
+    "ProcessorMemory": [
+        {
+            "CapacityMiB": 7,
+            "IntegratedMemory": true,
+            "MemoryType": "L1Cache"
+        },
+        {
+            "CapacityMiB": 128,
+            "IntegratedMemory": true,
+            "MemoryType": "L2Cache"
+        },
+        {
+            "CapacityMiB": 336,
+            "IntegratedMemory": true,
+            "MemoryType": "L3Cache"
+        }
+    ],
+    "ProcessorType": "CPU",
+    "Socket": "CPU1",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "SubProcessors": {
+        "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1/SubProcessors"
+    },
+    "TotalCores": 64,
+    "TotalEnabledCores": 64,
+    "TotalThreads": 128
+}

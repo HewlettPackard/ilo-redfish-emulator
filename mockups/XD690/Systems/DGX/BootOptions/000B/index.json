@@ -1,0 +1,21 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_2_2.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/000B/SD"
+        }
+    },
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "\"1792167379\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/000B",
+    "@odata.type": "#BootOption.v1_0_3.BootOption",
+    "Alias": "UefiHttp",
+    "BootOptionEnabled": true,
+    "BootOptionReference": "Boot000B",
+    "Description": "MAC:8C913A4F4F73 UEFI: HTTP IPv4 Nvidia Network Adapter - 8C:91:3A:4F:4F:73",
+    "DisplayName": "MAC:8C913A4F4F73 UEFI: HTTP IPv4 Nvidia Network Adapter - 8C:91:3A:4F:4F:73",
+    "Id": "000B",
+    "Name": "Boot000B",
+    "RelatedItem@odata.count": 0,
+    "UefiDevicePath": "PciRoot(0x131)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)/MAC(8C913A4F4F73,0x1)/IPv4(0.0.0.0,0x0,DHCP,0.0.0.0,0.0.0.0,0.0.0.0)/Uri()"
+}

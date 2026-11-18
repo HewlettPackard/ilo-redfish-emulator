@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SensorCollection.SensorCollection",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/Sensors",
+    "@odata.type": "#SensorCollection.SensorCollection",
+    "Description": "Resource Collection of Sensor instances",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Sensors/VOLT_VCCIN_CPU0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Sensors/VOLT_VCCIN_CPU1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Sensors/WATCHDOG2"
+        }
+    ],
+    "Members@odata.count": 303,
+    "Name": "Sensor Collection"
+}

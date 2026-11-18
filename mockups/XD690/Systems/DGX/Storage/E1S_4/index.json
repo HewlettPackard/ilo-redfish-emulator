@@ -1,0 +1,55 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Storage.Storage",
+    "@odata.etag": "\"1792167380\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_4",
+    "@odata.type": "#Storage.v1_9_0.Storage",
+    "Controllers": {
+        "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_4/Controllers"
+    },
+    "Description": "Storage6",
+    "Drives": [
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_4/Drives/NVMe_Device"
+        }
+    ],
+    "Drives@odata.count": 1,
+    "Id": "E1S_4",
+    "Links": {
+        "SimpleStorage": {
+            "@odata.id": "/redfish/v1/Systems/DGX/SimpleStorage/6"
+        }
+    },
+    "Name": "E1S_4",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "StorageControllers": [
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_4#/StorageControllers/0",
+            "AssetTag": "Micron NVME",
+            "FirmwareVersion": "F3MU011",
+            "Manufacturer": "Micron Technology Inc.",
+            "MemberId": "0",
+            "Model": "MTFDLCE7T6THA-1BK1DABYY",
+            "Name": "Micron NVME",
+            "SerialNumber": "412511151728",
+            "SpeedGbps": 126.03,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "SupportedControllerProtocols": [
+                "NVMe",
+                "PCIe"
+            ],
+            "SupportedDeviceProtocols": [
+                "NVMe"
+            ]
+        }
+    ],
+    "StorageControllers@odata.count": 1,
+    "Volumes": {
+        "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_4/Volumes"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Drive.Drive",
+    "@odata.etag": "\"1792167380\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/Storage/NVME0/Drives/NVMe_Device",
+    "@odata.type": "#Drive.v1_11_0.Drive",
+    "AssetTag": null,
+    "BlockSizeBytes": 512,
+    "CapableSpeedGbs": 63.02,
+    "CapacityBytes": 960197124096,
+    "EncryptionAbility": "None",
+    "FailurePredicted": false,
+    "Id": "NVMe_Device",
+    "IndicatorLED": null,
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/DGX"
+        },
+        "Endpoints@odata.count": 0,
+        "Volumes@odata.count": 0
+    },
+    "LocationIndicatorActive": false,
+    "Manufacturer": "Micron Technology Inc.",
+    "MediaType": "SSD",
+    "Model": "Micron_7450_MTFDKBA960TFR",
+    "Name": "NVMe_Device",
+    "NegotiatedSpeedGbs": 63.02,
+    "Protocol": "NVMe",
+    "ReadyToRemove": false,
+    "Revision": "NVMe Spec v1.4",
+    "RotationSpeedRPM": 0,
+    "SerialNumber": "2539538A8C7B",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "WriteCacheEnabled": false
+}

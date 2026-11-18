@@ -1,0 +1,31 @@
+{
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReports/HGX_NVSwitchMetrics_0",
+    "@odata.type": "#MetricReport.v1_4_2.MetricReport",
+    "Id": "HGX_NVSwitchMetrics_0",
+    "MetricReportDefinition": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/HGX_NVSwitchMetrics_0"
+    },
+    "MetricValues": [
+        {
+            "MetricProperty": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_0#/CurrentBandwidthGbps",
+            "MetricValue": "29000.000000",
+            "Timestamp": "2026-10-16T12:16:35.136+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_0#/MaxBandwidthGbps",
+            "MetricValue": "29200.000000",
+            "Timestamp": "2026-10-16T12:16:35.137+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1#/CurrentBandwidthGbps",
+            "MetricValue": "29000.000000",
+            "Timestamp": "2026-10-16T12:16:31.161+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1#/MaxBandwidthGbps",
+            "MetricValue": "29200.000000",
+            "Timestamp": "2026-10-16T12:16:31.161+00:00"
+        }
+    ],
+    "Name": "HGX_NVSwitchMetrics_0"
+}

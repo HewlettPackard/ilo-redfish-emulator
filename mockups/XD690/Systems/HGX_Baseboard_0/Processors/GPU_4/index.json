@@ -1,0 +1,334 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_3_3.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Settings"
+        }
+    },
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4",
+    "@odata.type": "#Processor.v1_20_0.Processor",
+    "BaseSpeedMHz": 1095,
+    "EnvironmentMetrics": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/EnvironmentMetrics"
+    },
+    "FirmwareVersion": "97.10.7E.00.03",
+    "Id": "GPU_4",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/HGX_GPU_4"
+        },
+        "Memory": [
+            {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_4_DRAM_0"
+            }
+        ],
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Chassis/HGX_GPU_4/PCIeDevices/GPU_4"
+        },
+        "PCIeFunctions": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/HGX_GPU_4/PCIeDevices/GPU_4/PCIeFunctions/0"
+            }
+        ]
+    },
+    "Location": {
+        "PartLocation": {
+            "LocationType": "Embedded",
+            "ServiceLabel": "GPU4"
+        }
+    },
+    "Manufacturer": "NVIDIA",
+    "MaxSpeedMHz": 2032,
+    "MemorySummary": {
+        "ECCModeEnabled": true,
+        "Metrics": {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/MemorySummary/MemoryMetrics"
+        },
+        "TotalMemorySizeMiB": 275040
+    },
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics"
+    },
+    "MinSpeedMHz": 120,
+    "Model": "NVIDIA B300 SXM6 AC",
+    "Name": "Processor",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaProcessor.v1_6_0.NvidiaGPU",
+            "CCDevModeEnabled": false,
+            "CCModeEnabled": false,
+            "DOEReconfigPermissions": {
+                "BAR0Firewall": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "BAR0TypeConfig": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "CCDevMode": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "CCMode": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "ClockLimit": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "ECCEnable": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "EDPpScalingFactor": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "ForceTestCoupling": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "FusingMode": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "HBMFrequencyChange": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "HULKLicenseUpdate": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "InSystemTest": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "NVLinkDisable": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "PCIeVFConfiguration": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "PowerSmoothingPrivilegeLevel1": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "PowerSmoothingPrivilegeLevel2": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "RowRemappingAllowed": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "RowRemappingFeature": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "TGPCurrentLimit": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "TGPMaxLimit": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "TGPMinLimit": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "TGPRatedLimit": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                }
+            },
+            "DefaultBoostClockSpeedMHz": 2032,
+            "ErrorInjection": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Oem/Nvidia/ErrorInjection"
+            },
+            "InbandReconfigPermissions": {
+                "BAR0Firewall": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": true
+                },
+                "BAR0TypeConfig": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "CCDevMode": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": true
+                },
+                "CCMode": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": true
+                },
+                "ClockLimit": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": true
+                },
+                "ECCEnable": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": true,
+                    "AllowPersistentConfig": true
+                },
+                "EDPpScalingFactor": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "ForceTestCoupling": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": true
+                },
+                "FusingMode": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "HBMFrequencyChange": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": true
+                },
+                "HULKLicenseUpdate": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": true
+                },
+                "InSystemTest": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": true,
+                    "AllowPersistentConfig": false
+                },
+                "NVLinkDisable": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": true,
+                    "AllowPersistentConfig": true
+                },
+                "PCIeVFConfiguration": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": true,
+                    "AllowPersistentConfig": false
+                },
+                "PowerSmoothingPrivilegeLevel1": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "PowerSmoothingPrivilegeLevel2": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": false
+                },
+                "RowRemappingAllowed": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": true
+                },
+                "RowRemappingFeature": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": true,
+                    "AllowPersistentConfig": false
+                },
+                "TGPCurrentLimit": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": true
+                },
+                "TGPMaxLimit": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": true
+                },
+                "TGPMinLimit": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": true
+                },
+                "TGPRatedLimit": {
+                    "AllowFLRPersistentConfig": false,
+                    "AllowOneShotConfig": false,
+                    "AllowPersistentConfig": true
+                }
+            },
+            "MIGModeEnabled": false,
+            "PowerSmoothing": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Oem/Nvidia/PowerSmoothing"
+            },
+            "ProcessorResetMetrics": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Oem/Nvidia/ProcessorResetMetrics"
+            },
+            "TotalNumberNVLinks": 18,
+            "WorkloadPowerProfile": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Oem/Nvidia/WorkloadPowerProfile"
+            }
+        }
+    },
+    "OperatingSpeedMHz": 120,
+    "OperatingSpeedRangeMHz": {
+        "AllowableMax": 2032,
+        "AllowableMin": 120,
+        "DataSourceUri": "/redfish/v1/Chassis/HGX_GPU_4/Controls/ClockLimit_0",
+        "SettingMax": 4294967295,
+        "SettingMin": 4294967295
+    },
+    "PartNumber": "3182-887-A1",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports"
+    },
+    "ProcessorType": "GPU",
+    "SerialNumber": "1652825079317",
+    "SpeedLimitMHz": 2032,
+    "SpeedLocked": false,
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "SystemInterface": {
+        "InterfaceType": "PCIe",
+        "PCIe": {
+            "LanesInUse": 16,
+            "MaxLanes": 16,
+            "MaxPCIeType": "Gen6",
+            "PCIeType": "Gen6"
+        }
+    },
+    "UUID": "5fd06fef-9150-c251-283d-129aae796532",
+    "Version": "3182-887-A1"
+}

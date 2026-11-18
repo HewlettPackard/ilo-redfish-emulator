@@ -1,0 +1,261 @@
+{
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReports/HGX_NetworkAdapterPortMetrics_0",
+    "@odata.type": "#MetricReport.v1_4_2.MetricReport",
+    "Id": "HGX_NetworkAdapterPortMetrics_0",
+    "MetricReportDefinition": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/HGX_NetworkAdapterPortMetrics_0"
+    },
+    "MetricValues": [
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0#/CurrentSpeedGbps",
+            "MetricValue": "100.000000",
+            "Timestamp": "2026-10-20T18:02:53.221+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0#/LinkStatus",
+            "MetricValue": "OK",
+            "Timestamp": "2026-10-20T18:02:53.221+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1#/CurrentSpeedGbps",
+            "MetricValue": "100.000000",
+            "Timestamp": "2026-10-20T18:02:53.469+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1#/LinkStatus",
+            "MetricValue": "OK",
+            "Timestamp": "2026-10-20T18:02:53.469+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Oem/Nvidia/EffectiveBER",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:03.676+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Oem/Nvidia/EffectiveError",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.676+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Oem/Nvidia/IntentionalLinkDownCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.676+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Oem/Nvidia/LinkDownedCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Oem/Nvidia/LinkErrorRecoveryCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/RXErrors",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Networking/RXFrames",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Oem/Nvidia/RXRemotePhysicalErrors",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Oem/Nvidia/RXSwitchRelayErrors",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.676+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Oem/Nvidia/SymbolErrors",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.676+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Networking/TXDiscards",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Networking/TXFrames",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Oem/Nvidia/TotalRawBER",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:03.676+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Oem/Nvidia/TotalRawError",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.676+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Oem/Nvidia/UnintentionalLinkDownCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.676+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Oem/Nvidia/VL15Dropped",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/RXBytes",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.676+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/TXBytes",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.676+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Networking/RXMulticastFrames",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Networking/RXUnicastFrames",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Networking/TXBroadcastFrames",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Networking/TXMulticastFrames",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_0/Metrics#/Networking/TXUnicastFrames",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:03.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Oem/Nvidia/EffectiveBER",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:04.240+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Oem/Nvidia/EffectiveError",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.240+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Oem/Nvidia/IntentionalLinkDownCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.241+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Oem/Nvidia/LinkDownedCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.240+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Oem/Nvidia/LinkErrorRecoveryCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.240+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/RXErrors",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.239+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Networking/RXFrames",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.239+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Oem/Nvidia/RXRemotePhysicalErrors",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.240+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Oem/Nvidia/RXSwitchRelayErrors",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.240+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Oem/Nvidia/SymbolErrors",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.240+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Networking/TXDiscards",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.240+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Networking/TXFrames",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.239+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Oem/Nvidia/TotalRawBER",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:04.240+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Oem/Nvidia/TotalRawError",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.241+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Oem/Nvidia/UnintentionalLinkDownCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.241+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Oem/Nvidia/VL15Dropped",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.239+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/RXBytes",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.240+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/TXBytes",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.240+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Networking/RXMulticastFrames",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.239+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Networking/RXUnicastFrames",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.239+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Networking/TXBroadcastFrames",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.240+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Networking/TXMulticastFrames",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.240+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics#/Networking/TXUnicastFrames",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.239+00:00"
+        }
+    ],
+    "Name": "HGX_NetworkAdapterPortMetrics_0"
+}

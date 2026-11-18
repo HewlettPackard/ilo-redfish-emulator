@@ -1,0 +1,27 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_0/Sensors/HGX_SXM_SMA_0_Temp_0",
+    "@odata.type": "#Sensor.v1_7_0.Sensor",
+    "Description": "Internal SMA temperature values",
+    "Id": "HGX_SXM_SMA_0_Temp_0",
+    "Name": "HGX SXM SMA 0 Temp 0",
+    "PhysicalContext": "GPUSubsystem",
+    "Reading": 44,
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_0"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperFatal": {
+            "Reading": 100
+        }
+    }
+}

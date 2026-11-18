@@ -1,0 +1,28 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_6/TrustedComponents/IRoT_SXM_SMA_6",
+    "@odata.type": "#TrustedComponent.v1_0_0.TrustedComponent",
+    "Certificates": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_6/TrustedComponents/IRoT_SXM_SMA_6/Certificates"
+    },
+    "Id": "IRoT_SXM_SMA_6",
+    "Links": {
+        "ComponentIntegrity": [
+            {
+                "@odata.id": "/redfish/v1/ComponentIntegrity/HGX_IRoT_SXM_SMA_6"
+            }
+        ],
+        "ComponentsProtected": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_6"
+            }
+        ],
+        "IntegratedInto": {
+            "@odata.id": "/redfish/v1/Chassis/HGX_SXM_SMA_6"
+        }
+    },
+    "Manufacturer": "NVIDIA",
+    "Name": "IRoT_SXM_SMA_6",
+    "SerialNumber": "0x474072E68E56865C972BE0229F5B909C",
+    "TrustedComponentType": "Integrated",
+    "UUID": "474072e6-8e56-865c-972b-e0229f5b909c"
+}

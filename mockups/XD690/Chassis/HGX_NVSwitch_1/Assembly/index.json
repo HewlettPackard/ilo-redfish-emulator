@@ -1,0 +1,25 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_NVSwitch_1/Assembly",
+    "@odata.type": "#Assembly.v1_3_0.Assembly",
+    "Assemblies": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/HGX_NVSwitch_1/Assembly#/Assemblies/0",
+            "Location": {
+                "PartLocation": {
+                    "LocationType": "Embedded"
+                }
+            },
+            "MemberId": "0",
+            "Model": "QM3 IB 800",
+            "Name": "NVSwitch Board Assembly",
+            "PartNumber": "935-26287-0070-000",
+            "PhysicalContext": "Board",
+            "ProductionDate": "2025-07-16T05:14:00Z",
+            "SerialNumber": "1662925751056",
+            "Vendor": "NVIDIA",
+            "Version": "0x00A0"
+        }
+    ],
+    "Id": "Assembly",
+    "Name": "Assembly data for HGX_NVSwitch_1"
+}

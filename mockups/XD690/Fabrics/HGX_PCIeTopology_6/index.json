@@ -1,0 +1,16 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_6",
+    "@odata.type": "#Fabric.v1_2_0.Fabric",
+    "Endpoints": {
+        "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_6/Endpoints"
+    },
+    "FabricType": "PCIe",
+    "Id": "HGX_PCIeTopology_6",
+    "Name": "HGX_PCIeTopology_6 Resource",
+    "Switches": {
+        "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_6/Switches"
+    },
+    "Zones": {
+        "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_6/Zones"
+    }
+}

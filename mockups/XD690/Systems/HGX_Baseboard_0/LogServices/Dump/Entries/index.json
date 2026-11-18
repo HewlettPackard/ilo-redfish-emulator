@@ -1,0 +1,33 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/Dump/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of System Dump Entries",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/Dump/Entries/1",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "AdditionalDataSizeBytes": 35904,
+            "AdditionalDataURI": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/Dump/Entries/1/attachment",
+            "Created": "2024-02-27T17:31:20.000000+00:00",
+            "DiagnosticDataType": "OEM",
+            "EntryType": "Event",
+            "Id": "1",
+            "Name": "System Dump Entry",
+            "OEMDiagnosticDataType": "System"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/Dump/Entries/2",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "AdditionalDataSizeBytes": 39500,
+            "AdditionalDataURI": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/Dump/Entries/2/attachment",
+            "Created": "2024-02-27T17:39:10.000000+00:00",
+            "DiagnosticDataType": "OEM",
+            "EntryType": "Event",
+            "Id": "2",
+            "Name": "System Dump Entry",
+            "OEMDiagnosticDataType": "System"
+        }
+    ],
+    "Members@odata.count": 2,
+    "Name": "System Dump Entries"
+}

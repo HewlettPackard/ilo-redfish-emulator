@@ -1,0 +1,50 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Certificate.Certificate",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/Boot/Certificates/1",
+    "@odata.type": "#Certificate.v1_4_0.Certificate",
+    "Actions": {
+        "#Certificate.Rekey": {
+            "@Redfish.ActionInfo": "/redfish/v1/Systems/DGX/Boot/Certificates/1/Certificate.RekeyActionInfo",
+            "target": "/redfish/v1/Systems/DGX/Boot/Certificates/1/Actions/Certificate.Rekey"
+        },
+        "#Certificate.Renew": {
+            "@Redfish.ActionInfo": "/redfish/v1/Systems/DGX/Boot/Certificates/1/Certificate.RenewActionInfo",
+            "target": "/redfish/v1/Systems/DGX/Boot/Certificates/1/Actions/Certificate.Renew"
+        }
+    },
+    "CertificateString": "-----BEGIN CERTIFICATE-----\nMIIFWTCCA8GgAwIBAgIUYSh6/XvHFoNQaM0jST5NXHQd6NIwDQYJKoZIhvcNAQEL\nBQAwgbsxCzAJBgNVBAYTAlVTMRAwDgYDVQQIDAdHZW9yZ2lhMREwDwYDVQQHDAhO\nb3Jjcm9zczE0MDIGA1UECgwrQW1lcmljYW4gTWVnYXRyZW5kcyBJbnRlcm5hdGlv\nbmFsIExMQyAoQU1JKTEbMBkGA1UECwwSU2VydmljZSBQcm9jZXNzb3JzMRQwEgYD\nVQQDDAttZWdhcmFjLmNvbTEeMBwGCSqGSIb3DQEJARYPc3VwcG9ydEBhbWkuY29t\nMB4XDTI2MDkyODE0MDQxNloXDTM2MDkyNTE0MDQxNlowgbsxCzAJBgNVBAYTAlVT\nMRAwDgYDVQQIDAdHZW9yZ2lhMREwDwYDVQQHDAhOb3Jjcm9zczE0MDIGA1UECgwr\nQW1lcmljYW4gTWVnYXRyZW5kcyBJbnRlcm5hdGlvbmFsIExMQyAoQU1JKTEbMBkG\nA1UECwwSU2VydmljZSBQcm9jZXNzb3JzMRQwEgYDVQQDDAttZWdhcmFjLmNvbTEe\nMBwGCSqGSIb3DQEJARYPc3VwcG9ydEBhbWkuY29tMIIBojANBgkqhkiG9w0BAQEF\nAAOCAY8AMIIBigKCAYEAxWrhMhnD9FRDeOZYu6dSHd8rpp1pSieMbh3ueiTCZO2d\nOp9oINgma4LQA1hXhFNtZN91ha6g1tvU8m5qf1b8e5lo+FfSyQ9SpFWXFMZvqF68\nVIHbM/NXqXx63LQsgrTUQYIUSR+C+97s7ibLwnCZEd9e2ztk0ncJ80gJk9XJbTe0\nVTqGaZUPQ2cNEVTgZGO8pe84Mztnsu3azRlVuAvQUS/7VOWl1mLCOH9ieQ/m/JUy\n7Ozv6tYZOBS/V8YiewkjXyZhQJcwV2VNLpw5X1cBJ9nRol3CU9UFlbH0L7xgOs7E\n7Ao30MOfYc2ipc7GHM8kmzhGCSz1mB00NmGksjDWFc6tgDU+CrWkxYhEc7ceb0j1\n/QDDdtmaNbvPa5ymlz8U4CeoWcXFl+urRjWyQzixdqucfk3mkjgHpogVrpqAgmcV\nHi41jDwjDdMlNyZwzwTEtssLCvDpQYOmUXLrP2dCsvBZVw3EbpbGl2/Kz/sHy/yB\nnXPWVl8Bo2jQiRkUnUrRAgMBAAGjUzBRMB0GA1UdDgQWBBRdmIlkagFwoskBgWOd\nk2sHudkFMjAfBgNVHSMEGDAWgBRdmIlkagFwoskBgWOdk2sHudkFMjAPBgNVHRMB\nAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBgQBkK4AzwqBsVLHD7PMhmy0NFw7p\n9o7RdxhjLjnY73Z8N8AXBOGwcPONVHvrRjR0s48p5Pm5sR75ZA0RGnXjpIK9Me88\nkr4TF7LEbdaCoMRIBJYZm3zbAwWmwzFoK0JqH676zn/PovZSS/N5Mbl8nzl+SjaS\n42DQK+KTYeCFDAsIkSoloEe0kkI3yC0b4jJ3vTJpj4X12xf4Gb+W2T3ecWCfNUcr\nmcbwGQXcyKk0NGyuvCqKHpEZo8su+v+c52SF5w7o8MU0QrO9lZUp34pRXKv0mbp3\nYNbrQjhZeWbMgNsyJGAsLn3rKiximX+i+GlleO/1fIf4kmGpYqef/mQTRP1U9t2p\nEEykb8DuXILboI8YjO4aqvGPbrjuzrnQiQ7W0TXaElXEi3m4kkIbceZhnM5tRDzJ\nbI7Xnl1XmcU9KNO0hVC0Vzn1OV8GwDac1q8Tt9UXFKEp1FGqeKnpKdFKLZ5Qm1xz\nN80CtqO37odbh/acp/OTQ4bxQPk7AfsJvjmqfI4=\n-----END CERTIFICATE-----",
+    "CertificateType": "PEM",
+    "Description": "Certificate Instance 1",
+    "Id": "1",
+    "Issuer": {
+        "City": "Norcross",
+        "CommonName": "megarac.com",
+        "Country": "US",
+        "Email": "support@ami.com",
+        "Organization": "American Megatrends International LLC (AMI)",
+        "OrganizationalUnit": "Service Processors",
+        "State": "Georgia"
+    },
+    "KeyUsage": [
+        null
+    ],
+    "Name": "Certificate Instance 1",
+    "Oem": {
+        "Ami": {
+            "@odata.type": "#AMICaCert.v1_0_0.AMICaCert",
+            "OwnerGuid": "FE9C6606-8B49-44A3-8B6B-DEA3A0E0324D"
+        }
+    },
+    "Subject": {
+        "City": "Norcross",
+        "CommonName": "megarac.com",
+        "Country": "US",
+        "Email": "support@ami.com",
+        "Organization": "American Megatrends International LLC (AMI)",
+        "OrganizationalUnit": "Service Processors",
+        "State": "Georgia"
+    },
+    "ValidNotAfter": "2036-9-25T14:04:16+00:00",
+    "ValidNotBefore": "2026-9-28T14:04:16+00:00"
+}

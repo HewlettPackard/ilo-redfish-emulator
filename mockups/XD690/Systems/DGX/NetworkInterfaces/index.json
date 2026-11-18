@@ -1,0 +1,44 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkInterfaceCollection.NetworkInterfaceCollection",
+    "@odata.etag": "\"1792278296\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces",
+    "@odata.type": "#NetworkInterfaceCollection.NetworkInterfaceCollection",
+    "Description": "The Collection for Network Interfaces",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces/CX8_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces/CX8_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces/CX8_3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces/CX8_4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces/CX8_5"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces/CX8_6"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces/CX8_7"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces/CX8_8"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces/I210"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces/IO_BAY_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces/IO_BAY_2"
+        }
+    ],
+    "Members@odata.count": 11,
+    "Name": "NetworkInterface Collection"
+}

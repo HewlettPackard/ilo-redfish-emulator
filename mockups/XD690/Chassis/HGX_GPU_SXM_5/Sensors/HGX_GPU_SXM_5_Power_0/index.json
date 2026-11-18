@@ -1,0 +1,23 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_GPU_SXM_5/Sensors/HGX_GPU_SXM_5_Power_0",
+    "@odata.type": "#Sensor.v1_7_0.Sensor",
+    "Description": "SXM module power (sum of GPUs which are currently reported on HSC) ",
+    "Id": "HGX_GPU_SXM_5_Power_0",
+    "Name": "HGX GPU SXM 5 Power 0",
+    "PhysicalContext": "Board",
+    "Reading": 185.878,
+    "ReadingTime": "1970-01-01T20:23:57.655+00:00",
+    "ReadingType": "Power",
+    "ReadingUnits": "W",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/HGX_GPU_SXM_5"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

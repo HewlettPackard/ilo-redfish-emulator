@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogService.LogService",
+    "@odata.etag": "\"1792181649\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/DiagnosticLog",
+    "@odata.type": "#LogService.v1_2_0.LogService",
+    "Actions": {
+        "#LogService.CollectDiagnosticData": {
+            "@Redfish.ActionInfo": "/redfish/v1/Managers/BMC/LogServices/DiagnosticLog/CollectDiagnosticDataActionInfo",
+            "target": "/redfish/v1/Managers/BMC/LogServices/DiagnosticLog/Actions/LogService.CollectDiagnosticData"
+        }
+    },
+    "DateTime": "2026-10-20T11:55:29-04:00",
+    "DateTimeLocalOffset": "-04:00",
+    "Description": "Diagnostic log for this manager",
+    "Entries": {
+        "@odata.id": "/redfish/v1/Managers/BMC/LogServices/DiagnosticLog/Entries"
+    },
+    "Id": "DiagnosticLog",
+    "LogEntryType": "Multiple",
+    "MaxNumberOfRecords": 15,
+    "Name": "Diagnostic Log",
+    "OverWritePolicy": "WrapsWhenFull",
+    "ServiceEnabled": true,
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/Sensors/TEMP_AMBIENT",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "TEMP_AMBIENT",
+    "Name": "TEMP_AMBIENT",
+    "PhysicalContext": "Intake",
+    "Reading": 28,
+    "ReadingType": "Temperature",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 5
+        },
+        "UpperCaution": {
+            "Reading": 37
+        },
+        "UpperCritical": {
+            "Reading": 40
+        },
+        "UpperFatal": {
+            "Reading": 42
+        }
+    }
+}

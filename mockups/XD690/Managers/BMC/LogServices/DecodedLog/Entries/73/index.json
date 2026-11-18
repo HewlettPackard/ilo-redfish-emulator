@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.v1_12_0.LogEntry",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/DecodedLog/Entries/0",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2026-09-28T10:11:50-04:00",
+    "EntryType": "SEL",
+    "EventId": "74",
+    "EventTimestamp": "2026-09-28T10:11:50-04:00",
+    "GeneratorId": "0x0020",
+    "Id": "0",
+    "Message": "The resource property system watchdog has detected errors of type 'expired asserted'.",
+    "MessageArgs": [
+        "system watchdog",
+        "expired asserted"
+    ],
+    "Name": "sel 0",
+    "Resolution": "Please check logs for additional guidance and contact NVIDIA if further support is needed.",
+    "Resolved": false,
+    "SensorNumber": 130,
+    "SensorType": "Platform Alert",
+    "Severity": "Warning"
+}

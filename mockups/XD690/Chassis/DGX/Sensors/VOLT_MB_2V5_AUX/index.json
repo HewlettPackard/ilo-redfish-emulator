@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/Sensors/VOLT_MB_2V5_AUX",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "VOLT_MB_2V5_AUX",
+    "Name": "VOLT_MB_2V5_AUX",
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 2.494,
+    "ReadingRangeMax": 4.335,
+    "ReadingRangeMin": 0,
+    "ReadingType": "Voltage",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 2.363
+        },
+        "LowerCritical": {
+            "Reading": 2.244
+        },
+        "UpperCaution": {
+            "Reading": 2.635
+        },
+        "UpperCritical": {
+            "Reading": 2.754
+        }
+    }
+}

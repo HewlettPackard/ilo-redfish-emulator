@@ -1,0 +1,102 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkAdapter.NetworkAdapter",
+    "@odata.etag": "\"1792167374\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_2",
+    "@odata.type": "#NetworkAdapter.v1_5_0.NetworkAdapter",
+    "Controllers": [
+        {
+            "ControllerCapabilities": {
+                "DataCenterBridging": {
+                    "Capable": false
+                },
+                "NPAR": {
+                    "NparCapable": false,
+                    "NparEnabled": false
+                },
+                "NetworkDeviceFunctionCount": 1,
+                "NetworkPortCount": 1,
+                "VirtualizationOffload": {
+                    "SRIOV": {
+                        "SRIOVVEPACapable": false
+                    }
+                }
+            },
+            "FirmwarePackageVersion": "4.91",
+            "Links": {
+                "NetworkDeviceFunctions": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_2/NetworkDeviceFunctions/NetworkDeviceFunction0"
+                    }
+                ],
+                "NetworkDeviceFunctions@odata.count": 1,
+                "PCIeDevices": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/IO_BAY_2"
+                    }
+                ],
+                "PCIeDevices@odata.count": 1,
+                "Ports": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_2/Ports/NetworkPort_0"
+                    }
+                ],
+                "Ports@odata.count": 1
+            }
+        },
+        {
+            "ControllerCapabilities": {
+                "DataCenterBridging": {
+                    "Capable": false
+                },
+                "NPAR": {
+                    "NparCapable": false,
+                    "NparEnabled": false
+                },
+                "NetworkDeviceFunctionCount": 1,
+                "NetworkPortCount": 1,
+                "VirtualizationOffload": {
+                    "SRIOV": {
+                        "SRIOVVEPACapable": false
+                    }
+                }
+            },
+            "FirmwarePackageVersion": "nil",
+            "Links": {
+                "NetworkDeviceFunctions": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_2/NetworkDeviceFunctions/NetworkDeviceFunction1"
+                    }
+                ],
+                "NetworkDeviceFunctions@odata.count": 1,
+                "PCIeDevices": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/IO_BAY_2"
+                    }
+                ],
+                "PCIeDevices@odata.count": 1,
+                "Ports": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_2/Ports/NetworkPort_1"
+                    }
+                ],
+                "Ports@odata.count": 1
+            }
+        }
+    ],
+    "Id": "IO_BAY_2",
+    "Manufacturer": "Intel",
+    "Model": "Intel(R) Ethernet Network Adapter E810-CQDA2",
+    "Name": "IO BAY 2",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_2/NetworkDeviceFunctions"
+    },
+    "PartNumber": "P21114-001",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_2/Ports"
+    },
+    "SerialNumber": "303EA71C09CC",
+    "Status": {
+        "Health": "OK",
+        "State": "Disabled"
+    }
+}

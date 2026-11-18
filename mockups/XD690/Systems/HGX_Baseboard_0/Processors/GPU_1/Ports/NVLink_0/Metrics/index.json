@@ -1,0 +1,45 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_0/Metrics",
+    "@odata.type": "#PortMetrics.v1_3_0.PortMetrics",
+    "Id": "Metrics",
+    "Name": "NVLink_0 Port Metrics",
+    "Networking": {
+        "RXFrames": 0,
+        "TXDiscards": 0,
+        "TXFrames": 0
+    },
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaPortMetrics.v1_6_0.NvidiaNVLinkPortMetrics",
+            "BitErrorRate": 1.5e-254,
+            "EffectiveBER": 1.5e-254,
+            "EffectiveError": 0,
+            "IntentionalLinkDownCount": 0,
+            "LinkDownReasonCode": "NoLinkDown",
+            "LinkDownedCount": 0,
+            "LinkErrorRecoveryCount": 0,
+            "MalformedPackets": 0,
+            "NVLinkDataRxBandwidthGbps": 0,
+            "NVLinkDataTxBandwidthGbps": 0,
+            "NVLinkErrors": {
+                "RuntimeError": false,
+                "TrainingError": false
+            },
+            "NVLinkRawRxBandwidthGbps": 0,
+            "NVLinkRawTxBandwidthGbps": 0,
+            "RXNoProtocolBytes": 400000000,
+            "SymbolErrors": 0,
+            "TXNoProtocolBytes": 400000000,
+            "TXWait": 0,
+            "TotalRawBER": 0.0013,
+            "TotalRawError": 0,
+            "UnintentionalLinkDownCount": 0,
+            "VL15Dropped": 0,
+            "VL15TXBytes": 0,
+            "VL15TXPackets": 0
+        }
+    },
+    "RXBytes": 0,
+    "RXErrors": 0,
+    "TXBytes": 0
+}

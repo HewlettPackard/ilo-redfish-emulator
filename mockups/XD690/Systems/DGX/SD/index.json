@@ -1,0 +1,52 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ComputerSystem.ComputerSystem",
+    "@odata.etag": "\"1792278296\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/SD",
+    "@odata.type": "#ComputerSystem.v1_17_0.ComputerSystem",
+    "AssetTag": "NA            ",
+    "Boot": {
+        "AliasBootOrder": [],
+        "BootNext": null,
+        "BootOrder": [
+            "Boot0001",
+            "Boot0002",
+            "Boot0003",
+            "Boot0004",
+            "Boot0005",
+            "Boot0006",
+            "Boot0007",
+            "Boot0008",
+            "Boot0009",
+            "Boot000A",
+            "Boot000B",
+            "Boot000C"
+        ],
+        "BootOrderPropertySelection": "BootOrder",
+        "BootSourceOverrideEnabled": "Disabled",
+        "BootSourceOverrideEnabled@Redfish.AllowableValues": [
+            "Disabled",
+            "Once",
+            "Continuous"
+        ],
+        "BootSourceOverrideMode": null,
+        "BootSourceOverrideMode@Redfish.AllowableValues": [
+            "UEFI"
+        ],
+        "BootSourceOverrideTarget": "None",
+        "BootSourceOverrideTarget@Redfish.AllowableValues": [
+            "None",
+            "Pxe",
+            "Usb",
+            "Hdd",
+            "BiosSetup",
+            "UefiShell",
+            "UefiHttp"
+        ],
+        "HttpBootUri": null,
+        "UefiTargetBootSourceOverride": null
+    },
+    "Description": "System Self",
+    "Id": "DGX",
+    "Name": "System",
+    "SystemType": "Physical"
+}

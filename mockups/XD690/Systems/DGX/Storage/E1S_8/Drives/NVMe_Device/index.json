@@ -1,0 +1,40 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Drive.Drive",
+    "@odata.etag": "\"1792167380\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_8/Drives/NVMe_Device",
+    "@odata.type": "#Drive.v1_11_0.Drive",
+    "AssetTag": null,
+    "BlockSizeBytes": 512,
+    "CapableSpeedGbs": 126.03,
+    "CapacityBytes": 7681501126656,
+    "EncryptionAbility": "SelfEncryptingDrive",
+    "EncryptionStatus": "Unlocked",
+    "FailurePredicted": false,
+    "Id": "NVMe_Device",
+    "IndicatorLED": null,
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/DGX"
+        },
+        "Endpoints@odata.count": 0,
+        "Volumes@odata.count": 0
+    },
+    "LocationIndicatorActive": false,
+    "Manufacturer": "Micron Technology Inc.",
+    "MediaType": "SSD",
+    "Model": "MTFDLCE7T6THA-1BK1DABYY",
+    "Name": "NVMe_Device",
+    "NegotiatedSpeedGbs": 126.03,
+    "PredictedMediaLifeLeftPercent": 100,
+    "Protocol": "NVMe",
+    "ReadyToRemove": false,
+    "Revision": "NVMe Spec v2.0",
+    "RotationSpeedRPM": 0,
+    "SerialNumber": "41251115173E",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "StatusIndicator": "OK",
+    "WriteCacheEnabled": false
+}

@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "\"1792167376\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU3",
+    "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
+    "Description": "Display Device",
+    "DeviceType": "SingleFunction",
+    "Id": "GPU3",
+    "Name": "PCIeDevice_00_73_00",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU3/PCIeFunctions"
+    },
+    "PCIeInterface": {
+        "LanesInUse": 16,
+        "MaxLanes": 16
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

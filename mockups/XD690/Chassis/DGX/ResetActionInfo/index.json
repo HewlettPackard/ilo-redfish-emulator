@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ActionInfo.ActionInfo",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/ResetActionInfo",
+    "@odata.type": "#ActionInfo.v1_1_2.ActionInfo",
+    "Description": "This action is used to reset the Chassis. It takes approximately 60 seconds for the background save process. Once the save process completes, the system then performs graceful shutdown and restart.",
+    "Id": "ResetAction",
+    "Name": "ResetAction",
+    "Parameters": [
+        {
+            "AllowableValues": [
+                "ForceOff",
+                "ForceRestart",
+                "FullPowerCycle",
+                "GracefulRestart",
+                "GracefulShutdown",
+                "On",
+                "PowerCycle"
+            ],
+            "DataType": "String",
+            "Name": "ResetType",
+            "Required": true
+        }
+    ]
+}
