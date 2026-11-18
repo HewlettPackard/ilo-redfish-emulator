@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/Sensors/PWR_GB_NVS2",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "PWR_GB_NVS2",
+    "Name": "PWR_GB_NVS2",
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 290,
+    "ReadingRangeMax": 2040,
+    "ReadingRangeMin": 0,
+    "ReadingType": "Power",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {
+            "Reading": 2040
+        },
+        "UpperCritical": {
+            "Reading": 2040
+        }
+    }
+}

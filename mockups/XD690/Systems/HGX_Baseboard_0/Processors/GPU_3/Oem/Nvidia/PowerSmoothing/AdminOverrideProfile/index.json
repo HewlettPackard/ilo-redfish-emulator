@@ -1,0 +1,14 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Oem/Nvidia/PowerSmoothing/AdminOverrideProfile",
+    "@odata.type": "#NvidiaPowerSmoothingPresetProfile.v1_1_0.NvidiaPowerSmoothingPresetProfile",
+    "Id": "AdminOverrideProfile",
+    "Name": "GPU_3 PowerSmoothing AdminOverrideProfile",
+    "PFAOffsetWatts": 4294967295,
+    "PFAWindowMultiplier": 255,
+    "PFTWindowMultiplier": 255,
+    "RampDownHysteresisSeconds": 4294967295,
+    "RampDownWattsPerSecond": 4294967295,
+    "RampUpWattsPerSecond": 4294967295,
+    "SecondaryPowerFloorWatts": 4294967295,
+    "TMPFloorPercent": 4294967295
+}

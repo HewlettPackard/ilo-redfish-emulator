@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ActionInfo.ActionInfo",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/UpdateService/StartUpdateActionInfo",
+    "@odata.type": "#ActionInfo.v1_1_2.ActionInfo",
+    "Description": "This actioninfo is used to get the details for StartUpdate Action",
+    "Id": "StartUpdateActionInfo",
+    "Name": "StartUpdate ActionInfo",
+    "Parameters": [
+        {
+            "DataType": "String",
+            "Name": "target",
+            "Required": true
+        },
+        {
+            "DataType": "String",
+            "Name": "title",
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+    "@odata.etag": "\"1790606970\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/Memory/DIMM22",
+    "@odata.type": "#Memory.v1_8_0.Memory",
+    "Actions": {
+        "Oem": {
+            "#AmiBios.ChangeState": {
+                "@Redfish.ActionInfo": "/redfish/v1/Systems/DGX/Memory/DIMM22/ChangeStateActionInfo",
+                "target": "/redfish/v1/Systems/DGX/Memory/DIMM22/Actions/AmiBios.ChangeState"
+            }
+        }
+    },
+    "AllowedSpeedsMHz": [
+        6400
+    ],
+    "BaseModuleType": "RDIMM",
+    "BusWidthBits": 80,
+    "CacheSizeMiB": 0,
+    "CapacityMiB": 65536,
+    "ConfigurationLocked": false,
+    "DataWidthBits": 64,
+    "FirmwareRevision": "0000 ",
+    "Id": "DIMM22",
+    "IsRankSpareEnabled": false,
+    "IsSpareDeviceEnabled": false,
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/DGX"
+        }
+    },
+    "Location": {
+        "PartLocation": {
+            "ServiceLabel": "CPU1_DIMM_D1"
+        }
+    },
+    "LogicalSizeMiB": 0,
+    "Manufacturer": "Samsung",
+    "MemoryLocation": {
+        "Channel": 3,
+        "MemoryController": 3,
+        "Slot": 0,
+        "Socket": 1
+    },
+    "MemoryMedia": [
+        "DRAM"
+    ],
+    "MemorySubsystemControllerManufacturerID": "0x0000",
+    "MemorySubsystemControllerProductID": "0x0000",
+    "MemoryType": "DRAM",
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Systems/DGX/Memory/DIMM22/MemoryMetrics"
+    },
+    "ModuleManufacturerID": "0xCE00",
+    "ModuleProductID": "0xCE00",
+    "Name": "DIMM22",
+    "NonVolatileSizeMiB": 0,
+    "OperatingMemoryModes": [
+        "Volatile"
+    ],
+    "OperatingSpeedMhz": 5200,
+    "PartNumber": "M321R8GA0PB2-CCPWF            ",
+    "PersistentRegionNumberLimit": 0,
+    "PersistentRegionSizeLimitMiB": 0,
+    "PersistentRegionSizeMaxMiB": 0,
+    "PowerManagementPolicy": {
+        "PolicyEnabled": false
+    },
+    "RankCount": 2,
+    "SecurityCapabilities": {
+        "ConfigurationLockCapable": false,
+        "DataLockCapable": false,
+        "PassphraseCapable": false
+    },
+    "SerialNumber": "43211BA5",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "VolatileRegionNumberLimit": 1,
+    "VolatileRegionSizeLimitMiB": 65536,
+    "VolatileRegionSizeMaxMiB": 65536,
+    "VolatileSizeMiB": 65536
+}

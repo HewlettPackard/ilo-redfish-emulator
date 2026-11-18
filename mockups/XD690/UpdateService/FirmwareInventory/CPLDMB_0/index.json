@@ -1,0 +1,17 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "\"1792524207\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/CPLDMB_0",
+    "@odata.type": "#SoftwareInventory.v1_2_3.SoftwareInventory",
+    "Id": "CPLDMB_0",
+    "Name": "CPLDMB_0",
+    "Oem": {
+        "Ami": {
+            "@odata.type": "#AMIFirmwareInventory.v1_0_0.AMIFirmwareInventory",
+            "DeviceClass": "MB Altera CPLD",
+            "DeviceInventoryCache": false
+        }
+    },
+    "Updateable": true,
+    "Version": "0.1.3.1"
+}

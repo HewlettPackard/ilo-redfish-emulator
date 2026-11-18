@@ -1,0 +1,40 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_BMC_0/Assembly",
+    "@odata.type": "#Assembly.v1_3_0.Assembly",
+    "Assemblies": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/HGX_BMC_0/Assembly#/Assemblies/0",
+            "Location": {
+                "PartLocation": {
+                    "LocationType": "Embedded"
+                }
+            },
+            "MemberId": "0",
+            "Model": "P2312-C00",
+            "Name": "BOARD_FRU_ASSEMBLY",
+            "PartNumber": "699-22312-0123-500",
+            "PhysicalContext": "GPUSubsystem",
+            "ProductionDate": "2025-06-28T20:30:00Z",
+            "SerialNumber": "1322725000257",
+            "Vendor": "NVIDIA"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/HGX_BMC_0/Assembly#/Assemblies/1",
+            "Location": {
+                "PartLocation": {
+                    "LocationType": "Embedded"
+                }
+            },
+            "MemberId": "1",
+            "Model": "HGX BLKW ULTRA, AC, HMC",
+            "Name": "PRODUCT_FRU_ASSEMBLY",
+            "PartNumber": "675-26287-0070-RC1",
+            "PhysicalContext": "GPUSubsystem",
+            "SerialNumber": "1322725000257",
+            "Vendor": "NVIDIA",
+            "Version": "Ax"
+        }
+    ],
+    "Id": "Assembly",
+    "Name": "Assembly data for HGX_BMC_0"
+}

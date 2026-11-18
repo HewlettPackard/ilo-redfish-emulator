@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+    "@odata.etag": "\"1792167378\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU6/PCIeFunctions/DevIndex89",
+    "@odata.type": "#PCIeFunction.v1_2_3.PCIeFunction",
+    "ClassCode": "0x030200",
+    "DeviceClass": "DisplayController",
+    "DeviceId": "0x3182",
+    "FunctionId": 0,
+    "FunctionType": "Physical",
+    "Id": "DevIndex89",
+    "Links": {
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU6"
+        }
+    },
+    "Name": "PCIeFunction_89",
+    "RevisionId": "0xA1",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "SubsystemId": "0x20E6",
+    "SubsystemVendorId": "0x10DE",
+    "VendorId": "0x10DE"
+}

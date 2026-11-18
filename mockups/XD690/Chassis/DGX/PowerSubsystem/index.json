@@ -1,0 +1,66 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PowerSubsystem.PowerSubsystem",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem",
+    "@odata.type": "#PowerSubsystem.v1_1_0.PowerSubsystem",
+    "Description": "PowerSubsytem for this Chassis",
+    "Id": "PowerSubsytem",
+    "Name": "PowerSubsytem",
+    "PowerSupplies": {
+        "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies"
+    },
+    "PowerSupplyRedundancy": [
+        {
+            "MaxSupportedInGroup": 12,
+            "MinNeededInGroup": 1,
+            "RedundancyGroup": [
+                {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_0"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_1"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_10"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_11"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_2"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_3"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_4"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_5"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_6"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_7"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_8"
+                },
+                {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_9"
+                }
+            ],
+            "RedundancyGroup@odata.count": 12,
+            "RedundancyType": "NPlusM",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        }
+    ],
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

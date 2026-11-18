@@ -1,0 +1,535 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Power.Power",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/Power",
+    "@odata.type": "#Power.v1_5_4.Power",
+    "Description": "Power sensor readings",
+    "Id": "Power",
+    "Name": "Power",
+    "PowerControl": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/PowerControl/0",
+            "MemberId": "0",
+            "Name": "Chassis Power Control",
+            "PhysicalContext": "Intake",
+            "PowerLimit": {
+                "CorrectionInMs": 1000,
+                "LimitException": "HardPowerOff",
+                "LimitInWatts": 500
+            },
+            "PowerMetrics": {
+                "AverageConsumedWatts": 3045,
+                "IntervalInMin": 0,
+                "MaxConsumedWatts": 7055,
+                "MinConsumedWatts": 0
+            },
+            "RelatedItem@odata.count": 0
+        }
+    ],
+    "PowerControl@odata.count": 1,
+    "Voltages": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/0",
+            "LowerThresholdCritical": 4.4892,
+            "LowerThresholdNonCritical": 4.7472,
+            "MaxReadingRange": 6.579,
+            "MemberId": "0",
+            "MinReadingRange": 0,
+            "Name": "VOLT_SCM_5V",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 4.996,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 247,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 5.5986,
+            "UpperThresholdNonCritical": 5.2374
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/1",
+            "LowerThresholdCritical": 2.907,
+            "LowerThresholdNonCritical": 3.145,
+            "MaxReadingRange": 4.335,
+            "MemberId": "1",
+            "MinReadingRange": 0,
+            "Name": "VOLT_MB_3V3",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 3.337,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 26,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 3.706,
+            "UpperThresholdNonCritical": 3.468
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/2",
+            "LowerThresholdCritical": 2.975,
+            "LowerThresholdNonCritical": 3.145,
+            "MaxReadingRange": 4.335,
+            "MemberId": "2",
+            "MinReadingRange": 0,
+            "Name": "VOLT_SCM_3V3",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 3.287,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 246,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 3.706,
+            "UpperThresholdNonCritical": 3.468
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/3",
+            "MaxReadingRange": 2.0655,
+            "MemberId": "3",
+            "MinReadingRange": 0,
+            "Name": "VOLT_VCCFA_CPU1",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 1.01,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 6,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/4",
+            "LowerThresholdNonCritical": 11.408,
+            "MaxReadingRange": 15.81,
+            "MemberId": "4",
+            "MinReadingRange": 0,
+            "Name": "VOLT_MB_VRM_1",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 12.227,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 91,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 13.206,
+            "UpperThresholdNonCritical": 12.586
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/5",
+            "LowerThresholdNonCritical": 11.408,
+            "MaxReadingRange": 15.81,
+            "MemberId": "5",
+            "MinReadingRange": 0,
+            "Name": "VOLT_MB_VRM_0",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 12.208,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 90,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 13.206,
+            "UpperThresholdNonCritical": 12.586
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/6",
+            "LowerThresholdCritical": 10.788,
+            "LowerThresholdNonCritical": 11.408,
+            "MaxReadingRange": 15.81,
+            "MemberId": "6",
+            "MinReadingRange": 0,
+            "Name": "VOLT_SCM_12V",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 11.945,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 245,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 13.206,
+            "UpperThresholdNonCritical": 12.586
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/7",
+            "LowerThresholdCritical": 4.4892,
+            "LowerThresholdNonCritical": 4.7472,
+            "MaxReadingRange": 6.579,
+            "MemberId": "7",
+            "MinReadingRange": 0,
+            "Name": "VOLT_MB_5V_AUX",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 4.994,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 27,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 5.5986,
+            "UpperThresholdNonCritical": 5.2374
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/8",
+            "MaxReadingRange": 2.0655,
+            "MemberId": "8",
+            "MinReadingRange": 0,
+            "Name": "VOLT_VCCFA_CPU0",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 1.014,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 5,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/9",
+            "LowerThresholdNonCritical": 39,
+            "MaxReadingRange": 63.75,
+            "MemberId": "9",
+            "MinReadingRange": 0,
+            "Name": "VOLT_PDB_FAN_HSC",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 50.128,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 209,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdNonCritical": 60
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/10",
+            "LowerThresholdNonCritical": 11.408,
+            "MaxReadingRange": 15.81,
+            "MemberId": "10",
+            "MinReadingRange": 0,
+            "Name": "VOLT_PDB_VRM_0",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 12.177,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 92,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 13.206,
+            "UpperThresholdNonCritical": 12.586
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/11",
+            "LowerThresholdCritical": 1.008,
+            "LowerThresholdNonCritical": 1.1424,
+            "MaxReadingRange": 2.448,
+            "MemberId": "11",
+            "MinReadingRange": 0,
+            "Name": "VOLT_MB_1V2_AUX",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 1.209,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 32,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 1.4016,
+            "UpperThresholdNonCritical": 1.2672
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/12",
+            "LowerThresholdCritical": 1.6296,
+            "LowerThresholdNonCritical": 1.7169,
+            "MaxReadingRange": 2.4735,
+            "MemberId": "12",
+            "MinReadingRange": 0,
+            "Name": "VOLT_MB_1V8_AUX",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 1.814,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 28,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 2.0079,
+            "UpperThresholdNonCritical": 1.8915
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/13",
+            "MaxReadingRange": 1.989,
+            "MemberId": "13",
+            "MinReadingRange": 0,
+            "Name": "VOLT_VCCIN_CPU1",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 1.824,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 253,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/14",
+            "LowerThresholdCritical": 2.601,
+            "LowerThresholdNonCritical": 2.703,
+            "MaxReadingRange": 4.335,
+            "MemberId": "14",
+            "MinReadingRange": 0,
+            "Name": "VOLT_3V_BATTERY",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 3.1,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 251,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 3.298,
+            "UpperThresholdNonCritical": 3.196
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/15",
+            "LowerThresholdCritical": 1.6296,
+            "LowerThresholdNonCritical": 1.7169,
+            "MaxReadingRange": 2.4735,
+            "MemberId": "15",
+            "MinReadingRange": 0,
+            "Name": "VOLT_SCM_1V8",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 1.878,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 250,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 1.9885,
+            "UpperThresholdNonCritical": 1.9012
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/16",
+            "LowerThresholdCritical": 10.788,
+            "LowerThresholdNonCritical": 11.408,
+            "MaxReadingRange": 15.81,
+            "MemberId": "16",
+            "MinReadingRange": 0,
+            "Name": "VOLT_MB_12V",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 12.218,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 30,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 13.206,
+            "UpperThresholdNonCritical": 12.586
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/17",
+            "LowerThresholdCritical": 10.788,
+            "LowerThresholdNonCritical": 11.408,
+            "MaxReadingRange": 15.81,
+            "MemberId": "17",
+            "MinReadingRange": 0,
+            "Name": "VOLT_MB_12V_AUX",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 11.858,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 29,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 13.206,
+            "UpperThresholdNonCritical": 12.586
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/18",
+            "LowerThresholdCritical": 2.244,
+            "LowerThresholdNonCritical": 2.363,
+            "MaxReadingRange": 4.335,
+            "MemberId": "18",
+            "MinReadingRange": 0,
+            "Name": "VOLT_MB_2V5_AUX",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 2.494,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 31,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdCritical": 2.754,
+            "UpperThresholdNonCritical": 2.635
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/19",
+            "MaxReadingRange": 1.9635,
+            "MemberId": "19",
+            "MinReadingRange": 0,
+            "Name": "VOLT_VCCIN_CPU0",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 1.826,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 252,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power#/Voltages/20",
+            "LowerThresholdNonCritical": 0.9984,
+            "MaxReadingRange": 2.448,
+            "MemberId": "20",
+            "MinReadingRange": 0,
+            "Name": "VOLT_SCM_1V05",
+            "Oem": {
+                "Ami": {
+                    "@odata.type": "#AMIChassisPowerThermal.v1_0_0.AMIChassisPowerThermal",
+                    "OwnerLUN": 0
+                }
+            },
+            "PhysicalContext": "VoltageRegulator",
+            "ReadingVolts": 1.096,
+            "RelatedItem@odata.count": 0,
+            "SensorNumber": 249,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "UpperThresholdNonCritical": 1.104
+        }
+    ],
+    "Voltages@odata.count": 21
+}

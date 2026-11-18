@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_MB_1V2_AUX",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "VOLT_MB_1V2_AUX",
+    "Name": "VOLT_MB_1V2_AUX",
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 1.214,
+    "ReadingRangeMax": 2.448,
+    "ReadingRangeMin": 0,
+    "ReadingType": "Voltage",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 1.1424
+        },
+        "LowerCritical": {
+            "Reading": 1.008
+        },
+        "UpperCaution": {
+            "Reading": 1.2672
+        },
+        "UpperCritical": {
+            "Reading": 1.4016
+        }
+    }
+}

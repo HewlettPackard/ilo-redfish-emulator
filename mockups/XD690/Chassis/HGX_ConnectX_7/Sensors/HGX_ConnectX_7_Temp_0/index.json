@@ -1,0 +1,34 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_7/Sensors/HGX_ConnectX_7_Temp_0",
+    "@odata.type": "#Sensor.v1_7_0.Sensor",
+    "Id": "HGX_ConnectX_7_Temp_0",
+    "Name": "HGX ConnectX 7 Temp 0",
+    "PhysicalContext": "NetworkingDevice",
+    "Reading": 55,
+    "ReadingRangeMax": 120,
+    "ReadingRangeMin": -40,
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_7/NetworkAdapters/ConnectX_NIC_7"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {
+            "Reading": 97
+        },
+        "UpperCritical": {
+            "Reading": 102
+        },
+        "UpperFatal": {
+            "Reading": 115
+        }
+    }
+}

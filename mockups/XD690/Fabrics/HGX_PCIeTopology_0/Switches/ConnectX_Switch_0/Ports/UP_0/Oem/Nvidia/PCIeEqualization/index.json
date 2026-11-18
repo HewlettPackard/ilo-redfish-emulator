@@ -1,0 +1,25 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_0/Switches/ConnectX_Switch_0/Ports/UP_0/Oem/Nvidia/PCIeEqualization",
+    "@odata.type": "#NvidiaPCIeEqualization.v1_0_0.NvidiaPCIeEqualization",
+    "Id": "PCIeEqualization",
+    "Name": "HGX_PCIeTopology_0 Switches ConnectX_Switch_0 Ports UP_0 Oem Nvidia PCIeEqualization",
+    "TxAmplitude": 0,
+    "TxPresets": {
+        "Gen3": [
+            "DeviceDefault",
+            "DeviceDefault"
+        ],
+        "Gen4": [
+            "DeviceDefault",
+            "DeviceDefault"
+        ],
+        "Gen5": [
+            "DeviceDefault",
+            "DeviceDefault"
+        ],
+        "Gen6": [
+            "DeviceDefault",
+            "DeviceDefault"
+        ]
+    }
+}

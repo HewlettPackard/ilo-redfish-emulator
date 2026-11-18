@@ -1,0 +1,2891 @@
+{
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReports/HGX_ProcessorPortGPMMetrics_0",
+    "@odata.type": "#MetricReport.v1_4_2.MetricReport",
+    "Id": "HGX_ProcessorPortGPMMetrics_0",
+    "MetricReportDefinition": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/HGX_ProcessorPortGPMMetrics_0"
+    },
+    "MetricValues": [
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.254+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.246+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.255+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.246+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.256+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.247+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.256+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.247+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.256+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.247+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.256+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.247+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.256+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.247+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.256+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.247+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.256+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.247+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.256+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.247+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.256+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.246+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.256+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.246+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.256+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.247+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.256+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.247+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.256+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.247+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.256+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.247+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.256+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.247+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.256+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.144+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.247+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.954+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.753+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.681+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.800+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.753+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.682+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.800+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.754+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.682+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.801+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.754+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.682+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.801+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.754+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.682+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.801+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.754+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.683+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.801+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.754+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.683+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.801+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.754+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.683+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.801+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.754+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.683+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.801+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.754+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.683+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.801+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.753+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.682+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.801+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.753+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.682+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.801+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.754+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.682+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.801+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.754+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.682+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.801+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.754+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.682+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.801+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.754+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.682+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.801+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.754+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.682+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.801+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.754+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.682+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.801+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.426+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.642+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.027+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.426+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.425+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.426+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.426+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.427+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.427+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.427+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.142+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.427+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.142+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.427+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.142+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.426+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.426+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.426+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.426+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.426+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.426+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.426+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.426+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.141+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.644+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.028+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.703+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.624+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.703+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.624+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.704+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.625+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.704+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.625+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.704+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.625+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.704+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.625+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.704+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.625+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.574+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.704+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.625+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.704+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.625+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.704+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.625+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.703+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.624+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.703+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.624+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.704+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.624+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.704+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.624+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.704+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.624+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.704+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.624+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.704+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.625+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.704+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.625+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.675+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.575+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.328+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.006+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.148+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.438+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.328+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.006+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.148+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.438+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.328+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.008+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.149+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.438+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.328+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.008+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.149+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.438+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.328+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.008+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.149+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.438+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.329+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.008+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.149+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.437+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.329+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.008+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.149+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.438+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.329+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.008+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.149+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.438+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.329+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.008+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.149+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.438+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.329+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.008+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.149+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.439+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.328+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.008+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.148+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.438+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.328+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.008+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.148+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.438+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.328+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.008+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.148+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.438+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.328+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.008+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.148+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.438+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.328+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.008+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.148+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.438+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.328+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.008+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.148+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.438+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.328+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.008+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.148+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.438+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.328+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.008+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:02.149+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:01.438+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.498+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.361+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.795+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.896+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.498+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.360+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.795+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.898+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.498+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.362+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.796+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.899+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.499+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.362+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.796+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.899+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.499+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.362+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.796+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.899+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.499+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.362+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.796+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.899+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.499+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.362+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.796+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.899+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.499+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.362+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.796+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.899+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.499+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.362+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.797+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.899+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.499+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.362+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.797+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.899+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.498+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.361+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.795+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.898+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.498+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.361+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.796+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.898+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.498+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.361+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.796+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.898+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.498+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.362+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.796+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.898+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.498+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.362+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.796+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.898+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.498+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.362+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.796+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.898+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.498+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.362+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.796+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.897+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:17.498+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.362+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.796+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.898+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.192+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.964+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.192+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.964+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.193+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.965+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.193+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.965+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.193+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.965+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.193+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.965+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.193+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.965+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.193+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.965+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.193+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.109+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.965+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.193+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.965+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.192+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.964+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.192+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.964+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.192+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.964+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.192+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.964+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.192+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.964+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.192+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.964+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.192+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.964+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.192+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:25.110+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:24.965+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.320+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.194+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.213+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_0/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.163+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.320+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.213+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_1/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.320+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.213+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_10/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.320+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.213+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_11/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.321+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.213+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_12/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.321+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.213+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_13/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.321+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.213+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_14/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.321+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.213+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_15/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.321+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.214+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_16/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.321+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.214+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_17/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.320+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.213+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_2/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.320+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.213+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_3/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.320+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.213+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_4/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.320+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.213+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_5/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.320+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.213+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_6/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.320+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.213+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_7/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.320+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.213+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_8/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.320+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.195+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.213+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_9/Metrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.164+00:00"
+        }
+    ],
+    "Name": "HGX_ProcessorPortGPMMetrics_0"
+}

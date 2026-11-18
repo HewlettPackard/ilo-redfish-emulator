@@ -1,0 +1,18 @@
+{
+    "error": {
+        "@Message.ExtendedInfo": [
+            {
+                "@odata.type": "#Message.v1_0_8.Message",
+                "Message": "The resource at the URI '/redfish/v1/SessionService/Sessions/bf9edff16af2ac951d9c16f1105c982f' was not found.",
+                "MessageArgs": [
+                    "/redfish/v1/SessionService/Sessions/bf9edff16af2ac951d9c16f1105c982f"
+                ],
+                "MessageId": "Base.1.12.ResourceMissingAtURI",
+                "Resolution": "Place a valid resource at the URI or correct the URI and resubmit the request.",
+                "Severity": "Critical"
+            }
+        ],
+        "code": "Base.1.12.ResourceMissingAtURI",
+        "message": "The resource at the URI '/redfish/v1/SessionService/Sessions/bf9edff16af2ac951d9c16f1105c982f' was not found."
+    }
+}

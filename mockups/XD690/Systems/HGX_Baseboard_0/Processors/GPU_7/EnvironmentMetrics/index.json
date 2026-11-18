@@ -1,0 +1,53 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/EnvironmentMetrics",
+    "@odata.type": "#EnvironmentMetrics.v1_3_0.EnvironmentMetrics",
+    "Actions": {
+        "Oem": {
+            "#NvidiaEnvironmentMetrics.ClearOOBSetPoint": {
+                "target": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/EnvironmentMetrics/Actions/Oem/NvidiaEnvironmentMetrics.ClearOOBSetPoint"
+            },
+            "#NvidiaEnvironmentMetrics.ResetEDPp": {
+                "target": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/EnvironmentMetrics/Actions/Oem/NvidiaEnvironmentMetrics.ResetEDPp"
+            }
+        }
+    },
+    "EnergyJoules": {
+        "DataSourceUri": "/redfish/v1/Chassis/HGX_GPU_7/Sensors/HGX_GPU_7_Energy_0",
+        "Reading": 66374738.63
+    },
+    "EnergykWh": {
+        "Reading": 18.437427411972
+    },
+    "Id": "Environment Metrics",
+    "Name": "GPU_7 Environment Metrics",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaEnvironmentMetrics.v1_3_0.NvidiaEnvironmentMetrics",
+            "EDPpPercent": {
+                "AllowableMax": 200,
+                "AllowableMin": 73,
+                "Persistency": null,
+                "SetPoint": 100
+            },
+            "PowerLimitPersistency": false,
+            "RequestedOneshotPowerLimitWatts": null,
+            "RequestedPersistentPowerLimitWatts": null
+        }
+    },
+    "PowerLimitWatts": {
+        "AllowableMax": 1100,
+        "AllowableMin": 200,
+        "ControlMode": "Automatic",
+        "DefaultSetPoint": 1100,
+        "Reading": 181.893,
+        "SetPoint": 1100
+    },
+    "PowerWatts": {
+        "DataSourceUri": "/redfish/v1/Chassis/HGX_GPU_7/Sensors/HGX_GPU_7_Power_0",
+        "Reading": 181.893
+    },
+    "TemperatureCelsius": {
+        "DataSourceUri": "/redfish/v1/Chassis/HGX_GPU_7/Sensors/HGX_GPU_7_TEMP_0",
+        "Reading": 36.34375
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/Sensors/OVERT_GB1_GPU",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Description": null,
+    "Id": "OVERT_GB1_GPU",
+    "Name": "OVERT_GB1_GPU",
+    "Reading": 0,
+    "ReadingRangeMax": null,
+    "ReadingRangeMin": null,
+    "ReadingType": null,
+    "ReadingUnits": null,
+    "Status": {
+        "Health": null,
+        "HealthRollup": null,
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Activation": null,
+            "DwellTime": null,
+            "Reading": null
+        },
+        "LowerCritical": {
+            "Activation": null,
+            "DwellTime": null,
+            "Reading": null
+        },
+        "LowerFatal": {
+            "Activation": null,
+            "DwellTime": null,
+            "Reading": null
+        },
+        "UpperCaution": {
+            "Activation": null,
+            "DwellTime": null,
+            "Reading": null
+        },
+        "UpperCritical": {
+            "Activation": null,
+            "DwellTime": null,
+            "Reading": null
+        },
+        "UpperFatal": {
+            "Activation": null,
+            "DwellTime": null,
+            "Reading": null
+        }
+    },
+    "VoltageType": null
+}

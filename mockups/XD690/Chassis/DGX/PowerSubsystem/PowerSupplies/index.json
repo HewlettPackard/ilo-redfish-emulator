@@ -1,0 +1,47 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PowerSupplyCollection.PowerSupplyCollection",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies",
+    "@odata.type": "#PowerSupplyCollection.PowerSupplyCollection",
+    "Description": "Resource Collection of PowerSupply Instances",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_10"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_11"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_5"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_6"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_7"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_8"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PowerSubsystem/PowerSupplies/PSU_9"
+        }
+    ],
+    "Members@odata.count": 12,
+    "Name": "PowerSupplies Collection"
+}

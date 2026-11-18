@@ -1,0 +1,91 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1",
+    "@odata.type": "#Switch.v1_8_0.Switch",
+    "Actions": {
+        "#Switch.Reset": {
+            "ResetType@Redfish.AllowableValues": [
+                "ForceRestart"
+            ],
+            "target": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Actions/Switch.Reset"
+        }
+    },
+    "CurrentBandwidthGbps": 29000,
+    "Enabled": true,
+    "FirmwareVersion": "35_2014_5112",
+    "Id": "NVSwitch_1",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/HGX_NVSwitch_1"
+        },
+        "Endpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Endpoints/GPU_3"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Endpoints/GPU_1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Endpoints/GPU_4"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Endpoints/GPU_0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Endpoints/GPU_2"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Endpoints/GPU_5"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Endpoints/GPU_7"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Endpoints/GPU_6"
+            }
+        ]
+    },
+    "Manufacturer": "NVIDIA",
+    "MaxBandwidthGbps": 29600,
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/SwitchMetrics"
+    },
+    "Model": "NA",
+    "Name": "NVSwitch_1 Resource",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaSwitch.v1_4_0.NvidiaSwitch",
+            "ErrorInjection": {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Oem/Nvidia/ErrorInjection"
+            },
+            "FabricManager": {
+                "DurationSinceLastRestartSeconds": 0,
+                "LastResetTime": "1970-01-01T00:00:00+00:00",
+                "ReportStatus": "Pending",
+                "State": "Unknown"
+            },
+            "Histograms": {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Oem/Nvidia/Histograms"
+            },
+            "PowerMode": {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Oem/Nvidia/PowerMode"
+            },
+            "SwitchIsolationMode": "SwitchCommunicationEnabled"
+        }
+    },
+    "PartNumber": "NA",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports"
+    },
+    "SerialNumber": "NA",
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "SupportedProtocols": [
+        "NVLink"
+    ],
+    "SwitchType": "NVLink",
+    "UUID": "ae0a96c0-cb06-11e5-bc7f-660300d5a0aa"
+}

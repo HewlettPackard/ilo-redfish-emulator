@@ -1,0 +1,26 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/Oem/Nvidia/ErrorInjection",
+    "@odata.type": "#NvidiaErrorInjection.v1_1_0.NvidiaErrorInjection",
+    "ErrorInjectionCapabilities": {
+        "MemoryErrors": {
+            "Enabled": false,
+            "Supported": true
+        },
+        "NVLinkErrors": {
+            "Enabled": false,
+            "Supported": false
+        },
+        "PCIeErrors": {
+            "Enabled": false,
+            "Supported": false
+        },
+        "ThermalErrors": {
+            "Enabled": false,
+            "Supported": false
+        }
+    },
+    "ErrorInjectionModeEnabled": false,
+    "Id": "ErrorInjection",
+    "Name": "GPU_6 Error Injection",
+    "PersistentDataModified": false
+}

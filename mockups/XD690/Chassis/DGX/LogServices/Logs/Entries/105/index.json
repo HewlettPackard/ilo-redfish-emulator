@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/105",
+    "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+    "Created": "2026-10-07T17:29:31+00:00",
+    "Description": "LOG 571",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventTimestamp": "2026-10-07T17:29:30+00:00",
+    "Id": "105",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+        }
+    },
+    "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 222, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : AC Lost / Power input lost, Record_ID : 571, Sensor_Type : PowerUnit, ",
+    "MessageId": "0x04FFFF",
+    "Name": "LOG 571",
+    "SensorNumber": 222,
+    "SensorType": "PowerUnit",
+    "Severity": "Critical"
+}

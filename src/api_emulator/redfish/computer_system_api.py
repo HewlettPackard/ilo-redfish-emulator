@@ -72,6 +72,12 @@ def isPowerOn(system_id):
         return members[system_id]['PowerState'] == 'On'
     return False
 
+def set_post_state(system_id, state):
+    # PostState only exists on HPE Oem systems
+    hpe = members[system_id].get('Oem', {}).get('Hpe')
+    if hpe is not None:
+        hpe['PostState'] = state
+
 # ResetWorker
 #
 # Worker thread for performing emulated asynchronous computer system power resets.
@@ -84,18 +90,18 @@ class ResetWorker(Thread):
     def run(self):
         members[self.sys_id]['PowerState'] = 'Off'
         members[self.sys_id]['Status']['State'] = 'Disabled'
-        members[self.sys_id]['Oem']['Hpe']['PostState'] = 'PowerOff'
+        set_post_state(self.sys_id, 'PowerOff')
         send_power_event(self.sys_id, 'Off')
         sleep(g.async_sleep)
         members[self.sys_id]['PowerState'] = 'PoweringOn'
         members[self.sys_id]['Status']['State'] = 'Starting'
-        members[self.sys_id]['Oem']['Hpe']['PostState'] = 'InPost'
+        set_post_state(self.sys_id, 'InPost')
         send_power_event(self.sys_id, 'On')
         sleep(g.async_sleep)
         apply_pending_bios_settings(self.sys_id)
         members[self.sys_id]['PowerState'] = 'On'
         members[self.sys_id]['Status']['State'] = 'Enabled'
-        members[self.sys_id]['Oem']['Hpe']['PostState'] = 'InPostDiscoveryComplete'
+        set_post_state(self.sys_id, 'InPostDiscoveryComplete')
 
 # PowerOnWorker
 #
@@ -109,13 +115,13 @@ class PowerOnWorker(Thread):
     def run(self):
         members[self.sys_id]['PowerState'] = 'PoweringOn'
         members[self.sys_id]['Status']['State'] = 'Starting'
-        members[self.sys_id]['Oem']['Hpe']['PostState'] = 'InPost'
+        set_post_state(self.sys_id, 'InPost')
         send_power_event(self.sys_id, 'On')
         sleep(g.async_sleep)
         apply_pending_bios_settings(self.sys_id)
         members[self.sys_id]['PowerState'] = 'On'
         members[self.sys_id]['Status']['State'] = 'Enabled'
-        members[self.sys_id]['Oem']['Hpe']['PostState'] = 'InPostDiscoveryComplete'
+        set_post_state(self.sys_id, 'InPostDiscoveryComplete')
 
 def send_power_event(id, power_state):
     ooc = members[id]['@odata.id']
@@ -228,7 +234,7 @@ def CreateComputerSystem(ident, config, rst_actions):
         resp = config, 200
     except Exception:
         traceback.print_exc()
-        resp = INTERNAL_ERROR
+        resp = simple_error_response('Server encountered an unexpected Error', 500)
     return resp
 
 # ResetAction_API
@@ -256,7 +262,7 @@ class ResetAction_API(Resource):
         logging.info(raw_dict)
         try:
             resp = error_404_response(request.path)
-            if ident in members:
+            if ident in members and '#ComputerSystem.Reset' in members[ident].get('Actions', {}):
                 if 'ResetType' in raw_dict:
                     value = raw_dict['ResetType']
                     if value in members_actions[ident]:
@@ -284,7 +290,7 @@ class ResetAction_API(Resource):
                                 logging.info('Powering Off')
                                 members[ident]['PowerState'] = 'Off'
                                 members[ident]['Status']['State'] = 'Disabled'
-                                members[ident]['Oem']['Hpe']['PostState'] = 'PowerOff'
+                                set_post_state(ident, 'PowerOff')
                                 resp = members[ident], 200
                         elif value in on_actions:
                             if state == 'On':
@@ -303,7 +309,7 @@ class ResetAction_API(Resource):
                     resp = simple_error_response('Invalid setting for POST', 400)
         except Exception:
             traceback.print_exc()
-            resp = INTERNAL_ERROR
+            resp = simple_error_response('Server encountered an unexpected Error', 500)
         return resp
 
     # HTTP GET

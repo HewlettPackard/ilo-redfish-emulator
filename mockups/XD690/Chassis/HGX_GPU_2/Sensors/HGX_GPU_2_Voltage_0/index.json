@@ -1,0 +1,21 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_GPU_2/Sensors/HGX_GPU_2_Voltage_0",
+    "@odata.type": "#Sensor.v1_7_0.Sensor",
+    "Id": "HGX_GPU_2_Voltage_0",
+    "Name": "HGX GPU 2 Voltage 0",
+    "PhysicalContext": "GPU",
+    "Reading": 0.695,
+    "ReadingType": "Voltage",
+    "ReadingUnits": "V",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

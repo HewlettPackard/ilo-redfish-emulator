@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Processor.Processor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU0/SubProcessors/CPU0_Core54_Thread1",
+    "@odata.type": "#Processor.v1_10_0.Processor",
+    "Id": "CPU0_Core54_Thread1",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/DGX"
+        }
+    },
+    "MaxSpeedMHz": 4600,
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU0/SubProcessors/CPU0_Core54_Thread1/ProcessorMetrics"
+    },
+    "Name": "CPU0_Core54_Thread1",
+    "ProcessorType": "Thread",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

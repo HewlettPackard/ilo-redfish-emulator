@@ -1,0 +1,56 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_5/NetworkAdapters/ConnectX_NIC_5",
+    "@odata.type": "#NetworkAdapter.v1_9_0.NetworkAdapter",
+    "Actions": {
+        "#NetworkAdapter.Reset": {
+            "ResetType@Redfish.AllowableValues": [
+                "ForceRestart"
+            ],
+            "target": "/redfish/v1/Chassis/HGX_ConnectX_5/NetworkAdapters/ConnectX_NIC_5/Actions/NetworkAdapter.Reset"
+        }
+    },
+    "Controllers": [
+        {
+            "Links": {
+                "PCIeDevices": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_5/PCIeDevices/ConnectX_5"
+                    }
+                ],
+                "Ports": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_5/NetworkAdapters/ConnectX_NIC_5/Ports/Port_0"
+                    }
+                ]
+            },
+            "PCIeInterface": {
+                "LanesInUse": 16,
+                "MaxLanes": 16,
+                "MaxPCIeType": "Gen5",
+                "PCIeType": "Gen5"
+            }
+        }
+    ],
+    "Id": "ConnectX_NIC_5",
+    "Name": "ConnectX_NIC_5",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_5/NetworkAdapters/ConnectX_NIC_5/NetworkDeviceFunctions"
+    },
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaNetworkAdapter.v1_0_0.NvidiaNetworkAdapter",
+            "ErrorInjection": {
+                "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_5/NetworkAdapters/ConnectX_NIC_5/Oem/Nvidia/ErrorInjection"
+            }
+        }
+    },
+    "Ports": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_5/NetworkAdapters/ConnectX_NIC_5/Ports"
+    },
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

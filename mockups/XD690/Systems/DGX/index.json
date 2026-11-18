@@ -1,0 +1,435 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_2_2.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Systems/DGX/SD"
+        }
+    },
+    "@odata.context": "/redfish/v1/$metadata#ComputerSystem.ComputerSystem",
+    "@odata.etag": "\"1792181649\"",
+    "@odata.id": "/redfish/v1/Systems/DGX",
+    "@odata.type": "#ComputerSystem.v1_17_0.ComputerSystem",
+    "Actions": {
+        "#ComputerSystem.Reset": {
+            "@Redfish.ActionInfo": "/redfish/v1/Systems/DGX/ResetActionInfo",
+            "@Redfish.OperationApplyTimeSupport": {
+                "@odata.type": "#Settings.v1_2_2.OperationApplyTimeSupport",
+                "MaintenanceWindowDurationInSeconds": 600,
+                "MaintenanceWindowResource": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                },
+                "SupportedValues": [
+                    "Immediate",
+                    "AtMaintenanceWindowStart"
+                ]
+            },
+            "target": "/redfish/v1/Systems/DGX/Actions/ComputerSystem.Reset"
+        }
+    },
+    "AssetTag": "NA            ",
+    "Bios": {
+        "@odata.id": "/redfish/v1/Systems/DGX/Bios"
+    },
+    "BiosVersion": "3.1.14",
+    "Boot": {
+        "BootNext": null,
+        "BootOptions": {
+            "@odata.id": "/redfish/v1/Systems/DGX/BootOptions"
+        },
+        "BootOrder": [
+            "Boot0001",
+            "Boot0002",
+            "Boot0003",
+            "Boot0004",
+            "Boot0005",
+            "Boot0006",
+            "Boot0007",
+            "Boot0008",
+            "Boot0009",
+            "Boot000A",
+            "Boot000B",
+            "Boot000C"
+        ],
+        "BootOrderPropertySelection": "BootOrder",
+        "BootSourceOverrideEnabled": "Disabled",
+        "BootSourceOverrideEnabled@Redfish.AllowableValues": [
+            "Disabled",
+            "Once",
+            "Continuous"
+        ],
+        "BootSourceOverrideMode": null,
+        "BootSourceOverrideMode@Redfish.AllowableValues": [
+            "UEFI"
+        ],
+        "BootSourceOverrideTarget": "None",
+        "BootSourceOverrideTarget@Redfish.AllowableValues": [
+            "None",
+            "Pxe",
+            "Usb",
+            "Hdd",
+            "BiosSetup",
+            "UefiShell",
+            "UefiHttp"
+        ],
+        "Certificates": {
+            "@odata.id": "/redfish/v1/Systems/DGX/Boot/Certificates"
+        },
+        "HttpBootUri": null,
+        "UefiTargetBootSourceOverride": null
+    },
+    "Description": "System Self",
+    "GraphicsControllers": {
+        "@odata.id": "/redfish/v1/Systems/DGX/GraphicsControllers"
+    },
+    "HostName": null,
+    "HostingRoles": [
+        "ApplicationServer"
+    ],
+    "Id": "DGX",
+    "IndicatorLED": "Off",
+    "IndicatorLED@Redfish.AllowableValues": [
+        "Lit",
+        "Blinking",
+        "Off"
+    ],
+    "LastResetTime": "2026-10-16T12:13:02-04:00",
+    "Links": {
+        "Chassis": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/DGX"
+            }
+        ],
+        "Chassis@odata.count": 1,
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/BMC"
+            }
+        ],
+        "ManagedBy@odata.count": 1
+    },
+    "LogServices": {
+        "@odata.id": "/redfish/v1/Systems/DGX/LogServices"
+    },
+    "Manufacturer": "HPE",
+    "Memory": {
+        "@odata.id": "/redfish/v1/Systems/DGX/Memory"
+    },
+    "MemoryDomains": {
+        "@odata.id": "/redfish/v1/Systems/DGX/MemoryDomains"
+    },
+    "MemorySummary": {
+        "MemoryMirroring": null,
+        "Metrics": {
+            "@odata.id": "/redfish/v1/Systems/DGX/MemorySummary/MemoryMetrics"
+        },
+        "Status": {
+            "Health": "OK",
+            "HealthRollup": "OK",
+            "State": "Enabled"
+        },
+        "TotalSystemMemoryGiB": 2048,
+        "TotalSystemPersistentMemoryGiB": 0
+    },
+    "Model": "Compute XD690 - SIMULATED",
+    "Name": "System",
+    "NetworkInterfaces": {
+        "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces"
+    },
+    "Oem": {
+        "AMI": {
+            "@odata.type": "#AMIManagerBoot.v1_0_0.AMIManagerBoot",
+            "ManagerBootConfiguration": {
+                "ManagerBootMode@Redfish.AllowableValues": [
+                    "SoftReset",
+                    "ResetTimeout"
+                ]
+            }
+        },
+        "Ami": {
+            "@odata.type": "#AMIBIOSInventoryCRC.v1_0_0.AMIBIOSInventoryCRC",
+            "Bios": {
+                "BiosTable": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/Oem/Ami/BiosTable"
+                },
+                "BiosTableTags": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/Oem/Ami/BiosTableTags"
+                },
+                "Inventory": {
+                    "Crc": {
+                        "@odata.id": "/redfish/v1/Systems/DGX/Oem/Ami/Inventory/Crc",
+                        "GroupCrcList": [
+                            {
+                                "PCIE": 4190764840
+                            },
+                            {
+                                "CERTIFICATE": 3608305847
+                            },
+                            {
+                                "CPU": 865174870
+                            },
+                            {
+                                "DIMM": 3906395537
+                            },
+                            {
+                                "SECUREBOOT": 4265448904
+                            }
+                        ]
+                    }
+                },
+                "RedfishVersion": "1.15.1",
+                "RtpVersion": "RB_1.0.19"
+            }
+        }
+    },
+    "PCIeDevices": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX7"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_5"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_6"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_7"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_8"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_5"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_6"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_7"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_8"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU5"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU6"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU7"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/I210"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/IO_BAY_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/IO_BAY_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/NVME0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/NVME1"
+        }
+    ],
+    "PCIeDevices@odata.count": 30,
+    "PCIeFunctions": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX7/PCIeFunctions/DevIndex1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX7/PCIeFunctions/DevIndex2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX7/PCIeFunctions/DevIndex3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX7/PCIeFunctions/DevIndex4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_1/PCIeFunctions/DevIndex8C"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_2/PCIeFunctions/DevIndex68"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_3/PCIeFunctions/DevIndex5F"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_4/PCIeFunctions/DevIndex85"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_5/PCIeFunctions/DevIndex4B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_6/PCIeFunctions/DevIndex27"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_7/PCIeFunctions/DevIndex19"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/CX8_8/PCIeFunctions/DevIndex44"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_1/PCIeFunctions/DevIndex7A"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_2/PCIeFunctions/DevIndex78"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_3/PCIeFunctions/DevIndex76"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_4/PCIeFunctions/DevIndex74"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_5/PCIeFunctions/DevIndex31"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_6/PCIeFunctions/DevIndex33"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_7/PCIeFunctions/DevIndex35"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_8/PCIeFunctions/DevIndex37"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU0/PCIeFunctions/DevIndex1D"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU1/PCIeFunctions/DevIndex2B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU2/PCIeFunctions/DevIndex48"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU3/PCIeFunctions/DevIndex4F"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU4/PCIeFunctions/DevIndex63"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU5/PCIeFunctions/DevIndex6C"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU6/PCIeFunctions/DevIndex89"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/GPU7/PCIeFunctions/DevIndex90"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/I210/PCIeFunctions/DevIndex24"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/IO_BAY_1/PCIeFunctions/DevIndex71"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/IO_BAY_1/PCIeFunctions/DevIndex72"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/IO_BAY_2/PCIeFunctions/DevIndex3B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/IO_BAY_2/PCIeFunctions/DevIndex3C"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/NVME0/PCIeFunctions/DevIndexB"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/NVME1/PCIeFunctions/DevIndexA"
+        }
+    ],
+    "PCIeFunctions@odata.count": 35,
+    "PartNumber": " ",
+    "PowerRestorePolicy": "AlwaysOn",
+    "PowerState": "On",
+    "ProcessorSummary": {
+        "Count": 2,
+        "Model": "Intel(R) Xeon(R) 6776P",
+        "Status": {
+            "Health": "OK",
+            "HealthRollup": "OK",
+            "State": "Enabled"
+        }
+    },
+    "Processors": {
+        "@odata.id": "/redfish/v1/Systems/DGX/Processors"
+    },
+    "SKU": "S6G97A        ",
+    "SecureBoot": {
+        "@odata.id": "/redfish/v1/Systems/DGX/SecureBoot"
+    },
+    "SerialNumber": "123456789A    ",
+    "SimpleStorage": {
+        "@odata.id": "/redfish/v1/Systems/DGX/SimpleStorage"
+    },
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Storage": {
+        "@odata.id": "/redfish/v1/Systems/DGX/Storage"
+    },
+    "SubModel": null,
+    "SystemType": "Physical",
+    "TrustedModules": [
+        {
+            "FirmwareVersion": "15.24",
+            "FirmwareVersion2": "74.2560",
+            "InterfaceType": "TPM2_0",
+            "InterfaceTypeSelection": "BiosSetting",
+            "Status": {
+                "Health": null,
+                "HealthRollup": null,
+                "State": "Enabled"
+            }
+        }
+    ],
+    "USBControllers": {
+        "@odata.id": "/redfish/v1/Systems/DGX/USBControllers"
+    },
+    "UUID": "7225A2FC-BFDE-1000-0294-5CFF35E9DF5E"
+}

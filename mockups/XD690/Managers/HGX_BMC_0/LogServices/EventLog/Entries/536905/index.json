@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536905",
+    "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+    "Created": "2026-10-16T12:16:21+00:00",
+    "EntryType": "Event",
+    "Id": "536905",
+    "Message": "Processes consuming HIGH Resource CPU are /usr/libexec/entity-manager/entity-manager (18%) /usr/bin/nvidia-fdr (14%) nsmd (11%) bash (7%)",
+    "MessageArgs": [
+        "CPU",
+        "/usr/libexec/entity-manager/entity-manager (18%) /usr/bin/nvidia-fdr (14%) nsmd (11%) bash (7%)"
+    ],
+    "MessageId": "OpenBMC.0.4.BMCSystemResourceInfo",
+    "Name": "Manager Event Log Entry",
+    "Resolution": "None",
+    "Resolved": false,
+    "Severity": "OK"
+}

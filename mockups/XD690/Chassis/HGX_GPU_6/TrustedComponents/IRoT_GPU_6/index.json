@@ -1,0 +1,28 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_GPU_6/TrustedComponents/IRoT_GPU_6",
+    "@odata.type": "#TrustedComponent.v1_0_0.TrustedComponent",
+    "Certificates": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_GPU_6/TrustedComponents/IRoT_GPU_6/Certificates"
+    },
+    "Id": "IRoT_GPU_6",
+    "Links": {
+        "ComponentIntegrity": [
+            {
+                "@odata.id": "/redfish/v1/ComponentIntegrity/HGX_IRoT_GPU_6"
+            }
+        ],
+        "ComponentsProtected": [
+            {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6"
+            }
+        ],
+        "IntegratedInto": {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6"
+        }
+    },
+    "Manufacturer": "NVIDIA",
+    "Name": "IRoT_GPU_6",
+    "SerialNumber": "0xFD422D9F6B1BF442",
+    "TrustedComponentType": "Integrated",
+    "UUID": "ad166ed2-344e-4405-bd42-2d9f6b1bf442"
+}

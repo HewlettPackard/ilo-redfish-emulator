@@ -1,0 +1,39 @@
+{
+    "@odata.id": "/redfish/v1/ComponentIntegrity/EROT_BIOS_0",
+    "@odata.type": "#ComponentIntegrity.v1_1_0.ComponentIntegrity",
+    "Actions": {
+        "#ComponentIntegrity.SPDMGetSignedMeasurements": {
+            "@Redfish.ActionInfo": "/redfish/v1/ComponentIntegrity/EROT_BIOS_0/SPDMGetSignedMeasurementsActionInfo",
+            "target": "/redfish/v1/ComponentIntegrity/EROT_BIOS_0/Actions/SPDMGetSignedMeasurements"
+        }
+    },
+    "ComponentIntegrityEnabled": true,
+    "ComponentIntegrityType": "SPDM",
+    "ComponentIntegrityTypeVersion": "1.1.0",
+    "Id": "EROT_BIOS_0",
+    "Links": {
+        "ComponentsProtected": [
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Processors/CPU1"
+            }
+        ],
+        "ComponentsProtected@odata.count": 2
+    },
+    "Name": "SPDM Integrity for EROT_BIOS_0",
+    "SPDM": {
+        "IdentityAuthentication": {
+            "ResponderAuthentication": {
+                "ComponentCertificate": {
+                    "@odata.id": "/redfish/v1/Chassis/EROT_BIOS_0/Certificates/CertChain"
+                }
+            }
+        },
+        "Requester": {
+            "@odata.id": "/redfish/v1/Managers/BMC"
+        }
+    },
+    "TargetComponentURI": "/redfish/v1/Chassis/EROT_BIOS_0"
+}

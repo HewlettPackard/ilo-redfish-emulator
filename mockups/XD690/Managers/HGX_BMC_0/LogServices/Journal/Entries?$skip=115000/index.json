@@ -1,0 +1,20 @@
+{
+    "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/Journal/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of BMC Journal Entries",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/Journal/Entries/816395211e3348ec84744a60e676c609_365450777976",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "2026-10-20T17:43:27.705839+00:00",
+            "EntryType": "Oem",
+            "Id": "816395211e3348ec84744a60e676c609_365450777976",
+            "Message": "nsmd: responseHandler: decode_aggregate_resp_sample failed. Type=NSM_PCIeRetimer_MultiPCIeLink, Tag=131, sensor=UP_0, rc=3, valid_bit=False",
+            "Name": "BMC Journal Entry",
+            "OemRecordFormat": "BMC Journal Entry",
+            "Severity": "Warning"
+        }
+    ],
+    "Members@odata.count": 115897,
+    "Name": "Open BMC Journal Entries"
+}

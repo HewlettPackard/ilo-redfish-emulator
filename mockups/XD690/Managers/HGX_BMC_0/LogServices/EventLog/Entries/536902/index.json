@@ -1,0 +1,18 @@
+{
+    "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536902",
+    "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+    "Created": "2026-10-16T12:16:03+00:00",
+    "EntryType": "Event",
+    "Id": "536902",
+    "Message": "CPU sensor crossed a warning high threshold going high. Reading=96.780216 Threshold=90.000000.",
+    "MessageArgs": [
+        "CPU",
+        "96.780216",
+        "90.000000"
+    ],
+    "MessageId": "OpenBMC.0.4.SensorThresholdWarningHighGoingHigh",
+    "Name": "Manager Event Log Entry",
+    "Resolution": "None",
+    "Resolved": false,
+    "Severity": "OK"
+}

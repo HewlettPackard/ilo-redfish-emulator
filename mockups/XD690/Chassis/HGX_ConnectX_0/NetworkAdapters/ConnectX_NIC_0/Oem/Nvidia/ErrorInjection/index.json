@@ -1,0 +1,26 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_0/NetworkAdapters/ConnectX_NIC_0/Oem/Nvidia/ErrorInjection",
+    "@odata.type": "#NvidiaErrorInjection.v1_1_0.NvidiaErrorInjection",
+    "ErrorInjectionCapabilities": {
+        "MemoryErrors": {
+            "Enabled": false,
+            "Supported": false
+        },
+        "NVLinkErrors": {
+            "Enabled": false,
+            "Supported": true
+        },
+        "PCIeErrors": {
+            "Enabled": false,
+            "Supported": true
+        },
+        "ThermalErrors": {
+            "Enabled": false,
+            "Supported": true
+        }
+    },
+    "ErrorInjectionModeEnabled": false,
+    "Id": "ErrorInjection",
+    "Name": "ConnectX_NIC_0 Error Injection",
+    "PersistentDataModified": false
+}

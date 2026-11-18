@@ -1,0 +1,738 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ThermalMetrics.ThermalMetrics",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/ThermalSubsystem/ThermalMetrics",
+    "@odata.type": "#ThermalMetrics.v1_0_1.ThermalMetrics",
+    "Description": "Thermal Metrics for this Chassis",
+    "Id": "ThermalMetrics",
+    "Name": "Thermal Metrics",
+    "TemperatureReadingsCelsius": [
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_MCU_5",
+            "DeviceName": "TEMP_GB_MCU_5",
+            "PhysicalContext": "Intake",
+            "Reading": 43
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CPU0",
+            "DeviceName": "TEMP_CPU0",
+            "PhysicalContext": "Intake",
+            "Reading": 40
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CPU1",
+            "DeviceName": "TEMP_CPU1",
+            "PhysicalContext": "Intake",
+            "Reading": 43.2
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PDB0",
+            "DeviceName": "TEMP_PDB0",
+            "PhysicalContext": "Intake",
+            "Reading": 31
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_IOBAY2",
+            "DeviceName": "TEMP_IOBAY2",
+            "PhysicalContext": "Intake",
+            "Reading": 36
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TLIMIT_GB_SXM3",
+            "DeviceName": "TLIMIT_GB_SXM3",
+            "PhysicalContext": "Intake",
+            "Reading": 54.3
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CX8_OSFP6",
+            "DeviceName": "TEMP_CX8_OSFP6",
+            "PhysicalContext": "Intake"
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TLIMIT_GB_SXM5",
+            "DeviceName": "TLIMIT_GB_SXM5",
+            "PhysicalContext": "Intake",
+            "Reading": 52.3
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_PCB3",
+            "DeviceName": "TEMP_GB_PCB3",
+            "PhysicalContext": "Intake",
+            "Reading": 50
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TLIMIT_GB_SXM6",
+            "DeviceName": "TLIMIT_GB_SXM6",
+            "PhysicalContext": "Intake",
+            "Reading": 54.4
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PSU6",
+            "DeviceName": "TEMP_PSU6",
+            "PhysicalContext": "Intake",
+            "Reading": 50.9
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CX8_3",
+            "DeviceName": "TEMP_CX8_3",
+            "PhysicalContext": "Intake",
+            "Reading": 55
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PSU1",
+            "DeviceName": "TEMP_PSU1",
+            "PhysicalContext": "Intake",
+            "Reading": 50.8
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_VR_CPU1",
+            "DeviceName": "TEMP_VR_CPU1",
+            "PhysicalContext": "Intake",
+            "Reading": 46
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_MB_HV_CPU0",
+            "DeviceName": "TEMP_MB_HV_CPU0",
+            "PhysicalContext": "Intake",
+            "Reading": 37
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CPU1_IJKL",
+            "DeviceName": "TEMP_CPU1_IJKL",
+            "PhysicalContext": "Intake",
+            "Reading": 36
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_NVS2",
+            "DeviceName": "TEMP_GB_NVS2",
+            "PhysicalContext": "Intake",
+            "Reading": 71
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CX8_OSFP3",
+            "DeviceName": "TEMP_CX8_OSFP3",
+            "PhysicalContext": "Intake"
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_M.2_RISER",
+            "DeviceName": "TEMP_M.2_RISER",
+            "PhysicalContext": "Intake",
+            "Reading": 27
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PSU9",
+            "DeviceName": "TEMP_PSU9",
+            "PhysicalContext": "Intake",
+            "Reading": 51.4
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CX8_OSFP5",
+            "DeviceName": "TEMP_CX8_OSFP5",
+            "PhysicalContext": "Intake"
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PSU10",
+            "DeviceName": "TEMP_PSU10",
+            "PhysicalContext": "Intake",
+            "Reading": 50.7
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_E1S_NVME2",
+            "DeviceName": "TEMP_E1S_NVME2",
+            "PhysicalContext": "Intake",
+            "Reading": 34
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CX8_5",
+            "DeviceName": "TEMP_CX8_5",
+            "PhysicalContext": "Intake",
+            "Reading": 52
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_CX8MCU_4",
+            "DeviceName": "TEMP_GB_CX8MCU_4",
+            "PhysicalContext": "Intake",
+            "Reading": 47
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CX8_OSFP4",
+            "DeviceName": "TEMP_CX8_OSFP4",
+            "PhysicalContext": "Intake"
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PCIE_SW_1",
+            "DeviceName": "TEMP_PCIE_SW_1",
+            "PhysicalContext": "Intake",
+            "Reading": 43
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_FPGA",
+            "DeviceName": "TEMP_GB_FPGA",
+            "PhysicalContext": "Intake",
+            "Reading": 46
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PSU11",
+            "DeviceName": "TEMP_PSU11",
+            "PhysicalContext": "Intake",
+            "Reading": 52.3
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TLIMIT_GB_SXM2",
+            "DeviceName": "TLIMIT_GB_SXM2",
+            "PhysicalContext": "Intake",
+            "Reading": 54.6
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_SXM3",
+            "DeviceName": "TEMP_GB_SXM3",
+            "PhysicalContext": "Intake",
+            "Reading": 33
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PSU8",
+            "DeviceName": "TEMP_PSU8",
+            "PhysicalContext": "Intake",
+            "Reading": 52.6
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PSU3",
+            "DeviceName": "TEMP_PSU3",
+            "PhysicalContext": "Intake",
+            "Reading": 52.2
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PSU2",
+            "DeviceName": "TEMP_PSU2",
+            "PhysicalContext": "Intake",
+            "Reading": 51.4
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_SXM8",
+            "DeviceName": "TEMP_GB_SXM8",
+            "PhysicalContext": "Intake",
+            "Reading": 36
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_SXM1",
+            "DeviceName": "TEMP_GB_SXM1",
+            "PhysicalContext": "Intake",
+            "Reading": 37
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PDB_VRM",
+            "DeviceName": "TEMP_PDB_VRM",
+            "PhysicalContext": "Intake",
+            "Reading": 35
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_VR_CPU0",
+            "DeviceName": "TEMP_VR_CPU0",
+            "PhysicalContext": "Intake",
+            "Reading": 43
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_PCB4",
+            "DeviceName": "TEMP_GB_PCB4",
+            "PhysicalContext": "Intake",
+            "Reading": 42
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_SXM2_M",
+            "DeviceName": "TEMP_GB_SXM2_M",
+            "PhysicalContext": "Intake",
+            "Reading": 32.8
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB1_INLET1",
+            "DeviceName": "TEMP_GB1_INLET1",
+            "PhysicalContext": "Intake",
+            "Reading": 40
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_HSCC2",
+            "DeviceName": "TEMP_GB_HSCC2",
+            "PhysicalContext": "Intake",
+            "Reading": 48
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_E1S_NVME3",
+            "DeviceName": "TEMP_E1S_NVME3",
+            "PhysicalContext": "Intake",
+            "Reading": 34
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CX8_2",
+            "DeviceName": "TEMP_CX8_2",
+            "PhysicalContext": "Intake",
+            "Reading": 55
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_SXM5_M",
+            "DeviceName": "TEMP_GB_SXM5_M",
+            "PhysicalContext": "Intake",
+            "Reading": 35.8
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_HSCC1",
+            "DeviceName": "TEMP_GB_HSCC1",
+            "PhysicalContext": "Intake",
+            "Reading": 46
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PSU4",
+            "DeviceName": "TEMP_PSU4",
+            "PhysicalContext": "Intake",
+            "Reading": 52.4
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_SXM2",
+            "DeviceName": "TEMP_GB_SXM2",
+            "PhysicalContext": "Intake",
+            "Reading": 34
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_SXM1_M",
+            "DeviceName": "TEMP_GB_SXM1_M",
+            "PhysicalContext": "Intake",
+            "Reading": 36.7
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PCIE_SW_0",
+            "DeviceName": "TEMP_PCIE_SW_0",
+            "PhysicalContext": "Intake",
+            "Reading": 46
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CX8_7",
+            "DeviceName": "TEMP_CX8_7",
+            "PhysicalContext": "Intake",
+            "Reading": 54
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_MB_VRM0",
+            "DeviceName": "TEMP_MB_VRM0",
+            "PhysicalContext": "Intake",
+            "Reading": 38
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TLIMIT_GB_SXM4",
+            "DeviceName": "TLIMIT_GB_SXM4",
+            "PhysicalContext": "Intake",
+            "Reading": 52.4
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_SXM6_M",
+            "DeviceName": "TEMP_GB_SXM6_M",
+            "PhysicalContext": "Intake",
+            "Reading": 32.1
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_IOBAY1",
+            "DeviceName": "TEMP_IOBAY1",
+            "PhysicalContext": "Intake",
+            "Reading": 49
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_E1S_NVME7",
+            "DeviceName": "TEMP_E1S_NVME7",
+            "PhysicalContext": "Intake",
+            "Reading": 34
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CX8_0",
+            "DeviceName": "TEMP_CX8_0",
+            "PhysicalContext": "Intake",
+            "Reading": 53
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_MCU_1",
+            "DeviceName": "TEMP_GB_MCU_1",
+            "PhysicalContext": "Intake",
+            "Reading": 45
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_SXM4_M",
+            "DeviceName": "TEMP_GB_SXM4_M",
+            "PhysicalContext": "Intake",
+            "Reading": 35.7
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_SXM8_M",
+            "DeviceName": "TEMP_GB_SXM8_M",
+            "PhysicalContext": "Intake",
+            "Reading": 36.4
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_E1S_NVME8",
+            "DeviceName": "TEMP_E1S_NVME8",
+            "PhysicalContext": "Intake",
+            "Reading": 34
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CPU0_ABCD",
+            "DeviceName": "TEMP_CPU0_ABCD",
+            "PhysicalContext": "Intake",
+            "Reading": 35
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_MB_INF_CPU0",
+            "DeviceName": "TEMP_MB_INF_CPU0",
+            "PhysicalContext": "Intake",
+            "Reading": 43
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_MCU_7",
+            "DeviceName": "TEMP_GB_MCU_7",
+            "PhysicalContext": "Intake",
+            "Reading": 39
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_IOBAY1_TRX1",
+            "DeviceName": "TEMP_IOBAY1_TRX1",
+            "PhysicalContext": "Intake"
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_HSCC4",
+            "DeviceName": "TEMP_GB_HSCC4",
+            "PhysicalContext": "Intake",
+            "Reading": 34
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_HMC",
+            "DeviceName": "TEMP_GB_HMC",
+            "PhysicalContext": "Intake",
+            "Reading": 39
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_IOBAY1_TRX2",
+            "DeviceName": "TEMP_IOBAY1_TRX2",
+            "PhysicalContext": "Intake"
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CX8_6",
+            "DeviceName": "TEMP_CX8_6",
+            "PhysicalContext": "Intake",
+            "Reading": 55
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CX8_4",
+            "DeviceName": "TEMP_CX8_4",
+            "PhysicalContext": "Intake",
+            "Reading": 55
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_CX8MCU_1",
+            "DeviceName": "TEMP_GB_CX8MCU_1",
+            "PhysicalContext": "Intake",
+            "Reading": 46
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_MB_OUTLET",
+            "DeviceName": "TEMP_MB_OUTLET",
+            "PhysicalContext": "Intake",
+            "Reading": 35
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CX8_OSFP7",
+            "DeviceName": "TEMP_CX8_OSFP7",
+            "PhysicalContext": "Intake"
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CX8_OSFP1",
+            "DeviceName": "TEMP_CX8_OSFP1",
+            "PhysicalContext": "Intake"
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_MCU_4",
+            "DeviceName": "TEMP_GB_MCU_4",
+            "PhysicalContext": "Intake",
+            "Reading": 44
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PDB1",
+            "DeviceName": "TEMP_PDB1",
+            "PhysicalContext": "Intake",
+            "Reading": 32
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_HSC1",
+            "DeviceName": "TEMP_GB_HSC1",
+            "PhysicalContext": "Intake",
+            "Reading": 38
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CPU1_MNOP",
+            "DeviceName": "TEMP_CPU1_MNOP",
+            "PhysicalContext": "Intake",
+            "Reading": 36
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TLIMIT_GB_SXM8",
+            "DeviceName": "TLIMIT_GB_SXM8",
+            "PhysicalContext": "Intake",
+            "Reading": 52.6
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_PCB2",
+            "DeviceName": "TEMP_GB_PCB2",
+            "PhysicalContext": "Intake",
+            "Reading": 44
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_IOBAY2_TRX2",
+            "DeviceName": "TEMP_IOBAY2_TRX2",
+            "PhysicalContext": "Intake"
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_HSCC3",
+            "DeviceName": "TEMP_GB_HSCC3",
+            "PhysicalContext": "Intake",
+            "Reading": 35
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_E1S_NVME5",
+            "DeviceName": "TEMP_E1S_NVME5",
+            "PhysicalContext": "Intake",
+            "Reading": 35
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CX8_OSFP2",
+            "DeviceName": "TEMP_CX8_OSFP2",
+            "PhysicalContext": "Intake"
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_MB_HV_CPU1",
+            "DeviceName": "TEMP_MB_HV_CPU1",
+            "PhysicalContext": "Intake",
+            "Reading": 38
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_MB_INF_CPU1",
+            "DeviceName": "TEMP_MB_INF_CPU1",
+            "PhysicalContext": "Intake",
+            "Reading": 42
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CPU0_EFGH",
+            "DeviceName": "TEMP_CPU0_EFGH",
+            "PhysicalContext": "Intake",
+            "Reading": 34
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_CX8MCU_3",
+            "DeviceName": "TEMP_GB_CX8MCU_3",
+            "PhysicalContext": "Intake",
+            "Reading": 47
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_PEX_SW",
+            "DeviceName": "TEMP_GB_PEX_SW",
+            "PhysicalContext": "Intake",
+            "Reading": 57
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_HSCC5",
+            "DeviceName": "TEMP_GB_HSCC5",
+            "PhysicalContext": "Intake",
+            "Reading": 52
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PSU0",
+            "DeviceName": "TEMP_PSU0",
+            "PhysicalContext": "Intake",
+            "Reading": 49.6
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_E1S_NVME6",
+            "DeviceName": "TEMP_E1S_NVME6",
+            "PhysicalContext": "Intake",
+            "Reading": 35
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_IOBAY2_TRX1",
+            "DeviceName": "TEMP_IOBAY2_TRX1",
+            "PhysicalContext": "Intake"
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_E1S_NVME4",
+            "DeviceName": "TEMP_E1S_NVME4",
+            "PhysicalContext": "Intake",
+            "Reading": 34
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_E1S_NVME1",
+            "DeviceName": "TEMP_E1S_NVME1",
+            "PhysicalContext": "Intake",
+            "Reading": 35
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TLIMIT_GB_SXM7",
+            "DeviceName": "TLIMIT_GB_SXM7",
+            "PhysicalContext": "Intake",
+            "Reading": 55.2
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_MB_VRM1",
+            "DeviceName": "TEMP_MB_VRM1",
+            "PhysicalContext": "Intake",
+            "Reading": 36
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_M.2_0",
+            "DeviceName": "TEMP_M.2_0",
+            "PhysicalContext": "Intake",
+            "Reading": 35
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_PCB1",
+            "DeviceName": "TEMP_GB_PCB1",
+            "PhysicalContext": "Intake",
+            "Reading": 43
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_NVS1",
+            "DeviceName": "TEMP_GB_NVS1",
+            "PhysicalContext": "Intake",
+            "Reading": 74
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_DCSCM_0",
+            "DeviceName": "TEMP_DCSCM_0",
+            "PhysicalContext": "Intake",
+            "Reading": 30.8
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CX8_1",
+            "DeviceName": "TEMP_CX8_1",
+            "PhysicalContext": "Intake",
+            "Reading": 56
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_AMBIENT",
+            "DeviceName": "TEMP_AMBIENT",
+            "PhysicalContext": "Intake",
+            "Reading": 27
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_M.2_1",
+            "DeviceName": "TEMP_M.2_1",
+            "PhysicalContext": "Intake",
+            "Reading": 35
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_MCU_6",
+            "DeviceName": "TEMP_GB_MCU_6",
+            "PhysicalContext": "Intake",
+            "Reading": 39
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PSU5",
+            "DeviceName": "TEMP_PSU5",
+            "PhysicalContext": "Intake",
+            "Reading": 52.6
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PSU7",
+            "DeviceName": "TEMP_PSU7",
+            "PhysicalContext": "Intake",
+            "Reading": 50.4
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_CX8_OSFP8",
+            "DeviceName": "TEMP_CX8_OSFP8",
+            "PhysicalContext": "Intake"
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TLIMIT_GB_SXM1",
+            "DeviceName": "TLIMIT_GB_SXM1",
+            "PhysicalContext": "Intake",
+            "Reading": 51
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB1_INLET2",
+            "DeviceName": "TEMP_GB1_INLET2",
+            "PhysicalContext": "Intake",
+            "Reading": 33
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_SXM6",
+            "DeviceName": "TEMP_GB_SXM6",
+            "PhysicalContext": "Intake",
+            "Reading": 34
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_CX8MCU_2",
+            "DeviceName": "TEMP_GB_CX8MCU_2",
+            "PhysicalContext": "Intake",
+            "Reading": 46
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_SXM3_M",
+            "DeviceName": "TEMP_GB_SXM3_M",
+            "PhysicalContext": "Intake",
+            "Reading": 33
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_PDB_FAN_HSC",
+            "DeviceName": "TEMP_PDB_FAN_HSC",
+            "PhysicalContext": "Intake",
+            "Reading": 33.4
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_MCU_3",
+            "DeviceName": "TEMP_GB_MCU_3",
+            "PhysicalContext": "Intake",
+            "Reading": 39
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_MCU_2",
+            "DeviceName": "TEMP_GB_MCU_2",
+            "PhysicalContext": "Intake",
+            "Reading": 39
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_SXM4",
+            "DeviceName": "TEMP_GB_SXM4",
+            "PhysicalContext": "Intake",
+            "Reading": 36
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_HSC2",
+            "DeviceName": "TEMP_GB_HSC2",
+            "PhysicalContext": "Intake",
+            "Reading": 39
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_SXM5",
+            "DeviceName": "TEMP_GB_SXM5",
+            "PhysicalContext": "Intake",
+            "Reading": 36
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_MB_INLET",
+            "DeviceName": "TEMP_MB_INLET",
+            "PhysicalContext": "Intake",
+            "Reading": 31
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_MCU_8",
+            "DeviceName": "TEMP_GB_MCU_8",
+            "PhysicalContext": "Intake",
+            "Reading": 42
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_SXM7_M",
+            "DeviceName": "TEMP_GB_SXM7_M",
+            "PhysicalContext": "Intake",
+            "Reading": 33
+        },
+        {
+            "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/TEMP_GB_SXM7",
+            "DeviceName": "TEMP_GB_SXM7",
+            "PhysicalContext": "Intake",
+            "Reading": 33
+        }
+    ],
+    "TemperatureReadingsCelsius@odata.count": 123
+}

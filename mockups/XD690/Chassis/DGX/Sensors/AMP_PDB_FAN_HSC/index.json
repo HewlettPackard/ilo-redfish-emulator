@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/Sensors/AMP_PDB_FAN_HSC",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "AMP_PDB_FAN_HSC",
+    "Name": "AMP_PDB_FAN_HSC",
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 7.013,
+    "ReadingRangeMax": 357,
+    "ReadingRangeMin": 0,
+    "ReadingType": "Current",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {
+            "Reading": 95.2
+        },
+        "UpperCritical": {
+            "Reading": 140
+        }
+    }
+}

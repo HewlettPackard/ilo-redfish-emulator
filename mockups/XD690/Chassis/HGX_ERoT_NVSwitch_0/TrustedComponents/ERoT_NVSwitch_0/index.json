@@ -1,0 +1,25 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_ERoT_NVSwitch_0/TrustedComponents/ERoT_NVSwitch_0",
+    "@odata.type": "#TrustedComponent.v1_0_0.TrustedComponent",
+    "Certificates": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_ERoT_NVSwitch_0/TrustedComponents/ERoT_NVSwitch_0/Certificates"
+    },
+    "Id": "ERoT_NVSwitch_0",
+    "Links": {
+        "ComponentIntegrity": [
+            {
+                "@odata.id": "/redfish/v1/ComponentIntegrity/HGX_ERoT_NVSwitch_0"
+            }
+        ],
+        "ComponentsProtected": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_0"
+            }
+        ]
+    },
+    "Manufacturer": "NVIDIA",
+    "Name": "ERoT_NVSwitch_0",
+    "SerialNumber": "0x0811050719080E23",
+    "TrustedComponentType": "Discrete",
+    "UUID": "5f7f6a82-3f28-4cc0-be5d-4985d4c52a0c"
+}

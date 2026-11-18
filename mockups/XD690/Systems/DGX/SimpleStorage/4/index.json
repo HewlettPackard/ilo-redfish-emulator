@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SimpleStorage.SimpleStorage",
+    "@odata.etag": "\"1792167381\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/SimpleStorage/4",
+    "@odata.type": "#SimpleStorage.v1_3_0.SimpleStorage",
+    "Devices": [
+        {
+            "CapacityBytes": 7681501126656,
+            "Manufacturer": "Micron Technology Inc.",
+            "Model": "MTFDLCE7T6THA-1BK1DABYY",
+            "Name": "NVMe_Device",
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            }
+        }
+    ],
+    "Id": "4",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/DGX"
+        },
+        "Storage": {
+            "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_7"
+        }
+    },
+    "Name": "Micron NVME",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "UefiDevicePath": "PciRoot(0x31)/Pci(0x2,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x18,0x0)/Pci(0x0,0x0)"
+}

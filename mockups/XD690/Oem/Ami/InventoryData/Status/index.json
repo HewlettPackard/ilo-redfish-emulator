@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#AMIInventoryStatus.v1_0_0.AMIInventoryStatus",
+    "@odata.etag": "\"1792167382\"",
+    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData/Status",
+    "@odata.type": "#AMIInventoryStatus.v1_0_0.AMIInventoryStatus",
+    "Description": "Detailed Post Status for Bios Inventory file",
+    "Id": "InventoryDataStatus",
+    "InventoryData": {
+        "DeletedModules": [
+            "PCIE"
+        ],
+        "LastModifiedTime": "2026-10-16T12:16:22-04:00",
+        "Messages": [
+            "Warning PropertyMissing (Id : Redfish:Chassis)",
+            "Warning PropertyMissing (Id : Redfish:Systems)",
+            "Inventory Backup file updated successfully."
+        ],
+        "ProcessingTime": 15548.77,
+        "Status": "Completed"
+    },
+    "Name": "PostStatus for Bios Inventory file"
+}

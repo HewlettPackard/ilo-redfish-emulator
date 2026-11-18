@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/CPUBaseboard/Sensors/TEMP_CX8_4",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "TEMP_CX8_4",
+    "Name": "TEMP_CX8_4",
+    "PhysicalContext": "Intake",
+    "Reading": 55,
+    "ReadingType": "Temperature",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {
+            "Reading": 105
+        },
+        "UpperCritical": {
+            "Reading": 108
+        },
+        "UpperFatal": {
+            "Reading": 110
+        }
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkAdapter.NetworkAdapter",
+    "@odata.etag": "\"1792167374\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_1",
+    "@odata.type": "#NetworkAdapter.v1_5_0.NetworkAdapter",
+    "Controllers": [
+        {
+            "ControllerCapabilities": {
+                "DataCenterBridging": {
+                    "Capable": false
+                },
+                "NPAR": {
+                    "NparCapable": false,
+                    "NparEnabled": false
+                },
+                "NetworkDeviceFunctionCount": 1,
+                "NetworkPortCount": 1,
+                "VirtualizationOffload": {
+                    "SRIOV": {
+                        "SRIOVVEPACapable": false
+                    }
+                }
+            },
+            "FirmwarePackageVersion": "32.43.2402",
+            "Links": {
+                "NetworkDeviceFunctions": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_1/NetworkDeviceFunctions/NetworkDeviceFunction0"
+                    }
+                ],
+                "NetworkDeviceFunctions@odata.count": 1,
+                "PCIeDevices": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/IO_BAY_1"
+                    }
+                ],
+                "PCIeDevices@odata.count": 1,
+                "Ports": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_1/Ports/NetworkPort_0"
+                    }
+                ],
+                "Ports@odata.count": 1
+            }
+        },
+        {
+            "ControllerCapabilities": {
+                "DataCenterBridging": {
+                    "Capable": false
+                },
+                "NPAR": {
+                    "NparCapable": false,
+                    "NparEnabled": false
+                },
+                "NetworkDeviceFunctionCount": 1,
+                "NetworkPortCount": 1,
+                "VirtualizationOffload": {
+                    "SRIOV": {
+                        "SRIOVVEPACapable": false
+                    }
+                }
+            },
+            "FirmwarePackageVersion": "nil",
+            "Links": {
+                "NetworkDeviceFunctions": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_1/NetworkDeviceFunctions/NetworkDeviceFunction1"
+                    }
+                ],
+                "NetworkDeviceFunctions@odata.count": 1,
+                "PCIeDevices": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/IO_BAY_1"
+                    }
+                ],
+                "PCIeDevices@odata.count": 1,
+                "Ports": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_1/Ports/NetworkPort_1"
+                    }
+                ],
+                "Ports@odata.count": 1
+            }
+        }
+    ],
+    "Id": "IO_BAY_1",
+    "Manufacturer": "Mellanox",
+    "Model": "BlueField-3 B3240 P-Series FHHL DPU for Cold Aisle, 400GbE / NDR IB, Dual-port QSFP, PCIe Gen5.0 x16 with x16 PCIe extension option, 16 Arm cores, 32GB on-board DDR, integrated BMC  ",
+    "Name": "IO BAY 1",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_1/NetworkDeviceFunctions"
+    },
+    "PartNumber": "900-9D3B6-00CN-PA0       ",
+    "Ports": {
+        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_1/Ports"
+    },
+    "SerialNumber": "MT2540XZ0FR9   ",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

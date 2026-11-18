@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/SwitchBoard",
+    "@odata.type": "#Chassis.v1_15_0.Chassis",
+    "AssetTag": null,
+    "ChassisType": "Component",
+    "Description": "Chassis Instance for SwitchBoard",
+    "Id": "SwitchBoard",
+    "IndicatorLED": null,
+    "Links": {
+        "ContainedBy": {
+            "@odata.id": "/redfish/v1/Chassis/DGX"
+        },
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/BMC"
+            }
+        ],
+        "ManagedBy@odata.count": 1
+    },
+    "Name": "SwitchBoard",
+    "PowerState": null
+}

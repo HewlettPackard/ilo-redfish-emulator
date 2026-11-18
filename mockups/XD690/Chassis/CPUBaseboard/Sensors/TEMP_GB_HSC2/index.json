@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/CPUBaseboard/Sensors/TEMP_GB_HSC2",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "TEMP_GB_HSC2",
+    "Name": "TEMP_GB_HSC2",
+    "PhysicalContext": "Intake",
+    "Reading": 40,
+    "ReadingType": "Temperature",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {
+            "Reading": 135
+        },
+        "UpperCritical": {
+            "Reading": 138
+        },
+        "UpperFatal": {
+            "Reading": 140
+        }
+    }
+}

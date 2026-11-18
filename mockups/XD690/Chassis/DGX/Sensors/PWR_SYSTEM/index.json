@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/Sensors/PWR_SYSTEM",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "PWR_SYSTEM",
+    "Name": "PWR_SYSTEM",
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 3308.75,
+    "ReadingRangeMax": 19890,
+    "ReadingRangeMin": 0,
+    "ReadingType": "Power",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {
+            "Reading": 19890
+        },
+        "UpperCritical": {
+            "Reading": 19890
+        }
+    }
+}

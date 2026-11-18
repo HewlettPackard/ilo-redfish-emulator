@@ -1,0 +1,24 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/PCIe_0",
+    "@odata.type": "#Port.v1_6_0.Port",
+    "ActiveWidth": 2,
+    "CurrentSpeedGbps": 16,
+    "Id": "PCIe_0",
+    "LinkNetworkTechnology": "PCIe",
+    "LinkState": "Enabled",
+    "LinkStatus": "LinkUp",
+    "MaxSpeedGbps": 16,
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/PCIe_0/Metrics"
+    },
+    "Name": "Port",
+    "PortProtocol": "PCIe",
+    "PortType": "UpstreamPort",
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Width": 2
+}

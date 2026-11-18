@@ -1,0 +1,14 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.etag": "\"1792278296\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/000C/SD",
+    "@odata.type": "#BootOption.v1_0_3.BootOption",
+    "Alias": "UefiShell",
+    "BootOptionEnabled": true,
+    "BootOptionReference": "Boot000C",
+    "Description": "UEFI: Built-in EFI Shell",
+    "DisplayName": "UEFI: Built-in EFI Shell",
+    "Id": "000C",
+    "Name": "Boot000C",
+    "UefiDevicePath": "VenMedia(5023B95C-DB26-429B-A648-BD47664C8012)"
+}

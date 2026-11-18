@@ -1,0 +1,15 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MemoryMetrics.MemoryMetrics",
+    "@odata.etag": "\"1790606970\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/Memory/DIMM14/MemoryMetrics",
+    "@odata.type": "#MemoryMetrics.v1_3_0.MemoryMetrics",
+    "Description": "Memory Metrics for DIMM14",
+    "Id": "MemoryMetrics",
+    "Name": "MemoryMetrics",
+    "Oem": {
+        "Ami": {
+            "@odata.type": "#AMIMemoryMetrics.v1_0_0.AMIMemoryMetrics",
+            "TemperatureCelsius": 33
+        }
+    }
+}

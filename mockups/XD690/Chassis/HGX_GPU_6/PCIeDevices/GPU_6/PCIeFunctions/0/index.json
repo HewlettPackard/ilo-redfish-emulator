@@ -1,0 +1,20 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_GPU_6/PCIeDevices/GPU_6/PCIeFunctions/0",
+    "@odata.type": "#PCIeFunction.v1_2_0.PCIeFunction",
+    "ClassCode": "0x000000",
+    "DeviceClass": "ProcessingAccelerators",
+    "DeviceId": "0x3182",
+    "FunctionId": 0,
+    "FunctionType": "Physical",
+    "Id": "0",
+    "Links": {
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Chassis/HGX_GPU_6/PCIeDevices/GPU_6"
+        }
+    },
+    "Name": "PCIe Function",
+    "RevisionId": "0x00",
+    "SubsystemId": "0x20E6",
+    "SubsystemVendorId": "0x10DE",
+    "VendorId": "0x10DE"
+}

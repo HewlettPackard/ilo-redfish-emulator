@@ -1,0 +1,1040 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "\"1792181649\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/251",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 416",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "251",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 234, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : FRU Not Installed, Record_ID : 416, Sensor_Type : FRUState, ",
+            "MessageId": "0x000000",
+            "Name": "SEL 416",
+            "SensorNumber": 234,
+            "SensorType": "FRUState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/252",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 417",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "252",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 234, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : FRU Not Installed, Record_ID : 417, Sensor_Type : FRUState, ",
+            "MessageId": "0x000000",
+            "Name": "SEL 417",
+            "SensorNumber": 234,
+            "SensorType": "FRUState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/253",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 418",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "253",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 234, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : FRU Not Installed, Record_ID : 418, Sensor_Type : FRUState, ",
+            "MessageId": "0x000000",
+            "Name": "SEL 418",
+            "SensorNumber": 234,
+            "SensorType": "FRUState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/254",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 419",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "254",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 234, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : FRU Not Installed, Record_ID : 419, Sensor_Type : FRUState, ",
+            "MessageId": "0x000000",
+            "Name": "SEL 419",
+            "SensorNumber": 234,
+            "SensorType": "FRUState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/255",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 432",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "255",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 222, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : S0/G0 'Working, Record_ID : 432, Sensor_Type : System ACPI PowerState, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 432",
+            "SensorNumber": 222,
+            "SensorType": "System ACPI PowerState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/256",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 433",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "256",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 113, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Drive Presence, Record_ID : 433, Sensor_Type : Drive Slot/Bay, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 433",
+            "SensorNumber": 113,
+            "SensorType": "Drive Slot/Bay",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/257",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 434",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "257",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 114, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Drive Presence, Record_ID : 434, Sensor_Type : Drive Slot/Bay, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 434",
+            "SensorNumber": 114,
+            "SensorType": "Drive Slot/Bay",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/258",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 435",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "258",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 115, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Drive Presence, Record_ID : 435, Sensor_Type : Drive Slot/Bay, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 435",
+            "SensorNumber": 115,
+            "SensorType": "Drive Slot/Bay",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/259",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 436",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "259",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 116, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Drive Presence, Record_ID : 436, Sensor_Type : Drive Slot/Bay, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 436",
+            "SensorNumber": 116,
+            "SensorType": "Drive Slot/Bay",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/260",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 437",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "260",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 117, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Drive Presence, Record_ID : 437, Sensor_Type : Drive Slot/Bay, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 437",
+            "SensorNumber": 117,
+            "SensorType": "Drive Slot/Bay",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/261",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 438",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "261",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 118, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Drive Presence, Record_ID : 438, Sensor_Type : Drive Slot/Bay, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 438",
+            "SensorNumber": 118,
+            "SensorType": "Drive Slot/Bay",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/262",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 439",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "262",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 119, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Drive Presence, Record_ID : 439, Sensor_Type : Drive Slot/Bay, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 439",
+            "SensorNumber": 119,
+            "SensorType": "Drive Slot/Bay",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/263",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 440",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "263",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 120, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Drive Presence, Record_ID : 440, Sensor_Type : Drive Slot/Bay, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 440",
+            "SensorNumber": 120,
+            "SensorType": "Drive Slot/Bay",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/264",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 441",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "264",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 163, Record_Type : system event record, Sensor_Number : 219, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 441, Generator_ID : 0x2001, ",
+            "MessageId": "0xA3FFFF",
+            "Name": "SEL 441",
+            "SensorNumber": 219,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/265",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 442",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "265",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 165, Record_Type : system event record, Sensor_Number : 219, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 442, Generator_ID : 0x2001, ",
+            "MessageId": "0xA5FFFF",
+            "Name": "SEL 442",
+            "SensorNumber": 219,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/266",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 443",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "266",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 161, Record_Type : system event record, Sensor_Number : 197, Event_Dir : Assertion event, Event_Data_2 : 1, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 443, Generator_ID : 0x2001, ",
+            "MessageId": "0xA101FF",
+            "Name": "SEL 443",
+            "SensorNumber": 197,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/267",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 444",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "267",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 232, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Entity Present, Record_ID : 444, Sensor_Type : Entity Presence, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 444",
+            "SensorNumber": 232,
+            "SensorType": "Entity Presence",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/268",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 445",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "268",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 163, Record_Type : system event record, Sensor_Number : 203, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 445, Generator_ID : 0x2001, ",
+            "MessageId": "0xA3FFFF",
+            "Name": "SEL 445",
+            "SensorNumber": 203,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/269",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 446",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "269",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/Processors"
+                }
+            },
+            "Message": "Event_Data_1 : 7, Record_Type : system event record, Sensor_Number : 139, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Processor Presence Detected, Record_ID : 446, Sensor_Type : Processor, ",
+            "MessageId": "0x07FFFF",
+            "Name": "SEL 446",
+            "SensorNumber": 139,
+            "SensorType": "Processor",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/270",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 447",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "270",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/Processors"
+                }
+            },
+            "Message": "Event_Data_1 : 7, Record_Type : system event record, Sensor_Number : 140, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Processor Presence Detected, Record_ID : 447, Sensor_Type : Processor, ",
+            "MessageId": "0x07FFFF",
+            "Name": "SEL 447",
+            "SensorNumber": 140,
+            "SensorType": "Processor",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/271",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 448",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "271",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 243, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Entity Present, Record_ID : 448, Sensor_Type : Entity Presence, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 448",
+            "SensorNumber": 243,
+            "SensorType": "Entity Presence",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/272",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 449",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "272",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 164, Record_Type : system event record, Sensor_Number : 203, Event_Dir : Assertion event, Event_Data_2 : 87, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 81, Event_Type : OEM Specific, Record_ID : 449, Generator_ID : 0x2001, ",
+            "MessageId": "0xA45751",
+            "Name": "SEL 449",
+            "SensorNumber": 203,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/273",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 450",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "273",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 161, Record_Type : system event record, Sensor_Number : 199, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 450, Generator_ID : 0x2101, ",
+            "MessageId": "0xA1FFFF",
+            "Name": "SEL 450",
+            "SensorNumber": 199,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/274",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 451",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "274",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 163, Record_Type : system event record, Sensor_Number : 219, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 451, Generator_ID : 0x2001, ",
+            "MessageId": "0xA3FFFF",
+            "Name": "SEL 451",
+            "SensorNumber": 219,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/275",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 452",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "275",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 165, Record_Type : system event record, Sensor_Number : 219, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 452, Generator_ID : 0x2001, ",
+            "MessageId": "0xA5FFFF",
+            "Name": "SEL 452",
+            "SensorNumber": 219,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/276",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 453",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "276",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 222, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : S0/G0 'Working, Record_ID : 453, Sensor_Type : System ACPI PowerState, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 453",
+            "SensorNumber": 222,
+            "SensorType": "System ACPI PowerState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/277",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 454",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "277",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 163, Record_Type : system event record, Sensor_Number : 219, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 454, Generator_ID : 0x2001, ",
+            "MessageId": "0xA3FFFF",
+            "Name": "SEL 454",
+            "SensorNumber": 219,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/278",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 455",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "278",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 165, Record_Type : system event record, Sensor_Number : 219, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 455, Generator_ID : 0x2001, ",
+            "MessageId": "0xA5FFFF",
+            "Name": "SEL 455",
+            "SensorNumber": 219,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/279",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 456",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "279",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 163, Record_Type : system event record, Sensor_Number : 203, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 456, Generator_ID : 0x2001, ",
+            "MessageId": "0xA3FFFF",
+            "Name": "SEL 456",
+            "SensorNumber": 203,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/280",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 457",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "280",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/Processors"
+                }
+            },
+            "Message": "Event_Data_1 : 7, Record_Type : system event record, Sensor_Number : 139, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Processor Presence Detected, Record_ID : 457, Sensor_Type : Processor, ",
+            "MessageId": "0x07FFFF",
+            "Name": "SEL 457",
+            "SensorNumber": 139,
+            "SensorType": "Processor",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/281",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 458",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "281",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/Processors"
+                }
+            },
+            "Message": "Event_Data_1 : 7, Record_Type : system event record, Sensor_Number : 140, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Processor Presence Detected, Record_ID : 458, Sensor_Type : Processor, ",
+            "MessageId": "0x07FFFF",
+            "Name": "SEL 458",
+            "SensorNumber": 140,
+            "SensorType": "Processor",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/282",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:51+00:00",
+            "Description": "SEL 459",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "282",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 164, Record_Type : system event record, Sensor_Number : 203, Event_Dir : Assertion event, Event_Data_2 : 87, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 81, Event_Type : OEM Specific, Record_ID : 459, Generator_ID : 0x2001, ",
+            "MessageId": "0xA45751",
+            "Name": "SEL 459",
+            "SensorNumber": 203,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/283",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 460",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "283",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 161, Record_Type : system event record, Sensor_Number : 199, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 460, Generator_ID : 0x2101, ",
+            "MessageId": "0xA1FFFF",
+            "Name": "SEL 460",
+            "SensorNumber": 199,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/284",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 461",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "284",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 97, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 461, Sensor_Type : Module/Board, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 461",
+            "SensorNumber": 97,
+            "SensorType": "Module/Board",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/285",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 462",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "285",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 97, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 462, Sensor_Type : Module/Board, ",
+            "MessageId": "0x01FFFF",
+            "Name": "SEL 462",
+            "SensorNumber": 97,
+            "SensorType": "Module/Board",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/286",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 463",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "286",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 2, Record_Type : system event record, Sensor_Number : 97, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 463, Sensor_Type : Module/Board, ",
+            "MessageId": "0x02FFFF",
+            "Name": "SEL 463",
+            "SensorNumber": 97,
+            "SensorType": "Module/Board",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/287",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 464",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "287",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 3, Record_Type : system event record, Sensor_Number : 97, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 464, Sensor_Type : Module/Board, ",
+            "MessageId": "0x03FFFF",
+            "Name": "SEL 464",
+            "SensorNumber": 97,
+            "SensorType": "Module/Board",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/288",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 465",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "288",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 97, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 465, Sensor_Type : Module/Board, ",
+            "MessageId": "0x04FFFF",
+            "Name": "SEL 465",
+            "SensorNumber": 97,
+            "SensorType": "Module/Board",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/289",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 466",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "289",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 97, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 466, Sensor_Type : Module/Board, ",
+            "MessageId": "0x05FFFF",
+            "Name": "SEL 466",
+            "SensorNumber": 97,
+            "SensorType": "Module/Board",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/290",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 467",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "290",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 6, Record_Type : system event record, Sensor_Number : 97, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 467, Sensor_Type : Module/Board, ",
+            "MessageId": "0x06FFFF",
+            "Name": "SEL 467",
+            "SensorNumber": 97,
+            "SensorType": "Module/Board",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/291",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 468",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "291",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC"
+                }
+            },
+            "Message": "Event_Data_1 : 7, Record_Type : system event record, Sensor_Number : 97, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 468, Sensor_Type : Module/Board, ",
+            "MessageId": "0x07FFFF",
+            "Name": "SEL 468",
+            "SensorNumber": 97,
+            "SensorType": "Module/Board",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/292",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 478",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "292",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 164, Record_Type : system event record, Sensor_Number : 203, Event_Dir : Assertion event, Event_Data_2 : 87, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 81, Event_Type : OEM Specific, Record_ID : 478, Generator_ID : 0x2001, ",
+            "MessageId": "0xA45751",
+            "Name": "SEL 478",
+            "SensorNumber": 203,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/293",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 479",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "293",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 164, Record_Type : system event record, Sensor_Number : 203, Event_Dir : Assertion event, Event_Data_2 : 87, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 81, Event_Type : OEM Specific, Record_ID : 479, Generator_ID : 0x2001, ",
+            "MessageId": "0xA45751",
+            "Name": "SEL 479",
+            "SensorNumber": 203,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/294",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 494",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:38:19+00:00",
+            "Id": "294",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 160, Record_Type : system event record, Sensor_Number : 194, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-07T13:38:19+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 494, Generator_ID : 0x2001, ",
+            "MessageId": "0xA002FF",
+            "Name": "SEL 494",
+            "SensorNumber": 194,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/295",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 495",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T14:38:41+00:00",
+            "Id": "295",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 161, Record_Type : system event record, Sensor_Number : 194, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-07T14:38:41+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 495, Generator_ID : 0x2001, ",
+            "MessageId": "0xA102FF",
+            "Name": "SEL 495",
+            "SensorNumber": 194,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/296",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 496",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T16:14:49+00:00",
+            "Id": "296",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 160, Record_Type : system event record, Sensor_Number : 194, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-07T16:14:49+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 496, Generator_ID : 0x2001, ",
+            "MessageId": "0xA002FF",
+            "Name": "SEL 496",
+            "SensorNumber": 194,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/297",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 497",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T16:51:45+00:00",
+            "Id": "297",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 163, Record_Type : system event record, Sensor_Number : 219, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T16:51:45+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 497, Generator_ID : 0x2001, ",
+            "MessageId": "0xA3FFFF",
+            "Name": "SEL 497",
+            "SensorNumber": 219,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/298",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 498",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T16:51:45+00:00",
+            "Id": "298",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 165, Record_Type : system event record, Sensor_Number : 219, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T16:51:45+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 498, Generator_ID : 0x2001, ",
+            "MessageId": "0xA5FFFF",
+            "Name": "SEL 498",
+            "SensorNumber": 219,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/299",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 499",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T16:52:44+00:00",
+            "Id": "299",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 222, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T16:52:44+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : S0/G0 'Working, Record_ID : 499, Sensor_Type : System ACPI PowerState, ",
+            "MessageId": "0x00FFFF",
+            "Name": "SEL 499",
+            "SensorNumber": 222,
+            "SensorType": "System ACPI PowerState",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL/Entries/300",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:52+00:00",
+            "Description": "SEL 500",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T16:52:45+00:00",
+            "Id": "300",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/"
+                }
+            },
+            "Message": "Event_Data_1 : 165, Record_Type : system event record, Sensor_Number : 219, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T16:52:45+00:00, EvM_Rev : IPMI v2.0 Event Messages, Event_Data_3 : 255, Event_Type : OEM Specific, Record_ID : 500, Generator_ID : 0x2001, ",
+            "MessageId": "0xA5FFFF",
+            "Name": "SEL 500",
+            "SensorNumber": 219,
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 50,
+    "Name": "Log Service Entries Collection"
+}

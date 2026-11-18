@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/Sensors/SPD_FAN_4_2_R",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "SPD_FAN_4_2_R",
+    "Name": "SPD_FAN_4_2_R",
+    "PhysicalContext": "Fan",
+    "Reading": 7744,
+    "ReadingRangeMax": 22440,
+    "ReadingRangeMin": 0,
+    "ReadingType": "Rotational",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCritical": {
+            "Reading": 2200
+        }
+    }
+}

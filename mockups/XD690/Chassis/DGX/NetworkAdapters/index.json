@@ -1,0 +1,44 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkAdapterCollection.NetworkAdapterCollection",
+    "@odata.etag": "\"1792278296\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters",
+    "@odata.type": "#NetworkAdapterCollection.NetworkAdapterCollection",
+    "Description": "The Collection of Network Adapters",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/CX8_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/CX8_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/CX8_3"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/CX8_4"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/CX8_5"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/CX8_6"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/CX8_7"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/CX8_8"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/I210"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_2"
+        }
+    ],
+    "Members@odata.count": 11,
+    "Name": "NetworkAdapter Collection"
+}

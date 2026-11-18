@@ -1,0 +1,1451 @@
+{
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReports/HGX_ProcessorGPMMetrics_0",
+    "@odata.type": "#MetricReport.v1_4_2.MetricReport",
+    "Id": "HGX_ProcessorGPMMetrics_0",
+    "MetricReportDefinition": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/HGX_ProcessorGPMMetrics_0"
+    },
+    "MetricValues": [
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/DMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.790+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/FP16ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.789+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/FP32ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.789+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/FP64ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.789+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/GraphicsEngineActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.789+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/HMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.790+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/IMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.790+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/IntegerActivityUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.790+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/0",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.792+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/1",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.792+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/2",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.792+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/3",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.792+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/4",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.792+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/5",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.792+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/6",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.792+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/7",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.792+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVDecUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.790+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/0",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.794+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/1",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.794+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/2",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.794+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/3",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.794+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/4",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.794+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/5",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.794+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/6",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.794+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/7",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.794+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVJpgUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.790+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVOfaUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.790+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/PCIeRawRxBandwidthGbps",
+            "MetricValue": "0.000038",
+            "Timestamp": "2026-10-20T18:02:59.790+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/PCIeRawTxBandwidthGbps",
+            "MetricValue": "0.002007",
+            "Timestamp": "2026-10-20T18:02:59.790+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/SMActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.789+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/SMOccupancyPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.789+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/TensorCoreActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.789+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.790+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.790+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.790+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_0/ProcessorMetrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.790+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/DMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.511+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/FP16ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.510+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/FP32ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.510+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/FP64ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.510+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/GraphicsEngineActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.510+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/HMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.511+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/IMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.511+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/IntegerActivityUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.511+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/0",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.513+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/1",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.513+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/2",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.513+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/3",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.513+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/4",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.513+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/5",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.513+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/6",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.513+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/7",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.513+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVDecUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.511+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/0",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.515+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/1",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.515+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/2",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.515+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/3",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.515+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/4",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.515+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/5",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.515+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/6",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.515+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/7",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.515+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVJpgUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.511+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVOfaUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.511+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/PCIeRawRxBandwidthGbps",
+            "MetricValue": "0.000038",
+            "Timestamp": "2026-10-20T18:03:15.511+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/PCIeRawTxBandwidthGbps",
+            "MetricValue": "0.002007",
+            "Timestamp": "2026-10-20T18:03:15.510+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/SMActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.510+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/SMOccupancyPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.510+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/TensorCoreActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.510+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.511+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.511+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.511+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_1/ProcessorMetrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.511+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/DMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.834+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/FP16ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.833+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/FP32ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.833+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/FP64ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.833+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/GraphicsEngineActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.832+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/HMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.834+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/IMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.834+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/IntegerActivityUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.834+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/0",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.007+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/1",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.007+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/2",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.007+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/3",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.007+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/4",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.007+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/5",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.007+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/6",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.007+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/7",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.007+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVDecUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.833+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/0",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.012+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/1",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.012+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/2",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.012+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/3",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.012+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/4",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.012+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/5",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.012+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/6",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.012+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/7",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:16.012+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVJpgUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.833+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVOfaUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.833+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/PCIeRawRxBandwidthGbps",
+            "MetricValue": "0.000038",
+            "Timestamp": "2026-10-20T18:03:15.833+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/PCIeRawTxBandwidthGbps",
+            "MetricValue": "0.002009",
+            "Timestamp": "2026-10-20T18:03:15.833+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/SMActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.831+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/SMOccupancyPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.832+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/TensorCoreActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.832+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.833+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.833+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.832+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2/ProcessorMetrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.833+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/DMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.422+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/FP16ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.422+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/FP32ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.422+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/FP64ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.421+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/GraphicsEngineActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.421+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/HMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.422+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/IMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.423+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/IntegerActivityUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.422+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/0",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.445+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/1",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.445+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/2",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.445+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/3",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.445+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/4",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.445+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/5",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.445+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/6",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.445+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/7",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.445+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVDecUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.422+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/0",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.564+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/1",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.564+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/2",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.564+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/3",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.564+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/4",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.564+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/5",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.564+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/6",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.564+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/7",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.564+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVJpgUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.422+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVOfaUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.422+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/PCIeRawRxBandwidthGbps",
+            "MetricValue": "0.000034",
+            "Timestamp": "2026-10-20T18:03:06.422+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/PCIeRawTxBandwidthGbps",
+            "MetricValue": "0.002012",
+            "Timestamp": "2026-10-20T18:03:06.422+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/SMActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.421+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/SMOccupancyPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.421+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/TensorCoreActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.421+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.422+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.422+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.422+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/ProcessorMetrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.422+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/DMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.121+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/FP16ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.120+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/FP32ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.120+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/FP64ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.120+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/GraphicsEngineActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.119+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/HMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.121+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/IMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.121+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/IntegerActivityUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.121+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/0",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.136+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/1",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.136+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/2",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.136+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/3",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.136+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/4",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.136+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/5",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.136+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/6",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.136+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/7",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.136+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVDecUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.121+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/0",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.857+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/1",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.857+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/2",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.857+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/3",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.857+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/4",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.857+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/5",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.857+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/6",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.857+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/7",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.857+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVJpgUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.121+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVOfaUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.121+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/PCIeRawRxBandwidthGbps",
+            "MetricValue": "0.000038",
+            "Timestamp": "2026-10-20T18:03:00.120+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/PCIeRawTxBandwidthGbps",
+            "MetricValue": "0.002007",
+            "Timestamp": "2026-10-20T18:03:00.120+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/SMActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.119+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/SMOccupancyPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.119+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/TensorCoreActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.119+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.121+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.121+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.121+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_4/ProcessorMetrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.121+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/DMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.852+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/FP16ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.851+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/FP32ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.851+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/FP64ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.851+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/GraphicsEngineActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.851+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/HMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.852+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/IMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.852+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/IntegerActivityUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.852+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/0",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.860+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/1",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.860+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/2",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.860+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/3",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.860+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/4",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.860+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/5",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.860+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/6",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.860+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/7",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.860+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVDecUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.852+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/0",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.863+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/1",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.863+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/2",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.863+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/3",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.863+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/4",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.863+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/5",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.863+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/6",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.863+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/7",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.863+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVJpgUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.852+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVOfaUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.852+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/PCIeRawRxBandwidthGbps",
+            "MetricValue": "0.000038",
+            "Timestamp": "2026-10-20T18:03:15.852+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/PCIeRawTxBandwidthGbps",
+            "MetricValue": "0.002009",
+            "Timestamp": "2026-10-20T18:03:15.850+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/SMActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.851+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/SMOccupancyPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.851+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/TensorCoreActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.851+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.852+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.852+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.852+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_5/ProcessorMetrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:15.852+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/DMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.346+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/FP16ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.345+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/FP32ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.345+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/FP64ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.345+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/GraphicsEngineActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.344+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/HMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.346+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/IMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.346+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/IntegerActivityUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.346+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/0",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.349+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/1",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.349+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/2",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.349+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/3",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.349+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/4",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.349+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/5",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.349+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/6",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.349+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/7",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.349+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVDecUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.346+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/0",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.352+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/1",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.352+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/2",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.352+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/3",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.352+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/4",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.352+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/5",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.352+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/6",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.352+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/7",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.352+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVJpgUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.346+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVOfaUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.346+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/PCIeRawRxBandwidthGbps",
+            "MetricValue": "0.000038",
+            "Timestamp": "2026-10-20T18:02:53.345+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/PCIeRawTxBandwidthGbps",
+            "MetricValue": "0.002012",
+            "Timestamp": "2026-10-20T18:02:53.345+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/SMActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.345+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/SMOccupancyPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.345+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/TensorCoreActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.345+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.345+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.345+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.345+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_6/ProcessorMetrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.345+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/DMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.041+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/FP16ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.038+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/FP32ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.038+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/FP64ActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.038+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/GraphicsEngineActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.037+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/HMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.041+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/IMMAUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.041+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/IntegerActivityUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.041+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/0",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/1",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/2",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/3",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/4",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/5",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/6",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVDecInstanceUtilizationPercent/7",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.054+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVDecUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.040+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/0",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.082+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/1",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.082+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/2",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.082+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/3",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.082+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/4",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.082+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/5",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.082+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/6",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.082+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVJpgInstanceUtilizationPercent/7",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:23.082+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVJpgUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.040+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVOfaUtilizationPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.040+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/PCIeRawRxBandwidthGbps",
+            "MetricValue": "0.000038",
+            "Timestamp": "2026-10-20T18:03:22.040+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/PCIeRawTxBandwidthGbps",
+            "MetricValue": "0.002007",
+            "Timestamp": "2026-10-20T18:03:22.040+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/SMActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.037+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/SMOccupancyPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.037+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/TensorCoreActivityPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.037+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVLinkDataRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.040+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVLinkDataTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.040+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVLinkRawRxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.040+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/ProcessorMetrics#/Oem/Nvidia/NVLinkRawTxBandwidthGbps",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:22.040+00:00"
+        }
+    ],
+    "Name": "HGX_ProcessorGPMMetrics_0"
+}

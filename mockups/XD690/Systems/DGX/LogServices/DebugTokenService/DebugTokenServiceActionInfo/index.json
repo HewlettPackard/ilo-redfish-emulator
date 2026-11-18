@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ActionInfo.ActionInfo",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/LogServices/DebugTokenService/DebugTokenServiceActionInfo",
+    "@odata.type": "#ActionInfo.v1_1_2.ActionInfo",
+    "Description": "This Actioninfo is used for DebugTokenService Action",
+    "Id": "DebugTokenService ActionInfo",
+    "Name": "DebugTokenService ActionInfo",
+    "Parameters": [
+        {
+            "AllowableValues": [
+                "OEM"
+            ],
+            "DataType": "String",
+            "Name": "DiagnosticDataType",
+            "Required": true
+        },
+        {
+            "AllowableValues": [
+                "GetDebugTokenRequest",
+                "QueryDebugToken",
+                "EraseDebugToken"
+            ],
+            "DataType": "String",
+            "Name": "OEMDiagnosticDataType",
+            "Required": true
+        }
+    ]
+}

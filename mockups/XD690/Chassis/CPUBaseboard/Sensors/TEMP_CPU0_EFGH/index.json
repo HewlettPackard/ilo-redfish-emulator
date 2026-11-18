@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/CPUBaseboard/Sensors/TEMP_CPU0_EFGH",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "TEMP_CPU0_EFGH",
+    "Name": "TEMP_CPU0_EFGH",
+    "PhysicalContext": "Intake",
+    "Reading": 34,
+    "ReadingType": "Temperature",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {
+            "Reading": 85
+        },
+        "UpperCritical": {
+            "Reading": 88
+        },
+        "UpperFatal": {
+            "Reading": 90
+        }
+    }
+}

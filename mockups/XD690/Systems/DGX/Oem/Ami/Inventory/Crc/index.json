@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/Oem/Ami/Inventory/Crc",
+    "@odata.type": "#InventoryCRC.v1_0_0.InventoryCRC",
+    "GroupCrcList": [
+        {
+            "PCIE": 4190764840
+        },
+        {
+            "CERTIFICATE": 3608305847
+        },
+        {
+            "CPU": 865174870
+        },
+        {
+            "DIMM": 3906395537
+        },
+        {
+            "SECUREBOOT": 4265448904
+        }
+    ],
+    "Id": "InventoryCRC",
+    "Name": "Inventory CRC"
+}

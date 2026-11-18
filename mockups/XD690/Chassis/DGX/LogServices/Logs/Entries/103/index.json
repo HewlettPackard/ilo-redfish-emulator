@@ -1,0 +1,23 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/103",
+    "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+    "Created": "2000-01-01T00:00:50+00:00",
+    "Description": "LOG 475",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "EventTimestamp": "2026-10-07T13:36:21+00:00",
+    "Id": "103",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+        }
+    },
+    "Message": "Event_Data_1 : 6, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 475, Sensor_Type : Temperature, ",
+    "MessageId": "0x06FFFF",
+    "Name": "LOG 475",
+    "SensorNumber": 96,
+    "SensorType": "Temperature",
+    "Severity": "Critical"
+}

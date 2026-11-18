@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_GPU_SXM_2/Sensors/HGX_GPU_SXM_2_TEMP_0",
+    "@odata.type": "#Sensor.v1_7_0.Sensor",
+    "Description": "TMP451 ambient sensor temperature 1",
+    "Id": "HGX_GPU_SXM_2_TEMP_0",
+    "Name": "HGX GPU SXM 2 TEMP 0",
+    "PhysicalContext": "Board",
+    "Reading": 37,
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/HGX_GPU_SXM_2"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "@Redfish.Settings": {
+        "@odata.type": "#Settings.v1_3_3.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/PCIe_0/Settings"
+        }
+    },
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/PCIe_0",
+    "@odata.type": "#Port.v1_4_0.Port",
+    "ActiveWidth": 16,
+    "CurrentSpeedGbps": 64,
+    "Id": "PCIe_0",
+    "MaxSpeedGbps": 64,
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_3/Ports/PCIe_0/Metrics"
+    },
+    "Name": "PCIe_0 Resource",
+    "PortProtocol": "PCIe",
+    "PortType": "UpstreamPort",
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Width": 16
+}

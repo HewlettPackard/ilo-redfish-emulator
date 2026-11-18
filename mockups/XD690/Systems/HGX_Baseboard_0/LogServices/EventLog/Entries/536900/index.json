@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/536900",
+    "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+    "Created": "2026-10-16T07:07:50+00:00",
+    "EntryType": "Event",
+    "Id": "536900",
+    "Message": "The resource property ERoT SPI has detected errors of type 'HeartBeat failed'.",
+    "MessageArgs": [
+        "ERoT SPI",
+        "HeartBeat failed"
+    ],
+    "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+    "Name": "System Event Log Entry",
+    "Resolution": "Reset the baseboard",
+    "Resolved": false,
+    "Severity": "Critical"
+}

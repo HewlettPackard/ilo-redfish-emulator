@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkInterface.NetworkInterface",
+    "@odata.etag": "\"1792167379\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces/I210",
+    "@odata.type": "#NetworkInterface.v1_1_3.NetworkInterface",
+    "Description": "NetworkInterface instance",
+    "Id": "I210",
+    "Links": {
+        "NetworkAdapter": {
+            "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/I210"
+        }
+    },
+    "Name": "I210",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Systems/DGX/NetworkInterfaces/I210/NetworkDeviceFunctions"
+    },
+    "NetworkPorts": {
+        "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/I210/NetworkPorts"
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,379 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "\"1792162915\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/1",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-14T09:03:12+00:00",
+            "Description": "The resource at /redfish/v1/SessionService/Sessions/69ed4873cbf12b7e4ba858f2dc33fe55 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "1",
+            "EventTimestamp": "2026-10-14T09:03:12+00:00",
+            "Id": "1",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/69ed4873cbf12b7e4ba858f2dc33fe55"
+                }
+            },
+            "Message": "The resource at /redfish/v1/SessionService/Sessions/69ed4873cbf12b7e4ba858f2dc33fe55 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/SessionService/Sessions/69ed4873cbf12b7e4ba858f2dc33fe55"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 1",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/2",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-14T09:04:43+00:00",
+            "Description": "The resource at /redfish/v1/SessionService/Sessions/749505eb922441130e8b4432b56b24d8 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "2",
+            "EventTimestamp": "2026-10-14T09:04:43+00:00",
+            "Id": "2",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/749505eb922441130e8b4432b56b24d8"
+                }
+            },
+            "Message": "The resource at /redfish/v1/SessionService/Sessions/749505eb922441130e8b4432b56b24d8 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/SessionService/Sessions/749505eb922441130e8b4432b56b24d8"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 2",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/3",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-15T20:56:31+00:00",
+            "Description": "The resource at /redfish/v1/SessionService/Sessions/42e58902a1609e206e4fe0cc9d9c2b1a was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "3",
+            "EventTimestamp": "2026-10-15T20:56:31+00:00",
+            "Id": "3",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/42e58902a1609e206e4fe0cc9d9c2b1a"
+                }
+            },
+            "Message": "The resource at /redfish/v1/SessionService/Sessions/42e58902a1609e206e4fe0cc9d9c2b1a was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/SessionService/Sessions/42e58902a1609e206e4fe0cc9d9c2b1a"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 3",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/4",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-15T20:59:36+00:00",
+            "Description": "The resource at /redfish/v1/SessionService/Sessions/c058716a231b77dfcf6885309d7956c0 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "4",
+            "EventTimestamp": "2026-10-15T20:59:36+00:00",
+            "Id": "4",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/c058716a231b77dfcf6885309d7956c0"
+                }
+            },
+            "Message": "The resource at /redfish/v1/SessionService/Sessions/c058716a231b77dfcf6885309d7956c0 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/SessionService/Sessions/c058716a231b77dfcf6885309d7956c0"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 4",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/5",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-15T21:03:04+00:00",
+            "Description": "The resource at /redfish/v1/SessionService/Sessions/8bd6841a95e4fb8d79896707fb2d8cec was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "5",
+            "EventTimestamp": "2026-10-15T21:03:04+00:00",
+            "Id": "5",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/8bd6841a95e4fb8d79896707fb2d8cec"
+                }
+            },
+            "Message": "The resource at /redfish/v1/SessionService/Sessions/8bd6841a95e4fb8d79896707fb2d8cec was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/SessionService/Sessions/8bd6841a95e4fb8d79896707fb2d8cec"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 5",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/6",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-15T21:11:45+00:00",
+            "Description": "The resource at /redfish/v1/SessionService/Sessions/a2804dd61e77c04441bc14b461ae26f5 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "6",
+            "EventTimestamp": "2026-10-15T21:11:45+00:00",
+            "Id": "6",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/a2804dd61e77c04441bc14b461ae26f5"
+                }
+            },
+            "Message": "The resource at /redfish/v1/SessionService/Sessions/a2804dd61e77c04441bc14b461ae26f5 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/SessionService/Sessions/a2804dd61e77c04441bc14b461ae26f5"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 6",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/7",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-15T21:13:14+00:00",
+            "Description": "The resource at /redfish/v1/SessionService/Sessions/359d289aa51dc461f5f46ea17ae0f311 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "7",
+            "EventTimestamp": "2026-10-15T21:13:14+00:00",
+            "Id": "7",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/359d289aa51dc461f5f46ea17ae0f311"
+                }
+            },
+            "Message": "The resource at /redfish/v1/SessionService/Sessions/359d289aa51dc461f5f46ea17ae0f311 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/SessionService/Sessions/359d289aa51dc461f5f46ea17ae0f311"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 7",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/8",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T09:45:57+00:00",
+            "Description": "The resource at /redfish/v1/SessionService/Sessions/a4df0eb0f65cbe32ec0ef2c629724bb9 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "8",
+            "EventTimestamp": "2026-10-16T09:45:57+00:00",
+            "Id": "8",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/a4df0eb0f65cbe32ec0ef2c629724bb9"
+                }
+            },
+            "Message": "The resource at /redfish/v1/SessionService/Sessions/a4df0eb0f65cbe32ec0ef2c629724bb9 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/SessionService/Sessions/a4df0eb0f65cbe32ec0ef2c629724bb9"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 8",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/9",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T06:44:27-04:00",
+            "Description": "The resource at /redfish/v1/SessionService/Sessions/bf9edff16af2ac951d9c16f1105c982f was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "9",
+            "EventTimestamp": "2026-10-16T06:44:27-04:00",
+            "Id": "9",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/bf9edff16af2ac951d9c16f1105c982f"
+                }
+            },
+            "Message": "The resource at /redfish/v1/SessionService/Sessions/bf9edff16af2ac951d9c16f1105c982f was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/SessionService/Sessions/bf9edff16af2ac951d9c16f1105c982f"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 9",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/10",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T06:45:08-04:00",
+            "Description": "The resource at /redfish/v1/SessionService/Sessions/23630927fbf4d11975a0acfbdd043f47 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "10",
+            "EventTimestamp": "2026-10-16T06:45:08-04:00",
+            "Id": "10",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/23630927fbf4d11975a0acfbdd043f47"
+                }
+            },
+            "Message": "The resource at /redfish/v1/SessionService/Sessions/23630927fbf4d11975a0acfbdd043f47 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/SessionService/Sessions/23630927fbf4d11975a0acfbdd043f47"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 10",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/11",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T06:45:59-04:00",
+            "Description": "The resource at /redfish/v1/SessionService/Sessions/bdddadeb6fe68f1b182c76dcaa3f8434 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "11",
+            "EventTimestamp": "2026-10-16T06:45:59-04:00",
+            "Id": "11",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/bdddadeb6fe68f1b182c76dcaa3f8434"
+                }
+            },
+            "Message": "The resource at /redfish/v1/SessionService/Sessions/bdddadeb6fe68f1b182c76dcaa3f8434 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/SessionService/Sessions/bdddadeb6fe68f1b182c76dcaa3f8434"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 11",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/12",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T06:54:28-04:00",
+            "Description": "The resource at /redfish/v1/SessionService/Sessions/937f7d2f6499efea0dd3a8ba30007f87 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "12",
+            "EventTimestamp": "2026-10-16T06:54:28-04:00",
+            "Id": "12",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/937f7d2f6499efea0dd3a8ba30007f87"
+                }
+            },
+            "Message": "The resource at /redfish/v1/SessionService/Sessions/937f7d2f6499efea0dd3a8ba30007f87 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/SessionService/Sessions/937f7d2f6499efea0dd3a8ba30007f87"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 12",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/13",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T06:59:00-04:00",
+            "Description": "The resource at /redfish/v1/SessionService/Sessions/4846e5dd07d1e938495d9b39069b3405 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "13",
+            "EventTimestamp": "2026-10-16T06:59:00-04:00",
+            "Id": "13",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/4846e5dd07d1e938495d9b39069b3405"
+                }
+            },
+            "Message": "The resource at /redfish/v1/SessionService/Sessions/4846e5dd07d1e938495d9b39069b3405 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/SessionService/Sessions/4846e5dd07d1e938495d9b39069b3405"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 13",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/14",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T07:00:55-04:00",
+            "Description": "The resource at /redfish/v1/SessionService/Sessions/1998c9bea018ab007460b598e522eaa5 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "14",
+            "EventTimestamp": "2026-10-16T07:00:55-04:00",
+            "Id": "14",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/1998c9bea018ab007460b598e522eaa5"
+                }
+            },
+            "Message": "The resource at /redfish/v1/SessionService/Sessions/1998c9bea018ab007460b598e522eaa5 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/SessionService/Sessions/1998c9bea018ab007460b598e522eaa5"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 14",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/15",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T07:01:33-04:00",
+            "Description": "The resource at /redfish/v1/SessionService/Sessions/492cf8b899dc703120ce1ea72e2a1e03 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "15",
+            "EventTimestamp": "2026-10-16T07:01:34-04:00",
+            "Id": "15",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/492cf8b899dc703120ce1ea72e2a1e03"
+                }
+            },
+            "Message": "The resource at /redfish/v1/SessionService/Sessions/492cf8b899dc703120ce1ea72e2a1e03 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/SessionService/Sessions/492cf8b899dc703120ce1ea72e2a1e03"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 15",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/EventLog/Entries/16",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T11:01:55-04:00",
+            "Description": "The resource at /redfish/v1/SessionService/Sessions/584d40acf45d1cdcc7d372b0ea891672 was successfully removed.",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventId": "16",
+            "EventTimestamp": "2026-10-16T11:01:55-04:00",
+            "Id": "16",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/SessionService/Sessions/584d40acf45d1cdcc7d372b0ea891672"
+                }
+            },
+            "Message": "The resource at /redfish/v1/SessionService/Sessions/584d40acf45d1cdcc7d372b0ea891672 was successfully removed.",
+            "MessageArgs": [
+                "/redfish/v1/SessionService/Sessions/584d40acf45d1cdcc7d372b0ea891672"
+            ],
+            "MessageId": "EventLog.1.0.ResourceRemoved",
+            "Name": "Log entry 16",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 16,
+    "Name": "Log Service Entries Collection"
+}

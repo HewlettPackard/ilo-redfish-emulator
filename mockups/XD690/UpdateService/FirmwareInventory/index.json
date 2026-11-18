@@ -1,0 +1,570 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventoryCollection.SoftwareInventoryCollection",
+    "@odata.etag": "\"1792524207\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory",
+    "@odata.type": "#SoftwareInventoryCollection.SoftwareInventoryCollection",
+    "Description": "Collection of Firmware Inventory resources available to the UpdateService",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BIOS"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/BMC"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/CPLDBACK_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/CPLDDCSM_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/CPLDE1SBP_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/CPLDMB_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/EROT_BIOS_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/EROT_BMC_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_BMC_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_3"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_4"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_5"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_6"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_7"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_SMA_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_SMA_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_SMA_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_SMA_3"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ERoT_BMC_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ERoT_FPGA_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ERoT_NVLinkManagementNIC_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ERoT_NVSwitch_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ERoT_NVSwitch_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_FPGA_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_GPU_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_GPU_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_GPU_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_GPU_3"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_GPU_4"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_GPU_5"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_GPU_6"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_GPU_7"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_NVLinkManagementNIC_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_NVSwitch_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_NVSwitch_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_SXM_SMA_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_SXM_SMA_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_SXM_SMA_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_SXM_SMA_3"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_SXM_SMA_4"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_SXM_SMA_5"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_SXM_SMA_6"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_SXM_SMA_7"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_InfoROM_GPU_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_InfoROM_GPU_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_InfoROM_GPU_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_InfoROM_GPU_3"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_InfoROM_GPU_4"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_InfoROM_GPU_5"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_InfoROM_GPU_6"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/HGX_InfoROM_GPU_7"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/IOBAY_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/IOBAY_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PCIeSwitch_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PCIeSwitch_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PSU_0"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PSU_10"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PSU_11"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PSU_1"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PSU_2"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PSU_3"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PSU_4"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PSU_6"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PSU_7"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PSU_8"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/PSU_9"
+        }
+    ],
+    "Members@odata.count": 69,
+    "Name": "Firmware Inventory Collection",
+    "Oem": {
+        "Ami": {
+            "@odata.type": "#AMIFirmwareInventoryCollection.v1_0_0.AMIFirmwareInventoryCollection",
+            "FirmwareInventory": [
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/BIOS",
+                    "Name": "BIOS",
+                    "Version": "3.1.14"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/BMC",
+                    "Name": "BMC",
+                    "Version": "02.43.00"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/CPLDBACK_0",
+                    "Name": "CPLDBACK_0",
+                    "Version": "0.1.0.8"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/CPLDDCSM_0",
+                    "Name": "CPLDDCSM_0",
+                    "Version": "0.1.1.4"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/CPLDE1SBP_0",
+                    "Name": "CPLDE1SBP_0",
+                    "Version": "0.1.0.7"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/CPLDMB_0",
+                    "Name": "CPLDMB_0",
+                    "Version": "0.1.3.1"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/EROT_BIOS_0",
+                    "Name": "EROT_BIOS_0",
+                    "Version": "3.2.17"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/EROT_BMC_0",
+                    "Name": "EROT_BMC_0",
+                    "Version": "3.2.17"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_BMC_0",
+                    "Name": "HGX_FW_BMC_0",
+                    "Version": "B3-2602-05.0"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_0",
+                    "Name": "HGX_FW_ConnectX_0",
+                    "Version": "40.48.1132"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_1",
+                    "Name": "HGX_FW_ConnectX_1",
+                    "Version": "40.48.1132"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_2",
+                    "Name": "HGX_FW_ConnectX_2",
+                    "Version": "40.48.1132"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_3",
+                    "Name": "HGX_FW_ConnectX_3",
+                    "Version": "40.48.1132"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_4",
+                    "Name": "HGX_FW_ConnectX_4",
+                    "Version": "40.48.1132"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_5",
+                    "Name": "HGX_FW_ConnectX_5",
+                    "Version": "40.48.1132"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_6",
+                    "Name": "HGX_FW_ConnectX_6",
+                    "Version": "40.48.1132"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_7",
+                    "Name": "HGX_FW_ConnectX_7",
+                    "Version": "40.48.1132"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_SMA_0",
+                    "Name": "HGX_FW_ConnectX_SMA_0",
+                    "Version": "0011.00.0281.0000"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_SMA_1",
+                    "Name": "HGX_FW_ConnectX_SMA_1",
+                    "Version": "0011.00.0281.0000"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_SMA_2",
+                    "Name": "HGX_FW_ConnectX_SMA_2",
+                    "Version": "0011.00.0281.0000"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ConnectX_SMA_3",
+                    "Name": "HGX_FW_ConnectX_SMA_3",
+                    "Version": "0011.00.0281.0000"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ERoT_BMC_0",
+                    "Name": "HGX_FW_ERoT_BMC_0",
+                    "Version": "01.04.0055.0000_n04"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ERoT_FPGA_0",
+                    "Name": "HGX_FW_ERoT_FPGA_0",
+                    "Version": "01.04.0055.0000_n04"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ERoT_NVLinkManagementNIC_0",
+                    "Name": "HGX_FW_ERoT_NVLinkManagementNIC_0",
+                    "Version": "01.04.0055.0000_n04"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ERoT_NVSwitch_0",
+                    "Name": "HGX_FW_ERoT_NVSwitch_0",
+                    "Version": "01.04.0055.0000_n04"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_ERoT_NVSwitch_1",
+                    "Name": "HGX_FW_ERoT_NVSwitch_1",
+                    "Version": "01.04.0055.0000_n04"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_FPGA_0",
+                    "Name": "HGX_FW_FPGA_0",
+                    "Version": "1.54"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_GPU_0",
+                    "Name": "HGX_FW_GPU_0",
+                    "Version": "97.10.7E.00.03"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_GPU_1",
+                    "Name": "HGX_FW_GPU_1",
+                    "Version": "97.10.7E.00.03"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_GPU_2",
+                    "Name": "HGX_FW_GPU_2",
+                    "Version": "97.10.7E.00.03"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_GPU_3",
+                    "Name": "HGX_FW_GPU_3",
+                    "Version": "97.10.7E.00.03"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_GPU_4",
+                    "Name": "HGX_FW_GPU_4",
+                    "Version": "97.10.7E.00.03"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_GPU_5",
+                    "Name": "HGX_FW_GPU_5",
+                    "Version": "97.10.7E.00.03"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_GPU_6",
+                    "Name": "HGX_FW_GPU_6",
+                    "Version": "97.10.7E.00.03"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_GPU_7",
+                    "Name": "HGX_FW_GPU_7",
+                    "Version": "97.10.7E.00.03"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_NVLinkManagementNIC_0",
+                    "Name": "HGX_FW_NVLinkManagementNIC_0",
+                    "Version": "28.48.1132"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_NVSwitch_0",
+                    "Name": "HGX_FW_NVSwitch_0",
+                    "Version": "35_2014_5112"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_NVSwitch_1",
+                    "Name": "HGX_FW_NVSwitch_1",
+                    "Version": "35_2014_5112"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_SXM_SMA_0",
+                    "Name": "HGX_FW_SXM_SMA_0",
+                    "Version": "0004.00.0272.0000"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_SXM_SMA_1",
+                    "Name": "HGX_FW_SXM_SMA_1",
+                    "Version": "0004.00.0272.0000"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_SXM_SMA_2",
+                    "Name": "HGX_FW_SXM_SMA_2",
+                    "Version": "0004.00.0272.0000"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_SXM_SMA_3",
+                    "Name": "HGX_FW_SXM_SMA_3",
+                    "Version": "0004.00.0272.0000"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_SXM_SMA_4",
+                    "Name": "HGX_FW_SXM_SMA_4",
+                    "Version": "0004.00.0272.0000"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_SXM_SMA_5",
+                    "Name": "HGX_FW_SXM_SMA_5",
+                    "Version": "0004.00.0272.0000"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_SXM_SMA_6",
+                    "Name": "HGX_FW_SXM_SMA_6",
+                    "Version": "0004.00.0272.0000"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_FW_SXM_SMA_7",
+                    "Name": "HGX_FW_SXM_SMA_7",
+                    "Version": "0004.00.0272.0000"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_InfoROM_GPU_0",
+                    "Name": "HGX_InfoROM_GPU_0",
+                    "Version": "G540.0216.00.03"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_InfoROM_GPU_1",
+                    "Name": "HGX_InfoROM_GPU_1",
+                    "Version": "G540.0216.00.03"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_InfoROM_GPU_2",
+                    "Name": "HGX_InfoROM_GPU_2",
+                    "Version": "G540.0216.00.03"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_InfoROM_GPU_3",
+                    "Name": "HGX_InfoROM_GPU_3",
+                    "Version": "G540.0216.00.03"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_InfoROM_GPU_4",
+                    "Name": "HGX_InfoROM_GPU_4",
+                    "Version": "G540.0216.00.03"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_InfoROM_GPU_5",
+                    "Name": "HGX_InfoROM_GPU_5",
+                    "Version": "G540.0216.00.03"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_InfoROM_GPU_6",
+                    "Name": "HGX_InfoROM_GPU_6",
+                    "Version": "G540.0216.00.03"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/HGX_InfoROM_GPU_7",
+                    "Name": "HGX_InfoROM_GPU_7",
+                    "Version": "G540.0216.00.03"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/IOBAY_1",
+                    "Name": "IOBAY_1",
+                    "Version": "32.43.2402"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/IOBAY_2",
+                    "Name": "IOBAY_2",
+                    "Version": "4.91 (0x800214AF)"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/PCIeSwitch_0",
+                    "Name": "PCIeSwitch_0",
+                    "Version": "0.0.8"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/PCIeSwitch_1",
+                    "Name": "PCIeSwitch_1",
+                    "Version": "1.0.8"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/PSU_0",
+                    "Name": "PSU_0",
+                    "Version": "0105.0105"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/PSU_10",
+                    "Name": "PSU_10",
+                    "Version": "0105.0105"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/PSU_11",
+                    "Name": "PSU_11",
+                    "Version": "0105.0105"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/PSU_1",
+                    "Name": "PSU_1",
+                    "Version": "0105.0105"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/PSU_2",
+                    "Name": "PSU_2",
+                    "Version": "0105.0105"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/PSU_3",
+                    "Name": "PSU_3",
+                    "Version": "0105.0105"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/PSU_4",
+                    "Name": "PSU_4",
+                    "Version": "0105.0105"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/PSU_6",
+                    "Name": "PSU_6",
+                    "Version": "0105.0105"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/PSU_7",
+                    "Name": "PSU_7",
+                    "Version": "0105.0105"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/PSU_8",
+                    "Name": "PSU_8",
+                    "Version": "0105.0105"
+                },
+                {
+                    "DataSourceUri": "/redfish/v1/UpdateService/FirmwareInventory/PSU_9",
+                    "Name": "PSU_9",
+                    "Version": "0105.0105"
+                }
+            ]
+        }
+    }
+}

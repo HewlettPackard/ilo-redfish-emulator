@@ -1,0 +1,41 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports/NVLink_67",
+    "@odata.type": "#Port.v1_4_0.Port",
+    "CurrentSpeedGbps": 400,
+    "Id": "NVLink_67",
+    "LinkState": "Enabled",
+    "LinkStatus": "LinkUp",
+    "Links": {
+        "AssociatedEndpoints": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Endpoints/GPU_7"
+            }
+        ],
+        "ConnectedPorts": [
+            {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_7/Ports/NVLink_14"
+            }
+        ]
+    },
+    "MaxSpeedGbps": 400,
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports/NVLink_67/Metrics"
+    },
+    "Name": "NVLink_67 Resource",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaPort.v1_2_0.NvidiaNVLinkPort",
+            "Histograms": {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports/NVLink_67/Oem/Nvidia/Histograms"
+            }
+        }
+    },
+    "PortProtocol": "NVLink",
+    "PortType": "BidirectionalPort",
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+    "@odata.etag": "\"1792167376\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/IO_BAY_2/PCIeFunctions/DevIndex3C",
+    "@odata.type": "#PCIeFunction.v1_2_3.PCIeFunction",
+    "ClassCode": "0x020000",
+    "DeviceClass": "NetworkController",
+    "DeviceId": "0x1592",
+    "FunctionId": 1,
+    "FunctionType": "Physical",
+    "Id": "DevIndex3C",
+    "Links": {
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/IO_BAY_2"
+        }
+    },
+    "Name": "PCIeFunction_3C",
+    "RevisionId": "0x02",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "SubsystemId": "0x0002",
+    "SubsystemVendorId": "0x8086",
+    "VendorId": "0x8086"
+}

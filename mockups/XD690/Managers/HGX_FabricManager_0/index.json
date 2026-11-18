@@ -1,0 +1,33 @@
+{
+    "@odata.id": "/redfish/v1/Managers/HGX_FabricManager_0",
+    "@odata.type": "#Manager.v1_13_0.Manager",
+    "Description": "NVIDIA Fabric Manager (FM) state information reported by a software-based service managing the NVLink fabric",
+    "Id": "HGX_FabricManager_0",
+    "LastResetTime": "1970-01-01T00:00:00+00:00",
+    "Links": {
+        "ManagerForSwitches": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_0"
+            },
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1"
+            }
+        ]
+    },
+    "ManagerType": "Service",
+    "Name": "HGX_FabricManager_0",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaManager.v1_4_0.NvidiaFabricManager",
+            "DurationSinceLastRestartSeconds": 0,
+            "FabricManagerState": "Unknown",
+            "ReportStatus": "Unknown"
+        }
+    },
+    "Status": {
+        "Conditions": [],
+        "Health": "Critical",
+        "HealthRollup": "OK",
+        "State": "StandbyOffline"
+    }
+}

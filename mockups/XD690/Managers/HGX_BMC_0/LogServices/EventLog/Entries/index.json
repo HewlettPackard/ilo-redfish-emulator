@@ -1,0 +1,862 @@
+{
+    "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of System Event Log Entries",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536861",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:55+00:00",
+            "EntryType": "Event",
+            "Id": "536861",
+            "Message": "The resource property NVLinkManagementNIC_0 NVLinkManagement_0 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVLinkManagementNIC_0 NVLinkManagement_0",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536862",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:55+00:00",
+            "EntryType": "Event",
+            "Id": "536862",
+            "Message": "The resource property NVSwitch_1 NVLink_48 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_48",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536863",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:55+00:00",
+            "EntryType": "Event",
+            "Id": "536863",
+            "Message": "The resource property NVLinkManagementNIC_0 NVLinkManagement_1 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVLinkManagementNIC_0 NVLinkManagement_1",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536864",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:55+00:00",
+            "EntryType": "Event",
+            "Id": "536864",
+            "Message": "The resource property NVSwitch_1 NVLink_49 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_49",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536865",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:55+00:00",
+            "EntryType": "Event",
+            "Id": "536865",
+            "Message": "The resource property NVSwitch_1 NVLink_50 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_50",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536866",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:56+00:00",
+            "EntryType": "Event",
+            "Id": "536866",
+            "Message": "The resource property NVSwitch_1 NVLink_51 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_51",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536867",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:56+00:00",
+            "EntryType": "Event",
+            "Id": "536867",
+            "Message": "The resource property NVSwitch_1 NVLink_52 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_52",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536868",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:56+00:00",
+            "EntryType": "Event",
+            "Id": "536868",
+            "Message": "The resource property NVSwitch_1 NVLink_53 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_53",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536869",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:56+00:00",
+            "EntryType": "Event",
+            "Id": "536869",
+            "Message": "The resource property NVSwitch_1 NVLink_54 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_54",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536870",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:57+00:00",
+            "EntryType": "Event",
+            "Id": "536870",
+            "Message": "The resource property NVSwitch_1 NVLink_55 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_55",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536871",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:57+00:00",
+            "EntryType": "Event",
+            "Id": "536871",
+            "Message": "The resource property NVSwitch_1 NVLink_56 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_56",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536872",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:57+00:00",
+            "EntryType": "Event",
+            "Id": "536872",
+            "Message": "The resource property NVSwitch_1 NVLink_57 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_57",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536873",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:57+00:00",
+            "EntryType": "Event",
+            "Id": "536873",
+            "Message": "The resource property NVSwitch_1 NVLink_58 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_58",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536874",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:57+00:00",
+            "EntryType": "Event",
+            "Id": "536874",
+            "Message": "The resource property NVSwitch_1 NVLink_59 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_59",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536875",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:57+00:00",
+            "EntryType": "Event",
+            "Id": "536875",
+            "Message": "The resource property NVSwitch_1 NVLink_60 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_60",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536876",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:58+00:00",
+            "EntryType": "Event",
+            "Id": "536876",
+            "Message": "The resource property NVSwitch_1 NVLink_61 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_61",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536877",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:58+00:00",
+            "EntryType": "Event",
+            "Id": "536877",
+            "Message": "The resource property NVSwitch_1 NVLink_62 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_62",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536878",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:58+00:00",
+            "EntryType": "Event",
+            "Id": "536878",
+            "Message": "The resource property NVSwitch_1 NVLink_63 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_63",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536879",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:58+00:00",
+            "EntryType": "Event",
+            "Id": "536879",
+            "Message": "The resource property NVSwitch_1 NVLink_64 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_64",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536880",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:59+00:00",
+            "EntryType": "Event",
+            "Id": "536880",
+            "Message": "The resource property NVSwitch_1 NVLink_65 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_65",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536881",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:59+00:00",
+            "EntryType": "Event",
+            "Id": "536881",
+            "Message": "The resource property NVSwitch_1 NVLink_66 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_66",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536882",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:59+00:00",
+            "EntryType": "Event",
+            "Id": "536882",
+            "Message": "The resource property NVSwitch_1 NVLink_67 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_67",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536883",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:26:59+00:00",
+            "EntryType": "Event",
+            "Id": "536883",
+            "Message": "The resource property NVSwitch_1 NVLink_68 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_68",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536884",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:27:00+00:00",
+            "EntryType": "Event",
+            "Id": "536884",
+            "Message": "The resource property NVSwitch_1 NVLink_69 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_69",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536885",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:27:00+00:00",
+            "EntryType": "Event",
+            "Id": "536885",
+            "Message": "The resource property NVSwitch_1 NVLink_70 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_70",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536886",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:27:00+00:00",
+            "EntryType": "Event",
+            "Id": "536886",
+            "Message": "The resource property NVSwitch_1 NVLink_71 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLink_71",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536887",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:27:00+00:00",
+            "EntryType": "Event",
+            "Id": "536887",
+            "Message": "The resource property NVSwitch_1 NVLinkManagement_0 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVLinkManagement_0",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536888",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T17:27:01+00:00",
+            "EntryType": "Event",
+            "Id": "536888",
+            "Message": "The resource property NVSwitch_1 InterswitchPort_0 has corrected errors of type 'LinkUp'.",
+            "MessageArgs": [
+                "NVSwitch_1 InterswitchPort_0",
+                "LinkUp"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsCorrected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536889",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T23:53:49+00:00",
+            "EntryType": "Event",
+            "Id": "536889",
+            "Message": "ProcessMemory_fdr sensor crossed a warning high threshold going high. Reading=11.896045 Threshold=10.000000.",
+            "MessageArgs": [
+                "ProcessMemory_fdr",
+                "11.896045",
+                "10.000000"
+            ],
+            "MessageId": "OpenBMC.0.4.SensorThresholdWarningHighGoingHigh",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536890",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T23:53:49+00:00",
+            "EntryType": "Event",
+            "Id": "536890",
+            "Message": "ProcessCPU_fdr sensor crossed a critical high threshold going high. Reading=15.245498 Threshold=15.000000.",
+            "MessageArgs": [
+                "ProcessCPU_fdr",
+                "15.245498",
+                "15.000000"
+            ],
+            "MessageId": "OpenBMC.0.4.SensorThresholdCriticalHighGoingHigh",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536891",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-07T23:53:49+00:00",
+            "EntryType": "Event",
+            "Id": "536891",
+            "Message": "ProcessCPU_fdr sensor crossed a warning high threshold going high. Reading=15.245498 Threshold=10.000000.",
+            "MessageArgs": [
+                "ProcessCPU_fdr",
+                "15.245498",
+                "10.000000"
+            ],
+            "MessageId": "OpenBMC.0.4.SensorThresholdWarningHighGoingHigh",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536892",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-16T07:01:19.765+00:00",
+            "EntryType": "Event",
+            "Id": "536892",
+            "Message": "BMC Boot",
+            "Name": "Manager Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536893",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-16T07:03:50+00:00",
+            "EntryType": "Event",
+            "Id": "536893",
+            "Message": "CPU sensor crossed a warning high threshold going high. Reading=97.052743 Threshold=90.000000.",
+            "MessageArgs": [
+                "CPU",
+                "97.052743",
+                "90.000000"
+            ],
+            "MessageId": "OpenBMC.0.4.SensorThresholdWarningHighGoingHigh",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536894",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-16T07:03:57+00:00",
+            "EntryType": "Event",
+            "Id": "536894",
+            "Message": "Processes consuming HIGH Resource CPU are nsmd (18%) bash (12%) /usr/libexec/phosphor-objmgr/mapperx (9%)",
+            "MessageArgs": [
+                "CPU",
+                "nsmd (18%) bash (12%) /usr/libexec/phosphor-objmgr/mapperx (9%)"
+            ],
+            "MessageId": "OpenBMC.0.4.BMCSystemResourceInfo",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536895",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-16T07:04:00+00:00",
+            "EntryType": "Event",
+            "Id": "536895",
+            "Message": "CPU sensor crossed a critical high threshold going high. Reading=98.817727 Threshold=98.000000.",
+            "MessageArgs": [
+                "CPU",
+                "98.817727",
+                "98.000000"
+            ],
+            "MessageId": "OpenBMC.0.4.SensorThresholdCriticalHighGoingHigh",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536896",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-16T07:04:07+00:00",
+            "EntryType": "Event",
+            "Id": "536896",
+            "Message": "Processes consuming HIGH Resource CPU are nsmd (19%) /usr/lib/systemd/systemd-journald (13%) monitor-eventingd (9%)",
+            "MessageArgs": [
+                "CPU",
+                "nsmd (19%) /usr/lib/systemd/systemd-journald (13%) monitor-eventingd (9%)"
+            ],
+            "MessageId": "OpenBMC.0.4.BMCSystemResourceInfo",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536897",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-16T07:06:02+00:00",
+            "EntryType": "Event",
+            "Id": "536897",
+            "Message": "ProcessMemory_fdr sensor crossed a warning high threshold going high. Reading=11.629390 Threshold=10.000000.",
+            "MessageArgs": [
+                "ProcessMemory_fdr",
+                "11.629390",
+                "10.000000"
+            ],
+            "MessageId": "OpenBMC.0.4.SensorThresholdWarningHighGoingHigh",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536898",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-16T07:06:32+00:00",
+            "EntryType": "Event",
+            "Id": "536898",
+            "Message": "ProcessCPU_fdr sensor crossed a warning high threshold going high. Reading=12.075350 Threshold=10.000000.",
+            "MessageArgs": [
+                "ProcessCPU_fdr",
+                "12.075350",
+                "10.000000"
+            ],
+            "MessageId": "OpenBMC.0.4.SensorThresholdWarningHighGoingHigh",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536899",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-16T07:07:43+00:00",
+            "EntryType": "Event",
+            "Id": "536899",
+            "Message": "ProcessCPU_fdr sensor crossed a critical high threshold going high. Reading=15.077548 Threshold=15.000000.",
+            "MessageArgs": [
+                "ProcessCPU_fdr",
+                "15.077548",
+                "15.000000"
+            ],
+            "MessageId": "OpenBMC.0.4.SensorThresholdCriticalHighGoingHigh",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536900",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-16T07:07:50+00:00",
+            "EntryType": "Event",
+            "Id": "536900",
+            "Message": "The resource property ERoT SPI has detected errors of type 'HeartBeat failed'.",
+            "MessageArgs": [
+                "ERoT SPI",
+                "HeartBeat failed"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "Reset the baseboard",
+            "Resolved": false,
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536901",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-16T12:13:31.111+00:00",
+            "EntryType": "Event",
+            "Id": "536901",
+            "Message": "BMC Boot",
+            "Name": "Manager Event Log Entry",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536902",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-16T12:16:03+00:00",
+            "EntryType": "Event",
+            "Id": "536902",
+            "Message": "CPU sensor crossed a warning high threshold going high. Reading=96.780216 Threshold=90.000000.",
+            "MessageArgs": [
+                "CPU",
+                "96.780216",
+                "90.000000"
+            ],
+            "MessageId": "OpenBMC.0.4.SensorThresholdWarningHighGoingHigh",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536903",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-16T12:16:09+00:00",
+            "EntryType": "Event",
+            "Id": "536903",
+            "Message": "Processes consuming HIGH Resource CPU are nsmd (18%) /usr/libexec/phosphor-objmgr/mapperx (18%) /usr/bin/pldmd (9%) dbus-broker (9%)",
+            "MessageArgs": [
+                "CPU",
+                "nsmd (18%) /usr/libexec/phosphor-objmgr/mapperx (18%) /usr/bin/pldmd (9%) dbus-broker (9%)"
+            ],
+            "MessageId": "OpenBMC.0.4.BMCSystemResourceInfo",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536904",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-16T12:16:14+00:00",
+            "EntryType": "Event",
+            "Id": "536904",
+            "Message": "CPU sensor crossed a critical high threshold going high. Reading=98.569673 Threshold=98.000000.",
+            "MessageArgs": [
+                "CPU",
+                "98.569673",
+                "98.000000"
+            ],
+            "MessageId": "OpenBMC.0.4.SensorThresholdCriticalHighGoingHigh",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536905",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-16T12:16:21+00:00",
+            "EntryType": "Event",
+            "Id": "536905",
+            "Message": "Processes consuming HIGH Resource CPU are /usr/libexec/entity-manager/entity-manager (18%) /usr/bin/nvidia-fdr (14%) nsmd (11%) bash (7%)",
+            "MessageArgs": [
+                "CPU",
+                "/usr/libexec/entity-manager/entity-manager (18%) /usr/bin/nvidia-fdr (14%) nsmd (11%) bash (7%)"
+            ],
+            "MessageId": "OpenBMC.0.4.BMCSystemResourceInfo",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536906",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-16T12:18:36+00:00",
+            "EntryType": "Event",
+            "Id": "536906",
+            "Message": "ProcessMemory_fdr sensor crossed a warning high threshold going high. Reading=11.239567 Threshold=10.000000.",
+            "MessageArgs": [
+                "ProcessMemory_fdr",
+                "11.239567",
+                "10.000000"
+            ],
+            "MessageId": "OpenBMC.0.4.SensorThresholdWarningHighGoingHigh",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536907",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-16T12:18:56+00:00",
+            "EntryType": "Event",
+            "Id": "536907",
+            "Message": "ProcessCPU_fdr sensor crossed a warning high threshold going high. Reading=12.722674 Threshold=10.000000.",
+            "MessageArgs": [
+                "ProcessCPU_fdr",
+                "12.722674",
+                "10.000000"
+            ],
+            "MessageId": "OpenBMC.0.4.SensorThresholdWarningHighGoingHigh",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536908",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-20T17:36:27+00:00",
+            "EntryType": "Event",
+            "Id": "536908",
+            "Message": "ProcessCPU_bmcweb sensor crossed a warning high threshold going high. Reading=11.006373 Threshold=10.000000.",
+            "MessageArgs": [
+                "ProcessCPU_bmcweb",
+                "11.006373",
+                "10.000000"
+            ],
+            "MessageId": "OpenBMC.0.4.SensorThresholdWarningHighGoingHigh",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536909",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-20T17:37:17+00:00",
+            "EntryType": "Event",
+            "Id": "536909",
+            "Message": "ProcessCPU_bmcweb sensor crossed a critical high threshold going high. Reading=15.953464 Threshold=15.000000.",
+            "MessageArgs": [
+                "ProcessCPU_bmcweb",
+                "15.953464",
+                "15.000000"
+            ],
+            "MessageId": "OpenBMC.0.4.SensorThresholdCriticalHighGoingHigh",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536910",
+            "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+            "Created": "2026-10-20T17:43:10+00:00",
+            "EntryType": "Event",
+            "Id": "536910",
+            "Message": "ProcessCPU_bmcweb sensor crossed a warning high threshold going high. Reading=10.063358 Threshold=10.000000.",
+            "MessageArgs": [
+                "ProcessCPU_bmcweb",
+                "10.063358",
+                "10.000000"
+            ],
+            "MessageId": "OpenBMC.0.4.SensorThresholdWarningHighGoingHigh",
+            "Name": "Manager Event Log Entry",
+            "Resolution": "None",
+            "Resolved": false,
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 50,
+    "Name": "Manager Event Log Entries"
+}

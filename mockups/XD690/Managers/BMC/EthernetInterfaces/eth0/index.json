@@ -1,0 +1,59 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+    "@odata.etag": "\"1792501322\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/EthernetInterfaces/eth0",
+    "@odata.type": "#EthernetInterface.v1_6_2.EthernetInterface",
+    "AutoNeg": true,
+    "DHCPv4": {
+        "DHCPEnabled": true
+    },
+    "DHCPv6": {
+        "OperatingMode": "Stateless"
+    },
+    "Description": "Ethernet Interface eth0",
+    "FQDN": "localhost.ams.hpecorp.net",
+    "FullDuplex": true,
+    "HostName": "localhost",
+    "IPv4Addresses": [
+        {
+            "Address": "10.30.152.200",
+            "AddressOrigin": "DHCP",
+            "Gateway": "10.30.152.1",
+            "SubnetMask": "255.255.254.0"
+        }
+    ],
+    "IPv6Addresses": [
+        {
+            "Address": "fe80::5eff:35ff:fee9:df5e",
+            "AddressOrigin": "LinkLocal",
+            "PrefixLength": 64
+        }
+    ],
+    "IPv6DefaultGateway": null,
+    "Id": "eth0",
+    "InterfaceEnabled": true,
+    "LinkStatus": "LinkUp",
+    "MACAddress": "5C:FF:35:E9:DF:5E",
+    "MTUSize": 1500,
+    "MaxIPv6StaticAddresses": 16,
+    "Name": "eth0",
+    "NameServers": [
+        "16.110.135.51",
+        "16.110.135.52",
+        "::"
+    ],
+    "PermanentMACAddress": "5C:FF:35:E9:DF:5E",
+    "SpeedMbps": 1000,
+    "StatelessAddressAutoConfig": {
+        "IPv4AutoConfigEnabled": false,
+        "IPv6AutoConfigEnabled": false
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "VLAN": {
+        "VLANEnable": false,
+        "VLANId": 0
+    }
+}

@@ -1,0 +1,1421 @@
+{
+    "@odata.id": "/redfish/v1/ServiceConditions",
+    "@odata.type": "#ServiceConditions.v1_0_0.ServiceConditions",
+    "Conditions": [
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/100"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:28:12+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/106"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'AP0_BOOTCOMPLETE_TIMEOUT'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "AP0_BOOTCOMPLETE_TIMEOUT"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:28:21+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/107"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'AP0_BOOTCOMPLETE_TIMEOUT'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "AP0_BOOTCOMPLETE_TIMEOUT"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:28:21+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/108"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:28:21+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/109"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:28:21+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/110"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'AP0_BOOTCOMPLETE_TIMEOUT'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "AP0_BOOTCOMPLETE_TIMEOUT"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:28:31+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/111"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:28:31+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/112"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'AP0_BOOTCOMPLETE_TIMEOUT'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "AP0_BOOTCOMPLETE_TIMEOUT"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:28:37+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/113"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:28:37+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/132728"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:27:12+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/132729"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:27:19+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/132730"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:27:34+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/132731"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:27:41+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/132733"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:29:00+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/132734"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:29:08+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/132737"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:31:28+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/132738"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:31:28+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/132953"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-28T00:44:45+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/132954"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-28T00:44:49+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/139"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:27:10+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/140"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:27:15+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/142"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:27:48+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/143"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:27:54+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/145"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:27:55+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/146"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:27:55+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/158810"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2026-01-08T17:45:07+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/158811"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2026-01-08T17:45:14+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/158812"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2026-01-08T17:45:29+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/158813"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2026-01-08T17:45:36+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/158814"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2026-01-08T17:47:06+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/158815"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2026-01-08T17:47:14+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/158816"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2026-01-08T17:49:18+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/158817"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2026-01-08T17:49:18+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/158977"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2026-01-08T18:08:17+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/158978"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'AP0_PRIMARY_AuthenticateError'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "AP0_PRIMARY_AuthenticateError"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2026-01-08T18:08:22+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/174"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:27:52+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/175"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:27:59+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/177"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:28:48+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/178"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:28:54+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/182364"
+            },
+            "Message": "The resource property NVSwitch_0 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_0 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-01-09T19:46:55+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/183759"
+            },
+            "Message": "The resource property NVSwitch_1 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-01-09T20:55:05+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/252246"
+            },
+            "Message": "The resource property NVSwitch_1 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-01-12T10:50:19+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/252606"
+            },
+            "Message": "The resource property NVSwitch_1 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-01-12T13:27:10+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/322446"
+            },
+            "Message": "The resource property NVSwitch_1 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-01-14T18:00:17+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/359"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:27:17+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/36"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2020-01-01T00:00:48+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/360"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:27:25+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/362"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:28:13+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/363"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:28:22+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/37"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2020-01-01T00:00:55+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/3735"
+            },
+            "Message": "The resource property Baseboard_0 ALTPRESS_HC_ERR_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "Baseboard_0 ALTPRESS_HC_ERR_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-28T02:11:55+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/401928"
+            },
+            "Message": "The resource property NVSwitch_0 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_0 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-01-27T18:55:02+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/43"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'AP0_BOOTCOMPLETE_TIMEOUT'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "AP0_BOOTCOMPLETE_TIMEOUT"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2020-01-01T00:01:38+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/44"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2020-01-01T00:01:38+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/45"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'AP0_BOOTCOMPLETE_TIMEOUT'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "AP0_BOOTCOMPLETE_TIMEOUT"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2020-01-01T00:01:46+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/46"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2020-01-01T00:01:46+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/480269"
+            },
+            "Message": "The resource property NVSwitch_1 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-02-20T23:54:12+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/481210"
+            },
+            "Message": "The resource property NVSwitch_0 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_0 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-02-24T15:52:10+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/481744"
+            },
+            "Message": "The resource property NVSwitch_1 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-02-26T05:36:18+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/482585"
+            },
+            "Message": "The resource property NVSwitch_0 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_0 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-02-28T14:51:47+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/482926"
+            },
+            "Message": "The resource property NVSwitch_1 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-03-01T15:20:58+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/483470"
+            },
+            "Message": "The resource property NVSwitch_1 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-03-03T08:01:50+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/483497"
+            },
+            "Message": "The resource property NVSwitch_1 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-03-03T09:31:00+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/483613"
+            },
+            "Message": "The resource property NVSwitch_0 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_0 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-03-03T18:06:59+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/483832"
+            },
+            "Message": "The resource property NVSwitch_1 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-03-04T10:24:52+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/490693"
+            },
+            "Message": "The resource property NVSwitch_1 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-05-28T21:37:02+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/491057"
+            },
+            "Message": "The resource property NVSwitch_1 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-05-30T17:06:35+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/491311"
+            },
+            "Message": "The resource property NVSwitch_0 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_0 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-06-02T13:54:32+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/491327"
+            },
+            "Message": "The resource property NVSwitch_1 NVSW_TEMP_WARN_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "NVSwitch_1 NVSW_TEMP_WARN_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Warning",
+            "Timestamp": "2026-06-02T15:57:48+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/52"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'AP0_BOOTCOMPLETE_TIMEOUT'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "AP0_BOOTCOMPLETE_TIMEOUT"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2020-01-01T00:01:52+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/53"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'AP0_BOOTCOMPLETE_TIMEOUT'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "AP0_BOOTCOMPLETE_TIMEOUT"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2020-01-01T00:01:52+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/54"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2020-01-01T00:01:52+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/55"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2020-01-01T00:01:52+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/56"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'AP0_BOOTCOMPLETE_TIMEOUT'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "AP0_BOOTCOMPLETE_TIMEOUT"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2020-01-01T00:02:05+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/57"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2020-01-01T00:02:05+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/58"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2020-01-01T00:02:10+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/59"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'AP0_BOOTCOMPLETE_TIMEOUT'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "AP0_BOOTCOMPLETE_TIMEOUT"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2020-01-01T00:02:10+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/802"
+            },
+            "Message": "The resource property Baseboard_0 ALTPRESS_HC_ERR_INT has detected errors of type 'Abnormal State Change'.",
+            "MessageArgs": [
+                "Baseboard_0 ALTPRESS_HC_ERR_INT",
+                "Abnormal State Change"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:31:39+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/90"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:27:14+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/91"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:27:22+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/97"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'EC_STRAP_MISMATCH'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "EC_STRAP_MISMATCH"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:28:05+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/98"
+            },
+            "Message": "The resource property NVSwitch_0 Firmware has detected errors of type 'AP0_BOOTCOMPLETE_TIMEOUT'.",
+            "MessageArgs": [
+                "NVSwitch_0 Firmware",
+                "AP0_BOOTCOMPLETE_TIMEOUT"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:28:05+00:00"
+        },
+        {
+            "@odata.type": "#LogEntry.v1_13_0.LogEntry",
+            "LogEntry": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/EventLog/Entries/99"
+            },
+            "Message": "The resource property NVSwitch_1 Firmware has detected errors of type 'AP0_BOOTCOMPLETE_TIMEOUT'.",
+            "MessageArgs": [
+                "NVSwitch_1 Firmware",
+                "AP0_BOOTCOMPLETE_TIMEOUT"
+            ],
+            "MessageId": "ResourceEvent.1.0.ResourceErrorsDetected",
+            "OriginOfCondition": {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0"
+            },
+            "Severity": "Critical",
+            "Timestamp": "2024-02-27T17:28:12+00:00"
+        }
+    ],
+    "HealthRollup": "Critical",
+    "Id": "ServiceConditions",
+    "Name": "Redfish Service Conditions",
+    "Oem": []
+}

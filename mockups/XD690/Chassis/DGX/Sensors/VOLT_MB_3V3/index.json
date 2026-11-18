@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/Sensors/VOLT_MB_3V3",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "VOLT_MB_3V3",
+    "Name": "VOLT_MB_3V3",
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 3.343,
+    "ReadingRangeMax": 4.335,
+    "ReadingRangeMin": 0,
+    "ReadingType": "Voltage",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 3.145
+        },
+        "LowerCritical": {
+            "Reading": 2.907
+        },
+        "UpperCaution": {
+            "Reading": 3.468
+        },
+        "UpperCritical": {
+            "Reading": 3.706
+        }
+    }
+}

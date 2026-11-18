@@ -1,0 +1,21 @@
+{
+    "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/Journal/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of BMC Journal Entries",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/Journal/Entries/816395211e3348ec84744a60e676c609_365012579037",
+            "@odata.type": "#LogEntry.v1_9_0.LogEntry",
+            "Created": "2026-10-20T17:36:09.506896+00:00",
+            "EntryType": "Oem",
+            "Id": "816395211e3348ec84744a60e676c609_365012579037",
+            "Message": "systemctl: Unit mctp-spi-demux.service could not be found.",
+            "Name": "BMC Journal Entry",
+            "OemRecordFormat": "BMC Journal Entry",
+            "Severity": "Warning"
+        }
+    ],
+    "Members@odata.count": 115324,
+    "Members@odata.nextLink": "/redfish/v1/Managers/HGX_BMC_0/LogServices/Journal/Entries?$skip=109000",
+    "Name": "Open BMC Journal Entries"
+}

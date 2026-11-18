@@ -1,0 +1,25 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_PDB_FAN_HSC",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "VOLT_PDB_FAN_HSC",
+    "Name": "VOLT_PDB_FAN_HSC",
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 50.128,
+    "ReadingRangeMax": 63.75,
+    "ReadingRangeMin": 0,
+    "ReadingType": "Voltage",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "LowerCaution": {
+            "Reading": 39
+        },
+        "UpperCaution": {
+            "Reading": 60
+        }
+    }
+}

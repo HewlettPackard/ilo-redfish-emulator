@@ -1,0 +1,33 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_7/Switches/ConnectX_Switch_7/Ports/DOWN_0/Metrics",
+    "@odata.type": "#PortMetrics.v1_3_0.PortMetrics",
+    "Id": "Metrics",
+    "Name": "DOWN_0 Port Metrics",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaPortMetrics.v1_7_0.NvidiaPortMetrics",
+            "PCIeMetrics": {
+                "CompletionCreditExhaustionDrops": 0,
+                "NPCreditExhaustionDrops": 0,
+                "OutboundCompletionTLPBytes": 6132188,
+                "OutboundCompletionTLPCount": 39058674,
+                "OutboundReadTLPBytes": 0,
+                "OutboundReadTLPCount": 1338291,
+                "OutboundWriteTLPBytes": 330208,
+                "OutboundWriteTLPCount": 3120554,
+                "TagUnavailabilityDrops": 0
+            }
+        }
+    },
+    "PCIeErrors": {
+        "CorrectableErrorCount": 0,
+        "FatalErrorCount": 0,
+        "L0ToRecoveryCount": 1,
+        "NAKReceivedCount": 0,
+        "NAKSentCount": 0,
+        "NonFatalErrorCount": 0,
+        "ReplayCount": 0,
+        "ReplayRolloverCount": 0,
+        "UnsupportedRequestCount": 0
+    }
+}

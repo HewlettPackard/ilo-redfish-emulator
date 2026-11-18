@@ -1,0 +1,54 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_2_DRAM_0",
+    "@odata.type": "#Memory.v1_20_0.Memory",
+    "AllowedSpeedsMHz": [
+        3996,
+        3996
+    ],
+    "BaseModuleType": "RDIMM",
+    "BusWidthBits": 0,
+    "CapacityMiB": 275040,
+    "DataWidthBits": 0,
+    "EnvironmentMetrics": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_2_DRAM_0/EnvironmentMetrics"
+    },
+    "ErrorCorrection": "SingleBitECC",
+    "FirmwareRevision": "0",
+    "Id": "GPU_2_DRAM_0",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/HGX_GPU_2"
+        },
+        "Processors": [
+            {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/GPU_2"
+            }
+        ]
+    },
+    "Location": {
+        "PartLocation": {
+            "LocationType": "Embedded"
+        }
+    },
+    "MemoryDeviceType": "HBM",
+    "MemoryType": "DRAM",
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_2_DRAM_0/MemoryMetrics"
+    },
+    "Name": "DIMM Slot",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaMemory.v1_0_0.NvidiaMemory",
+            "RowRemappingFailed": false,
+            "RowRemappingPending": false
+        }
+    },
+    "OperatingSpeedMhz": 3996,
+    "RankCount": 0,
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

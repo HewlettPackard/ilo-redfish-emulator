@@ -1,0 +1,29 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_4/Switches/ConnectX_Switch_4/Ports/UP_0",
+    "@odata.type": "#Port.v1_4_0.Port",
+    "ActiveWidth": 16,
+    "CurrentSpeedGbps": 32,
+    "Id": "UP_0",
+    "MaxSpeedGbps": 32,
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_4/Switches/ConnectX_Switch_4/Ports/UP_0/Metrics"
+    },
+    "Name": "UP_0 Resource",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaPort.v1_3_0.NvidiaPCIePort",
+            "PCIeEqualization": {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_PCIeTopology_4/Switches/ConnectX_Switch_4/Ports/UP_0/Oem/Nvidia/PCIeEqualization"
+            }
+        }
+    },
+    "PortProtocol": "PCIe",
+    "PortType": "UpstreamPort",
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Width": 16
+}

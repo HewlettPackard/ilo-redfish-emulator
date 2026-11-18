@@ -1,0 +1,22 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_4/NetworkAdapters/ConnectX_NIC_4/Ports/Port_0",
+    "@odata.type": "#Port.v1_6_0.Port",
+    "CurrentSpeedGbps": 0,
+    "Id": "Port_0",
+    "LinkNetworkTechnology": "InfiniBand",
+    "LinkState": "Disabled",
+    "LinkStatus": "LinkDown",
+    "MaxSpeedGbps": 400,
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_ConnectX_4/NetworkAdapters/ConnectX_NIC_4/Ports/Port_0/Metrics"
+    },
+    "Name": "Port",
+    "PortProtocol": "InfiniBand",
+    "PortType": "BidirectionalPort",
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Disabled"
+    }
+}

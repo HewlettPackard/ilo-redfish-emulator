@@ -1,0 +1,44 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_GPU_2/PCIeDevices/GPU_2",
+    "@odata.type": "#PCIeDevice.v1_14_0.PCIeDevice",
+    "Actions": {
+        "Oem": {
+            "#NvidiaPCIeDevice.ClearAERErrorStatus": {
+                "target": "/redfish/v1/Chassis/HGX_GPU_2/PCIeDevices/GPU_2/Actions/Oem/NvidiaPCIeDevice.ClearAERErrorStatus"
+            }
+        }
+    },
+    "DeviceType": "SingleFunction",
+    "Id": "GPU_2",
+    "Manufacturer": "NVIDIA",
+    "Model": "NVIDIA B300 SXM6 AC",
+    "Name": "PCIe Device",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaPCIeDevice.v1_2_0.NvidiaPCIeDevice",
+            "AERCorrectableErrorStatus": "0x00000000",
+            "AERUncorrectableErrorStatus": "0x00000000",
+            "LTSSMState": "L0",
+            "NVLinkReferenceClockEnabled": false,
+            "PCIeReferenceClockEnabled": false
+        }
+    },
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_GPU_2/PCIeDevices/GPU_2/PCIeFunctions"
+    },
+    "PCIeInterface": {
+        "LanesInUse": 16,
+        "MaxLanes": 16,
+        "MaxPCIeType": "Gen6",
+        "PCIeType": "Gen6"
+    },
+    "PartNumber": "3182-887-A1",
+    "SerialNumber": "1652825092461",
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "UUID": "5a3062a3-9b64-10e0-5ada-ca2d8b9116b8"
+}

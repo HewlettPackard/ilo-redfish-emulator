@@ -1,0 +1,43 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0",
+    "@odata.type": "#ComputerSystem.v1_22_0.ComputerSystem",
+    "Description": "Computer System",
+    "Id": "HGX_Baseboard_0",
+    "Links": {
+        "Chassis": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/HGX_BMC_0"
+            }
+        ],
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/HGX_BMC_0"
+            }
+        ]
+    },
+    "LogServices": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices"
+    },
+    "Manufacturer": "NVIDIA",
+    "Memory": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Memory"
+    },
+    "MemorySummary": {
+        "TotalSystemMemoryGiB": 2144
+    },
+    "Model": "NA",
+    "Name": "HGX_Baseboard_0",
+    "PowerMode": "OEM",
+    "PowerMode@Redfish.AllowableValues": [],
+    "PowerState": "On",
+    "Processors": {
+        "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors"
+    },
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "SystemType": "Physical"
+}

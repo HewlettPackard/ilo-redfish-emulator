@@ -1,0 +1,34 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_NVSwitch_1/Sensors/HGX_NVSwitch_1_TEMP_0",
+    "@odata.type": "#Sensor.v1_7_0.Sensor",
+    "Id": "HGX_NVSwitch_1_TEMP_0",
+    "Name": "HGX NVSwitch 1 TEMP 0",
+    "PhysicalContext": "NetworkingDevice",
+    "Reading": 71,
+    "ReadingRangeMax": 120,
+    "ReadingRangeMin": -40,
+    "ReadingType": "Temperature",
+    "ReadingUnits": "Cel",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1"
+        }
+    ],
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {
+            "Reading": 100
+        },
+        "UpperCritical": {
+            "Reading": 105
+        },
+        "UpperFatal": {
+            "Reading": 115
+        }
+    }
+}

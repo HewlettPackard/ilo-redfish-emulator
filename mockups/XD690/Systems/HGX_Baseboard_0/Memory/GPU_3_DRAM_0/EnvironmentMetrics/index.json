@@ -1,0 +1,14 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_3_DRAM_0/EnvironmentMetrics",
+    "@odata.type": "#EnvironmentMetrics.v1_2_0.EnvironmentMetrics",
+    "Id": "EnvironmentMetrics",
+    "Name": "GPU_3_DRAM_0 Environment Metrics",
+    "PowerWatts": {
+        "DataSourceUri": "/redfish/v1/Chassis/HGX_GPU_3/Sensors/HGX_GPU_3_DRAM_0_Power_0",
+        "Reading": 41.501
+    },
+    "TemperatureCelsius": {
+        "DataSourceUri": "/redfish/v1/Chassis/HGX_GPU_3/Sensors/HGX_GPU_3_DRAM_0_Temp_0",
+        "Reading": 35.71484375
+    }
+}

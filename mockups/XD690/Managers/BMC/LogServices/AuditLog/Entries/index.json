@@ -1,0 +1,923 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "\"1792167366\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/1",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-09-28T14:48:46+00:00",
+            "Description": "The resource at /redfish/v1/Systems/DGX/Oem/Ami/BiosTable has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-09-28T14:48:46+00:00",
+            "Id": "1",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/Oem/Ami/BiosTable"
+                }
+            },
+            "Message": "User: 8IDlGX0DgaCjUCc7, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Systems/DGX/Oem/Ami/BiosTable has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/DGX/Oem/Ami/BiosTable"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 1",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/2",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-09-28T14:48:47+00:00",
+            "Description": "The resource at /redfish/v1/Systems/DGX/Oem/Ami/BiosTableTags has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-09-28T14:48:47+00:00",
+            "Id": "2",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/Oem/Ami/BiosTableTags"
+                }
+            },
+            "Message": "User: 8IDlGX0DgaCjUCc7, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Systems/DGX/Oem/Ami/BiosTableTags has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Systems/DGX/Oem/Ami/BiosTableTags"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 2",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/3",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-09-28T14:49:14+00:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-09-28T14:49:14+00:00",
+            "Id": "3",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: 8IDlGX0DgaCjUCc7, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/InventoryData (inventory.json)"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 3",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/4",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-09-28T14:49:15+00:00",
+            "Description": "The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-09-28T14:49:15+00:00",
+            "Id": "4",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: 8IDlGX0DgaCjUCc7, IP: 169.254.0.18, Protocol: https - The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "MessageArgs": [
+                "BootComplete",
+                "/redfish/v1/Oem/Ami/InventoryData",
+                "false",
+                "true"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 4",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/5",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-09-28T15:19:19+00:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-09-28T15:19:19+00:00",
+            "Id": "5",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: A2yrnxzrkf8byp7Z, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/InventoryData (inventory.json)"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 5",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/6",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-09-28T15:19:19+00:00",
+            "Description": "The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-09-28T15:19:19+00:00",
+            "Id": "6",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: A2yrnxzrkf8byp7Z, IP: 169.254.0.18, Protocol: https - The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "MessageArgs": [
+                "BootComplete",
+                "/redfish/v1/Oem/Ami/InventoryData",
+                "false",
+                "true"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 6",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/7",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:40+00:00",
+            "Description": "LogService.ClearLog - SEL action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-01T00:00:40+00:00",
+            "Id": "7",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL"
+                }
+            },
+            "Message": "LogService.ClearLog - SEL action was triggered which requires attention",
+            "MessageArgs": [
+                "LogService.ClearLog",
+                "SEL"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 7",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/8",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:40+00:00",
+            "Description": "LogService.ClearLog - BIOS action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-01T00:00:40+00:00",
+            "Id": "8",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS"
+                }
+            },
+            "Message": "LogService.ClearLog - BIOS action was triggered which requires attention",
+            "MessageArgs": [
+                "LogService.ClearLog",
+                "BIOS"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 8",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/9",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:41+00:00",
+            "Description": "LogService.ClearLog - Logs action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-01T00:00:41+00:00",
+            "Id": "9",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs"
+                }
+            },
+            "Message": "LogService.ClearLog - Logs action was triggered which requires attention",
+            "MessageArgs": [
+                "LogService.ClearLog",
+                "Logs"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 9",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/10",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-09-28T15:44:30+00:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-09-28T15:44:30+00:00",
+            "Id": "10",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: gh6O6uSmnA5hHOpN, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/InventoryData (inventory.json)"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 10",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/11",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-09-28T15:44:32+00:00",
+            "Description": "The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-09-28T15:44:32+00:00",
+            "Id": "11",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: gh6O6uSmnA5hHOpN, IP: 169.254.0.18, Protocol: https - The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "MessageArgs": [
+                "BootComplete",
+                "/redfish/v1/Oem/Ami/InventoryData",
+                "false",
+                "true"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 11",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/12",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:47+00:00",
+            "Description": "LogService.ClearLog - SEL action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-01T00:00:47+00:00",
+            "Id": "12",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL"
+                }
+            },
+            "Message": "LogService.ClearLog - SEL action was triggered which requires attention",
+            "MessageArgs": [
+                "LogService.ClearLog",
+                "SEL"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 12",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/13",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:48+00:00",
+            "Description": "LogService.ClearLog - BIOS action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-01T00:00:48+00:00",
+            "Id": "13",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS"
+                }
+            },
+            "Message": "LogService.ClearLog - BIOS action was triggered which requires attention",
+            "MessageArgs": [
+                "LogService.ClearLog",
+                "BIOS"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 13",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/14",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "LogService.ClearLog - Logs action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-01T00:00:49+00:00",
+            "Id": "14",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs"
+                }
+            },
+            "Message": "LogService.ClearLog - Logs action was triggered which requires attention",
+            "MessageArgs": [
+                "LogService.ClearLog",
+                "Logs"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 14",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/15",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:43+00:00",
+            "Description": "LogService.ClearLog - SEL action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-01T00:00:43+00:00",
+            "Id": "15",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL"
+                }
+            },
+            "Message": "LogService.ClearLog - SEL action was triggered which requires attention",
+            "MessageArgs": [
+                "LogService.ClearLog",
+                "SEL"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 15",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/16",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:44+00:00",
+            "Description": "LogService.ClearLog - BIOS action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-01T00:00:44+00:00",
+            "Id": "16",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS"
+                }
+            },
+            "Message": "LogService.ClearLog - BIOS action was triggered which requires attention",
+            "MessageArgs": [
+                "LogService.ClearLog",
+                "BIOS"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 16",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/17",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:44+00:00",
+            "Description": "LogService.ClearLog - Logs action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-01T00:00:45+00:00",
+            "Id": "17",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs"
+                }
+            },
+            "Message": "LogService.ClearLog - Logs action was triggered which requires attention",
+            "MessageArgs": [
+                "LogService.ClearLog",
+                "Logs"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 17",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/18",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-05T15:27:04+00:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-05T15:27:04+00:00",
+            "Id": "18",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: K3CHQqgtNix8Nn3H, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/InventoryData (inventory.json)"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 18",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/19",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-05T15:27:06+00:00",
+            "Description": "The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-05T15:27:06+00:00",
+            "Id": "19",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: K3CHQqgtNix8Nn3H, IP: 169.254.0.18, Protocol: https - The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "MessageArgs": [
+                "BootComplete",
+                "/redfish/v1/Oem/Ami/InventoryData",
+                "false",
+                "true"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 19",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/20",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:45+00:00",
+            "Description": "LogService.ClearLog - SEL action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-01T00:00:45+00:00",
+            "Id": "20",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL"
+                }
+            },
+            "Message": "LogService.ClearLog - SEL action was triggered which requires attention",
+            "MessageArgs": [
+                "LogService.ClearLog",
+                "SEL"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 20",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/21",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:46+00:00",
+            "Description": "LogService.ClearLog - BIOS action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-01T00:00:46+00:00",
+            "Id": "21",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS"
+                }
+            },
+            "Message": "LogService.ClearLog - BIOS action was triggered which requires attention",
+            "MessageArgs": [
+                "LogService.ClearLog",
+                "BIOS"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 21",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/22",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:46+00:00",
+            "Description": "LogService.ClearLog - Logs action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-01T00:00:46+00:00",
+            "Id": "22",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs"
+                }
+            },
+            "Message": "LogService.ClearLog - Logs action was triggered which requires attention",
+            "MessageArgs": [
+                "LogService.ClearLog",
+                "Logs"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 22",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/23",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T13:35:04+00:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-07T13:35:04+00:00",
+            "Id": "23",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: rXjoMgmEVze6ZSuQ, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/InventoryData (inventory.json)"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 23",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/24",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T13:35:05+00:00",
+            "Description": "The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-07T13:35:05+00:00",
+            "Id": "24",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: rXjoMgmEVze6ZSuQ, IP: 169.254.0.18, Protocol: https - The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "MessageArgs": [
+                "BootComplete",
+                "/redfish/v1/Oem/Ami/InventoryData",
+                "false",
+                "true"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 24",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/25",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:11:01+00:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-07T17:11:01+00:00",
+            "Id": "25",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: e6DNxh5R2N2Xped8, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/InventoryData (inventory.json)"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 25",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/26",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:11:03+00:00",
+            "Description": "The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-07T17:11:03+00:00",
+            "Id": "26",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: e6DNxh5R2N2Xped8, IP: 169.254.0.18, Protocol: https - The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "MessageArgs": [
+                "BootComplete",
+                "/redfish/v1/Oem/Ami/InventoryData",
+                "false",
+                "true"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 26",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/27",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:46+00:00",
+            "Description": "LogService.ClearLog - SEL action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-01T00:00:46+00:00",
+            "Id": "27",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/SEL"
+                }
+            },
+            "Message": "LogService.ClearLog - SEL action was triggered which requires attention",
+            "MessageArgs": [
+                "LogService.ClearLog",
+                "SEL"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 27",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/28",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:47+00:00",
+            "Description": "LogService.ClearLog - BIOS action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-01T00:00:47+00:00",
+            "Id": "28",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS"
+                }
+            },
+            "Message": "LogService.ClearLog - BIOS action was triggered which requires attention",
+            "MessageArgs": [
+                "LogService.ClearLog",
+                "BIOS"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 28",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/29",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:48+00:00",
+            "Description": "LogService.ClearLog - Logs action was triggered which requires attention",
+            "EntryCode": "Informational",
+            "EntryType": "Event",
+            "EventTimestamp": "2000-01-01T00:00:48+00:00",
+            "Id": "29",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs"
+                }
+            },
+            "Message": "LogService.ClearLog - Logs action was triggered which requires attention",
+            "MessageArgs": [
+                "LogService.ClearLog",
+                "Logs"
+            ],
+            "MessageId": "Security.1.0.Alert",
+            "Name": "Log entry 29",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/30",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:28:11+00:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-07T17:28:11+00:00",
+            "Id": "30",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: mRayYVWedTHmKuwh, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/InventoryData (inventory.json)"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 30",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/31",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:28:13+00:00",
+            "Description": "The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-07T17:28:13+00:00",
+            "Id": "31",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: mRayYVWedTHmKuwh, IP: 169.254.0.18, Protocol: https - The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "MessageArgs": [
+                "BootComplete",
+                "/redfish/v1/Oem/Ami/InventoryData",
+                "false",
+                "true"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 31",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/32",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-15T21:08:14+00:00",
+            "Description": "The value of attribute Boot:BootSourceOverrideEnabled, Boot:BootSourceOverrideTarget, Boot:HttpBootUri at /redfish/v1/Systems/DGX/SD was successfully updated from Disabled, None to Once, UefiHttp, http://100.65.0.1:8000/PCAI-Worker-UBUNTU2404-20260929-716-dev.iso.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-15T21:08:14+00:00",
+            "Id": "32",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/SD"
+                }
+            },
+            "Message": "User: admin, IP: 10.120.120.77, Protocol: https - The value of attribute Boot:BootSourceOverrideEnabled, Boot:BootSourceOverrideTarget, Boot:HttpBootUri at /redfish/v1/Systems/DGX/SD was successfully updated from Disabled, None to Once, UefiHttp, http://100.65.0.1:8000/PCAI-Worker-UBUNTU2404-20260929-716-dev.iso.",
+            "MessageArgs": [
+                "Boot:BootSourceOverrideEnabled, Boot:BootSourceOverrideTarget, Boot:HttpBootUri",
+                "/redfish/v1/Systems/DGX/SD",
+                "Disabled, None",
+                "Once, UefiHttp, http://100.65.0.1:8000/PCAI-Worker-UBUNTU2404-20260929-716-dev.iso"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 32",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/33",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T09:40:57+00:00",
+            "Description": "The value of attribute Boot:BootSourceOverrideEnabled, Boot:BootSourceOverrideTarget, Boot:HttpBootUri at /redfish/v1/Systems/DGX/SD was successfully updated from Once, UefiHttp, http://100.65.0.1:8000/PCAI-Worker-UBUNTU2404-20260929-716-dev.iso to Once, UefiHttp, http://100.65.0.1:443/PCAI_Worker.iso.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-16T09:40:57+00:00",
+            "Id": "33",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/SD"
+                }
+            },
+            "Message": "User: admin, IP: 10.120.120.75, Protocol: https - The value of attribute Boot:BootSourceOverrideEnabled, Boot:BootSourceOverrideTarget, Boot:HttpBootUri at /redfish/v1/Systems/DGX/SD was successfully updated from Once, UefiHttp, http://100.65.0.1:8000/PCAI-Worker-UBUNTU2404-20260929-716-dev.iso to Once, UefiHttp, http://100.65.0.1:443/PCAI_Worker.iso.",
+            "MessageArgs": [
+                "Boot:BootSourceOverrideEnabled, Boot:BootSourceOverrideTarget, Boot:HttpBootUri",
+                "/redfish/v1/Systems/DGX/SD",
+                "Once, UefiHttp, http://100.65.0.1:8000/PCAI-Worker-UBUNTU2404-20260929-716-dev.iso",
+                "Once, UefiHttp, http://100.65.0.1:443/PCAI_Worker.iso"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 33",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/34",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T06:49:28-04:00",
+            "Description": "The value of attribute Boot:BootSourceOverrideEnabled, Boot:BootSourceOverrideTarget, Boot:HttpBootUri at /redfish/v1/Systems/DGX/SD was successfully updated from Once, UefiHttp, http://100.65.0.1:443/PCAI_Worker.iso to Once, UefiHttp, http://100.65.0.1:443/PCAI_Worker.iso.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-16T06:49:28-04:00",
+            "Id": "34",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/SD"
+                }
+            },
+            "Message": "User: admin, IP: 10.120.120.75, Protocol: https - The value of attribute Boot:BootSourceOverrideEnabled, Boot:BootSourceOverrideTarget, Boot:HttpBootUri at /redfish/v1/Systems/DGX/SD was successfully updated from Once, UefiHttp, http://100.65.0.1:443/PCAI_Worker.iso to Once, UefiHttp, http://100.65.0.1:443/PCAI_Worker.iso.",
+            "MessageArgs": [
+                "Boot:BootSourceOverrideEnabled, Boot:BootSourceOverrideTarget, Boot:HttpBootUri",
+                "/redfish/v1/Systems/DGX/SD",
+                "Once, UefiHttp, http://100.65.0.1:443/PCAI_Worker.iso",
+                "Once, UefiHttp, http://100.65.0.1:443/PCAI_Worker.iso"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 34",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/35",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T06:56:34-04:00",
+            "Description": "The value of attribute Boot:BootSourceOverrideEnabled, Boot:BootSourceOverrideTarget, Boot:HttpBootUri at /redfish/v1/Systems/DGX/SD was successfully updated from Once, UefiHttp, http://100.65.0.1:443/PCAI_Worker.iso to Once, UefiHttp, https://old-releases.ubuntu.com/releases/noble/ubuntu-24.04-live-server-amd64.iso.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-16T06:56:34-04:00",
+            "Id": "35",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/SD"
+                }
+            },
+            "Message": "User: admin, IP: 10.120.120.75, Protocol: https - The value of attribute Boot:BootSourceOverrideEnabled, Boot:BootSourceOverrideTarget, Boot:HttpBootUri at /redfish/v1/Systems/DGX/SD was successfully updated from Once, UefiHttp, http://100.65.0.1:443/PCAI_Worker.iso to Once, UefiHttp, https://old-releases.ubuntu.com/releases/noble/ubuntu-24.04-live-server-amd64.iso.",
+            "MessageArgs": [
+                "Boot:BootSourceOverrideEnabled, Boot:BootSourceOverrideTarget, Boot:HttpBootUri",
+                "/redfish/v1/Systems/DGX/SD",
+                "Once, UefiHttp, http://100.65.0.1:443/PCAI_Worker.iso",
+                "Once, UefiHttp, https://old-releases.ubuntu.com/releases/noble/ubuntu-24.04-live-server-amd64.iso"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 35",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/36",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T06:59:13-04:00",
+            "Description": "The value of attribute Boot:BootSourceOverrideEnabled, Boot:BootSourceOverrideTarget, Boot:HttpBootUri at /redfish/v1/Systems/DGX/SD was successfully updated from Once, UefiHttp, https://old-releases.ubuntu.com/releases/noble/ubuntu-24.04-live-server-amd64.iso to Once, UefiHttp, https://old-releases.ubuntu.com/releases/noble/ubuntu-24.04-live-server-amd64.iso.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-16T06:59:13-04:00",
+            "Id": "36",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX/SD"
+                }
+            },
+            "Message": "User: admin, IP: 10.120.120.75, Protocol: https - The value of attribute Boot:BootSourceOverrideEnabled, Boot:BootSourceOverrideTarget, Boot:HttpBootUri at /redfish/v1/Systems/DGX/SD was successfully updated from Once, UefiHttp, https://old-releases.ubuntu.com/releases/noble/ubuntu-24.04-live-server-amd64.iso to Once, UefiHttp, https://old-releases.ubuntu.com/releases/noble/ubuntu-24.04-live-server-amd64.iso.",
+            "MessageArgs": [
+                "Boot:BootSourceOverrideEnabled, Boot:BootSourceOverrideTarget, Boot:HttpBootUri",
+                "/redfish/v1/Systems/DGX/SD",
+                "Once, UefiHttp, https://old-releases.ubuntu.com/releases/noble/ubuntu-24.04-live-server-amd64.iso",
+                "Once, UefiHttp, https://old-releases.ubuntu.com/releases/noble/ubuntu-24.04-live-server-amd64.iso"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 36",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/37",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T08:34:32-04:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-16T08:34:32-04:00",
+            "Id": "37",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: BKznL4swqF5cW2XZ, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/InventoryData (inventory.json)"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 37",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/38",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T08:34:34-04:00",
+            "Description": "The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-16T08:34:34-04:00",
+            "Id": "38",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: BKznL4swqF5cW2XZ, IP: 169.254.0.18, Protocol: https - The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "MessageArgs": [
+                "BootComplete",
+                "/redfish/v1/Oem/Ami/InventoryData",
+                "false",
+                "true"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 38",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/39",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:16:05-04:00",
+            "Description": "The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-16T12:16:05-04:00",
+            "Id": "39",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: wVTkbqQ9dRJnjHhv, IP: 169.254.0.18, Protocol: https - The resource at /redfish/v1/Oem/Ami/InventoryData (inventory.json) has been successfully created.",
+            "MessageArgs": [
+                "/redfish/v1/Oem/Ami/InventoryData (inventory.json)"
+            ],
+            "MessageId": "Security.1.0.ResourceCreated",
+            "Name": "Audit Log Entry 39",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Managers/BMC/LogServices/AuditLog/Entries/40",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:16:06-04:00",
+            "Description": "The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "EntryType": "Event",
+            "EventTimestamp": "2026-10-16T12:16:06-04:00",
+            "Id": "40",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Oem/Ami/InventoryData"
+                }
+            },
+            "Message": "User: wVTkbqQ9dRJnjHhv, IP: 169.254.0.18, Protocol: https - The value of attribute BootComplete at /redfish/v1/Oem/Ami/InventoryData was successfully updated from false to true.",
+            "MessageArgs": [
+                "BootComplete",
+                "/redfish/v1/Oem/Ami/InventoryData",
+                "false",
+                "true"
+            ],
+            "MessageId": "Security.1.0.ResourceModified",
+            "Name": "Audit Log Entry 40",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 40,
+    "Name": "Log Service Entries Collection"
+}

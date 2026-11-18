@@ -1,0 +1,17 @@
+{
+    "@odata.id": "/redfish/v1/Managers/HGX_BMC_0/LogServices/EventLog/Entries/536896",
+    "@odata.type": "#LogEntry.v1_15_0.LogEntry",
+    "Created": "2026-10-16T07:04:07+00:00",
+    "EntryType": "Event",
+    "Id": "536896",
+    "Message": "Processes consuming HIGH Resource CPU are nsmd (19%) /usr/lib/systemd/systemd-journald (13%) monitor-eventingd (9%)",
+    "MessageArgs": [
+        "CPU",
+        "nsmd (19%) /usr/lib/systemd/systemd-journald (13%) monitor-eventingd (9%)"
+    ],
+    "MessageId": "OpenBMC.0.4.BMCSystemResourceInfo",
+    "Name": "Manager Event Log Entry",
+    "Resolution": "None",
+    "Resolved": false,
+    "Severity": "OK"
+}

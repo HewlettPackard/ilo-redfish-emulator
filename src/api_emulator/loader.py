@@ -55,6 +55,7 @@ from .redfish.system_storage_api import (SystemStorageAPI, InitStorage)
 from .redfish.system_storage_instance_api import (SystemStorageInstanceAPI, InitSystemStorageInstance, SystemStorageResetToDefaultsAction, StorageDriveSecureEraseActionAPI, SystemStorageDriveAPI)
 from .redfish.system_storage_volume_api import (StorageVolumeCollectionAPI, InitVolumes, StorageVolumeAPI)
 from .redfish.network_device_function_api import NetworkDeviceFunctionAPI, InitNetworkDeviceFunction
+from .redfish.network_adapter_port_api import NetworkAdapterPortAPI, InitNetworkAdapterPort
 
 import api_emulator.redfish.power_control_api as generic_power
 import api_emulator.redfish.hpe_cray_ex_power_control_api as hpe_cray_ex_power
@@ -169,6 +170,7 @@ class Loader:
         self.init_system_storage()
         self.init_chassis_drive()
         self.init_network_device_functions()
+        self.init_network_adapter_ports()
 
     def init_power_limit(self):
         try:
@@ -248,6 +250,8 @@ class Loader:
                         logging.info('Using default reset actions for Systems/%s' % sys_id)
                 CreateComputerSystem(sys_id, config, rst_actions)
                 found_reset = True
+            else:
+                CreateComputerSystem(sys_id, config, [])
         if found_system:
             g.api.add_resource(ComputerSystemAPI, '/redfish/v1/Systems/<string:ident>')
         if found_reset:
@@ -444,7 +448,10 @@ class Loader:
         if is_hpe_cray_ex_cert:
             g.api.add_resource(hpe_cray_ex_cert.ReplaceCertificateAPI, '/redfish/v1/CertificateService/Actions/CertificateService.ReplaceCertificate')
             certCollection = self.resource_dictionary.get_resource('Managers/BMC/NetworkProtocol/HTTPS/Certificates')
-            for member in certCollection['Members']['Certificates']:
+            members = certCollection['Members']
+            if isinstance(members, dict):
+                members = members.get('Certificates', [])
+            for member in members:
                 cert_id = member['@odata.id'].replace('/redfish/v1/Managers/BMC/NetworkProtocol/HTTPS/Certificates/', '')
                 cert_config = self.resource_dictionary.get_resource('Managers/BMC/NetworkProtocol/HTTPS/Certificates/%s' % cert_id)
                 hpe_cray_ex_cert.CreateCert(cert_id, cert_config)
@@ -605,6 +612,40 @@ class Loader:
             g.api.add_resource(NetworkDeviceFunctionAPI,
                 '/redfish/v1/Chassis/<string:chassis_id>/NetworkAdapters/<string:adapter_id>/NetworkDeviceFunctions/<string:func_id>')
 
+    def init_network_adapter_ports(self):
+        found = False
+        try:
+            collection = self.resource_dictionary.get_resource('Chassis')
+            for member in collection.get('Members', []):
+                chassis_id = member['@odata.id'].split('/')[-1]
+                try:
+                    adapters = self.resource_dictionary.get_resource('Chassis/%s/NetworkAdapters' % chassis_id)
+                except:
+                    continue
+                for adapter_member in adapters.get('Members', []):
+                    adapter_id = adapter_member['@odata.id'].split('/')[-1]
+                    try:
+                        ports = self.resource_dictionary.get_resource(
+                            'Chassis/%s/NetworkAdapters/%s/Ports' % (chassis_id, adapter_id))
+                    except:
+                        continue
+                    for port_member in ports.get('Members', []):
+                        port_id = port_member['@odata.id'].split('/')[-1]
+                        try:
+                            port_config = self.resource_dictionary.get_resource(
+                                'Chassis/%s/NetworkAdapters/%s/Ports/%s' % (chassis_id, adapter_id, port_id))
+                            InitNetworkAdapterPort(chassis_id, adapter_id, port_id, port_config)
+                            found = True
+                        except Exception as e:
+                            logging.warning('Could not load NetworkAdapter Port %s/%s/%s: %s' % (chassis_id, adapter_id, port_id, e))
+        except Exception as e:
+            logging.error('Exception loading NetworkAdapter Ports: %s' % e)
+            return
+
+        if found:
+            g.api.add_resource(NetworkAdapterPortAPI,
+                '/redfish/v1/Chassis/<string:chassis_id>/NetworkAdapters/<string:adapter_id>/Ports/<string:port_id>')
+
     # Get the BMC type
     def get_type(self):
         return self.BMC_Type
@@ -701,7 +742,7 @@ class Loader:
                         for memberUrl in collection_page['Members']:
                             url = memberUrl['@odata.id'].replace('/redfish/v1/', '')
                             adapter_id = url.split('/')[-1]
-                            page = self.resource_dictionary.get_resource(f"Chassis/1/NetworkAdapters/{adapter_id}")
+                            page = self.resource_dictionary.get_resource(url)
                             if 'SerialNumber' in page:
                                 sn = page['SerialNumber']
                                 if sn in foundSNs:

@@ -1,0 +1,23 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_GPU_2/EnvironmentMetrics",
+    "@odata.type": "#EnvironmentMetrics.v1_3_0.EnvironmentMetrics",
+    "EnergyJoules": {
+        "DataSourceUri": "/redfish/v1/Chassis/HGX_GPU_2/Sensors/HGX_GPU_2_Energy_0",
+        "Reading": 68519284.952
+    },
+    "EnergykWh": {
+        "Reading": 19.033134724115
+    },
+    "FanSpeedsPercent": [],
+    "Id": "EnvironmentMetrics",
+    "Name": "Chassis Environment Metrics",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaEnvironmentMetrics.v1_2_0.NvidiaEnvironmentMetrics"
+        }
+    },
+    "PowerWatts": {
+        "DataSourceUri": "/redfish/v1/Chassis/HGX_GPU_2/Sensors/HGX_GPU_2_Power_0",
+        "Reading": 187.875
+    }
+}

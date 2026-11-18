@@ -1,0 +1,33 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/PCIeDevices/NVLinkManagementNIC_0",
+    "@odata.type": "#PCIeDevice.v1_14_0.PCIeDevice",
+    "DeviceType": "SingleFunction",
+    "Id": "NVLinkManagementNIC_0",
+    "Manufacturer": "NVIDIA",
+    "Model": "Nvidia ConnectX7 mezz for Nvidia B300 NVL8 Umbriel System",
+    "Name": "PCIe Device",
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaPCIeDevice.v1_2_0.NvidiaPCIeDevice",
+            "PCIeReferenceClockEnabled": false
+        }
+    },
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/PCIeDevices/NVLinkManagementNIC_0/PCIeFunctions"
+    },
+    "PCIeInterface": {
+        "LanesInUse": 2,
+        "MaxLanes": 2,
+        "MaxPCIeType": "Gen4",
+        "PCIeType": "Gen4"
+    },
+    "PartNumber": "V000S4N03X",
+    "SerialNumber": "1662925751056",
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "UUID": "ae0a96c0-cb06-11e5-a837-3c6d66d5a0ca"
+}

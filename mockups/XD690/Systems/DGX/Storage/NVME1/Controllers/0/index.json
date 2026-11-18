@@ -1,0 +1,29 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#StorageController.v1_0_0.StorageController",
+    "@odata.etag": "\"1792167380\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/Storage/NVME1/Controllers/0",
+    "@odata.type": "#StorageController.v1_0_0.StorageController",
+    "AssetTag": "Micron NVME",
+    "FirmwareVersion": "E2MU200",
+    "Id": "0",
+    "Manufacturer": "Micron Technology Inc.",
+    "Model": "Micron_7450_MTFDKBA960TFR",
+    "NVMeControllerProperties": {
+        "MaxQueueSize": 8191,
+        "NVMeVersion": "NVMe Spec v1.4"
+    },
+    "Name": "Micron NVME",
+    "SerialNumber": "2539538A8C86",
+    "SpeedGbps": 63.02,
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "SupportedControllerProtocols": [
+        "NVMe",
+        "PCIe"
+    ],
+    "SupportedDeviceProtocols": [
+        "NVMe"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/PDB/Sensors/VOLT_VCCFA_CPU1",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "VOLT_VCCFA_CPU1",
+    "Name": "VOLT_VCCFA_CPU1",
+    "PhysicalContext": "VoltageRegulator",
+    "Reading": 1.009,
+    "ReadingRangeMax": 2.0655,
+    "ReadingRangeMin": 0,
+    "ReadingType": "Voltage",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

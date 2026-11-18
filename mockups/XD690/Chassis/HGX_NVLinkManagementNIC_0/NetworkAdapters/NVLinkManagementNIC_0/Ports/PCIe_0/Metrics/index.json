@@ -1,0 +1,12 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/PCIe_0/Metrics",
+    "@odata.type": "#PortMetrics.v1_7_0.PortMetrics",
+    "Id": "PCIe_0",
+    "Name": "PCIe_0 Port Metrics",
+    "PCIeErrors": {
+        "CorrectableErrorCount": 0,
+        "FatalErrorCount": 0,
+        "L0ToRecoveryCount": 0,
+        "NonFatalErrorCount": 0
+    }
+}

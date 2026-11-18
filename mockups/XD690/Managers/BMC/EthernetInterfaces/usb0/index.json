@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#EthernetInterface.EthernetInterface",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Managers/BMC/EthernetInterfaces/usb0",
+    "@odata.type": "#EthernetInterface.v1_6_2.EthernetInterface",
+    "FullDuplex": false,
+    "HostName": "AMI",
+    "IPv4Addresses": [
+        {
+            "Address": "169.254.0.17",
+            "SubnetMask": "255.255.0.0"
+        }
+    ],
+    "Id": "usb0",
+    "InterfaceEnabled": true,
+    "Name": "usb0",
+    "PermanentMACAddress": "E2:80:12:56:D3:73",
+    "StatelessAddressAutoConfig": {
+        "IPv4AutoConfigEnabled": false,
+        "IPv6AutoConfigEnabled": false
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOptionCollection.BootOptionCollection",
+    "@odata.etag": "\"1792278296\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/BootOptions",
+    "@odata.type": "#BootOptionCollection.BootOptionCollection",
+    "Description": "Collection of BootOption for this system",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/0001"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/0002"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/0003"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/0004"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/0005"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/0006"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/0007"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/0008"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/0009"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/000A"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/000B"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/BootOptions/000C"
+        }
+    ],
+    "Members@odata.count": 12,
+    "Name": "BootOption Collection"
+}

@@ -1,0 +1,18 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Fan.Fan",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/ThermalSubsystem/Fans/SPD_FAN_2_2_R",
+    "@odata.type": "#Fan.v1_1_1.Fan",
+    "Id": "SPD_FAN_2_2_R",
+    "Name": "SPD_FAN_2_2_R",
+    "PhysicalContext": "Fan",
+    "SpeedPercent": {
+        "DataSourceUri": "/redfish/v1/Chassis/DGX/Sensors/SPD_FAN_2_2_R",
+        "Reading": 7656,
+        "SpeedRPM": 7656
+    },
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

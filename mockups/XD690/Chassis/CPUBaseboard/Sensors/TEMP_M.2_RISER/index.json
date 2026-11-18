@@ -1,0 +1,26 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/CPUBaseboard/Sensors/TEMP_M.2_RISER",
+    "@odata.type": "#Sensor.v1_0_2.Sensor",
+    "Id": "TEMP_M.2_RISER",
+    "Name": "TEMP_M.2_RISER",
+    "PhysicalContext": "Intake",
+    "Reading": 28,
+    "ReadingType": "Temperature",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Thresholds": {
+        "UpperCaution": {
+            "Reading": 65
+        },
+        "UpperCritical": {
+            "Reading": 68
+        },
+        "UpperFatal": {
+            "Reading": 70
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_ERoT_NVLinkManagementNIC_0/TrustedComponents/ERoT_NVLinkManagementNIC_0",
+    "@odata.type": "#TrustedComponent.v1_0_0.TrustedComponent",
+    "Certificates": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_ERoT_NVLinkManagementNIC_0/TrustedComponents/ERoT_NVLinkManagementNIC_0/Certificates"
+    },
+    "Id": "ERoT_NVLinkManagementNIC_0",
+    "Links": {
+        "ComponentIntegrity": [
+            {
+                "@odata.id": "/redfish/v1/ComponentIntegrity/HGX_ERoT_NVLinkManagementNIC_0"
+            }
+        ],
+        "ComponentsProtected": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0"
+            }
+        ]
+    },
+    "Manufacturer": "NVIDIA",
+    "Name": "ERoT_NVLinkManagementNIC_0",
+    "SerialNumber": "0x0411050719080E14",
+    "TrustedComponentType": "Discrete",
+    "UUID": "5f7f6a91-3f28-4cc0-be5d-4985d4c52a0c"
+}

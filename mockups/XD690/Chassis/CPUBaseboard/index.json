@@ -1,0 +1,37 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Chassis.Chassis",
+    "@odata.etag": "\"1792069370\"",
+    "@odata.id": "/redfish/v1/Chassis/CPUBaseboard",
+    "@odata.type": "#Chassis.v1_15_0.Chassis",
+    "AssetTag": "NA            ",
+    "ChassisType": "Component",
+    "Description": "Chassis Instance for CPUBaseboard",
+    "Id": "CPUBaseboard",
+    "IndicatorLED": null,
+    "Links": {
+        "ContainedBy": {
+            "@odata.id": "/redfish/v1/Chassis/DGX"
+        },
+        "ManagedBy": [
+            {
+                "@odata.id": "/redfish/v1/Managers/BMC"
+            }
+        ],
+        "ManagedBy@odata.count": 1
+    },
+    "Manufacturer": "HPE",
+    "Model": "Compute XD690 ",
+    "Name": "CPUBaseboard",
+    "NetworkAdapters": {
+        "@odata.id": "/redfish/v1/Chassis/CPUBaseboard/NetworkAdapters"
+    },
+    "PartNumber": "S6G97A        ",
+    "PowerState": null,
+    "Sensors": {
+        "@odata.id": "/redfish/v1/Chassis/CPUBaseboard/Sensors"
+    },
+    "SerialNumber": "123456789A    ",
+    "ThermalSubsystem": {
+        "@odata.id": "/redfish/v1/Chassis/CPUBaseboard/ThermalSubsystem"
+    }
+}

@@ -1,0 +1,531 @@
+{
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReports/HGX_MemoryMetrics_0",
+    "@odata.type": "#MetricReport.v1_4_2.MetricReport",
+    "Id": "HGX_MemoryMetrics_0",
+    "MetricReportDefinition": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/HGX_MemoryMetrics_0"
+    },
+    "MetricValues": [
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_0_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/HighAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:59.473+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_0_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/LowAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:59.473+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_0_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/MaxAvailabilityBankCount",
+            "MetricValue": "5952",
+            "Timestamp": "2026-10-20T18:02:59.473+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_0_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/NoAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:59.473+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_0_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/PartialAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:59.473+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_0_DRAM_0#/Oem/Nvidia/RowRemappingFailed",
+            "MetricValue": "false",
+            "Timestamp": "2026-10-20T18:02:57.588+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_0_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/CorrectableRowRemappingCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:57.592+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_0_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/UncorrectableRowRemappingCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:57.592+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_0_DRAM_0/MemoryMetrics#/OperatingSpeedMHz",
+            "MetricValue": "3996",
+            "Timestamp": "2026-10-20T18:02:56.877+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_0_DRAM_0/MemoryMetrics#/CapacityUtilizationPercent",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:10.897+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_0_DRAM_0/MemoryMetrics#/BandwidthPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:59.789+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_0_DRAM_0/MemoryMetrics#/LifeTime/CorrectableECCErrorCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:56.878+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_0_DRAM_0/MemoryMetrics#/LifeTime/UncorrectableECCErrorCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:56.878+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_1_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/HighAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:43.306+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_1_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/LowAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:43.306+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_1_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/MaxAvailabilityBankCount",
+            "MetricValue": "5952",
+            "Timestamp": "2026-10-20T18:02:43.306+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_1_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/NoAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:43.306+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_1_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/PartialAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:43.306+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_1_DRAM_0#/Oem/Nvidia/RowRemappingFailed",
+            "MetricValue": "false",
+            "Timestamp": "2026-10-20T18:02:43.115+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_1_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/CorrectableRowRemappingCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:43.119+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_1_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/UncorrectableRowRemappingCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:43.119+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_1_DRAM_0/MemoryMetrics#/OperatingSpeedMHz",
+            "MetricValue": "3996",
+            "Timestamp": "2026-10-20T18:03:10.870+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_1_DRAM_0/MemoryMetrics#/CapacityUtilizationPercent",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:40.235+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_1_DRAM_0/MemoryMetrics#/BandwidthPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:45.406+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_1_DRAM_0/MemoryMetrics#/LifeTime/CorrectableECCErrorCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:11.005+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_1_DRAM_0/MemoryMetrics#/LifeTime/UncorrectableECCErrorCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:11.005+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_2_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/HighAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:43.206+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_2_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/LowAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:43.206+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_2_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/MaxAvailabilityBankCount",
+            "MetricValue": "5952",
+            "Timestamp": "2026-10-20T18:02:43.206+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_2_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/NoAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:43.206+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_2_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/PartialAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:43.206+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_2_DRAM_0#/Oem/Nvidia/RowRemappingFailed",
+            "MetricValue": "false",
+            "Timestamp": "2026-10-20T18:02:42.533+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_2_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/CorrectableRowRemappingCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:43.203+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_2_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/UncorrectableRowRemappingCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:43.203+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_2_DRAM_0/MemoryMetrics#/OperatingSpeedMHz",
+            "MetricValue": "3996",
+            "Timestamp": "2026-10-20T18:03:12.221+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_2_DRAM_0/MemoryMetrics#/CapacityUtilizationPercent",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:12.400+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_2_DRAM_0/MemoryMetrics#/BandwidthPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:45.767+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_2_DRAM_0/MemoryMetrics#/LifeTime/CorrectableECCErrorCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:42.449+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_2_DRAM_0/MemoryMetrics#/LifeTime/UncorrectableECCErrorCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:42.449+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_3_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/HighAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:05.414+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_3_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/LowAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:05.414+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_3_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/MaxAvailabilityBankCount",
+            "MetricValue": "5952",
+            "Timestamp": "2026-10-20T18:03:05.414+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_3_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/NoAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:05.414+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_3_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/PartialAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:05.414+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_3_DRAM_0#/Oem/Nvidia/RowRemappingFailed",
+            "MetricValue": "false",
+            "Timestamp": "2026-10-20T18:03:05.342+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_3_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/CorrectableRowRemappingCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:05.370+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_3_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/UncorrectableRowRemappingCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:05.370+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_3_DRAM_0/MemoryMetrics#/OperatingSpeedMHz",
+            "MetricValue": "3996",
+            "Timestamp": "2026-10-20T18:03:03.951+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_3_DRAM_0/MemoryMetrics#/CapacityUtilizationPercent",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:50.166+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_3_DRAM_0/MemoryMetrics#/BandwidthPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:06.421+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_3_DRAM_0/MemoryMetrics#/LifeTime/CorrectableECCErrorCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.714+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_3_DRAM_0/MemoryMetrics#/LifeTime/UncorrectableECCErrorCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:04.714+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_4_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/HighAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:59.465+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_4_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/LowAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:59.465+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_4_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/MaxAvailabilityBankCount",
+            "MetricValue": "5952",
+            "Timestamp": "2026-10-20T18:02:59.464+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_4_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/NoAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:59.465+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_4_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/PartialAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:59.465+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_4_DRAM_0#/Oem/Nvidia/RowRemappingFailed",
+            "MetricValue": "false",
+            "Timestamp": "2026-10-20T18:02:59.437+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_4_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/CorrectableRowRemappingCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:59.441+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_4_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/UncorrectableRowRemappingCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:59.441+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_4_DRAM_0/MemoryMetrics#/OperatingSpeedMHz",
+            "MetricValue": "3996",
+            "Timestamp": "2026-10-20T18:02:56.844+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_4_DRAM_0/MemoryMetrics#/CapacityUtilizationPercent",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:42.380+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_4_DRAM_0/MemoryMetrics#/BandwidthPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:03:00.120+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_4_DRAM_0/MemoryMetrics#/LifeTime/CorrectableECCErrorCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:58.574+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_4_DRAM_0/MemoryMetrics#/LifeTime/UncorrectableECCErrorCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:58.574+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_5_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/HighAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:45.559+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_5_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/LowAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:45.559+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_5_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/MaxAvailabilityBankCount",
+            "MetricValue": "5952",
+            "Timestamp": "2026-10-20T18:02:45.559+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_5_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/NoAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:45.559+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_5_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/PartialAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:45.559+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_5_DRAM_0#/Oem/Nvidia/RowRemappingFailed",
+            "MetricValue": "false",
+            "Timestamp": "2026-10-20T18:02:44.497+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_5_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/CorrectableRowRemappingCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:44.501+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_5_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/UncorrectableRowRemappingCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:44.501+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_5_DRAM_0/MemoryMetrics#/OperatingSpeedMHz",
+            "MetricValue": "3996",
+            "Timestamp": "2026-10-20T18:02:44.347+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_5_DRAM_0/MemoryMetrics#/CapacityUtilizationPercent",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:02.332+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_5_DRAM_0/MemoryMetrics#/BandwidthPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:45.715+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_5_DRAM_0/MemoryMetrics#/LifeTime/CorrectableECCErrorCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:44.349+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_5_DRAM_0/MemoryMetrics#/LifeTime/UncorrectableECCErrorCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:44.349+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_6_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/HighAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:53.306+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_6_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/LowAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:53.306+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_6_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/MaxAvailabilityBankCount",
+            "MetricValue": "5952",
+            "Timestamp": "2026-10-20T18:02:53.306+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_6_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/NoAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:53.306+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_6_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/PartialAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:53.306+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_6_DRAM_0#/Oem/Nvidia/RowRemappingFailed",
+            "MetricValue": "false",
+            "Timestamp": "2026-10-20T18:02:53.153+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_6_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/CorrectableRowRemappingCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:53.157+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_6_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/UncorrectableRowRemappingCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:53.157+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_6_DRAM_0/MemoryMetrics#/OperatingSpeedMHz",
+            "MetricValue": "3996",
+            "Timestamp": "2026-10-20T18:02:52.958+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_6_DRAM_0/MemoryMetrics#/CapacityUtilizationPercent",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:03:12.383+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_6_DRAM_0/MemoryMetrics#/BandwidthPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:53.345+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_6_DRAM_0/MemoryMetrics#/LifeTime/CorrectableECCErrorCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:53.036+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_6_DRAM_0/MemoryMetrics#/LifeTime/UncorrectableECCErrorCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:53.036+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_7_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/HighAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:49.577+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_7_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/LowAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:49.577+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_7_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/MaxAvailabilityBankCount",
+            "MetricValue": "5952",
+            "Timestamp": "2026-10-20T18:02:49.577+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_7_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/NoAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:49.577+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_7_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/PartialAvailabilityBankCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:49.577+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_7_DRAM_0#/Oem/Nvidia/RowRemappingFailed",
+            "MetricValue": "false",
+            "Timestamp": "2026-10-20T18:02:49.492+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_7_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/CorrectableRowRemappingCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:49.503+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_7_DRAM_0/MemoryMetrics#/Oem/Nvidia/RowRemapping/UncorrectableRowRemappingCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:49.503+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_7_DRAM_0/MemoryMetrics#/OperatingSpeedMHz",
+            "MetricValue": "3996",
+            "Timestamp": "2026-10-20T18:02:49.442+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_7_DRAM_0/MemoryMetrics#/CapacityUtilizationPercent",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:45.364+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_7_DRAM_0/MemoryMetrics#/BandwidthPercent",
+            "MetricValue": "0.000000",
+            "Timestamp": "2026-10-20T18:02:51.965+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_7_DRAM_0/MemoryMetrics#/LifeTime/CorrectableECCErrorCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:49.487+00:00"
+        },
+        {
+            "MetricProperty": "/redfish/v1/Systems/HGX_Baseboard_0/Memory/GPU_7_DRAM_0/MemoryMetrics#/LifeTime/UncorrectableECCErrorCount",
+            "MetricValue": "0",
+            "Timestamp": "2026-10-20T18:02:49.487+00:00"
+        }
+    ],
+    "Name": "HGX_MemoryMetrics_0"
+}

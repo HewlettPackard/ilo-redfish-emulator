@@ -1,0 +1,25 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_ERoT_FPGA_0/TrustedComponents/ERoT_FPGA_0",
+    "@odata.type": "#TrustedComponent.v1_0_0.TrustedComponent",
+    "Certificates": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_ERoT_FPGA_0/TrustedComponents/ERoT_FPGA_0/Certificates"
+    },
+    "Id": "ERoT_FPGA_0",
+    "Links": {
+        "ComponentIntegrity": [
+            {
+                "@odata.id": "/redfish/v1/ComponentIntegrity/HGX_ERoT_FPGA_0"
+            }
+        ],
+        "ComponentsProtected": [
+            {
+                "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/Processors/FPGA_0"
+            }
+        ]
+    },
+    "Manufacturer": "NVIDIA",
+    "Name": "ERoT_FPGA_0",
+    "SerialNumber": "0x0411050719080E06",
+    "TrustedComponentType": "Discrete",
+    "UUID": "5f7f6a51-3f28-4cc0-be5d-4985d4c52a0c"
+}

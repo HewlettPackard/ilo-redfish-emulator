@@ -1,0 +1,34 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1",
+    "@odata.type": "#Port.v1_6_0.Port",
+    "CurrentSpeedGbps": 100,
+    "Id": "NVLinkManagement_1",
+    "LinkNetworkTechnology": "InfiniBand",
+    "LinkState": "Enabled",
+    "LinkStatus": "LinkUp",
+    "Links": {
+        "ConnectedSwitchPorts": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports/NVLinkManagement_0"
+            }
+        ],
+        "ConnectedSwitches": [
+            {
+                "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1"
+            }
+        ]
+    },
+    "MaxSpeedGbps": 400,
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0/Ports/NVLinkManagement_1/Metrics"
+    },
+    "Name": "Port",
+    "PortProtocol": "NVLink",
+    "PortType": "ManagementPort",
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

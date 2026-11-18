@@ -1,0 +1,103 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkDeviceFunction.NetworkDeviceFunction",
+    "@odata.etag": "\"1792303512\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_2/NetworkDeviceFunctions/NetworkDeviceFunction0/SD",
+    "@odata.type": "#NetworkDeviceFunction.v1_5_0.NetworkDeviceFunction",
+    "AssignablePhysicalNetworkPorts": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_2/Ports/NetworkPort_0"
+        }
+    ],
+    "AssignablePhysicalNetworkPorts@odata.count": 1,
+    "AssignablePhysicalPorts@odata.count": 0,
+    "BootMode@Redfish.AllowableValues": [
+        "Disabled",
+        "PXE",
+        "iSCSI",
+        "FibreChannel",
+        "FibreChannelOverEthernet"
+    ],
+    "DeviceEnabled": false,
+    "Ethernet": {
+        "MACAddress": "30:3E:A7:1C:09:CC",
+        "MTUSize": 1500,
+        "PermanentMACAddress": "30:3E:A7:1C:09:CC",
+        "VLANs": {
+            "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_2/NetworkDeviceFunctions/NetworkDeviceFunction0/Ethernet/VLANs"
+        }
+    },
+    "FibreChannel": {
+        "AllowFIPVLANDiscovery": false,
+        "WWNSource@Redfish.AllowableValues": [
+            "ConfiguredLocally",
+            "ProvidedByFabric"
+        ]
+    },
+    "Id": "NetworkDeviceFunction0",
+    "Links": {
+        "Endpoints@odata.count": 0,
+        "PCIeFunction": {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/IO_BAY_2/PCIeFunctions/DevIndex3B"
+        },
+        "PhysicalNetworkPortAssignment": {
+            "@odata.id": "/redfish/v1/Chassis/DGX/NetworkAdapters/IO_BAY_2/Ports/NetworkPort_0"
+        }
+    },
+    "MaxVirtualFunctions": 128,
+    "Name": "NetworkDeviceFunction0",
+    "NetDevFuncCapabilities": [
+        "Ethernet"
+    ],
+    "NetDevFuncType": "Ethernet",
+    "NetDevFuncType@Redfish.AllowableValues": [
+        "Disabled",
+        "Ethernet",
+        "FibreChannel",
+        "iSCSI",
+        "FibreChannelOverEthernet",
+        "InfiniBand"
+    ],
+    "Status": {
+        "Health": "OK",
+        "State": "Disabled"
+    },
+    "VirtualFunctionsEnabled": false,
+    "iSCSIBoot": {
+        "AuthenticationMethod": null,
+        "AuthenticationMethod@Redfish.AllowableValues": [
+            "None",
+            "CHAP",
+            "MutualCHAP"
+        ],
+        "CHAPSecret": null,
+        "CHAPUsername": null,
+        "IPAddressType": null,
+        "IPAddressType@Redfish.AllowableValues": [
+            "IPv4",
+            "IPv6"
+        ],
+        "IPMaskDNSViaDHCP": null,
+        "InitiatorDefaultGateway": null,
+        "InitiatorIPAddress": null,
+        "InitiatorName": null,
+        "InitiatorNetmask": null,
+        "MutualCHAPSecret": null,
+        "MutualCHAPUsername": null,
+        "PrimaryDNS": null,
+        "PrimaryLUN": null,
+        "PrimaryTargetIPAddress": null,
+        "PrimaryTargetName": null,
+        "PrimaryTargetTCPPort": null,
+        "PrimaryVLANEnable": null,
+        "PrimaryVLANId": null,
+        "RouterAdvertisementEnabled": null,
+        "SecondaryDNS": null,
+        "SecondaryLUN": null,
+        "SecondaryTargetIPAddress": null,
+        "SecondaryTargetName": null,
+        "SecondaryTargetTCPPort": null,
+        "SecondaryVLANEnable": null,
+        "SecondaryVLANId": null,
+        "TargetInfoViaDHCP": null
+    }
+}

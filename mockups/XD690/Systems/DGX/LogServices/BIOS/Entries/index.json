@@ -1,0 +1,1061 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "\"1792167373\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/123",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "BIOS 564",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:10:30+00:00",
+            "Id": "123",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-07T17:10:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 564, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 564",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/124",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "BIOS 565",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:10:30+00:00",
+            "Id": "124",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-07T17:10:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 565, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 565",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/125",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "BIOS 566",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:10:30+00:00",
+            "Id": "125",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-07T17:10:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 566, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 566",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/126",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "BIOS 567",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:10:30+00:00",
+            "Id": "126",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-07T17:10:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 567, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 567",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/127",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "BIOS 568",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:11:09+00:00",
+            "Id": "127",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 19, Timestamp : 2026-10-07T17:11:09+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 568, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC213FF",
+            "Name": "BIOS 568",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/128",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:38+00:00",
+            "Description": "BIOS 636",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "128",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 10, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 636, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC20AFF",
+            "Name": "BIOS 636",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/129",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:38+00:00",
+            "Description": "BIOS 639",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "129",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 7, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 639, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC207FF",
+            "Name": "BIOS 639",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/130",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:38+00:00",
+            "Description": "BIOS 640",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "130",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 9, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 640, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC209FF",
+            "Name": "BIOS 640",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/131",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:38+00:00",
+            "Description": "BIOS 641",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "131",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 12, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 641, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC20CFF",
+            "Name": "BIOS 641",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/132",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:38+00:00",
+            "Description": "BIOS 642",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "132",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 6, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 642, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC206FF",
+            "Name": "BIOS 642",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/133",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:38+00:00",
+            "Description": "BIOS 643",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "133",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 12, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 643, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC20CFF",
+            "Name": "BIOS 643",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/134",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:38+00:00",
+            "Description": "BIOS 644",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "134",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 644, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 644",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/135",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:38+00:00",
+            "Description": "BIOS 645",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "135",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 645, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 645",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/136",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:39+00:00",
+            "Description": "BIOS 646",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "136",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 646, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 646",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/137",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:39+00:00",
+            "Description": "BIOS 647",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "137",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 647, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 647",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/138",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:39+00:00",
+            "Description": "BIOS 648",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "138",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 648, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 648",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/139",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:39+00:00",
+            "Description": "BIOS 649",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "139",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 649, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 649",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/140",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:39+00:00",
+            "Description": "BIOS 650",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "140",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 650, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 650",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/141",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:39+00:00",
+            "Description": "BIOS 651",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "141",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 651, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 651",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/142",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:39+00:00",
+            "Description": "BIOS 652",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "142",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 19, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 652, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC213FF",
+            "Name": "BIOS 652",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/143",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T07:01:54-04:00",
+            "Description": "BIOS 723",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T07:01:53-04:00",
+            "Id": "143",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 10, Timestamp : 2026-10-16T07:01:53-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 723, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC20AFF",
+            "Name": "BIOS 723",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/144",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T07:02:34-04:00",
+            "Description": "BIOS 730",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T07:02:34-04:00",
+            "Id": "144",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 7, Timestamp : 2026-10-16T07:02:34-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 730, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC207FF",
+            "Name": "BIOS 730",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/145",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T07:02:47-04:00",
+            "Description": "BIOS 731",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T07:02:46-04:00",
+            "Id": "145",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 9, Timestamp : 2026-10-16T07:02:46-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 731, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC209FF",
+            "Name": "BIOS 731",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/146",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T07:02:49-04:00",
+            "Description": "BIOS 732",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T07:02:47-04:00",
+            "Id": "146",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 12, Timestamp : 2026-10-16T07:02:47-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 732, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC20CFF",
+            "Name": "BIOS 732",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/147",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T07:02:49-04:00",
+            "Description": "BIOS 733",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T07:02:48-04:00",
+            "Id": "147",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 6, Timestamp : 2026-10-16T07:02:48-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 733, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC206FF",
+            "Name": "BIOS 733",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/148",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T07:04:28-04:00",
+            "Description": "BIOS 734",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T07:04:27-04:00",
+            "Id": "148",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 12, Timestamp : 2026-10-16T07:04:27-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 734, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC20CFF",
+            "Name": "BIOS 734",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/149",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T07:04:36-04:00",
+            "Description": "BIOS 735",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T07:04:35-04:00",
+            "Id": "149",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-16T07:04:35-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 735, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 735",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/150",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T07:04:36-04:00",
+            "Description": "BIOS 736",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T07:04:35-04:00",
+            "Id": "150",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-16T07:04:35-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 736, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 736",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/151",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T07:04:36-04:00",
+            "Description": "BIOS 737",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T07:04:35-04:00",
+            "Id": "151",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-16T07:04:35-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 737, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 737",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/152",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T07:04:36-04:00",
+            "Description": "BIOS 738",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T07:04:36-04:00",
+            "Id": "152",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-16T07:04:36-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 738, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 738",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/153",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T07:04:40-04:00",
+            "Description": "BIOS 739",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T07:04:39-04:00",
+            "Id": "153",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-16T07:04:39-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 739, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 739",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/154",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T07:04:40-04:00",
+            "Description": "BIOS 740",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T07:04:40-04:00",
+            "Id": "154",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-16T07:04:40-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 740, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 740",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/155",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T07:04:40-04:00",
+            "Description": "BIOS 741",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T07:04:40-04:00",
+            "Id": "155",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-16T07:04:40-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 741, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 741",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/156",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T07:04:40-04:00",
+            "Description": "BIOS 742",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T07:04:40-04:00",
+            "Id": "156",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-16T07:04:40-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 742, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 742",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/157",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T08:35:09-04:00",
+            "Description": "BIOS 744",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T08:35:08-04:00",
+            "Id": "157",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 19, Timestamp : 2026-10-16T08:35:08-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 744, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC213FF",
+            "Name": "BIOS 744",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/158",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:14:07-04:00",
+            "Description": "BIOS 770",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T12:14:06-04:00",
+            "Id": "158",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 10, Timestamp : 2026-10-16T12:14:06-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 770, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC20AFF",
+            "Name": "BIOS 770",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/159",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:14:46-04:00",
+            "Description": "BIOS 777",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T12:14:45-04:00",
+            "Id": "159",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 7, Timestamp : 2026-10-16T12:14:45-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 777, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC207FF",
+            "Name": "BIOS 777",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/160",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:14:58-04:00",
+            "Description": "BIOS 778",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T12:14:58-04:00",
+            "Id": "160",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 9, Timestamp : 2026-10-16T12:14:58-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 778, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC209FF",
+            "Name": "BIOS 778",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/161",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:15:00-04:00",
+            "Description": "BIOS 779",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T12:14:59-04:00",
+            "Id": "161",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 12, Timestamp : 2026-10-16T12:14:59-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 779, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC20CFF",
+            "Name": "BIOS 779",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/162",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:15:00-04:00",
+            "Description": "BIOS 780",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T12:14:59-04:00",
+            "Id": "162",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 6, Timestamp : 2026-10-16T12:14:59-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 780, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC206FF",
+            "Name": "BIOS 780",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/163",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:15:41-04:00",
+            "Description": "BIOS 781",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T12:15:40-04:00",
+            "Id": "163",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 12, Timestamp : 2026-10-16T12:15:40-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 781, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC20CFF",
+            "Name": "BIOS 781",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/164",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:15:49-04:00",
+            "Description": "BIOS 782",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T12:15:48-04:00",
+            "Id": "164",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-16T12:15:48-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 782, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 782",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/165",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:15:49-04:00",
+            "Description": "BIOS 783",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T12:15:48-04:00",
+            "Id": "165",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-16T12:15:48-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 783, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 783",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/166",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:15:49-04:00",
+            "Description": "BIOS 784",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T12:15:48-04:00",
+            "Id": "166",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-16T12:15:48-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 784, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 784",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/167",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:15:49-04:00",
+            "Description": "BIOS 785",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T12:15:48-04:00",
+            "Id": "167",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-16T12:15:48-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 785, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 785",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/168",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:15:53-04:00",
+            "Description": "BIOS 786",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T12:15:52-04:00",
+            "Id": "168",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-16T12:15:52-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 786, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 786",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/169",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:15:53-04:00",
+            "Description": "BIOS 787",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T12:15:52-04:00",
+            "Id": "169",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-16T12:15:52-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 787, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 787",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/170",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:15:53-04:00",
+            "Description": "BIOS 788",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T12:15:52-04:00",
+            "Id": "170",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-16T12:15:52-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 788, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 788",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/171",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:15:53-04:00",
+            "Description": "BIOS 789",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T12:15:52-04:00",
+            "Id": "171",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 2, Timestamp : 2026-10-16T12:15:52-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 789, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC202FF",
+            "Name": "BIOS 789",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/DGX/LogServices/BIOS/Entries/172",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-16T12:16:13-04:00",
+            "Description": "BIOS 790",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-16T12:16:12-04:00",
+            "Id": "172",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Systems/DGX"
+                }
+            },
+            "Message": "Event_Data_1 : 194, Record_Type : system event record, Sensor_Number : 0, Event_Dir : Assertion event, Event_Data_2 : 19, Timestamp : 2026-10-16T12:16:12-04:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x0100, Event_Data_3 : 255, Event_Type : Progress, Record_ID : 790, Sensor_Type : System Firmware Progress, ",
+            "MessageId": "0xC213FF",
+            "Name": "BIOS 790",
+            "SensorNumber": 0,
+            "SensorType": "System Firmware Progress",
+            "Severity": "OK"
+        }
+    ],
+    "Members@odata.count": 50,
+    "Name": "Log Service Entries Collection"
+}

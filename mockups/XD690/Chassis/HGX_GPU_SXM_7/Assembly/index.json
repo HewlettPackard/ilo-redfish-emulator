@@ -1,0 +1,24 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_GPU_SXM_7/Assembly",
+    "@odata.type": "#Assembly.v1_3_0.Assembly",
+    "Assemblies": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/HGX_GPU_SXM_7/Assembly#/Assemblies/0",
+            "Location": {
+                "PartLocation": {
+                    "LocationType": "Embedded"
+                }
+            },
+            "MemberId": "0",
+            "Model": "NVIDIA B300 SXM6 AC",
+            "Name": "GPU Board Assembly",
+            "PartNumber": "692-2G540-0216-000",
+            "PhysicalContext": "GPU",
+            "ProductionDate": "2025-07-08T00:00:00Z",
+            "SerialNumber": "1652825067146",
+            "Vendor": "NVIDIA"
+        }
+    ],
+    "Id": "Assembly",
+    "Name": "Assembly data for HGX_GPU_SXM_7"
+}

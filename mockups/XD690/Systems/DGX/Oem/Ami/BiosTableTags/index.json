@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#AMIBiosTableTags.v1_0_0.AMIBiosTableTags",
+    "@odata.etag": "\"1790606927\"",
+    "@odata.id": "/redfish/v1/Systems/DGX/Oem/Ami/BiosTableTags",
+    "@odata.type": "#AMIBiosTableTags.v1_0_0.AMIBiosTableTags",
+    "Description": "Bios Table Tags",
+    "Id": "Bios Table Tags",
+    "Name": "Bios Table Tags",
+    "NumberofTables": 4,
+    "TableTags": [
+        {
+            "TableType": "4",
+            "Value": 51125705
+        },
+        {
+            "TableType": "0",
+            "Value": 113
+        },
+        {
+            "TableType": "2",
+            "Value": 0
+        },
+        {
+            "TableType": "1",
+            "Value": 1
+        }
+    ]
+}

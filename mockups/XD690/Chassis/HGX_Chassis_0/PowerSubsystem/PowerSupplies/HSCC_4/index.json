@@ -1,0 +1,19 @@
+{
+    "@odata.id": "/redfish/v1/Chassis/HGX_Chassis_0/PowerSubsystem/PowerSupplies/HSCC_4",
+    "@odata.type": "#PowerSupply.v1_5_0.PowerSupply",
+    "EfficiencyRatings": [
+        {
+            "EfficiencyPercent": 90
+        }
+    ],
+    "Id": "HSCC_4",
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Chassis/HGX_Chassis_0/PowerSubsystem/PowerSupplies/HSCC_4/Metrics"
+    },
+    "Name": "HSCC_4",
+    "PowerSupplyType": "DCRegulator",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

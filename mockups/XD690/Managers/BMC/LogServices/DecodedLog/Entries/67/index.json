@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.v1_12_0.LogEntry",
+    "@odata.id": "/redfish/v1/Managers/BMC/LogServices/DecodedLog/Entries/0",
+    "@odata.type": "#LogEntry.v1_12_0.LogEntry",
+    "Created": "2026-09-28T10:09:42-04:00",
+    "EntryType": "SEL",
+    "EventId": "70",
+    "EventTimestamp": "2026-09-28T10:09:42-04:00",
+    "GeneratorId": "0x0001",
+    "Id": "0",
+    "Message": "The state of resource `system firmware` has changed to Progress.",
+    "MessageArgs": [
+        "system firmware",
+        "Progress"
+    ],
+    "Name": "sel 0",
+    "Resolution": "No action needed.",
+    "Resolved": true,
+    "SensorNumber": 0,
+    "SensorType": "System Firmware Progress",
+    "Severity": "OK"
+}

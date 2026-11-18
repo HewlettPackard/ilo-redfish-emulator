@@ -1,0 +1,42 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/HGX_NVLinkFabric_0/Switches/NVSwitch_1/Ports/NVLink_32/Metrics",
+    "@odata.type": "#PortMetrics.v1_3_0.PortMetrics",
+    "Id": "Metrics",
+    "Name": "NVLink_32 Port Metrics",
+    "Networking": {
+        "RXFrames": 0,
+        "RXMulticastFrames": 0,
+        "RXUnicastFrames": 0,
+        "TXDiscards": 0,
+        "TXFrames": 0,
+        "TXMulticastFrames": 0,
+        "TXUnicastFrames": 0
+    },
+    "Oem": {
+        "Nvidia": {
+            "@odata.type": "#NvidiaPortMetrics.v1_6_0.NvidiaNVLinkPortMetrics",
+            "BitErrorRate": 1.5e-254,
+            "EffectiveBER": 1.5e-254,
+            "EffectiveError": 0,
+            "IntentionalLinkDownCount": 0,
+            "LinkDownedCount": 0,
+            "LinkErrorRecoveryCount": 0,
+            "MalformedPackets": 0,
+            "NeighborMTUDiscards": 0,
+            "QP1Dropped": 0,
+            "RXRemotePhysicalErrors": 0,
+            "RXSwitchRelayErrors": 0,
+            "SymbolErrors": 0,
+            "TXWait": 0,
+            "TotalRawBER": 4.1e-12,
+            "TotalRawError": 631580,
+            "UnintentionalLinkDownCount": 0,
+            "VL15Dropped": 0,
+            "VL15TXBytes": 0,
+            "VL15TXPackets": 0
+        }
+    },
+    "RXBytes": 0,
+    "RXErrors": 0,
+    "TXBytes": 0
+}

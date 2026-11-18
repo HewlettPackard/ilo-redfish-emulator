@@ -1,0 +1,58 @@
+{
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/HGX_NetworkAdapterPortMetrics_0",
+    "@odata.type": "#MetricReportDefinition.v1_4_1.MetricReportDefinition",
+    "Id": "HGX_NetworkAdapterPortMetrics_0",
+    "MetricProperties": [
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}#/CurrentSpeedGbps",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}#/LinkStatus",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/TXBytes",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/RXBytes",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/RXErrors",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Networking/RXFrames",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Networking/TXFrames",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Networking/RXMulticastFrames",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Networking/TXMulticastFrames",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Networking/RXUnicastFrames",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Networking/TXUnicastFrames",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Networking/TXDiscards",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Oem/Nvidia/VL15Dropped",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Oem/Nvidia/LinkErrorRecoveryCount",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Oem/Nvidia/RXRemotePhysicalErrors",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Oem/Nvidia/RXSwitchRelayErrors",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Oem/Nvidia/LinkDownedCount",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Oem/Nvidia/EffectiveError",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Oem/Nvidia/EffectiveBER",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Oem/Nvidia/SymbolErrors",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Oem/Nvidia/TotalRawBER",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Oem/Nvidia/TotalRawError",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Oem/Nvidia/IntentionalLinkDownCount",
+        "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_{NId}/NetworkAdapters/NVLinkManagementNIC_{NId}/Ports/NVLinkManagement_{NvlinkId}/Metrics#/Oem/Nvidia/UnintentionalLinkDownCount"
+    ],
+    "MetricReport": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReports/HGX_NetworkAdapterPortMetrics_0"
+    },
+    "MetricReportDefinitionType": "OnRequest",
+    "Name": "HGX_NetworkAdapterPortMetrics_0",
+    "ReportActions": [
+        "LogToMetricReportsCollection"
+    ],
+    "ReportUpdates": "Overwrite",
+    "Status": {
+        "State": "Enabled"
+    },
+    "Wildcards": [
+        {
+            "Name": "NId",
+            "Values": [
+                "0"
+            ]
+        },
+        {
+            "Name": "NvlinkId",
+            "Values": [
+                "0",
+                "1"
+            ]
+        }
+    ]
+}

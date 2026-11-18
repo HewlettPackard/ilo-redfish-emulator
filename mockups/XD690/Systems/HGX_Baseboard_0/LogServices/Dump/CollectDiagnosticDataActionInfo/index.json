@@ -1,0 +1,68 @@
+{
+    "@odata.id": "/redfish/v1/Systems/HGX_Baseboard_0/LogServices/Dump/CollectDiagnosticDataActionInfo",
+    "@odata.type": "#ActionInfo.v1_2_0.ActionInfo",
+    "Id": "CollectDiagnosticDataActionInfo",
+    "Name": "CollectDiagnosticDataActionInfo Action Info",
+    "Parameters": [
+        {
+            "AllowableValues": [
+                "OEM"
+            ],
+            "DataType": "String",
+            "Name": "DiagnosticDataType",
+            "Required": true
+        },
+        {
+            "AllowableValues": [
+                "DiagnosticType=EROT",
+                "DiagnosticType=FPGA",
+                "DiagnosticType=FirmwareAttributes",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=GPU_0",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=GPU_1",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=GPU_2",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=GPU_3",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=GPU_4",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=GPU_5",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=GPU_6",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=GPU_7",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=HGX_ConnectX_SMA_0",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=HGX_ConnectX_SMA_1",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=HGX_ConnectX_SMA_2",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=HGX_ConnectX_SMA_3",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=HGX_SXM_SMA_0",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=HGX_SXM_SMA_1",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=HGX_SXM_SMA_2",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=HGX_SXM_SMA_3",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=HGX_SXM_SMA_4",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=HGX_SXM_SMA_5",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=HGX_SXM_SMA_6",
+                "DiagnosticType=GPUDeviceDiagnostics;DeviceType=HGX_SXM_SMA_7",
+                "DiagnosticType=HardwareCheckout",
+                "DiagnosticType=NetIR;DeviceType=ConnectX_NIC_0",
+                "DiagnosticType=NetIR;DeviceType=ConnectX_NIC_1",
+                "DiagnosticType=NetIR;DeviceType=ConnectX_NIC_2",
+                "DiagnosticType=NetIR;DeviceType=ConnectX_NIC_3",
+                "DiagnosticType=NetIR;DeviceType=ConnectX_NIC_4",
+                "DiagnosticType=NetIR;DeviceType=ConnectX_NIC_5",
+                "DiagnosticType=NetIR;DeviceType=ConnectX_NIC_6",
+                "DiagnosticType=NetIR;DeviceType=ConnectX_NIC_7",
+                "DiagnosticType=NetIR;DeviceType=GPU_0",
+                "DiagnosticType=NetIR;DeviceType=GPU_1",
+                "DiagnosticType=NetIR;DeviceType=GPU_2",
+                "DiagnosticType=NetIR;DeviceType=GPU_3",
+                "DiagnosticType=NetIR;DeviceType=GPU_4",
+                "DiagnosticType=NetIR;DeviceType=GPU_5",
+                "DiagnosticType=NetIR;DeviceType=GPU_6",
+                "DiagnosticType=NetIR;DeviceType=GPU_7",
+                "DiagnosticType=NetIR;DeviceType=NVLinkManagementNIC_0",
+                "DiagnosticType=NetIR;DeviceType=NVSwitch_0",
+                "DiagnosticType=NetIR;DeviceType=NVSwitch_1",
+                "DiagnosticType=ROT",
+                "DiagnosticType=SMA"
+            ],
+            "DataType": "String",
+            "Name": "OEMDiagnosticDataType",
+            "Required": true
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+    "@odata.etag": "\"1792167377\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_1/PCIeFunctions/DevIndex7A",
+    "@odata.type": "#PCIeFunction.v1_2_3.PCIeFunction",
+    "ClassCode": "0x010802",
+    "DeviceClass": "MassStorageController",
+    "DeviceId": "0x51BB",
+    "FunctionId": 0,
+    "FunctionType": "Physical",
+    "Id": "DevIndex7A",
+    "Links": {
+        "Drives": [
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Storage/NVME1/Drives/NVMe_Device"
+            }
+        ],
+        "Drives@odata.count": 1,
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Chassis/DGX/PCIeDevices/E1S_1"
+        },
+        "StorageControllers": [
+            {
+                "@odata.id": "/redfish/v1/Systems/DGX/Storage/E1S_1#/StorageControllers/0"
+            }
+        ],
+        "StorageControllers@odata.count": 1
+    },
+    "Name": "PCIeFunction_7A",
+    "RevisionId": "0x01",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "SubsystemId": "0x4700",
+    "SubsystemVendorId": "0x1344",
+    "VendorId": "0x1344"
+}

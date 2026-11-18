@@ -1,0 +1,21 @@
+{
+    "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/HGX_Driver_NVLinkManagementNIC_0",
+    "@odata.type": "#SoftwareInventory.v1_4_0.SoftwareInventory",
+    "Id": "HGX_Driver_NVLinkManagementNIC_0",
+    "Manufacturer": "Nvidia",
+    "Name": "Software Inventory",
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/HGX_NVLinkManagementNIC_0/NetworkAdapters/NVLinkManagementNIC_0"
+        }
+    ],
+    "RelatedItem@odata.count": 1,
+    "Status": {
+        "Conditions": [],
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "Updateable": true,
+    "Version": "Linux,mlx5_core,25.10-1.2.2"
+}

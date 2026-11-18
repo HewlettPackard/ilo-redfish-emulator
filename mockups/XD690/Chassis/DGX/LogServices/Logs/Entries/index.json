@@ -1,0 +1,1061 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntryCollection.LogEntryCollection",
+    "@odata.etag": "\"1791993382\"",
+    "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries",
+    "@odata.type": "#LogEntryCollection.LogEntryCollection",
+    "Description": "Collection of entries for this log service",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/84",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "LOG 412",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "84",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 222, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : AC Lost / Power input lost, Record_ID : 412, Sensor_Type : PowerUnit, ",
+            "MessageId": "0x04FFFF",
+            "Name": "LOG 412",
+            "SensorNumber": 222,
+            "SensorType": "PowerUnit",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/85",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "LOG 420",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "85",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 141, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 420, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 420",
+            "SensorNumber": 141,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/86",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "LOG 421",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "86",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 142, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 421, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 421",
+            "SensorNumber": 142,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/87",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "LOG 422",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "87",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 143, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 422, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 422",
+            "SensorNumber": 143,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/88",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "LOG 423",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "88",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 144, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 423, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 423",
+            "SensorNumber": 144,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/89",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "LOG 424",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "89",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 145, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 424, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 424",
+            "SensorNumber": 145,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/90",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "LOG 425",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "90",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 146, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 425, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 425",
+            "SensorNumber": 146,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/91",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "LOG 426",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "91",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 148, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 426, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 426",
+            "SensorNumber": 148,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/92",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "LOG 427",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "92",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 149, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 427, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 427",
+            "SensorNumber": 149,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/93",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "LOG 428",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "93",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 150, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 428, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 428",
+            "SensorNumber": 150,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/94",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "LOG 429",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "94",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 151, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 429, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 429",
+            "SensorNumber": 151,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/95",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "LOG 430",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "95",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 152, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 430, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 430",
+            "SensorNumber": 152,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/96",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "LOG 431",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:20+00:00",
+            "Id": "96",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 153, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 431, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 431",
+            "SensorNumber": 153,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/97",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:49+00:00",
+            "Description": "LOG 469",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "97",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 469, Sensor_Type : Temperature, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 469",
+            "SensorNumber": 96,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/98",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:50+00:00",
+            "Description": "LOG 470",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "98",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 470, Sensor_Type : Temperature, ",
+            "MessageId": "0x01FFFF",
+            "Name": "LOG 470",
+            "SensorNumber": 96,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/99",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:50+00:00",
+            "Description": "LOG 471",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "99",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 2, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 471, Sensor_Type : Temperature, ",
+            "MessageId": "0x02FFFF",
+            "Name": "LOG 471",
+            "SensorNumber": 96,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/100",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:50+00:00",
+            "Description": "LOG 472",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "100",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 3, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 472, Sensor_Type : Temperature, ",
+            "MessageId": "0x03FFFF",
+            "Name": "LOG 472",
+            "SensorNumber": 96,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/101",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:50+00:00",
+            "Description": "LOG 473",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "101",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 473, Sensor_Type : Temperature, ",
+            "MessageId": "0x04FFFF",
+            "Name": "LOG 473",
+            "SensorNumber": 96,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/102",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:50+00:00",
+            "Description": "LOG 474",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "102",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 474, Sensor_Type : Temperature, ",
+            "MessageId": "0x05FFFF",
+            "Name": "LOG 474",
+            "SensorNumber": 96,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/103",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:50+00:00",
+            "Description": "LOG 475",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "103",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 6, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 475, Sensor_Type : Temperature, ",
+            "MessageId": "0x06FFFF",
+            "Name": "LOG 475",
+            "SensorNumber": 96,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/104",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2000-01-01T00:00:50+00:00",
+            "Description": "LOG 476",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T13:36:21+00:00",
+            "Id": "104",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 7, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T13:36:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 476, Sensor_Type : Temperature, ",
+            "MessageId": "0x07FFFF",
+            "Name": "LOG 476",
+            "SensorNumber": 96,
+            "SensorType": "Temperature",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/105",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:31+00:00",
+            "Description": "LOG 571",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:30+00:00",
+            "Id": "105",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 222, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : AC Lost / Power input lost, Record_ID : 571, Sensor_Type : PowerUnit, ",
+            "MessageId": "0x04FFFF",
+            "Name": "LOG 571",
+            "SensorNumber": 222,
+            "SensorType": "PowerUnit",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/106",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:32+00:00",
+            "Description": "LOG 579",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:30+00:00",
+            "Id": "106",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 141, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 579, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 579",
+            "SensorNumber": 141,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/107",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:33+00:00",
+            "Description": "LOG 580",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:30+00:00",
+            "Id": "107",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 142, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 580, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 580",
+            "SensorNumber": 142,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/108",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:33+00:00",
+            "Description": "LOG 581",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:30+00:00",
+            "Id": "108",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 143, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 581, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 581",
+            "SensorNumber": 143,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/109",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:33+00:00",
+            "Description": "LOG 582",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:30+00:00",
+            "Id": "109",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 144, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 582, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 582",
+            "SensorNumber": 144,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/110",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:33+00:00",
+            "Description": "LOG 583",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:30+00:00",
+            "Id": "110",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 145, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 583, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 583",
+            "SensorNumber": 145,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/111",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:33+00:00",
+            "Description": "LOG 584",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:30+00:00",
+            "Id": "111",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 146, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 584, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 584",
+            "SensorNumber": 146,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/112",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:33+00:00",
+            "Description": "LOG 585",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:30+00:00",
+            "Id": "112",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 148, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 585, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 585",
+            "SensorNumber": 148,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/113",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:34+00:00",
+            "Description": "LOG 586",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:30+00:00",
+            "Id": "113",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 149, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 586, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 586",
+            "SensorNumber": 149,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/114",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:34+00:00",
+            "Description": "LOG 587",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:30+00:00",
+            "Id": "114",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 150, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 587, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 587",
+            "SensorNumber": 150,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/115",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:34+00:00",
+            "Description": "LOG 588",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:30+00:00",
+            "Id": "115",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 151, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 588, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 588",
+            "SensorNumber": 151,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/116",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:34+00:00",
+            "Description": "LOG 589",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:30+00:00",
+            "Id": "116",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 152, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 589, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 589",
+            "SensorNumber": 152,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/117",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:34+00:00",
+            "Description": "LOG 590",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:30+00:00",
+            "Id": "117",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 153, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:30+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Presence Detected, Record_ID : 590, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 590",
+            "SensorNumber": 153,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/118",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:37+00:00",
+            "Description": "LOG 628",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "118",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 0, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 628, Sensor_Type : Temperature, ",
+            "MessageId": "0x00FFFF",
+            "Name": "LOG 628",
+            "SensorNumber": 96,
+            "SensorType": "Temperature",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/119",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:37+00:00",
+            "Description": "LOG 629",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "119",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 629, Sensor_Type : Temperature, ",
+            "MessageId": "0x01FFFF",
+            "Name": "LOG 629",
+            "SensorNumber": 96,
+            "SensorType": "Temperature",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/120",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:37+00:00",
+            "Description": "LOG 630",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "120",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 2, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 630, Sensor_Type : Temperature, ",
+            "MessageId": "0x02FFFF",
+            "Name": "LOG 630",
+            "SensorNumber": 96,
+            "SensorType": "Temperature",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/121",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:38+00:00",
+            "Description": "LOG 631",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "121",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 3, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 631, Sensor_Type : Temperature, ",
+            "MessageId": "0x03FFFF",
+            "Name": "LOG 631",
+            "SensorNumber": 96,
+            "SensorType": "Temperature",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/122",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:38+00:00",
+            "Description": "LOG 632",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "122",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 4, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 632, Sensor_Type : Temperature, ",
+            "MessageId": "0x04FFFF",
+            "Name": "LOG 632",
+            "SensorNumber": 96,
+            "SensorType": "Temperature",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/123",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:38+00:00",
+            "Description": "LOG 633",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "123",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 5, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 633, Sensor_Type : Temperature, ",
+            "MessageId": "0x05FFFF",
+            "Name": "LOG 633",
+            "SensorNumber": 96,
+            "SensorType": "Temperature",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/124",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:38+00:00",
+            "Description": "LOG 634",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "124",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 6, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 634, Sensor_Type : Temperature, ",
+            "MessageId": "0x06FFFF",
+            "Name": "LOG 634",
+            "SensorNumber": 96,
+            "SensorType": "Temperature",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/125",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-07T17:29:38+00:00",
+            "Description": "LOG 635",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-07T17:29:31+00:00",
+            "Id": "125",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 7, Record_Type : system event record, Sensor_Number : 96, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-07T17:29:31+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2001, Event_Data_3 : 255, Record_ID : 635, Sensor_Type : Temperature, ",
+            "MessageId": "0x07FFFF",
+            "Name": "LOG 635",
+            "SensorNumber": 96,
+            "SensorType": "Temperature",
+            "Severity": "OK"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/126",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-14T15:56:12+00:00",
+            "Description": "LOG 668",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-14T15:56:12+00:00",
+            "Id": "126",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 151, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-14T15:56:12+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Power Supply Failure Detected, Record_ID : 668, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x01FFFF",
+            "Name": "LOG 668",
+            "SensorNumber": 151,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/127",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-14T15:56:12+00:00",
+            "Description": "LOG 669",
+            "EntryCode": "Assert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-14T15:56:12+00:00",
+            "Id": "127",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 3, Record_Type : system event record, Sensor_Number : 151, Event_Dir : Assertion event, Event_Data_2 : 255, Timestamp : 2026-10-14T15:56:12+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Power Supply Input Lost (AC/DC), Record_ID : 669, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x03FFFF",
+            "Name": "LOG 669",
+            "SensorNumber": 151,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/128",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-14T15:56:14+00:00",
+            "Description": "LOG 670",
+            "EntryCode": "Lower Critical - going low",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-14T15:56:13+00:00",
+            "Id": "128",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 82, Record_Type : system event record, Sensor_Number : 73, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2026-10-14T15:56:13+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : Lower Critical - going low, Record_ID : 670, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x520000",
+            "Name": "LOG 670",
+            "SensorNumber": 73,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/129",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-14T15:56:18+00:00",
+            "Description": "LOG 671",
+            "EntryCode": "Lower Critical - going low",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-14T15:56:17+00:00",
+            "Id": "129",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 82, Record_Type : system event record, Sensor_Number : 211, Event_Dir : Assertion event, Event_Data_2 : 0, Timestamp : 2026-10-14T15:56:17+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 20, Event_Type : Lower Critical - going low, Record_ID : 671, Sensor_Type : Fan, ",
+            "MessageId": "0x520014",
+            "Name": "LOG 671",
+            "SensorNumber": 211,
+            "SensorType": "Fan",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/130",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-14T15:56:21+00:00",
+            "Description": "LOG 672",
+            "EntryCode": "Lower Critical - going low",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-14T15:56:20+00:00",
+            "Id": "130",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 82, Record_Type : system event record, Sensor_Number : 73, Event_Dir : Deassertion event, Event_Data_2 : 20, Timestamp : 2026-10-14T15:56:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 0, Event_Type : Lower Critical - going low, Record_ID : 672, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x521400",
+            "Name": "LOG 672",
+            "SensorNumber": 73,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/131",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-14T15:56:21+00:00",
+            "Description": "LOG 673",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-14T15:56:20+00:00",
+            "Id": "131",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 1, Record_Type : system event record, Sensor_Number : 151, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2026-10-14T15:56:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Power Supply Failure Detected, Record_ID : 673, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x01FFFF",
+            "Name": "LOG 673",
+            "SensorNumber": 151,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/132",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-14T15:56:21+00:00",
+            "Description": "LOG 674",
+            "EntryCode": "Deassert",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-14T15:56:20+00:00",
+            "Id": "132",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Power"
+                }
+            },
+            "Message": "Event_Data_1 : 3, Record_Type : system event record, Sensor_Number : 151, Event_Dir : Deassertion event, Event_Data_2 : 255, Timestamp : 2026-10-14T15:56:20+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 255, Event_Type : Power Supply Input Lost (AC/DC), Record_ID : 674, Sensor_Type : Power Supply / Converter, ",
+            "MessageId": "0x03FFFF",
+            "Name": "LOG 674",
+            "SensorNumber": 151,
+            "SensorType": "Power Supply / Converter",
+            "Severity": "Critical"
+        },
+        {
+            "@odata.id": "/redfish/v1/Chassis/DGX/LogServices/Logs/Entries/133",
+            "@odata.type": "#LogEntry.v1_7_0.LogEntry",
+            "Created": "2026-10-14T15:56:22+00:00",
+            "Description": "LOG 675",
+            "EntryCode": "Lower Critical - going low",
+            "EntryType": "SEL",
+            "EventTimestamp": "2026-10-14T15:56:21+00:00",
+            "Id": "133",
+            "Links": {
+                "OriginOfCondition": {
+                    "@odata.id": "/redfish/v1/Chassis/DGX/Thermal"
+                }
+            },
+            "Message": "Event_Data_1 : 82, Record_Type : system event record, Sensor_Number : 211, Event_Dir : Deassertion event, Event_Data_2 : 52, Timestamp : 2026-10-14T15:56:21+00:00, EvM_Rev : IPMI v2.0 Event Messages, Generator_ID : 0x2000, Event_Data_3 : 20, Event_Type : Lower Critical - going low, Record_ID : 675, Sensor_Type : Fan, ",
+            "MessageId": "0x523414",
+            "Name": "LOG 675",
+            "SensorNumber": 211,
+            "SensorType": "Fan",
+            "Severity": "Critical"
+        }
+    ],
+    "Members@odata.count": 50,
+    "Name": "Log Service Entries Collection"
+}
