@@ -41,6 +41,8 @@
 from flask import Flask
 from flask_restful import Api
 
+from api_emulator.path_normalizer import PathNormalizer
+
 # Settings from emulator-config.json
 #
 staticfolder = 'Generic'
@@ -55,3 +57,6 @@ app = Flask(__name__)
 
 # Create RESTful API
 api = Api(app)
+
+# Accept request paths in any case, with or without a trailing slash, like iLO
+app.wsgi_app = PathNormalizer(app.wsgi_app, app)
